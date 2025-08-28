@@ -1,0 +1,199 @@
+- word: "Repository"
+  meaning:
+    english: "A central location in which data is stored and managed. In software development, it's a storage space for your project's files and their version history."
+    bahasa: "Lokasi pusat tempat data disimpan dan dikelola. Dalam pengembangan perangkat lunak, ini adalah ruang penyimpanan untuk file proyek Anda dan riwayat versinya."
+  usage: "Use 'repository' or 'repo' when referring to the project's folder that is tracked by a version control system like Git."
+  examples:
+    workplace:
+      - "Could you please clone the latest version of the repository?"
+      - "Make sure to push your changes to the remote repository."
+    casual:
+      - "I just created a new repo for my side project."
+      - "Hey, can you send me the link to your GitHub repo?"
+  related:
+    - word: "Directory"
+      difference: "A 'directory' is just a folder for files on your computer. A 'repository' is a directory with version control superpowers, tracking changes over time."
+    - word: "Database"
+      difference: "A 'database' is for storing and managing structured data used by an application. A 'repository' is for storing and managing source code and project files."
+  story: |
+    As a new developer on the team, my first task was to get the project running on my local machine. My team lead sent me a link to our GitHub repository. I cloned the repo, which downloaded all the project files to my computer. It was amazing to see the entire history of the project, every single change made by every developer, all neatly stored in the repository.
+
+- word: "Commit"
+  meaning:
+    english: "To save your changes to the local repository. Each commit has a unique ID and a message explaining the changes."
+    bahasa: "Menyimpan perubahan Anda ke repositori lokal. Setiap commit memiliki ID unik dan pesan yang menjelaskan perubahan tersebut."
+  usage: "Use 'commit' as a verb when you save your changes, or as a noun to refer to the saved snapshot of your code."
+  examples:
+    workplace:
+      - "Please make sure to commit your changes with a clear and descriptive message."
+      - "I'm looking at the commit history to understand why this bug was introduced."
+    casual:
+      - "I'm about to commit my latest changes, just need to write the message."
+      - "Oops, I forgot to commit my work yesterday."
+  related:
+    - word: "Save"
+      difference: "'Saving' a file just updates it on your computer. 'Committing' a file saves a snapshot of it in the repository's history, so you can always go back to that version."
+    - word: "Push"
+      difference: "A 'commit' saves changes to your *local* repository. A 'push' sends your committed changes to a *remote* repository, like GitHub, so others can see them."
+  story: |
+    I spent all morning working on a new feature. After writing the code and testing it, I was ready to save my progress. I staged the files and then made a commit with the message: 'feat: Add user authentication feature'. This created a snapshot of my work in the local repository. Now, even if I mess things up later, I can always come back to this clean, working version.
+
+- word: "Branch"
+  meaning:
+    english: "A parallel version of a repository. It allows you to work on different features or fixes without affecting the main codebase."
+    bahasa: "Versi paralel dari sebuah repositori. Ini memungkinkan Anda untuk mengerjakan fitur atau perbaikan yang berbeda tanpa memengaruhi basis kode utama."
+  usage: "Use 'branch' when you are creating a separate line of development to work on a specific task."
+  examples:
+    workplace:
+      - "Create a new branch for this feature, don't work directly on the main branch."
+      - "I'm switching to the 'hotfix' branch to fix a critical bug."
+    casual:
+      - "I made a new branch to try out a crazy idea I had."
+      - "Are you working on the 'dev' branch or a feature branch?"
+  related:
+    - word: "Version"
+      difference: "A 'version' is a specific point in time for the whole project (e.g., version 1.0). A 'branch' is an active line of development that can have many versions (commits) within it."
+    - word: "Fork"
+      difference: "A 'fork' is a personal copy of someone else's repository. A 'branch' is a part of the original repository."
+  story: |
+    Our team was tasked with building a new payment feature. To avoid conflicts with the main code that our users are currently using, our tech lead decided that we should create a new branch called `feature/payment-gateway`. This way, we could work freely on our new feature in this isolated branch. Once the feature is complete and tested, we will merge it back into the main branch.
+
+- word: "Merge"
+  meaning:
+    english: "The action of combining changes from different branches into a single branch."
+    bahasa: "Tindakan menggabungkan perubahan dari cabang yang berbeda ke dalam satu cabang."
+  usage: "Use 'merge' when you're taking the changes from one branch (like a feature branch) and integrating them into another (like the main branch)."
+  examples:
+    workplace:
+      - "I've finished the feature, so I'm going to merge my branch into the 'develop' branch."
+      - "We have a merge conflict that we need to resolve."
+    casual:
+      - "Let's merge your changes so I can test them."
+      - "Merging this branch is going to be tricky, there are a lot of changes."
+  related:
+    - word: "Combine"
+      difference: "'Combine' is a general term. 'Merge' in programming specifically refers to integrating code changes from different branches using a version control system."
+    - word: "Rebase"
+      difference: "'Merging' creates a new commit that combines two branches. 'Rebasing' moves the entire feature branch to begin on the tip of the main branch, creating a cleaner, linear history."
+  story: |
+    After a week of hard work on the `feature/user-profile` branch, I finally finished all the tasks. I submitted a pull request, and after my code was reviewed and approved by my senior, it was time to merge it. With one click, all my changes from the feature branch were integrated into the main `develop` branch. Now, the user profile feature is officially part of the project.
+
+- word: "Pull Request"
+  meaning:
+    english: "A request to merge your changes from your branch into another branch. It's a way to let others know about changes you've pushed and to request a code review."
+    bahasa: "Permintaan untuk menggabungkan perubahan Anda dari cabang Anda ke cabang lain. Ini adalah cara untuk memberi tahu orang lain tentang perubahan yang telah Anda dorong dan untuk meminta tinjauan kode."
+  usage: "Use 'Pull Request' or 'PR' when you want your code to be reviewed and merged. It's a core part of collaborative development."
+  examples:
+    workplace:
+      - "I've created a pull request for my feature. Can you please review it?"
+      - "Please address the comments on your pull request before it can be merged."
+    casual:
+      - "I just opened a PR to fix a typo in the documentation."
+      - "My PR has been open for three days, I should probably ping someone to review it."
+  related:
+    - word: "Merge Request"
+      difference: "Functionally the same as a 'Pull Request'. 'Pull Request' is used by GitHub and Bitbucket, while 'Merge Request' (or 'MR') is used by GitLab."
+    - word: "Code Review"
+      difference: "A 'Code Review' is the process of examining someone's code. A 'Pull Request' is the tool/feature that facilitates the code review and merging process."
+  story: |
+    I just finished implementing the new search functionality on my feature branch. Before it could be merged into the main codebase, I needed my teammates to review it. I created a Pull Request on GitHub. This provided a platform for my colleagues to see my changes, leave comments, and suggest improvements. After a few rounds of feedback and some minor adjustments, my PR was approved and merged.
+
+- word: "API"
+  meaning:
+    english: "Application Programming Interface. A set of rules and tools for building software and applications. It's a way for different software components to communicate with each other."
+    bahasa: "Antarmuka Pemrograman Aplikasi. Seperangkat aturan dan alat untuk membangun perangkat lunak dan aplikasi. Ini adalah cara bagi komponen perangkat lunak yang berbeda untuk berkomunikasi satu sama lain."
+  usage: "Use 'API' when talking about the contract or interface that allows one piece of software to interact with another."
+  examples:
+    workplace:
+      - "We need to read the documentation for the payment gateway's API."
+      - "Our frontend application communicates with the backend via a REST API."
+    casual:
+      - "I'm using a weather API to get data for my new app."
+      - "Is there an official API for this service, or do I have to scrape their website?"
+  related:
+    - word: "Library"
+      difference: "A 'library' is a collection of code that you can call from your own code. An 'API' is the interface that allows you to use a library or another service."
+    - word: "Protocol"
+      difference: "A 'protocol' is a set of rules for communication (e.g., HTTP). An 'API' is a specific implementation of those rules for a particular service."
+  story: |
+    Our team was building a mobile app that needed to display weather forecasts. Instead of building our own weather prediction system from scratch, which would be incredibly complex, we decided to use a third-party weather service. We registered for an API key and read their documentation. Our app now sends a request to their API with a location, and the API sends back the weather data in a structured format. It's like ordering food from a menu (the API) instead of cooking it yourself.
+
+- word: "SDK"
+  meaning:
+    english: "Software Development Kit. A collection of software development tools in one installable package. They facilitate the creation of applications for a certain software package, software framework, hardware platform, computer system, etc."
+    bahasa: "Kit Pengembangan Perangkat Lunak. Kumpulan alat pengembangan perangkat lunak dalam satu paket yang dapat diinstal. Mereka memfasilitasi pembuatan aplikasi untuk paket perangkat lunak, kerangka kerja perangkat lunak, platform perangkat keras, sistem komputer, dll."
+  usage: "Use 'SDK' when you're talking about a bundle of tools provided by a company or platform to help you build on top of their system (e.g., Android SDK, Facebook SDK)."
+  examples:
+    workplace:
+      - "To develop for Android, you first need to install the Android SDK."
+      - "The new Firebase SDK has some great features for analytics."
+    casual:
+      - "I'm downloading the SDK now, it's a pretty big file."
+      - "Does this SDK work with the latest version of the OS?"
+  related:
+    - word: "API"
+      difference: "An 'API' is just the set of rules for communication. An 'SDK' is a full package that usually includes libraries, documentation, code samples, and other tools that use the API."
+    - word: "Framework"
+      difference: "A 'framework' provides a structure for your application (inversion of control), while an 'SDK' provides tools to build an application for a specific platform."
+  story: |
+    We wanted to integrate Facebook login into our mobile app. We could have used their API directly, making HTTP requests and handling the responses ourselves, but that would have been a lot of work. Instead, we used the Facebook SDK. The SDK provided us with pre-built UI components, helper functions to handle the login flow, and easy ways to access user data. It saved us weeks of development time.
+
+- word: "IDE"
+  meaning:
+    english: "Integrated Development Environment. A software application that provides comprehensive facilities to computer programmers for software development. An IDE normally consists of at least a source code editor, build automation tools, and a debugger."
+    bahasa: "Lingkungan Pengembangan Terpadu. Aplikasi perangkat lunak yang menyediakan fasilitas komprehensif bagi pemrogram komputer untuk pengembangan perangkat lunak. IDE biasanya terdiri dari setidaknya editor kode sumber, alat otomatisasi build, dan debugger."
+  usage: "Use 'IDE' when referring to the main software you use to write, build, and debug your code, like VS Code, IntelliJ, or Eclipse."
+  examples:
+    workplace:
+      - "Which IDE are you using for Java development?"
+      - "I just installed a new plugin in my IDE to help with code formatting."
+    casual:
+      - "My IDE is running so slow today, I think I need to restart it."
+      - "I love the dark theme on my IDE, it's easier on the eyes."
+  related:
+    - word: "Text Editor"
+      difference: "A 'text editor' (like Notepad++ or Sublime Text) is just for editing text. An 'IDE' is a text editor with many more integrated tools, like a debugger, compiler, and project management features."
+    - word: "Compiler"
+      difference: "A 'compiler' is a tool that converts source code into machine code. An 'IDE' is a larger application that includes a compiler as one of its components."
+  story: |
+    When I first started coding, I just used a simple text editor. But as my projects got bigger, it became harder to manage everything. I switched to an IDE, Visual Studio Code. It was a game-changer. It had syntax highlighting that made my code easier to read, a built-in debugger that helped me find bugs, and integrated terminal to run commands. My IDE is now my digital workshop where I build all my software.
+
+- word: "Bug"
+  meaning:
+    english: "An error, flaw or fault in a computer program or system that causes it to produce an incorrect or unexpected result, or to behave in unintended ways."
+    bahasa: "Kesalahan, cacat, atau kegagalan dalam program atau sistem komputer yang menyebabkannya menghasilkan hasil yang salah atau tidak terduga, atau berperilaku dengan cara yang tidak diinginkan."
+  usage: "Use 'bug' to describe any problem in your code that makes it not work as expected."
+  examples:
+    workplace:
+      - "I found a critical bug in the payment system, we need to fix it immediately."
+      - "Can you please create a bug report with steps to reproduce the issue?"
+    casual:
+      - "I spent the whole day trying to fix a stupid bug in my code."
+      - "It's not a bug, it's a feature!"
+  related:
+    - word: "Error"
+      difference: "An 'error' is a more general term for something that went wrong. A 'bug' is a specific type of error caused by a flaw in the code."
+    - word: "Issue"
+      difference: "'Issue' is a broad term used in project management (like on GitHub) that can refer to a bug, a feature request, a question, etc. A 'bug' is a specific type of issue."
+  story: |
+    We deployed a new version of our application on Friday. Over the weekend, we started getting reports from users that they couldn't upload their profile pictures. On Monday, we had an emergency meeting. It was a classic bug. A recent change in the image processing library was causing the uploads to fail. Our team worked all day to find the root cause, fix the code, and deploy a patch.
+
+- word: "Debug"
+  meaning:
+    english: "The process of finding and resolving defects or problems within a computer program that prevent correct operation of computer software or a system."
+    bahasa: "Proses menemukan dan menyelesaikan cacat atau masalah dalam program komputer yang mencegah pengoperasian perangkat lunak atau sistem komputer yang benar."
+  usage: "Use 'debug' to describe the action of hunting for and fixing bugs."
+  examples:
+    workplace:
+      - "I need to debug this issue to understand why the data is not being saved correctly."
+      - "The debugger is a powerful tool for stepping through code and inspecting variables."
+    casual:
+      - "I'm going to be debugging for the next few hours, wish me luck."
+      - "Sometimes, the best way to debug is to take a break and come back with fresh eyes."
+  related:
+    - word: "Troubleshoot"
+      difference: "'Troubleshooting' is a broader term for solving problems, which might not be code-related (e.g., network issues). 'Debugging' is specifically about fixing code."
+    - word: "Test"
+      difference: "'Testing' is the process of finding bugs. 'Debugging' is the process of fixing the bugs that you find during testing."
+  story: |
+    A user reported a bug where their shopping cart was showing the wrong total price. I couldn't see the problem just by reading the code. So, I started a debug session. I placed a 'breakpoint' in the code where the total price is calculated. Then, I ran the application and added items to the cart. The program paused at my breakpoint, allowing me to inspect the values of all the variables. I discovered that a discount was being applied twice. I fixed the logic, and the bug was gone. The process of debugging saved me hours of guesswork.
