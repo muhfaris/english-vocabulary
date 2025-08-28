@@ -1,0 +1,23 @@
+name: Daily Vocabulary Issue
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs every day at 00:00 UTC (7:00 AM WIB)
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  create-issue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create Issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          gh issue create \
+            --title "Generate 10 words English Vocabulary Today $(date +'%Y-%m-%d')" \
+            --body-file .github/ISSUE_TEMPLATE.md \
+            --label "jules"
