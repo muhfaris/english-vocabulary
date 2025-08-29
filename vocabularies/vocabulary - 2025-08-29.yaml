@@ -1,0 +1,199 @@
+- word: "Framework"
+  meaning:
+    english: "A pre-written, reusable code structure that developers can use to build applications. It provides a foundation, so you don't have to start from scratch."
+    bahasa: "Struktur kode pra-tulis yang dapat digunakan kembali yang dapat digunakan pengembang untuk membangun aplikasi. Ini menyediakan fondasi, jadi Anda tidak perlu memulai dari awal."
+  usage: "Use 'framework' when talking about a specific technology that gives your application its shape and structure, like Ruby on Rails, Django, or React."
+  examples:
+    workplace:
+      - "We chose the Django framework for our new web application because of its robustness and 'batteries-included' philosophy."
+      - "You need to learn the basics of the Next.js framework before you can be productive on this project."
+    casual:
+      - "I'm thinking of learning a new front-end framework, maybe Vue.js."
+      - "Which framework is better for a beginner, Angular or React?"
+  related:
+    - word: "Library"
+      difference: "You call a 'library' from your code to perform a specific task. A 'framework' calls your code; it dictates the overall structure of your application (inversion of control)."
+    - word: "Boilerplate"
+      difference: "'Boilerplate' is a chunk of starting code you might copy-paste. A 'framework' is a much larger, more structured system that you build your application within."
+  story: |
+    When our team decided to build a new e-commerce website, we didn't want to reinvent the wheel. Instead of writing everything from scratch, we chose to use a web framework called Ruby on Rails. The framework provided us with a ready-made structure for handling requests, managing databases, and rendering views. It was like having a blueprint for a house; we just needed to build the specific rooms (features) according to our needs. This saved us months of development time.
+
+- word: "Library"
+  meaning:
+    english: "A collection of pre-written code that can be used to perform specific, well-defined tasks."
+    bahasa: "Kumpulan kode pra-tulis yang dapat digunakan untuk melakukan tugas-tugas spesifik yang terdefinisi dengan baik."
+  usage: "Use 'library' when you're referring to a piece of code you import into your project to help you with a specific job, like making HTTP requests (axios) or manipulating dates (moment.js)."
+  examples:
+    workplace:
+      - "We're using the 'Chart.js' library to create interactive charts for our analytics dashboard."
+      - "Please check if there's a library for PDF generation before you try to write one yourself."
+    casual:
+      - "I found a cool library that adds confetti effects to a website."
+      - "What's the best library for making API calls in Python?"
+  related:
+    - word: "Framework"
+      difference: "Your code calls a 'library'. A 'framework' calls your code. A library is a tool; a framework is a skeleton."
+    - word: "Module"
+      difference: "A 'module' is a single file of code that can be imported. A 'library' is typically a collection of modules packaged together."
+  story: |
+    I was building a feature that required complex date calculations, like finding the difference between two dates in business days. I started writing the logic myself, but it quickly became complicated with all the edge cases like weekends and holidays. A senior developer saw me struggling and said, 'Why don't you use the date-fns library?' I installed it, and with just one function call from the library, I could do exactly what I needed. The library was a specialized tool that did one job and did it well.
+
+- word: "Compiler"
+  meaning:
+    english: "A special program that translates code written in a high-level programming language (like Java or C++) into a lower-level language (like machine code) that the computer's processor can understand and execute."
+    bahasa: "Program khusus yang menerjemahkan kode yang ditulis dalam bahasa pemrograman tingkat tinggi (seperti Java atau C++) ke dalam bahasa tingkat rendah (seperti kode mesin) yang dapat dipahami dan dieksekusi oleh prosesor komputer."
+  usage: "Use 'compiler' when discussing the process of turning source code into an executable program. This is a key step for compiled languages."
+  examples:
+    workplace:
+      - "The build failed because the compiler found a syntax error in the code."
+      - "Our C++ code needs to be cross-compiled to run on the ARM architecture."
+    casual:
+      - "I'm waiting for my code to compile, it's taking forever."
+      - "The compiler is giving me a weird error message that I don't understand."
+  related:
+    - word: "Interpreter"
+      difference: "A 'compiler' translates the entire program at once, creating an executable file. An 'interpreter' translates and executes the program line by line, without creating a separate executable file."
+    - word: "Transpiler"
+      difference: "A 'compiler' translates from a high-level language to a low-level one (e.g., Java to bytecode). A 'transpiler' translates from one high-level language to another (e.g., TypeScript to JavaScript)."
+  story: |
+    Our desktop application is written in C++. Every time we make a change, we have to run it through a compiler. The compiler reads our human-readable source code and translates it into a binary executable file that the Windows operating system can run. Yesterday, I forgot a semicolon at the end of a line. The compiler immediately stopped and reported an error, telling me the exact line number of my mistake. In this way, the compiler acts as the first line of defense against simple typos and syntax errors.
+
+- word: "Interpreter"
+  meaning:
+    english: "A program that directly executes instructions written in a programming or scripting language, without requiring them to have been previously compiled into a machine language program."
+    bahasa: "Program yang secara langsung menjalankan instruksi yang ditulis dalam bahasa pemrograman atau skrip, tanpa mengharuskannya untuk dikompilasi terlebih dahulu menjadi program bahasa mesin."
+  usage: "Use 'interpreter' when talking about languages like Python, JavaScript, or Ruby, where the code is run directly, line by line."
+  examples:
+    workplace:
+      - "Python is an interpreted language, which makes it great for rapid development and scripting."
+      - "The error didn't appear until runtime because the interpreter hit that specific line of code."
+    casual:
+      - "I just opened the Python interpreter in my terminal to test a quick idea."
+      - "You don't need to compile JavaScript; the browser's engine has a JavaScript interpreter built-in."
+  related:
+    - word: "Compiler"
+      difference: "An 'interpreter' reads and runs code line by line. A 'compiler' translates the whole program first, then you run the resulting file."
+    - word: "Runtime"
+      difference: "The 'runtime' is the environment where the code is executed. For interpreted languages, the 'interpreter' is a core part of the runtime."
+  story: |
+    I wrote a simple Python script to automate a boring task: renaming hundreds of files. Since Python is an interpreted language, I didn't have to go through a separate compilation step. I just opened my terminal, typed `python my_script.py`, and the Python interpreter started reading my script. It went through it line by line, executing each command immediately. It was fast and efficient for this kind of task.
+
+- word: "Syntax"
+  meaning:
+    english: "The set of rules that defines the combinations of symbols that are considered to be correctly structured statements or expressions in a language."
+    bahasa: "Kumpulan aturan yang mendefinisikan kombinasi simbol yang dianggap sebagai pernyataan atau ekspresi yang terstruktur dengan benar dalam suatu bahasa."
+  usage: "Use 'syntax' when referring to the grammar and spelling rules of a programming language. If you get it wrong, the code won't run."
+  examples:
+    workplace:
+      - "I'm getting a syntax error because I'm missing a closing parenthesis."
+      - "The syntax for arrow functions in JavaScript is more concise than traditional function expressions."
+    casual:
+      - "I'm still learning the Python syntax; I keep forgetting to use colons."
+      - "This language has a weird syntax, it's hard to read."
+  related:
+    - word: "Grammar"
+      difference: "In linguistics, 'grammar' is a broad set of rules. In programming, 'syntax' is the specific term for the rules of how to write valid code."
+    - word: "Semantics"
+      difference: "'Syntax' is about whether the code is written correctly (the structure). 'Semantics' is about whether the code does what you want it to do (the meaning)."
+  story: |
+    I was pairing with a junior developer who was new to JavaScript. He was trying to write a `for` loop, but the code wouldn't run. I looked at his screen and immediately spotted the problem. He had used semicolons instead of commas to separate the parts of the loop statement. 'Ah,' I said, 'that's a syntax error. The structure of your code doesn't follow the rules of the JavaScript language.' We fixed the syntax, and the code worked perfectly.
+
+- word: "Variable"
+  meaning:
+    english: "A storage location, with an associated symbolic name (an identifier), which contains some known or unknown quantity of information referred to as a value."
+    bahasa: "Lokasi penyimpanan, dengan nama simbolik terkait (pengidentifikasi), yang berisi sejumlah informasi yang diketahui atau tidak diketahui yang disebut sebagai nilai."
+  usage: "Use 'variable' to refer to a named placeholder for a value in your code, like a number, text, or object."
+  examples:
+    workplace:
+      - "Make sure to declare the 'userName' variable before you try to use it."
+      - "The value of the 'totalPrice' variable is being calculated incorrectly."
+    casual:
+      - "I need a variable to keep track of the score."
+      - "What did you name the variable for the user's input?"
+  related:
+    - word: "Constant"
+      difference: "A 'variable' can have its value changed after it's created. A 'constant' (or 'const') is a type of variable whose value cannot be changed once it has been assigned."
+    - word: "Parameter"
+      difference: "A 'parameter' is a special kind of variable used in a function's definition to receive input. When you call the function, you pass an 'argument' (a value) to the parameter."
+  story: |
+    I was writing a function to calculate the total price of items in a shopping cart. I created a variable called `total` and initialized it to zero. Then, I looped through each item in the cart, and for each item, I added its price to my `total` variable. After the loop finished, the `total` variable held the final sum. It acted like a temporary container that I could update as I processed the data.
+
+- word: "Function"
+  meaning:
+    english: "A block of organized, reusable code that is used to perform a single, related action. It only runs when it is 'called' or 'invoked'."
+    bahasa: "Sebuah blok kode yang terorganisir dan dapat digunakan kembali yang digunakan untuk melakukan satu tindakan terkait. Itu hanya berjalan ketika 'dipanggil' atau 'dijalankan'."
+  usage: "Use 'function' (or 'method' in object-oriented programming) to describe a named block of code that performs a specific task."
+  examples:
+    workplace:
+      - "I created a helper function to validate the user's email address."
+      - "This function is too long; we should refactor it into smaller, more manageable functions."
+    casual:
+      - "I'm not sure what this function does, there are no comments."
+      - "Can you help me write a function that sorts this array?"
+  related:
+    - word: "Method"
+      difference: "A 'method' is a function that is associated with an object. So, all methods are functions, but not all functions are methods."
+    - word: "Procedure"
+      difference: "This is an older term. In many modern languages, 'function' is used for subroutines that return a value, while a 'procedure' is a subroutine that does not. However, 'function' is often used for both now."
+  story: |
+    In our application, we needed to format a user's name in many different places. Instead of writing the same formatting code over and over again, I wrote a single function called `formatUserName`. This function took a user object as input, capitalized the first and last names, and returned the full name as a string. Now, whenever we need to display a user's name, we just call the `formatUserName` function. If we ever need to change the formatting, we only have to change it in one place.
+
+- word: "Algorithm"
+  meaning:
+    english: "A process or set of rules to be followed in calculations or other problem-solving operations, especially by a computer."
+    bahasa: "Suatu proses atau seperangkat aturan yang harus diikuti dalam perhitungan atau operasi pemecahan masalah lainnya, terutama oleh komputer."
+  usage: "Use 'algorithm' to describe the step-by-step logic or recipe for solving a specific problem."
+  examples:
+    workplace:
+      - "We need to choose the most efficient sorting algorithm for this large dataset."
+      - "The recommendation engine uses a complex algorithm to suggest products to users."
+    casual:
+      - "I'm trying to come up with an algorithm to solve this Sudoku puzzle."
+      - "The algorithm for making a peanut butter and jelly sandwich is: get two slices of bread, put peanut butter on one, jelly on the other, and then put them together."
+  related:
+    - word: "Heuristic"
+      difference: "An 'algorithm' is guaranteed to find the correct or optimal solution. A 'heuristic' is a shortcut that is not guaranteed to be optimal, but is good enough for a quick solution."
+    - word: "Function"
+      difference: "A 'function' is the implementation of an 'algorithm' in code. The algorithm is the idea or the steps; the function is the code that performs those steps."
+  story: |
+    Our social media app needed a feature to suggest new friends. The task was to create the logic for this. We designed an algorithm: first, look at the user's current friends. Then, look at the friends of those friends. Rank those second-level friends by the number of mutual connections. Finally, suggest the top 5 people with the most mutual friends. This step-by-step procedure was the algorithm. We then translated this algorithm into code using functions and variables.
+
+- word: "Deployment"
+  meaning:
+    english: "The process of making a software system or update available for use. This involves pushing the code to a production environment where users can access it."
+    bahasa: "Proses membuat sistem perangkat lunak atau pembaruan tersedia untuk digunakan. Ini melibatkan mendorong kode ke lingkungan produksi di mana pengguna dapat mengaksesnya."
+  usage: "Use 'deployment' (or 'deploying') to describe the action of releasing your software to the world (or to a specific server)."
+  examples:
+    workplace:
+      - "We have a scheduled deployment for the new features every Tuesday."
+      - "The deployment failed, so we had to roll back to the previous version."
+    casual:
+      - "Wish us luck, we're deploying to production in 10 minutes!"
+      - "Our deployment process is fully automated, it's pretty cool."
+  related:
+    - word: "Release"
+      difference: "A 'release' is the new version of the software you are distributing. 'Deployment' is the process of installing that release into an environment."
+    - word: "Provisioning"
+      difference: "'Provisioning' is the process of setting up the server infrastructure (the hardware, operating system, etc.). 'Deployment' is the process of putting your application code onto that infrastructure."
+  story: |
+    After weeks of development and testing, our new feature was finally ready. We merged the code into the main branch. Then, we initiated the deployment pipeline. An automated script started, which ran the final tests, compiled the code, packaged it into a container, and pushed it to our production servers. After a few minutes, the deployment was successful. The new feature was now live and available to all of our users.
+
+- word: "Legacy Code"
+  meaning:
+    english: "Source code that relates to a no-longer supported or manufactured operating system, hardware, or other technology. It can also mean code that is old, hard to understand, and not covered by tests."
+    bahasa: "Kode sumber yang berkaitan dengan sistem operasi, perangkat keras, atau teknologi lain yang tidak lagi didukung atau diproduksi. Ini juga bisa berarti kode yang sudah tua, sulit dipahami, dan tidak tercakup oleh pengujian."
+  usage: "Use 'legacy code' to describe an old part of the codebase that is often critical to the business but is difficult and risky to change."
+  examples:
+    workplace:
+      - "We have to be very careful when working on the billing module; it's all legacy code."
+      - "Our long-term goal is to refactor this legacy code and replace it with a modern service."
+    casual:
+      - "I spent my whole day trying to understand a piece of legacy code written 10 years ago."
+      - "Nobody on the team knows how this legacy code actually works."
+  related:
+    - word: "Technical Debt"
+      difference: "'Legacy code' is a common cause of 'technical debt' (the implied cost of rework caused by choosing an easy solution now instead of using a better approach that would take longer). But you can also accumulate technical debt in brand new code."
+    - word: "Obsolete Code"
+      difference: "'Obsolete code' is code that is no longer used at all. 'Legacy code' is old and difficult, but it is still actively running and providing business value."
+  story: |
+    At my company, the core customer management system was built in 2005. This is our legacy code. It works, and the business depends on it, but it's written in an old version of a language, has no documentation, and no automated tests. Whenever we get a request to change something in that system, the entire team gets nervous. It's like performing surgery in the dark. We dream of the day we can finally replace the old legacy code with a new, modern system.
