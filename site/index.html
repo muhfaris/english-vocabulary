@@ -94,8 +94,52 @@
             background: linear-gradient(135deg, #4ecdc4, #44a08d);
         }
 
-        .btn.load-vocab {
-            background: linear-gradient(135deg, #a8e6cf, #7fcdcd);
+        .date-range-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .date-input-wrapper {
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+        
+        .date-icon {
+            position: absolute;
+            left: 15px;
+            font-size: 16px;
+            pointer-events: none;
+            z-index: 1;
+        }
+        
+        .date-picker {
+            padding: 15px 15px 15px 45px;
+            font-size: 16px;
+            border: none;
+            border-radius: 30px;
+            background: white;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            outline: none;
+            transition: all 0.3s ease;
+            font-weight: 500;
+            cursor: pointer;
+            min-width: 160px;
+            max-width: 200px;
+        }
+        
+        .date-picker:focus {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 35px rgba(0,0,0,0.15);
+        }
+        
+        .date-separator {
+            color: white;
+            font-weight: 500;
+            font-size: 16px;
         }
 
         .stats {
@@ -343,44 +387,6 @@
             margin: 40px 0;
         }
 
-        .date-selector {
-            background: rgba(255,255,255,0.15);
-            backdrop-filter: blur(15px);
-            border-radius: 20px;
-            padding: 20px;
-            margin-bottom: 30px;
-            border: 1px solid rgba(255,255,255,0.2);
-        }
-
-        .date-selector h3 {
-            color: white;
-            margin-bottom: 15px;
-            text-align: center;
-            font-weight: 700;
-        }
-
-        .date-buttons {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            justify-content: center;
-        }
-
-        .date-btn {
-            padding: 8px 16px;
-            border: none;
-            border-radius: 15px;
-            background: rgba(255,255,255,0.2);
-            color: white;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            font-weight: 500;
-        }
-
-        .date-btn:hover, .date-btn.active {
-            background: rgba(255,255,255,0.4);
-            transform: translateY(-2px);
-        }
 
         @media (max-width: 768px) {
             .header h1 {
@@ -389,6 +395,37 @@
             
             .controls {
                 grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .date-range-container {
+                flex-direction: row;
+                gap: 8px;
+                width: 100%;
+                justify-content: space-between;
+            }
+            
+            .date-input-wrapper {
+                flex: 1;
+            }
+            
+            .date-picker {
+                width: 100%;
+                min-width: auto;
+                max-width: none;
+                padding: 12px 12px 12px 35px;
+                font-size: 14px;
+            }
+            
+            .date-icon {
+                left: 10px;
+                font-size: 14px;
+            }
+            
+            .date-separator {
+                font-size: 14px;
+                flex-shrink: 0;
+                padding: 0 2px;
             }
             
             .vocabulary-grid {
@@ -404,6 +441,27 @@
                 font-size: 1.6rem;
             }
         }
+        
+        @media (max-width: 480px) {
+            .date-range-container {
+                flex-direction: column;
+                gap: 12px;
+                align-items: stretch;
+            }
+            
+            .date-separator {
+                text-align: center;
+                font-size: 12px;
+            }
+            
+            .date-picker {
+                padding: 14px 14px 14px 40px;
+            }
+            
+            .date-icon {
+                left: 12px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -415,15 +473,21 @@
 
         <div class="controls">
             <input type="text" class="search-box" placeholder="Search words, meanings, or examples..." id="searchInput">
-            <button class="btn load-vocab" onclick="loadLatestVocabulary()">📅 Load Latest</button>
+            <div class="date-range-container">
+                <div class="date-input-wrapper">
+                    <span class="date-icon">📅</span>
+                    <input type="date" class="date-picker" id="startDate" onchange="loadVocabularyForDateRange()" placeholder="From">
+                </div>
+                <span class="date-separator">to</span>
+                <div class="date-input-wrapper">
+                    <span class="date-icon">📅</span>
+                    <input type="date" class="date-picker" id="endDate" onchange="loadVocabularyForDateRange()" placeholder="To">
+                </div>
+            </div>
             <button class="btn" onclick="shuffleWords()">🎲 Shuffle</button>
             <button class="btn secondary" onclick="showRandomWord()">🎯 Random Word</button>
         </div>
 
-        <div class="date-selector" id="dateSelector" style="display: none;">
-            <h3>Available Vocabulary Dates</h3>
-            <div class="date-buttons" id="dateButtons"></div>
-        </div>
 
         <div class="stats">
             <div class="stat-card">
@@ -449,7 +513,8 @@
         </div>
 
         <div class="loading" id="loading" style="display: none;">
-            Loading vocabulary data...
+            <span id="loadingText">Loading vocabulary data...</span>
+            <div id="cacheIndicator" style="font-size: 0.9rem; opacity: 0.8; margin-top: 5px;"></div>
         </div>
 
         <div class="no-results" id="noResults" style="display: none;">
@@ -472,8 +537,12 @@
         let allVocabulary = [];
         let currentVocabulary = [];
         let learnedCount = 0;
-        let availableDates = new Set();
-        let selectedDate = 'all';
+        let loadedDates = new Set();
+        
+        // Cache configuration
+        const CACHE_EXPIRY_HOURS = 24; // Cache expires after 24 hours
+        const CACHE_KEY_PREFIX = 'vocab_cache_';
+        const CACHE_TIMESTAMP_KEY = 'vocab_cache_timestamp_';
 
         // Base URL for the vocabulary repository
         const VOCAB_BASE_URL = 'https://raw.githubusercontent.com/muhfaris/english-vocabulary/refs/heads/main/vocabularies/';
@@ -493,7 +562,98 @@
             return dates;
         }
 
+        // Cache management functions
+        function getCacheKey(date) {
+            return CACHE_KEY_PREFIX + date;
+        }
+        
+        function getTimestampKey(date) {
+            return CACHE_TIMESTAMP_KEY + date;
+        }
+        
+        function isCacheExpired(date) {
+            const timestampKey = getTimestampKey(date);
+            const timestamp = localStorage.getItem(timestampKey);
+            
+            if (!timestamp) return true;
+            
+            const cacheTime = new Date(parseInt(timestamp));
+            const now = new Date();
+            const hoursDiff = (now - cacheTime) / (1000 * 60 * 60);
+            
+            return hoursDiff > CACHE_EXPIRY_HOURS;
+        }
+        
+        function getCachedVocabulary(date) {
+            if (isCacheExpired(date)) {
+                // Remove expired cache
+                localStorage.removeItem(getCacheKey(date));
+                localStorage.removeItem(getTimestampKey(date));
+                return null;
+            }
+            
+            const cached = localStorage.getItem(getCacheKey(date));
+            return cached ? JSON.parse(cached) : null;
+        }
+        
+        function setCachedVocabulary(date, data) {
+            try {
+                localStorage.setItem(getCacheKey(date), JSON.stringify(data));
+                localStorage.setItem(getTimestampKey(date), Date.now().toString());
+            } catch (error) {
+                console.warn('Could not cache vocabulary data:', error.message);
+                // If localStorage is full, clear old cache entries
+                clearOldCache();
+            }
+        }
+        
+        function clearOldCache() {
+            const keysToRemove = [];
+            
+            for (let i = 0; i < localStorage.length; i++) {
+                const key = localStorage.key(i);
+                if (key && (key.startsWith(CACHE_KEY_PREFIX) || key.startsWith(CACHE_TIMESTAMP_KEY))) {
+                    const date = key.replace(CACHE_KEY_PREFIX, '').replace(CACHE_TIMESTAMP_KEY, '');
+                    if (isCacheExpired(date)) {
+                        keysToRemove.push(key);
+                    }
+                }
+            }
+            
+            keysToRemove.forEach(key => localStorage.removeItem(key));
+        }
+        
+        function getCacheInfo() {
+            const cacheEntries = [];
+            
+            for (let i = 0; i < localStorage.length; i++) {
+                const key = localStorage.key(i);
+                if (key && key.startsWith(CACHE_KEY_PREFIX)) {
+                    const date = key.replace(CACHE_KEY_PREFIX, '');
+                    const timestamp = localStorage.getItem(getTimestampKey(date));
+                    const data = localStorage.getItem(key);
+                    
+                    if (timestamp && data) {
+                        cacheEntries.push({
+                            date,
+                            timestamp: new Date(parseInt(timestamp)),
+                            expired: isCacheExpired(date),
+                            size: data.length
+                        });
+                    }
+                }
+            }
+            
+            return cacheEntries;
+        }
+        
         async function loadVocabularyFromDate(date) {
+            // Check cache first
+            const cached = getCachedVocabulary(date);
+            if (cached) {
+                return { data: cached, fromCache: true };
+            }
+            
             const filename = `vocabulary - ${date}.yaml`;
             const url = VOCAB_BASE_URL + encodeURIComponent(filename);
             
@@ -506,93 +666,141 @@
                 const vocabularyData = jsyaml.load(yamlText);
                 
                 if (Array.isArray(vocabularyData)) {
-                    return vocabularyData.map(word => ({
+                    const processedData = vocabularyData.map(word => ({
                         ...word,
                         date: date,
                         id: `${word.word}-${date}`
                     }));
+                    
+                    // Cache the processed data
+                    setCachedVocabulary(date, processedData);
+                    
+                    return { data: processedData, fromCache: false };
                 }
-                return [];
+                return { data: [], fromCache: false };
             } catch (error) {
-                console.log(`Could not load vocabulary for ${url} ${date}:`, error.message);
-                return [];
+                console.log(`Could not load vocabulary for ${date}:`, error.message);
+                return { data: [], fromCache: false };
             }
         }
 
-        async function loadLatestVocabulary() {
+        function generateDateRange(startDate, endDate) {
+            const dates = [];
+            const start = new Date(startDate);
+            const end = new Date(endDate);
+            
+            while (start <= end) {
+                dates.push(formatDate(start));
+                start.setDate(start.getDate() + 1);
+            }
+            return dates;
+        }
+        
+        // Debounce function for performance optimization
+        function debounce(func, wait) {
+            let timeout;
+            return function executedFunction(...args) {
+                const later = () => {
+                    clearTimeout(timeout);
+                    func(...args);
+                };
+                clearTimeout(timeout);
+                timeout = setTimeout(later, wait);
+            };
+        }
+        
+        async function loadVocabularyForDateRange() {
+            const startDateInput = document.getElementById('startDate');
+            const endDateInput = document.getElementById('endDate');
+            const startDate = startDateInput.value;
+            const endDate = endDateInput.value;
+            
+            // If only start date is selected, treat it as single date
+            if (startDate && !endDate) {
+                endDateInput.value = startDate;
+            }
+            
+            // If only end date is selected, treat it as single date  
+            if (!startDate && endDate) {
+                startDateInput.value = endDate;
+            }
+            
+            if (!startDate || !endDate) return;
+            
+            // Ensure start date is not after end date
+            if (new Date(startDate) > new Date(endDate)) {
+                const temp = startDate;
+                startDateInput.value = endDate;
+                endDateInput.value = temp;
+                return loadVocabularyForDateRange();
+            }
+            
             const loading = document.getElementById('loading');
             loading.style.display = 'block';
             
             allVocabulary = [];
-            availableDates.clear();
+            loadedDates.clear();
             
-            const recentDates = generateRecentDates(30);
+            const dateRange = generateDateRange(startDateInput.value, endDateInput.value);
             
-            for (const date of recentDates) {
-                const vocab = await loadVocabularyFromDate(date);
+            // Load vocabulary data in parallel for better performance
+            const loadPromises = dateRange.map(async (date) => {
+                try {
+                    const result = await loadVocabularyFromDate(date);
+                    return { date, vocab: result.data, fromCache: result.fromCache };
+                } catch (error) {
+                    console.log(`Could not load vocabulary for ${date}:`, error.message);
+                    return { date, vocab: [], fromCache: false };
+                }
+            });
+            
+            // Update loading indicator
+            let cachedCount = 0;
+            let totalCount = dateRange.length;
+            
+            const results = await Promise.all(loadPromises);
+            
+            // Process results and count cache hits
+            results.forEach(({ date, vocab, fromCache }) => {
+                if (fromCache) cachedCount++;
                 if (vocab.length > 0) {
                     allVocabulary.push(...vocab);
-                    availableDates.add(date);
+                    loadedDates.add(date);
+                }
+            });
+            
+            // Show cache status briefly
+            if (cachedCount > 0) {
+                const cacheIndicator = document.getElementById('cacheIndicator');
+                if (cachedCount === totalCount) {
+                    cacheIndicator.textContent = `⚡ Loaded from cache (instant)`;
+                } else {
+                    cacheIndicator.textContent = `⚡ ${cachedCount}/${totalCount} from cache`;
                 }
             }
             
             loading.style.display = 'none';
             
+            // Clear cache indicator after a short delay
+            setTimeout(() => {
+                const cacheIndicator = document.getElementById('cacheIndicator');
+                if (cacheIndicator) cacheIndicator.textContent = '';
+            }, 2000);
+            
             if (allVocabulary.length === 0) {
                 document.getElementById('noResults').style.display = 'block';
-                document.getElementById('noResults').textContent = 'No vocabulary data found. Please check the repository.';
-                return;
-            }
-            
-            setupDateSelector();
-            currentVocabulary = [...allVocabulary];
-            renderVocabulary();
-            updateStats();
-        }
-
-        function setupDateSelector() {
-            const dateSelector = document.getElementById('dateSelector');
-            const dateButtons = document.getElementById('dateButtons');
-            
-            if (availableDates.size === 0) {
-                dateSelector.style.display = 'none';
-                return;
-            }
-            
-            dateSelector.style.display = 'block';
-            
-            // Sort dates descending (most recent first)
-            const sortedDates = Array.from(availableDates).sort((a, b) => b.localeCompare(a));
-            
-            dateButtons.innerHTML = `
-                <button class="date-btn ${selectedDate === 'all' ? 'active' : ''}" 
-                        onclick="filterByDate('all')">All Dates</button>
-                ${sortedDates.map(date => `
-                    <button class="date-btn ${selectedDate === date ? 'active' : ''}" 
-                            onclick="filterByDate('${date}')">${date}</button>
-                `).join('')}
-            `;
-        }
-
-        function filterByDate(date) {
-            selectedDate = date;
-            
-            // Update active button
-            document.querySelectorAll('.date-btn').forEach(btn => btn.classList.remove('active'));
-            event.target.classList.add('active');
-            
-            if (date === 'all') {
-                currentVocabulary = [...allVocabulary];
+                document.getElementById('noResults').textContent = `No vocabulary data found for the selected date range.`;
+                document.getElementById('vocabularyGrid').style.display = 'none';
             } else {
-                currentVocabulary = allVocabulary.filter(word => word.date === date);
+                currentVocabulary = [...allVocabulary];
+                document.getElementById('noResults').style.display = 'none';
+                renderVocabulary();
             }
             
-            // Reset search
-            document.getElementById('searchInput').value = '';
-            
-            renderVocabulary();
             updateStats();
         }
+
+
 
         function renderVocabulary(words = currentVocabulary) {
             const grid = document.getElementById('vocabularyGrid');
@@ -633,7 +841,7 @@
             document.getElementById('totalWords').textContent = allVocabulary.length;
             document.getElementById('displayedWords').textContent = displayed;
             document.getElementById('learnedWords').textContent = learnedCount;
-            document.getElementById('loadedDates').textContent = availableDates.size;
+            document.getElementById('loadedDates').textContent = loadedDates.size;
         }
 
         function showWordDetails(wordId) {
@@ -771,8 +979,8 @@
             renderVocabulary(filteredWords);
         }
 
-        // Event listeners
-        document.getElementById('searchInput').addEventListener('input', searchWords);
+        // Event listeners with debounced search for better performance
+        document.getElementById('searchInput').addEventListener('input', debounce(searchWords, 300));
         
         // Close modal when clicking outside
         document.getElementById('wordModal').addEventListener('click', function(e) {
@@ -788,9 +996,26 @@
             }
         });
 
-        // Auto-load vocabulary on page load
+        
+        // Set today's date and auto-load vocabulary on page load
         document.addEventListener('DOMContentLoaded', function() {
-            loadLatestVocabulary();
+            // Clean expired cache on startup
+            clearOldCache();
+            
+            const startDate = document.getElementById('startDate');
+            const endDate = document.getElementById('endDate');
+            const today = formatDate(new Date());
+            
+            // Set both dates to today by default
+            startDate.value = today;
+            endDate.value = today;
+            
+            // Prevent selecting future dates
+            startDate.max = today;
+            endDate.max = today;
+            
+            // Load vocabulary for today
+            loadVocabularyForDateRange();
         });
     </script>
 </body>
