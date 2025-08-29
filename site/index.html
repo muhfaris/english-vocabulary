@@ -405,6 +405,15 @@
         }
 
 
+        .modal-actions {
+            text-align: center;
+            margin-top: 40px;
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
         @media (max-width: 768px) {
             .header h1 {
                 font-size: 2.2rem;
@@ -456,6 +465,27 @@
             
             .word-title {
                 font-size: 1.6rem;
+            }
+            
+            .modal-header h2 {
+                font-size: 2rem;
+            }
+            
+            .modal-actions {
+                flex-direction: column;
+                gap: 12px;
+                align-items: stretch;
+            }
+            
+            .modal-actions .btn {
+                width: 100%;
+                margin: 0;
+                padding: 18px 20px;
+                font-size: 16px;
+                min-height: 56px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
         }
         
@@ -1250,9 +1280,9 @@
                 </div>
                 ` : ''}
                 
-                <div style="text-align: center; margin-top: 40px;">
+                <div class="modal-actions">
                     <button class="btn" onclick="markAsLearned('${wordObj.id}')">✅ Mark as Learned</button>
-                    <button class="btn secondary" onclick="closeModal()" style="margin-left: 15px;">📚 Continue Learning</button>
+                    <button class="btn secondary" onclick="closeModal()">📚 Continue Learning</button>
                 </div>
             `;
             
