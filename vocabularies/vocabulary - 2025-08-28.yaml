@@ -1,199 +1,249 @@
-- word: "Repository"
+- word: "Bottleneck"
+  pronunciation: "/ˈbɒt.əl.nek/"
+  part_of_speech: "noun"
   meaning:
-    english: "A central location in which data is stored and managed. In software development, it's a storage space for your project's files and their version history."
-    bahasa: "Lokasi pusat tempat data disimpan dan dikelola. Dalam pengembangan perangkat lunak, ini adalah ruang penyimpanan untuk file proyek Anda dan riwayat versinya."
-  usage: "Use 'repository' or 'repo' when referring to the project's folder that is tracked by a version control system like Git."
+    english: "A point of congestion or blockage in a system that slows down the entire process. In software, it's often a piece of code or a service that can't handle the load."
+    bahasa: "Titik kemacetan atau penyumbatan dalam sebuah sistem yang memperlambat keseluruhan proses. Dalam perangkat lunak, ini sering kali berupa bagian kode atau layanan yang tidak dapat menangani beban."
+  usage: "Use 'bottleneck' to describe the specific part of a process or system that is causing a slowdown."
+  synonyms:
+    - "choke point"
+    - "congestion"
   examples:
     workplace:
-      - "Could you please clone the latest version of the repository?"
-      - "Make sure to push your changes to the remote repository."
+      - "The database query is the main bottleneck in our application's performance."
+      - "We need to identify the bottleneck in our deployment pipeline to speed things up."
     casual:
-      - "I just created a new repo for my side project."
-      - "Hey, can you send me the link to your GitHub repo?"
+      - "The real bottleneck in my morning routine is deciding what to wear."
+      - "There's a huge bottleneck on the highway because of an accident."
   related:
-    - word: "Directory"
-      difference: "A 'directory' is just a folder for files on your computer. A 'repository' is a directory with version control superpowers, tracking changes over time."
-    - word: "Database"
-      difference: "A 'database' is for storing and managing structured data used by an application. A 'repository' is for storing and managing source code and project files."
+    - word: "Blocker"
+      difference: "A 'blocker' is something that completely stops you from working. A 'bottleneck' slows things down but doesn't necessarily stop them completely."
+    - word: "Performance issue"
+      difference: "A 'performance issue' is the general problem (e.g., the app is slow). A 'bottleneck' is the specific cause of that problem."
   story: |
-    As a new developer on the team, my first task was to get the project running on my local machine. My team lead sent me a link to our GitHub repository. I cloned the repo, which downloaded all the project files to my computer. It was amazing to see the entire history of the project, every single change made by every developer, all neatly stored in the repository.
+    Our e-commerce site was running incredibly slow during peak hours. We did a performance analysis and found that while the web servers were fine, the payment processing service could only handle 10 requests per second. This was the clear bottleneck. All user requests were getting stuck waiting for this one slow service. Once we optimized the payment processing, the entire system became much faster.
 
-- word: "Commit"
+- word: "Legacy code"
+  pronunciation: "/ˈleɡ.ə.si koʊd/"
+  part_of_speech: "phrase"
   meaning:
-    english: "To save your changes to the local repository. Each commit has a unique ID and a message explaining the changes."
-    bahasa: "Menyimpan perubahan Anda ke repositori lokal. Setiap commit memiliki ID unik dan pesan yang menjelaskan perubahan tersebut."
-  usage: "Use 'commit' as a verb when you save your changes, or as a noun to refer to the saved snapshot of your code."
+    english: "Old source code that is no longer supported or is difficult to maintain, but is still in use. It's often inherited from a previous team or version of a project."
+    bahasa: "Kode sumber lama yang tidak lagi didukung atau sulit untuk dipelihara, tetapi masih digunakan. Seringkali diwarisi dari tim atau versi proyek sebelumnya."
+  usage: "Use 'legacy code' to describe old, messy, or poorly understood code that you have to work with."
+  synonyms:
+    - "old code"
+    - "inherited code"
   examples:
     workplace:
-      - "Please make sure to commit your changes with a clear and descriptive message."
-      - "I'm looking at the commit history to understand why this bug was introduced."
+      - "We have to be careful when changing this module; it's full of legacy code."
+      - "My task for this sprint is to refactor a large piece of legacy code."
     casual:
-      - "I'm about to commit my latest changes, just need to write the message."
-      - "Oops, I forgot to commit my work yesterday."
+      - "I opened up a file and it looks like it was written a decade ago. Total legacy code."
+      - "I'm always scared to touch the legacy code in this project."
   related:
-    - word: "Save"
-      difference: "'Saving' a file just updates it on your computer. 'Committing' a file saves a snapshot of it in the repository's history, so you can always go back to that version."
-    - word: "Push"
-      difference: "A 'commit' saves changes to your *local* repository. A 'push' sends your committed changes to a *remote* repository, like GitHub, so others can see them."
+    - word: "Technical debt"
+      difference: "'Legacy code' is a common cause of 'technical debt' (the implied cost of rework caused by choosing an easy solution now instead of using a better approach that would take longer). But you can also accumulate technical debt in new code."
+    - word: "Boilerplate code"
+      difference: "'Boilerplate' is repetitive code that is needed in many places with little to no alteration (e.g., setting up a new component). 'Legacy code' refers to the age and maintainability of code, not its repetitiveness."
   story: |
-    I spent all morning working on a new feature. After writing the code and testing it, I was ready to save my progress. I staged the files and then made a commit with the message: 'feat: Add user authentication feature'. This created a snapshot of my work in the local repository. Now, even if I mess things up later, I can always come back to this clean, working version.
+    I was assigned a bug fix in the user authentication system. When I opened the files, I realized I was dealing with legacy code. It was written 8 years ago by a developer who had long since left the company. There were no comments, no documentation, and the coding style was completely different from our current standards. Fixing a simple bug took me three days because I had to carefully navigate the fragile and complex legacy code.
 
-- word: "Branch"
+- word: "Walkthrough"
+  pronunciation: "/ˈwɔːk.θruː/"
+  part_of_speech: "noun"
   meaning:
-    english: "A parallel version of a repository. It allows you to work on different features or fixes without affecting the main codebase."
-    bahasa: "Versi paralel dari sebuah repositori. Ini memungkinkan Anda untuk mengerjakan fitur atau perbaikan yang berbeda tanpa memengaruhi basis kode utama."
-  usage: "Use 'branch' when you are creating a separate line of development to work on a specific task."
+    english: "A guided tour or demonstration of a product, feature, or piece of code, explaining it step-by-step."
+    bahasa: "Tur atau demonstrasi terpandu dari suatu produk, fitur, atau bagian kode, yang menjelaskannya langkah demi langkah."
+  usage: "Use 'walkthrough' for a session where someone shows you how something works."
+  synonyms:
+    - "demonstration"
+    - "run-through"
   examples:
     workplace:
-      - "Create a new branch for this feature, don't work directly on the main branch."
-      - "I'm switching to the 'hotfix' branch to fix a critical bug."
+      - "Can you give me a quick walkthrough of your new feature before the demo?"
+      - "We're doing a code walkthrough for the new junior developers."
     casual:
-      - "I made a new branch to try out a crazy idea I had."
-      - "Are you working on the 'dev' branch or a feature branch?"
+      - "I watched a YouTube walkthrough to figure out how to beat that difficult level in the game."
+      - "The setup process was confusing, I needed a walkthrough."
   related:
-    - word: "Version"
-      difference: "A 'version' is a specific point in time for the whole project (e.g., version 1.0). A 'branch' is an active line of development that can have many versions (commits) within it."
-    - word: "Fork"
-      difference: "A 'fork' is a personal copy of someone else's repository. A 'branch' is a part of the original repository."
-  story: |
-    Our team was tasked with building a new payment feature. To avoid conflicts with the main code that our users are currently using, our tech lead decided that we should create a new branch called `feature/payment-gateway`. This way, we could work freely on our new feature in this isolated branch. Once the feature is complete and tested, we will merge it back into the main branch.
-
-- word: "Merge"
-  meaning:
-    english: "The action of combining changes from different branches into a single branch."
-    bahasa: "Tindakan menggabungkan perubahan dari cabang yang berbeda ke dalam satu cabang."
-  usage: "Use 'merge' when you're taking the changes from one branch (like a feature branch) and integrating them into another (like the main branch)."
-  examples:
-    workplace:
-      - "I've finished the feature, so I'm going to merge my branch into the 'develop' branch."
-      - "We have a merge conflict that we need to resolve."
-    casual:
-      - "Let's merge your changes so I can test them."
-      - "Merging this branch is going to be tricky, there are a lot of changes."
-  related:
-    - word: "Combine"
-      difference: "'Combine' is a general term. 'Merge' in programming specifically refers to integrating code changes from different branches using a version control system."
-    - word: "Rebase"
-      difference: "'Merging' creates a new commit that combines two branches. 'Rebasing' moves the entire feature branch to begin on the tip of the main branch, creating a cleaner, linear history."
-  story: |
-    After a week of hard work on the `feature/user-profile` branch, I finally finished all the tasks. I submitted a pull request, and after my code was reviewed and approved by my senior, it was time to merge it. With one click, all my changes from the feature branch were integrated into the main `develop` branch. Now, the user profile feature is officially part of the project.
-
-- word: "Pull Request"
-  meaning:
-    english: "A request to merge your changes from your branch into another branch. It's a way to let others know about changes you've pushed and to request a code review."
-    bahasa: "Permintaan untuk menggabungkan perubahan Anda dari cabang Anda ke cabang lain. Ini adalah cara untuk memberi tahu orang lain tentang perubahan yang telah Anda dorong dan untuk meminta tinjauan kode."
-  usage: "Use 'Pull Request' or 'PR' when you want your code to be reviewed and merged. It's a core part of collaborative development."
-  examples:
-    workplace:
-      - "I've created a pull request for my feature. Can you please review it?"
-      - "Please address the comments on your pull request before it can be merged."
-    casual:
-      - "I just opened a PR to fix a typo in the documentation."
-      - "My PR has been open for three days, I should probably ping someone to review it."
-  related:
-    - word: "Merge Request"
-      difference: "Functionally the same as a 'Pull Request'. 'Pull Request' is used by GitHub and Bitbucket, while 'Merge Request' (or 'MR') is used by GitLab."
+    - word: "Tutorial"
+      difference: "A 'tutorial' is generally for teaching someone how to do something themselves. A 'walkthrough' is more like a demonstration where someone shows you how it's done."
     - word: "Code Review"
-      difference: "A 'Code Review' is the process of examining someone's code. A 'Pull Request' is the tool/feature that facilitates the code review and merging process."
+      difference: "A 'code review' is for analyzing and critiquing code to find issues. A 'code walkthrough' is typically for explaining the code to others so they understand how it works."
   story: |
-    I just finished implementing the new search functionality on my feature branch. Before it could be merged into the main codebase, I needed my teammates to review it. I created a Pull Request on GitHub. This provided a platform for my colleagues to see my changes, leave comments, and suggest improvements. After a few rounds of feedback and some minor adjustments, my PR was approved and merged.
+    Our team just finished a major new feature. Before we presented it to the stakeholders, our product manager asked for a walkthrough. Our tech lead, Sarah, shared her screen and guided us through the entire user journey, from signing up to using the new feature. This walkthrough helped us all get on the same page and catch a few small issues before the big presentation.
 
-- word: "API"
+- word: "Tweak"
+  pronunciation: "/twiːk/"
+  part_of_speech: "verb"
   meaning:
-    english: "Application Programming Interface. A set of rules and tools for building software and applications. It's a way for different software components to communicate with each other."
-    bahasa: "Antarmuka Pemrograman Aplikasi. Seperangkat aturan dan alat untuk membangun perangkat lunak dan aplikasi. Ini adalah cara bagi komponen perangkat lunak yang berbeda untuk berkomunikasi satu sama lain."
-  usage: "Use 'API' when talking about the contract or interface that allows one piece of software to interact with another."
+    english: "To make a small adjustment or fine-tune something to improve it."
+    bahasa: "Membuat penyesuaian kecil atau menyempurnakan sesuatu untuk memperbaikinya."
+  usage: "Use 'tweak' when you are making minor changes to something, like a piece of code, a design, or a configuration setting."
+  synonyms:
+    - "adjust"
+    - "fine-tune"
   examples:
     workplace:
-      - "We need to read the documentation for the payment gateway's API."
-      - "Our frontend application communicates with the backend via a REST API."
+      - "The button color doesn't look right, I'll just tweak the CSS a bit."
+      - "I think we can improve performance if we tweak this algorithm."
     casual:
-      - "I'm using a weather API to get data for my new app."
-      - "Is there an official API for this service, or do I have to scrape their website?"
+      - "I need to tweak my recipe a little, it was too salty last time."
+      - "He tweaked his profile picture to make it look better."
   related:
-    - word: "Library"
-      difference: "A 'library' is a collection of code that you can call from your own code. An 'API' is the interface that allows you to use a library or another service."
-    - word: "Protocol"
-      difference: "A 'protocol' is a set of rules for communication (e.g., HTTP). An 'API' is a specific implementation of those rules for a particular service."
+    - word: "Change"
+      difference: "'Change' is a very general term. 'Tweak' specifically implies a small, minor adjustment."
+    - word: "Refactor"
+      difference: "'Refactoring' is a large-scale restructuring of code to improve its internal design. A 'tweak' is a small change, often to the external behavior or appearance (e.g., changing a color or a value)."
   story: |
-    Our team was building a mobile app that needed to display weather forecasts. Instead of building our own weather prediction system from scratch, which would be incredibly complex, we decided to use a third-party weather service. We registered for an API key and read their documentation. Our app now sends a request to their API with a location, and the API sends back the weather data in a structured format. It's like ordering food from a menu (the API) instead of cooking it yourself.
+    During user testing, we noticed that a button was not getting enough clicks. The feature worked perfectly, but the button's design didn't draw attention. Our UI designer suggested a small tweak. She changed the button's color from grey to bright blue and made the text bold. It was a tiny change that took only five minutes, but this simple tweak increased user engagement with the feature by 30%.
 
-- word: "SDK"
+- word: "Hard-coded"
+  pronunciation: "/ˌhɑːrdˈkoʊ.dɪd/"
+  part_of_speech: "adjective"
   meaning:
-    english: "Software Development Kit. A collection of software development tools in one installable package. They facilitate the creation of applications for a certain software package, software framework, hardware platform, computer system, etc."
-    bahasa: "Kit Pengembangan Perangkat Lunak. Kumpulan alat pengembangan perangkat lunak dalam satu paket yang dapat diinstal. Mereka memfasilitasi pembuatan aplikasi untuk paket perangkat lunak, kerangka kerja perangkat lunak, platform perangkat keras, sistem komputer, dll."
-  usage: "Use 'SDK' when you're talking about a bundle of tools provided by a company or platform to help you build on top of their system (e.g., Android SDK, Facebook SDK)."
+    english: "Describes a value or configuration that is fixed directly in the source code instead of being loaded from an external source (like a config file or a database)."
+    bahasa: "Menjelaskan nilai atau konfigurasi yang ditetapkan secara langsung di dalam kode sumber alih-alih dimuat dari sumber eksternal (seperti file konfigurasi atau database)."
+  usage: "Use 'hard-coded' to criticize data that is not flexible. It's generally bad practice because changing the value requires changing the code itself."
+  synonyms:
+    - "embedded"
+    - "fixed"
   examples:
     workplace:
-      - "To develop for Android, you first need to install the Android SDK."
-      - "The new Firebase SDK has some great features for analytics."
+      - "Don't leave the API key hard-coded in the source code; put it in an environment variable."
+      - "The tax rate is hard-coded, so we have to create a new deployment every time it changes."
     casual:
-      - "I'm downloading the SDK now, it's a pretty big file."
-      - "Does this SDK work with the latest version of the OS?"
+      - "My first program had everything hard-coded, even the user's name!"
+      - "It's a quick and dirty solution, with a lot of hard-coded values."
   related:
-    - word: "API"
-      difference: "An 'API' is just the set of rules for communication. An 'SDK' is a full package that usually includes libraries, documentation, code samples, and other tools that use the API."
-    - word: "Framework"
-      difference: "A 'framework' provides a structure for your application (inversion of control), while an 'SDK' provides tools to build an application for a specific platform."
+    - word: "Dynamic"
+      difference: "'Dynamic' values are fetched when needed and can change easily. 'Hard-coded' values are static and fixed in the code."
+    - word: "Configuration"
+      difference: "'Configuration' refers to settings that are external to the code. 'Hard-coding' is the practice of putting those settings inside the code."
   story: |
-    We wanted to integrate Facebook login into our mobile app. We could have used their API directly, making HTTP requests and handling the responses ourselves, but that would have been a lot of work. Instead, we used the Facebook SDK. The SDK provided us with pre-built UI components, helper functions to handle the login flow, and easy ways to access user data. It saved us weeks of development time.
+    A junior developer was working on a feature to display a list of products. In his code, he wrote: `const url = 'http://test.api.example.com/products';`. During code review, his senior pointed out that the API URL was hard-coded. "What happens when we move to production?" she asked. "We would have to find this line and change the code." She explained that the URL should be loaded from a configuration file, so they could use a different URL for testing and production without touching the code.
 
-- word: "IDE"
+- word: "Edge case"
+  pronunciation: "/ˈedʒ ˌkeɪs/"
+  part_of_speech: "phrase"
   meaning:
-    english: "Integrated Development Environment. A software application that provides comprehensive facilities to computer programmers for software development. An IDE normally consists of at least a source code editor, build automation tools, and a debugger."
-    bahasa: "Lingkungan Pengembangan Terpadu. Aplikasi perangkat lunak yang menyediakan fasilitas komprehensif bagi pemrogram komputer untuk pengembangan perangkat lunak. IDE biasanya terdiri dari setidaknya editor kode sumber, alat otomatisasi build, dan debugger."
-  usage: "Use 'IDE' when referring to the main software you use to write, build, and debug your code, like VS Code, IntelliJ, or Eclipse."
+    english: "A problem or situation that occurs only at an extreme (maximum or minimum) operating parameter. A rare situation that code needs to handle gracefully."
+    bahasa: "Masalah atau situasi yang hanya terjadi pada parameter operasi yang ekstrem (maksimum atau minimum). Situasi langka yang harus ditangani oleh kode dengan baik."
+  usage: "Use 'edge case' when discussing potential problems that are not part of the normal workflow but could still happen."
+  synonyms:
+    - "corner case"
+    - "rare scenario"
   examples:
     workplace:
-      - "Which IDE are you using for Java development?"
-      - "I just installed a new plugin in my IDE to help with code formatting."
+      - "Our code works for typical users, but what about the edge case where a user has no friends in their contact list?"
+      - "We need to write tests for all the edge cases, like uploading an empty file or a file that is gigabytes in size."
     casual:
-      - "My IDE is running so slow today, I think I need to restart it."
-      - "I love the dark theme on my IDE, it's easier on the eyes."
+      - "Most people will have a great experience, but there's always an edge case."
+      - "He's worried about a million edge cases, but we should focus on the main problem first."
   related:
-    - word: "Text Editor"
-      difference: "A 'text editor' (like Notepad++ or Sublime Text) is just for editing text. An 'IDE' is a text editor with many more integrated tools, like a debugger, compiler, and project management features."
-    - word: "Compiler"
-      difference: "A 'compiler' is a tool that converts source code into machine code. An 'IDE' is a larger application that includes a compiler as one of its components."
+    - word: "Bug"
+      difference: "An 'edge case' is a situation. A 'bug' is what happens when your code doesn't handle that situation correctly."
+    - word: "Happy path"
+      difference: "The 'happy path' is the default scenario with no errors or exceptions. 'Edge cases' are all the other scenarios that can happen outside the happy path."
   story: |
-    When I first started coding, I just used a simple text editor. But as my projects got bigger, it became harder to manage everything. I switched to an IDE, Visual Studio Code. It was a game-changer. It had syntax highlighting that made my code easier to read, a built-in debugger that helped me find bugs, and integrated terminal to run commands. My IDE is now my digital workshop where I build all my software.
+    We built a new feature that allows users to enter their birthday. The 'happy path' test, where a user enters a valid date, passed perfectly. But then, our QA tester started testing for edge cases. What if the user enters February 29th on a non-leap year? What if they enter a date in the future? What if they try to enter text instead of a date? We found several bugs because our code didn't handle these edge cases properly.
 
-- word: "Bug"
+- word: "Drill down"
+  pronunciation: "/drɪl daʊn/"
+  part_of_speech: "phrase"
   meaning:
-    english: "An error, flaw or fault in a computer program or system that causes it to produce an incorrect or unexpected result, or to behave in unintended ways."
-    bahasa: "Kesalahan, cacat, atau kegagalan dalam program atau sistem komputer yang menyebabkannya menghasilkan hasil yang salah atau tidak terduga, atau berperilaku dengan cara yang tidak diinginkan."
-  usage: "Use 'bug' to describe any problem in your code that makes it not work as expected."
+    english: "To move from summary information to more detailed data. To investigate something more thoroughly."
+    bahasa: "Beralih dari informasi ringkasan ke data yang lebih rinci. Menyelidiki sesuatu dengan lebih teliti."
+  usage: "Use 'drill down' when you need to get more details about a problem, a report, or a set of data."
+  synonyms:
+    - "investigate further"
+    - "dig deeper"
   examples:
     workplace:
-      - "I found a critical bug in the payment system, we need to fix it immediately."
-      - "Can you please create a bug report with steps to reproduce the issue?"
+      - "The dashboard shows an increase in errors. We need to drill down to see which component is causing them."
+      - "Let's drill down into the user feedback from last week's release."
     casual:
-      - "I spent the whole day trying to fix a stupid bug in my code."
-      - "It's not a bug, it's a feature!"
+      - "I'm not sure I understand. Can you drill down on that point a bit more?"
+      - "He started with a general topic and then drilled down into the specifics."
   related:
-    - word: "Error"
-      difference: "An 'error' is a more general term for something that went wrong. A 'bug' is a specific type of error caused by a flaw in the code."
+    - word: "Analyze"
+      difference: "'Analyze' is a general term for examining something. 'Drill down' specifically implies starting from a high-level view and moving to a more detailed one."
+    - word: "Deep dive"
+      difference: "A 'deep dive' is a comprehensive, in-depth investigation of a topic. To 'drill down' is often one of the actions you take *during* a deep dive."
+  story: |
+    Our weekly performance report showed that user engagement was down by 5%. This high-level number was concerning, but not very useful. During our team meeting, the product manager said, "Okay, we need to drill down into this data." We applied filters to the report, first looking at engagement by country, then by device type, and finally by user age group. By drilling down, we discovered the drop was almost entirely from users on older Android devices, which helped us pinpoint the problem.
+
+- word: "Red flag"
+  pronunciation: "/ˌred ˈflæɡ/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A sign that indicates a potential problem, danger, or issue that requires attention."
+    bahasa: "Tanda yang menunjukkan potensi masalah, bahaya, atau isu yang memerlukan perhatian."
+  usage: "Use 'red flag' to signal that something feels wrong or risky."
+  synonyms:
+    - "warning sign"
+    - "alarm bell"
+  examples:
+    workplace:
+      - "The fact that the code has no tests is a huge red flag for me."
+      - "He said the feature would be 'easy' to build, which is always a red flag."
+    casual:
+      - "The message seemed suspicious, it had a lot of red flags."
+      - "For me, a big red flag on a first date is when they're rude to the waiter."
+  related:
     - word: "Issue"
-      difference: "'Issue' is a broad term used in project management (like on GitHub) that can refer to a bug, a feature request, a question, etc. A 'bug' is a specific type of issue."
+      difference: "An 'issue' is a confirmed problem. A 'red flag' is a potential or future problem that you've noticed."
+    - word: "Code smell"
+      difference: "A 'code smell' is a specific type of 'red flag' in source code that indicates a deeper problem (e.g., a very long function)."
   story: |
-    We deployed a new version of our application on Friday. Over the weekend, we started getting reports from users that they couldn't upload their profile pictures. On Monday, we had an emergency meeting. It was a classic bug. A recent change in the image processing library was causing the uploads to fail. Our team worked all day to find the root cause, fix the code, and deploy a patch.
+    We were interviewing a candidate for a senior developer position. He had a great resume and answered most questions well. But when we asked him about a time he had a disagreement with a teammate, he said he's never had one because he's always right. That was a major red flag for the entire interview panel. It suggested he might not be a collaborative team player, which is a critical skill for our team.
 
-- word: "Debug"
+- word: "Quick win"
+  pronunciation: "/kwɪk wɪn/"
+  part_of_speech: "phrase"
   meaning:
-    english: "The process of finding and resolving defects or problems within a computer program that prevent correct operation of computer software or a system."
-    bahasa: "Proses menemukan dan menyelesaikan cacat atau masalah dalam program komputer yang mencegah pengoperasian perangkat lunak atau sistem komputer yang benar."
-  usage: "Use 'debug' to describe the action of hunting for and fixing bugs."
+    english: "A small and easy improvement that can be implemented quickly and provides a noticeable benefit."
+    bahasa: "Peningkatan kecil dan mudah yang dapat diimplementasikan dengan cepat dan memberikan manfaat yang nyata."
+  usage: "Use 'quick win' to describe tasks that have a high return on investment—low effort for good results. It's great for building momentum."
+  synonyms:
+    - "low-hanging fruit"
+    - "easy victory"
   examples:
     workplace:
-      - "I need to debug this issue to understand why the data is not being saved correctly."
-      - "The debugger is a powerful tool for stepping through code and inspecting variables."
+      - "Let's start the project with a few quick wins to show progress to the stakeholders."
+      - "Fixing that typo on the homepage is a quick win we can deploy today."
     casual:
-      - "I'm going to be debugging for the next few hours, wish me luck."
-      - "Sometimes, the best way to debug is to take a break and come back with fresh eyes."
+      - "Organizing my desktop was a quick win that made me feel more productive."
+      - "Let's just clean the living room. It's a quick win before the guests arrive."
   related:
-    - word: "Troubleshoot"
-      difference: "'Troubleshooting' is a broader term for solving problems, which might not be code-related (e.g., network issues). 'Debugging' is specifically about fixing code."
-    - word: "Test"
-      difference: "'Testing' is the process of finding bugs. 'Debugging' is the process of fixing the bugs that you find during testing."
+    - word: "MVP (Minimum Viable Product)"
+      difference: "An 'MVP' is the smallest version of a *product* you can launch. A 'quick win' is a small *task* or improvement, often on an existing product."
+    - word: "Low-hanging fruit"
+      difference: "Very similar meaning and often used interchangeably. 'Low-hanging fruit' is a metaphor for the easiest things to get, and 'quick win' focuses on the result of getting them."
   story: |
-    A user reported a bug where their shopping cart was showing the wrong total price. I couldn't see the problem just by reading the code. So, I started a debug session. I placed a 'breakpoint' in the code where the total price is calculated. Then, I ran the application and added items to the cart. The program paused at my breakpoint, allowing me to inspect the values of all the variables. I discovered that a discount was being applied twice. I fixed the logic, and the bug was gone. The process of debugging saved me hours of guesswork.
+    Our team was starting a huge, year-long project to rebuild our entire application. To keep morale high and show our managers that we were making progress, our team lead decided to identify a few quick wins. One of them was to add a 'dark mode' toggle to the current, old application. It only took one developer two days to implement, but users loved it. This quick win boosted the team's confidence and made everyone excited for the bigger changes to come.
+
+- word: "Heads-up"
+  pronunciation: "/ˈhedz ʌp/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "An advance notice or warning to give someone time to prepare for something."
+    bahasa: "Pemberitahuan atau peringatan di muka untuk memberi seseorang waktu untuk mempersiapkan sesuatu."
+  usage: "Use 'heads-up' to informally warn someone about something that is going to happen."
+  synonyms:
+    - "advance notice"
+    - "warning"
+  examples:
+    workplace:
+      - "Just a heads-up, we're planning to deploy the new version tomorrow morning."
+      - "Thanks for the heads-up about the meeting, I almost forgot."
+    casual:
+      - "Heads-up, your parents are visiting this weekend."
+      - "Can you give me a heads-up when you're about to leave?"
+  related:
+    - word: "FYI (For Your Information)"
+      difference: "'FYI' is for sharing information that might be useful. A 'heads-up' is specifically for warning someone about a future event so they can prepare."
+    - word: "Alert"
+      difference: "'Alert' is more formal and often used for automated system notifications about something happening right now (e.g., 'high CPU alert'). A 'heads-up' is an informal, person-to-person warning about something in the future."
+  story: |
+    On Friday afternoon, our senior engineer sent a message to the team channel: "Just a heads-up, I'll be merging the new database schema changes on Monday morning. This might cause some brief downtime for the test environment." This heads-up was incredibly helpful. It allowed all of us to finish our work in the test environment before Monday and saved us from the surprise of finding the system down when we started our week.
