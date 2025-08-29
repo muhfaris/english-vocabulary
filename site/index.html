@@ -462,6 +462,283 @@
                 left: 12px;
             }
         }
+
+        /* Flash Card Styles */
+        .flash-card-container {
+            position: relative;
+            max-width: 1000px;
+            margin: 30px auto;
+            width: 95%;
+        }
+
+        .flash-card {
+            perspective: 1000px;
+            height: 500px;
+            cursor: pointer;
+        }
+
+        .flash-card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            transition: transform 0.8s;
+            transform-style: preserve-3d;
+        }
+
+        .flash-card.flipped .flash-card-inner {
+            transform: rotateY(180deg);
+        }
+
+        .flash-card-front, .flash-card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            border-radius: 20px;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+        }
+        
+        .flash-card-front {
+            justify-content: center;
+        }
+        
+        .flash-card-back {
+            justify-content: flex-start;
+            overflow-y: auto;
+        }
+
+        .flash-card-front {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .flash-card-back {
+            background: linear-gradient(135deg, #4ecdc4 0%, #44a08d 100%);
+            color: white;
+            transform: rotateY(180deg);
+        }
+
+        .flash-card-header {
+            margin-bottom: 40px;
+            flex-shrink: 0;
+        }
+        
+        .flash-card-front .flash-card-header {
+            margin-bottom: 20px;
+        }
+
+        .flash-card-header h2 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            line-height: 1.2;
+        }
+
+        .flash-card-date {
+            background: rgba(255,255,255,0.2);
+            padding: 6px 12px;
+            border-radius: 15px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .flash-card-hint {
+            position: absolute;
+            bottom: 25px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 1rem;
+            opacity: 0.8;
+            font-style: italic;
+            font-weight: 500;
+        }
+
+        .flash-card-content {
+            width: 100%;
+            flex-grow: 1;
+            overflow-y: auto;
+        }
+
+        .flash-meaning {
+            margin-bottom: 25px;
+        }
+
+        .flash-meaning h3 {
+            font-size: 1.4rem;
+            margin-bottom: 12px;
+            font-weight: 700;
+            color: rgba(255,255,255,0.9);
+        }
+
+        .flash-meaning p {
+            font-size: 1.2rem;
+            line-height: 1.7;
+            margin-bottom: 15px;
+            font-weight: 500;
+        }
+
+        .flash-usage {
+            background: rgba(255,255,255,0.15);
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            font-style: italic;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            border-left: 4px solid rgba(255,255,255,0.3);
+        }
+
+        .flash-example {
+            font-size: 1rem;
+            font-style: italic;
+            opacity: 0.95;
+            background: rgba(255,255,255,0.1);
+            padding: 15px;
+            border-radius: 10px;
+            line-height: 1.5;
+        }
+
+        .flash-card-controls {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+
+        .flash-btn {
+            padding: 12px 20px;
+            border: none;
+            border-radius: 25px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .flash-btn.primary {
+            background: linear-gradient(135deg, #ff6b6b, #ffa726);
+            color: white;
+        }
+
+        .flash-btn.secondary {
+            background: linear-gradient(135deg, #4ecdc4, #44a08d);
+            color: white;
+        }
+
+        .flash-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .flash-close-btn {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: rgba(255,255,255,0.2);
+            border: none;
+            color: white;
+            font-size: 24px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .flash-close-btn:hover {
+            background: rgba(255,255,255,0.3);
+            transform: scale(1.1);
+        }
+
+        @media (max-width: 768px) {
+            .flash-card-container {
+                max-width: 95%;
+                margin: 20px auto;
+            }
+
+            .flash-card {
+                height: 450px;
+            }
+
+            .flash-card-front, .flash-card-back {
+                padding: 25px;
+            }
+
+            .flash-card-header {
+                margin-bottom: 30px;
+            }
+
+            .flash-card-header h2 {
+                font-size: 2.2rem;
+            }
+
+            .flash-meaning h3 {
+                font-size: 1.2rem;
+            }
+
+            .flash-meaning p {
+                font-size: 1.1rem;
+            }
+
+            .flash-usage {
+                font-size: 1rem;
+                padding: 18px;
+            }
+
+            .flash-example {
+                font-size: 0.95rem;
+            }
+
+            .flash-card-controls {
+                margin-top: 20px;
+                gap: 10px;
+            }
+
+            .flash-btn {
+                padding: 10px 16px;
+                font-size: 12px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .flash-card {
+                height: 400px;
+            }
+
+            .flash-card-front, .flash-card-back {
+                padding: 20px;
+            }
+
+            .flash-card-header h2 {
+                font-size: 1.8rem;
+            }
+
+            .flash-meaning h3 {
+                font-size: 1.1rem;
+            }
+
+            .flash-meaning p {
+                font-size: 1rem;
+            }
+
+            .flash-usage {
+                font-size: 0.95rem;
+                padding: 15px;
+            }
+
+            .flash-example {
+                font-size: 0.9rem;
+            }
+        }
     </style>
 </head>
 <body>
@@ -530,6 +807,37 @@
                 <button class="close-btn" onclick="closeModal()">&times;</button>
             </div>
             <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <!-- Flash Card Modal -->
+    <div class="modal" id="flashCardModal" style="display: none;">
+        <div class="flash-card-container">
+            <div class="flash-card" id="flashCard">
+                <div class="flash-card-inner">
+                    <div class="flash-card-front">
+                        <div class="flash-card-header">
+                            <h2 id="flashCardWord"></h2>
+                            <span class="flash-card-date" id="flashCardDate"></span>
+                        </div>
+                        <div class="flash-card-hint">💡 Tap to reveal meaning</div>
+                    </div>
+                    <div class="flash-card-back">
+                        <div class="flash-card-content">
+                            <div class="flash-meaning" id="flashMeaning"></div>
+                            <div class="flash-usage" id="flashUsage"></div>
+                            <div class="flash-example" id="flashExample"></div>
+                        </div>
+                        <div class="flash-card-hint">💡 Tap again to see front</div>
+                    </div>
+                </div>
+            </div>
+            <div class="flash-card-controls">
+                <button class="flash-btn secondary" onclick="closeFlashCard()">📚 Continue</button>
+                <button class="flash-btn" onclick="showNextFlashCard()">➡️ Next Word</button>
+                <button class="flash-btn primary" onclick="markFlashCardLearned()">✅ Learned</button>
+            </div>
+            <button class="flash-close-btn" onclick="closeFlashCard()">&times;</button>
         </div>
     </div>
 
@@ -939,13 +1247,80 @@
             renderVocabulary();
         }
 
+        let currentFlashCard = null;
+        
         function showRandomWord() {
             if (currentVocabulary.length === 0) {
                 alert('Please load vocabulary first!');
                 return;
             }
+            showRandomFlashCard();
+        }
+        
+        function showRandomFlashCard() {
             const randomWord = currentVocabulary[Math.floor(Math.random() * currentVocabulary.length)];
-            showWordDetails(randomWord.id);
+            currentFlashCard = randomWord;
+            showFlashCard(randomWord);
+        }
+        
+        function showFlashCard(wordObj) {
+            const modal = document.getElementById('flashCardModal');
+            const flashCard = document.getElementById('flashCard');
+            
+            // Reset card to front side
+            flashCard.classList.remove('flipped');
+            
+            // Fill front side
+            document.getElementById('flashCardWord').textContent = wordObj.word;
+            document.getElementById('flashCardDate').textContent = wordObj.date || '';
+            
+            // Fill back side
+            const meaningDiv = document.getElementById('flashMeaning');
+            meaningDiv.innerHTML = `
+                <h3>English</h3>
+                <p>${wordObj.meaning.english}</p>
+                <h3>Bahasa Indonesia</h3>
+                <p>${wordObj.meaning.bahasa}</p>
+            `;
+            
+            document.getElementById('flashUsage').textContent = wordObj.usage;
+            
+            // Show a random example if available
+            const exampleDiv = document.getElementById('flashExample');
+            if (wordObj.examples) {
+                let allExamples = [];
+                if (wordObj.examples.workplace) allExamples.push(...wordObj.examples.workplace);
+                if (wordObj.examples.casual) allExamples.push(...wordObj.examples.casual);
+                
+                if (allExamples.length > 0) {
+                    const randomExample = allExamples[Math.floor(Math.random() * allExamples.length)];
+                    exampleDiv.textContent = `"${randomExample}"`;
+                } else {
+                    exampleDiv.textContent = '';
+                }
+            } else {
+                exampleDiv.textContent = '';
+            }
+            
+            modal.style.display = 'block';
+        }
+        
+        function closeFlashCard() {
+            document.getElementById('flashCardModal').style.display = 'none';
+            currentFlashCard = null;
+        }
+        
+        function showNextFlashCard() {
+            if (currentVocabulary.length === 0) return;
+            showRandomFlashCard();
+        }
+        
+        function markFlashCardLearned() {
+            if (currentFlashCard) {
+                learnedCount++;
+                updateStats();
+                showNextFlashCard();
+            }
         }
 
         function searchWords() {
@@ -986,6 +1361,17 @@
         document.addEventListener('keydown', function(e) {
             if (e.key === 'Escape') {
                 closeModal();
+                closeFlashCard();
+            }
+        });
+        
+        // Flash card flip on click
+        document.addEventListener('DOMContentLoaded', function() {
+            const flashCard = document.getElementById('flashCard');
+            if (flashCard) {
+                flashCard.addEventListener('click', function() {
+                    this.classList.toggle('flipped');
+                });
             }
         });
 
