@@ -18,6 +18,7 @@
             min-height: 100vh;
             color: #333;
             line-height: 1.6;
+            padding-right: 100px;
         }
 
         .container {
@@ -29,6 +30,7 @@
         .header {
             text-align: center;
             margin-bottom: 30px;
+            margin-top: 40px;
         }
 
         .header h1 {
@@ -415,6 +417,15 @@
         }
 
         @media (max-width: 768px) {
+            body {
+                padding-right: 0;
+                padding-bottom: 80px;
+            }
+            
+            .header {
+                margin-top: 20px;
+            }
+            
             .header h1 {
                 font-size: 2.2rem;
             }
@@ -422,6 +433,118 @@
             .controls {
                 grid-template-columns: 1fr;
                 gap: 20px;
+            }
+            
+            /* Hide desktop menu, show mobile menu */
+            .sidebar-menu.desktop-menu {
+                display: none !important;
+            }
+            
+            .mobile-bottom-menu {
+                display: flex !important;
+            }
+            
+            /* Mobile bottom navigation bar */
+            .sidebar-menu {
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                top: auto;
+                transform: none;
+                width: 100%;
+                flex-direction: row;
+                background: rgba(255, 255, 255, 0.98);
+                backdrop-filter: blur(20px);
+                border-radius: 0;
+                padding: 15px 20px;
+                padding-bottom: calc(15px + env(safe-area-inset-bottom));
+                box-shadow: 0 -5px 30px rgba(0,0,0,0.15);
+                gap: 0;
+                justify-content: center;
+                border-top: 1px solid rgba(0,0,0,0.1);
+            }
+            
+            .menu-item {
+                padding: 10px 30px;
+                min-width: auto;
+                border-radius: 15px;
+                flex-direction: column;
+                align-items: center;
+                display: flex;
+                flex: 1;
+                max-width: 120px;
+            }
+            
+            .menu-item-icon {
+                font-size: 22px;
+                margin-bottom: 4px;
+            }
+            
+            .menu-item-text {
+                font-size: 11px;
+                font-weight: 600;
+            }
+            
+            /* Mobile stories grid - single column */
+            .stories-grid {
+                grid-template-columns: 1fr !important;
+                gap: 15px;
+                margin: 0 10px;
+            }
+            
+            .story-card {
+                padding: 18px;
+                margin: 0;
+                width: 100%;
+                box-sizing: border-box;
+            }
+            
+            .story-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 8px;
+                margin-bottom: 12px;
+            }
+            
+            .story-title {
+                font-size: 1.2rem;
+                line-height: 1.3;
+                margin: 0;
+                word-wrap: break-word;
+            }
+            
+            .story-date {
+                align-self: flex-start;
+                margin-left: 0;
+                font-size: 0.75rem;
+                padding: 4px 8px;
+            }
+            
+            .story-preview {
+                font-size: 0.9rem;
+                line-height: 1.4;
+                margin-bottom: 12px;
+                -webkit-line-clamp: 3;
+                word-wrap: break-word;
+            }
+            
+            .story-vocabulary-count {
+                font-size: 0.8rem;
+                padding: 5px 10px;
+            }
+            
+            .story-modal-content {
+                padding: 25px;
+                margin: 20px auto;
+            }
+            
+            .story-modal-title {
+                font-size: 1.8rem;
+            }
+            
+            .story-text {
+                font-size: 1.1rem;
             }
             
             .date-range-container {
@@ -490,6 +613,23 @@
         }
         
         @media (max-width: 480px) {
+            body {
+                padding-right: 0;
+                padding-bottom: 75px;
+            }
+            
+            .header {
+                margin-top: 15px;
+            }
+            
+            .header h1 {
+                font-size: 1.8rem;
+            }
+            
+            .header p {
+                font-size: 1rem;
+            }
+            
             .date-range-container {
                 flex-direction: column;
                 gap: 12px;
@@ -507,6 +647,119 @@
             
             .date-icon {
                 left: 12px;
+            }
+            
+            /* Small mobile bottom navigation */
+            .sidebar-menu {
+                padding: 12px 15px;
+                padding-bottom: calc(12px + env(safe-area-inset-bottom));
+            }
+            
+            .menu-item {
+                padding: 8px 25px;
+                border-radius: 12px;
+            }
+            
+            .menu-item-icon {
+                font-size: 20px;
+                margin-bottom: 3px;
+            }
+            
+            .menu-item-text {
+                font-size: 10px;
+                font-weight: 700;
+            }
+            
+            /* Small mobile optimization */
+            .stories-grid {
+                gap: 12px;
+                margin: 0 8px;
+            }
+            
+            .story-card {
+                padding: 15px;
+            }
+            
+            .story-header {
+                gap: 6px;
+                margin-bottom: 10px;
+            }
+            
+            .story-title {
+                font-size: 1.1rem;
+                line-height: 1.2;
+            }
+            
+            .story-date {
+                font-size: 0.7rem;
+                padding: 3px 6px;
+            }
+            
+            .story-preview {
+                font-size: 0.85rem;
+                line-height: 1.3;
+                margin-bottom: 10px;
+                -webkit-line-clamp: 2;
+            }
+            
+            .story-vocabulary-count {
+                font-size: 0.75rem;
+                padding: 4px 8px;
+            }
+            
+            .story-modal-content {
+                padding: 20px;
+                margin: 10px;
+                margin-bottom: 90px;
+            }
+            
+            .story-text {
+                font-size: 1rem;
+                line-height: 1.6;
+                text-align: left;
+            }
+        }
+
+        /* Keep desktop sidebar for larger screens */
+        @media (min-width: 769px) {
+            body {
+                padding-right: 100px;
+                padding-bottom: 0;
+            }
+            
+            .sidebar-menu {
+                position: fixed;
+                top: 50%;
+                right: 20px;
+                left: auto;
+                bottom: auto;
+                transform: translateY(-50%);
+                flex-direction: column;
+                gap: 10px;
+                padding: 15px;
+                border-radius: 25px;
+                background: rgba(255, 255, 255, 0.95);
+                backdrop-filter: blur(10px);
+                box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            }
+            
+            .menu-item {
+                padding: 15px 20px;
+                border-radius: 20px;
+                min-width: 50px;
+                flex-direction: column;
+                display: flex;
+                align-items: center;
+            }
+            
+            .menu-item-icon {
+                font-size: 20px;
+                margin-bottom: 5px;
+            }
+            
+            .menu-item-text {
+                font-size: 10px;
+                font-weight: 700;
             }
         }
 
@@ -659,6 +912,325 @@
             flex-wrap: wrap;
         }
 
+        /* Stories Styles */
+        .stories-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            gap: 25px;
+            margin-bottom: 30px;
+        }
+
+        .story-card {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .story-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background: linear-gradient(135deg, #ff6b6b, #ffa726);
+        }
+
+        .story-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 50px rgba(0,0,0,0.15);
+        }
+
+        .story-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+
+        .story-title {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: #2c3e50;
+            margin: 0;
+            line-height: 1.3;
+        }
+
+        .story-date {
+            background: #667eea;
+            color: white;
+            padding: 6px 12px;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            white-space: nowrap;
+            margin-left: 15px;
+        }
+
+        .story-preview {
+            color: #555;
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+        }
+
+        .story-vocabulary-count {
+            background: rgba(102, 126, 234, 0.1);
+            color: #667eea;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            display: inline-block;
+        }
+
+        .story-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.85);
+            backdrop-filter: blur(8px);
+            z-index: 1000;
+            overflow-y: auto;
+        }
+
+        .story-modal-content {
+            position: relative;
+            background: white;
+            border-radius: 25px;
+            padding: 40px;
+            max-width: 1000px;
+            margin: 50px auto;
+            width: 95%;
+            box-shadow: 0 25px 80px rgba(0,0,0,0.3);
+        }
+
+        .story-modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #eee;
+        }
+
+        .story-modal-title {
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: #2c3e50;
+            margin: 0;
+        }
+
+        .story-text {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: #333;
+            margin-bottom: 30px;
+            text-align: justify;
+        }
+
+        .highlighted-word {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .highlighted-word:hover {
+            transform: scale(1.05);
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .word-tooltip {
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #2c3e50;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            white-space: nowrap;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 1001;
+            pointer-events: none;
+        }
+
+        .word-tooltip::after {
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            border: 5px solid transparent;
+            border-top-color: #2c3e50;
+        }
+
+        .highlighted-word:hover .word-tooltip {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        /* Desktop Sticky Sidebar Menu */
+        .sidebar-menu.desktop-menu {
+            position: fixed;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 25px;
+            padding: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            z-index: 999;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        /* Mobile Bottom Navigation Menu */
+        .mobile-bottom-menu {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(255, 255, 255, 0.98);
+            backdrop-filter: blur(20px);
+            border-top: 1px solid rgba(0,0,0,0.1);
+            padding: 12px 0;
+            padding-bottom: calc(12px + env(safe-area-inset-bottom));
+            box-shadow: 0 -5px 30px rgba(0,0,0,0.15);
+            z-index: 999;
+            display: none;
+            justify-content: center;
+            gap: 0;
+        }
+
+        .mobile-menu-item {
+            flex: 1;
+            max-width: 150px;
+            padding: 8px 16px;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            border-radius: 12px;
+            margin: 0 8px;
+        }
+
+        .mobile-menu-item.active {
+            background: rgba(102, 126, 234, 0.1);
+            color: #667eea;
+        }
+
+        .mobile-menu-item.active .mobile-menu-icon {
+            color: #667eea;
+        }
+
+        .mobile-menu-item:hover:not(.active) {
+            background: rgba(102, 126, 234, 0.05);
+        }
+
+        .mobile-menu-icon {
+            font-size: 24px;
+            margin-bottom: 4px;
+            color: #666;
+            transition: color 0.3s ease;
+        }
+
+        .mobile-menu-text {
+            font-size: 11px;
+            font-weight: 600;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+        }
+
+        .mobile-menu-item.active .mobile-menu-text {
+            color: #667eea;
+            font-weight: 700;
+        }
+        
+        /* Desktop - show sidebar, hide mobile menu */
+        @media (min-width: 769px) {
+            body {
+                padding-right: 100px;
+                padding-bottom: 0;
+            }
+            
+            .sidebar-menu.desktop-menu {
+                display: flex !important;
+            }
+            
+            .mobile-bottom-menu {
+                display: none !important;
+            }
+        }
+
+        .menu-item {
+            padding: 15px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+            text-align: center;
+            min-width: 50px;
+            background: transparent;
+            border: none;
+            font-size: 14px;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            position: relative;
+        }
+
+        .menu-item.active {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+        }
+
+        .menu-item:hover:not(.active) {
+            background: rgba(102, 126, 234, 0.1);
+            color: #667eea;
+            transform: scale(1.02);
+        }
+
+        .menu-item-icon {
+            display: block;
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+
+        .menu-item-text {
+            font-size: 10px;
+            font-weight: 700;
+        }
+
         .flash-btn {
             padding: 12px 20px;
             border: none;
@@ -791,13 +1363,13 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>💼 Daily Work Vocabulary Master</h1>
-            <p>Learn everyday vocabulary for software engineers - from meetings to code reviews</p>
+            <h1 id="headerTitle">💼 Daily Work Vocabulary Master</h1>
+            <p id="headerSubtitle">Learn everyday vocabulary for software engineers - from meetings to code reviews</p>
         </div>
 
-        <div class="controls">
+        <div class="controls" id="controlsSection">
             <input type="text" class="search-box" placeholder="Search words, meanings, or workplace examples..." id="searchInput">
-            <div class="date-range-container">
+            <div class="date-range-container" id="dateRangeContainer">
                 <div class="date-input-wrapper">
                     <span class="date-icon">📅</span>
                     <input type="date" class="date-picker" id="startDate" onchange="loadVocabularyForDateRange()" placeholder="From">
@@ -808,12 +1380,12 @@
                     <input type="date" class="date-picker" id="endDate" onchange="loadVocabularyForDateRange()" placeholder="To">
                 </div>
             </div>
-            <button class="btn" onclick="shuffleWords()">🎲 Shuffle</button>
-            <button class="btn secondary" onclick="showRandomWord()">🎯 Random Word</button>
+            <button class="btn" id="shuffleBtn" onclick="shuffleWords()">🎲 Shuffle</button>
+            <button class="btn secondary" id="randomBtn" onclick="showRandomWord()">🎯 Random Word</button>
         </div>
 
 
-        <div class="stats">
+        <div class="stats" id="statsSection">
             <div class="stat-card">
                 <div class="stat-number" id="totalWords">0</div>
                 <div class="stat-label">Total Words</div>
@@ -836,6 +1408,10 @@
             <!-- Words will be inserted here -->
         </div>
 
+        <div class="stories-grid" id="storiesGrid" style="display: none;">
+            <!-- Stories will be inserted here -->
+        </div>
+
         <div class="loading" id="loading" style="display: none;">
             <span id="loadingText">Loading daily vocabulary...</span>
             <div id="cacheIndicator" style="font-size: 0.9rem; opacity: 0.8; margin-top: 5px;"></div>
@@ -844,6 +1420,30 @@
         <div class="no-results" id="noResults" style="display: none;">
             No words found matching your search.
         </div>
+    </div>
+
+    <!-- Desktop Sticky Sidebar Menu -->
+    <div class="sidebar-menu desktop-menu">
+        <button class="menu-item active" id="vocabularyMenuItemDesktop" onclick="showVocabulary()">
+            <span class="menu-item-icon">📚</span>
+            <span class="menu-item-text">Vocab</span>
+        </button>
+        <button class="menu-item" id="storiesMenuItemDesktop" onclick="showStories()">
+            <span class="menu-item-icon">📖</span>
+            <span class="menu-item-text">Stories</span>
+        </button>
+    </div>
+
+    <!-- Mobile Bottom Navigation Menu -->
+    <div class="mobile-bottom-menu">
+        <button class="mobile-menu-item active" id="vocabularyMenuItemMobile" onclick="showVocabulary()">
+            <span class="mobile-menu-icon">📚</span>
+            <span class="mobile-menu-text">Vocabulary</span>
+        </button>
+        <button class="mobile-menu-item" id="storiesMenuItemMobile" onclick="showStories()">
+            <span class="mobile-menu-icon">📖</span>
+            <span class="mobile-menu-text">Stories</span>
+        </button>
     </div>
 
     <!-- Modal for detailed view -->
@@ -891,19 +1491,36 @@
         </div>
     </div>
 
+    <!-- Story Modal -->
+    <div class="story-modal" id="storyModal">
+        <div class="story-modal-content">
+            <div class="story-modal-header">
+                <h2 class="story-modal-title" id="storyModalTitle"></h2>
+                <button class="close-btn" onclick="closeStoryModal()">&times;</button>
+            </div>
+            <div class="story-text" id="storyText"></div>
+            <div class="modal-actions">
+                <button class="btn secondary" onclick="closeStoryModal()">📚 Back to Stories</button>
+            </div>
+        </div>
+    </div>
+
     <script>
         let allVocabulary = [];
         let currentVocabulary = [];
         let learnedCount = 0;
         let loadedDates = new Set();
+        let allStories = [];
+        let showingStories = false;
         
         // Cache configuration
         const CACHE_EXPIRY_HOURS = 24; // Cache expires after 24 hours
         const CACHE_KEY_PREFIX = 'vocab_cache_';
         const CACHE_TIMESTAMP_KEY = 'vocab_cache_timestamp_';
 
-        // Base URL for the vocabulary repository
+        // Base URLs for the repository
         const VOCAB_BASE_URL = 'https://raw.githubusercontent.com/muhfaris/english-vocabulary/refs/heads/main/vocabularies/';
+        const STORIES_BASE_URL = 'https://raw.githubusercontent.com/muhfaris/english-vocabulary/refs/heads/main/stories/';
         
         function formatDate(date) {
             return date.toISOString().split('T')[0];
@@ -1158,6 +1775,220 @@
             updateStats();
         }
 
+        async function loadStories() {
+            const loading = document.getElementById('loading');
+            loading.style.display = 'block';
+            document.getElementById('loadingText').textContent = 'Loading stories...';
+            
+            // For now, we'll load the known story
+            const storyFiles = ['story-the-friday-afternoon-hotfix.yaml'];
+            
+            allStories = [];
+            
+            for (const filename of storyFiles) {
+                try {
+                    const url = STORIES_BASE_URL + encodeURIComponent(filename);
+                    const response = await fetch(url);
+                    if (response.ok) {
+                        const yamlText = await response.text();
+                        const storyData = jsyaml.load(yamlText);
+                        
+                        if (storyData && storyData.story) {
+                            const processedStory = {
+                                id: storyData.story.title || filename.replace('.yaml', ''),
+                                title: formatStoryTitle(storyData.story.title || filename.replace('.yaml', '')),
+                                date: storyData.story.date,
+                                text: storyData.story.text,
+                                highlighted_words: storyData.story.highlighted_words || [],
+                                filename: filename
+                            };
+                            allStories.push(processedStory);
+                        }
+                    }
+                } catch (error) {
+                    console.log(`Could not load story ${filename}:`, error.message);
+                }
+            }
+            
+            loading.style.display = 'none';
+            renderStories();
+        }
+
+        function formatStoryTitle(title) {
+            return title.replace(/-/g, ' ')
+                       .replace(/\b\w/g, l => l.toUpperCase());
+        }
+
+        function renderStories(stories = allStories) {
+            const storiesGrid = document.getElementById('storiesGrid');
+            
+            if (stories.length === 0) {
+                storiesGrid.innerHTML = '<div class="no-results">No stories available.</div>';
+                return;
+            }
+            
+            storiesGrid.innerHTML = stories.map(story => {
+                const preview = story.text.substring(0, 200) + '...';
+                const wordCount = story.highlighted_words ? story.highlighted_words.length : 0;
+                
+                return `
+                    <div class="story-card" onclick="showStoryDetails('${story.id}')">
+                        <div class="story-header">
+                            <h3 class="story-title">${story.title}</h3>
+                            <span class="story-date">${story.date}</span>
+                        </div>
+                        <p class="story-preview">${preview}</p>
+                        <div class="story-vocabulary-count">
+                            📝 ${wordCount} vocabulary words
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function showStoryDetails(storyId) {
+            const story = allStories.find(s => s.id === storyId);
+            if (!story) return;
+            
+            const modal = document.getElementById('storyModal');
+            const title = document.getElementById('storyModalTitle');
+            const textElement = document.getElementById('storyText');
+            
+            title.textContent = story.title;
+            
+            // Process story text with highlighted words
+            let processedText = story.text;
+            
+            if (story.highlighted_words && story.highlighted_words.length > 0) {
+                story.highlighted_words.forEach(word => {
+                    const regex = new RegExp(`\\*\\*(${word})\\*\\*`, 'gi');
+                    processedText = processedText.replace(regex, 
+                        `<span class="highlighted-word" onclick="showWordTooltip('$1')">
+                            $1
+                            <span class="word-tooltip">Click for definition</span>
+                        </span>`);
+                });
+            }
+            
+            // Convert line breaks to paragraphs
+            const paragraphs = processedText.split('\n\n').map(p => `<p>${p.trim()}</p>`).join('');
+            textElement.innerHTML = paragraphs;
+            
+            modal.style.display = 'block';
+        }
+
+        function showWordTooltip(word) {
+            // Find the word in current vocabulary and show definition
+            const wordObj = allVocabulary.find(w => w.word.toLowerCase() === word.toLowerCase());
+            if (wordObj) {
+                showWordDetails(wordObj.id);
+            } else {
+                alert(`Definition for "${word}" not found in loaded vocabulary.`);
+            }
+        }
+
+        function closeStoryModal() {
+            document.getElementById('storyModal').style.display = 'none';
+        }
+
+        function showVocabulary() {
+            if (!showingStories) return; // Already showing vocabulary
+            
+            const vocabularyGrid = document.getElementById('vocabularyGrid');
+            const storiesGrid = document.getElementById('storiesGrid');
+            const statsSection = document.getElementById('statsSection');
+            const dateRangeContainer = document.getElementById('dateRangeContainer');
+            const shuffleBtn = document.getElementById('shuffleBtn');
+            const randomBtn = document.getElementById('randomBtn');
+            const searchInput = document.getElementById('searchInput');
+            
+            const vocabularyMenuItem = document.getElementById('vocabularyMenuItem');
+            const storiesMenuItem = document.getElementById('storiesMenuItem');
+            
+            showingStories = false;
+            
+            // Show vocabulary elements
+            vocabularyGrid.style.display = 'grid';
+            statsSection.style.display = 'grid';
+            dateRangeContainer.style.display = 'flex';
+            shuffleBtn.style.display = 'inline-block';
+            randomBtn.style.display = 'inline-block';
+            
+            // Hide stories elements
+            storiesGrid.style.display = 'none';
+            
+            // Update search placeholder
+            searchInput.placeholder = 'Search words, meanings, or workplace examples...';
+            
+            // Update menu active states for both desktop and mobile
+            const vocabularyMenuItemDesktop = document.getElementById('vocabularyMenuItemDesktop');
+            const storiesMenuItemDesktop = document.getElementById('storiesMenuItemDesktop');
+            const vocabularyMenuItemMobile = document.getElementById('vocabularyMenuItemMobile');
+            const storiesMenuItemMobile = document.getElementById('storiesMenuItemMobile');
+            
+            vocabularyMenuItemDesktop.classList.add('active');
+            storiesMenuItemDesktop.classList.remove('active');
+            vocabularyMenuItemMobile.classList.add('active');
+            storiesMenuItemMobile.classList.remove('active');
+            
+            // Update header
+            document.getElementById('headerTitle').textContent = '💼 Daily Work Vocabulary Master';
+            document.getElementById('headerSubtitle').textContent = 'Learn everyday vocabulary for software engineers - from meetings to code reviews';
+            
+            renderVocabulary();
+        }
+        
+        function showStories() {
+            if (showingStories) return; // Already showing stories
+            
+            const vocabularyGrid = document.getElementById('vocabularyGrid');
+            const storiesGrid = document.getElementById('storiesGrid');
+            const statsSection = document.getElementById('statsSection');
+            const dateRangeContainer = document.getElementById('dateRangeContainer');
+            const shuffleBtn = document.getElementById('shuffleBtn');
+            const randomBtn = document.getElementById('randomBtn');
+            const searchInput = document.getElementById('searchInput');
+            
+            const vocabularyMenuItem = document.getElementById('vocabularyMenuItem');
+            const storiesMenuItem = document.getElementById('storiesMenuItem');
+            
+            showingStories = true;
+            
+            // Hide vocabulary elements
+            vocabularyGrid.style.display = 'none';
+            statsSection.style.display = 'none';
+            dateRangeContainer.style.display = 'none';
+            shuffleBtn.style.display = 'none';
+            randomBtn.style.display = 'none';
+            
+            // Show stories elements
+            storiesGrid.style.display = 'grid';
+            
+            // Update search placeholder
+            searchInput.placeholder = 'Search stories...';
+            
+            // Update menu active states for both desktop and mobile
+            const vocabularyMenuItemDesktop = document.getElementById('vocabularyMenuItemDesktop');
+            const storiesMenuItemDesktop = document.getElementById('storiesMenuItemDesktop');
+            const vocabularyMenuItemMobile = document.getElementById('vocabularyMenuItemMobile');
+            const storiesMenuItemMobile = document.getElementById('storiesMenuItemMobile');
+            
+            vocabularyMenuItemDesktop.classList.remove('active');
+            storiesMenuItemDesktop.classList.add('active');
+            vocabularyMenuItemMobile.classList.remove('active');
+            storiesMenuItemMobile.classList.add('active');
+            
+            // Update header
+            document.getElementById('headerTitle').textContent = '📖 Professional Stories';
+            document.getElementById('headerSubtitle').textContent = 'Read workplace stories with highlighted vocabulary words';
+            
+            if (allStories.length === 0) {
+                loadStories();
+            } else {
+                renderStories();
+            }
+        }
+
 
 
         function renderVocabulary(words = currentVocabulary) {
@@ -1390,24 +2221,38 @@
             const searchTerm = document.getElementById('searchInput').value.toLowerCase();
             
             if (!searchTerm) {
-                renderVocabulary();
+                if (showingStories) {
+                    renderStories();
+                } else {
+                    renderVocabulary();
+                }
                 return;
             }
             
-            const filteredWords = currentVocabulary.filter(wordObj => 
-                wordObj.word.toLowerCase().includes(searchTerm) ||
-                wordObj.meaning.english.toLowerCase().includes(searchTerm) ||
-                wordObj.meaning.bahasa.toLowerCase().includes(searchTerm) ||
-                wordObj.usage.toLowerCase().includes(searchTerm) ||
-                (wordObj.examples && (
-                    (wordObj.examples.workplace && wordObj.examples.workplace.some(ex => ex.toLowerCase().includes(searchTerm))) ||
-                    (wordObj.examples.casual && wordObj.examples.casual.some(ex => ex.toLowerCase().includes(searchTerm)))
-                )) ||
-                (wordObj.related && wordObj.related.some(rel => rel.word.toLowerCase().includes(searchTerm))) ||
-                (wordObj.story && wordObj.story.toLowerCase().includes(searchTerm))
-            );
-            
-            renderVocabulary(filteredWords);
+            if (showingStories) {
+                // Search stories
+                const filteredStories = allStories.filter(story => 
+                    story.title.toLowerCase().includes(searchTerm) ||
+                    story.text.toLowerCase().includes(searchTerm) ||
+                    (story.highlighted_words && story.highlighted_words.some(word => word.toLowerCase().includes(searchTerm)))
+                );
+                renderStories(filteredStories);
+            } else {
+                // Search vocabulary
+                const filteredWords = currentVocabulary.filter(wordObj => 
+                    wordObj.word.toLowerCase().includes(searchTerm) ||
+                    wordObj.meaning.english.toLowerCase().includes(searchTerm) ||
+                    wordObj.meaning.bahasa.toLowerCase().includes(searchTerm) ||
+                    wordObj.usage.toLowerCase().includes(searchTerm) ||
+                    (wordObj.examples && (
+                        (wordObj.examples.workplace && wordObj.examples.workplace.some(ex => ex.toLowerCase().includes(searchTerm))) ||
+                        (wordObj.examples.casual && wordObj.examples.casual.some(ex => ex.toLowerCase().includes(searchTerm)))
+                    )) ||
+                    (wordObj.related && wordObj.related.some(rel => rel.word.toLowerCase().includes(searchTerm))) ||
+                    (wordObj.story && wordObj.story.toLowerCase().includes(searchTerm))
+                );
+                renderVocabulary(filteredWords);
+            }
         }
 
         // Event listeners with debounced search for better performance
@@ -1420,11 +2265,19 @@
             }
         });
 
+        // Close story modal when clicking outside
+        document.getElementById('storyModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeStoryModal();
+            }
+        });
+
         // Close modal with Escape key
         document.addEventListener('keydown', function(e) {
             if (e.key === 'Escape') {
                 closeModal();
                 closeFlashCard();
+                closeStoryModal();
             }
         });
         
