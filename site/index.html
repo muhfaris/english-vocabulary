@@ -1178,8 +1178,10 @@
                 <div class="word-card" onclick="showWordDetails('${wordObj.id}')">
                     <div class="word-title">
                         ${wordObj.word}
-                        ${wordObj.date ? `<span style="font-size: 0.7rem; background: #e9ecef; color: #666; padding: 4px 8px; border-radius: 10px;">${wordObj.date}</span>` : ''}
+                        ${wordObj.part_of_speech ? `<span style="font-size: 0.7rem; background: #667eea; color: white; padding: 4px 8px; border-radius: 10px; text-transform: uppercase; font-weight: 600;">${wordObj.part_of_speech}</span>` : ''}
                     </div>
+                    
+                    ${wordObj.pronunciation ? `<div style="font-family: monospace; color: #764ba2; font-size: 1rem; margin-bottom: 15px; font-weight: 600;">${wordObj.pronunciation}</div>` : ''}
                     
                     <div class="word-meaning">
                         <h4>English</h4>
@@ -1213,15 +1215,19 @@
             
             title.textContent = wordObj.word;
             
-            // Show/hide and set the date in the header
-            if (wordObj.date) {
-                dateElement.textContent = `📅 ${wordObj.date}`;
-                dateElement.style.display = 'inline-block';
-            } else {
-                dateElement.style.display = 'none';
-            }
+            // Hide the date element in modal
+            dateElement.style.display = 'none';
             
             body.innerHTML = `
+                ${wordObj.pronunciation || wordObj.part_of_speech ? `
+                <div class="modal-section">
+                    <h3>📚 Word Details</h3>
+                    ${wordObj.pronunciation ? `<div style="margin-bottom: 10px;"><strong>Pronunciation:</strong> <span style="font-family: monospace; color: #667eea; font-size: 1.1rem;">${wordObj.pronunciation}</span></div>` : ''}
+                    ${wordObj.part_of_speech ? `<div style="margin-bottom: 10px;"><strong>Part of Speech:</strong> <span style="background: #667eea; color: white; padding: 4px 12px; border-radius: 15px; text-transform: capitalize; font-weight: 600;">${wordObj.part_of_speech}</span></div>` : ''}
+                    ${wordObj.synonyms && wordObj.synonyms.length > 0 ? `<div><strong>Synonyms:</strong> ${wordObj.synonyms.map(syn => `<span style="background: #f8f9fa; color: #555; padding: 2px 8px; border-radius: 12px; margin: 0 4px; font-size: 0.9rem;">${syn}</span>`).join('')}</div>` : ''}
+                </div>
+                ` : ''}
+                
                 <div class="modal-section">
                     <h3>🎯 Meaning</h3>
                     <div style="margin-bottom: 15px;">
