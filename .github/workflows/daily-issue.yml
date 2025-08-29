@@ -21,5 +21,5 @@ jobs:
         run: |
           gh issue create \
             --title "Generate 10 words English Vocabulary Today $(date +'%Y-%m-%d')" \
-            --body-file .github/ISSUE_TEMPLATE.md \
+            --body-file .github/daily_issue_prompt.md \
             --label "jules"
