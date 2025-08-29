@@ -1,8 +1,8 @@
-name: Daily Vocabulary Issue
+name: Daily Story Issue
 
 on:
   schedule:
-    - cron: '45 0 * * *' # Runs every day at 00:45 UTC (7:45 AM WIB)
+    - cron: '30 14 * * *' # Runs every day at 14:30 UTC (9:30 PM WIB)
   workflow_dispatch: # Allows manual triggering
 
 jobs:
@@ -19,9 +19,9 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_REPO: ${{ github.repository }}
         run: |
-          BODY_CONTENT=$(cat .github/daily_issue_prompt.md)
+          BODY_CONTENT=$(cat .github/daily_story_prompt.md)
           JSON_PAYLOAD=$(jq -n \
-            --arg title "Generate 10 words English Vocabulary Today $(date +'%Y-%m-%d')" \
+            --arg title "Generate Story Today $(date +'%Y-%m-%d')" \
             --arg body "$BODY_CONTENT" \
             '{title: $title, body: $body, labels: ["jules"]}')
           curl -L \
