@@ -1,0 +1,17 @@
+story:
+  title: "sprint-planning-and-a-smooth-deployment"
+  date: "2025-08-30"
+  text: |
+    The week started with a team-wide meeting to get **alignment** on the new quarter's goals. The main topic was the "User Dashboard V2" **epic**, a huge project the product manager had been planning for months. It felt like a massive undertaking, but breaking it down into smaller user stories for the upcoming **sprint** made it feel much more achievable. We spent the whole morning discussing priorities and estimating the effort for each story.
+
+    My first task was to pick up a ticket for a new notification component. The designer had already prepared a detailed **mockup** in Figma, which made my job much easier because all the specs were clearly defined. I spent a couple of days coding the front-end and back-end parts. After a thorough code review from my senior, it was merged into the main branch.
+
+    By Friday, we were ready to **deploy** all the completed work from the sprint. As per our process, we pushed everything to the **staging** environment first. The QA team ran their regression tests and gave us the green light an hour later. With everything looking stable, we initiated the final rollout to **production**. It was a smooth process, and we all felt a great sense of accomplishment watching the new features go live. It’s always satisfying to see your hard work in the hands of real users.
+  highlighted_words:
+    - "alignment"
+    - "epic"
+    - "sprint"
+    - "mockup"
+    - "deploy"
+    - "staging"
+    - "production"
