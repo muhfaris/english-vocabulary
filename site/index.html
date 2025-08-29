@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advanced Vocabulary Learning App</title>
+    <title>Daily Work Vocabulary Master - Learn Professional English for Software Engineers</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
     <style>
         * {
@@ -791,12 +791,12 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>🚀 Advanced Vocabulary Master</h1>
-            <p>Learn professional vocabulary with real-world context</p>
+            <h1>💼 Daily Work Vocabulary Master</h1>
+            <p>Learn everyday vocabulary for software engineers - from meetings to code reviews</p>
         </div>
 
         <div class="controls">
-            <input type="text" class="search-box" placeholder="Search words, meanings, or examples..." id="searchInput">
+            <input type="text" class="search-box" placeholder="Search words, meanings, or workplace examples..." id="searchInput">
             <div class="date-range-container">
                 <div class="date-input-wrapper">
                     <span class="date-icon">📅</span>
@@ -837,7 +837,7 @@
         </div>
 
         <div class="loading" id="loading" style="display: none;">
-            <span id="loadingText">Loading vocabulary data...</span>
+            <span id="loadingText">Loading daily vocabulary...</span>
             <div id="cacheIndicator" style="font-size: 0.9rem; opacity: 0.8; margin-top: 5px;"></div>
         </div>
 
@@ -1147,7 +1147,7 @@
             
             if (allVocabulary.length === 0) {
                 document.getElementById('noResults').style.display = 'block';
-                document.getElementById('noResults').textContent = `No vocabulary data found for the selected date range.`;
+                document.getElementById('noResults').textContent = `No vocabulary found for the selected date range.`;
                 document.getElementById('vocabularyGrid').style.display = 'none';
             } else {
                 currentVocabulary = [...allVocabulary];
