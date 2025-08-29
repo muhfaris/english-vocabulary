@@ -1372,12 +1372,12 @@
             <div class="date-range-container" id="dateRangeContainer">
                 <div class="date-input-wrapper">
                     <span class="date-icon">📅</span>
-                    <input type="date" class="date-picker" id="startDate" onchange="loadVocabularyForDateRange()" placeholder="From">
+                    <input type="date" class="date-picker" id="startDate" onchange="handleDateRangeChange()" placeholder="From">
                 </div>
                 <span class="date-separator">to</span>
                 <div class="date-input-wrapper">
                     <span class="date-icon">📅</span>
-                    <input type="date" class="date-picker" id="endDate" onchange="loadVocabularyForDateRange()" placeholder="To">
+                    <input type="date" class="date-picker" id="endDate" onchange="handleDateRangeChange()" placeholder="To">
                 </div>
             </div>
             <button class="btn" id="shuffleBtn" onclick="shuffleWords()">🎲 Shuffle</button>
@@ -1830,17 +1830,93 @@
             updateStats();
         }
 
-        async function loadStories() {
+        async function loadStoriesForDateRange() {
+            const startDateInput = document.getElementById('startDate');
+            const endDateInput = document.getElementById('endDate');
+            const startDate = startDateInput.value;
+            const endDate = endDateInput.value;
+            
+            // If only start date is selected, treat it as single date
+            if (startDate && !endDate) {
+                endDateInput.value = startDate;
+            }
+            
+            // If only end date is selected, treat it as single date  
+            if (!startDate && endDate) {
+                startDateInput.value = endDate;
+            }
+            
+            if (!startDate || !endDate) {
+                // Load all available stories if no date range is specified
+                return loadAllAvailableStories();
+            }
+            
             const loading = document.getElementById('loading');
             loading.style.display = 'block';
             document.getElementById('loadingText').textContent = 'Loading stories...';
             
-            // For now, we'll load the known story
-            const storyFiles = ['story-the-friday-afternoon-hotfix.yaml'];
+            allStories = [];
+            
+            // Get all known story files (you can expand this list as needed)
+            const knownStoryFiles = [
+                'story-the-friday-afternoon-hotfix.yaml',
+                'story-sprint-planning-and-a-smooth-deployment.yaml'
+            ];
+            
+            // Load each story and filter by date range
+            for (const filename of knownStoryFiles) {
+                try {
+                    const url = STORIES_BASE_URL + encodeURIComponent(filename);
+                    const response = await fetch(url);
+                    if (response.ok) {
+                        const yamlText = await response.text();
+                        const storyData = jsyaml.load(yamlText);
+                        
+                        if (storyData && storyData.story) {
+                            const storyDate = storyData.story.date;
+                            
+                            // Check if story date falls within the selected range
+                            if (storyDate && isDateInRange(storyDate, startDateInput.value, endDateInput.value)) {
+                                const processedStory = {
+                                    id: storyData.story.title || filename.replace('.yaml', ''),
+                                    title: formatStoryTitle(storyData.story.title || filename.replace('.yaml', '')),
+                                    date: storyDate,
+                                    text: storyData.story.text,
+                                    highlighted_words: storyData.story.highlighted_words || [],
+                                    filename: filename
+                                };
+                                allStories.push(processedStory);
+                            }
+                        }
+                    }
+                } catch (error) {
+                    console.log(`Could not load story ${filename}:`, error.message);
+                }
+            }
+            
+            loading.style.display = 'none';
+            
+            if (allStories.length === 0) {
+                document.getElementById('storiesGrid').innerHTML = '<div class="no-results">No stories found for the selected date range.</div>';
+            } else {
+                renderStories();
+            }
+        }
+        
+        async function loadAllAvailableStories() {
+            const loading = document.getElementById('loading');
+            loading.style.display = 'block';
+            document.getElementById('loadingText').textContent = 'Loading stories...';
+            
+            // Load all known stories without date filtering
+            const knownStoryFiles = [
+                'story-the-friday-afternoon-hotfix.yaml',
+                'story-sprint-planning-and-a-smooth-deployment.yaml'
+            ];
             
             allStories = [];
             
-            for (const filename of storyFiles) {
+            for (const filename of knownStoryFiles) {
                 try {
                     const url = STORIES_BASE_URL + encodeURIComponent(filename);
                     const response = await fetch(url);
@@ -1867,6 +1943,22 @@
             
             loading.style.display = 'none';
             renderStories();
+        }
+        
+        function isDateInRange(date, startDate, endDate) {
+            const checkDate = new Date(date);
+            const start = new Date(startDate);
+            const end = new Date(endDate);
+            
+            return checkDate >= start && checkDate <= end;
+        }
+        
+        function handleDateRangeChange() {
+            if (showingStories) {
+                loadStoriesForDateRange();
+            } else {
+                loadVocabularyForDateRange();
+            }
         }
 
         function formatStoryTitle(title) {
@@ -1990,6 +2082,9 @@
             document.getElementById('headerTitle').textContent = '💼 Daily Work Vocabulary Master';
             document.getElementById('headerSubtitle').textContent = 'Learn everyday vocabulary for software engineers - from meetings to code reviews';
             
+            // Ensure stats are shown for vocabulary
+            statsSection.style.display = 'grid';
+            
             renderVocabulary();
         }
         
@@ -2012,12 +2107,12 @@
             // Hide vocabulary elements
             vocabularyGrid.style.display = 'none';
             statsSection.style.display = 'none';
-            dateRangeContainer.style.display = 'none';
             shuffleBtn.style.display = 'none';
             randomBtn.style.display = 'none';
             
-            // Show stories elements
+            // Show stories elements and date range for stories
             storiesGrid.style.display = 'grid';
+            dateRangeContainer.style.display = 'flex';
             
             // Update search placeholder
             searchInput.placeholder = 'Search stories...';
@@ -2037,11 +2132,7 @@
             document.getElementById('headerTitle').textContent = '📖 Professional Stories';
             document.getElementById('headerSubtitle').textContent = 'Read workplace stories with highlighted vocabulary words';
             
-            if (allStories.length === 0) {
-                loadStories();
-            } else {
-                renderStories();
-            }
+            loadStoriesForDateRange();
         }
 
 
@@ -2361,9 +2452,10 @@
             startDate.value = today;
             endDate.value = today;
             
-            // Prevent selecting future dates
-            startDate.max = today;
-            endDate.max = today;
+            // Allow selecting current date and past dates (no max restriction for now)
+            // You can uncomment the lines below if you want to restrict future dates
+            // startDate.max = today;
+            // endDate.max = today;
             
             // Load vocabulary for today
             loadVocabularyForDateRange();
