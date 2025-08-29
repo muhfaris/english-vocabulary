@@ -308,10 +308,27 @@
             border-bottom: 3px solid #eee;
         }
 
+        .modal-title-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-grow: 1;
+            margin-right: 15px;
+        }
+
         .modal-header h2 {
             font-size: 2.5rem;
             font-weight: 800;
             color: #2c3e50;
+        }
+
+        .modal-date-badge {
+            background: #667eea;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.9rem;
         }
 
         .close-btn {
@@ -803,7 +820,10 @@
     <div class="modal" id="wordModal">
         <div class="modal-content">
             <div class="modal-header">
-                <h2 id="modalTitle"></h2>
+                <div class="modal-title-section">
+                    <h2 id="modalTitle"></h2>
+                    <span class="modal-date-badge" id="modalDate" style="display: none;"></span>
+                </div>
                 <button class="close-btn" onclick="closeModal()">&times;</button>
             </div>
             <div id="modalBody"></div>
@@ -1158,13 +1178,20 @@
             
             const modal = document.getElementById('wordModal');
             const title = document.getElementById('modalTitle');
+            const dateElement = document.getElementById('modalDate');
             const body = document.getElementById('modalBody');
             
             title.textContent = wordObj.word;
             
+            // Show/hide and set the date in the header
+            if (wordObj.date) {
+                dateElement.textContent = `📅 ${wordObj.date}`;
+                dateElement.style.display = 'inline-block';
+            } else {
+                dateElement.style.display = 'none';
+            }
+            
             body.innerHTML = `
-                ${wordObj.date ? `<div style="text-align: center; margin-bottom: 25px;"><span style="background: #667eea; color: white; padding: 8px 16px; border-radius: 20px; font-weight: 600;">📅 ${wordObj.date}</span></div>` : ''}
-                
                 <div class="modal-section">
                     <h3>🎯 Meaning</h3>
                     <div style="margin-bottom: 15px;">
