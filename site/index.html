@@ -1623,8 +1623,23 @@
         }
         
         async function loadVocabularyFromDate(date) {
+            // Load both regular and story vocabulary files and merge them
+            const [regularVocab, storyVocab] = await Promise.all([
+                loadRegularVocabularyFromDate(date),
+                loadStoryVocabularyFromDate(date)
+            ]);
+            
+            // Merge the results
+            const combinedData = [...regularVocab.data, ...storyVocab.data];
+            const fromCache = regularVocab.fromCache && storyVocab.fromCache;
+            
+            return { data: combinedData, fromCache };
+        }
+        
+        async function loadRegularVocabularyFromDate(date) {
             // Check cache first
-            const cached = getCachedVocabulary(date);
+            const cacheKey = `regular_${date}`;
+            const cached = getCachedVocabulary(cacheKey);
             if (cached) {
                 return { data: cached, fromCache: true };
             }
@@ -1644,17 +1659,57 @@
                     const processedData = vocabularyData.map(word => ({
                         ...word,
                         date: date,
-                        id: `${word.word}-${date}`
+                        id: `${word.word}-${date}`,
+                        source: 'regular'
                     }));
                     
                     // Cache the processed data
-                    setCachedVocabulary(date, processedData);
+                    setCachedVocabulary(cacheKey, processedData);
                     
                     return { data: processedData, fromCache: false };
                 }
                 return { data: [], fromCache: false };
             } catch (error) {
-                console.log(`Could not load vocabulary for ${date}:`, error.message);
+                console.log(`Could not load regular vocabulary for ${date}:`, error.message);
+                return { data: [], fromCache: false };
+            }
+        }
+        
+        async function loadStoryVocabularyFromDate(date) {
+            // Check cache first
+            const cacheKey = `story_${date}`;
+            const cached = getCachedVocabulary(cacheKey);
+            if (cached) {
+                return { data: cached, fromCache: true };
+            }
+            
+            const filename = `vocabulary from story - ${date}.yaml`;
+            const url = VOCAB_BASE_URL + encodeURIComponent(filename);
+            
+            try {
+                const response = await fetch(url);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const yamlText = await response.text();
+                const vocabularyData = jsyaml.load(yamlText);
+                
+                if (Array.isArray(vocabularyData)) {
+                    const processedData = vocabularyData.map(word => ({
+                        ...word,
+                        date: date,
+                        id: `${word.word}-story-${date}`,
+                        source: 'story'
+                    }));
+                    
+                    // Cache the processed data
+                    setCachedVocabulary(cacheKey, processedData);
+                    
+                    return { data: processedData, fromCache: false };
+                }
+                return { data: [], fromCache: false };
+            } catch (error) {
+                console.log(`Could not load story vocabulary for ${date}:`, error.message);
                 return { data: [], fromCache: false };
             }
         }
@@ -2010,6 +2065,7 @@
                     <div class="word-title">
                         ${wordObj.word}
                         ${wordObj.part_of_speech ? `<span style="font-size: 0.7rem; background: #667eea; color: white; padding: 4px 8px; border-radius: 10px; text-transform: uppercase; font-weight: 600;">${wordObj.part_of_speech}</span>` : ''}
+                        ${wordObj.source === 'story' ? `<span style="font-size: 0.7rem; background: #ff6b6b; color: white; padding: 4px 8px; border-radius: 10px; text-transform: uppercase; font-weight: 600; margin-left: 8px;">📖 Story</span>` : ''}
                     </div>
                     
                     ${wordObj.pronunciation ? `<div style="font-family: monospace; color: #764ba2; font-size: 1rem; margin-bottom: 15px; font-weight: 600;">${wordObj.pronunciation}</div>` : ''}
