@@ -928,13 +928,6 @@
             learnedCount++;
             updateStats();
             closeModal();
-            
-            const wordObj = allVocabulary.find(w => w.id === wordId);
-            if (wordObj) {
-                setTimeout(() => {
-                    alert(`Excellent! You've learned "${wordObj.word}" 🎉`);
-                }, 200);
-            }
         }
 
         function closeModal() {
