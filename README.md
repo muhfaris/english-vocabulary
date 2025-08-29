@@ -1,12 +1,12 @@
 # 🚀 Advanced Vocabulary Master
 
-<img width="1865" height="951" alt="image" src="https://github.com/user-attachments/assets/2d172450-5f80-4002-9e24-4a636520283d" />
-
 **Master Professional English with Interactive Learning**
 
 Transform your vocabulary skills with our modern, engaging web app designed for busy professionals and English learners. Learn real-world business vocabulary through interactive flash cards and contextual examples.
 
 ![Vocabulary Learning](https://img.shields.io/badge/Learning-Interactive-brightgreen) ![Mobile Ready](https://img.shields.io/badge/Mobile-Responsive-blue) ![No Setup](https://img.shields.io/badge/Setup-Zero%20Config-orange)
+
+<img width="1865" height="951" alt="image" src="https://github.com/user-attachments/assets/2d172450-5f80-4002-9e24-4a636520283d" />
 
 ## 🌟 Why Choose Vocabulary Master?
 
