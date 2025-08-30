@@ -1899,41 +1899,55 @@
             
             allStories = [];
             
-            // Get all known story files (you can expand this list as needed)
-            const knownStoryFiles = [
-                'story-the-friday-afternoon-hotfix.yaml',
-                'story-sprint-planning-and-a-smooth-deployment.yaml'
-            ];
-            
-            // Load each story and filter by date range
-            for (const filename of knownStoryFiles) {
-                try {
-                    const url = STORIES_BASE_URL + encodeURIComponent(filename);
-                    const response = await fetch(url);
-                    if (response.ok) {
-                        const yamlText = await response.text();
-                        const storyData = jsyaml.load(yamlText);
-                        
-                        if (storyData && storyData.story) {
-                            const storyDate = storyData.story.date;
-                            
-                            // Check if story date falls within the selected range
-                            if (storyDate && isDateInRange(storyDate, startDateInput.value, endDateInput.value)) {
-                                const processedStory = {
-                                    id: storyData.story.title || filename.replace('.yaml', ''),
-                                    title: formatStoryTitle(storyData.story.title || filename.replace('.yaml', '')),
-                                    date: storyDate,
-                                    text: storyData.story.text,
-                                    highlighted_words: storyData.story.highlighted_words || [],
-                                    filename: filename
-                                };
-                                allStories.push(processedStory);
+            try {
+                // Fetch the stories list from CSV
+                const csvUrl = 'https://raw.githubusercontent.com/muhfaris/english-vocabulary/refs/heads/main/stories.csv';
+                const csvResponse = await fetch(csvUrl);
+                if (!csvResponse.ok) {
+                    throw new Error('Failed to load stories list');
+                }
+                
+                const csvText = await csvResponse.text();
+                const lines = csvText.split('\n').filter(line => line.trim() && !line.startsWith('title'));
+                
+                for (const line of lines) {
+                    const [title, date] = line.split(',').map(s => s.trim());
+                    if (title) {
+                        const filename = `story-${title}.yaml`;
+                        try {
+                            const url = STORIES_BASE_URL + encodeURIComponent(filename);
+                            const response = await fetch(url);
+                            if (response.ok) {
+                                const yamlText = await response.text();
+                                const storyData = jsyaml.load(yamlText);
+                                
+                                if (storyData && storyData.story) {
+                                    const storyDate = storyData.story.date;
+                                    
+                                    // Check if story date falls within the selected range
+                                    if (storyDate && isDateInRange(storyDate, startDateInput.value, endDateInput.value)) {
+                                        const processedStory = {
+                                            id: storyData.story.title || title,
+                                            title: formatStoryTitle(storyData.story.title || title),
+                                            date: storyDate,
+                                            text: storyData.story.text,
+                                            highlighted_words: storyData.story.highlighted_words || [],
+                                            filename: filename
+                                        };
+                                        allStories.push(processedStory);
+                                    }
+                                }
                             }
+                        } catch (error) {
+                            console.log(`Could not load story ${filename}:`, error.message);
                         }
                     }
-                } catch (error) {
-                    console.log(`Could not load story ${filename}:`, error.message);
                 }
+            } catch (error) {
+                console.error('Error loading stories list:', error);
+                document.getElementById('storiesGrid').innerHTML = '<div class="no-results">Error loading stories list.</div>';
+                loading.style.display = 'none';
+                return;
             }
             
             loading.style.display = 'none';
@@ -1950,37 +1964,52 @@
             loading.style.display = 'block';
             document.getElementById('loadingText').textContent = 'Loading stories...';
             
-            // Load all known stories without date filtering
-            const knownStoryFiles = [
-                'story-the-friday-afternoon-hotfix.yaml',
-                'story-sprint-planning-and-a-smooth-deployment.yaml'
-            ];
-            
             allStories = [];
             
-            for (const filename of knownStoryFiles) {
-                try {
-                    const url = STORIES_BASE_URL + encodeURIComponent(filename);
-                    const response = await fetch(url);
-                    if (response.ok) {
-                        const yamlText = await response.text();
-                        const storyData = jsyaml.load(yamlText);
-                        
-                        if (storyData && storyData.story) {
-                            const processedStory = {
-                                id: storyData.story.title || filename.replace('.yaml', ''),
-                                title: formatStoryTitle(storyData.story.title || filename.replace('.yaml', '')),
-                                date: storyData.story.date,
-                                text: storyData.story.text,
-                                highlighted_words: storyData.story.highlighted_words || [],
-                                filename: filename
-                            };
-                            allStories.push(processedStory);
+            try {
+                // Fetch the stories list from CSV
+                const csvUrl = 'https://raw.githubusercontent.com/muhfaris/english-vocabulary/refs/heads/main/stories.csv';
+                const csvResponse = await fetch(csvUrl);
+                if (!csvResponse.ok) {
+                    throw new Error('Failed to load stories list');
+                }
+                
+                const csvText = await csvResponse.text();
+                const lines = csvText.split('\n').filter(line => line.trim() && !line.startsWith('title'));
+                
+                for (const line of lines) {
+                    const [title, date] = line.split(',').map(s => s.trim());
+                    if (title) {
+                        const filename = `story-${title}.yaml`;
+                        try {
+                            const url = STORIES_BASE_URL + encodeURIComponent(filename);
+                            const response = await fetch(url);
+                            if (response.ok) {
+                                const yamlText = await response.text();
+                                const storyData = jsyaml.load(yamlText);
+                                
+                                if (storyData && storyData.story) {
+                                    const processedStory = {
+                                        id: storyData.story.title || title,
+                                        title: formatStoryTitle(storyData.story.title || title),
+                                        date: storyData.story.date,
+                                        text: storyData.story.text,
+                                        highlighted_words: storyData.story.highlighted_words || [],
+                                        filename: filename
+                                    };
+                                    allStories.push(processedStory);
+                                }
+                            }
+                        } catch (error) {
+                            console.log(`Could not load story ${filename}:`, error.message);
                         }
                     }
-                } catch (error) {
-                    console.log(`Could not load story ${filename}:`, error.message);
                 }
+            } catch (error) {
+                console.error('Error loading stories list:', error);
+                document.getElementById('storiesGrid').innerHTML = '<div class="no-results">Error loading stories list.</div>';
+                loading.style.display = 'none';
+                return;
             }
             
             loading.style.display = 'none';
