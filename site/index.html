@@ -222,6 +222,18 @@
             gap: 15px;
         }
 
+        .speaker-icon {
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: #764ba2;
+            transition: all 0.2s ease;
+        }
+
+        .speaker-icon:hover {
+            color: #667eea;
+            transform: scale(1.1);
+        }
+
         .word-meaning {
             margin-bottom: 20px;
         }
@@ -1500,6 +1512,7 @@
             </div>
             <div class="story-text" id="storyText"></div>
             <div class="modal-actions">
+                <button class="btn" id="listenToStoryBtn">🔊 Listen to Story</button>
                 <button class="btn secondary" onclick="closeStoryModal()">📚 Back to Stories</button>
             </div>
         </div>
@@ -1508,6 +1521,35 @@
     <script>
         let allVocabulary = [];
         let currentVocabulary = [];
+        let voices = [];
+
+        function loadVoices() {
+            voices = window.speechSynthesis.getVoices();
+        }
+
+        // Load voices initially and on change
+        window.speechSynthesis.onvoiceschanged = loadVoices;
+        loadVoices();
+
+        function speak(text, lang = 'en-US', event) {
+            if (event) {
+                event.stopPropagation(); // Prevent the card from opening
+            }
+
+            // Stop any previous speech
+            window.speechSynthesis.cancel();
+
+            const utterance = new SpeechSynthesisUtterance(text);
+            utterance.lang = lang;
+
+            // Find a preferred voice
+            const selectedVoice = voices.find(voice => voice.lang === lang && voice.name.includes('Google'));
+            if (selectedVoice) {
+                utterance.voice = selectedVoice;
+            }
+
+            window.speechSynthesis.speak(utterance);
+        }
         let learnedCount = 0;
         let loadedDates = new Set();
         let allStories = [];
@@ -2021,6 +2063,12 @@
             const paragraphs = processedText.split('\n\n').map(p => `<p>${p.trim()}</p>`).join('');
             textElement.innerHTML = paragraphs;
             
+            const listenBtn = document.getElementById('listenToStoryBtn');
+            listenBtn.onclick = () => {
+                const textToSpeak = story.text.replace(/\*\*/g, '');
+                speak(textToSpeak, 'en-US');
+            };
+
             modal.style.display = 'block';
         }
 
@@ -2036,6 +2084,7 @@
 
         function closeStoryModal() {
             document.getElementById('storyModal').style.display = 'none';
+            window.speechSynthesis.cancel();
         }
 
         function showVocabulary() {
@@ -2154,7 +2203,8 @@
             grid.innerHTML = words.map(wordObj => `
                 <div class="word-card" onclick="showWordDetails('${wordObj.id}')">
                     <div class="word-title">
-                        ${wordObj.word}
+                        <span>${wordObj.word}</span>
+                        <span class="speaker-icon" onclick="speak('${wordObj.word.replace(/'/g, `\\'`)}', 'en-US', event)">🔊</span>
                         ${wordObj.part_of_speech ? `<span style="font-size: 0.7rem; background: #667eea; color: white; padding: 4px 8px; border-radius: 10px; text-transform: uppercase; font-weight: 600;">${wordObj.part_of_speech}</span>` : ''}
                         ${wordObj.source === 'story' ? `<span style="font-size: 0.7rem; background: #ff6b6b; color: white; padding: 4px 8px; border-radius: 10px; text-transform: uppercase; font-weight: 600; margin-left: 8px;">📖 Story</span>` : ''}
                     </div>
@@ -2191,7 +2241,7 @@
             const dateElement = document.getElementById('modalDate');
             const body = document.getElementById('modalBody');
             
-            title.textContent = wordObj.word;
+            title.innerHTML = `${wordObj.word} <span class="speaker-icon" onclick="speak('${wordObj.word.replace(/'/g, `\\'`)}')">🔊</span>`;
             
             // Hide the date element in modal
             dateElement.style.display = 'none';
@@ -2281,6 +2331,7 @@
 
         function closeModal() {
             document.getElementById('wordModal').style.display = 'none';
+            window.speechSynthesis.cancel();
         }
 
         function shuffleWords() {
@@ -2349,6 +2400,7 @@
         function closeFlashCard() {
             document.getElementById('flashCardModal').style.display = 'none';
             currentFlashCard = null;
+            window.speechSynthesis.cancel();
         }
         
         function showNextFlashCard() {
@@ -2425,6 +2477,7 @@
                 closeModal();
                 closeFlashCard();
                 closeStoryModal();
+                window.speechSynthesis.cancel();
             }
         });
         
