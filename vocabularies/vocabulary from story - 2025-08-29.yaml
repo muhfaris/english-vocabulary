@@ -22,7 +22,6 @@
       difference: "'Consensus' is a general agreement that everyone accepts. 'Alignment' is more about working together towards a specific goal, even if there are minor disagreements on how to get there."
   story: |
     Before starting the new sprint, our team lead scheduled a meeting to ensure alignment. The designers presented their mockups, and the developers discussed the technical implementation. By the end of the meeting, everyone had a clear understanding of the goals and their individual responsibilities. This alignment helped prevent misunderstandings later in the sprint.
-
 - word: "Prioritize"
   pronunciation: "/praɪˈɒr.ɪ.taɪz/"
   part_of_speech: "verb"
@@ -47,7 +46,6 @@
       difference: "'Scheduling' is about assigning a time to a task. 'Prioritizing' is about deciding the importance of the task, which then helps you schedule it."
   story: |
     We had a long list of feature requests from the product manager. During our planning meeting, we had to prioritize them for the next quarter. We used a matrix to score each feature based on its impact and effort. This allowed us to prioritize the features that would deliver the most value to our users with the least amount of development time.
-
 - word: "Hotfix"
   pronunciation: "/ˈhɒt.fɪks/"
   part_of_speech: "noun"
@@ -72,7 +70,6 @@
       difference: "'Patch' is a more general term for a piece of code that is applied to fix or improve a program. A 'hotfix' is a type of patch that is critical and urgent."
   story: |
     On Friday afternoon, our monitoring system alerted us that users were unable to complete purchases. We quickly identified a critical bug in the payment gateway integration. Since this was a major issue, we had to prepare a hotfix. The team worked late to fix the bug, test it, and deploy it directly to production. The hotfix resolved the issue and saved the company from losing a lot of revenue.
-
 - word: "Rollback"
   pronunciation: "/ˈroʊl.bæk/"
   part_of_speech: "noun"
@@ -97,7 +94,6 @@
       difference: "'Restore' is a more general term for bringing something back. 'Rollback' specifically means going back to a previous stable state."
   story: |
     We deployed a new feature that we thought was ready for production. However, shortly after the release, our error monitoring system started reporting a huge spike in crashes. We couldn't find the root cause immediately, so we made the decision to do a rollback. Within minutes, the system was restored to its previous, stable version, and the errors disappeared.
-
 - word: "Stand-up"
   pronunciation: "/ˈstænd.ʌp/"
   part_of_speech: "noun"
@@ -122,7 +118,6 @@
       difference: "'Scrum' is a framework for agile development. The 'daily scrum' or 'stand-up' is just one of the ceremonies within that framework."
   story: |
     Every morning at 9:30 AM, our team has its daily stand-up. Each person answers three questions: What did you do yesterday? What will you do today? Are there any blockers? Today, during our stand-up, I mentioned that I was blocked on a task because I needed an API key from another team. Our team lead immediately offered to help me get it after the meeting.
-
 - word: "Code review"
   pronunciation: "/koʊd rɪˈvjuː/"
   part_of_speech: "noun"
@@ -147,7 +142,6 @@
       difference: "A 'walkthrough' is about explaining code to someone. A 'code review' is about critiquing code to improve it."
   story: |
     After I finished my feature, I created a pull request and assigned it to a senior developer for a code review. She left several comments on my code, pointing out a potential bug, suggesting a more efficient way to write a function, and reminding me to add some unit tests. Her feedback was very helpful, and after I made the changes, the code was much better.
-
 - word: "Merge"
   pronunciation: "/mɜːrdʒ/"
   part_of_speech: "verb"
@@ -172,7 +166,6 @@
       difference: "A 'commit' is a single saved change in version control. To 'merge' is to combine a series of commits from one branch into another."
   story: |
     I had been working on a new feature in my own branch for a week. After my pull request was approved, it was finally time to merge my changes into the main development branch. I clicked the 'merge' button and watched as my code was integrated with the work of the rest of the team. Now, my feature is officially part of the project.
-
 - word: "Deadline"
   pronunciation: "/ˈded.laɪn/"
   part_of_speech: "noun"
@@ -197,7 +190,6 @@
       difference: "A 'milestone' is a significant point in a project's timeline. A 'deadline' is the final milestone for a task or the entire project."
   story: |
     Our team was given a strict deadline to launch the new marketing website. We had only two weeks to complete the entire project from scratch. The pressure was high, and we had to work efficiently to meet the deadline. We broke down the work into smaller tasks and assigned them to different team members. In the end, we managed to launch the website just a few hours before the deadline.
-
 - word: "Scope"
   pronunciation: "/skoʊp/"
   part_of_speech: "noun"
@@ -222,28 +214,3 @@
       difference: "'Requirements' are the specific things that a project must do. The 'scope' is the overall boundary that contains all those requirements."
   story: |
     During the planning phase of our project, the product manager wanted to add a lot of new features. Our tech lead had to remind everyone of the initial scope. "A live chat feature is a great idea," he said, "but it's not in the scope for this quarter. We need to focus on delivering the core features that we already agreed upon."
-
-- word: "Blocker"
-  pronunciation: "/ˈblɒk.ər/"
-  part_of_speech: "noun"
-  meaning:
-    english: "An issue or problem that is completely preventing you from making progress on a task."
-    bahasa: "Sebuah masalah atau problem yang sepenuhnya menghalangi Anda untuk membuat kemajuan pada suatu tugas."
-  usage: "Use 'blocker' when you are stuck and cannot continue your work."
-  synonyms:
-    - "obstacle"
-    - "impediment"
-  examples:
-    workplace:
-      - "I have a blocker, I can't test my code because the test environment is down."
-      - "Please raise any blockers during the daily stand-up."
-    casual:
-      - "My main blocker to finishing this book is that I keep falling asleep."
-      - "Lack of money is a major blocker to my travel plans."
-  related:
-    - word: "Bottleneck"
-      difference: "A 'bottleneck' slows things down. A 'blocker' stops them completely."
-    - word: "Issue"
-      difference: "An 'issue' is a general problem. A 'blocker' is a specific type of issue that is preventing you from working."
-  story: |
-    I was working on a task to integrate with a third-party API. However, I couldn't get a valid response from their server. This was a blocker for me because I couldn't continue my work without it. I reported the blocker in our daily stand-up, and our team lead helped me contact the support team for the API. It turned out they had updated their authentication system, and I needed a new API key. Once I got the new key, the blocker was resolved.
