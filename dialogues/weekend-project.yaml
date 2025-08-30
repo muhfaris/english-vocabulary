@@ -1,0 +1,56 @@
+dialogue:
+  - speaker: Alex
+    english: "Hey Ben, how was your weekend? Did you get up to anything interesting?"
+    bahasa: "Hai Ben, bagaimana akhir pekanmu? Apakah kamu melakukan sesuatu yang menarik?"
+  - speaker: Ben
+    english: "It was great, thanks! I actually spent some time on a little side project I've been meaning to start."
+    bahasa: "Luar biasa, terima kasih! Aku sebenarnya menghabiskan waktu untuk proyek sampingan kecil yang sudah lama ingin aku mulai."
+  - speaker: Alex
+    english: "Oh, cool! What are you building?"
+    bahasa: "Oh, keren! Apa yang sedang kamu bangun?"
+  - speaker: Ben
+    english: "It's a small web app to track my personal reading list. I'm building it with a new JavaScript framework I wanted to learn."
+    bahasa: "Ini aplikasi web kecil untuk melacak daftar bacaan pribadiku. Aku membuatnya dengan kerangka kerja JavaScript baru yang ingin aku pelajari."
+  - speaker: Alex
+    english: "That's a great way to learn. Are you planning to open-source it?"
+    bahasa: "Itu cara yang bagus untuk belajar. Apakah kamu berencana untuk menjadikannya open-source?"
+  - speaker: Ben
+    english: "Maybe eventually. For now, it's just a sandbox for me to experiment and get my hands dirty with the new tech."
+    bahasa: "Mungkin nanti. Untuk saat ini, ini hanya sebuah kotak pasir bagiku untuk bereksperimen dan mencoba teknologi baru."
+  - speaker: Alex
+    english: "I get that. It's nice to have a project with no deadlines or external pressure."
+    bahasa: "Aku mengerti. Menyenangkan memiliki proyek tanpa tenggat waktu atau tekanan dari luar."
+  - speaker: Ben
+    english: "Exactly! It helps me stay passionate about coding, even outside of work."
+    bahasa: "Tepat sekali! Ini membantuku tetap bersemangat tentang pengkodean, bahkan di luar pekerjaan."
+  - speaker: Alex
+    english: "Did you run into any interesting challenges?"
+    bahasa: "Apakah kamu menghadapi tantangan yang menarik?"
+  - speaker: Ben
+    english: "Definitely. Setting up the initial environment was a bit tricky, but it was a good learning experience."
+    bahasa: "Tentu saja. Menyiapkan lingkungan awal agak sedikit rumit, tapi itu adalah pengalaman belajar yang bagus."
+
+expressions:
+  - phrase: "get up to something"
+    meaning_english: "to do something, often something interesting or mischievous"
+    meaning_bahasa: "melakukan sesuatu, seringkali sesuatu yang menarik atau nakal"
+  - phrase: "side project"
+    meaning_english: "a personal project you work on outside of your main job"
+    meaning_bahasa: "proyek pribadi yang kamu kerjakan di luar pekerjaan utamamu"
+  - phrase: "get my hands dirty"
+    meaning_english: "to get practical experience in something"
+    meaning_bahasa: "mendapatkan pengalaman praktis dalam sesuatu"
+  - phrase: "sandbox"
+    meaning_english: "an environment where you can experiment freely without affecting production systems"
+    meaning_bahasa: "lingkungan tempat kamu bisa bereksperimen dengan bebas tanpa memengaruhi sistem produksi"
+  - phrase: "run into challenges"
+    meaning_english: "to encounter difficulties or problems"
+    meaning_bahasa: "menghadapi kesulitan atau masalah"
+
+questions:
+  - q: "What is Ben's side project about?"
+    a: "It's a web app to track his personal reading list."
+  - q: "Why did Ben start this side project?"
+    a: "He wanted to learn a new JavaScript framework."
+  - q: "What does the expression 'get my hands dirty' mean in this context?"
+    a: "It means to get practical, hands-on experience with the new technology."
