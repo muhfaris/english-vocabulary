@@ -1893,34 +1893,48 @@
     <script>
         let allVocabulary = [];
         let currentVocabulary = [];
-        let voices = [];
 
-        function loadVoices() {
-            voices = window.speechSynthesis.getVoices();
-        }
+        // A promise that resolves with the list of voices once they are loaded.
+        const voicesPromise = new Promise((resolve) => {
+            const checkVoices = () => {
+                const voices = window.speechSynthesis.getVoices();
+                if (voices.length > 0) {
+                    resolve(voices);
+                }
+            };
 
-        // Load voices initially and on change
-        window.speechSynthesis.onvoiceschanged = loadVoices;
-        loadVoices();
+            window.speechSynthesis.onvoiceschanged = checkVoices;
+            checkVoices(); // Check immediately in case they are already loaded.
+        });
 
-        function speak(text, lang = 'en-US', event) {
+        async function speak(text, lang = 'en-US', event) {
             if (event) {
                 event.stopPropagation(); // Prevent the card from opening
             }
 
-            // Stop any previous speech
-            window.speechSynthesis.cancel();
+            try {
+                const voices = await voicesPromise;
+                window.speechSynthesis.cancel(); // Stop any previous speech
 
-            const utterance = new SpeechSynthesisUtterance(text);
-            utterance.lang = lang;
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.lang = lang;
 
-            // Find a preferred voice
-            const selectedVoice = voices.find(voice => voice.lang === lang && voice.name.includes('Google'));
-            if (selectedVoice) {
-                utterance.voice = selectedVoice;
+                // Find a preferred 'Google' voice
+                let selectedVoice = voices.find(voice => voice.lang === lang && voice.name.includes('Google'));
+
+                // If no Google voice is found, find any other voice for the same language
+                if (!selectedVoice) {
+                    selectedVoice = voices.find(voice => voice.lang === lang);
+                }
+
+                if (selectedVoice) {
+                    utterance.voice = selectedVoice;
+                }
+
+                window.speechSynthesis.speak(utterance);
+            } catch (error) {
+                console.error("Speech synthesis failed:", error);
             }
-
-            window.speechSynthesis.speak(utterance);
         }
         let learnedCount = 0;
         let loadedDates = new Set();
@@ -2489,95 +2503,6 @@
         function closeStoryModal() {
             document.getElementById('storyModal').style.display = 'none';
             window.speechSynthesis.cancel();
-        }
-
-        function showDialogueDetails(dialogueId) {
-            const dialogue = allDialogues.find(d => d.id === dialogueId);
-            if (!dialogue) return;
-            
-            // Set modal title
-            document.getElementById('dialogueModalTitle').textContent = dialogue.title;
-            
-            // Render conversation
-            const conversationHtml = dialogue.dialogue.map((line, index) => {
-                const speakerClass = `speaker-${line.speaker.toLowerCase()}`;
-                return `
-                    <div class="dialogue-line ${speakerClass}">
-                        <div class="dialogue-speaker">${line.speaker}</div>
-                        <div class="dialogue-text">${line.english}</div>
-                        <div class="dialogue-bahasa" id="bahasa-${index}">${line.bahasa}</div>
-                        <button class="toggle-translation" onclick="toggleTranslation(${index})">Show Translation</button>
-                    </div>
-                `;
-            }).join('');
-            document.getElementById('dialogueConversation').innerHTML = conversationHtml;
-            
-            // Render expressions
-            const expressionsHtml = dialogue.expressions.map((expr, index) => `
-                <div class="expression-item">
-                    <div class="expression-phrase">"${expr.phrase}"</div>
-                    <div class="expression-meaning">${expr.meaning_english}</div>
-                    <div class="expression-bahasa" id="expr-bahasa-${index}">${expr.meaning_bahasa}</div>
-                    <button class="toggle-translation" onclick="toggleExpressionTranslation(${index})">Show Indonesian</button>
-                </div>
-            `).join('');
-            document.getElementById('dialogueExpressions').innerHTML = expressionsHtml;
-            
-            // Render questions
-            const questionsHtml = dialogue.questions.map((question, index) => `
-                <div class="question-item">
-                    <div class="question-q">${question.q}</div>
-                    <button class="show-answer-btn" onclick="toggleAnswer(${index})">Show Answer</button>
-                    <div class="question-answer" id="answer-${index}">${question.a}</div>
-                </div>
-            `).join('');
-            document.getElementById('dialogueQuestions').innerHTML = questionsHtml;
-            
-            // Show modal
-            document.getElementById('dialogueModal').style.display = 'block';
-        }
-
-        function closeDialogueModal() {
-            document.getElementById('dialogueModal').style.display = 'none';
-        }
-
-        function toggleTranslation(index) {
-            const bahasaElement = document.getElementById(`bahasa-${index}`);
-            const button = bahasaElement.nextElementSibling;
-            
-            if (bahasaElement.classList.contains('show')) {
-                bahasaElement.classList.remove('show');
-                button.textContent = 'Show Translation';
-            } else {
-                bahasaElement.classList.add('show');
-                button.textContent = 'Hide Translation';
-            }
-        }
-
-        function toggleExpressionTranslation(index) {
-            const bahasaElement = document.getElementById(`expr-bahasa-${index}`);
-            const button = bahasaElement.nextElementSibling;
-            
-            if (bahasaElement.classList.contains('show')) {
-                bahasaElement.classList.remove('show');
-                button.textContent = 'Show Indonesian';
-            } else {
-                bahasaElement.classList.add('show');
-                button.textContent = 'Hide Indonesian';
-            }
-        }
-
-        function toggleAnswer(index) {
-            const answerElement = document.getElementById(`answer-${index}`);
-            const button = answerElement.previousElementSibling;
-            
-            if (answerElement.classList.contains('show')) {
-                answerElement.classList.remove('show');
-                button.textContent = 'Show Answer';
-            } else {
-                answerElement.classList.add('show');
-                button.textContent = 'Hide Answer';
-            }
         }
 
         function showVocabulary() {
