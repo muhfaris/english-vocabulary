@@ -1,0 +1,249 @@
+- word: "Ramp up"
+  pronunciation: "/ræmp ʌp/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To increase in speed, effort, or level over a period of time. In a work context, it often means the time it takes for a new team member to become fully productive."
+    bahasa: "Meningkat dalam kecepatan, usaha, atau level selama periode waktu tertentu. Dalam konteks kerja, ini sering berarti waktu yang dibutuhkan anggota tim baru untuk menjadi produktif sepenuhnya."
+  usage: "Use 'ramp up' to describe the initial period of learning and adjustment for a new role or project."
+  synonyms:
+    - "get up to speed"
+    - "onboard"
+  examples:
+    workplace:
+      - "The first month is just for you to ramp up; don't worry about being super productive yet."
+      - "We need to factor in a ramp-up period for the new developers."
+    casual:
+      - "The movie starts slow but really ramps up in the second half."
+      - "I need to ramp up my training before the marathon."
+  related:
+    - word: "Onboarding"
+      difference: "'Onboarding' is the formal process of integrating a new employee into an organization. 'Ramp up' is the informal process of that employee learning and becoming productive."
+    - word: "Learning curve"
+      difference: "A 'learning curve' describes how difficult something is to learn. A 'ramp-up period' is the time allotted to climb that curve."
+  story: |
+    Our team hired a new engineer, Maria. During her first week, our manager told her, "Don't feel pressured to contribute code immediately. The first two weeks are your ramp-up period. Use this time to set up your development environment, read the documentation, and ask a lot of questions." This clear expectation helped Maria feel comfortable as she began to ramp up on the complex project.
+
+- word: "Backlog"
+  pronunciation: "/ˈbæk.lɒɡ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A prioritized list of tasks, features, or bug fixes that need to be done but are not currently being worked on. It's a to-do list for the team."
+    bahasa: "Daftar tugas, fitur, atau perbaikan bug yang diprioritaskan yang perlu dilakukan tetapi saat ini tidak sedang dikerjakan. Ini adalah daftar tugas untuk tim."
+  usage: "Use 'backlog' to refer to the collection of all potential work for a project."
+  synonyms:
+    - "to-do list"
+    - "task list"
+  examples:
+    workplace:
+      - "We have a lot of great ideas, but we need to add them to the backlog and prioritize them for a future sprint."
+      - "During sprint planning, we pull tasks from the product backlog into the sprint backlog."
+    casual:
+      - "I have a huge backlog of TV shows I want to watch."
+      - "My email backlog is overwhelming after my vacation."
+  related:
+    - word: "To-do list"
+      difference: "A 'to-do list' is usually personal. A 'backlog' is typically a formal, shared list for a team or product, often with a system for prioritization."
+    - word: "Sprint"
+      difference: "A 'sprint' contains the work you are actively doing *now*. The 'backlog' contains all the work you *could* do in the future."
+  story: |
+    Our product manager is excellent at maintaining the product backlog. Every new feature request, user suggestion, and low-priority bug report goes into the backlog. Before each new sprint, we have a 'backlog grooming' session where we review the items, estimate how much effort they will take, and prioritize them. This keeps us organized and ensures we're always working on the most valuable things first.
+
+- word: "Offload"
+  pronunciation: "/ˈɒf.ləʊd/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To delegate or give a task or responsibility to someone else, often to reduce your own workload."
+    bahasa: "Mendelegasikan atau memberikan tugas atau tanggung jawab kepada orang lain, seringkali untuk mengurangi beban kerja Anda sendiri."
+  usage: "Use 'offload' when you are passing work to another person, team, or system."
+  synonyms:
+    - "delegate"
+    - "hand off"
+  examples:
+    workplace:
+      - "I'm too busy this week, I need to offload some of my tasks to a junior developer."
+      - "We can offload the image processing to a separate service to improve performance."
+    casual:
+      - "Can I offload the grocery shopping to you this week?"
+      - "He tried to offload all the difficult chores onto his younger brother."
+  related:
+    - word: "Delegate"
+      difference: "'Delegate' is a more formal term, often used by managers. 'Offload' is more informal and emphasizes the goal of reducing one's own burden."
+    - word: "Assign"
+      difference: "'Assign' is a neutral term for giving someone a task. 'Offload' implies that the person giving the task was originally responsible for it."
+  story: |
+    Our senior engineer, Ken, was responsible for both developing new features and managing our cloud infrastructure. He was getting overwhelmed. To help him, the team decided to hire a dedicated DevOps engineer. This allowed Ken to offload all the infrastructure management tasks to the new hire, freeing him up to focus entirely on writing code.
+
+- word: "Handover"
+  pronunciation: "/ˈhænd.əʊ.vər/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The process of transferring responsibility and knowledge for a project or task from one person to another."
+    bahasa: "Proses pengalihan tanggung jawab dan pengetahuan untuk suatu proyek atau tugas dari satu orang ke orang lain."
+  usage: "Use 'handover' when someone is leaving a project or company, and they need to explain their work to the person taking over."
+  synonyms:
+    - "knowledge transfer"
+    - "transition"
+  examples:
+    workplace:
+      - "Before you go on vacation, please prepare a proper handover document for your projects."
+      - "The handover from the previous developer was not very good, so I'm struggling to understand the code."
+    casual:
+      - "The handover of the apartment keys will happen tomorrow."
+      - "There was a smooth handover of power between the two club presidents."
+  related:
+    - word: "Walkthrough"
+      difference: "A 'walkthrough' is a demonstration to explain something. A 'handover' is a full transfer of responsibility, which might include a walkthrough as one of its steps."
+    - word: "Documentation"
+      difference: "'Documentation' is the written material about a project. A 'handover' is the *process* of using that documentation (and other means) to transfer ownership."
+  story: |
+    One of our developers was moving to another team. In his last week, he focused on the handover. He wrote detailed documentation for the services he managed, held a two-hour meeting with the developer who would be taking over, and made sure all his recent code was clean and well-commented. Because the handover was so thorough, the transition was seamless and the project continued without any issues.
+
+- word: "Greenfield"
+  pronunciation: "/ˈɡriːn.fiːld/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Describes a new project that is starting from scratch, with no legacy code or existing systems to consider. It's a 'clean slate'."
+    bahasa: "Menjelaskan proyek baru yang dimulai dari awal, tanpa kode lama atau sistem yang ada untuk dipertimbangkan. Ini adalah 'lembaran bersih'."
+  usage: "Use 'greenfield' to describe the exciting opportunity of building something brand new, without the constraints of past decisions."
+  synonyms:
+    - "from scratch"
+    - "brand new"
+  examples:
+    workplace:
+      - "I'm so excited to be on this greenfield project; we get to choose the entire tech stack."
+      - "Most developers dream of working on a greenfield project, but they are quite rare."
+    casual:
+      - "Starting a new hobby is like a greenfield project for your life."
+      - "He moved to a new city for a complete greenfield start."
+  related:
+    - word: "Brownfield"
+      difference: "'Brownfield' is the opposite. It describes a project that must work with or modify existing systems ('legacy code')."
+    - word: "Legacy code"
+      difference: "'Legacy code' is the old code you have to deal with in a 'brownfield' project. A 'greenfield' project has no legacy code."
+  story: |
+    Our company decided to build a completely new mobile application, separate from all our existing websites. It was a true greenfield project. The team got to sit down and decide everything from the ground up: the programming language, the architecture, the database, and the cloud provider. There were no past mistakes or technical debt to worry about. It was a challenging but incredibly rewarding experience.
+
+- word: "Brownfield"
+  pronunciation: "/ˈbraʊn.fiːld/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Describes a project that adds to or modifies an existing system. The project must deal with legacy code, existing infrastructure, and previous design decisions."
+    bahasa: "Menjelaskan proyek yang menambah atau memodifikasi sistem yang sudah ada. Proyek tersebut harus berurusan dengan kode lama, infrastruktur yang ada, dan keputusan desain sebelumnya."
+  usage: "Use 'brownfield' to describe the common situation where you have to build on top of, or integrate with, older systems."
+  synonyms:
+    - "legacy project"
+    - "integration project"
+  examples:
+    workplace:
+      - "This isn't a greenfield project; we have to integrate with the old Oracle database, which is challenging."
+      - "Most of the work we do is brownfield development, improving our existing application."
+    casual:
+      - "Renovating an old house is a brownfield project; you have to work with the existing structure."
+      - "Trying to teach my grandpa how to use a smartphone is a brownfield project."
+  related:
+    - word: "Greenfield"
+      difference: "'Greenfield' is starting a project from scratch. 'Brownfield' is working on an existing one."
+    - word: "Refactor"
+      difference: "'Refactoring' is an activity you often do during 'brownfield' development to improve the existing code you have to work with."
+  story: |
+    Our new task was to add a modern recommendation engine to our 10-year-old e-commerce site. This was a classic brownfield project. We couldn't just build it in isolation. We had to carefully integrate with the old user database, the messy product catalog system, and the outdated front-end code. It required a lot of careful planning to avoid breaking anything in the existing system.
+
+- word: "Ad-hoc"
+  pronunciation: "/ˌæd ˈhɒk/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Done for a particular purpose as necessary, without planning or organization. Something that is improvised or 'on the spot'."
+    bahasa: "Dilakukan untuk tujuan tertentu seperlunya, tanpa perencanaan atau organisasi. Sesuatu yang diimprovisasi atau 'di tempat'."
+  usage: "Use 'ad-hoc' to describe tasks, queries, or meetings that are not part of a regular schedule but are done to solve a specific, immediate need."
+  synonyms:
+    - "improvised"
+    - "unplanned"
+  examples:
+    workplace:
+      - "The CEO needed a specific number, so I had to write an ad-hoc database query to get it for him."
+      - "We don't have a formal process for this; we just handle requests on an ad-hoc basis."
+    casual:
+      - "We formed an ad-hoc committee to plan the neighborhood party."
+      - "It wasn't a planned trip, it was an ad-hoc decision to go to the beach."
+  related:
+    - word: "On the fly"
+      difference: "Very similar. 'Ad-hoc' often describes the *nature* of the task (e.g., 'an ad-hoc query'), while 'on the fly' often describes *how* you do it (e.g., 'I wrote the query on the fly')."
+    - word: "Scheduled"
+      difference: "'Scheduled' tasks are planned in advance. 'Ad-hoc' tasks are not."
+  story: |
+    Usually, we have a dashboard for tracking sales. But this morning, the sales manager had a very specific question: "How many users in Germany bought a blue shirt last Tuesday?" This data wasn't on our regular dashboard. I had to go into the database and write an ad-hoc query specifically to answer that one question. It was a one-time, ad-hoc task to solve an immediate need.
+
+- word: "Nitty-gritty"
+  pronunciation: "/ˌnɪt.iˈɡrɪt.i/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The most important, practical details of a subject or situation. The essential, and often messy, core of a problem."
+    bahasa: "Detail yang paling penting dan praktis dari suatu subjek atau situasi. Inti yang esensial, dan seringkali berantakan, dari suatu masalah."
+  usage: "Use 'nitty-gritty' when you're ready to stop talking about high-level ideas and start discussing the specific, detailed work that needs to be done."
+  synonyms:
+    - "core details"
+    - "essentials"
+  examples:
+    workplace:
+      - "Okay, the high-level plan is approved. Now let's get into the nitty-gritty of how we're going to implement this."
+      - "I understand the concept, but I need you to explain the nitty-gritty details of the algorithm."
+    casual:
+      - "I love planning vacations, but my husband handles the nitty-gritty of booking flights and hotels."
+      - "He's a big-picture guy; he doesn't enjoy the nitty-gritty."
+  related:
+    - word: "Details"
+      difference: "'Details' is a general term. 'Nitty-gritty' refers specifically to the most essential, practical, and sometimes unglamorous details."
+    - word: "Deep dive"
+      difference: "A 'deep dive' is the *act* of investigating something thoroughly. The 'nitty-gritty' is the *thing* you discover during that deep dive."
+  story: |
+    In the project kickoff meeting, we talked about the vision and the high-level goals. But in the next meeting, with just the engineers, our tech lead said, "Alright team, time to get down to the nitty-gritty." We spent the next two hours discussing the specific database schema, the exact API endpoints, the error handling logic, and the security considerations. We were finally talking about the real, practical work.
+
+- word: "Outage"
+  pronunciation: "/ˈaʊ.tɪdʒ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A period of time when a service, like a website or an application, is not available or not working correctly."
+    bahasa: "Periode waktu ketika sebuah layanan, seperti situs web atau aplikasi, tidak tersedia atau tidak berfungsi dengan benar."
+  usage: "Use 'outage' to describe a situation where your system is down."
+  synonyms:
+    - "downtime"
+    - "service interruption"
+  examples:
+    workplace:
+      - "We had a major outage last night, the website was down for two hours."
+      - "The team is working hard to resolve the current outage."
+    casual:
+      - "There's a power outage in my neighborhood."
+      - "I couldn't call you because of a network outage."
+  related:
+    - word: "Crash"
+      difference: "A 'crash' is when a program stops working suddenly. An 'outage' is the user-facing result of that crash, where the service becomes unavailable."
+    - word: "Bug"
+      difference: "A 'bug' is an error in the code. A severe 'bug' can *cause* an 'outage'."
+  story: |
+    At 3 AM, our monitoring system sent an alert to the on-call engineer. The main application was down. It was a major outage. The engineer immediately woke up, got on her computer, and started investigating. She communicated with the team on Slack, and together they found the cause: a recent deployment had a critical bug. They quickly rolled back the change, and after 30 minutes of downtime, the service was restored.
+
+- word: "Post-mortem"
+  pronunciation: "/ˌpəʊstˈmɔː.təm/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A meeting or document that analyzes a project or event after it has concluded, especially to understand what went wrong and how to prevent it in the future. The name comes from the medical term for an examination after death."
+    bahasa: "Sebuah rapat atau dokumen yang menganalisis sebuah proyek atau peristiwa setelah selesai, terutama untuk memahami apa yang salah dan bagaimana cara mencegahnya di masa depan. Nama ini berasal dari istilah medis untuk pemeriksaan setelah kematian."
+  usage: "Use 'post-mortem' for the process of analyzing a failure (like an outage) or even a success, to learn from it."
+  synonyms:
+    - "retrospective"
+    - "debrief"
+  examples:
+    workplace:
+      - "We're holding a post-mortem tomorrow to discuss the recent production outage."
+      - "The post-mortem report identified the root cause of the failure and listed action items to prevent it from happening again."
+    casual:
+      - "After our failed camping trip, we had a post-mortem about what to do differently next time."
+      - "They did a post-mortem of their election campaign to see what went wrong."
+  related:
+    - word: "Retrospective"
+      difference: "A 'retrospective' is a regular meeting (often in Agile/Scrum) to review the last period of work (e.g., a sprint). A 'post-mortem' is specifically held in response to a significant event, usually a failure."
+    - word: "Blameless"
+      difference: "A 'blameless post-mortem' is a key practice in modern tech culture. It means the goal of the post-mortem is to find weaknesses in the *system*, not to blame any individual person."
+  story: |
+    After the major outage was resolved, our engineering manager scheduled a 'blameless post-mortem'. The goal was not to point fingers at who caused the problem. Instead, the team discussed the timeline of events, the root cause, and the impact. They asked questions like, "Why did our automated tests not catch this bug?" and "How can we make our deployment process safer?" The meeting resulted in several concrete action items to improve their systems.

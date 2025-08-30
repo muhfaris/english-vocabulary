@@ -5,12 +5,19 @@ from collections import Counter
 def check_duplicate_vocabularies():
     words = []
     has_duplicates = False
-    with open('vocabularies/vocabulary.yaml', 'r') as f:
-        data = yaml.safe_load(f)
-        if data:
-            for entry in data:
-                if 'word' in entry:
-                    words.append(entry['word'])
+    vocab_dir = 'vocabularies'
+    for filename in os.listdir(vocab_dir):
+        if filename.endswith('.yaml'):
+            filepath = os.path.join(vocab_dir, filename)
+            with open(filepath, 'r') as f:
+                try:
+                    data = yaml.safe_load(f)
+                    if data:
+                        for entry in data:
+                            if isinstance(entry, dict) and 'word' in entry:
+                                words.append(entry['word'])
+                except yaml.YAMLError as e:
+                    print(f"Error parsing {filepath}: {e}")
 
     word_counts = Counter(words)
     duplicates = {word: count for word, count in word_counts.items() if count > 1}
@@ -26,12 +33,17 @@ def check_duplicate_vocabularies():
 def check_duplicate_stories():
     titles = []
     has_duplicates = False
-    with open('stories/stories.yaml', 'r') as f:
-        data = yaml.safe_load(f)
-        if data:
-            for story_item in data:
-                if story_item and 'story' in story_item and 'title' in story_item['story']:
-                    titles.append(story_item['story']['title'])
+    stories_dir = 'stories'
+    for filename in os.listdir(stories_dir):
+        if filename.endswith('.yaml'):
+            filepath = os.path.join(stories_dir, filename)
+            with open(filepath, 'r') as f:
+                try:
+                    data = yaml.safe_load(f)
+                    if data and isinstance(data, dict) and 'story' in data and 'title' in data['story']:
+                        titles.append(data['story']['title'])
+                except yaml.YAMLError as e:
+                    print(f"Error parsing {filepath}: {e}")
 
     title_counts = Counter(titles)
     duplicates = {title: count for title, count in title_counts.items() if count > 1}
@@ -45,10 +57,14 @@ def check_duplicate_stories():
     return has_duplicates
 
 if __name__ == "__main__":
+    print("Checking for duplicate vocabulary words...")
     vocab_duplicates = check_duplicate_vocabularies()
+
+    print("\nChecking for duplicate story titles...")
     story_duplicates = check_duplicate_stories()
 
     if vocab_duplicates or story_duplicates:
+        print("\nDuplicate entries found. The check has failed.")
         exit(1)
     else:
-        print("No duplicates found.")
+        print("\nNo duplicates found in vocabularies or stories.")

@@ -1,0 +1,240 @@
+- word: "Bandwidth"
+  pronunciation: "/ˈbænd.wɪdθ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A person's capacity to take on more work or handle more information."
+    bahasa: "Kapasitas seseorang untuk menerima pekerjaan tambahan atau menangani lebih banyak informasi."
+  usage: "Use 'bandwidth' in a professional context to talk about your or someone else's availability and ability to handle tasks. It's a polite way to say you're too busy."
+  synonyms:
+    - "capacity"
+    - "availability"
+  examples:
+    workplace:
+      - "I don't have the bandwidth to take on another project right now."
+      - "Let's check with Sarah to see if she has the bandwidth to help with this bug."
+    casual:
+      - "Sorry, I can't join the movie night, just not enough bandwidth this week with all the chores."
+      - "I'd love to learn guitar, but I don't have the mental bandwidth for a new hobby at the moment."
+  related:
+    - word: "Capacity"
+      difference: "'Capacity' is a more general term for ability. 'Bandwidth' is a modern, informal business slang that specifically refers to work capacity, often related to time and mental load."
+    - word: "Availability"
+      difference: "'Availability' refers to the time you have free. 'Bandwidth' refers to the energy and mental capacity you have to do work within that time."
+  story: |
+    During our sprint planning meeting, the project manager proposed a new feature. My team lead looked at our current tasks and said, 'That's a great idea, but we need to be realistic about our bandwidth. The team is already fully committed to finishing the payment gateway. Let's put this in the backlog for now.' It was a good way of protecting the team from burnout.
+- word: "Ping"
+  pronunciation: "/pɪŋ/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To send a quick digital message to someone to get their attention or a quick response."
+    bahasa: "Mengirim pesan digital singkat kepada seseorang untuk mendapatkan perhatian atau respons cepat."
+  usage: "Use 'ping' when you're talking about sending a quick message on a chat platform like Slack, Microsoft Teams, or Discord. It's informal and very common."
+  synonyms:
+    - "message"
+    - "contact"
+  examples:
+    workplace:
+      - "I'll ping you on Slack with the details."
+      - "If you finish your part, just ping me and I'll review it."
+    casual:
+      - "Ping me when you get home so I know you're safe."
+      - "I'll ping the group chat to see who's coming."
+  related:
+    - word: "Message"
+      difference: "'Message' is a general term for any text communication. 'Ping' specifically implies a short, quick message designed to get a fast response, like a poke."
+    - word: "Call"
+      difference: "A 'call' involves voice or video communication. A 'ping' is always text-based."
+  story: |
+    I was stuck on a piece of code and couldn't figure out the correct API endpoint to use. I remembered my colleague, David, had worked on a similar feature. Instead of walking over to his desk and interrupting him, I just sent him a quick message on Slack: 'Hey David, quick question about the user service.' I decided to ping him because it was a small question, and this way he could answer whenever he had a free moment.
+- word: "Sync up"
+  pronunciation: "/sɪŋk ʌp/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To meet with someone to coordinate, share information, and ensure everyone is on the same page."
+    bahasa: "Bertemu dengan seseorang untuk berkoordinasi, berbagi informasi, dan memastikan semua orang memiliki pemahaman yang sama."
+  usage: "Use 'sync up' for a short, informal meeting. It's less formal than 'schedule a meeting' and implies a quick alignment."
+  synonyms:
+    - "coordinate"
+    - "align"
+  examples:
+    workplace:
+      - "Let's sync up for 15 minutes tomorrow morning to discuss the plan."
+      - "The frontend and backend teams need to sync up about the API contract."
+    casual:
+      - "Let's sync up later to decide where to go for dinner."
+      - "We should sync up before the trip to make sure we all pack the right things."
+  related:
+    - word: "Meet"
+      difference: "'Meet' is a very general term. 'Sync up' specifically implies that the purpose of the meeting is to align and share updates, often on an ongoing project."
+    - word: "Catch up"
+      difference: "'Catch up' is often more social and personal. 'Sync up' is more task or project-oriented."
+  story: |
+    Our team is working remotely from different time zones. To make sure we're all working together effectively, we have a quick 'sync up' every morning. It's not a long, formal meeting. We just spend 10-15 minutes sharing what we worked on yesterday and what our plans are for today. This daily sync up helps us stay connected and solve problems quickly.
+- word: "Deep dive"
+  pronunciation: "/diːp daɪv/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To do an in-depth investigation or analysis of a specific topic or issue."
+    bahasa: "Melakukan investigasi atau analisis mendalam terhadap topik atau masalah tertentu."
+  usage: "Use 'deep dive' when you're going to spend a significant amount of time and effort to fully understand a complex subject."
+  synonyms:
+    - "thorough analysis"
+    - "comprehensive review"
+  examples:
+    workplace:
+      - "We need to do a deep dive into the performance issues with the database."
+      - "Next week, I'm doing a deep dive on the new framework to see if it fits our needs."
+    casual:
+      - "I did a deep dive on YouTube last night and learned all about ancient Roman history."
+      - "She's doing a deep dive into classic literature this summer."
+  related:
+    - word: "Investigate"
+      difference: "'Investigate' is a standard term. 'Deep dive' is a more modern, informal business term that emphasizes the depth and intensity of the investigation."
+    - word: "Look into"
+      difference: "'Look into' implies a brief, surface-level examination. A 'deep dive' is the opposite; it's a thorough and detailed exploration."
+  story: |
+    Our application was running slowly, but we didn't know why. The initial checks didn't reveal anything obvious. So, our senior engineer decided it was time for a 'deep dive'. She blocked off her entire afternoon, armed herself with profiling tools, and went through the code, layer by layer. After a few hours, she emerged with a detailed analysis of the bottlenecks. The deep dive was successful.
+- word: "On the fly"
+  pronunciation: "/ɒn ðə flaɪ/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To do something quickly, without much preparation, often in response to a situation as it happens."
+    bahasa: "Melakukan sesuatu dengan cepat, tanpa banyak persiapan, seringkali sebagai respons terhadap situasi yang sedang terjadi."
+  usage: "Use 'on the fly' when you have to make a quick decision or create something spontaneously."
+  synonyms:
+    - "spontaneously"
+    - "impromptu"
+  examples:
+    workplace:
+      - "The client asked for a different layout, so I had to change the CSS on the fly during the presentation."
+      - "We don't have a script for this, we'll just have to figure it out on the fly."
+    casual:
+      - "I didn't have a recipe, so I just made up the sauce on the fly."
+      - "He's great at giving speeches on the fly."
+  related:
+    - word: "Improvise"
+      difference: "'Improvise' is a good synonym. 'On the fly' is a bit more common in tech and business settings and often relates to making adjustments to a plan that's already in motion."
+    - word: "Spontaneously"
+      difference: "'Spontaneously' describes an action that arises from a sudden internal impulse. 'On the fly' describes an action that is a reaction to external events as they unfold."
+  story: |
+    We were doing a live demo of our new software for a potential client. Suddenly, the client asked, 'Can it do X?' We hadn't prepared for that question, and the feature wasn't fully polished. My manager, a quick thinker, started coding a small script on the fly while I kept the client engaged. In a few minutes, he had a working prototype. The client was very impressed with our ability to adapt on the fly.
+- word: "Blocker"
+  pronunciation: "/ˈblɒk.ər/"
+  part_of_speech: "noun"
+  meaning:
+    english: "An issue or problem that is completely preventing you from making progress on a task."
+    bahasa: "Sebuah masalah atau problem yang sepenuhnya menghalangi Anda untuk membuat kemajuan pada suatu tugas."
+  usage: "Use 'blocker' during stand-up meetings or in project updates to signal that you are stuck and need help."
+  synonyms:
+    - "obstacle"
+    - "impediment"
+  examples:
+    workplace:
+      - "I can't continue with the front-end work. The API is not ready, so that's my main blocker."
+      - "Do you have any blockers we can help you with?"
+    casual:
+      - "My main blocker to cleaning the garage is that I don't know where to start."
+      - "Lack of motivation is a real blocker for my gym schedule."
+  related:
+    - word: "Problem"
+      difference: "A 'problem' is any issue. A 'blocker' is a specific type of problem that stops all progress. It's more severe."
+    - word: "Hurdle"
+      difference: "A 'hurdle' is an obstacle you need to overcome, but it might not completely stop your progress. A 'blocker' is a wall."
+  story: |
+    During our daily stand-up meeting, I gave my update: 'Yesterday I was working on the user login page. Today, I plan to continue, but I have a blocker. I need the API key for the Google sign-in service, and I don't have the credentials.' Our team lead immediately took note and said he would get me the key after the meeting. Identifying the blocker clearly allowed the team to resolve it quickly.
+- word: "Refactor"
+  pronunciation: "/riːˈfæk.tər/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To restructure existing computer code—changing the factoring—without changing its external behavior. The goal is to improve readability, reduce complexity, and make it easier to maintain."
+    bahasa: "Mestruktur ulang kode komputer yang ada—mengubah pemfaktoran—tanpa mengubah perilaku eksternalnya. Tujuannya adalah untuk meningkatkan keterbacaan, mengurangi kompleksitas, dan membuatnya lebih mudah untuk dipelihara."
+  usage: "Use 'refactor' when you are cleaning up or improving existing code, not adding new features."
+  synonyms:
+    - "restructure"
+    - "reorganize"
+  examples:
+    workplace:
+      - "This function is working, but it's very messy. We should schedule some time to refactor it."
+      - "I'm not adding any new features this week, I'm just refactoring the old payment module."
+    casual:
+      - "I'm going to refactor my closet this weekend, organize it better so I can find my clothes."
+      - "He refactored his morning routine for better productivity."
+  related:
+    - word: "Rewrite"
+      difference: "'Rewriting' code often implies starting from scratch. 'Refactoring' is making small, incremental improvements to existing code while ensuring it still works the same way."
+    - word: "Optimize"
+      difference: "'Optimizing' is specifically about making the code faster or more efficient. 'Refactoring' is about making it cleaner and more maintainable, which might not always make it faster."
+  story: |
+    We inherited a piece of code that was written five years ago. It worked, but it was very difficult to understand. No one wanted to touch it. Finally, our tech lead decided we had to 'refactor' it. For two weeks, we didn't add any new functionality. Instead, we carefully reorganized the code, renamed variables to be clearer, broke down long functions into smaller ones, and added comments. The code did the exact same thing as before, but now it was clean, organized, and easy for new developers to understand.
+- word: "Scope creep"
+  pronunciation: "/skoʊp kriːp/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "When the requirements or goals of a project expand and change from what was originally defined at the start."
+    bahasa: "Ketika persyaratan atau tujuan sebuah proyek meluas dan berubah dari apa yang semula ditetapkan di awal."
+  usage: "Use 'scope creep' to describe the common project management problem where a project gets bigger and bigger over time, often leading to delays."
+  synonyms:
+    - "requirement creep"
+    - "feature expansion"
+  examples:
+    workplace:
+      - "The client keeps asking for 'small' changes. We need to be careful about scope creep."
+      - "This project is a month late, mainly due to constant scope creep."
+    casual:
+      - "I just wanted to clean the kitchen, but scope creep happened, and now I'm reorganizing the whole house."
+      - "The plan was a simple weekend trip, but scope creep turned it into a two-week international vacation."
+  related:
+    - word: "Feature creep"
+      difference: "'Feature creep' is a specific type of 'scope creep' where the expansion is due to adding more and more new features."
+    - word: "Gold plating"
+      difference: "'Gold plating' is when a developer adds unnecessary features that weren't requested, thinking it will add value. 'Scope creep' usually comes from external requests from clients or stakeholders."
+  story: |
+    Our project was supposed to be a simple website with three pages. We had a clear plan and a deadline. But then, the marketing team asked for a blog section. Then, the sales team wanted a contact form with complex logic. Then, the CEO suggested adding an e-commerce store. This is a classic case of 'scope creep'. What started as a small, manageable project was slowly turning into a monster that was impossible to deliver on time.
+- word: "Workaround"
+  pronunciation: "/ˈwɜːrk.əˌraʊnd/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A temporary and often imperfect solution to a problem. It's a way to get past a bug or issue so you can continue working."
+    bahasa: "Solusi sementara dan seringkali tidak sempurna untuk suatu masalah. Ini adalah cara untuk melewati bug atau masalah agar Anda dapat terus bekerja."
+  usage: "Use 'workaround' when you've found a way to bypass a problem, but it's not the final, proper fix."
+  synonyms:
+    - "temporary fix"
+    - "bypass solution"
+  examples:
+    workplace:
+      - "The library has a bug, but I found a workaround that lets us move forward for now."
+      - "This is just a temporary workaround. We need to create a ticket for a permanent fix."
+    casual:
+      - "The handle on my mug is broken, so as a workaround, I just hold it with two hands."
+      - "My Wi-Fi is down, so I'm using my phone's hotspot as a workaround."
+  related:
+    - word: "Solution"
+      difference: "A 'solution' or 'fix' is the proper, permanent way to solve a problem. A 'workaround' is a temporary patch that avoids the problem instead of solving it at its root."
+    - word: "Hack"
+      difference: "A 'hack' can be a clever solution, but it often implies a quick-and-dirty or inelegant solution. 'Workaround' is a more professional and neutral term for a temporary fix."
+  story: |
+    We discovered a bug in the third-party charting library we were using. When we fed it negative numbers, the chart would crash. We reported the bug to the library's developers, but they said a fix wouldn't be available for weeks. We couldn't wait that long. So, our team came up with a 'workaround'. Before passing data to the chart, we checked for negative numbers and replaced them with zero. It wasn't perfect, but it prevented the app from crashing and allowed us to release our feature on time.
+- word: "Sanity check"
+  pronunciation: "/ˈsæn.ə.ti tʃek/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A quick, basic test to see if a claim, a piece of code, or the result of a calculation can possibly be true. It helps catch obvious errors."
+    bahasa: "Tes dasar dan cepat untuk melihat apakah sebuah klaim, sepotong kode, atau hasil perhitungan mungkin benar. Ini membantu menangkap kesalahan yang jelas."
+  usage: "Use 'sanity check' for a quick verification you do to make sure your work is reasonable and not completely wrong before you proceed with more thorough testing."
+  synonyms:
+    - "reality check"
+    - "quick verification"
+  examples:
+    workplace:
+      - "Before I push this code, I'm just going to do a quick sanity check to make sure the app still runs."
+      - "Can you do a sanity check on these numbers for me? They seem too high."
+    casual:
+      - "I did a sanity check of my suitcase to make sure I have my passport and wallet."
+      - "The recipe says 10 cups of sugar. That can't be right. Let me do a sanity check."
+  related:
+    - word: "Test"
+      difference: "A 'test' (like a unit test) is a formal, often automated, check for specific correctness. A 'sanity check' is an informal, often manual, high-level check for basic sensibility."
+    - word: "Smoke test"
+      difference: "A 'smoke test' is a slightly more formal set of basic tests to ensure the most crucial functions of a program work. A 'sanity check' can be even smaller and more informal, sometimes just looking at the code or data."
+  story: |
+    I had just finished writing a complex piece of logic that calculated shipping costs. Before I wrote all the detailed unit tests, I wanted to do a quick 'sanity check'. I ran the function with a few simple inputs. 'If the cart is empty, is the shipping cost zero? Yes. If the destination is local, is the cost low? Yes. If the item is very heavy, is the cost high? Yes.' Since the results made sense at a high level, I was confident enough to proceed with writing the full test suite.
