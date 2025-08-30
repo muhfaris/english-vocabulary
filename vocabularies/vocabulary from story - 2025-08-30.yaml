@@ -454,7 +454,6 @@
       difference: "'Elasticity' is the ability of a system to automatically add or remove resources as needed. It's a common technique for achieving scalability."
   story: |
     When we first launched our app, it worked perfectly with a few hundred users. But as we grew to millions of users, we started facing major performance problems. The original design did not consider scalability. We had to spend an entire quarter re-architecting our system to handle the increased load. It was a painful lesson in the importance of planning for scalability from the beginning.
-<<<<<<< HEAD
 - word: "Technical debt"
   pronunciation: "/ˈtek.nɪ.kəl det/"
   part_of_speech: "phrase"
