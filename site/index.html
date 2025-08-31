@@ -1266,6 +1266,20 @@
             gap: 30px;
         }
 
+        .dialogue-two-column {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        @media (max-width: 768px) {
+            .dialogue-two-column {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+        }
+
         .dialogue-section {
             background: #f8f9fa;
             border-radius: 15px;
@@ -1363,8 +1377,13 @@
         .expression-phrase {
             font-size: 1.1rem;
             font-weight: 700;
-            color: #2c3e50;
+            color: white;
             margin-bottom: 8px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            padding: 8px 12px;
+            border-radius: 8px;
+            display: inline-block;
+            box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
         }
 
         .expression-meaning {
@@ -1383,6 +1402,18 @@
 
         .expression-bahasa.show {
             display: block;
+        }
+
+        /* Fix button styling in expressions section */
+        .dialogue-expressions .toggle-translation {
+            background: #4ecdc4;
+            color: white;
+            border: 1px solid #4ecdc4;
+        }
+
+        .dialogue-expressions .toggle-translation:hover {
+            background: #44a08d;
+            border-color: #44a08d;
         }
 
         /* Question Styles */
@@ -1867,7 +1898,7 @@
                 <h2 class="dialogue-modal-title" id="dialogueModalTitle"></h2>
                 <button class="close-btn" onclick="closeDialogueModal()">&times;</button>
             </div>
-            <div class="dialogue-sections">
+            <div class="dialogue-two-column">
                 <div class="dialogue-section">
                     <h3>💬 Conversation</h3>
                     <div class="dialogue-conversation" id="dialogueConversation"></div>
@@ -1876,6 +1907,8 @@
                     <h3>📝 Key Expressions</h3>
                     <div class="dialogue-expressions" id="dialogueExpressions"></div>
                 </div>
+            </div>
+            <div class="dialogue-sections">
                 <div class="dialogue-section">
                     <h3>❓ Comprehension Questions</h3>
                     <div class="dialogue-questions" id="dialogueQuestions"></div>
