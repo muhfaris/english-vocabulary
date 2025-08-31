@@ -2684,6 +2684,7 @@
             const storiesMenuItem = document.getElementById('storiesMenuItem');
             
             showingStories = true;
+            showingDialogues = false;
             
             // Hide vocabulary elements
             vocabularyGrid.style.display = 'none';
@@ -2701,13 +2702,17 @@
             // Update menu active states for both desktop and mobile
             const vocabularyMenuItemDesktop = document.getElementById('vocabularyMenuItemDesktop');
             const storiesMenuItemDesktop = document.getElementById('storiesMenuItemDesktop');
+            const dialoguesMenuItemDesktop = document.getElementById('dialoguesMenuItemDesktop');
             const vocabularyMenuItemMobile = document.getElementById('vocabularyMenuItemMobile');
             const storiesMenuItemMobile = document.getElementById('storiesMenuItemMobile');
+            const dialoguesMenuItemMobile = document.getElementById('dialoguesMenuItemMobile');
             
             vocabularyMenuItemDesktop.classList.remove('active');
             storiesMenuItemDesktop.classList.add('active');
+            dialoguesMenuItemDesktop.classList.remove('active');
             vocabularyMenuItemMobile.classList.remove('active');
             storiesMenuItemMobile.classList.add('active');
+            dialoguesMenuItemMobile.classList.remove('active');
             
             // Update header
             document.getElementById('headerTitle').textContent = '📖 Professional Stories';
