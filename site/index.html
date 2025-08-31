@@ -2674,6 +2674,7 @@
             
             const vocabularyGrid = document.getElementById('vocabularyGrid');
             const storiesGrid = document.getElementById('storiesGrid');
+            const dialoguesGrid = document.getElementById('dialoguesGrid');
             const statsSection = document.getElementById('statsSection');
             const dateRangeContainer = document.getElementById('dateRangeContainer');
             const shuffleBtn = document.getElementById('shuffleBtn');
@@ -2686,8 +2687,9 @@
             showingStories = true;
             showingDialogues = false;
             
-            // Hide vocabulary elements
+            // Hide vocabulary and dialogues elements
             vocabularyGrid.style.display = 'none';
+            dialoguesGrid.style.display = 'none';
             statsSection.style.display = 'none';
             shuffleBtn.style.display = 'none';
             randomBtn.style.display = 'none';
