@@ -1,0 +1,16 @@
+story:
+  title: "a-hectic-monday-sprint"
+  date: "2025-09-01"
+  text: |
+    Monday morning started with our usual sprint planning meeting. We reviewed the backlog and discussed our **capacity** for the next two weeks. Everything seemed straightforward until Alex mentioned a potential **blocker** with the payment gateway integration. It was a critical piece of our next feature, so we spent a good thirty minutes trying to find a path forward. We finally reached an **alignment** on a temporary workaround and assigned a task to investigate the root cause.
+
+    After the meeting, I put on my headphones and went completely **heads-down**, trying to finish the UI components for the new dashboard. The goal was to deliver a small **increment** of value by the end of the week. The afternoon was a blur of coding and a quick sync with the designer to make sure my work matched the mockups.
+
+    We ended the day with a team **retrospective** from the previous sprint. It was a good session where we celebrated our wins and openly discussed what went wrong. We came up with a few action items to improve our process. It felt like a productive, albeit hectic, start to the week.
+  highlighted_words:
+    - "capacity"
+    - "blocker"
+    - "alignment"
+    - "heads-down"
+    - "increment"
+    - "retrospective"
