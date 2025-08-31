@@ -1,0 +1,249 @@
+- word: "offboarding"
+  pronunciation: "/ˈɔfˌbɔrdɪŋ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The process of a team member leaving a company or project, including knowledge transfer and revoking access."
+    bahasa: "Proses keluarnya anggota tim dari perusahaan atau proyek, termasuk transfer pengetahuan dan pencabutan akses."
+  usage: "Use when discussing the formal procedures for an employee's departure to ensure a smooth transition."
+  synonyms:
+    - "exit process"
+    - "departure procedure"
+  examples:
+    workplace:
+      - "We need to schedule a proper offboarding for Sarah to ensure all her project knowledge is documented."
+      - "The offboarding checklist includes returning the company laptop and signing the final paperwork."
+    casual:
+      - "His offboarding was so quick; one day he was here, the next day his access was gone."
+      - "I'm sad about her leaving, but at least the offboarding process will give us a chance to say a proper goodbye."
+  related:
+    - word: "onboarding"
+      difference: "Onboarding is the process of integrating a new employee, while offboarding is for a departing employee."
+    - word: "handover"
+      difference: "Handover is a key part of offboarding, focusing specifically on transferring responsibilities and knowledge."
+  story: |
+    When our lead developer decided to move to another country, the offboarding process was critical. We spent two weeks documenting his work, transferring ownership of key services, and ensuring a smooth handover to the new lead. It was sad to see him go, but the structured offboarding prevented any major disruptions to our workflow.
+
+- word: "heads-down"
+  pronunciation: "/hɛdz-daʊn/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Deeply focused on work, without distractions."
+    bahasa: "Sangat fokus pada pekerjaan, tanpa gangguan."
+  usage: "Use to describe a period of intense, focused work, often before a deadline."
+  synonyms:
+    - "focused"
+    - "concentrated"
+  examples:
+    workplace:
+      - "I'll be heads-down this afternoon trying to finish the feature, so please ping me only if it's urgent."
+      - "The team is in a heads-down period to clear the technical debt before the next sprint."
+    casual:
+      - "I need a few hours of heads-down time to finish my assignment."
+      - "She put on her headphones and went heads-down to study for her exam."
+  related:
+    - word: "deep work"
+      difference: "Deep work is a concept of focused work, while 'heads-down' is a more informal term to describe the state of being focused."
+    - word: "in the zone"
+      difference: "Similar to 'heads-down,' but 'in the zone' often implies a state of high performance and flow."
+  story: |
+    With the release date just a week away, the entire development team went heads-down. Noise-canceling headphones became the unofficial uniform, and status updates on Slack were often met with a simple 'heads-down on the feature' response. It was intense, but this focused effort was exactly what we needed to get everything ready on time.
+
+- word: "commit"
+  pronunciation: "/kəˈmɪt/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A snapshot of changes to files in a version control system like Git. Each commit has a unique ID and a message."
+    bahasa: "Sebuah rekaman (snapshot) dari perubahan pada file dalam sistem kontrol versi seperti Git. Setiap commit memiliki ID unik dan pesan."
+  usage: "Use when talking about saving changes to a code repository."
+  synonyms:
+    - "revision"
+    - "version"
+  examples:
+    workplace:
+      - "Please write a clear commit message so we know what changes you made."
+      - "I just pushed a new commit that should fix the bug."
+    casual:
+      - "I made a commit to my personal project last night."
+      - "Think of each commit as a save point in your project's history."
+  related:
+    - word: "push"
+      difference: "'Commit' saves changes locally, while 'push' sends your committed changes to a remote repository."
+    - word: "branch"
+      difference: "A 'branch' is a separate line of development, and a 'commit' is a single point of change within that branch."
+  story: |
+    I spent the morning working on a new feature. After writing the code and adding a test, I was ready to save my progress. I made a commit with the message 'feat: add user authentication endpoint.' This single commit packaged all my changes neatly, making it easy for my teammates to review later.
+
+- word: "branch"
+  pronunciation: "/bræntʃ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A parallel version of a repository in Git. It allows you to work on different features or fixes without affecting the main codebase."
+    bahasa: "Versi paralel dari sebuah repositori di Git. Ini memungkinkan Anda untuk mengerjakan fitur atau perbaikan yang berbeda tanpa memengaruhi basis kode utama."
+  usage: "Use when discussing separate lines of development in version control."
+  synonyms:
+    - "line of development"
+    - "version"
+  examples:
+    workplace:
+      - "Create a new branch for each feature you work on."
+      - "I'm going to merge the feature branch into the main branch now."
+    casual:
+      - "I have a 'dev' branch where I experiment with new ideas for my blog."
+      - "Working on a separate branch keeps your main code clean."
+  related:
+    - word: "merge"
+      difference: "'Merge' is the action of combining changes from one branch into another."
+    - word: "main/master"
+      difference: "'main' (or 'master') is typically the primary, stable branch in a repository."
+  story: |
+    When a new task to update the user profile page came in, the first thing I did was create a new branch called `feature/update-profile-page`. This allowed me to work in isolation, making all the necessary changes without worrying about breaking the main application. Once I was done, I'd merge this branch back.
+
+- word: "pull request"
+  pronunciation: "/pʊl rɪˈkwɛst/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A request to merge changes from one branch into another in a Git repository. It's a way to propose and discuss changes before they are integrated."
+    bahasa: "Permintaan untuk menggabungkan perubahan dari satu branch ke branch lain di repositori Git. Ini adalah cara untuk mengusulkan dan mendiskusikan perubahan sebelum diintegrasikan."
+  usage: "Use when you have completed work on a branch and want it to be reviewed and merged."
+  synonyms:
+    - "merge request"
+    - "PR"
+  examples:
+    workplace:
+      - "I've opened a pull request for my changes. Can you please review it?"
+      - "The pull request has some comments that need to be addressed before it can be merged."
+    casual:
+      - "I submitted my first pull request to an open-source project today!"
+      - "A good pull request has a clear description of the changes."
+  related:
+    - word: "code review"
+      difference: "A code review is the process of examining the code within a pull request."
+    - word: "commit"
+      difference: "A pull request is typically composed of one or more commits."
+  story: |
+    After finishing the new login feature on my branch, I created a pull request. I added a detailed description explaining what I did and why. My team lead reviewed it, left a few comments for minor improvements, and once I addressed them, he approved the pull request and merged it into the main codebase.
+
+- word: "merge conflict"
+  pronunciation: "/mɜrdʒ ˈkɒnflɪkt/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "An issue that arises when Git is unable to automatically merge changes from different branches because they modify the same part of a file."
+    bahasa: "Masalah yang muncul ketika Git tidak dapat secara otomatis menggabungkan perubahan dari branch yang berbeda karena mereka memodifikasi bagian file yang sama."
+  usage: "Use when you encounter an error while trying to merge branches that have conflicting changes."
+  synonyms:
+    - "conflict"
+    - "merge issue"
+  examples:
+    workplace:
+      - "I have a merge conflict in my branch, so I need to resolve it before I can continue."
+      - "Let's sync up to resolve this merge conflict together, as we both edited the same configuration file."
+    casual:
+      - "Dealing with a merge conflict is a common headache for developers."
+      - "I spent an hour fixing a tricky merge conflict."
+  related:
+    - word: "merge"
+      difference: "A merge conflict is a problem that can occur during a merge operation."
+    - word: "resolve"
+      difference: "'Resolve' is the action of fixing a merge conflict by choosing which changes to keep."
+  story: |
+    I tried to merge the `develop` branch into my feature branch to get the latest updates, but I was immediately hit with a merge conflict. It turned out another developer and I had both modified the same CSS file. I had to manually edit the file to combine our changes correctly before I could complete the merge.
+
+- word: "repository"
+  pronunciation: "/rɪˈpɒzɪtɔri/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A central location where code and other project files are stored and managed, often using a version control system like Git."
+    bahasa: "Lokasi pusat tempat kode dan file proyek lainnya disimpan dan dikelola, seringkali menggunakan sistem kontrol versi seperti Git."
+  usage: "Use to refer to a project's codebase, especially on platforms like GitHub or GitLab."
+  synonyms:
+    - "repo"
+    - "codebase"
+  examples:
+    workplace:
+      - "Please clone the repository to your local machine to get started."
+      - "The project documentation is in the same repository as the code."
+    casual:
+      - "I have a repository on GitHub for all my personal projects."
+      - "He shared the link to his repository so I could see his code."
+  related:
+    - word: "clone"
+      difference: "'Clone' is the action of creating a local copy of a remote repository."
+    - word: "directory"
+      difference: "A repository is a directory with version control history, not just a simple folder."
+  story: |
+    For our new project, we set up a repository on GitHub. It contains all our source code, documentation, and configuration files. Every team member has a local copy of the repository, and we all push our changes to this central location, keeping everyone in sync.
+
+- word: "clone"
+  pronunciation: "/kloʊn/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To create a local copy of a remote Git repository on your own computer."
+    bahasa: "Membuat salinan lokal dari repositori Git jarak jauh di komputer Anda sendiri."
+  usage: "Use when you are setting up a project on your machine for the first time."
+  synonyms:
+    - "copy"
+    - "download"
+  examples:
+    workplace:
+      - "To start working, you first need to clone the project's repository."
+      - "I'll clone the repo and try to reproduce the bug."
+    casual:
+      - "I'm going to clone that cool open-source project to play around with it."
+      - "Just run `git clone` with the URL to get the code."
+  related:
+    - word: "fork"
+      difference: "'Clone' creates a local copy, while 'fork' creates a new remote repository on your own account, from which you can then clone."
+    - word: "repository"
+      difference: "A 'repository' is the project itself; to 'clone' is the action of copying it."
+  story: |
+    It was my first day on the new team. My manager sent me a link to our project's repository on GitLab. The first thing I did was clone it to my laptop. Within minutes, I had the entire codebase on my machine, ready to be explored and compiled.
+
+- word: "fork"
+  pronunciation: "/fɔrk/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To create a personal copy of someone else's repository on a platform like GitHub. This allows you to make changes without affecting the original project."
+    bahasa: "Membuat salinan pribadi dari repositori orang lain di platform seperti GitHub. Ini memungkinkan Anda membuat perubahan tanpa memengaruhi proyek asli."
+  usage: "Use when you want to contribute to an open-source project or experiment with a project you don't have direct access to."
+  synonyms:
+    - "branch off"
+    - "copy"
+  examples:
+    workplace:
+      - "If you want to contribute to our open-source library, please fork the repository first."
+      - "He decided to fork the project to take it in a new direction."
+    casual:
+      - "I found a cool project, so I'm going to fork it and add some of my own features."
+      - "The beauty of open source is that you can fork any project you like."
+  related:
+    - word: "clone"
+      difference: "You 'fork' a repository on the remote server (e.g., GitHub), and then you 'clone' your fork to your local machine."
+    - word: "pull request"
+      difference: "After you 'fork' a project and make changes, you typically open a 'pull request' to suggest your changes to the original repository."
+  story: |
+    I found a bug in an open-source library I was using. Since I didn't have permission to push changes directly, I had to fork the repository. This created a copy under my own GitHub account. I then cloned my fork, fixed the bug, and submitted a pull request back to the original project.
+
+- word: "scrum"
+  pronunciation: "/skrʌm/"
+  part_of_speech: "noun"
+  meaning:
+    english: "An Agile framework for managing and completing complex projects, characterized by sprints, daily stand-ups, and defined roles like Scrum Master and Product Owner."
+    bahasa: "Kerangka kerja Agile untuk mengelola dan menyelesaikan proyek kompleks, yang ditandai oleh sprint, stand-up harian, dan peran yang ditentukan seperti Scrum Master dan Product Owner."
+  usage: "Use when referring to the specific Agile methodology your team uses for project management."
+  synonyms:
+    - "agile methodology"
+    - "framework"
+  examples:
+    workplace:
+      - "Our team follows the Scrum framework, with two-week sprints."
+      - "In our daily Scrum, we discuss what we did yesterday, what we'll do today, and any blockers."
+    casual:
+      - "He's a certified Scrum Master."
+      - "Scrum helps teams deliver value to customers more frequently."
+  related:
+    - word: "agile"
+      difference: "Agile is a broad set of principles, while Scrum is a specific framework for implementing those principles."
+    - word: "kanban"
+      difference: "Kanban is another Agile framework that focuses on continuous flow, whereas Scrum is based on fixed-length iterations (sprints)."
+  story: |
+    Our team adopted Scrum a year ago, and it has transformed how we work. We plan our work in two-week sprints, have a quick daily meeting to stay aligned, and a retrospective at the end of each sprint to improve our process. This Scrum framework has brought more structure and predictability to our projects.
