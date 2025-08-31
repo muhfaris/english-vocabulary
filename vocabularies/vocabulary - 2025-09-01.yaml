@@ -1,0 +1,249 @@
+- word: "Heads-down"
+  pronunciation: "/ˌhedzˈdaʊn/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "To be deeply focused on work, ignoring all distractions."
+    bahasa: "Sangat fokus pada pekerjaan, mengabaikan semua gangguan."
+  usage: "Use 'heads-down' to describe a period of intense, focused work, often to meet a deadline. It's the opposite of being in meetings or doing collaborative tasks."
+  synonyms:
+    - "focused"
+    - "in the zone"
+  examples:
+    workplace:
+      - "I'm going to be heads-down this afternoon to finish the feature."
+      - "Let's give Maria some space, she's in heads-down mode trying to fix that bug."
+    casual:
+      - "I have a big exam tomorrow, so I'll be heads-down studying all night."
+      - "He was heads-down in his book and didn't even notice me walk in."
+  related:
+    - word: "Heads-up"
+      difference: "'Heads-up' is a warning you give to others. 'Heads-down' is a state of focus for yourself."
+    - word: "Deep work"
+      difference: "'Deep work' is a broader concept about the ability to focus without distraction. 'Heads-down' is the practical application of deep work for a specific period."
+  story: |
+    Our deadline was approaching fast. To make sure we delivered on time, the team agreed to have a 'heads-down' day. We cancelled all non-essential meetings, put on our headphones, and focused solely on writing code. By the end of the day, with everyone completely heads-down, we had made more progress than we had in the previous three days combined.
+
+- word: "Caveat"
+  pronunciation: "/ˈkæv.i.æt/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A warning or a statement of specific conditions or limitations on something."
+    bahasa: "Peringatan atau pernyataan tentang kondisi atau batasan spesifik pada sesuatu."
+  usage: "Use 'caveat' to introduce a limitation or a 'but' to a statement you've just made. It's a way to make your statement more accurate and manage expectations."
+  synonyms:
+    - "warning"
+    - "proviso"
+  examples:
+    workplace:
+      - "The new feature is ready to be tested, with the caveat that it only works on Chrome for now."
+      - "I think we can finish this by Friday. The big caveat is that we don't get any unexpected bugs."
+    casual:
+      - "I'll lend you my car, with the caveat that you have to fill up the tank before returning it."
+      - "This restaurant has the best food. The only caveat is that it's very expensive."
+  related:
+    - word: "Disclaimer"
+      difference: "A 'disclaimer' is often a formal legal statement to deny responsibility. A 'caveat' is a more general warning or condition about a specific situation."
+    - word: "Condition"
+      difference: "A 'condition' is a prerequisite. A 'caveat' is more of a limitation or exception on something that is otherwise true."
+  story: |
+    During a demo, the project manager announced, "The new reporting dashboard is complete!" The team was thrilled. But then the lead engineer added a caveat: "The data is only updated once every 24 hours, so it's not real-time." This caveat was important to mention so that the stakeholders would have the right expectations and not be disappointed when they didn't see live data.
+
+- word: "Nudge"
+  pronunciation: "/nʌdʒ/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To gently remind or encourage someone to do something."
+    bahasa: "Mengingatkan atau mendorong seseorang dengan lembut untuk melakukan sesuatu."
+  usage: "Use 'nudge' as a soft, friendly way to follow up with someone. It's less demanding than 'remind' and is perfect for team communication."
+  synonyms:
+    - "gently remind"
+    - "prompt"
+  examples:
+    workplace:
+      - "The code review has been waiting for a day. I'll give him a gentle nudge on Slack."
+      - "Could you nudge the design team about the new icons? The ticket is waiting on them."
+    casual:
+      - "I had to nudge my friend to remind him he owed me money."
+      - "She gave me a little nudge to get my attention."
+  related:
+    - word: "Remind"
+      difference: "'Remind' can sound a bit demanding. 'Nudge' is softer and more informal, implying a gentle push in the right direction."
+    - word: "Ping"
+      difference: "'Ping' is the action of sending a message. 'Nudge' is the purpose of that message. You might 'ping' someone to 'nudge' them about a task."
+  story: |
+    My pull request had been approved by one colleague, but I needed a second approval to merge it. I saw that the other reviewer, Sarah, was busy in meetings all day. I didn't want to pressure her, so the next morning I sent her a soft nudge. I just left a comment on the PR saying, "Hey Sarah, whenever you have a moment, I'd appreciate your review on this." The gentle nudge worked, and she approved it an hour later.
+
+- word: "Resonate"
+  pronunciation: "/ˈrez.ə.neɪt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To evoke a feeling of shared experience or belief. When an idea 'resonates' with you, it feels true or important to you."
+    bahasa: "Membangkitkan perasaan pengalaman atau keyakinan bersama. Ketika sebuah ide 'beresonansi' dengan Anda, ide itu terasa benar atau penting bagi Anda."
+  usage: "Use 'resonate' to express that you strongly agree with or are moved by an idea, a proposal, or a user's feedback."
+  synonyms:
+    - "strike a chord"
+    - "connect with"
+  examples:
+    workplace:
+      - "That suggestion really resonates with me; I think it's the right direction for the project."
+      - "We need to build features that resonate with our target audience."
+    casual:
+      - "The message in her speech really resonated with the crowd."
+      - "I love that book because the main character's struggles resonate with my own life."
+  related:
+    - word: "Agree"
+      difference: "To 'agree' is a logical confirmation. To 'resonate' is a deeper, more emotional connection to an idea. It feels right."
+    - word: "Appeal"
+      difference: "Something that 'appeals' to you is attractive or interesting. Something that 'resonates' with you feels personally significant and true."
+  story: |
+    During a brainstorming session, a junior designer presented a new concept for the app's home screen. It was clean, simple, and focused on the user's most common tasks. Her explanation for why she chose that design—that users are often overwhelmed and need clarity—really resonated with the entire team. It wasn't just a good design; it was a philosophy that everyone felt was true.
+
+- word: "Mandatory"
+  pronunciation: "/ˈmæn.də.tər.i/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Required by a rule or law; compulsory."
+    bahasa: "Diharuskan oleh aturan atau hukum; wajib."
+  usage: "Use 'mandatory' to describe something that is not optional, like a security update, a required meeting, or a field in a form."
+  synonyms:
+    - "required"
+    - "compulsory"
+  examples:
+    workplace:
+      - "Attending the security training is mandatory for all employees."
+      - "The 'password' field is mandatory, you cannot create an account without it."
+    casual:
+      - "In many countries, military service is mandatory for young men."
+      - "Wearing a helmet is mandatory when riding a motorcycle."
+  related:
+    - word: "Optional"
+      difference: "'Optional' is the direct opposite of 'mandatory'."
+    - word: "Required"
+      difference: "They are very close synonyms. 'Mandatory' often sounds a bit stronger and more official, as if enforced by a formal rule."
+  story: |
+    Our company introduced a new code review policy. From now on, it is mandatory to have at least two senior developers approve any change to the payment service code. This rule was created to increase security and stability. Even if the change is very small, the two approvals are mandatory, no exceptions.
+
+- word: "Optional"
+  pronunciation: "/ˈɒp.ʃən.əl/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Available to be chosen but not obligatory; not required."
+    bahasa: "Tersedia untuk dipilih tetapi tidak wajib; tidak diharuskan."
+  usage: "Use 'optional' to describe anything that is not required, such as a feature, a meeting, or a configuration."
+  synonyms:
+    - "voluntary"
+    - "not required"
+  examples:
+    workplace:
+      - "The 'phone number' field in the user profile is optional."
+      - "We're having a team lunch on Friday, but attendance is optional."
+    casual:
+      - "The guided tour of the museum is optional; you can also walk around by yourself."
+      - "Homework is optional in this class, but it's recommended."
+  related:
+    - word: "Mandatory"
+      difference: "'Mandatory' is the direct opposite of 'optional'."
+    - word: "Elective"
+      difference: "An 'elective' is a course or subject that you choose to study. It's a specific type of optional choice within an educational context."
+  story: |
+    We were designing a settings page for our application. We wanted to allow users to customize their experience. We made the 'theme' (light or dark) a required choice, but we added an optional field for users to link their social media profiles. Many users don't want to share that, so making it optional was crucial for user privacy and comfort.
+
+- word: "Granular"
+  pronunciation: "/ˈɡræn.jə.lər/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Highly detailed; relating to small, individual parts of something."
+    bahasa: "Sangat rinci; berkaitan dengan bagian-bagian kecil dan individual dari sesuatu."
+  usage: "Use 'granular' to describe a level of detail, especially in data, permissions, or controls. It means you can manage things in very small, specific pieces."
+  synonyms:
+    - "detailed"
+    - "fine-grained"
+  examples:
+    workplace:
+      - "We need more granular control over user permissions; we can't just have 'admin' and 'user'."
+      - "The report gives a high-level overview, but we can also see more granular data if we drill down."
+    casual:
+      - "This camera gives you very granular control over the exposure settings."
+      - "Her feedback wasn't just 'good job,' it was very granular and specific."
+  related:
+    - word: "Detailed"
+      difference: "'Detailed' is a general term. 'Granular' specifically implies that something has been broken down into its smallest possible components."
+    - word: "High-level"
+      difference: "'High-level' is the opposite of 'granular'. It refers to a summary or overview."
+  story: |
+    Our old system had only two user roles: 'Admin' and 'User'. This wasn't flexible enough. We rebuilt the permissions system to be much more granular. Now, we can create roles with very specific, granular permissions like 'can_view_reports' but 'cannot_export_data', or 'can_edit_posts' but 'cannot_delete_posts'. This level of control was essential for our enterprise clients.
+
+- word: "Gut feeling"
+  pronunciation: "/ɡʌt ˈfiː.lɪŋ/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "An intuition or instinct, a feeling that you are right or wrong about something without a logical reason."
+    bahasa: "Intuisi atau naluri, perasaan bahwa Anda benar atau salah tentang sesuatu tanpa alasan logis."
+  usage: "Use 'gut feeling' in informal discussions to express an intuition, especially when you can't back it up with data yet. It often prompts further investigation."
+  synonyms:
+    - "intuition"
+    - "hunch"
+  examples:
+    workplace:
+      - "I know the tests are passing, but my gut feeling is that there's still a bug in here somewhere."
+      - "My gut feeling is that this candidate is a great fit for our team culture."
+    casual:
+      - "I had a gut feeling that I shouldn't trust him, and I was right."
+      - "I can't explain why, but I have a bad gut feeling about this."
+  related:
+    - word: "Assumption"
+      difference: "An 'assumption' is something you accept as true without proof for the sake of an argument. A 'gut feeling' is an emotional or intuitive sense about a situation."
+    - word: "Educated guess"
+      difference: "An 'educated guess' is based on some knowledge and experience. A 'gut feeling' can be purely instinctual, without any conscious reasoning."
+  story: |
+    We were trying to find the cause of a very rare bug. We spent all day analyzing logs and couldn't find anything. Then, a senior engineer said, "I have a gut feeling this is related to the network timing." There was no data to support it, but his experience gave him this intuition. Based on his gut feeling, we started investigating the network code and, sure enough, we found the problem there.
+
+- word: "Incentive"
+  pronunciation: "/ɪnˈsen.tɪv/"
+  part_of_speech: "noun"
+  meaning:
+    english: "Something that motivates or encourages someone to do something, often a reward."
+    bahasa: "Sesuatu yang memotivasi atau mendorong seseorang untuk melakukan sesuatu, seringkali berupa imbalan."
+  usage: "Use 'incentive' to talk about the reasons or rewards for doing something, whether for users (e.g., a discount) or for employees (e.g., a bonus)."
+  synonyms:
+    - "motivation"
+    - "inducement"
+  examples:
+    workplace:
+      - "We're offering a 20% discount as an incentive for users to try our new premium features."
+      - "There's no real incentive for developers to write documentation, so it often gets neglected."
+    casual:
+      - "The main incentive for cleaning my room is that I can't find anything."
+      - "The government offers tax incentives for people who buy electric cars."
+  related:
+    - word: "Motivation"
+      difference: "'Motivation' is the internal desire to do something. An 'incentive' is the external thing that creates that motivation."
+    - word: "Reward"
+      difference: "A 'reward' is given *after* an action is completed. An 'incentive' is offered *before* to encourage the action."
+  story: |
+    Our company wanted to encourage developers to contribute to open-source projects. At first, not many people participated. Then, the company introduced an incentive: for every significant open-source contribution, employees would receive a small bonus and public recognition in the company newsletter. With this new incentive, participation increased dramatically.
+
+- word: "Throwaway"
+  pronunciation: "/ˈθrəʊ.ə.weɪ/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Made to be discarded after use; temporary or for a single purpose."
+    bahasa: "Dibuat untuk dibuang setelah digunakan; bersifat sementara atau untuk satu tujuan saja."
+  usage: "Use 'throwaway' to describe code, scripts, or prototypes that are created for a quick, temporary purpose and are not intended to be part of the final product."
+  synonyms:
+    - "disposable"
+    - "temporary"
+  examples:
+    workplace:
+      - "I wrote a throwaway script to migrate the data; we won't need it again."
+      - "This is just a throwaway prototype to test the idea, don't worry about the code quality."
+    casual:
+      - "I need to create a throwaway email address to sign up for this website."
+      - "We used throwaway plates and cups for the party to make cleanup easier."
+  related:
+    - word: "Temporary"
+      difference: "'Temporary' means something will only last for a limited time. 'Throwaway' is stronger, meaning it's designed to be discarded."
+    - word: "Prototype"
+      difference: "A 'prototype' is a model of a product. A 'throwaway prototype' is a specific kind of prototype that is built quickly to test an idea and is not intended to be developed further."
+  story: |
+    Our product manager had a new idea for a feature but wasn't sure if users would like it. Instead of spending weeks building a perfect, polished version, I spent one afternoon creating a 'throwaway' prototype. The code was messy and it only worked for one specific scenario, but it was enough to show the idea to a few users. Their feedback showed us the idea wasn't good, and we were glad we only wasted a day on a throwaway version instead of months on the real thing.
