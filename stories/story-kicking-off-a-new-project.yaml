@@ -1,0 +1,21 @@
+story:
+  title: "kicking-off-a-new-project"
+  date: "2025-08-31"
+  text: |
+    The whole team gathered for the project **kick off** meeting. It was for 'Project Phoenix,' our new initiative to rebuild the user dashboard. The product manager, Lena, started by outlining the goals. 'Our current dashboard is slow and built on legacy code,' she said. 'We've decided to build the new one **in-house** to have full control over the performance and user experience.'
+
+    She explained that the first milestone was to have a working prototype in one month. 'It's an ambitious timeline,' she admitted, 'but I'm confident we can stay **on track** if we communicate well.'
+
+    My first task was to investigate a new charting library. I immediately **ran into** some compatibility issues with our existing front-end framework. It took me most of the afternoon to **figure out** a solution. I was worried we were already falling **behind schedule** on day one!
+
+    Later, I had a quick sync with my tech lead, David. We decided to **go over** my findings tomorrow morning. If more unexpected problems **pop up**, we might need to **catch up** over the weekend, but for now, we have a plan. It feels good to be starting something fresh.
+  highlighted_words:
+    - "kick off"
+    - "in-house"
+    - "on track"
+    - "ran into"
+    - "figure out"
+    - "behind schedule"
+    - "go over"
+    - "pops up"
+    - "catch up"
