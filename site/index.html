@@ -1281,10 +1281,11 @@
         }
 
         .dialogue-section {
-            background: #f8f9fa;
+            background: linear-gradient(135deg, rgba(78, 205, 196, 0.08), rgba(68, 160, 141, 0.05));
             border-radius: 15px;
             padding: 25px;
             border-left: 5px solid #4ecdc4;
+            border: 1px solid rgba(78, 205, 196, 0.2);
         }
 
         .dialogue-section h3 {
@@ -1302,21 +1303,20 @@
             position: relative;
         }
 
-        .dialogue-line.speaker-alex {
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            color: white;
-            margin-left: 20px;
+        .dialogue-line.speaker-first .dialogue-speaker {
+            color: #4ecdc4;
+        }
+        
+        .dialogue-line.speaker-first {
+            border-left: 4px solid #4ecdc4;
         }
 
-        .dialogue-line.speaker-ben {
-            background: linear-gradient(135deg, #4ecdc4, #44a08d);
-            color: white;
-            margin-right: 20px;
+        .dialogue-line.speaker-second .dialogue-speaker {
+            color: #e74c3c;
         }
-
-        .dialogue-line.speaker-other {
-            background: linear-gradient(135deg, #ffecd2, #fcb69f);
-            color: #2c3e50;
+        
+        .dialogue-line.speaker-second {
+            border-left: 4px solid #e74c3c;
         }
 
         .dialogue-speaker {
@@ -1349,9 +1349,9 @@
         }
 
         .toggle-translation {
-            background: rgba(255,255,255,0.2);
+            background: #4ecdc4;
             color: white;
-            border: none;
+            border: 1px solid #4ecdc4;
             padding: 4px 8px;
             border-radius: 6px;
             font-size: 0.8rem;
@@ -1361,17 +1361,19 @@
         }
 
         .toggle-translation:hover {
-            background: rgba(255,255,255,0.3);
+            background: #44a08d;
+            border-color: #44a08d;
         }
 
         /* Expression Styles */
         .expression-item {
-            background: white;
+            background: linear-gradient(135deg, rgba(78, 205, 196, 0.05), rgba(68, 160, 141, 0.02));
             border-radius: 8px;
             padding: 15px;
             margin-bottom: 10px;
             border-left: 3px solid #4ecdc4;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            border: 1px solid rgba(78, 205, 196, 0.15);
+            box-shadow: 0 2px 8px rgba(78, 205, 196, 0.1);
         }
 
         .expression-phrase {
@@ -1418,12 +1420,13 @@
 
         /* Question Styles */
         .question-item {
-            background: white;
+            background: linear-gradient(135deg, rgba(78, 205, 196, 0.05), rgba(68, 160, 141, 0.02));
             border-radius: 10px;
             padding: 20px;
             margin-bottom: 15px;
-            border-left: 4px solid #ff6b6b;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-left: 4px solid #4ecdc4;
+            border: 1px solid rgba(78, 205, 196, 0.15);
+            box-shadow: 0 2px 10px rgba(78, 205, 196, 0.1);
         }
 
         .question-q {
@@ -2529,8 +2532,10 @@
             document.getElementById('dialogueModalTitle').textContent = dialogue.title;
             
             // Render conversation
+            const speakers = [...new Set(dialogue.dialogue.map(line => line.speaker))];
             const conversationHtml = dialogue.dialogue.map((line, index) => {
-                const speakerClass = `speaker-${line.speaker.toLowerCase()}`;
+                const speakerIndex = speakers.indexOf(line.speaker);
+                const speakerClass = speakerIndex === 0 ? 'speaker-first' : 'speaker-second';
                 return `
                     <div class="dialogue-line ${speakerClass}">
                         <div class="dialogue-speaker">${line.speaker}</div>
