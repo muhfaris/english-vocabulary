@@ -1,0 +1,18 @@
+story:
+  title: "the-friday-afternoon-hotfix"
+  date: "2025-08-29"
+  text: |
+    It was 4 PM on a Friday, and the team was getting ready to wrap up the week. Suddenly, a high-priority alert came in: the main login page was down. This was a huge **blocker** for our users. Our team lead immediately called for a huddle. "We need to **prioritize** this above everything else," she said. "This is a **hotfix** situation."
+
+    We quickly did a **deep dive** into the logs and found the issue: a recent change had an unexpected side effect. The **scope** of the fix was small, just a few lines of code. I quickly made the change on a new branch and submitted it for **code review**. My teammate, Alex, reviewed it within minutes. "Looks good," he said. "Ready to **merge**."
+
+    After a quick test on the staging environment, we deployed the fix to production. We considered a **rollback**, but the fix was simple enough that we were confident it would work. At 4:45 PM, the login page was back up. It was a stressful end to the week, but the team worked together to solve the problem quickly. We had a quick alignment meeting to discuss how to prevent this from happening again, and then we all logged off for the weekend.
+  highlighted_words:
+    - "blocker"
+    - "prioritize"
+    - "hotfix"
+    - "deep dive"
+    - "scope"
+    - "code review"
+    - "merge"
+    - "rollback"

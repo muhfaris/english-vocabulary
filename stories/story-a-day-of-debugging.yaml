@@ -1,0 +1,16 @@
+story:
+  title: "a-day-of-debugging"
+  date: "2025-08-30"
+  text: |
+    My morning started with an urgent message. A user reported that a feature we released last week was suddenly behaving incorrectly. It was a classic **regression**, and since I wrote the original feature, the ticket landed on my desk. I started by checking the recent **changelog** to see what might have caused it. It turned out a seemingly unrelated change had a side effect.
+
+    The root cause was a pile of **technical debt** in an old module that my new code had to interact with. We had been putting off refactoring it for months, and it was finally biting us. The fix itself was simple, but navigating the messy old code to apply it took hours.
+
+    This incident was a good reminder of why we need to prioritize paying down technical debt. It also made me think about the upcoming product **roadmap** and how much this debt could slow us down. Later that day, my manager told me I was scheduled to be **on-call** next week. I made a mental note to check the monitoring dashboards. The day ended with a discussion about a new feature and its potential impact on system **latency**.
+  highlighted_words:
+    - "regression"
+    - "changelog"
+    - "technical debt"
+    - "roadmap"
+    - "on-call"
+    - "latency"

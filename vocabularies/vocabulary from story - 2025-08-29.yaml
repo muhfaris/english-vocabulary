@@ -1,0 +1,216 @@
+- word: "Alignment"
+  pronunciation: "/əˈlaɪn.mənt/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A state of agreement or cooperation among persons, groups, or nations with a common goal or viewpoint."
+    bahasa: "Keadaan kesepakatan atau kerjasama di antara orang, kelompok, atau bangsa dengan tujuan atau sudut pandang yang sama."
+  usage: "Use 'alignment' to ensure everyone on the team is on the same page and working towards the same goal."
+  synonyms:
+    - "agreement"
+    - "coordination"
+  examples:
+    workplace:
+      - "We need to have an alignment meeting to make sure we all agree on the project scope."
+      - "There was a lack of alignment between the design and development teams."
+    casual:
+      - "My tires are out of alignment, so the car is pulling to one side."
+      - "The planets are in alignment tonight."
+  related:
+    - word: "Sync up"
+      difference: "'Sync up' is the action of meeting to get into alignment. 'Alignment' is the state of being in agreement."
+    - word: "Consensus"
+      difference: "'Consensus' is a general agreement that everyone accepts. 'Alignment' is more about working together towards a specific goal, even if there are minor disagreements on how to get there."
+  story: |
+    Before starting the new sprint, our team lead scheduled a meeting to ensure alignment. The designers presented their mockups, and the developers discussed the technical implementation. By the end of the meeting, everyone had a clear understanding of the goals and their individual responsibilities. This alignment helped prevent misunderstandings later in the sprint.
+- word: "Prioritize"
+  pronunciation: "/praɪˈɒr.ɪ.taɪz/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To decide which of a group of things are the most important so that you can deal with them first."
+    bahasa: "Memutuskan mana dari sekelompok hal yang paling penting sehingga Anda dapat menanganinya terlebih dahulu."
+  usage: "Use 'prioritize' when you need to rank tasks or features in order of importance."
+  synonyms:
+    - "rank"
+    - "organize"
+  examples:
+    workplace:
+      - "We need to prioritize the bug fixes before we start working on new features."
+      - "I have too many tasks, I need to prioritize my work for this week."
+    casual:
+      - "I need to prioritize my bills to make sure I pay the most important ones first."
+      - "She has to prioritize her studies over her social life."
+  related:
+    - word: "Triage"
+      difference: "'Triage' is a specific form of prioritization, usually for bugs or issues, where you quickly assess their severity and decide which ones to handle first."
+    - word: "Schedule"
+      difference: "'Scheduling' is about assigning a time to a task. 'Prioritizing' is about deciding the importance of the task, which then helps you schedule it."
+  story: |
+    We had a long list of feature requests from the product manager. During our planning meeting, we had to prioritize them for the next quarter. We used a matrix to score each feature based on its impact and effort. This allowed us to prioritize the features that would deliver the most value to our users with the least amount of development time.
+- word: "Hotfix"
+  pronunciation: "/ˈhɒt.fɪks/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A critical bug fix that is urgently needed and is often released outside of the normal release cycle."
+    bahasa: "Perbaikan bug kritis yang sangat dibutuhkan dan seringkali dirilis di luar siklus rilis normal."
+  usage: "Use 'hotfix' to describe an emergency fix for a production issue."
+  synonyms:
+    - "patch"
+    - "emergency fix"
+  examples:
+    workplace:
+      - "We need to deploy a hotfix to solve the login issue on the production server."
+      - "The team is working on a hotfix for the critical security vulnerability."
+    casual:
+      - "My phone just got a small update, probably a hotfix for a bug."
+      - "I had to do a hotfix on my leaky faucet with some tape."
+  related:
+    - word: "Bug fix"
+      difference: "A 'bug fix' is any change that fixes a bug. A 'hotfix' is a specific type of bug fix that is urgent and critical."
+    - word: "Patch"
+      difference: "'Patch' is a more general term for a piece of code that is applied to fix or improve a program. A 'hotfix' is a type of patch that is critical and urgent."
+  story: |
+    On Friday afternoon, our monitoring system alerted us that users were unable to complete purchases. We quickly identified a critical bug in the payment gateway integration. Since this was a major issue, we had to prepare a hotfix. The team worked late to fix the bug, test it, and deploy it directly to production. The hotfix resolved the issue and saved the company from losing a lot of revenue.
+- word: "Rollback"
+  pronunciation: "/ˈroʊl.bæk/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The action of restoring a system to a previous state, usually after a failed deployment or a critical issue."
+    bahasa: "Tindakan mengembalikan sistem ke keadaan sebelumnya, biasanya setelah penerapan yang gagal atau masalah kritis."
+  usage: "Use 'rollback' when you need to undo a recent change and go back to a previous version."
+  synonyms:
+    - "revert"
+    - "undo"
+  examples:
+    workplace:
+      - "The deployment failed, so we had to perform a rollback to the previous version."
+      - "A rollback is our last resort if the new feature causes too many problems."
+    casual:
+      - "I wish I could do a rollback on that terrible haircut I got yesterday."
+      - "The government announced a rollback of the new tax policy."
+  related:
+    - word: "Revert"
+      difference: "'Revert' is often used in the context of version control (e.g., reverting a commit). 'Rollback' is more commonly used for deployments and databases."
+    - word: "Restore"
+      difference: "'Restore' is a more general term for bringing something back. 'Rollback' specifically means going back to a previous stable state."
+  story: |
+    We deployed a new feature that we thought was ready for production. However, shortly after the release, our error monitoring system started reporting a huge spike in crashes. We couldn't find the root cause immediately, so we made the decision to do a rollback. Within minutes, the system was restored to its previous, stable version, and the errors disappeared.
+- word: "Stand-up"
+  pronunciation: "/ˈstænd.ʌp/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A short, daily team meeting where everyone briefly reports on their progress. The name comes from the practice of having everyone stand up to keep the meeting short."
+    bahasa: "Rapat tim harian yang singkat di mana setiap orang secara singkat melaporkan kemajuan mereka. Nama ini berasal dari praktik di mana semua orang berdiri untuk menjaga agar rapat tetap singkat."
+  usage: "Use 'stand-up' to refer to the daily agile meeting."
+  synonyms:
+    - "daily scrum"
+    - "daily huddle"
+  examples:
+    workplace:
+      - "I'll give you an update during our stand-up tomorrow morning."
+      - "Our stand-up usually lasts for about 15 minutes."
+    casual:
+      - "We had a quick stand-up in the kitchen to decide who was cooking dinner."
+      - "The coach gave a quick stand-up talk before the game."
+  related:
+    - word: "Meeting"
+      difference: "A 'meeting' is a general term for any kind of gathering. A 'stand-up' is a specific type of short, daily meeting with a clear structure."
+    - word: "Scrum"
+      difference: "'Scrum' is a framework for agile development. The 'daily scrum' or 'stand-up' is just one of the ceremonies within that framework."
+  story: |
+    Every morning at 9:30 AM, our team has its daily stand-up. Each person answers three questions: What did you do yesterday? What will you do today? Are there any blockers? Today, during our stand-up, I mentioned that I was blocked on a task because I needed an API key from another team. Our team lead immediately offered to help me get it after the meeting.
+- word: "Code review"
+  pronunciation: "/koʊd rɪˈvjuː/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A process where developers other than the code's author examine a piece of code. The main purpose is to find and fix mistakes, improve code quality, and share knowledge."
+    bahasa: "Sebuah proses di mana pengembang selain penulis kode memeriksa sepotong kode. Tujuan utamanya adalah untuk menemukan dan memperbaiki kesalahan, meningkatkan kualitas kode, dan berbagi pengetahuan."
+  usage: "Use 'code review' to refer to the practice of checking a teammate's code before it is merged."
+  synonyms:
+    - "peer review"
+    - "code inspection"
+  examples:
+    workplace:
+      - "I've submitted my code for review, can you please take a look?"
+      - "A thorough code review can catch bugs before they reach production."
+    casual:
+      - "I asked my friend to do a quick 'life review' of my new resume."
+      - "The editor is doing a final review of the book before it goes to print."
+  related:
+    - word: "Pull Request (PR)"
+      difference: "A 'pull request' is a feature of version control systems like Git that allows developers to propose changes. The 'code review' is the process that happens on that pull request."
+    - word: "Walkthrough"
+      difference: "A 'walkthrough' is about explaining code to someone. A 'code review' is about critiquing code to improve it."
+  story: |
+    After I finished my feature, I created a pull request and assigned it to a senior developer for a code review. She left several comments on my code, pointing out a potential bug, suggesting a more efficient way to write a function, and reminding me to add some unit tests. Her feedback was very helpful, and after I made the changes, the code was much better.
+- word: "Merge"
+  pronunciation: "/mɜːrdʒ/"
+  part_of_speech: "verb"
+  meaning:
+    english: "In version control, to combine changes from different branches into a single branch."
+    bahasa: "Dalam kontrol versi, untuk menggabungkan perubahan dari cabang yang berbeda ke dalam satu cabang tunggal."
+  usage: "Use 'merge' when you are combining your code changes with the main codebase."
+  synonyms:
+    - "integrate"
+    - "combine"
+  examples:
+    workplace:
+      - "After the code review is approved, I will merge my branch into the main branch."
+      - "We had a merge conflict that took an hour to resolve."
+    casual:
+      - "The two companies decided to merge into one."
+      - "She knows how to merge her personal and professional life."
+  related:
+    - word: "Branch"
+      difference: "A 'branch' is an independent line of development. To 'merge' is to combine that branch with another one."
+    - word: "Commit"
+      difference: "A 'commit' is a single saved change in version control. To 'merge' is to combine a series of commits from one branch into another."
+  story: |
+    I had been working on a new feature in my own branch for a week. After my pull request was approved, it was finally time to merge my changes into the main development branch. I clicked the 'merge' button and watched as my code was integrated with the work of the rest of the team. Now, my feature is officially part of the project.
+- word: "Deadline"
+  pronunciation: "/ˈded.laɪn/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A specific time or date by which something must be finished."
+    bahasa: "Waktu atau tanggal tertentu di mana sesuatu harus diselesaikan."
+  usage: "Use 'deadline' to refer to the due date for a task or project."
+  synonyms:
+    - "due date"
+    - "cutoff point"
+  examples:
+    workplace:
+      - "The deadline for this project is the end of the month."
+      - "We are working hard to meet the deadline."
+    casual:
+      - "The deadline for submitting my college application is tomorrow."
+      - "I have a personal deadline to finish reading this book by Sunday."
+  related:
+    - word: "Timeline"
+      difference: "A 'timeline' is a plan for when things will happen. A 'deadline' is the final point on that timeline when the work must be done."
+    - word: "Milestone"
+      difference: "A 'milestone' is a significant point in a project's timeline. A 'deadline' is the final milestone for a task or the entire project."
+  story: |
+    Our team was given a strict deadline to launch the new marketing website. We had only two weeks to complete the entire project from scratch. The pressure was high, and we had to work efficiently to meet the deadline. We broke down the work into smaller tasks and assigned them to different team members. In the end, we managed to launch the website just a few hours before the deadline.
+- word: "Scope"
+  pronunciation: "/skoʊp/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The extent of the area or subject matter that something deals with or to which it is relevant."
+    bahasa: "Cakupan area atau pokok bahasan yang ditangani oleh sesuatu atau yang relevan dengannya."
+  usage: "Use 'scope' to define the boundaries of a project or task."
+  synonyms:
+    - "range"
+    - "extent"
+  examples:
+    workplace:
+      - "We need to define the scope of the project before we start working on it."
+      - "That feature is out of scope for this release."
+    casual:
+      - "The scope of the book is limited to the history of the 20th century."
+      - "I need to broaden the scope of my job search."
+  related:
+    - word: "Scope creep"
+      difference: "'Scope creep' is the tendency for the project scope to expand over time. 'Scope' is the original definition of the project's boundaries."
+    - word: "Requirements"
+      difference: "'Requirements' are the specific things that a project must do. The 'scope' is the overall boundary that contains all those requirements."
+  story: |
+    During the planning phase of our project, the product manager wanted to add a lot of new features. Our tech lead had to remind everyone of the initial scope. "A live chat feature is a great idea," he said, "but it's not in the scope for this quarter. We need to focus on delivering the core features that we already agreed upon."

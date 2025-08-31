@@ -1,0 +1,480 @@
+- word: "sprint"
+  pronunciation: "/sprɪnt/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A short, time-boxed period during which a software development team works to complete a set amount of work."
+    bahasa: "Periode singkat dengan batas waktu di mana tim pengembang perangkat lunak bekerja untuk menyelesaikan sejumlah pekerjaan yang telah ditentukan."
+  usage: "Used in Agile and Scrum methodologies to refer to a development cycle, typically one to four weeks long."
+  synonyms:
+    - "iteration"
+    - "cycle"
+  examples:
+    workplace:
+      - "We have a lot of user stories to complete in this sprint."
+      - "Let's plan the tasks for the next sprint during our meeting tomorrow."
+    casual:
+      - "It felt like a two-week sprint to get the house ready for the party."
+      - "She finished her final project in a last-minute sprint."
+  related:
+    - word: "marathon"
+      difference: "A sprint is short and intense, while a marathon is a long, endurance-based effort. In project management, a 'marathon' might refer to a long-term project."
+    - word: "scrum"
+      difference: "Scrum is the overall framework or methodology, while a sprint is a specific event within that framework."
+  story: |
+    At the beginning of the two-week sprint, the team gathered for the planning meeting. They reviewed the backlog and committed to delivering three major features. Everyone knew it would be an intense period, but they were focused on the goal.
+- word: "deploy"
+  pronunciation: "/dɪˈplɔɪ/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To release a new version of a software application or feature to a live environment, making it available to users."
+    bahasa: "Merilis versi baru dari aplikasi perangkat lunak atau fitur ke lingkungan live, sehingga tersedia bagi pengguna."
+  usage: "This term is used when making code changes live. It can refer to deploying to staging for testing or to production for users."
+  synonyms:
+    - "release"
+    - "launch"
+  examples:
+    workplace:
+      - "We will deploy the new feature to production on Friday afternoon."
+      - "The team is waiting for the final approval before they can deploy the changes."
+    casual:
+      - "The general decided to deploy troops to the border."
+      - "She deployed her resources carefully to win the game."
+  related:
+    - word: "release"
+      difference: "'Deploy' often refers to the technical action of moving code, while 'release' can also include the marketing and communication activities around making a new feature public."
+    - word: "commit"
+      difference: "A 'commit' is saving a small change to the codebase in version control. A 'deploy' is the much larger action of putting many commits into a live environment."
+  story: |
+    After weeks of development and testing, it was finally time to deploy the new payment gateway. The team gathered in the war room, monitoring the process closely. Once the deploy was complete, they watched the logs to ensure everything was running smoothly for the users.
+- word: "mockup"
+  pronunciation: "/ˈmɒkʌp/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A static, high-fidelity visual design draft of a product or feature. It shows how the final product will look but is not interactive."
+    bahasa: "Draf desain visual statis dengan ketelitian tinggi dari suatu produk atau fitur. Ini menunjukkan bagaimana produk akhir akan terlihat tetapi tidak interaktif."
+  usage: "Used in the design phase to visualize the user interface and get feedback before any code is written."
+  synonyms:
+    - "wireframe"
+    - "prototype"
+  examples:
+    workplace:
+      - "The designer sent over a mockup of the new homepage for us to review."
+      - "Let's get the mockup approved by the product manager before we start development."
+    casual:
+      - "He built a cardboard mockup of his invention."
+      - "The film studio created a mockup of the spaceship for the scene."
+  related:
+    - word: "wireframe"
+      difference: "A wireframe is a low-fidelity, basic layout focusing on structure, while a mockup is a high-fidelity visual design that includes colors, fonts, and images."
+    - word: "prototype"
+      difference: "A mockup is a static image, while a prototype is an interactive, clickable model that simulates user experience, even if it's not fully functional."
+  story: |
+    The UX designer presented the mockup for the new user profile page. It looked clean and modern, with a much better layout than the current version. The team provided feedback on a few icon placements, and once the mockup was finalized, the front-end developers could start building the interface.
+- word: "user story"
+  pronunciation: "/ˈjuːzər ˈstɔːri/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A simple, informal description of a software feature from the perspective of an end user or customer."
+    bahasa: "Deskripsi sederhana dan informal dari sebuah fitur perangkat lunak dari sudut pandang pengguna akhir atau pelanggan."
+  usage: "Used in Agile development to define a small, valuable piece of functionality. The typical format is: 'As a [type of user], I want [an action] so that [a benefit].'"
+  synonyms:
+    - "requirement"
+    - "feature request"
+  examples:
+    workplace:
+      - "I've broken down the epic into several smaller user stories."
+      - "This user story doesn't have clear acceptance criteria yet."
+    casual:
+      - "From a customer's perspective, the user story is simple: they just want to log in easily."
+      - "Think of your goal as a user story: 'As a student, I want to pass the exam so I can graduate.'"
+  related:
+    - word: "epic"
+      difference: "An epic is a large body of work that can be broken down into multiple smaller user stories."
+    - word: "task"
+      difference: "A user story describes a user need ('I want to reset my password'), while a task is a specific work item a developer needs to do to complete that story (e.g., 'build the reset password API')."
+  story: |
+    During sprint planning, the product owner presented a new user story: 'As a registered user, I want to save my favorite articles so that I can read them later.' The team discussed the requirements and estimated it would take three days to complete.
+- word: "epic"
+  pronunciation: "/ˈɛpɪk/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A large body of work or a major feature that is too big to be completed in a single sprint. It is broken down into smaller user stories."
+    bahasa: "Sekumpulan pekerjaan besar atau fitur utama yang terlalu besar untuk diselesaikan dalam satu sprint. Ini dipecah menjadi user story yang lebih kecil."
+  usage: "Used in Agile planning to group related user stories under a single, high-level objective."
+  synonyms:
+    - "initiative"
+    - "large feature"
+  examples:
+    workplace:
+      - "The 'Q3 User Profile Redesign' epic includes stories for UI, API, and database changes."
+      - "How many user stories are left in the payments epic?"
+    casual:
+      - "His journey to climb Mount Everest was an epic adventure."
+      - "That movie was an epic, spanning three generations."
+  related:
+    - word: "user story"
+      difference: "An epic is a high-level feature, while a user story is a small, concrete requirement that contributes to the epic."
+    - word: "theme"
+      difference: "A theme is an even higher-level strategic goal that can group multiple epics together (e.g., 'Improve User Engagement')."
+  story: |
+    The team's main focus for the quarter was the 'New Reporting Dashboard' epic. It was a massive undertaking that involved creating a new data pipeline and a completely redesigned user interface. They broke the epic down into dozens of user stories to make the work manageable.
+- word: "velocity"
+  pronunciation: "/vəˈlɒsəti/"
+  part_of_speech: "noun"
+  meaning:
+    english: "In Agile, a measure of the amount of work a team can complete during a single sprint, often measured in story points or hours."
+    bahasa: "Dalam Agile, ukuran jumlah pekerjaan yang dapat diselesaikan tim selama satu sprint, sering diukur dalam story point atau jam."
+  usage: "Used for planning and forecasting. By knowing their average velocity, a team can predict how much work they can realistically commit to in future sprints."
+  synonyms:
+    - "capacity"
+    - "throughput"
+  examples:
+    workplace:
+      - "Our team's average velocity is about 30 story points per sprint."
+      - "We shouldn't take on more work; it exceeds our typical velocity."
+    casual:
+      - "The car was traveling at a high velocity."
+      - "He moved with surprising velocity for someone his size."
+  related:
+    - word: "productivity"
+      difference: "Velocity is a specific Agile metric for a team's output over a sprint. Productivity is a more general term for efficiency and can be measured in many different ways."
+    - word: "speed"
+      difference: "In physics, speed is a scalar (distance/time), while velocity is a vector (displacement/time). In Agile, velocity specifically refers to the rate of completed work."
+  story: |
+    After three sprints, the team had enough data to calculate their average velocity. They consistently completed around 25 story points. This metric helped the product owner make more reliable forecasts for upcoming releases.
+- word: "staging"
+  pronunciation: "/ˈsteɪdʒɪŋ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "An environment that is a near-exact replica of the production environment, used for final testing before a new feature or version is deployed to live users."
+    bahasa: "Lingkungan yang merupakan replika yang hampir persis sama dengan lingkungan produksi, digunakan untuk pengujian akhir sebelum fitur atau versi baru diterapkan untuk pengguna live."
+  usage: "Refers to the 'staging environment' or 'staging server.' It's the last stop for code before it goes live."
+  synonyms:
+    - "pre-production"
+    - "UAT (User Acceptance Testing) environment"
+  examples:
+    workplace:
+      - "Let's deploy the changes to staging first so the QA team can test them."
+      - "I found a bug on staging that didn't appear in the local development environment."
+    casual:
+      - "The band was staging their equipment before the concert."
+      - "The house was for sale, and the realtor recommended staging it to make it look more appealing."
+  related:
+    - word: "production"
+      difference: "Staging is the final testing environment for internal teams, while production is the live environment that real users interact with."
+    - word: "development"
+      difference: "The development environment is a developer's local machine or a shared server for active coding. Staging is for testing nearly-finished code."
+  story: |
+    The new feature worked perfectly on the developer's machine, but they still needed to deploy it to the staging environment. This allowed the QA engineer to perform thorough tests with a realistic dataset, ensuring there were no surprises before the final push to production.
+- word: "production"
+  pronunciation: "/prəˈdʌkʃən/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The live environment where a software application or website is accessed by its end users."
+    bahasa: "Lingkungan live di mana aplikasi perangkat lunak atau situs web diakses oleh pengguna akhirnya."
+  usage: "Often shortened to 'prod.' It's the real, customer-facing system. Errors in production are critical."
+  synonyms:
+    - "live environment"
+    - "live server"
+  examples:
+    workplace:
+      - "Never push code directly to production without testing it first."
+      - "We're seeing a major issue in production; we may need to roll back."
+    casual:
+      - "The factory ramped up production of the new car."
+      - "The theater's new production of Hamlet was a huge success."
+  related:
+    - word: "staging"
+      difference: "Staging is the final testing environment for internal teams, while production is the live environment that real users interact with."
+    - word: "live"
+      difference: "'Live' is often used as an adjective (the 'live' system), while 'production' is used as a noun (the 'production' environment). They essentially mean the same thing."
+  story: |
+    After a successful round of testing on staging, the team got the green light to deploy to production. The release was scheduled for late at night to minimize disruption. Everyone held their breath until the new version was live and confirmed to be stable.
+- word: "dependency"
+  pronunciation: "/dɪˈpɛndənsi/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A piece of software, library, or module that another piece of software requires to function correctly."
+    bahasa: "Bagian dari perangkat lunak, pustaka, atau modul yang dibutuhkan oleh perangkat lunak lain agar dapat berfungsi dengan benar."
+  usage: "Used to describe the relationships between different code components. Managing dependencies is a key part of software development."
+  synonyms:
+    - "prerequisite"
+    - "requirement"
+  examples:
+    workplace:
+      - "We need to update this dependency because it has a security vulnerability."
+      - "The project won't build because of a missing dependency."
+    casual:
+      - "His financial dependency on his parents ended when he got a job."
+      - "The country has a high dependency on imported oil."
+  related:
+    - word: "library"
+      difference: "A library is a collection of reusable code. A dependency is the *need* for that library. You declare a dependency on a library."
+    - word: "package"
+      difference: "A package is a bundle of code and its dependencies, often managed by a package manager (like npm or pip). The dependency is the link that says your project requires that package."
+  story: |
+    The build failed because of a conflict. One part of the application required an old version of a library, while another part needed a newer version. The developer had to carefully resolve the dependency conflict to get the project working again.
+- word: "query"
+  pronunciation: "/ˈkwɪəri/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A precise request to a database or search engine to retrieve specific information."
+    bahasa: "Permintaan yang tepat ke database atau mesin pencari untuk mengambil informasi spesifik."
+  usage: "Commonly used when talking about fetching data, especially from a database using a language like SQL."
+  synonyms:
+    - "request"
+    - "inquiry"
+  examples:
+    workplace:
+      - "The page is loading slowly because this database query is not optimized."
+      - "I need to write a query to get all users who signed up last month."
+    casual:
+      - "I had a query about my phone bill, so I called customer service."
+      - "She raised a query during the lecture."
+  related:
+    - word: "request"
+      difference: "A query is a specific type of request, usually for data from a database. A request is a more general term, like an HTTP request to a web server."
+    - word: "SQL"
+      difference: "SQL (Structured Query Language) is the language used to write the query. The query is the command itself."
+  story: |
+    A user reported that their dashboard was not showing the latest data. The engineer investigated and found that a complex database query was timing out. She rewrote the query to be more efficient, and the data appeared correctly.
+- word: "Changelog"
+  pronunciation: "/ˈtʃeɪndʒ.lɒɡ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A log or record of all notable changes made to a project, such as a software application or website."
+    bahasa: "Catatan atau rekam jejak dari semua perubahan penting yang dibuat pada sebuah proyek, seperti aplikasi perangkat lunak atau situs web."
+  usage: "Use 'changelog' to refer to the document that lists new features, bug fixes, and other changes in a new release."
+  synonyms:
+    - "release notes"
+    - "update history"
+  examples:
+    workplace:
+      - "Check the changelog to see what's new in this version."
+      - "I'll update the changelog before we deploy the new release."
+    casual:
+      - "The game update came with a long changelog detailing all the balance changes."
+      - "I wish my phone's OS update had a clearer changelog."
+  related:
+    - word: "Commit history"
+      difference: "'Commit history' is a detailed, low-level log of all code changes in version control. A 'changelog' is a high-level summary of user-facing changes."
+    - word: "Release notes"
+      difference: "These terms are often used interchangeably. However, 'release notes' can be more marketing-focused, while a 'changelog' is typically a more straightforward list of changes."
+  story: |
+    Before deploying the new version of our app, I was responsible for preparing the changelog. I went through all the completed tickets for the sprint and summarized the key changes. I listed the new features, the bugs we fixed, and a few performance improvements we made. This changelog helps our users understand what to expect from the update.
+- word: "Regression"
+  pronunciation: "/rɪˈɡreʃ.ən/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The reappearance of a bug that had been previously fixed. A feature that stops working after a certain event, like a new code change."
+    bahasa: "Munculnya kembali bug yang sebelumnya telah diperbaiki. Sebuah fitur yang berhenti berfungsi setelah kejadian tertentu, seperti perubahan kode baru."
+  usage: "Use 'regression' to describe a situation where a new change breaks existing functionality."
+  synonyms:
+    - "setback"
+    - "reversion"
+  examples:
+    workplace:
+      - "The latest deployment caused a regression in the user authentication module."
+      - "We need to write more automated tests to prevent regressions."
+    casual:
+      - "After a week of eating healthy, having a pizza felt like a regression."
+      - "The patient showed signs of regression in his recovery."
+  related:
+    - word: "Bug"
+      difference: "A 'bug' is any kind of error in software. A 'regression' is a specific type of bug where something that used to work now doesn't."
+    - word: "Side effect"
+      difference: "A 'side effect' is an unexpected consequence of a code change. A 'regression' is often a negative side effect."
+  story: |
+    We were celebrating a successful release when a QA engineer reported a critical issue. The login with Google feature, which had been working for months, was suddenly broken. It was a classic regression. We quickly discovered that a recent library update had introduced a breaking change. We had to roll back the deployment and fix the issue properly.
+- word: "Toil"
+  pronunciation: "/tɔɪl/"
+  part_of_speech: "noun"
+  meaning:
+    english: "Repetitive, manual, and automatable work that is tactical in nature and devoid of long-term value."
+    bahasa: "Pekerjaan yang berulang, manual, dan dapat diotomatisasi yang bersifat taktis dan tidak memiliki nilai jangka panjang."
+  usage: "Use 'toil' to describe tedious, manual tasks that could and should be automated."
+  synonyms:
+    - "drudgery"
+    - "manual labor"
+  examples:
+    workplace:
+      - "Manually resetting the test database every morning is a form of toil."
+      - "Our team has a goal to reduce toil by 20% this quarter by automating our deployment process."
+    casual:
+      - "The daily toil of commuting in heavy traffic is exhausting."
+      - "He was tired of the toil of his factory job."
+  related:
+    - word: "Manual work"
+      difference: "Not all 'manual work' is 'toil'. For example, manually designing a new feature is creative work. 'Toil' is specifically the kind of manual work that is repetitive and not creative."
+    - word: "Automation"
+      difference: "'Automation' is the solution to 'toil'. You automate tasks to eliminate toil."
+  story: |
+    Our team used to spend hours each week manually generating and emailing reports to stakeholders. This was pure toil. It was boring, error-prone, and took time away from development. Finally, we dedicated a few days to building a script that automated the entire process. Now, the reports are generated and sent automatically, freeing us up to focus on more meaningful work.
+- word: "Throughput"
+  pronunciation: "/ˈθruː.pʊt/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The amount of work, data, or items that can be processed or completed in a given period of time."
+    bahasa: "Jumlah pekerjaan, data, atau item yang dapat diproses atau diselesaikan dalam periode waktu tertentu."
+  usage: "Use 'throughput' to measure the productivity or performance of a system or team."
+  synonyms:
+    - "output"
+    - "capacity"
+  examples:
+    workplace:
+      - "We improved the throughput of our data processing pipeline by 50%."
+      - "Our team's throughput is low this sprint because of unexpected bugs."
+    casual:
+      - "The factory has a high throughput of a thousand cars per day."
+      - "The throughput of this coffee machine is too slow for the morning rush."
+  related:
+    - word: "Velocity"
+      difference: "'Velocity' is an agile metric for the amount of work a team completes in a sprint. 'Throughput' is a more general term for the rate of completion and can be applied to systems as well as teams."
+    - word: "Latency"
+      difference: "'Latency' is about the delay or time it takes to start. 'Throughput' is about the rate or how much can be done over time. A system can have low latency but also low throughput."
+  story: |
+    Our API was struggling to handle the increasing number of user requests. The response time was slow, and the overall throughput was poor. We spent a week optimizing the database queries and adding more caching. After the changes, we measured the system again and saw that the throughput had doubled. The API could now handle twice as many requests per second.
+- word: "Latency"
+  pronunciation: "/ˈleɪ.tən.si/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The delay between a user's action and the time it takes for a system to respond. The time it takes for a data packet to travel from one point to another."
+    bahasa: "Penundaan antara tindakan pengguna dan waktu yang dibutuhkan sistem untuk merespons. Waktu yang dibutuhkan paket data untuk melakukan perjalanan dari satu titik ke titik lain."
+  usage: "Use 'latency' to talk about the speed and responsiveness of a system from a user's perspective."
+  synonyms:
+    - "delay"
+    - "lag"
+  examples:
+    workplace:
+      - "We need to reduce the latency of our search API to improve the user experience."
+      - "Users in Australia are experiencing high latency because our servers are in Europe."
+    casual:
+      - "There is a noticeable latency when I use my Bluetooth headphones."
+      - "The latency in our video call was so bad we couldn't understand each other."
+  related:
+    - word: "Bandwidth"
+      difference: "'Bandwidth' is the maximum amount of data that can be transferred over a network in a given amount of time. 'Latency' is the time it takes for that data to start moving."
+    - word: "Throughput"
+      difference: "'Latency' is about how fast you get a response. 'Throughput' is about how many responses you can get in a period of time."
+  story: |
+    Our website felt sluggish, even though the servers were not under heavy load. We investigated and found that the main issue was latency. The initial page load was slow because it had to make multiple requests to different services, and each request added a small delay. By bundling some of these requests together, we were able to significantly reduce the overall latency and make the site feel much faster.
+- word: "Grooming"
+  pronunciation: "/ˈɡruː.mɪŋ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "Also known as backlog refinement, it's a recurring meeting in Agile where the team discusses, estimates, and prioritizes items in the product backlog."
+    bahasa: "Juga dikenal sebagai penyempurnaan backlog, ini adalah pertemuan berulang dalam Agile di mana tim membahas, memperkirakan, dan memprioritaskan item dalam backlog produk."
+  usage: "Use 'grooming' or 'backlog refinement' to refer to the activity of preparing the backlog for future sprints."
+  synonyms:
+    - "backlog refinement"
+    - "backlog management"
+  examples:
+    workplace:
+      - "We have a backlog grooming session every Wednesday."
+      - "During grooming, we realized that one of the user stories was too large and needed to be split."
+    casual:
+      - "The cat is grooming itself in the sun."
+      - "He is very particular about his personal grooming."
+  related:
+    - word: "Sprint planning"
+      difference: "'Grooming' is about preparing the backlog for the future. 'Sprint planning' is the meeting where the team decides which well-groomed items to work on in the next sprint."
+    - word: "Backlog"
+      difference: "The 'backlog' is the list of work to be done. 'Grooming' is the process of keeping that list clean, organized, and prioritized."
+  story: |
+    In our weekly backlog grooming meeting, the product manager presented a few new user stories. We discussed each one as a team to make sure we understood the requirements. We asked questions, clarified acceptance criteria, and added estimates. This grooming process is essential because it ensures that when we start a new sprint, the work is well-defined and ready to be developed.
+- word: "Roadmap"
+  pronunciation: "/ˈroʊd.mæp/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A high-level, strategic document that outlines the vision, priorities, and direction of a product or project over time."
+    bahasa: "Dokumen strategis tingkat tinggi yang menguraikan visi, prioritas, dan arah suatu produk atau proyek dari waktu ke waktu."
+  usage: "Use 'roadmap' to talk about the long-term plan for a product, usually covering the next few quarters or even years."
+  synonyms:
+    - "strategic plan"
+    - "vision document"
+  examples:
+    workplace:
+      - "The product roadmap shows that we plan to launch the mobile app in the third quarter."
+      - "We need to align our team's goals with the company's product roadmap."
+    casual:
+      - "My personal roadmap includes learning a new language and traveling more next year."
+      - "The government published a roadmap for transitioning to renewable energy."
+  related:
+    - word: "Backlog"
+      difference: "A 'roadmap' is a high-level strategic plan. The 'backlog' is a detailed list of tasks and features that need to be done to execute that plan."
+    - word: "Project plan"
+      difference: "A 'project plan' is typically more detailed and tactical, with specific timelines and resource assignments. A 'roadmap' is more strategic and less detailed, focusing on goals and outcomes."
+  story: |
+    During the company-wide all-hands meeting, our CEO presented the product roadmap for the next year. It outlined the major themes and initiatives we would be focusing on, such as international expansion and improving the user experience. The roadmap gave everyone a clear sense of direction and helped us understand how our individual work contributes to the company's larger goals.
+- word: "On-call"
+  pronunciation: "/ˈɒn.kɔːl/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "The practice of designating a person to be available to respond to urgent system issues or emergencies outside of normal working hours."
+    bahasa: "Praktik menunjuk seseorang untuk bersiap sedia menanggapi masalah sistem yang mendesak atau keadaan darurat di luar jam kerja normal."
+  usage: "Use 'on-call' to describe the responsibility of being available to fix production issues at any time, often on a rotating schedule."
+  synonyms:
+    - "on duty"
+    - "on standby"
+  examples:
+    workplace:
+      - "I can't go out tonight, I'm on-call for my team."
+      - "Our on-call engineer was paged at 3 AM because a server went down."
+    casual:
+      - "My sister is a doctor, so she is often on-call at the hospital."
+      - "As a parent of a newborn, you feel like you are on-call 24/7."
+  related:
+    - word: "Pager duty"
+      difference: "'PagerDuty' is the name of a popular software service used to manage on-call schedules and alerts. 'On-call' is the general term for the practice."
+    - word: "Support"
+      difference: "'Support' is a broad term for helping users. 'On-call' is a specific role focused on responding to urgent technical emergencies."
+  story: |
+    This week, it's my turn to be on-call. This means I have to carry a special phone with me at all times. If any of our critical systems have an outage, I will get an alert and I am expected to respond immediately, even if it's in the middle of the night. It's a stressful responsibility, but it's essential to ensure our service is reliable for our users.
+- word: "Scalability"
+  pronunciation: "/ˌskeɪ.ləˈbɪl.ə.ti/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The ability of a system, network, or process to handle a growing amount of work, or its potential to be enlarged to accommodate that growth."
+    bahasa: "Kemampuan suatu sistem, jaringan, atau proses untuk menangani jumlah pekerjaan yang terus bertambah, atau potensinya untuk diperbesar untuk mengakomodasi pertumbuhan tersebut."
+  usage: "Use 'scalability' to discuss how well a system can perform as the number of users or the amount of data increases."
+  synonyms:
+    - "expandability"
+    - "capacity for growth"
+  examples:
+    workplace:
+      - "We need to design the new service with scalability in mind."
+      - "The recent outage was caused by a scalability issue in our database."
+    casual:
+      - "The scalability of his small business is limited by the size of his kitchen."
+      - "The city's public transport system has poor scalability during peak hours."
+  related:
+    - word: "Performance"
+      difference: "'Performance' is about how fast a system is right now. 'Scalability' is about how well its performance can be maintained as the load increases."
+    - word: "Elasticity"
+      difference: "'Elasticity' is the ability of a system to automatically add or remove resources as needed. It's a common technique for achieving scalability."
+  story: |
+    When we first launched our app, it worked perfectly with a few hundred users. But as we grew to millions of users, we started facing major performance problems. The original design did not consider scalability. We had to spend an entire quarter re-architecting our system to handle the increased load. It was a painful lesson in the importance of planning for scalability from the beginning.
+- word: "Technical debt"
+  pronunciation: "/ˈtek.nɪ.kəl det/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "The implied cost of rework caused by choosing an easy, limited solution now instead of using a better approach that would take longer."
+    bahasa: "Biaya pengerjaan ulang yang tersirat yang disebabkan oleh pemilihan solusi yang mudah dan terbatas sekarang, alih-alih menggunakan pendekatan yang lebih baik yang akan memakan waktu lebih lama."
+  usage: "Use 'technical debt' to describe the long-term consequences of making short-term compromises in code quality or design."
+  synonyms:
+    - "design debt"
+    - "code debt"
+  examples:
+    workplace:
+      - "We accumulated a lot of technical debt to meet the deadline, and now we have to pay it back by refactoring the code."
+      - "That part of the code is full of technical debt and is very difficult to maintain."
+    casual:
+      - "Putting off cleaning my apartment is creating a lot of 'chore debt'."
+      - "He took out a loan, which is a form of financial debt, similar to how a team takes on technical debt."
+  related:
+    - word: "Refactoring"
+      difference: "'Refactoring' is the process of improving code without changing its functionality. It is one of the main ways to 'pay back' technical debt."
+    - word: "Workaround"
+      difference: "A 'workaround' can sometimes be a source of 'technical debt'. It's a quick fix that solves a problem now but might create a bigger mess in the long run."
+  story: |
+    After three sprints, the team had enough data to calculate their average velocity. They consistently completed around 25 story points. This metric helped the product owner make more reliable forecasts for upcoming releases.

@@ -1,0 +1,249 @@
+- word: "Bottleneck"
+  pronunciation: "/ˈbɒt.əl.nek/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A point of congestion or blockage in a system that slows down the entire process. In software, it's often a piece of code or a service that can't handle the load."
+    bahasa: "Titik kemacetan atau penyumbatan dalam sebuah sistem yang memperlambat keseluruhan proses. Dalam perangkat lunak, ini sering kali berupa bagian kode atau layanan yang tidak dapat menangani beban."
+  usage: "Use 'bottleneck' to describe the specific part of a process or system that is causing a slowdown."
+  synonyms:
+    - "choke point"
+    - "congestion"
+  examples:
+    workplace:
+      - "The database query is the main bottleneck in our application's performance."
+      - "We need to identify the bottleneck in our deployment pipeline to speed things up."
+    casual:
+      - "The real bottleneck in my morning routine is deciding what to wear."
+      - "There's a huge bottleneck on the highway because of an accident."
+  related:
+    - word: "Blocker"
+      difference: "A 'blocker' is something that completely stops you from working. A 'bottleneck' slows things down but doesn't necessarily stop them completely."
+    - word: "Performance issue"
+      difference: "A 'performance issue' is the general problem (e.g., the app is slow). A 'bottleneck' is the specific cause of that problem."
+  story: |
+    Our e-commerce site was running incredibly slow during peak hours. We did a performance analysis and found that while the web servers were fine, the payment processing service could only handle 10 requests per second. This was the clear bottleneck. All user requests were getting stuck waiting for this one slow service. Once we optimized the payment processing, the entire system became much faster.
+
+- word: "Legacy code"
+  pronunciation: "/ˈleɡ.ə.si koʊd/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "Old source code that is no longer supported or is difficult to maintain, but is still in use. It's often inherited from a previous team or version of a project."
+    bahasa: "Kode sumber lama yang tidak lagi didukung atau sulit untuk dipelihara, tetapi masih digunakan. Seringkali diwarisi dari tim atau versi proyek sebelumnya."
+  usage: "Use 'legacy code' to describe old, messy, or poorly understood code that you have to work with."
+  synonyms:
+    - "old code"
+    - "inherited code"
+  examples:
+    workplace:
+      - "We have to be careful when changing this module; it's full of legacy code."
+      - "My task for this sprint is to refactor a large piece of legacy code."
+    casual:
+      - "I opened up a file and it looks like it was written a decade ago. Total legacy code."
+      - "I'm always scared to touch the legacy code in this project."
+  related:
+    - word: "Technical debt"
+      difference: "'Legacy code' is a common cause of 'technical debt' (the implied cost of rework caused by choosing an easy solution now instead of using a better approach that would take longer). But you can also accumulate technical debt in new code."
+    - word: "Boilerplate code"
+      difference: "'Boilerplate' is repetitive code that is needed in many places with little to no alteration (e.g., setting up a new component). 'Legacy code' refers to the age and maintainability of code, not its repetitiveness."
+  story: |
+    I was assigned a bug fix in the user authentication system. When I opened the files, I realized I was dealing with legacy code. It was written 8 years ago by a developer who had long since left the company. There were no comments, no documentation, and the coding style was completely different from our current standards. Fixing a simple bug took me three days because I had to carefully navigate the fragile and complex legacy code.
+
+- word: "Walkthrough"
+  pronunciation: "/ˈwɔːk.θruː/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A guided tour or demonstration of a product, feature, or piece of code, explaining it step-by-step."
+    bahasa: "Tur atau demonstrasi terpandu dari suatu produk, fitur, atau bagian kode, yang menjelaskannya langkah demi langkah."
+  usage: "Use 'walkthrough' for a session where someone shows you how something works."
+  synonyms:
+    - "demonstration"
+    - "run-through"
+  examples:
+    workplace:
+      - "Can you give me a quick walkthrough of your new feature before the demo?"
+      - "We're doing a code walkthrough for the new junior developers."
+    casual:
+      - "I watched a YouTube walkthrough to figure out how to beat that difficult level in the game."
+      - "The setup process was confusing, I needed a walkthrough."
+  related:
+    - word: "Tutorial"
+      difference: "A 'tutorial' is generally for teaching someone how to do something themselves. A 'walkthrough' is more like a demonstration where someone shows you how it's done."
+    - word: "Code Review"
+      difference: "A 'code review' is for analyzing and critiquing code to find issues. A 'code walkthrough' is typically for explaining the code to others so they understand how it works."
+  story: |
+    Our team just finished a major new feature. Before we presented it to the stakeholders, our product manager asked for a walkthrough. Our tech lead, Sarah, shared her screen and guided us through the entire user journey, from signing up to using the new feature. This walkthrough helped us all get on the same page and catch a few small issues before the big presentation.
+
+- word: "Tweak"
+  pronunciation: "/twiːk/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To make a small adjustment or fine-tune something to improve it."
+    bahasa: "Membuat penyesuaian kecil atau menyempurnakan sesuatu untuk memperbaikinya."
+  usage: "Use 'tweak' when you are making minor changes to something, like a piece of code, a design, or a configuration setting."
+  synonyms:
+    - "adjust"
+    - "fine-tune"
+  examples:
+    workplace:
+      - "The button color doesn't look right, I'll just tweak the CSS a bit."
+      - "I think we can improve performance if we tweak this algorithm."
+    casual:
+      - "I need to tweak my recipe a little, it was too salty last time."
+      - "He tweaked his profile picture to make it look better."
+  related:
+    - word: "Change"
+      difference: "'Change' is a very general term. 'Tweak' specifically implies a small, minor adjustment."
+    - word: "Refactor"
+      difference: "'Refactoring' is a large-scale restructuring of code to improve its internal design. A 'tweak' is a small change, often to the external behavior or appearance (e.g., changing a color or a value)."
+  story: |
+    During user testing, we noticed that a button was not getting enough clicks. The feature worked perfectly, but the button's design didn't draw attention. Our UI designer suggested a small tweak. She changed the button's color from grey to bright blue and made the text bold. It was a tiny change that took only five minutes, but this simple tweak increased user engagement with the feature by 30%.
+
+- word: "Hard-coded"
+  pronunciation: "/ˌhɑːrdˈkoʊ.dɪd/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Describes a value or configuration that is fixed directly in the source code instead of being loaded from an external source (like a config file or a database)."
+    bahasa: "Menjelaskan nilai atau konfigurasi yang ditetapkan secara langsung di dalam kode sumber alih-alih dimuat dari sumber eksternal (seperti file konfigurasi atau database)."
+  usage: "Use 'hard-coded' to criticize data that is not flexible. It's generally bad practice because changing the value requires changing the code itself."
+  synonyms:
+    - "embedded"
+    - "fixed"
+  examples:
+    workplace:
+      - "Don't leave the API key hard-coded in the source code; put it in an environment variable."
+      - "The tax rate is hard-coded, so we have to create a new deployment every time it changes."
+    casual:
+      - "My first program had everything hard-coded, even the user's name!"
+      - "It's a quick and dirty solution, with a lot of hard-coded values."
+  related:
+    - word: "Dynamic"
+      difference: "'Dynamic' values are fetched when needed and can change easily. 'Hard-coded' values are static and fixed in the code."
+    - word: "Configuration"
+      difference: "'Configuration' refers to settings that are external to the code. 'Hard-coding' is the practice of putting those settings inside the code."
+  story: |
+    A junior developer was working on a feature to display a list of products. In his code, he wrote: `const url = 'http://test.api.example.com/products';`. During code review, his senior pointed out that the API URL was hard-coded. "What happens when we move to production?" she asked. "We would have to find this line and change the code." She explained that the URL should be loaded from a configuration file, so they could use a different URL for testing and production without touching the code.
+
+- word: "Edge case"
+  pronunciation: "/ˈedʒ ˌkeɪs/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A problem or situation that occurs only at an extreme (maximum or minimum) operating parameter. A rare situation that code needs to handle gracefully."
+    bahasa: "Masalah atau situasi yang hanya terjadi pada parameter operasi yang ekstrem (maksimum atau minimum). Situasi langka yang harus ditangani oleh kode dengan baik."
+  usage: "Use 'edge case' when discussing potential problems that are not part of the normal workflow but could still happen."
+  synonyms:
+    - "corner case"
+    - "rare scenario"
+  examples:
+    workplace:
+      - "Our code works for typical users, but what about the edge case where a user has no friends in their contact list?"
+      - "We need to write tests for all the edge cases, like uploading an empty file or a file that is gigabytes in size."
+    casual:
+      - "Most people will have a great experience, but there's always an edge case."
+      - "He's worried about a million edge cases, but we should focus on the main problem first."
+  related:
+    - word: "Bug"
+      difference: "An 'edge case' is a situation. A 'bug' is what happens when your code doesn't handle that situation correctly."
+    - word: "Happy path"
+      difference: "The 'happy path' is the default scenario with no errors or exceptions. 'Edge cases' are all the other scenarios that can happen outside the happy path."
+  story: |
+    We built a new feature that allows users to enter their birthday. The 'happy path' test, where a user enters a valid date, passed perfectly. But then, our QA tester started testing for edge cases. What if the user enters February 29th on a non-leap year? What if they enter a date in the future? What if they try to enter text instead of a date? We found several bugs because our code didn't handle these edge cases properly.
+
+- word: "Drill down"
+  pronunciation: "/drɪl daʊn/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To move from summary information to more detailed data. To investigate something more thoroughly."
+    bahasa: "Beralih dari informasi ringkasan ke data yang lebih rinci. Menyelidiki sesuatu dengan lebih teliti."
+  usage: "Use 'drill down' when you need to get more details about a problem, a report, or a set of data."
+  synonyms:
+    - "investigate further"
+    - "dig deeper"
+  examples:
+    workplace:
+      - "The dashboard shows an increase in errors. We need to drill down to see which component is causing them."
+      - "Let's drill down into the user feedback from last week's release."
+    casual:
+      - "I'm not sure I understand. Can you drill down on that point a bit more?"
+      - "He started with a general topic and then drilled down into the specifics."
+  related:
+    - word: "Analyze"
+      difference: "'Analyze' is a general term for examining something. 'Drill down' specifically implies starting from a high-level view and moving to a more detailed one."
+    - word: "Deep dive"
+      difference: "A 'deep dive' is a comprehensive, in-depth investigation of a topic. To 'drill down' is often one of the actions you take *during* a deep dive."
+  story: |
+    Our weekly performance report showed that user engagement was down by 5%. This high-level number was concerning, but not very useful. During our team meeting, the product manager said, "Okay, we need to drill down into this data." We applied filters to the report, first looking at engagement by country, then by device type, and finally by user age group. By drilling down, we discovered the drop was almost entirely from users on older Android devices, which helped us pinpoint the problem.
+
+- word: "Red flag"
+  pronunciation: "/ˌred ˈflæɡ/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A sign that indicates a potential problem, danger, or issue that requires attention."
+    bahasa: "Tanda yang menunjukkan potensi masalah, bahaya, atau isu yang memerlukan perhatian."
+  usage: "Use 'red flag' to signal that something feels wrong or risky."
+  synonyms:
+    - "warning sign"
+    - "alarm bell"
+  examples:
+    workplace:
+      - "The fact that the code has no tests is a huge red flag for me."
+      - "He said the feature would be 'easy' to build, which is always a red flag."
+    casual:
+      - "The message seemed suspicious, it had a lot of red flags."
+      - "For me, a big red flag on a first date is when they're rude to the waiter."
+  related:
+    - word: "Issue"
+      difference: "An 'issue' is a confirmed problem. A 'red flag' is a potential or future problem that you've noticed."
+    - word: "Code smell"
+      difference: "A 'code smell' is a specific type of 'red flag' in source code that indicates a deeper problem (e.g., a very long function)."
+  story: |
+    We were interviewing a candidate for a senior developer position. He had a great resume and answered most questions well. But when we asked him about a time he had a disagreement with a teammate, he said he's never had one because he's always right. That was a major red flag for the entire interview panel. It suggested he might not be a collaborative team player, which is a critical skill for our team.
+
+- word: "Quick win"
+  pronunciation: "/kwɪk wɪn/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A small and easy improvement that can be implemented quickly and provides a noticeable benefit."
+    bahasa: "Peningkatan kecil dan mudah yang dapat diimplementasikan dengan cepat dan memberikan manfaat yang nyata."
+  usage: "Use 'quick win' to describe tasks that have a high return on investment—low effort for good results. It's great for building momentum."
+  synonyms:
+    - "low-hanging fruit"
+    - "easy victory"
+  examples:
+    workplace:
+      - "Let's start the project with a few quick wins to show progress to the stakeholders."
+      - "Fixing that typo on the homepage is a quick win we can deploy today."
+    casual:
+      - "Organizing my desktop was a quick win that made me feel more productive."
+      - "Let's just clean the living room. It's a quick win before the guests arrive."
+  related:
+    - word: "MVP (Minimum Viable Product)"
+      difference: "An 'MVP' is the smallest version of a *product* you can launch. A 'quick win' is a small *task* or improvement, often on an existing product."
+    - word: "Low-hanging fruit"
+      difference: "Very similar meaning and often used interchangeably. 'Low-hanging fruit' is a metaphor for the easiest things to get, and 'quick win' focuses on the result of getting them."
+  story: |
+    Our team was starting a huge, year-long project to rebuild our entire application. To keep morale high and show our managers that we were making progress, our team lead decided to identify a few quick wins. One of them was to add a 'dark mode' toggle to the current, old application. It only took one developer two days to implement, but users loved it. This quick win boosted the team's confidence and made everyone excited for the bigger changes to come.
+
+- word: "Heads-up"
+  pronunciation: "/ˈhedz ʌp/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "An advance notice or warning to give someone time to prepare for something."
+    bahasa: "Pemberitahuan atau peringatan di muka untuk memberi seseorang waktu untuk mempersiapkan sesuatu."
+  usage: "Use 'heads-up' to informally warn someone about something that is going to happen."
+  synonyms:
+    - "advance notice"
+    - "warning"
+  examples:
+    workplace:
+      - "Just a heads-up, we're planning to deploy the new version tomorrow morning."
+      - "Thanks for the heads-up about the meeting, I almost forgot."
+    casual:
+      - "Heads-up, your parents are visiting this weekend."
+      - "Can you give me a heads-up when you're about to leave?"
+  related:
+    - word: "FYI (For Your Information)"
+      difference: "'FYI' is for sharing information that might be useful. A 'heads-up' is specifically for warning someone about a future event so they can prepare."
+    - word: "Alert"
+      difference: "'Alert' is more formal and often used for automated system notifications about something happening right now (e.g., 'high CPU alert'). A 'heads-up' is an informal, person-to-person warning about something in the future."
+  story: |
+    On Friday afternoon, our senior engineer sent a message to the team channel: "Just a heads-up, I'll be merging the new database schema changes on Monday morning. This might cause some brief downtime for the test environment." This heads-up was incredibly helpful. It allowed all of us to finish our work in the test environment before Monday and saved us from the surprise of finding the system down when we started our week.
