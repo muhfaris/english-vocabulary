@@ -1550,6 +1550,74 @@
             font-weight: 700;
         }
         
+        /* Cache Info Modal Styles */
+        .cache-info-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.8);
+            z-index: 2000;
+            overflow-y: auto;
+        }
+        
+        .cache-info-modal-content {
+            position: relative;
+            background: white;
+            padding: 30px;
+            margin: 50px auto;
+            max-width: 600px;
+            border-radius: 15px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        .cache-info-modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        
+        .cache-info-modal-header h3 {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: #2c3e50;
+            margin: 0;
+        }
+        
+        .cache-info-body {
+            color: #2c3e50;
+            line-height: 1.6;
+        }
+        
+        .cache-info-body p {
+            margin-bottom: 15px;
+        }
+        
+        .cache-detail-item {
+            background: linear-gradient(135deg, rgba(78, 205, 196, 0.08), rgba(68, 160, 141, 0.05));
+            border-left: 4px solid #4ecdc4;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+        }
+        
+        .cache-detail-item strong {
+            color: #4ecdc4;
+        }
+        
+        .cache-expired {
+            border-left-color: #e74c3c;
+        }
+        
+        .cache-expired strong {
+            color: #e74c3c;
+        }
+        
         /* Desktop - show sidebar, hide mobile menu */
         @media (min-width: 769px) {
             body {
@@ -1816,6 +1884,10 @@
             <span class="menu-item-icon">💬</span>
             <span class="menu-item-text">Dialogues</span>
         </button>
+        <button class="menu-item info-menu-item" id="infoMenuItemDesktop" onclick="toggleCacheInfo()">
+            <span class="menu-item-icon">ℹ️</span>
+            <span class="menu-item-text">Info</span>
+        </button>
     </div>
 
     <!-- Mobile Bottom Navigation Menu -->
@@ -1831,6 +1903,10 @@
         <button class="mobile-menu-item" id="dialoguesMenuItemMobile" onclick="showDialogues()">
             <span class="mobile-menu-icon">💬</span>
             <span class="mobile-menu-text">Dialogues</span>
+        </button>
+        <button class="mobile-menu-item info-menu-item" id="infoMenuItemMobile" onclick="toggleCacheInfo()">
+            <span class="mobile-menu-icon">ℹ️</span>
+            <span class="mobile-menu-text">Info</span>
         </button>
     </div>
 
@@ -1923,6 +1999,21 @@
         </div>
     </div>
 
+    <!-- Cache Info Modal -->
+    <div class="cache-info-modal" id="cacheInfoModal" style="display: none;">
+        <div class="cache-info-modal-content">
+            <div class="cache-info-modal-header">
+                <h3>📦 Cache Information</h3>
+                <button class="close-btn" onclick="closeCacheInfo()">&times;</button>
+            </div>
+            <div class="cache-info-body" id="cacheInfoBody">
+                <p>We cache content locally to improve performance and reduce loading times.</p>
+                <p><strong>Cache expires every 15 minutes</strong> - after which fresh content will be automatically fetched.</p>
+                <div id="cacheDetails"></div>
+            </div>
+        </div>
+    </div>
+
     <script>
         let allVocabulary = [];
         let currentVocabulary = [];
@@ -1963,9 +2054,17 @@
         let showingDialogues = false;
         
         // Cache configuration
-        const CACHE_EXPIRY_HOURS = 24; // Cache expires after 24 hours
-        const CACHE_KEY_PREFIX = 'vocab_cache_';
-        const CACHE_TIMESTAMP_KEY = 'vocab_cache_timestamp_';
+        const CACHE_EXPIRY_MINUTES = 15; // Cache expires after 15 minutes
+        const CACHE_KEYS = {
+            VOCABULARY: 'vocab_cache_',
+            VOCABULARY_TIMESTAMP: 'vocab_cache_timestamp_',
+            STORIES: 'stories_cache',
+            STORIES_TIMESTAMP: 'stories_cache_timestamp',
+            STORIES_DATERANGE: 'stories_daterange_cache_',
+            STORIES_DATERANGE_TIMESTAMP: 'stories_daterange_timestamp_',
+            DIALOGUES: 'dialogues_cache',
+            DIALOGUES_TIMESTAMP: 'dialogues_cache_timestamp'
+        };
 
         // Base URLs for the repository
         const VOCAB_BASE_URL = 'https://raw.githubusercontent.com/muhfaris/english-vocabulary/refs/heads/main/vocabularies/';
@@ -1989,11 +2088,11 @@
 
         // Cache management functions
         function getCacheKey(date) {
-            return CACHE_KEY_PREFIX + date;
+            return CACHE_KEYS.VOCABULARY + date;
         }
         
         function getTimestampKey(date) {
-            return CACHE_TIMESTAMP_KEY + date;
+            return CACHE_KEYS.VOCABULARY_TIMESTAMP + date;
         }
         
         function isCacheExpired(date) {
@@ -2004,9 +2103,9 @@
             
             const cacheTime = new Date(parseInt(timestamp));
             const now = new Date();
-            const hoursDiff = (now - cacheTime) / (1000 * 60 * 60);
+            const minutesDiff = (now - cacheTime) / (1000 * 60);
             
-            return hoursDiff > CACHE_EXPIRY_HOURS;
+            return minutesDiff > CACHE_EXPIRY_MINUTES;
         }
         
         function getCachedVocabulary(date) {
@@ -2037,8 +2136,8 @@
             
             for (let i = 0; i < localStorage.length; i++) {
                 const key = localStorage.key(i);
-                if (key && (key.startsWith(CACHE_KEY_PREFIX) || key.startsWith(CACHE_TIMESTAMP_KEY))) {
-                    const date = key.replace(CACHE_KEY_PREFIX, '').replace(CACHE_TIMESTAMP_KEY, '');
+                if (key && (key.startsWith(CACHE_KEYS.VOCABULARY) || key.startsWith(CACHE_KEYS.VOCABULARY_TIMESTAMP))) {
+                    const date = key.replace(CACHE_KEYS.VOCABULARY, '').replace(CACHE_KEYS.VOCABULARY_TIMESTAMP, '');
                     if (isCacheExpired(date)) {
                         keysToRemove.push(key);
                     }
@@ -2053,8 +2152,8 @@
             
             for (let i = 0; i < localStorage.length; i++) {
                 const key = localStorage.key(i);
-                if (key && key.startsWith(CACHE_KEY_PREFIX)) {
-                    const date = key.replace(CACHE_KEY_PREFIX, '');
+                if (key && key.startsWith(CACHE_KEYS.VOCABULARY)) {
+                    const date = key.replace(CACHE_KEYS.VOCABULARY, '');
                     const timestamp = localStorage.getItem(getTimestampKey(date));
                     const data = localStorage.getItem(key);
                     
@@ -2070,6 +2169,118 @@
             }
             
             return cacheEntries;
+        }
+        
+        // Generic cache functions for all data types
+        function isCacheExpiredGeneric(timestampKey) {
+            const timestamp = localStorage.getItem(timestampKey);
+            
+            if (!timestamp) return true;
+            
+            const cacheTime = new Date(parseInt(timestamp));
+            const now = new Date();
+            const minutesDiff = (now - cacheTime) / (1000 * 60);
+            
+            return minutesDiff > CACHE_EXPIRY_MINUTES;
+        }
+        
+        function getCachedData(cacheKey, timestampKey) {
+            if (isCacheExpiredGeneric(timestampKey)) {
+                return null;
+            }
+            
+            const data = localStorage.getItem(cacheKey);
+            return data ? JSON.parse(data) : null;
+        }
+        
+        function setCachedData(cacheKey, timestampKey, data) {
+            localStorage.setItem(cacheKey, JSON.stringify(data));
+            localStorage.setItem(timestampKey, Date.now().toString());
+        }
+        
+        // Stories cache functions
+        function getCachedStories() {
+            return getCachedData(CACHE_KEYS.STORIES, CACHE_KEYS.STORIES_TIMESTAMP);
+        }
+        
+        function setCachedStories(data) {
+            setCachedData(CACHE_KEYS.STORIES, CACHE_KEYS.STORIES_TIMESTAMP, data);
+        }
+        
+        // Stories date range cache functions
+        function getCachedStoriesDateRange(startDate, endDate) {
+            const cacheKey = `${CACHE_KEYS.STORIES_DATERANGE}${startDate}_${endDate}`;
+            const timestampKey = `${CACHE_KEYS.STORIES_DATERANGE_TIMESTAMP}${startDate}_${endDate}`;
+            return getCachedData(cacheKey, timestampKey);
+        }
+        
+        function setCachedStoriesDateRange(startDate, endDate, data) {
+            const cacheKey = `${CACHE_KEYS.STORIES_DATERANGE}${startDate}_${endDate}`;
+            const timestampKey = `${CACHE_KEYS.STORIES_DATERANGE_TIMESTAMP}${startDate}_${endDate}`;
+            setCachedData(cacheKey, timestampKey, data);
+        }
+        
+        // Dialogues cache functions
+        function getCachedDialogues() {
+            return getCachedData(CACHE_KEYS.DIALOGUES, CACHE_KEYS.DIALOGUES_TIMESTAMP);
+        }
+        
+        function setCachedDialogues(data) {
+            setCachedData(CACHE_KEYS.DIALOGUES, CACHE_KEYS.DIALOGUES_TIMESTAMP, data);
+        }
+        
+        // Updated cache info function to include all data types
+        function getAllCacheInfo() {
+            const info = {
+                vocabulary: getCacheInfo(),
+                stories: null,
+                storiesDateRanges: [],
+                dialogues: null,
+                cacheExpiry: `${CACHE_EXPIRY_MINUTES} minutes`
+            };
+            
+            // Check stories cache
+            const storiesTimestamp = localStorage.getItem(CACHE_KEYS.STORIES_TIMESTAMP);
+            if (storiesTimestamp) {
+                info.stories = {
+                    timestamp: new Date(parseInt(storiesTimestamp)),
+                    expired: isCacheExpiredGeneric(CACHE_KEYS.STORIES_TIMESTAMP),
+                    size: localStorage.getItem(CACHE_KEYS.STORIES)?.length || 0
+                };
+            }
+            
+            // Check dialogues cache
+            const dialoguesTimestamp = localStorage.getItem(CACHE_KEYS.DIALOGUES_TIMESTAMP);
+            if (dialoguesTimestamp) {
+                info.dialogues = {
+                    timestamp: new Date(parseInt(dialoguesTimestamp)),
+                    expired: isCacheExpiredGeneric(CACHE_KEYS.DIALOGUES_TIMESTAMP),
+                    size: localStorage.getItem(CACHE_KEYS.DIALOGUES)?.length || 0
+                };
+            }
+            
+            // Check date range stories caches
+            for (let i = 0; i < localStorage.length; i++) {
+                const key = localStorage.key(i);
+                if (key && key.startsWith(CACHE_KEYS.STORIES_DATERANGE_TIMESTAMP)) {
+                    const dateRange = key.replace(CACHE_KEYS.STORIES_DATERANGE_TIMESTAMP, '');
+                    const [startDate, endDate] = dateRange.split('_');
+                    const timestamp = localStorage.getItem(key);
+                    const cacheKey = `${CACHE_KEYS.STORIES_DATERANGE}${dateRange}`;
+                    const size = localStorage.getItem(cacheKey)?.length || 0;
+                    
+                    if (timestamp && startDate && endDate) {
+                        info.storiesDateRanges.push({
+                            dateRange: `${startDate} to ${endDate}`,
+                            timestamp: new Date(parseInt(timestamp)),
+                            expired: isCacheExpiredGeneric(key),
+                            size: size
+                        });
+                    }
+                }
+            }
+            
+            return info;
         }
         
         async function loadVocabularyFromDate(date) {
@@ -2205,8 +2416,6 @@
                 startDateInput.value = endDate;
             }
             
-            if (!startDate || !endDate) return;
-            
             // Ensure start date is not after end date
             if (new Date(startDate) > new Date(endDate)) {
                 const temp = startDate;
@@ -2301,6 +2510,14 @@
                 return loadAllAvailableStories();
             }
             
+            // Check cache for date range first
+            const cachedDateRangeStories = getCachedStoriesDateRange(startDate, endDate);
+            if (cachedDateRangeStories) {
+                allStories = cachedDateRangeStories;
+                renderStories();
+                return;
+            }
+            
             const loading = document.getElementById('loading');
             loading.style.display = 'block';
             document.getElementById('loadingText').textContent = 'Loading stories...';
@@ -2358,6 +2575,9 @@
                 return;
             }
             
+            // Cache the loaded date range stories
+            setCachedStoriesDateRange(startDate, endDate, allStories);
+            
             loading.style.display = 'none';
             
             if (allStories.length === 0) {
@@ -2371,6 +2591,15 @@
             const loading = document.getElementById('loading');
             loading.style.display = 'block';
             document.getElementById('loadingText').textContent = 'Loading stories...';
+            
+            // Check cache first
+            const cachedStories = getCachedStories();
+            if (cachedStories) {
+                allStories = cachedStories;
+                loading.style.display = 'none';
+                renderStories();
+                return;
+            }
             
             allStories = [];
             
@@ -2419,6 +2648,9 @@
                 loading.style.display = 'none';
                 return;
             }
+            
+            // Cache the loaded stories
+            setCachedStories(allStories);
             
             loading.style.display = 'none';
             renderStories();
@@ -2574,6 +2806,74 @@
 
         function closeDialogueModal() {
             document.getElementById('dialogueModal').style.display = 'none';
+        }
+
+        function toggleCacheInfo() {
+            const modal = document.getElementById('cacheInfoModal');
+            const cacheDetailsDiv = document.getElementById('cacheDetails');
+            
+            // Get cache info
+            const cacheInfo = getAllCacheInfo();
+            
+            // Build cache details HTML
+            let detailsHtml = '<h4>📊 Cache Status:</h4>';
+            
+            // Vocabulary cache
+            if (cacheInfo.vocabulary && cacheInfo.vocabulary.length > 0) {
+                detailsHtml += '<div class="cache-detail-item">';
+                detailsHtml += '<strong>📚 Vocabulary:</strong><br>';
+                detailsHtml += `${cacheInfo.vocabulary.length} entries cached<br>`;
+                const validEntries = cacheInfo.vocabulary.filter(v => !v.expired).length;
+                const expiredEntries = cacheInfo.vocabulary.length - validEntries;
+                detailsHtml += `${validEntries} valid, ${expiredEntries} expired`;
+                detailsHtml += '</div>';
+            }
+            
+            // Stories cache (all stories - rarely used since date range is auto-set)
+            if (cacheInfo.stories) {
+                const expiredClass = cacheInfo.stories.expired ? ' cache-expired' : '';
+                detailsHtml += `<div class="cache-detail-item${expiredClass}">`;
+                detailsHtml += '<strong>📖 All Stories:</strong><br>';
+                detailsHtml += `Last updated: ${cacheInfo.stories.timestamp.toLocaleString()}<br>`;
+                detailsHtml += `Status: ${cacheInfo.stories.expired ? 'Expired' : 'Valid'}`;
+                detailsHtml += '</div>';
+            }
+
+            // Date range stories caches
+            if (cacheInfo.storiesDateRanges && cacheInfo.storiesDateRanges.length > 0) {
+                cacheInfo.storiesDateRanges.forEach((dateRangeCache, index) => {
+                    const expiredClass = dateRangeCache.expired ? ' cache-expired' : '';
+                    detailsHtml += `<div class="cache-detail-item${expiredClass}">`;
+                    detailsHtml += '<strong>📖 Stories:</strong><br>';
+                    detailsHtml += `Range: ${dateRangeCache.dateRange}<br>`;
+                    detailsHtml += `Last updated: ${dateRangeCache.timestamp.toLocaleString()}<br>`;
+                    detailsHtml += `Status: ${dateRangeCache.expired ? 'Expired' : 'Valid'}`;
+                    detailsHtml += '</div>';
+                });
+            }
+ 
+            
+            // Dialogues cache
+            if (cacheInfo.dialogues) {
+                const expiredClass = cacheInfo.dialogues.expired ? ' cache-expired' : '';
+                detailsHtml += `<div class="cache-detail-item${expiredClass}">`;
+                detailsHtml += '<strong>💬 Dialogues:</strong><br>';
+                detailsHtml += `Last updated: ${cacheInfo.dialogues.timestamp.toLocaleString()}<br>`;
+                detailsHtml += `Status: ${cacheInfo.dialogues.expired ? 'Expired' : 'Valid'}`;
+                detailsHtml += '</div>';
+            } else {
+                detailsHtml += '<div class="cache-detail-item cache-expired">';
+                detailsHtml += '<strong>💬 Dialogues:</strong> Not cached yet';
+                detailsHtml += '</div>';
+            }
+            
+           
+            cacheDetailsDiv.innerHTML = detailsHtml;
+            modal.style.display = 'block';
+        }
+
+        function closeCacheInfo() {
+            document.getElementById('cacheInfoModal').style.display = 'none';
         }
 
         function toggleTranslation(index) {
@@ -2779,6 +3079,15 @@
             loading.style.display = 'block';
             document.getElementById('loadingText').textContent = 'Loading dialogues...';
             
+            // Check cache first
+            const cachedDialogues = getCachedDialogues();
+            if (cachedDialogues) {
+                allDialogues = cachedDialogues;
+                loading.style.display = 'none';
+                renderDialogues();
+                return;
+            }
+            
             allDialogues = [];
             
             try {
@@ -2827,6 +3136,9 @@
                 loading.style.display = 'none';
                 return;
             }
+            
+            // Cache the loaded dialogues
+            setCachedDialogues(allDialogues);
             
             loading.style.display = 'none';
             renderDialogues();
