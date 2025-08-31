@@ -1,0 +1,15 @@
+story:
+  title: "a-case-of-yak-shaving"
+  date: "2025-08-31"
+  text: |
+    It all started with a simple task: fix a typo in the footer of our website. "Five minutes, tops," I thought. But to update the footer, I had to modify a shared **boilerplate** component. When I tried to run the project locally, I found out the dependencies were outdated. An hour later, after wrestling with package versions, I finally got it running.
+
+    But my change caused a **regression** in the checkout form. I spent another hour trying to figure out why. It turned out the old component had some undocumented, implicit dependency on a CSS class that my change had removed. It was a classic case of **yak shaving**.
+
+    To fix the regression, I had to first refactor the old CSS, removing the **cruft** that had built up over years. I finally fixed the original typo, but my simple five-minute task had turned into a three-hour detour. Before merging, I ran a quick **smoke test** on the staging environment to make sure I hadn't broken anything else. It was a humbling reminder that sometimes the simplest tasks can lead you down the deepest rabbit holes.
+  highlighted_words:
+    - "boilerplate"
+    - "regression"
+    - "yak shaving"
+    - "cruft"
+    - "smoke test"

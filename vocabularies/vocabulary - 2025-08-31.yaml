@@ -1,0 +1,249 @@
+- word: "Consensus"
+  pronunciation: "/kənˈsen.səs/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A general agreement among all members of a group."
+    bahasa: "Kesepakatan umum di antara semua anggota sebuah kelompok."
+  usage: "Use 'consensus' when the whole team has to agree on a decision, especially for important topics like architecture or strategy."
+  synonyms:
+    - "agreement"
+    - "unanimity"
+  examples:
+    workplace:
+      - "After a long discussion, we finally reached a consensus to use the new framework."
+      - "We shouldn't proceed until we have a consensus from the entire team."
+    casual:
+      - "The family reached a consensus to go to the mountains for vacation."
+      - "There is no consensus on which pizza topping is the best."
+  related:
+    - word: "Agreement"
+      difference: "'Agreement' can be between just two people. 'Consensus' implies agreement from a larger group, often everyone involved."
+    - word: "Majority vote"
+      difference: "A 'majority vote' means over 50% agree, but some may still disagree. 'Consensus' means everyone is on board with the decision, even if it's not their first choice."
+  story: |
+    Our team was debating whether to build a new feature from scratch or use a third-party library. There were strong opinions on both sides. Instead of forcing a decision, our tech lead facilitated a discussion about the pros and cons of each approach. After an hour of debate, we finally reached a consensus. We decided to use the library for now to save time, with an agreement to revisit the decision in six months.
+
+- word: "Trade-off"
+  pronunciation: "/ˈtreɪd.ɒf/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A situation in which you accept something bad in order to have something good. A compromise where you lose one quality in exchange for another."
+    bahasa: "Situasi di mana Anda menerima sesuatu yang buruk untuk mendapatkan sesuatu yang baik. Kompromi di mana Anda kehilangan satu kualitas demi kualitas lain."
+  usage: "Use 'trade-off' to discuss the pros and cons of a decision, which is constant in engineering. For example, speed vs. accuracy, or cost vs. quality."
+  synonyms:
+    - "compromise"
+    - "exchange"
+  examples:
+    workplace:
+      - "We can make the feature launch faster, but the trade-off is that it will have less functionality."
+      - "The main trade-off of using this database is that it's very fast but also very expensive."
+    casual:
+      - "I accepted a lower salary for a job with a better work-life balance. It was a good trade-off."
+      - "The trade-off of living in the city is the high cost of rent."
+  related:
+    - word: "Compromise"
+      difference: "A 'compromise' is an agreement reached by mutual concession. A 'trade-off' is a choice where you inherently lose something to gain something else, often without negotiation."
+    - word: "Consequence"
+      difference: "A 'consequence' is the result of an action. A 'trade-off' is the specific act of balancing two opposing consequences before making a decision."
+  story: |
+    We were designing a new mobile app. The product manager wanted it to have beautiful, high-resolution animations. However, the engineers explained the trade-off: using such complex animations would make the app slower and consume more battery. After a discussion, the team agreed on a trade-off: they would use simpler animations to ensure the app remained fast and efficient, which was a higher priority.
+
+- word: "Circle back"
+  pronunciation: "/ˈsɜː.kəl bæk/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To return to a topic or issue at a later time."
+    bahasa: "Kembali ke suatu topik atau masalah di lain waktu."
+  usage: "Use 'circle back' in meetings when a topic is taking too long or is not relevant to everyone. It's a polite way to postpone a discussion."
+  synonyms:
+    - "revisit"
+    - "return to"
+  examples:
+    workplace:
+      - "That's a good point, but let's circle back to it after we finish the main agenda."
+      - "I don't have the answer right now, can I circle back with you tomorrow?"
+    casual:
+      - "I need to think about your offer. I'll circle back with you next week."
+      - "We started talking about movies, but let's circle back to our original plan for the day."
+  related:
+    - word: "Follow up"
+      difference: "'Follow up' is about continuing a previous conversation or checking for an update. 'Circle back' is specifically about returning to a topic that was intentionally postponed."
+    - word: "Postpone"
+      difference: "'Postpone' is a general term for delaying an event. 'Circle back' is an informal phrase for delaying a *discussion* on a specific topic."
+  story: |
+    During our team's stand-up meeting, two engineers started a deep discussion about a specific database issue. The team lead noticed that it was only relevant to them and was taking up everyone's time. She politely interrupted and said, "This sounds important, but let's you two sync up after the meeting. We can circle back to the solution with the whole team if needed."
+
+- word: "Touch base"
+  pronunciation: "/tʌtʃ beɪs/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To briefly talk to or make contact with someone, usually to get an update or to ensure you are aligned."
+    bahasa: "Berbicara atau menghubungi seseorang secara singkat, biasanya untuk mendapatkan pembaruan atau memastikan Anda selaras."
+  usage: "Use 'touch base' for a quick, informal check-in. It's less formal than 'sync up' and implies a shorter, more focused conversation."
+  synonyms:
+    - "check in"
+    - "connect briefly"
+  examples:
+    workplace:
+      - "I'm going to touch base with the designer to see if the mockups are ready."
+      - "Let's touch base next week to see how the project is progressing."
+    casual:
+      - "I'll touch base with you later to confirm our dinner plans."
+      - "Just wanted to touch base and see how you're doing."
+  related:
+    - word: "Sync up"
+      difference: "'Sync up' often implies a meeting to align on a plan or work. 'Touch base' is often just a quick check-in to get a status update, and can be a very brief chat or message."
+    - word: "Ping"
+      difference: "'Ping' is the action of sending the message (e.g., 'I'll ping you'). 'Touch base' is the purpose of the communication (e.g., 'I'll ping you to touch base')."
+  story: |
+    I was working on the front-end part of a feature, which depended on the back-end API. I hadn't heard from the back-end developer for a day, so I sent him a quick message: "Hey, just wanted to touch base. How is the API development going? Let me know if you have an estimated completion time." This quick check-in helped me plan my own work for the rest of the day.
+
+- word: "Pain point"
+  pronunciation: "/peɪn pɔɪnt/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A specific problem or frustration that users or customers experience with a product or service."
+    bahasa: "Masalah atau frustrasi spesifik yang dialami pengguna atau pelanggan dengan suatu produk atau layanan."
+  usage: "Use 'pain point' to describe the 'why' behind a feature or a bug fix. Software development is often about solving user pain points."
+  synonyms:
+    - "frustration"
+    - "problem area"
+  examples:
+    workplace:
+      - "Our biggest user pain point is the slow loading time, so we need to prioritize that."
+      - "During user research, we identified several key pain points in the checkout process."
+    casual:
+      - "My main pain point with this coffee machine is that it's so hard to clean."
+      - "A major pain point of living here is the lack of parking."
+  related:
+    - word: "Issue"
+      difference: "An 'issue' is a problem from the developer's perspective (e.g., 'a bug in the code'). A 'pain point' is the problem from the user's perspective (e.g., 'the app crashes when I click this button')."
+    - word: "Feature"
+      difference: "A 'feature' is the solution you build to solve a 'pain point'."
+  story: |
+    Our company's support team noticed that dozens of users were complaining about the same thing every week: they couldn't easily export their data. This was a clear pain point. The product manager created a ticket to address this. The engineering team then built a new 'Export to CSV' button. The new feature directly solved the user's pain point and significantly reduced the number of support complaints.
+
+- word: "Overhead"
+  pronunciation: "/ˈəʊ.və.hed/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The extra resources, time, or complexity required to perform a task. In software, it's the indirect cost of computation or memory usage."
+    bahasa: "Sumber daya, waktu, atau kompleksitas tambahan yang diperlukan untuk melakukan suatu tugas. Dalam perangkat lunak, ini adalah biaya tidak langsung dari komputasi atau penggunaan memori."
+  usage: "Use 'overhead' to talk about the 'cost' of a particular approach. A solution might work, but it might have too much overhead, making it inefficient."
+  synonyms:
+    - "burden"
+    - "indirect cost"
+  examples:
+    workplace:
+      - "Using this framework adds a lot of performance overhead to our application."
+      - "The communication overhead of having a large team is significant, so we need efficient processes."
+    casual:
+      - "The overhead of planning a big party is why I prefer small gatherings."
+      - "The mental overhead of remembering so many passwords is a real problem."
+  related:
+    - word: "Performance"
+      difference: "'Performance' is what you measure (e.g., speed, efficiency). 'Overhead' is often what negatively impacts performance."
+    - word: "Complexity"
+      difference: "'Complexity' is how difficult something is to understand. 'Overhead' is the resource cost of that complexity when the system is running."
+  story: |
+    Our team was deciding on a new way to log errors in our application. One developer suggested a very powerful, feature-rich logging library. However, a senior engineer pointed out the performance overhead. "This library is great," she said, "but it uses a lot of memory and CPU for every log message. For our high-traffic application, this overhead could slow everything down. We should use a simpler, lightweight solution."
+
+- word: "Streamline"
+  pronunciation: "/ˈstriːm.laɪn/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To make a process, system, or organization more efficient and effective by simplifying or improving its procedures."
+    bahasa: "Membuat suatu proses, sistem, atau organisasi menjadi lebih efisien dan efektif dengan menyederhanakan atau memperbaiki prosedurnya."
+  usage: "Use 'streamline' when you're talking about improving a workflow, like the deployment process, bug reporting, or team communication."
+  synonyms:
+    - "simplify"
+    - "make more efficient"
+  examples:
+    workplace:
+      - "We need to streamline our code review process to make it faster."
+      - "The new software will help us streamline our workflow."
+    casual:
+      - "I need to streamline my morning routine to get out of the house faster."
+      - "She streamlined her packing by using packing cubes."
+  related:
+    - word: "Improve"
+      difference: "'Improve' is a very general term. 'Streamline' specifically means to improve by making something simpler, smoother, or more efficient."
+    - word: "Automate"
+      difference: "'Automating' a process is one of the best ways to 'streamline' it."
+  story: |
+    Our team's deployment process used to involve many manual steps. A developer had to manually run tests, build the code, connect to the server, and upload the files. It was slow and prone to errors. We decided to streamline this process. We wrote scripts to automate the testing and building, and we set up a continuous deployment pipeline. Now, we can release new code with a single click.
+
+- word: "Pivot"
+  pronunciation: "/ˈpɪv.ət/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To make a fundamental change in strategy when it becomes clear that the current approach is not working."
+    bahasa: "Membuat perubahan mendasar dalam strategi ketika menjadi jelas bahwa pendekatan saat ini tidak berhasil."
+  usage: "Use 'pivot' to describe a major shift in a project's or company's direction. It's a bigger change than just tweaking a feature."
+  synonyms:
+    - "change direction"
+    - "shift strategy"
+  examples:
+    workplace:
+      - "Our initial product idea wasn't getting any users, so the company decided to pivot to a new market."
+      - "We need to be prepared to pivot if our current strategy doesn't show results."
+    casual:
+      - "He started his career in law but decided to pivot to photography."
+      - "We had planned a beach trip, but the weather was bad, so we had to pivot and go to the museum instead."
+  related:
+    - word: "Change"
+      difference: "'Change' can be small. A 'pivot' is a significant, structural change in direction or strategy."
+    - word: "Adapt"
+      difference: "To 'adapt' is to make small adjustments in response to circumstances. To 'pivot' is to change your core strategy."
+  story: |
+    A startup I know launched an app for finding local restaurants. After six months, they had very few users. But they noticed that the most used feature was the ability for users to leave reviews. So, the company made a bold decision to pivot. They removed the restaurant finding feature and rebuilt the entire app to be a social network for food reviews. The pivot was successful, and the company is now thriving.
+
+- word: "Flag"
+  pronunciation: "/flæɡ/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To report or mark something as a problem or as needing attention."
+    bahasa: "Melaporkan atau menandai sesuatu sebagai masalah atau memerlukan perhatian."
+  usage: "Use 'flag' when you want to raise an issue without necessarily solving it immediately. You are making others aware of it."
+  synonyms:
+    - "highlight"
+    - "mark"
+  examples:
+    workplace:
+      - "I'm going to flag this ticket as high-priority because it's affecting many users."
+      - "During the code review, I flagged a potential security issue."
+    casual:
+      - "I've flagged the emails I need to reply to."
+      - "She flagged the suspicious message as spam."
+  related:
+    - word: "Report"
+      difference: "'Report' is more formal. 'Flag' is a common, slightly more informal way to say you've marked something for attention within a system (like Jira, GitHub, or a document)."
+    - word: "Red flag"
+      difference: "A 'red flag' is the warning sign itself (a noun). To 'flag' something is the action of pointing out that warning sign (a verb)."
+  story: |
+    While testing a new feature, our QA engineer noticed something strange. The application's memory usage was slowly increasing over time. It wasn't crashing, but it was a concern. She didn't have time to investigate the root cause, so she created a bug report and decided to flag it for the engineering team. This allowed a developer to pick it up and investigate the potential memory leak.
+
+- word: "Iron out"
+  pronunciation: "/ˈaɪ.ən aʊt/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To resolve or settle small problems, details, or differences."
+    bahasa: "Menyelesaikan atau membereskan masalah-masalah kecil, detail, atau perbedaan."
+  usage: "Use 'iron out' when you have a general plan, but you still need to finalize the minor details to make it work perfectly."
+  synonyms:
+    - "smooth over"
+    - "resolve"
+  examples:
+    workplace:
+      - "The teams have agreed on the main architecture; we just need to iron out the details of the API contract."
+      - "We're having a meeting to iron out the final issues before the launch."
+    casual:
+      - "My friend and I have decided to go on a trip together, we just need to iron out the dates."
+      - "They had a small argument, but they managed to iron it out."
+  related:
+    - word: "Solve"
+      difference: "'Solve' is for a big problem. 'Iron out' is for the small, final details or wrinkles in a plan that's mostly complete."
+    - word: "Finalize"
+      difference: "To 'finalize' is to make a plan official. To 'iron out' the details is the work you do *before* you can finalize it."
+  story: |
+    The front-end and back-end teams had a meeting to plan a new feature. They agreed on the overall approach in the first hour. They spent the second hour, however, to iron out the details. They discussed things like: 'What should the exact error message be if the API fails?' and 'Should this data field be a string or an integer?' By ironing out these small details early, they prevented a lot of confusion and bugs later on.

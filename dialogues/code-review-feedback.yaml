@@ -1,0 +1,59 @@
+dialogue:
+  - speaker: Maria
+    english: "Hey David, do you have a minute? I just went through your pull request."
+    bahasa: "Hai David, apakah kamu punya waktu sebentar? Aku baru saja memeriksa pull request-mu."
+  - speaker: David
+    english: "Sure, Maria. Thanks for reviewing it. Any feedback?"
+    bahasa: "Tentu, Maria. Terima kasih sudah memeriksanya. Ada masukan?"
+  - speaker: Maria
+    english: "Overall, it looks solid. The logic is sound and it covers the requirements. I just have a couple of minor suggestions."
+    bahasa: "Secara keseluruhan, kodenya bagus. Logikanya benar dan sudah mencakup semua persyaratan. Aku hanya punya beberapa saran kecil."
+  - speaker: David
+    english: "Great, I'm all ears."
+    bahasa: "Bagus, aku siap mendengarkan."
+  - speaker: Maria
+    english: "I noticed a variable name, `tempData`, that could be more descriptive. Maybe something like `userProfileData` would be clearer."
+    bahasa: "Aku melihat ada nama variabel, `tempData`, yang bisa lebih deskriptif. Mungkin sesuatu seperti `userProfileData` akan lebih jelas."
+  - speaker: David
+    english: "Good point. I'll refactor that. It's easy to fall back on generic names when you're in the zone."
+    bahasa: "Poin yang bagus. Aku akan mengubahnya. Sangat mudah untuk kembali menggunakan nama generik saat sedang fokus."
+  - speaker: Maria
+    english: "Exactly. Also, there's a small opportunity to extract a function. The block of code for validating the user's email is used twice."
+    bahasa: "Tepat sekali. Selain itu, ada peluang kecil untuk mengekstrak sebuah fungsi. Blok kode untuk memvalidasi email pengguna digunakan dua kali."
+  - speaker: David
+    english: "Ah, I see it now. That would definitely make the code cleaner and more reusable. I'll create a separate `isValidEmail` utility function."
+    bahasa: "Ah, aku mengerti sekarang. Itu pasti akan membuat kode lebih bersih dan lebih dapat digunakan kembali. Aku akan membuat fungsi utilitas `isValidEmail` terpisah."
+  - speaker: Maria
+    english: "Perfect. That's all from me. Like I said, just minor tweaks to improve readability and maintainability."
+    bahasa: "Sempurna. Itu saja dariku. Seperti yang aku bilang, hanya perbaikan kecil untuk meningkatkan keterbacaan dan pemeliharaan kode."
+  - speaker: David
+    english: "Thanks, Maria! This is super helpful. I appreciate the constructive feedback."
+    bahasa: "Terima kasih, Maria! Ini sangat membantu. Aku menghargai masukan yang membangun."
+
+expressions:
+  - phrase: "pull request"
+    meaning_english: "A request to merge code changes from one branch into another in a Git repository."
+    meaning_bahasa: "Permintaan untuk menggabungkan perubahan kode dari satu cabang ke cabang lain di repositori Git."
+  - phrase: "looks solid"
+    meaning_english: "Appears to be well-implemented and reliable."
+    meaning_bahasa: "Tampaknya diimplementasikan dengan baik dan andal."
+  - phrase: "I'm all ears"
+    meaning_english: "I am ready and eager to listen."
+    meaning_bahasa: "Aku siap dan bersemangat untuk mendengarkan."
+  - phrase: "in the zone"
+    meaning_english: "Deeply focused and engrossed in an activity."
+    meaning_bahasa: "Sangat fokus dan asyik dalam suatu kegiatan."
+  - phrase: "refactor"
+    meaning_english: "To restructure existing computer code without changing its external behavior."
+    meaning_bahasa: "Merestrukturisasi kode komputer yang ada tanpa mengubah perilaku eksternalnya."
+  - phrase: "constructive feedback"
+    meaning_english: "Helpful criticism that is intended to improve something."
+    meaning_bahasa: "Kritik yang membantu yang bertujuan untuk memperbaiki sesuatu."
+
+questions:
+  - q: "What was Maria's first suggestion for David's code?"
+    a: "To use a more descriptive variable name instead of `tempData`."
+  - q: "Why did Maria suggest extracting a function?"
+    a: "Because the code for email validation was being used in two different places."
+  - q: "How did David react to the feedback?"
+    a: "He was appreciative and agreed that the suggestions would improve the code."

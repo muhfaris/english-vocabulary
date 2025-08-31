@@ -1,0 +1,19 @@
+story:
+  title: "sprint-review-and-next-steps"
+  date: "2025-08-31"
+  text: |
+    The team gathered for the sprint review, ready to **demonstrate** the work they had completed over the past two weeks. The **Product Owner**, Maria, kicked off the meeting by reminding everyone of the **sprint goal**: "to allow users to export their data to a CSV file."
+
+    First, a developer shared his screen and walked through the new export feature. He showed how a user could select a date range, click a button, and receive a perfectly formatted CSV file in their email. The stakeholders were impressed. "This looks great!" one of them said. "It's exactly what we needed."
+
+    Next, the team discussed the **burndown chart**. It showed that they had completed almost all the planned work, with only one minor task remaining. The **Scrum Master**, David, praised the team for their focus and hard work.
+
+    Finally, Maria presented the product **backlog**, which she had been refining based on recent user feedback. She highlighted the next top priorities, including improving the import functionality and adding new chart types. The team asked clarifying questions, ensuring they had a good understanding of the upcoming work. The meeting ended on a high note, with a clear sense of accomplishment and a shared understanding of what was next. The team felt a renewed sense of **momentum** heading into the next sprint planning session.
+  highlighted_words:
+    - "demonstrate"
+    - "Product Owner"
+    - "sprint goal"
+    - "burndown chart"
+    - "Scrum Master"
+    - "backlog"
+    - "momentum"

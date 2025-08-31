@@ -1,0 +1,20 @@
+story:
+  title: "a-sudden-bug-before-release"
+  date: "2025-08-31"
+  text: |
+    The team was in high spirits. It was the last day of the sprint, and they were about to **deploy** the new checkout feature. All the user stories were complete, and the final round of **end-to-end** testing on the **staging** environment had passed with flying colors. It felt like a huge **milestone** had been reached. The product manager was already preparing a celebratory email to the **stakeholders**.
+
+    Just as Leo was about to start the production deployment, a frantic message came in from a QA tester doing one last **sanity check**. "The payment button is disabled on Safari! I can't click it!"
+
+    Panic set in. How could this have been missed? The team quickly huddled together. Maya, a senior frontend engineer, shared her screen. They dove into the browser's developer tools and found the issue: a single line of CSS, meant for Chrome, was causing a rendering bug on Safari. It was a classic browser-compatibility problem.
+
+    With the deadline looming, Maya quickly wrote a **workaround**. It wasn't the prettiest fix, but it was safe and effective. They pushed the hotfix, ran a quick regression test, and got the green light. With a collective sigh of relief, Leo finally hit the deploy button. The feature went live just in time. The team decided they would discuss how to improve their browser testing strategy in the next **retrospective**.
+  highlighted_words:
+    - "deploy"
+    - "end-to-end"
+    - "staging"
+    - "milestone"
+    - "stakeholders"
+    - "sanity check"
+    - "workaround"
+    - "retrospective"

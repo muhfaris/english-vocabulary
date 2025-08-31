@@ -1,0 +1,57 @@
+dialogue:
+  - speaker: Ken
+    english: "Hey, Lisa. Got a moment? I'm a bit stuck on this new component."
+    bahasa: "Hai, Lisa. Punya waktu sebentar? Aku agak buntu di komponen baru ini."
+  - speaker: Lisa
+    english: "Sure, what's up? I can spare about 30 minutes before my next meeting."
+    bahasa: "Tentu, ada apa? Aku punya waktu sekitar 30 menit sebelum rapat berikutnya."
+  - speaker: Ken
+    english: "Awesome, thanks. It's about the state management. I'm trying to pass props down, but the child component isn't re-rendering."
+    bahasa: "Keren, terima kasih. Ini tentang manajemen state. Aku mencoba meneruskan props ke bawah, tapi komponen anak tidak me-render ulang."
+  - speaker: Lisa
+    english: "Classic issue. Can you share your screen? Let's take a look together."
+    bahasa: "Masalah klasik. Bisa bagikan layarmu? Mari kita lihat bersama."
+  - speaker: Ken
+    english: "Okay, you should be able to see it now. Here's the parent component where the state is defined."
+    bahasa: "Oke, seharusnya sudah terlihat sekarang. Ini komponen induk tempat state didefinisikan."
+  - speaker: Lisa
+    english: "Hmm, I see. And where are you updating the state?"
+    bahasa: "Hmm, begitu. Dan di mana kamu memperbarui state-nya?"
+  - speaker: Ken
+    english: "Right here, in this `handleClick` function. I'm updating the array."
+    bahasa: "Di sini, di fungsi `handleClick` ini. Aku memperbarui array-nya."
+  - speaker: Lisa
+    english: "Ah, I think I see the problem. You're mutating the state directly. React won't detect the change that way."
+    bahasa: "Ah, sepertinya aku tahu masalahnya. Kamu memutasi state secara langsung. React tidak akan mendeteksi perubahan dengan cara itu."
+  - speaker: Ken
+    english: "Oh, right! I should be creating a new array instead. So, use the spread operator to create a copy."
+    bahasa: "Oh, benar! Seharusnya aku membuat array baru. Jadi, gunakan operator spread untuk membuat salinan."
+  - speaker: Lisa
+    english: "Exactly! Give that a try. That should solve the re-rendering issue."
+    bahasa: "Tepat sekali! Coba itu. Seharusnya itu bisa menyelesaikan masalah re-rendering."
+expressions:
+  - phrase: "a bit stuck"
+    meaning_english: "To be unable to solve a problem or make progress."
+    meaning_bahasa: "Tidak mampu memecahkan masalah atau membuat kemajuan."
+  - phrase: "what's up?"
+    meaning_english: "A casual greeting used to ask what someone is doing or how they are."
+    meaning_bahasa: "Sapaan santai yang digunakan untuk menanyakan apa yang sedang dilakukan seseorang atau bagaimana kabarnya."
+  - phrase: "state management"
+    meaning_english: "In software development, the management of the state of user interface controls."
+    meaning_bahasa: "Dalam pengembangan perangkat lunak, pengelolaan keadaan kontrol antarmuka pengguna."
+  - phrase: "pass props down"
+    meaning_english: "In component-based frameworks like React, passing data from a parent component to a child component."
+    meaning_bahasa: "Dalam kerangka kerja berbasis komponen seperti React, meneruskan data dari komponen induk ke komponen anak."
+  - phrase: "mutating the state directly"
+    meaning_english: "Changing the value of a state variable in place, which should be avoided in frameworks like React."
+    meaning_bahasa: "Mengubah nilai variabel state secara langsung, yang seharusnya dihindari dalam kerangka kerja seperti React."
+  - phrase: "spread operator"
+    meaning_english: "A JavaScript operator (`...`) that allows an iterable to be expanded in places where zero or more arguments or elements are expected."
+    meaning_bahasa: "Operator JavaScript (`...`) yang memungkinkan iterable diperluas di tempat-tempat di mana nol atau lebih argumen atau elemen diharapkan."
+questions:
+  - q: "What problem was Ken facing with his component?"
+    a: "His child component was not re-rendering when the state in the parent component was updated."
+  - q: "What was the root cause of the issue Lisa identified?"
+    a: "Ken was mutating the state array directly instead of creating a new one, so React wasn't detecting the change."
+  - q: "What was the solution to Ken's problem?"
+    a: "To use the spread operator to create a new copy of the array when updating the state."
