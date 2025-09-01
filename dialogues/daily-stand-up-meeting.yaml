@@ -1,0 +1,81 @@
+dialogue:
+  - speaker: Sarah
+    english: "Alright team, let's kick off our daily stand-up. Mike, you're up first."
+    bahasa: "Baik tim, mari kita mulai stand-up harian kita. Mike, giliranmu pertama."
+  - speaker: Mike
+    english: "Morning everyone. Yesterday, I managed to wrap up the unit tests for the new payment API."
+    bahasa: "Pagi semua. Kemarin, saya berhasil menyelesaikan unit test untuk API pembayaran yang baru."
+  - speaker: Sarah
+    english: "Great, any issues with that?"
+    bahasa: "Bagus, ada masalah dengan itu?"
+  - speaker: Mike
+    english: "No, it all went smoothly. Today, I'll start working on the integration of the API into the checkout page. I don't have any blockers for now."
+    bahasa: "Tidak, semuanya berjalan lancar. Hari ini, saya akan mulai mengerjakan integrasi API ke halaman checkout. Saya tidak punya hambatan untuk saat ini."
+  - speaker: Sarah
+    english: "Excellent. Thanks, Mike. Linda, how about you?"
+    bahasa: "Luar biasa. Terima kasih, Mike. Linda, bagaimana denganmu?"
+  - speaker: Linda
+    english: "Hi all. Yesterday, I was trying to reproduce that weird bug in the user profile page. It's quite elusive."
+    bahasa: "Hai semua. Kemarin, saya mencoba mereproduksi bug aneh di halaman profil pengguna. Cukup sulit dipahami."
+  - speaker: Sarah
+    english: "The one that only happens on Safari?"
+    bahasa: "Yang hanya terjadi di Safari?"
+  - speaker: Linda
+    english: "Exactly. I'm still investigating it. So that's my plan for today as well. I'm a bit stuck, so I might need a second pair of eyes on it later."
+    bahasa: "Tepat sekali. Saya masih menyelidikinya. Jadi itu rencana saya untuk hari ini juga. Saya agak buntu, jadi mungkin saya butuh bantuan orang lain untuk melihatnya nanti."
+  - speaker: Sarah
+    english: "No problem, let's sync up after the stand-up. I can help you with that. Anyone else with updates?"
+    bahasa: "Tidak masalah, mari kita sinkronisasi setelah stand-up. Saya bisa membantumu dengan itu. Ada lagi yang punya pembaruan?"
+  - speaker: Mike
+    english: "All good on my end."
+    bahasa: "Semua baik-baik saja di pihak saya."
+  - speaker: Linda
+    english: "Same here."
+    bahasa: "Sama di sini."
+  - speaker: Sarah
+    english: "Okay, great stand-up, everyone. Let's get to it."
+    bahasa: "Oke, stand-up yang bagus, semuanya. Mari kita mulai bekerja."
+
+expressions:
+  - phrase: "Kick off"
+    meaning_english: "To start something, like a meeting or an event."
+    meaning_bahasa: "Memulai sesuatu, seperti rapat atau acara."
+  - phrase: "You're up first"
+    meaning_english: "It's your turn to speak or do something."
+    meaning_bahasa: "Sekarang giliranmu untuk berbicara atau melakukan sesuatu."
+  - phrase: "Wrap up"
+    meaning_english: "To finish or complete something."
+    meaning_bahasa: "Menyelesaikan sesuatu."
+  - phrase: "Went smoothly"
+    meaning_english: "Happened without any problems or difficulties."
+    meaning_bahasa: "Berjalan tanpa masalah atau kesulitan."
+  - phrase: "Blockers"
+    meaning_english: "Anything that prevents progress on a task."
+    meaning_bahasa: "Segala sesuatu yang menghalangi kemajuan suatu tugas."
+  - phrase: "Weird bug"
+    meaning_english: "An unusual or unexpected error in the software."
+    meaning_bahasa: "Error yang aneh atau tidak terduga di dalam perangkat lunak."
+  - phrase: "Quite elusive"
+    meaning_english: "Difficult to find, identify, or understand."
+    meaning_bahasa: "Sulit ditemukan, diidentifikasi, atau dipahami."
+  - phrase: "A bit stuck"
+    meaning_english: "Unable to proceed with a task or a problem."
+    meaning_bahasa: "Tidak dapat melanjutkan tugas atau masalah."
+  - phrase: "A second pair of eyes"
+    meaning_english: "To have someone else look at a problem to get a fresh perspective."
+    meaning_bahasa: "Meminta orang lain untuk melihat suatu masalah untuk mendapatkan perspektif baru."
+  - phrase: "Sync up"
+    meaning_english: "To meet and share information to ensure everyone is on the same page."
+    meaning_bahasa: "Bertemu dan berbagi informasi untuk memastikan semua orang memiliki pemahaman yang sama."
+
+questions:
+  - q: "What did Mike accomplish yesterday?"
+    a: "He finished writing the unit tests for the new payment API."
+  - q: "What is Mike's plan for today?"
+    a: "He plans to start integrating the new payment API into the checkout page."
+  - q: "What problem is Linda facing?"
+    a: "She is trying to fix a difficult bug on the user profile page that only appears on the Safari browser."
+  - q: "Why does Linda need a 'second pair of eyes'?"
+    a: "She is stuck on the bug and thinks a fresh perspective from another person could help solve it."
+  - q: "How does Sarah offer to help Linda?"
+    a: "Sarah offers to sync up with Linda after the stand-up meeting to help her investigate the bug."
