@@ -1,0 +1,249 @@
+- word: "Gotcha"
+  pronunciation: "/ˈɡɒt.ʃə/"
+  part_of_speech: "noun"
+  meaning:
+    english: "An unexpected problem or hidden catch that can cause issues."
+    bahasa: "Masalah tak terduga atau jebakan tersembunyi yang dapat menimbulkan masalah."
+  usage: "Use 'gotcha' informally to describe a tricky, unforeseen problem you discovered during development or testing."
+  synonyms:
+    - "pitfall"
+    - "hidden trap"
+  examples:
+    workplace:
+      - "The main gotcha with this library is that it doesn't handle timezones correctly by default."
+      - "I spent all day on a bug that was caused by a simple gotcha in the documentation."
+    casual:
+      - "The contract seemed simple, but there were a few gotchas in the fine print."
+      - "It's a great phone, but the battery life is the big gotcha."
+  related:
+    - word: "Quirk"
+      difference: "A 'quirk' is a strange, known behavior of a system. A 'gotcha' is a problem or trap that you discover unexpectedly, often causing a bug."
+    - word: "Edge case"
+      difference: "An 'edge case' is a rare scenario. A 'gotcha' is a misleading or tricky part of a system that can cause problems even in normal scenarios."
+  story: |
+    I was trying to use a new API, and the documentation said that to get all items, you should make a request to `/items`. I kept getting an error. After hours of debugging, I found a comment on a forum that revealed the gotcha: you had to include a specific header, `X-Client-Version`, or the API would reject the request. This wasn't mentioned anywhere in the official docs.
+
+- word: "Buy-in"
+  pronunciation: "/ˈbaɪ.ɪn/"
+  part_of_speech: "noun"
+  meaning:
+    english: "Agreement and commitment from people to support a decision or plan."
+    bahasa: "Persetujuan dan komitmen dari orang-orang untuk mendukung sebuah keputusan atau rencana."
+  usage: "Use 'buy-in' when you need agreement from your team, manager, or stakeholders before proceeding with a plan or project."
+  synonyms:
+    - "agreement"
+    - "support"
+  examples:
+    workplace:
+      - "We can't start the refactor until we get buy-in from the product manager."
+      - "He presented his idea to the team to get their buy-in."
+    casual:
+      - "The new school policy won't work without buy-in from the parents."
+      - "She wanted to get buy-in from her friends before booking the vacation."
+  related:
+    - word: "Consensus"
+      difference: "'Consensus' means everyone agrees. 'Buy-in' means people agree to support the decision, even if it wasn't their first choice. It's about commitment to move forward."
+    - word: "Alignment"
+      difference: "'Alignment' is the state of having a shared understanding. 'Buy-in' is the active agreement to support the aligned plan."
+  story: |
+    A senior engineer proposed a major architectural change. Before writing a single line of code, she scheduled meetings with all the other teams that would be affected. She explained the rationale and the long-term benefits. By taking the time to get buy-in from everyone, she ensured that when the work started, she had their full cooperation.
+
+- word: "Pushback"
+  pronunciation: "/ˈpʊʃ.bæk/"
+  part_of_speech: "noun"
+  meaning:
+    english: "Resistance or opposition to a proposal or idea."
+    bahasa: "Perlawanan atau oposisi terhadap sebuah usulan atau ide."
+  usage: "Use 'pushback' to describe negative reactions or strong disagreement from team members or stakeholders about a plan, feature, or deadline."
+  synonyms:
+    - "resistance"
+    - "opposition"
+  examples:
+    workplace:
+      - "We received a lot of pushback from the sales team about removing the old feature."
+      - "I expected some pushback on the timeline, but they all agreed it was reasonable."
+    casual:
+      - "The parents gave the school some pushback on the new uniform policy."
+      - "When I suggested we go camping in the winter, I got a lot of pushback from my friends."
+  related:
+    - word: "Objection"
+      difference: "An 'objection' is a specific reason for disagreeing. 'Pushback' is the overall feeling of resistance, which may contain several objections."
+    - word: "Concern"
+      difference: "A 'concern' is a worry about a plan. 'Pushback' is a stronger form of active resistance to the plan."
+  story: |
+    The product manager wanted to launch the new feature in two weeks. The engineering team gave him some pushback. They explained that the deadline was too aggressive and would force them to cut corners on testing. After a discussion, they agreed on a more realistic three-week timeline.
+
+- word: "Kudos"
+  pronunciation: "/ˈkjuː.dɒs/"
+  part_of_speech: "noun"
+  meaning:
+    english: "Praise and honor received for an achievement."
+    bahasa: "Pujian dan kehormatan yang diterima atas suatu pencapaian."
+  usage: "Use 'kudos' informally to give praise or recognition to a colleague for their good work. It's often used in team chats or retrospective meetings."
+  synonyms:
+    - "praise"
+    - "props"
+  examples:
+    workplace:
+      - "Kudos to Sarah for fixing that critical bug so quickly!"
+      - "I want to give kudos to the whole team for a successful release."
+    casual:
+      - "Kudos to the chef, this meal was amazing."
+      - "She deserves kudos for organizing such a great event."
+  related:
+    - word: "Praise"
+      difference: "'Praise' is a general term. 'Kudos' is a more informal, modern slang term that is very common in workplace communication."
+    - word: "Shout-out"
+      difference: "A 'shout-out' is a public expression of thanks or praise. Giving 'kudos' is a form of giving a 'shout-out'."
+  story: |
+    At the end of our sprint retrospective, our manager took a moment to give some recognition. "I want to give huge kudos to Leo," he said. "He stayed late on Tuesday to help the support team with a difficult customer issue, which was outside of his normal responsibilities. Thanks for going the extra mile, Leo!"
+
+- word: "Off-the-shelf"
+  pronunciation: "/ˌɒf.ðəˈʃelf/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Not custom-made; available as a standard, ready-made product."
+    bahasa: "Tidak dibuat khusus; tersedia sebagai produk standar yang sudah jadi."
+  usage: "Use 'off-the-shelf' to describe using a pre-existing library, framework, or software product rather than building a custom solution from scratch."
+  synonyms:
+    - "ready-made"
+    - "pre-built"
+  examples:
+    workplace:
+      - "For our authentication, we're using an off-the-shelf solution instead of building our own."
+      - "Why are we trying to build a custom charting library when there are so many good off-the-shelf options?"
+    casual:
+      - "We just bought an off-the-shelf bookshelf from IKEA."
+      - "This isn't a custom suit; it's off-the-shelf."
+  related:
+    - word: "Custom-built"
+      difference: "'Custom-built' is the opposite of 'off-the-shelf'. It means creating something from scratch for a specific need."
+    - word: "Third-party"
+      difference: "An 'off-the-shelf' solution is usually a 'third-party' product (i.e., made by another company)."
+  story: |
+    Our team needed to add a rich text editor to our application. We could have spent months building one from scratch, but we decided to use an off-the-shelf component instead. It saved us a huge amount of time and provided more features than we could have built ourselves.
+
+- word: "Brittle"
+  pronunciation: "/ˈbrɪt.əl/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Hard but liable to break or shatter easily. In software, it describes code that works, but is likely to break when changes are made nearby."
+    bahasa: "Keras tetapi mudah pecah atau hancur. Dalam perangkat lunak, ini menggambarkan kode yang berfungsi, tetapi kemungkinan besar akan rusak ketika ada perubahan di sekitarnya."
+  usage: "Use 'brittle' to describe code that is fragile, hard to maintain, and has a high risk of regression."
+  synonyms:
+    - "fragile"
+    - "delicate"
+  examples:
+    workplace:
+      - "Our old UI tests are very brittle; they break every time we make a small change to the HTML."
+      - "I'm scared to touch this part of the codebase, it's notoriously brittle."
+    casual:
+      - "The antique vase was very brittle."
+      - "As you get older, your bones can become more brittle."
+  related:
+    - word: "Robust"
+      difference: "'Robust' is the opposite of 'brittle'. Robust code is strong and continues to work even when changes are made."
+    - word: "Legacy code"
+      difference: "'Legacy code' is often, but not always, 'brittle'."
+  story: |
+    We had a set of automated tests for our application, but they were very brittle. They were so tightly coupled to the implementation details that any small refactoring would cause dozens of tests to fail, even if the feature was still working perfectly. It made everyone hesitant to make improvements to the code.
+
+- word: "Robust"
+  pronunciation: "/roʊˈbʌst/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Strong and healthy; vigorous. In software, it describes a system that is strong, reliable, and able to handle errors and unexpected conditions gracefully."
+    bahasa: "Kuat dan sehat; bertenaga. Dalam perangkat lunak, ini menggambarkan sistem yang kuat, andal, dan mampu menangani kesalahan dan kondisi tak terduga dengan baik."
+  usage: "Use 'robust' to describe high-quality, resilient code or systems."
+  synonyms:
+    - "sturdy"
+    - "resilient"
+  examples:
+    workplace:
+      - "We need to make our error handling more robust to prevent crashes."
+      - "The new architecture is much more robust than the old one."
+    casual:
+      - "He's a robust man who rarely gets sick."
+      - "The company has a robust financial position."
+  related:
+    - word: "Brittle"
+      difference: "'Brittle' is the opposite of 'robust'. Brittle code breaks easily, while robust code is resilient."
+    - word: "Scalable"
+      difference: "A 'scalable' system can handle growth. A 'robust' system can handle errors and unexpected situations. A good system is both."
+  story: |
+    The on-call engineer was paged at 3 AM. A third-party service we depended on was down. However, because our system was designed to be robust, it didn't crash. It gracefully degraded, showing a message to users that a part of the application was temporarily unavailable. The robust design prevented a major outage.
+
+- word: "One-off"
+  pronunciation: "/ˈwʌn.ɒf/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Done, made, or happening only once and not repeated."
+    bahasa: "Dilakukan, dibuat, atau terjadi hanya sekali dan tidak diulang."
+  usage: "Use 'one-off' to describe a task, script, or piece of work that is created for a single, specific purpose and is not intended for reuse."
+  synonyms:
+    - "single-use"
+    - "ad-hoc"
+  examples:
+    workplace:
+      - "I had to write a one-off script to migrate the data for that specific client."
+      - "This isn't a recurring meeting, it's just a one-off to discuss the incident."
+    casual:
+      - "The concert was a one-off event for charity."
+      - "He made a one-off payment to clear his debt."
+  related:
+    - word: "Throwaway"
+      difference: "Very similar. 'Throwaway' implies the code will be discarded. A 'one-off' script might be kept for reference, but it's only intended to be run once."
+    - word: "Ad-hoc"
+      difference: "An 'ad-hoc' task is unplanned. A 'one-off' task is defined by its single-use nature, whether it was planned or not."
+  story: |
+    We needed to update the email addresses for a thousand users who were affected by a database issue. There was no feature for this in our admin panel. So, I wrote a small, one-off script. I ran it once to fix the data, and then archived it. We'll likely never need that exact script again.
+
+- word: "Best practice"
+  pronunciation: "/ˌbest ˈpræk.tɪs/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A method or technique that has been generally accepted as superior to any alternatives because it produces results that are superior to those achieved by other means."
+    bahasa: "Metode atau teknik yang secara umum diterima sebagai lebih unggul dari alternatif lain karena menghasilkan hasil yang lebih unggul daripada yang dicapai dengan cara lain."
+  usage: "Use 'best practice' to refer to a recommended, industry-standard way of doing something, like writing code, securing a system, or designing an API."
+  synonyms:
+    - "standard procedure"
+    - "recommended approach"
+  examples:
+    workplace:
+      - "It's a best practice to store sensitive information like passwords in an encrypted format."
+      - "Our team follows the latest best practices for web accessibility."
+    casual:
+      - "A best practice for learning a new language is to practice a little every day."
+      - "Following kitchen safety best practices can prevent accidents."
+  related:
+    - word: "Convention"
+      difference: "A 'best practice' is a recommendation based on industry-wide experience for achieving a better result. A 'convention' is a team or community's agreement on how to do something for the sake of consistency, which may or may not be a 'best practice'."
+    - word: "Guideline"
+      difference: "A 'guideline' is a recommendation. A 'best practice' is a stronger recommendation, implying it's the proven, optimal way."
+  story: |
+    During a code review, a senior developer pointed out that I was writing a SQL query by concatenating strings. He explained that this was not a best practice because it was vulnerable to SQL injection attacks. He showed me the best practice, which was to use parameterized queries instead.
+
+- word: "Convention"
+  pronunciation: "/kənˈven.ʃən/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A way in which something is usually done; a custom."
+    bahasa: "Cara di mana sesuatu biasanya dilakukan; sebuah kebiasaan."
+  usage: "Use 'convention' to refer to a team's or a programming language's agreed-upon style or pattern for writing code, naming files, or structuring projects. A popular example is 'convention over configuration'."
+  synonyms:
+    - "custom"
+    - "tradition"
+  examples:
+    workplace:
+      - "Our team's naming convention is to use camelCase for variables."
+      - "Please follow the coding conventions outlined in our style guide."
+    casual:
+      - "It's a social convention to shake hands when you meet someone."
+      - "The convention at this company is to dress casually."
+  related:
+    - word: "Best practice"
+      difference: "A 'best practice' is about achieving a superior result. A 'convention' is about consistency and predictability. Following a convention is often a best practice."
+    - word: "Rule"
+      difference: "A 'rule' is strict and must be followed (often enforced by a tool like a linter). A 'convention' is a softer agreement that the team tries to follow."
+  story: |
+    A new developer joined our team and submitted his first pull request. The code worked, but our automated linter failed. He had used tabs instead of spaces for indentation. Our team's convention is to use two spaces. He fixed the formatting to follow our convention and the build passed.
