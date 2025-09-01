@@ -1,249 +1,741 @@
-- word: "offboarding"
-  pronunciation: "/ˈɔfˌbɔrdɪŋ/"
+- word: "Breakdown"
+  pronunciation: "/ˈbreɪkˌdaʊn/"
   part_of_speech: "noun"
   meaning:
-    english: "The process of a team member leaving a company or project, including knowledge transfer and revoking access."
-    bahasa: "Proses keluarnya anggota tim dari perusahaan atau proyek, termasuk transfer pengetahuan dan pencabutan akses."
-  usage: "Use when discussing the formal procedures for an employee's departure to ensure a smooth transition."
+    english: "A detailed analysis or division of something into its constituent parts."
+    bahasa: "Analisis atau pembagian detail dari sesuatu menjadi bagian-bagian penyusunnya."
+  usage: "Use when you need to divide a large task or complex problem into smaller, more manageable pieces."
   synonyms:
-    - "exit process"
-    - "departure procedure"
+    - "analysis"
+    - "dissection"
   examples:
     workplace:
-      - "We need to schedule a proper offboarding for Sarah to ensure all her project knowledge is documented."
-      - "The offboarding checklist includes returning the company laptop and signing the final paperwork."
+      - "Can you give me a breakdown of the tasks required for this feature?"
+      - "The project manager created a work breakdown to assign tasks to the team."
     casual:
-      - "His offboarding was so quick; one day he was here, the next day his access was gone."
-      - "I'm sad about her leaving, but at least the offboarding process will give us a chance to say a proper goodbye."
+      - "I need a breakdown of the costs before I can agree to the trip."
+      - "The recipe provides a breakdown of all the ingredients you'll need."
   related:
-    - word: "onboarding"
-      difference: "Onboarding is the process of integrating a new employee, while offboarding is for a departing employee."
-    - word: "handover"
-      difference: "Handover is a key part of offboarding, focusing specifically on transferring responsibilities and knowledge."
+    - word: "decompose"
+      difference: "'Decompose' is the verb for the action of creating a 'breakdown'."
+    - word: "user story"
+      difference: "A 'user story' is often the subject of a 'breakdown,' where it's split into smaller technical tasks."
   story: |
-    When our lead developer decided to move to another country, the offboarding process was critical. We spent two weeks documenting his work, transferring ownership of key services, and ensuring a smooth handover to the new lead. It was sad to see him go, but the structured offboarding prevented any major disruptions to our workflow.
+    During sprint planning, the epic 'Implement New Payment Gateway' seemed overwhelming. So, we created a breakdown of the work. We split it into smaller stories like 'API Integration,' 'UI Form,' and 'Database Schema Update.' This detailed breakdown made it much easier to estimate the effort and start working on it.
 
-- word: "heads-down"
-  pronunciation: "/hɛdz-daʊn/"
+- word: "Capability"
+  pronunciation: "/ˌkeɪpəˈbɪləti/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The power or ability to do something."
+    bahasa: "Kekuatan atau kemampuan untuk melakukan sesuatu."
+  usage: "Use to describe a feature or function that a system or application can perform."
+  synonyms:
+    - "ability"
+    - "feature"
+  examples:
+    workplace:
+      - "The new software update adds a data export capability."
+      - "We need to build the capability for users to reset their own passwords."
+    casual:
+      - "This car has the capability to go from 0 to 60 in under 4 seconds."
+      - "Her capability for learning new languages is amazing."
+  related:
+    - word: "feature"
+      difference: "'Feature' is a specific function, while 'capability' is a broader term for the system's power to perform that function."
+    - word: "scope"
+      difference: "'Scope' defines what will be built, which includes a set of 'capabilities'."
+  story: |
+    In the demo, we showcased the new search capability of our application. We explained that it not only finds keywords but also has the capability to understand natural language queries. This new capability was a major selling point for the stakeholders.
+
+- word: "Cohesive"
+  pronunciation: "/koʊˈhiːsɪv/"
   part_of_speech: "adjective"
   meaning:
-    english: "Deeply focused on work, without distractions."
-    bahasa: "Sangat fokus pada pekerjaan, tanpa gangguan."
-  usage: "Use to describe a period of intense, focused work, often before a deadline."
+    english: "Well-integrated; forming a united whole."
+    bahasa: "Terintegrasi dengan baik; membentuk satu kesatuan yang utuh."
+  usage: "Use to describe code, design, or a team that works together harmoniously and consistently."
   synonyms:
-    - "focused"
-    - "concentrated"
+    - "consistent"
+    - "integrated"
   examples:
     workplace:
-      - "I'll be heads-down this afternoon trying to finish the feature, so please ping me only if it's urgent."
-      - "The team is in a heads-down period to clear the technical debt before the next sprint."
+      - "We need to ensure the user interface is cohesive across all pages."
+      - "As a team, we need to be more cohesive to improve our velocity."
     casual:
-      - "I need a few hours of heads-down time to finish my assignment."
-      - "She put on her headphones and went heads-down to study for her exam."
+      - "The album feels very cohesive, with all the songs telling a single story."
+      - "Their new furniture collection is very cohesive."
   related:
-    - word: "deep work"
-      difference: "Deep work is a concept of focused work, while 'heads-down' is a more informal term to describe the state of being focused."
-    - word: "in the zone"
-      difference: "Similar to 'heads-down,' but 'in the zone' often implies a state of high performance and flow."
+    - word: "consistent"
+      difference: "'Consistent' refers to doing things in the same way, which leads to a 'cohesive' result."
+    - word: "integrated"
+      difference: "When parts are 'integrated' well, the whole system becomes 'cohesive'."
   story: |
-    With the release date just a week away, the entire development team went heads-down. Noise-canceling headphones became the unofficial uniform, and status updates on Slack were often met with a simple 'heads-down on the feature' response. It was intense, but this focused effort was exactly what we needed to get everything ready on time.
+    Our new design system was a game-changer. Before, every page had slightly different button styles and colors. Now, by using shared components, the entire application looks and feels cohesive. This consistency has made the user experience much more pleasant.
 
-- word: "commit"
-  pronunciation: "/kəˈmɪt/"
+- word: "Constraint"
+  pronunciation: "/kənˈstreɪnt/"
   part_of_speech: "noun"
   meaning:
-    english: "A snapshot of changes to files in a version control system like Git. Each commit has a unique ID and a message."
-    bahasa: "Sebuah rekaman (snapshot) dari perubahan pada file dalam sistem kontrol versi seperti Git. Setiap commit memiliki ID unik dan pesan."
-  usage: "Use when talking about saving changes to a code repository."
+    english: "A limitation or restriction."
+    bahasa: "Batasan atau pembatasan."
+  usage: "Use to refer to limitations you must work within, such as budget, time, or technical requirements."
   synonyms:
-    - "revision"
-    - "version"
+    - "limitation"
+    - "restriction"
   examples:
     workplace:
-      - "Please write a clear commit message so we know what changes you made."
-      - "I just pushed a new commit that should fix the bug."
+      - "We have to work within the constraint of a tight budget."
+      - "A major technical constraint is that we must support Internet Explorer 11."
     casual:
-      - "I made a commit to my personal project last night."
-      - "Think of each commit as a save point in your project's history."
+      - "I'd love to travel more, but time is a major constraint."
+      - "Dietary constraints can make eating out difficult."
   related:
-    - word: "push"
-      difference: "'Commit' saves changes locally, while 'push' sends your committed changes to a remote repository."
-    - word: "branch"
-      difference: "A 'branch' is a separate line of development, and a 'commit' is a single point of change within that branch."
+    - word: "bottleneck"
+      difference: "A 'constraint' is a limitation you know about, while a 'bottleneck' is a specific point where performance is choked because of a constraint."
+    - word: "requirement"
+      difference: "A 'requirement' is what you must do, while a 'constraint' is a boundary you must stay within while doing it."
   story: |
-    I spent the morning working on a new feature. After writing the code and adding a test, I was ready to save my progress. I made a commit with the message 'feat: add user authentication endpoint.' This single commit packaged all my changes neatly, making it easy for my teammates to review later.
+    We wanted to build the new feature using the latest JavaScript framework, but we had a key constraint: the client's servers were running an old version of Node.js. This constraint forced us to find a solution that was backward-compatible, shaping our entire technical approach.
 
-- word: "branch"
-  pronunciation: "/bræntʃ/"
+- word: "Feasible"
+  pronunciation: "/ˈfiːzəbəl/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Possible to do easily or conveniently."
+    bahasa: "Mungkin untuk dilakukan dengan mudah atau nyaman; layak."
+  usage: "Use when evaluating whether a plan, feature, or deadline is realistic and achievable."
+  synonyms:
+    - "achievable"
+    - "viable"
+  examples:
+    workplace:
+      - "We need to conduct a study to see if the project is technically feasible."
+      - "Is it feasible to finish this by the end of the week?"
+    casual:
+      - "It's not feasible for me to attend the meeting on Saturday."
+      - "With the new metro line, commuting from the suburbs has become more feasible."
+  related:
+    - word: "proof of concept (POC)"
+      difference: "A POC is often built to determine if an idea is technically 'feasible'."
+  story: |
+    The product manager asked if we could build a real-time translation feature. Before committing, our tech lead spent a day creating a quick prototype. He concluded that it was feasible, but it would require a significant amount of work. This feasibility check helped us make an informed decision.
+
+- word: "Iterate"
+  pronunciation: "/ˈɪtəˌreɪt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To perform or utter repeatedly; to make repeated use of a procedure."
+    bahasa: "Melakukan atau mengucapkan berulang kali; menggunakan prosedur secara berulang."
+  usage: "Use in the context of Agile development, where you build something in small steps, improving it with each cycle."
+  synonyms:
+    - "repeat"
+    - "refine"
+  examples:
+    workplace:
+      - "We'll release a basic version first and then iterate on it based on user feedback."
+      - "Let's not try to build everything at once. We can iterate towards the final solution."
+    casual:
+      - "The artist would iterate on her sketch until it was perfect."
+      - "You have to iterate through the list to find the item you're looking for."
+  related:
+    - word: "increment"
+      difference: "An 'increment' is the small piece of value you deliver in each cycle as you 'iterate'."
+    - word: "refactor"
+      difference: "'Refactor' is improving existing code, which is a common activity when you 'iterate' on a feature."
+  story: |
+    Our first version of the dashboard was simple, showing only basic data. After the release, we gathered feedback and began to iterate. In the next sprint, we added filters. In the one after that, we added a date range selector. By iterating, we slowly built a powerful tool without being overwhelmed.
+
+- word: "Rationale"
+  pronunciation: "/ˌræʃəˈnæl/"
   part_of_speech: "noun"
   meaning:
-    english: "A parallel version of a repository in Git. It allows you to work on different features or fixes without affecting the main codebase."
-    bahasa: "Versi paralel dari sebuah repositori di Git. Ini memungkinkan Anda untuk mengerjakan fitur atau perbaikan yang berbeda tanpa memengaruhi basis kode utama."
-  usage: "Use when discussing separate lines of development in version control."
+    english: "A set of reasons or a logical basis for a course of action or a particular belief."
+    bahasa: "Serangkaian alasan atau dasar logis untuk suatu tindakan atau keyakinan tertentu."
+  usage: "Use when explaining the 'why' behind a decision, especially a technical or architectural one."
   synonyms:
-    - "line of development"
-    - "version"
+    - "justification"
+    - "reasoning"
   examples:
     workplace:
-      - "Create a new branch for each feature you work on."
-      - "I'm going to merge the feature branch into the main branch now."
+      - "You need to provide a clear rationale for your technology choice in the design document."
+      - "The rationale behind this approach is that it improves performance by 30%."
     casual:
-      - "I have a 'dev' branch where I experiment with new ideas for my blog."
-      - "Working on a separate branch keeps your main code clean."
+      - "What was the rationale for closing the street today?"
+      - "He explained his rationale for investing in the company."
   related:
-    - word: "merge"
-      difference: "'Merge' is the action of combining changes from one branch into another."
-    - word: "main/master"
-      difference: "'main' (or 'master') is typically the primary, stable branch in a repository."
+    - word: "justification"
+      difference: "Very similar, but 'rationale' often implies a more detailed, logical explanation, while 'justification' can be simpler."
+    - word: "trade-off"
+      difference: "Your 'rationale' for a decision often involves explaining the 'trade-offs' you considered."
   story: |
-    When a new task to update the user profile page came in, the first thing I did was create a new branch called `feature/update-profile-page`. This allowed me to work in isolation, making all the necessary changes without worrying about breaking the main application. Once I was done, I'd merge this branch back.
+    During a code review, my colleague asked why I chose to use a NoSQL database. I explained my rationale: the data we were storing was unstructured, and we needed the flexibility to scale horizontally. This clear rationale helped him understand my decision and approve the pull request.
 
-- word: "pull request"
-  pronunciation: "/pʊl rɪˈkwɛst/"
+- word: "Redundant"
+  pronunciation: "/rɪˈdʌndənt/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Not or no longer needed or useful; superfluous."
+    bahasa: "Tidak atau tidak lagi diperlukan atau berguna; berlebihan."
+  usage: "Use to describe duplicate code, unnecessary processes, or backup systems."
+  synonyms:
+    - "unnecessary"
+    - "superfluous"
+  examples:
+    workplace:
+      - "We have redundant servers to ensure high availability."
+      - "I found some redundant code in this file that can be removed."
+    casual:
+      - "The phrase 'twelve midnight' is redundant, as midnight is always at 12."
+      - "He was made redundant from his job last year."
+  related:
+    - word: "duplicate"
+      difference: "'Duplicate' means an exact copy, while 'redundant' means something is no longer needed (which could be a duplicate)."
+    - word: "resilient"
+      difference: "In infrastructure, having 'redundant' systems makes the overall architecture more 'resilient' to failure."
+  story: |
+    While refactoring an old module, I noticed two functions that did almost the exact same thing. One was clearly legacy, making the other one redundant. I removed the redundant function and updated all its call sites, which made the code cleaner and easier to maintain.
+
+- word: "Seamless"
+  pronunciation: "/ˈsiːmləs/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Smooth and without seams or obvious joins."
+    bahasa: "Mulus dan tanpa jahitan atau sambungan yang jelas."
+  usage: "Use to describe a user experience or integration between systems that works perfectly without any friction or interruption."
+  synonyms:
+    - "smooth"
+    - "flawless"
+  examples:
+    workplace:
+      - "The goal is to create a seamless user experience between our mobile and web apps."
+      - "The data migration to the new server was seamless, with no downtime."
+    casual:
+      - "The transition between the movie's scenes was seamless."
+      - "She made a seamless transition into her new role."
+  related:
+    - word: "integration"
+      difference: "A good 'integration' results in a 'seamless' experience."
+    - word: "friction"
+      difference: "'Friction' is the opposite of a 'seamless' user experience; it's the points where users struggle."
+  story: |
+    Our biggest project this quarter was to enable single sign-on (SSO). Before, users had to log in to our app and our partner's app separately. Now, the integration is so good that the transition is seamless. Users click a link and are instantly authenticated on the other platform without even noticing.
+
+- word: "Viable"
+  pronunciation: "/ˈvaɪəbəl/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Capable of working successfully; feasible."
+    bahasa: "Mampu bekerja dengan sukses; layak."
+  usage: "Use when assessing if a project, product, or business idea is not only possible but also has a good chance of long-term success."
+  synonyms:
+    - "feasible"
+    - "workable"
+  examples:
+    workplace:
+      - "We need more market research to determine if this is a viable product."
+      - "The 'Minimum Viable Product' (MVP) should contain just enough features to be viable."
+    casual:
+      - "Solar power is becoming a more viable energy source."
+      - "That's not a viable solution to the problem."
+  related:
+    - word: "feasible"
+      difference: "'Feasible' means it *can* be done, whereas 'viable' means it *should* be done because it's likely to succeed."
+    - word: "sustainable"
+      difference: "A 'viable' solution works now, while a 'sustainable' one can continue to work long into the future."
+  story: |
+    The team had a dozen ideas for our next big feature. To decide, we evaluated each one to see which was the most viable. We considered not just the technical effort, but also the potential market fit and business value. In the end, we chose the idea that was not only feasible to build but also a viable addition to our product line.
+
+- word: "ticket"
+  pronunciation: "/ˈtɪkɪt/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A formal record of a task, bug, or issue within a project management system."
+    bahasa: "Catatan resmi dari sebuah tugas, bug, atau masalah dalam sistem manajemen proyek."
+  usage: "Use to refer to a specific work item tracked in a system like Jira, Trello, or GitHub Issues."
+  synonyms:
+    - "issue"
+    - "task"
+  examples:
+    workplace:
+      - "I've created a ticket for the bug you found."
+      - "Can you assign that ticket to me?"
+    casual:
+      - "I need to buy a movie ticket for tonight."
+      - "He got a parking ticket for parking in a restricted area."
+  related:
+    - word: "bug"
+      difference: "A 'bug' is a problem in the code. A 'ticket' is the formal record used to track the work of fixing that bug."
+    - word: "user story"
+      difference: "A 'user story' describes a feature from a user's perspective. It is often implemented through one or more 'tickets'."
+  story: |
+    During our stand-up, I mentioned I was blocked on the login feature. My team lead said, 'Did you create a ticket for the backend team?' I had forgotten, so I immediately went to Jira, created a new ticket with all the details of the API problem, and assigned it to the right person.
+
+- word: "align"
+  pronunciation: "/əˈlaɪn/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To come together in agreement or alliance."
+    bahasa: "Menyatukan pendapat atau mencapai kesepakatan."
+  usage: "Use when you need to ensure that team members or stakeholders share the same understanding and goals."
+  synonyms:
+    - "sync up"
+    - "agree"
+  examples:
+    workplace:
+      - "Let's have a quick meeting to align on the project goals."
+      - "We need to align our frontend and backend development timelines."
+    casual:
+      - "The planets will align tonight."
+      - "Make sure you align the text to the center."
+  related:
+    - word: "sync up"
+      difference: "'Sync up' is a more informal way to say 'align'. It's about getting on the same page, often through a brief chat."
+    - word: "consensus"
+      difference: "When you 'align', you reach a 'consensus', which is the state of general agreement."
+  story: |
+    Before we started coding the new feature, the product manager, designer, and tech lead held a meeting. The goal was to align on the scope. They discussed the requirements and constraints until everyone had a shared understanding of what needed to be built. This helped prevent misunderstandings later on.
+
+- word: "delegate"
+  pronunciation: "/ˈdelɪɡeɪt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To entrust a task or responsibility to another person, typically one who is less senior."
+    bahasa: "Mempercayakan tugas atau tanggung jawab kepada orang lain, biasanya yang lebih junior."
+  usage: "Use when a manager or senior engineer assigns work to a team member."
+  synonyms:
+    - "assign"
+    - "hand off"
+  examples:
+    workplace:
+      - "As a senior engineer, you need to learn how to delegate tasks effectively."
+      - "I'm going to delegate the testing of this module to our QA engineer."
+    casual:
+      - "The manager delegated the responsibility of organizing the party to her assistant."
+      - "He's not good at delegating; he likes to do everything himself."
+  related:
+    - word: "offload"
+      difference: "'Offload' is more informal and can imply just getting rid of work, while 'delegate' implies a formal transfer of responsibility with trust."
+    - word: "assign"
+      difference: "You 'assign' a task, but you 'delegate' responsibility. 'Delegate' implies giving more autonomy to the person doing the work."
+  story: |
+    Our team lead was feeling overwhelmed with tasks. During our one-on-one, she decided to delegate the setup of the new CI/CD pipeline to me. She gave me the requirements and the authority to make technical decisions, trusting that I had the skills to handle it.
+
+- word: "escalate"
+  pronunciation: "/ˈeskəleɪt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To increase or make something more intense or serious; to involve people at a higher level."
+    bahasa: "Meningkatkan atau membuat sesuatu menjadi lebih intens atau serius; melibatkan orang di tingkat yang lebih tinggi."
+  usage: "Use when a problem cannot be solved at the current level and needs the attention of a manager or another team."
+  synonyms:
+    - "report"
+    - "raise"
+  examples:
+    workplace:
+      - "If you can't resolve the issue with the other team, you'll have to escalate it to your manager."
+      - "The production outage was escalated to the Head of Engineering."
+    casual:
+      - "The argument began to escalate, so they called security."
+      - "We had to escalate our complaint to the store manager."
+  related:
+    - word: "blocker"
+      difference: "When you have a 'blocker' that you cannot resolve yourself, you often need to 'escalate' it."
+    - word: "raise"
+      difference: "You 'raise' an issue to make people aware of it. You 'escalate' an issue to get help from someone with more authority."
+  story: |
+    I was blocked by a dependency on the infrastructure team, and my pings were going unanswered for two days. Since the deadline was approaching, I had no choice but to escalate the issue. I messaged my manager, who then contacted the other team's manager to get things moving.
+
+- word: "glitch"
+  pronunciation: "/ɡlɪtʃ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A sudden, usually temporary, malfunction or fault of a minor nature."
+    bahasa: "Kerusakan atau kesalahan mendadak yang biasanya bersifat sementara dan kecil."
+  usage: "Use to describe a small, often intermittent, bug or technical problem that is not critical."
+  synonyms:
+    - "bug"
+    - "hiccup"
+  examples:
+    workplace:
+      - "There seems to be a glitch in the rendering of the user profile picture."
+      - "We had a small glitch during the demo, but we recovered quickly."
+    casual:
+      - "There was a glitch in the video game that made my character float."
+      - "Sorry I'm late, there was a glitch with my calendar notification."
+  related:
+    - word: "bug"
+      difference: "A 'bug' is a general term for any error. A 'glitch' is typically a minor, often visual or temporary, bug."
+    - word: "issue"
+      difference: "'Issue' is a formal term for any problem. 'Glitch' is an informal term for a small, quirky problem."
+  story: |
+    Yesterday, several users reported that the 'Save' button would occasionally disappear. We investigated but couldn't reproduce it consistently. It seems to be a minor glitch that happens only under very specific conditions. We've created a ticket to track it, but it's not a high priority right now.
+
+- word: "hotspot"
+  pronunciation: "/ˈhɒtspɒt/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A part of a program that is executed frequently or takes a long time to run, becoming a performance bottleneck."
+    bahasa: "Bagian dari program yang sering dieksekusi atau memakan waktu lama untuk berjalan, menjadi bottleneck kinerja."
+  usage: "Use in the context of performance analysis and optimization to identify the most resource-intensive parts of the code."
+  synonyms:
+    - "bottleneck"
+    - "performance issue"
+  examples:
+    workplace:
+      - "The profiler identified a hotspot in our data processing function."
+      - "We need to optimize that hotspot to improve the application's response time."
+    casual:
+      - "This café is a Wi-Fi hotspot."
+      - "The area is known as a tourist hotspot."
+  related:
+    - word: "bottleneck"
+      difference: "A 'hotspot' is a specific area of code that *causes* a 'bottleneck', which is the overall slowdown in performance."
+    - word: "optimize"
+      difference: "You 'optimize' code by identifying and improving a 'hotspot'."
+  story: |
+    Our application was running slowly, so we used a profiling tool to analyze its performance. The tool generated a flame graph that clearly showed a hotspot: a single function in our image processing library was responsible for 80% of the CPU usage. By focusing our optimization efforts on that hotspot, we achieved a massive performance gain.
+
+- word: "patch"
+  pronunciation: "/pætʃ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A small piece of code inserted into a program to fix a bug or add a feature."
+    bahasa: "Potongan kecil kode yang dimasukkan ke dalam program untuk memperbaiki bug atau menambahkan fitur."
+  usage: "Use to refer to a small, quick fix for a specific problem, often released outside of the normal release cycle."
+  synonyms:
+    - "fix"
+    - "hotfix"
+  examples:
+    workplace:
+      - "We need to release a patch to address the security vulnerability."
+      - "I've written a patch for the bug; it's ready for review."
+    casual:
+      - "She sewed a patch onto the knee of her jeans."
+      - "He wore an eye patch after his surgery."
+  related:
+    - word: "hotfix"
+      difference: "A 'hotfix' is a type of 'patch' that is released urgently to fix a critical issue in a production environment."
+    - word: "update"
+      difference: "An 'update' is usually a larger release with multiple changes, while a 'patch' is a small, targeted fix."
+  story: |
+    Late on Friday, a critical bug was discovered in our payment processing system. We couldn't wait for the next scheduled release. The team worked quickly to develop a patch. After testing it thoroughly in staging, we deployed the patch to production, resolving the issue before it affected too many users.
+
+- word: "quirk"
+  pronunciation: "/kwɜːk/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A peculiar aspect of a system's behavior; an oddity."
+    bahasa: "Aspek aneh dari perilaku sistem; sebuah keanehan."
+  usage: "Use to describe an unusual or unexpected behavior of a piece of software that isn't necessarily a bug but is still notable."
+  synonyms:
+    - "oddity"
+    - "peculiarity"
+  examples:
+    workplace:
+      - "Due to a quirk in the legacy API, we have to send the date in a non-standard format."
+      - "I discovered a strange quirk: the feature only works if you click the button twice."
+    casual:
+      - "He has a funny quirk of always tapping his foot when he's thinking."
+      - "The old house had its quirks, like a door that wouldn't stay closed."
+  related:
+    - word: "glitch"
+      difference: "A 'glitch' is usually a temporary malfunction, while a 'quirk' is a consistent, strange behavior that might even be part of the system's design."
+    - word: "workaround"
+      difference: "You often have to implement a 'workaround' to deal with a 'quirk' in a system you depend on."
+  story: |
+    We were integrating with a third-party service and ran into a problem. The authentication would always fail on the first attempt but succeed on the second. We read the documentation and realized it was a known quirk of their system. So, we had to write our code to automatically retry the request if it failed the first time.
+
+- word: "revert"
+  pronunciation: "/rɪˈvɜːt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To return to a previous state."
+    bahasa: "Kembali ke keadaan sebelumnya."
+  usage: "Use when you need to undo a change, commit, or deployment."
+  synonyms:
+    - "undo"
+    - "rollback"
+  examples:
+    workplace:
+      - "The latest deployment caused a major bug, so we had to revert the change."
+      - "I'm going to revert my last commit because it broke the build."
+    casual:
+      - "He reverted to his old habits."
+      - "The conversation reverted to the topic of politics."
+  related:
+    - word: "rollback"
+      difference: "'Rollback' is a term specifically for reverting a deployment or database change. 'Revert' is more general and can apply to a single commit in Git."
+    - word: "undo"
+      difference: "'Undo' is a very general term. 'Revert' in a software context usually implies using a version control system like Git to reverse a change."
+  story: |
+    I pushed a commit that I thought was a simple fix, but it ended up failing the automated tests in the CI pipeline. Instead of trying to fix it immediately, I decided to revert the commit to get the main branch back to a stable state. I'll create a new branch to work on the fix properly.
+
+- word: "tackle"
+  pronunciation: "/ˈtækəl/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To make determined efforts to deal with a difficult problem or task."
+    bahasa: "Melakukan upaya yang gigih untuk menangani masalah atau tugas yang sulit."
+  usage: "Use to describe the action of starting to work on a challenging task, bug, or story."
+  synonyms:
+    - "address"
+    - "handle"
+  examples:
+    workplace:
+      - "This week, I'm going to tackle the technical debt in the user authentication module."
+      - "Let's have a brainstorming session on how to tackle this performance issue."
+    casual:
+      - "I need to tackle the pile of laundry this weekend."
+      - "The government is introducing new policies to tackle unemployment."
+  related:
+    - word: "address"
+      difference: "'Address' means to deal with an issue, but 'tackle' implies that the issue is particularly challenging or complex."
+    - word: "handle"
+      difference: "'Handle' is more neutral. You 'handle' everyday tasks, but you 'tackle' big challenges."
+  story: |
+    The bug had been in our backlog for months. It was a complex issue deep within the legacy codebase that nobody wanted to touch. In today's sprint planning, our senior engineer finally said, 'Alright, I'll tackle it.' He blocked off his calendar for the rest of the week to focus solely on that problem.
+- word: "feature-flag"
+  pronunciation: "/ˈfiːtʃər flæɡ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A technique that allows developers to turn features on or off without deploying new code."
+    bahasa: "Teknik yang memungkinkan pengembang untuk mengaktifkan atau menonaktifkan fitur tanpa men-deploy kode baru."
+  usage: "Use when you want to release a feature to a subset of users or to quickly disable a feature in production if it causes problems."
+  synonyms:
+    - "feature toggle"
+    - "feature switch"
+  examples:
+    workplace:
+      - "We're hiding the new dashboard behind a feature-flag until it's ready for everyone."
+      - "If the feature causes any issues, we can just turn off the feature-flag."
+    casual:
+      - "Think of it like a light switch for a new feature on a website."
+      - "They used a feature-flag to test their new design with just 1% of users."
+  related:
+    - word: "canary release"
+      difference: "A 'canary release' is a strategy to release a feature to a small group of users. A 'feature-flag' is a common mechanism used to implement a canary release."
+    - word: "A/B testing"
+      difference: "'A/B testing' involves showing different versions of a feature to different users to see which performs better. 'Feature-flags' are used to control which version a user sees."
+  story: |
+    We were about to launch a major redesign of our homepage, but we were nervous. Instead of a big-bang release, we put the new design behind a feature-flag. This allowed us to enable it for internal employees first. After confirming everything worked, we slowly rolled it out to more users by updating the flag's configuration, all without a single new deployment.
+
+- word: "quick-fix"
+  pronunciation: "/kwɪk fɪks/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A fast and temporary solution to a problem, which may not be the best or most sustainable one."
+    bahasa: "Solusi cepat dan sementara untuk suatu masalah, yang mungkin bukan yang terbaik atau paling berkelanjutan."
+  usage: "Use to describe a simple solution applied to solve an urgent problem, often with the intention of providing a proper solution later."
+  synonyms:
+    - "patch"
+    - "workaround"
+  examples:
+    workplace:
+      - "I've applied a quick-fix to stop the crashing, but we need to investigate the root cause."
+      - "This is just a quick-fix; we'll create a ticket for a proper solution in the next sprint."
+    casual:
+      - "He used duct tape as a quick-fix for his broken glasses."
+      - "A quick-fix for a wobbly table is to put a coaster under one leg."
+  related:
+    - word: "hotfix"
+      difference: "A 'hotfix' is a patch for a critical issue in production. A 'quick-fix' is a more general term for any temporary solution, which might become a hotfix if deployed urgently."
+    - word: "technical debt"
+      difference: "Relying on too many 'quick-fixes' without addressing the underlying issues leads to 'technical debt'."
+  story: |
+    The server was throwing errors because of an unexpected API response from a third party. To stop the immediate bleeding, I implemented a quick-fix: I added a check to ignore the malformed response. It wasn't a perfect solution, but it stabilized the system. We then created a high-priority task to handle this case more gracefully.
+
+- word: "bug"
+  pronunciation: "/bʌɡ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "An error, flaw, or fault in a computer program or system that causes it to produce an incorrect or unexpected result."
+    bahasa: "Kesalahan, cacat, atau kegagalan dalam program atau sistem komputer yang menyebabkannya menghasilkan hasil yang salah atau tidak terduga."
+  usage: "This is the most common term for any kind of software defect."
+  synonyms:
+    - "defect"
+    - "glitch"
+    - "issue"
+  examples:
+    workplace:
+      - "I found a bug in the payment processing module."
+      - "The QA team is responsible for finding bugs before the release."
+    casual:
+      - "There's a bug in this video game that gives you infinite lives."
+      - "I think my phone has a bug; it keeps restarting."
+  related:
+    - word: "glitch"
+      difference: "A 'glitch' is usually a minor, temporary bug. A 'bug' is a more general term for any error."
+    - word: "ticket"
+      difference: "A 'bug' is the problem itself. A 'ticket' is the item in a tracking system used to manage the work of fixing the bug."
+  story: |
+    During testing, I discovered a critical bug. If a user entered their name with a special character, their profile page would crash. I immediately documented the steps to reproduce it and created a new bug report in Jira so that a developer could pick it up and fix it before our release.
+
+- word: "feature"
+  pronunciation: "/ˈfiːtʃər/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A distinct characteristic or piece of functionality of a software application."
+    bahasa: "Karakteristik atau fungsionalitas yang berbeda dari sebuah aplikasi perangkat lunak."
+  usage: "Use to describe a specific capability or part of the product that delivers value to the user."
+  synonyms:
+    - "capability"
+    - "functionality"
+  examples:
+    workplace:
+      - "Our next sprint will focus on developing the new file upload feature."
+      - "This feature allows users to customize their dashboard."
+    casual:
+      - "The best feature of this phone is its camera."
+      - "The car has a new safety feature."
+  related:
+    - word: "capability"
+      difference: "'Capability' is a broader term for what a system can do, while a 'feature' is a specific, user-facing implementation of that capability."
+    - word: "epic"
+      difference: "An 'epic' is a large body of work that can be broken down into several smaller 'features'."
+  story: |
+    The product manager presented the new feature we would be working on this quarter: a user-to-user messaging system. He explained the requirements and how this feature would improve user engagement. We then broke down the feature into smaller user stories to plan our work.
+
+- word: "debug"
+  pronunciation: "/diːˈbʌɡ/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To identify and remove errors (bugs) from computer hardware or software."
+    bahasa: "Mengidentifikasi dan menghilangkan kesalahan (bug) dari perangkat keras atau perangkat lunak komputer."
+  usage: "The process of finding and fixing bugs in code."
+  synonyms:
+    - "troubleshoot"
+    - "diagnose"
+  examples:
+    workplace:
+      - "I spent all morning debugging a weird issue in the data-syncing logic."
+      - "Use the browser's developer tools to debug the JavaScript code."
+    casual:
+      - "I need to debug my smart home setup; the lights aren't turning on."
+      - "He's good at debugging mechanical problems in cars."
+  related:
+    - word: "bug"
+      difference: "A 'bug' is the problem. To 'debug' is the action of finding and fixing the bug."
+    - word: "troubleshoot"
+      difference: "'Troubleshoot' is a broader term for solving problems, which can include non-code issues. 'Debug' specifically refers to fixing code."
+  story: |
+    A user reported that the app was crashing, but I couldn't reproduce it on my machine. I had to debug the issue by adding more logging to the code. By reading the logs from the user's device, I was finally able to find the line of code that was causing the problem and fix it.
+
+- word: "component"
+  pronunciation: "/kəmˈpoʊnənt/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A reusable, self-contained piece of a user interface or software system."
+    bahasa: "Bagian antarmuka pengguna atau sistem perangkat lunak yang dapat digunakan kembali dan mandiri."
+  usage: "Used heavily in modern frontend development (e.g., React, Vue) and in system design to describe modular parts of an application."
+  synonyms:
+    - "module"
+    - "building block"
+  examples:
+    workplace:
+      - "I created a reusable Button component to ensure all buttons in our app look consistent."
+      - "Our microservices architecture is made up of many independent components."
+    casual:
+      - "The main component of this dish is rice."
+      - "He sells computer components like motherboards and memory."
+  related:
+    - word: "module"
+      difference: "'Module' is a general term for a part of a program. 'Component' in modern web development usually refers to a specific UI element with its own logic and view."
+    - word: "design system"
+      difference: "A 'design system' is a collection of reusable 'components' and guidelines that allow teams to build cohesive user interfaces."
+  story: |
+    When I started building the new settings page, I realized I needed a dropdown menu, a toggle switch, and a slider. Instead of building them from scratch, I checked our component library. I found all three, so I could just import them and assemble the page quickly, knowing they would match the rest of the app's design.
+
+- word: "release"
+  pronunciation: "/rɪˈliːs/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The action of making a version of software available to users."
+    bahasa: "Tindakan membuat versi perangkat lunak tersedia untuk pengguna."
+  usage: "Use to refer to a specific version of the software that has been deployed."
+  synonyms:
+    - "deployment"
+    - "launch"
+  examples:
+    workplace:
+      - "Our next major release is scheduled for the end of the month."
+      - "We do a new release every two weeks."
+    casual:
+      - "The band's new album release is next Friday."
+      - "The press release will be sent out tomorrow."
+  related:
+    - word: "deployment"
+      difference: "'Deployment' is the technical process of pushing code to an environment. A 'release' is the moment that deployment becomes available to users, which might happen at the same time or later (e.g., via a feature flag)."
+    - word: "version"
+      difference: "A 'release' is a specific, named 'version' of the software (e.g., release v2.1)."
+  story: |
+    The team was excited for the v3.0 release. We had been working on it for months. On release day, we followed our checklist carefully. We deployed the code, ran smoke tests in production, and then announced the new release to all our users.
+
+- word: "sprint planning"
+  pronunciation: "/sprɪnt ˈplænɪŋ/"
   part_of_speech: "phrase"
   meaning:
-    english: "A request to merge changes from one branch into another in a Git repository. It's a way to propose and discuss changes before they are integrated."
-    bahasa: "Permintaan untuk menggabungkan perubahan dari satu branch ke branch lain di repositori Git. Ini adalah cara untuk mengusulkan dan mendiskusikan perubahan sebelum diintegrasikan."
-  usage: "Use when you have completed work on a branch and want it to be reviewed and merged."
+    english: "A recurring event in the Scrum framework where the team plans the work to be performed during the upcoming sprint."
+    bahasa: "Acara berulang dalam kerangka Scrum di mana tim merencanakan pekerjaan yang akan dilakukan selama sprint yang akan datang."
+  usage: "Use to describe the meeting at the beginning of a sprint to decide on the sprint goal and select user stories from the backlog."
   synonyms:
-    - "merge request"
-    - "PR"
+    - "iteration planning"
   examples:
     workplace:
-      - "I've opened a pull request for my changes. Can you please review it?"
-      - "The pull request has some comments that need to be addressed before it can be merged."
+      - "We have sprint planning every other Monday to kick off the new sprint."
+      - "During sprint planning, we estimated the effort for each ticket."
     casual:
-      - "I submitted my first pull request to an open-source project today!"
-      - "A good pull request has a clear description of the changes."
+      - "It's like planning your work for the next two weeks in one big meeting."
+  related:
+    - word: "sprint"
+      difference: "A 'sprint' is the time-boxed period of work. 'Sprint planning' is the meeting to plan that work."
+    - word: "backlog"
+      difference: "The input for 'sprint planning' is the product 'backlog', from which the team selects items to work on."
+  story: |
+    This morning's sprint planning meeting was very productive. The product owner explained the highest priority items from the backlog. As a team, we discussed each one, estimated the effort, and agreed on a realistic sprint goal. We pulled just enough work to fill our capacity for the next two weeks.
+
+- word: "code freeze"
+  pronunciation: "/koʊd friːz/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A point in the development cycle when no new code changes are allowed into the codebase, except for critical bug fixes."
+    bahasa: "Sebuah titik dalam siklus pengembangan di mana tidak ada perubahan kode baru yang diizinkan masuk ke dalam basis kode, kecuali untuk perbaikan bug kritis."
+  usage: "This is typically done in the days leading up to a major release to ensure the codebase is stable for testing."
+  synonyms:
+    - "feature freeze"
+  examples:
+    workplace:
+      - "The code freeze for the v2.0 release starts next Monday."
+      - "No new features can be merged; we are under a code freeze."
+    casual:
+      - "It's like saying 'pencils down' before an exam, but for coding."
+  related:
+    - word: "release"
+      difference: "A 'code freeze' is a period of stabilization that happens before a 'release'."
+    - word: "hotfix"
+      difference: "During a 'code freeze', the only changes allowed are usually 'hotfixes' for critical bugs found during final testing."
+  story: |
+    We're approaching our big annual release, so the team is now in a code freeze. All feature development has stopped. Our focus for the next week is purely on testing, finding bugs, and fixing them. Any changes have to be approved by the release manager to ensure we don't introduce any new instability.
+
+- word: "peer review"
+  pronunciation: "/pɪər rɪˈvjuː/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "The practice of having fellow developers review code to check for quality, correctness, and adherence to standards."
+    bahasa: "Praktik di mana sesama pengembang meninjau kode untuk memeriksa kualitas, kebenaran, dan kepatuhan terhadap standar."
+  usage: "A more general term for code review, emphasizing that it's done by colleagues at a similar level."
+  synonyms:
+    - "code review"
+  examples:
+    workplace:
+      - "Every pull request must go through a peer review before it can be merged."
+      - "I received some great feedback during the peer review of my code."
+    casual:
+      - "Scientists submit their papers for peer review before they are published."
   related:
     - word: "code review"
-      difference: "A code review is the process of examining the code within a pull request."
-    - word: "commit"
-      difference: "A pull request is typically composed of one or more commits."
-  story: |
-    After finishing the new login feature on my branch, I created a pull request. I added a detailed description explaining what I did and why. My team lead reviewed it, left a few comments for minor improvements, and once I addressed them, he approved the pull request and merged it into the main codebase.
-
-- word: "merge conflict"
-  pronunciation: "/mɜrdʒ ˈkɒnflɪkt/"
-  part_of_speech: "phrase"
-  meaning:
-    english: "An issue that arises when Git is unable to automatically merge changes from different branches because they modify the same part of a file."
-    bahasa: "Masalah yang muncul ketika Git tidak dapat secara otomatis menggabungkan perubahan dari branch yang berbeda karena mereka memodifikasi bagian file yang sama."
-  usage: "Use when you encounter an error while trying to merge branches that have conflicting changes."
-  synonyms:
-    - "conflict"
-    - "merge issue"
-  examples:
-    workplace:
-      - "I have a merge conflict in my branch, so I need to resolve it before I can continue."
-      - "Let's sync up to resolve this merge conflict together, as we both edited the same configuration file."
-    casual:
-      - "Dealing with a merge conflict is a common headache for developers."
-      - "I spent an hour fixing a tricky merge conflict."
-  related:
-    - word: "merge"
-      difference: "A merge conflict is a problem that can occur during a merge operation."
-    - word: "resolve"
-      difference: "'Resolve' is the action of fixing a merge conflict by choosing which changes to keep."
-  story: |
-    I tried to merge the `develop` branch into my feature branch to get the latest updates, but I was immediately hit with a merge conflict. It turned out another developer and I had both modified the same CSS file. I had to manually edit the file to combine our changes correctly before I could complete the merge.
-
-- word: "repository"
-  pronunciation: "/rɪˈpɒzɪtɔri/"
-  part_of_speech: "noun"
-  meaning:
-    english: "A central location where code and other project files are stored and managed, often using a version control system like Git."
-    bahasa: "Lokasi pusat tempat kode dan file proyek lainnya disimpan dan dikelola, seringkali menggunakan sistem kontrol versi seperti Git."
-  usage: "Use to refer to a project's codebase, especially on platforms like GitHub or GitLab."
-  synonyms:
-    - "repo"
-    - "codebase"
-  examples:
-    workplace:
-      - "Please clone the repository to your local machine to get started."
-      - "The project documentation is in the same repository as the code."
-    casual:
-      - "I have a repository on GitHub for all my personal projects."
-      - "He shared the link to his repository so I could see his code."
-  related:
-    - word: "clone"
-      difference: "'Clone' is the action of creating a local copy of a remote repository."
-    - word: "directory"
-      difference: "A repository is a directory with version control history, not just a simple folder."
-  story: |
-    For our new project, we set up a repository on GitHub. It contains all our source code, documentation, and configuration files. Every team member has a local copy of the repository, and we all push our changes to this central location, keeping everyone in sync.
-
-- word: "clone"
-  pronunciation: "/kloʊn/"
-  part_of_speech: "verb"
-  meaning:
-    english: "To create a local copy of a remote Git repository on your own computer."
-    bahasa: "Membuat salinan lokal dari repositori Git jarak jauh di komputer Anda sendiri."
-  usage: "Use when you are setting up a project on your machine for the first time."
-  synonyms:
-    - "copy"
-    - "download"
-  examples:
-    workplace:
-      - "To start working, you first need to clone the project's repository."
-      - "I'll clone the repo and try to reproduce the bug."
-    casual:
-      - "I'm going to clone that cool open-source project to play around with it."
-      - "Just run `git clone` with the URL to get the code."
-  related:
-    - word: "fork"
-      difference: "'Clone' creates a local copy, while 'fork' creates a new remote repository on your own account, from which you can then clone."
-    - word: "repository"
-      difference: "A 'repository' is the project itself; to 'clone' is the action of copying it."
-  story: |
-    It was my first day on the new team. My manager sent me a link to our project's repository on GitLab. The first thing I did was clone it to my laptop. Within minutes, I had the entire codebase on my machine, ready to be explored and compiled.
-
-- word: "fork"
-  pronunciation: "/fɔrk/"
-  part_of_speech: "verb"
-  meaning:
-    english: "To create a personal copy of someone else's repository on a platform like GitHub. This allows you to make changes without affecting the original project."
-    bahasa: "Membuat salinan pribadi dari repositori orang lain di platform seperti GitHub. Ini memungkinkan Anda membuat perubahan tanpa memengaruhi proyek asli."
-  usage: "Use when you want to contribute to an open-source project or experiment with a project you don't have direct access to."
-  synonyms:
-    - "branch off"
-    - "copy"
-  examples:
-    workplace:
-      - "If you want to contribute to our open-source library, please fork the repository first."
-      - "He decided to fork the project to take it in a new direction."
-    casual:
-      - "I found a cool project, so I'm going to fork it and add some of my own features."
-      - "The beauty of open source is that you can fork any project you like."
-  related:
-    - word: "clone"
-      difference: "You 'fork' a repository on the remote server (e.g., GitHub), and then you 'clone' your fork to your local machine."
+      difference: "Often used interchangeably. 'Peer review' emphasizes the 'peer' aspect, meaning review by equals, whereas 'code review' is the general activity which could be done by a senior or a lead."
     - word: "pull request"
-      difference: "After you 'fork' a project and make changes, you typically open a 'pull request' to suggest your changes to the original repository."
+      difference: "A 'pull request' is the mechanism in Git-based platforms where a 'peer review' typically takes place."
   story: |
-    I found a bug in an open-source library I was using. Since I didn't have permission to push changes directly, I had to fork the repository. This created a copy under my own GitHub account. I then cloned my fork, fixed the bug, and submitted a pull request back to the original project.
-
-- word: "scrum"
-  pronunciation: "/skrʌm/"
-  part_of_speech: "noun"
-  meaning:
-    english: "An Agile framework for managing and completing complex projects, characterized by sprints, daily stand-ups, and defined roles like Scrum Master and Product Owner."
-    bahasa: "Kerangka kerja Agile untuk mengelola dan menyelesaikan proyek kompleks, yang ditandai oleh sprint, stand-up harian, dan peran yang ditentukan seperti Scrum Master dan Product Owner."
-  usage: "Use when referring to the specific Agile methodology your team uses for project management."
-  synonyms:
-    - "agile methodology"
-    - "framework"
-  examples:
-    workplace:
-      - "Our team follows the Scrum framework, with two-week sprints."
-      - "In our daily Scrum, we discuss what we did yesterday, what we'll do today, and any blockers."
-    casual:
-      - "He's a certified Scrum Master."
-      - "Scrum helps teams deliver value to customers more frequently."
-  related:
-    - word: "agile"
-      difference: "Agile is a broad set of principles, while Scrum is a specific framework for implementing those principles."
-    - word: "kanban"
-      difference: "Kanban is another Agile framework that focuses on continuous flow, whereas Scrum is based on fixed-length iterations (sprints)."
-  story: |
-    Our team adopted Scrum a year ago, and it has transformed how we work. We plan our work in two-week sprints, have a quick daily meeting to stay aligned, and a retrospective at the end of each sprint to improve our process. This Scrum framework has brought more structure and predictability to our projects.
+    After I finished coding the new feature, I submitted a pull request and requested a peer review from two of my teammates. One of them left a comment suggesting a more efficient way to write a query. The other caught a small bug in my error handling. Their feedback helped me improve the code quality significantly.
