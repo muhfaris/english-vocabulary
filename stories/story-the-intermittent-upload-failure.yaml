@@ -1,0 +1,16 @@
+story:
+  title: "the-intermittent-upload-failure"
+  date: "2025-09-02"
+  text: |
+    Our team’s morning stand-up was going smoothly until a critical issue started to **surface** from the logs: user uploads were failing intermittently. We immediately went into a quick **huddle** to discuss the problem. A junior engineer, Maria, took **ownership** of the investigation. She suspected the problem was deeper. After an hour of digging, she found the root cause: a recent library update had introduced a memory leak.
+
+    This new information forced us to **re-evaluate** our release plan. We couldn't roll back due to other critical fixes. As a temporary **stopgap**, we doubled the memory on the affected servers to stabilize the system. It wasn't a permanent solution, but it bought us time. The next step was to properly **address** the memory leak. The whole episode was a reminder that creating a **frictionless** user experience requires constant vigilance and the right **mindset** from everyone on the team. We learned that even a small change can have a big impact, and that quick, collaborative problem-solving is key.
+  highlighted_words:
+    - "surface"
+    - "huddle"
+    - "ownership"
+    - "re-evaluate"
+    - "stopgap"
+    - "address"
+    - "frictionless"
+    - "mindset"
