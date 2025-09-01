@@ -1,0 +1,249 @@
+- word: "Stopgap"
+  pronunciation: "/ˈstɒp.ɡæp/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A temporary solution or measure used until a permanent one can be found."
+    bahasa: "Solusi atau tindakan sementara yang digunakan sampai solusi permanen dapat ditemukan."
+  usage: "Used to describe a short-term fix that is not intended to be the final solution. It addresses an immediate problem but will need to be replaced."
+  synonyms:
+    - "temporary fix"
+    - "workaround"
+  examples:
+    workplace:
+      - "The script is just a stopgap to automate the report generation; we're building a proper dashboard next quarter."
+      - "We're using a stopgap measure to handle the server load until the new infrastructure is ready."
+    casual:
+      - "Using my phone as a hotspot is a stopgap until the Wi-Fi is fixed."
+      - "This spare tire is just a stopgap; I need to buy a new one tomorrow."
+  related:
+    - word: "Workaround"
+      difference: "A 'workaround' is a way to bypass a problem without fixing it. A 'stopgap' is a temporary fix for the problem itself. They are very similar, but 'stopgap' more strongly implies it will be replaced."
+    - word: "Permanent solution"
+      difference: "This is the opposite of a stopgap. It's the final, long-term fix for a problem."
+  story: |
+    The team discovered a major performance issue just days before a demo. As a stopgap, they disabled a non-critical feature to ensure the main application ran smoothly. Everyone knew it wasn't a real solution, but it bought them enough time to pass the demo and fix the root cause properly in the next sprint.
+
+- word: "Surface"
+  pronunciation: "/ˈsɜː.fɪs/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To become known or apparent after being hidden or unknown."
+    bahasa: "Menjadi diketahui atau tampak setelah tersembunyi atau tidak diketahui."
+  usage: "Used when new information, problems, or details emerge, often during a discussion or investigation."
+  synonyms:
+    - "emerge"
+    - "appear"
+  examples:
+    workplace:
+      - "During the retrospective, several hidden dependencies started to surface."
+      - "We need to create an environment where issues can surface early."
+    casual:
+      - "New details about the old house began to surface as they renovated it."
+      - "His true feelings started to surface after a long conversation."
+  related:
+    - word: "Reveal"
+      difference: "'Reveal' often implies an intentional act of making something known. 'Surface' implies that something comes to light on its own, often unexpectedly."
+    - word: "Emerge"
+      difference: "'Emerge' is a very close synonym. 'Surface' is often used for problems or information, while 'emerge' can be used more broadly for anything that comes into view."
+  story: |
+    During our sprint planning, a lot of unknowns began to surface. The product manager's simple request turned out to have complex technical implications that no one had considered. It's a good thing we had that discussion, as it allowed us to re-scope the work before we started coding.
+
+- word: "Huddle"
+  pronunciation: "/ˈhʌd.əl/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A brief, informal meeting or gathering."
+    bahasa: "Pertemuan atau perkumpulan singkat dan informal."
+  usage: "Used to describe a quick meeting, often to make a decision or align on a specific, immediate topic. It's less formal than a scheduled meeting."
+  synonyms:
+    - "quick chat"
+    - "pow-wow"
+  examples:
+    workplace:
+      - "Let's have a quick huddle to decide on the API design before we proceed."
+      - "The team went into a huddle with the designer to clarify the mockup."
+    casual:
+      - "The players went into a huddle with their coach."
+      - "Let's have a family huddle to decide where to go for dinner."
+  related:
+    - word: "Meeting"
+      difference: "A 'meeting' is usually scheduled, has an agenda, and is more formal. A 'huddle' is typically spontaneous, brief, and focused on a single, urgent point."
+    - word: "Stand-up"
+      difference: "A 'stand-up' is a recurring, time-boxed daily meeting for status updates. A 'huddle' is a one-off, ad-hoc meeting to solve a specific problem."
+  story: |
+    The build failed right after our last merge. Instead of trying to solve it over Slack, the lead engineer said, 'Let's have a quick huddle.' The three of us involved gathered around a monitor, figured out the merge conflict in five minutes, and pushed a fix. The huddle saved us a lot of back-and-forth messaging.
+
+- word: "Ownership"
+  pronunciation: "/ˈəʊ.nə.ʃɪp/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The state of taking responsibility for a task, project, or area of work."
+    bahasa: "Keadaan mengambil tanggung jawab atas tugas, proyek, atau bidang pekerjaan."
+  usage: "Used to describe a sense of responsibility and commitment to the success of something. It's about more than just doing the work; it's about caring for the outcome."
+  synonyms:
+    - "responsibility"
+    - "accountability"
+  examples:
+    workplace:
+      - "She has a strong sense of ownership over the features she builds."
+      - "We encourage everyone on the team to take ownership of the code quality."
+    casual:
+      - "He shows great ownership of his role as the team captain."
+      - "Taking ownership of your mistakes is a sign of maturity."
+  related:
+    - word: "Responsibility"
+      difference: "'Responsibility' can be assigned ('Your responsibility is X'). 'Ownership' is a mindset of proactively taking responsibility and feeling personally invested in the outcome."
+    - word: "Accountability"
+      difference: "'Accountability' is about being answerable for the results, good or bad. 'Ownership' is the proactive behavior of ensuring the results are good."
+  story: |
+    A new bug was found in a module that two teams had worked on. Instead of pointing fingers, a junior developer stepped up. She took ownership of the investigation, even though she didn't write the original code. She triaged the issue, coordinated with both teams, and led the effort to get it fixed. Her sense of ownership impressed everyone.
+
+- word: "Re-evaluate"
+  pronunciation: "/ˌriː.ɪˈvæl.ju.eɪt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To assess or value something again, especially in light of new information or circumstances."
+    bahasa: "Mengevaluasi atau menilai sesuatu lagi, terutama berdasarkan informasi atau keadaan baru."
+  usage: "Used when a previous decision or plan needs to be reviewed and possibly changed."
+  synonyms:
+    - "reconsider"
+    - "reassess"
+  examples:
+    workplace:
+      - "Given the new deadline, we need to re-evaluate our project priorities."
+      - "Let's re-evaluate our technical approach now that we understand the requirements better."
+    casual:
+      - "After the storm, they had to re-evaluate their travel plans."
+      - "He decided to re-evaluate his career path after five years in the same job."
+  related:
+    - word: "Review"
+      difference: "'Review' means to look at something. 'Re-evaluate' implies a deeper process of judging its value or appropriateness again, often with the intent to make a change."
+    - word: "Change"
+      difference: "'Re-evaluate' is the process of thinking. 'Change' is the action you might take after you re-evaluate."
+  story: |
+    The team had initially planned to build a new feature from scratch. However, after a developer discovered a third-party library that could do most of the work, the team lead called a meeting. 'We need to re-evaluate our plan,' she said. 'Using this library could save us weeks of effort.'
+
+- word: "Unpack"
+  pronunciation: "/ʌnˈpæk/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To analyze or break down a complex topic or idea into smaller parts to understand it better."
+    bahasa: "Menganalisis atau menguraikan topik atau ide yang kompleks menjadi bagian-bagian yang lebih kecil untuk memahaminya dengan lebih baik."
+  usage: "Used metaphorically in discussions to signal the need to explore a concept in more detail."
+  synonyms:
+    - "analyze"
+    - "explore"
+  examples:
+    workplace:
+      - "That's a good point. Let's unpack what 'improving performance' really means for our users."
+      - "Before we commit, we need to unpack the technical requirements for this feature."
+    casual:
+      - "In therapy, he learned to unpack the reasons for his anxiety."
+      - "The book club spent an hour unpacking the main character's motivations."
+  related:
+    - word: "Discuss"
+      difference: "'Discuss' means to talk about something. 'Unpack' implies a more structured and analytical discussion aimed at deconstructing a complex idea."
+    - word: "Explain"
+      difference: "'Explain' is about making something clear. 'Unpack' is the collaborative process of figuring it out together."
+  story: |
+    During a meeting, the product manager said, 'We need a more intuitive user experience.' The lead designer responded, 'I agree, but let's unpack that. What does 'intuitive' mean in this context? Are we talking about fewer clicks, better labels, or a completely different workflow?' This helped the team move from a vague goal to concrete ideas.
+
+- word: "Address"
+  pronunciation: "/əˈdres/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To think about and begin to deal with an issue or problem."
+    bahasa: "Memikirkan dan mulai menangani suatu masalah atau problem."
+  usage: "A formal and common way to say you are going to handle or fix a problem."
+  synonyms:
+    - "tackle"
+    - "deal with"
+  examples:
+    workplace:
+      - "We need to address the tech debt in this module before adding new features."
+      - "She addressed the client's concerns in the meeting."
+    casual:
+      - "It's time to address the leak in the roof."
+      - "He needs to address his fear of public speaking."
+  related:
+    - word: "Fix"
+      difference: "'Fix' implies a solution has been found and implemented. 'Address' means to start the process of dealing with the problem, which might include investigating before fixing."
+    - word: "Ignore"
+      difference: "This is the opposite of addressing a problem."
+  story: |
+    The code review feedback was direct: 'This function is very slow and needs to be optimized.' The developer who wrote the code commented back, 'You're right. I will address this in my next commit.' He then started profiling the code to find the bottleneck.
+
+- word: "Choke point"
+  pronunciation: "/ˈtʃəʊk ˌpɔɪnt/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A point of congestion or blockage that slows down or stops a process."
+    bahasa: "Titik kemacetan atau penyumbatan yang memperlambat atau menghentikan suatu proses."
+  usage: "Used to describe a specific part of a system or workflow where things get stuck, limiting the overall throughput."
+  synonyms:
+    - "bottleneck"
+    - "congestion point"
+  examples:
+    workplace:
+      - "Our manual testing process is the main choke point in our release pipeline."
+      - "There's a choke point in the data processing job that we need to optimize."
+    casual:
+      - "The narrow bridge is a major choke point for traffic in the city."
+      - "The ticket counter was the choke point for getting into the concert."
+  related:
+    - word: "Bottleneck"
+      difference: "'Bottleneck' and 'choke point' are very similar and often used interchangeably. 'Choke point' can sometimes imply a more severe, narrow point of failure, while 'bottleneck' can describe a slower stage in a process."
+    - word: "Blocker"
+      difference: "A 'blocker' is an issue that prevents an individual or team from working. A 'choke point' is a part of a *system* that limits its performance, even if work is still happening."
+  story: |
+    The team noticed that even though developers were merging code quickly, the releases were slow. After mapping out the process, they identified the single server that ran all the end-to-end tests as the choke point. They decided to parallelize the tests across multiple machines to remove the blockage.
+
+- word: "Frictionless"
+  pronunciation: "/ˈfrɪk.ʃən.ləs/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Occurring with no difficulty, effort, or resistance."
+    bahasa: "Terjadi tanpa kesulitan, usaha, atau perlawanan."
+  usage: "Used to describe a process, experience, or workflow that is extremely smooth and easy for the user."
+  synonyms:
+    - "seamless"
+    - "effortless"
+  examples:
+    workplace:
+      - "Our goal is to create a frictionless onboarding experience for new users."
+      - "The new CI/CD pipeline made the deployment process almost frictionless."
+    casual:
+      - "Online shopping should be a frictionless experience."
+      - "The app's design allows for frictionless navigation."
+  related:
+    - word: "Seamless"
+      difference: "'Seamless' and 'frictionless' are very similar. 'Seamless' often refers to the smooth transition between parts of a process, while 'frictionless' emphasizes the lack of effort or difficulty required from the user."
+    - word: "Easy"
+      difference: "'Easy' is a general term. 'Frictionless' is a more specific, professional term used in design and engineering to describe a system that has been carefully designed to remove all obstacles."
+  story: |
+    The company invested heavily in improving its developer tools. The goal was to create a frictionless development loop, where a developer could write code, get test feedback, and deploy to staging in minutes, all without leaving their code editor. This smooth process boosted productivity and morale.
+
+- word: "Mindset"
+  pronunciation: "/ˈmaɪnd.set/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A person's established set of attitudes or way of thinking."
+    bahasa: "Sikap atau cara berpikir yang sudah mapan pada seseorang."
+  usage: "Used to refer to a person's or team's general approach, perspective, or philosophy towards their work."
+  synonyms:
+    - "mentality"
+    - "attitude"
+  examples:
+    workplace:
+      - "Adopting an agile mindset is more important than just following the ceremonies."
+      - "He has a 'growth mindset,' always looking for opportunities to learn."
+    casual:
+      - "To save money, you need to change your spending mindset."
+      - "Her positive mindset helped her through a difficult time."
+  related:
+    - word: "Attitude"
+      difference: "'Attitude' can refer to a feeling or disposition at a specific moment. 'Mindset' is a more deeply ingrained, long-term way of thinking that shapes your attitudes and behaviors."
+    - word: "Culture"
+      difference: "'Culture' refers to the shared mindset, values, and behaviors of a group or organization. 'Mindset' is often used to describe an individual's way of thinking, but can also apply to a team."
+  story: |
+    The team was struggling with bugs and slow progress. The new manager introduced a 'quality-first' mindset. Instead of rushing to finish features, they started focusing on writing better tests and doing more thorough code reviews. It slowed them down at first, but soon their velocity increased because they spent less time fixing their own mistakes.
