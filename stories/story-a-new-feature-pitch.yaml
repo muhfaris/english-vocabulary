@@ -1,0 +1,18 @@
+story:
+  title: "a-new-feature-pitch"
+  date: "2025-09-01"
+  text: |
+    It was time to **iterate** on our product's roadmap. In the weekly planning meeting, my product manager, Sarah, presented an idea for a new feature. "We want to build a **capability** that allows users to collaborate on their documents in real-time," she said. The room was quiet for a moment. Our tech lead, Ben, finally spoke up. "That sounds great, but we need to check if it's **feasible** with our current architecture."
+
+    Sarah nodded. "Agreed. The goal is to make the user experience completely **seamless**, so they don't even notice they're switching between solo and collaborative modes." She then presented a **breakdown** of the potential user stories.
+
+    My task was to investigate the technical side. I spent the afternoon exploring different libraries and technologies. There were a few **constraints** to consider, mainly our budget for new services. By the end of the day, I had a better picture. I told Ben, "It's challenging, but I think it's a **viable** path forward. I have a clear **rationale** for the tech stack I'm proposing." We decided to build a small proof-of-concept to be sure.
+  highlighted_words:
+    - "iterate"
+    - "capability"
+    - "feasible"
+    - "seamless"
+    - "breakdown"
+    - "constraints"
+    - "viable"
+    - "rationale"

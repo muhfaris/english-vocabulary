@@ -1,0 +1,15 @@
+story:
+  title: "a-tricky-revert"
+  date: "2025-09-01"
+  text: |
+    Monday morning started with a critical **ticket** in my inbox. A feature we deployed last Friday was causing a major **glitch** in the user dashboard. The charts were not loading, and users were complaining. My first instinct was to **tackle** the problem head-on, but after a quick investigation, I realized the fix wasn't going to be simple. The change was complex and touching multiple services.
+
+    To get the system stable as quickly as possible, the team decided the best course of action was to **revert** the entire feature. I performed the `git revert` and pushed the change. However, the automated deployment pipeline failed. It turned out there was a **quirk** in our build script that didn't handle this type of revert correctly. I had to **escalate** the issue to the DevOps team. They applied a quick **patch** to the script, and the deployment finally went through. It was a stressful morning, but it was a good reminder that even a 'simple' revert can have hidden complexities.
+  highlighted_words:
+    - "ticket"
+    - "glitch"
+    - "tackle"
+    - "revert"
+    - "quirk"
+    - "escalate"
+    - "patch"

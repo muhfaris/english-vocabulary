@@ -1,0 +1,84 @@
+dialogue:
+  - speaker: Alex
+    english: "Hey Ben, got a minute? I wanted to chat about the retrospective."
+    bahasa: "Hai Ben, punya waktu sebentar? Aku ingin bicara tentang retrospektif."
+  - speaker: Ben
+    english: "Sure, Alex. What's on your mind?"
+    bahasa: "Tentu, Alex. Apa yang kamu pikirkan?"
+  - speaker: Alex
+    english: "I felt it was really productive. We pinpointed some key issues in our workflow."
+    bahasa: "Aku merasa itu sangat produktif. Kita berhasil menunjukkan beberapa masalah utama dalam alur kerja kita."
+  - speaker: Ben
+    english: "Absolutely. The communication gap between the front-end and back-end teams was a big one."
+    bahasa: "Tentu saja. Kesenjangan komunikasi antara tim front-end dan back-end adalah masalah besar."
+  - speaker: Alex
+    english: "Exactly. I'm glad we all agreed to have more frequent check-ins."
+    bahasa: "Tepat sekali. Aku senang kita semua setuju untuk lebih sering melakukan check-in."
+  - speaker: Ben
+    english: "Me too. That should help us stay on the same page."
+    bahasa: "Aku juga. Seharusnya itu membantu kita tetap selaras."
+  - speaker: Alex
+    english: "And what about the technical debt? I'm glad we're finally going to allocate some time to address it."
+    bahasa: "Dan bagaimana dengan utang teknis? Aku senang kita akhirnya akan mengalokasikan waktu untuk menanganinya."
+  - speaker: Ben
+    english: "Definitely. It's been slowing us down for a while now."
+    bahasa: "Tentu saja. Itu sudah memperlambat kita selama beberapa waktu."
+  - speaker: Alex
+    english: "So, what's one thing you think we could have done better in the last sprint?"
+    bahasa: "Jadi, apa satu hal yang menurutmu bisa kita lakukan lebih baik di sprint terakhir?"
+  - speaker: Ben
+    english: "Good question. I think our initial planning could have been more thorough. We underestimated the complexity of a few tasks."
+    bahasa: "Pertanyaan bagus. Aku pikir perencanaan awal kita bisa lebih teliti. Kita meremehkan kompleksitas beberapa tugas."
+  - speaker: Alex
+    english: "I agree. Better planning would have saved us some headaches."
+    bahasa: "Aku setuju. Perencanaan yang lebih baik akan menghindarkan kita dari beberapa masalah."
+  - speaker: Ben
+    english: "Overall, though, I'm optimistic about the next sprint."
+    bahasa: "Namun, secara keseluruhan, aku optimis tentang sprint berikutnya."
+  - speaker: Alex
+    english: "Same here. It feels like we have a solid plan to improve."
+    bahasa: "Sama. Rasanya kita punya rencana yang solid untuk perbaikan."
+  - speaker: Ben
+    english: "Alright, I've got to run to another meeting. Let's catch up later."
+    bahasa: "Baiklah, aku harus pergi ke rapat lain. Mari kita bicara lagi nanti."
+  - speaker: Alex
+    english: "Sounds good. Talk to you later."
+    bahasa: "Terdengar bagus. Sampai jumpa lagi."
+
+expressions:
+  - phrase: "Got a minute?"
+    meaning_english: "Do you have a short amount of time to talk?"
+    meaning_bahasa: "Punya waktu sebentar?"
+  - phrase: "What's on your mind?"
+    meaning_english: "What are you thinking about?"
+    meaning_bahasa: "Apa yang kamu pikirkan?"
+  - phrase: "Pinpointed some key issues"
+    meaning_english: "Identified some important problems."
+    meaning_bahasa: "Menemukan beberapa masalah utama."
+  - phrase: "Stay on the same page"
+    meaning_english: "To have the same understanding or information."
+    meaning_bahasa: "Memiliki pemahaman atau informasi yang sama."
+  - phrase: "Technical debt"
+    meaning_english: "The implied cost of rework caused by choosing an easy solution now instead of using a better approach that would take longer."
+    meaning_bahasa: "Utang teknis."
+  - phrase: "Underestimated the complexity"
+    meaning_english: "Didn't realize how difficult something was."
+    meaning_bahasa: "Meremehkan kompleksitas."
+  - phrase: "Saved us some headaches"
+    meaning_english: "Avoided some problems or difficulties."
+    meaning_bahasa: "Menghindarkan kita dari beberapa masalah."
+  - phrase: "Catch up later"
+    meaning_english: "Talk again at a later time."
+    meaning_bahasa: "Bicara lagi nanti."
+
+questions:
+  - q: "What was the main topic of Alex and Ben's conversation?"
+    a: "They were discussing the recent project retrospective and the key takeaways from it."
+  - q: "What was one of the main issues identified during the retrospective?"
+    a: "A communication gap between the front-end and back-end teams."
+  - q: "What was the proposed solution to the communication gap?"
+    a: "To have more frequent check-ins."
+  - q: "What is 'technical debt' in the context of the dialogue?"
+    a: "It refers to the extra work required in the future because an easier, but less ideal, solution was chosen in the past."
+  - q: "What is one area Ben thought the team could improve on?"
+    a: "He believed their initial planning could have been more thorough, as they underestimated the complexity of some tasks."

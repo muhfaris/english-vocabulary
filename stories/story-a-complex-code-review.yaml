@@ -1,0 +1,18 @@
+story:
+  title: "a-complex-code-review"
+  date: "2025-08-31"
+  text: |
+    It was Monday morning, and Leo was assigned a complex code review. A junior engineer had submitted a pull request that touched multiple parts of the codebase, and it was Leo’s job to ensure it was solid. The PR aimed to refactor a critical **endpoint** to make it **idempotent**, preventing duplicate processing.
+
+    Leo pulled the code and started his review. The core logic seemed correct, but he noticed the engineer had mixed in several unrelated changes, like style fixes and minor refactors. This made the PR difficult to assess. He left a comment suggesting that for future PRs, it's better to separate concerns.
+
+    He also checked the request **payload** validation. It was a bit too lenient, which could lead to issues down the line. He suggested adding stricter checks. To give a clearer picture, he mentioned that the goal was **graceful degradation**—if bad data was sent, the system should reject it cleanly rather than attempting to process it and failing unpredictably.
+
+    Finally, he saw that the changes might affect another **cross-functional** team's workflow. "We should probably **sync up** with the data team to make sure this doesn't break their analytics pipeline," he wrote. The code review was detailed, but constructive. It was a teaching moment, not just a critique, helping the whole team improve.
+  highlighted_words:
+    - "endpoint"
+    - "idempotent"
+    - "payload"
+    - "graceful degradation"
+    - "cross-functional"
+    - "sync up"

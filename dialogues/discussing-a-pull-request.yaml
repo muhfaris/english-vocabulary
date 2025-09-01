@@ -1,0 +1,66 @@
+dialogue:
+  - speaker: Maria
+    english: "Hi David, do you have a moment to look at my PR?"
+    bahasa: "Hai David, apakah kamu punya waktu sebentar untuk melihat PR-ku?"
+  - speaker: David
+    english: "Sure, Maria. Which one is it?"
+    bahasa: "Tentu, Maria. Yang mana?"
+  - speaker: Maria
+    english: "It's the one for the new caching mechanism. I've addressed all the comments from the linter."
+    bahasa: "Yang untuk mekanisme caching baru. Aku sudah mengatasi semua komentar dari linter."
+  - speaker: David
+    english: "Okay, I see it. I'll take a look now."
+    bahasa: "Oke, aku lihat. Aku akan periksa sekarang."
+  - speaker: Maria
+    english: "Thanks. I'm a bit concerned about the race condition on line 54."
+    bahasa: "Terima kasih. Aku sedikit khawatir tentang race condition di baris 54."
+  - speaker: David
+    english: "Hmm, you're right. We should probably use a mutex there to be safe."
+    bahasa: "Hmm, kamu benar. Sebaiknya kita menggunakan mutex di sana agar aman."
+  - speaker: Maria
+    english: "That's what I was thinking. I'll add it in and push the changes."
+    bahasa: "Itu yang aku pikirkan. Aku akan menambahkannya dan mendorong perubahannya."
+  - speaker: David
+    english: "Sounds good. The rest of the code looks solid. Good job."
+    bahasa: "Terdengar bagus. Sisa kodenya terlihat solid. Kerja bagus."
+  - speaker: Maria
+    english: "Great, thanks for the quick feedback!"
+    bahasa: "Bagus, terima kasih atas umpan baliknya yang cepat!"
+  - speaker: David
+    english: "No problem. Happy to help."
+    bahasa: "Tidak masalah. Senang membantu."
+
+expressions:
+  - phrase: "Look at my PR"
+    meaning_english: "Review my Pull Request (a set of proposed changes to the codebase)."
+    meaning_bahasa: "Lihat Pull Request-ku."
+  - phrase: "Addressed all the comments"
+    meaning_english: "Fixed all the issues that were pointed out."
+    meaning_bahasa: "Mengatasi semua komentar."
+  - phrase: "Race condition"
+    meaning_english: "A situation where the result of a process depends on the timing of uncontrollable events."
+    meaning_bahasa: "Kondisi balapan."
+  - phrase: "Use a mutex"
+    meaning_english: "Use a mutual exclusion object to prevent simultaneous access to a shared resource."
+    meaning_bahasa: "Gunakan mutex."
+  - phrase: "Push the changes"
+    meaning_english: "Upload the new code changes to the central repository."
+    meaning_bahasa: "Mendorong perubahan."
+  - phrase: "Looks solid"
+    meaning_english: "The code appears to be well-written and correct."
+    meaning_bahasa: "Terlihat solid."
+  - phrase: "Quick feedback"
+    meaning_english: "A fast response or review."
+    meaning_bahasa: "Umpan balik yang cepat."
+
+questions:
+  - q: "What did Maria ask David to do?"
+    a: "She asked him to review her Pull Request for a new caching mechanism."
+  - q: "What was Maria's main concern about her code?"
+    a: "She was worried about a potential race condition."
+  - q: "What was David's suggestion to fix the issue?"
+    a: "He suggested using a mutex to prevent the race condition."
+  - q: "What did David think about the rest of Maria's code?"
+    a: "He thought it looked solid and was well-done."
+  - q: "What does 'PR' stand for in this context?"
+    a: "It stands for Pull Request, which is a common practice in software development for reviewing code before it's merged into the main branch."

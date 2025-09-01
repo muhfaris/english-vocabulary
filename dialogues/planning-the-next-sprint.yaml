@@ -1,0 +1,75 @@
+dialogue:
+  - speaker: Alex
+    english: "Morning, Ben! Got a minute to talk about the next sprint?"
+    bahasa: "Pagi, Ben! Ada waktu sebentar untuk bicara tentang sprint berikutnya?"
+  - speaker: Ben
+    english: "Sure, Alex. I was just looking at the backlog. What's on your mind?"
+    bahasa: "Tentu, Alex. Aku baru saja melihat backlog. Apa yang kamu pikirkan?"
+  - speaker: Alex
+    english: "I think we should prioritize the user authentication feature. It's a major blocker for other stories."
+    bahasa: "Menurutku kita harus memprioritaskan fitur otentikasi pengguna. Itu penghambat utama untuk story lainnya."
+  - speaker: Ben
+    english: "I agree. It's a high-priority item. Do you think we can tackle the whole thing in one sprint?"
+    bahasa: "Setuju. Itu item prioritas tinggi. Apakah menurutmu kita bisa menyelesaikan semuanya dalam satu sprint?"
+  - speaker: Alex
+    english: "It's a bit ambitious. Maybe we can break it down. We could start with the registration and login flows."
+    bahasa: "Agak ambisius. Mungkin kita bisa memecahnya. Kita bisa mulai dengan alur registrasi dan login."
+  - speaker: Ben
+    english: "Good idea. That sounds more manageable. What about the UI? Is the design ready?"
+    bahasa: "Ide bagus. Kedengarannya lebih mudah dikelola. Bagaimana dengan UI? Apakah desainnya sudah siap?"
+  - speaker: Alex
+    english: "The design team sent over the final mockups yesterday. They're in the shared drive."
+    bahasa: "Tim desain mengirimkan mockup final kemarin. Ada di drive bersama."
+  - speaker: Ben
+    english: "Perfect. I'll take a look. So, user auth is our top priority. What's next?"
+    bahasa: "Sempurna. Nanti aku lihat. Jadi, otentikasi pengguna adalah prioritas utama kita. Apa selanjutnya?"
+  - speaker: Alex
+    english: "How about we also pull in the API integration for the payment gateway? It's a smaller task."
+    bahasa: "Bagaimana kalau kita juga menarik integrasi API untuk gateway pembayaran? Itu tugas yang lebih kecil."
+  - speaker: Ben
+    english: "Sounds good. That will keep us moving on the e-commerce front. I'll update the sprint board."
+    bahasa: "Boleh juga. Itu akan membuat kita tetap maju di sisi e-commerce. Aku akan perbarui papan sprint."
+
+expressions:
+  - phrase: "Got a minute?"
+    meaning_english: "Do you have a short amount of time to talk?"
+    meaning_bahasa: "Apakah kamu punya waktu sebentar untuk bicara?"
+  - phrase: "What's on your mind?"
+    meaning_english: "What are you thinking about?"
+    meaning_bahasa: "Apa yang sedang kamu pikirkan?"
+  - phrase: "Major blocker"
+    meaning_english: "A significant issue that prevents other tasks from progressing."
+    meaning_bahasa: "Masalah signifikan yang menghalangi tugas lain untuk maju."
+  - phrase: "High-priority item"
+    meaning_english: "A task or feature that is very important and should be done soon."
+    meaning_bahasa: "Tugas atau fitur yang sangat penting dan harus segera dikerjakan."
+  - phrase: "Tackle the whole thing"
+    meaning_english: "To try to complete the entire task."
+    meaning_bahasa: "Mencoba menyelesaikan seluruh tugas."
+  - phrase: "Break it down"
+    meaning_english: "To divide a large task into smaller, more manageable parts."
+    meaning_bahasa: "Membagi tugas besar menjadi bagian-bagian yang lebih kecil dan mudah dikelola."
+  - phrase: "Sounds more manageable"
+    meaning_english: "Seems easier to handle or complete."
+    meaning_bahasa: "Tampaknya lebih mudah ditangani atau diselesaikan."
+  - phrase: "Pull in"
+    meaning_english: "To include a task or story in the current sprint."
+    meaning_bahasa: "Memasukkan tugas atau story ke dalam sprint saat ini."
+  - phrase: "Keep us moving on the e-commerce front"
+    meaning_english: "To ensure we continue to make progress on the e-commerce part of the project."
+    meaning_bahasa: "Memastikan kita terus membuat kemajuan pada bagian e-commerce dari proyek."
+  - phrase: "Update the sprint board"
+    meaning_english: "To reflect the current plan on the project management tool (like Jira or Trello)."
+    meaning_bahasa: "Memperbarui alat manajemen proyek (seperti Jira atau Trello) untuk mencerminkan rencana saat ini."
+
+questions:
+  - q: "What is the main topic of Alex and Ben's conversation?"
+    a: "They are discussing and planning the tasks for the next development sprint."
+  - q: "What is the first priority feature they agree on?"
+    a: "They agree to prioritize the user authentication feature."
+  - q: "How do they plan to handle the user authentication feature?"
+    a: "They plan to break it down into smaller parts, starting with the registration and login flows."
+  - q: "What is the second task they decide to include in the sprint?"
+    a: "They decide to include the API integration for the payment gateway."
+  - q: "What will Ben do after the conversation?"
+    a: "He will update the sprint board with the tasks they've just planned."
