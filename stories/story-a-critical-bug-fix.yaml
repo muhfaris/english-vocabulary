@@ -1,0 +1,18 @@
+story:
+  title: "a-critical-bug-fix"
+  date: "2025-09-01"
+  text: |
+    It was Tuesday morning, and the team was in the middle of a sprint, working on a new **feature** for the upcoming **release**. Suddenly, a critical **bug** report came in from a user. The app was crashing on the checkout page, which was a major problem.
+
+    My team lead asked me to drop everything and **debug** the issue. I pulled the latest code, ran the app locally, and tried to reproduce the **bug**. After a few attempts, I found it. It was a nasty one, related to a third-party payment **component** we had recently integrated.
+
+    The pressure was on to get a fix out as soon as possible. I couldn't do a full refactor, so I opted for a **quick-fix**. I wrote a small patch to handle the error gracefully and prevent the crash. It wasn't the most elegant solution, but it would solve the immediate problem.
+
+    After my code passed the peer review, we deployed the **quick-fix** as a hotfix. The whole process, from finding the **bug** to deploying the fix, took about three hours. It was a stressful morning, but it felt good to resolve the issue quickly and get the app stable again. Now, I can get back to working on that new **feature**.
+  highlighted_words:
+    - "feature"
+    - "release"
+    - "bug"
+    - "debug"
+    - "component"
+    - "quick-fix"
