@@ -1,0 +1,249 @@
+- word: "stand-down"
+  pronunciation: "/stænd daʊn/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To temporarily stop work or an activity."
+    bahasa: "Menghentikan sementara pekerjaan atau aktivitas."
+  usage: "Used when a team needs to pause an activity, often to address a more critical issue. It's a formal way to say 'stop for now'."
+  synonyms:
+    - "halt"
+    - "pause"
+  examples:
+    workplace:
+      - "We need to stand-down on new feature development to fix the critical production bug."
+      - "The team was asked to stand-down until the server issue is resolved."
+    casual:
+      - "Let's stand-down on planning the trip until we know who's coming."
+      - "They decided to stand-down their search for a new apartment for a few months."
+  related:
+    - word: "pause"
+      difference: "'Pause' is more general and can be very brief, while 'stand-down' often implies a more formal, significant, and longer stop to an operation or project."
+    - word: "cancel"
+      difference: "'Cancel' means to stop something permanently, whereas 'stand-down' implies the activity might resume later."
+  story: |
+    During the go-live, we discovered a major payment issue. The project manager immediately told the team to stand-down all non-essential deployments. We had to focus all our energy on the hotfix before we could resume our normal work.
+
+- word: "blockage"
+  pronunciation: "/ˈblɒk.ɪdʒ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "Something that obstructs or prevents progress."
+    bahasa: "Sesuatu yang menghalangi atau mencegah kemajuan."
+  usage: "Used to describe a specific problem or issue that is stopping a task or project from moving forward. It's similar to a 'blocker' but can feel more like a physical obstruction in a process."
+  synonyms:
+    - "obstruction"
+    - "obstacle"
+  examples:
+    workplace:
+      - "There's a blockage in our CI/CD pipeline; no new builds are getting through."
+      - "We need to identify the blockage that's slowing down our team's velocity."
+    casual:
+      - "A fallen tree created a blockage on the main road."
+      - "He felt a creative blockage and couldn't write any new music."
+  related:
+    - word: "blocker"
+      difference: "A 'blocker' is a type of issue that stops an individual's or team's work. 'Blockage' is often used to describe an obstruction in a system or process, like a pipeline or workflow."
+    - word: "impediment"
+      difference: "'Impediment' is a broader term for anything that hinders progress, while 'blockage' suggests a more complete stop."
+  story: |
+    Our sprint came to a halt because of a blockage in the testing environment. A misconfiguration prevented any new code from being deployed, so QA couldn't verify our latest work. We had to swarm on it to clear the blockage.
+
+- word: "hindrance"
+  pronunciation: "/ˈhɪn.drəns/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A thing that provides resistance, delay, or obstruction to something or someone."
+    bahasa: "Sesuatu yang memberikan perlawanan, penundaan, atau halangan bagi sesuatu atau seseorang."
+  usage: "Used to describe something that makes a situation or task more difficult, but may not completely stop it. It's a 'softer' blocker."
+  synonyms:
+    - "obstacle"
+    - "difficulty"
+  examples:
+    workplace:
+      - "The lack of clear requirements has been a major hindrance to our progress."
+      - "Slow internet is a constant hindrance when working from home."
+    casual:
+      - "His injury was a hindrance to his training for the marathon."
+      - "Not having a car is a hindrance in this part of town."
+  related:
+    - word: "blocker"
+      difference: "A 'blocker' completely stops progress. A 'hindrance' just makes it slower or more difficult."
+    - word: "obstacle"
+      difference: "'Obstacle' is very similar, but 'hindrance' often implies something that is ongoing or a continuous source of delay."
+  story: |
+    The outdated documentation was a huge hindrance for the new developers. They could still get their work done, but they had to spend hours asking questions and figuring things out, which slowed down the whole team.
+
+- word: "contingency"
+  pronunciation: "/kənˈtɪn.dʒən.si/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A future event or circumstance which is possible but cannot be predicted with certainty; a provision for such an event."
+    bahasa: "Kejadian atau keadaan di masa depan yang mungkin terjadi tetapi tidak dapat diprediksi dengan pasti; sebuah persiapan untuk kejadian semacam itu."
+  usage: "Often used in planning (e.g., 'contingency plan') to refer to backup plans for when things go wrong."
+  synonyms:
+    - "backup plan"
+    - "fallback"
+  examples:
+    workplace:
+      - "We need a contingency plan in case the main server fails during the migration."
+      - "Do we have any contingency for a key team member going on sick leave?"
+    casual:
+      - "Always have a contingency fund for unexpected expenses."
+      - "Our contingency plan for rain is to move the party indoors."
+  related:
+    - word: "backup"
+      difference: "A 'backup' is a copy of data or a spare resource. A 'contingency' or 'contingency plan' is the *strategy* for what to do when something fails, which might involve using a backup."
+    - word: "mitigation"
+      difference: "'Mitigation' is about reducing the *risk* of a bad event, while a 'congency' is the plan for what to do *after* the bad event has already happened."
+  story: |
+    For our big release, we prepared a detailed contingency plan. It included steps for a quick rollback, contact information for the on-call team, and pre-written communication for stakeholders. Luckily, we didn't need it, but everyone felt better knowing it was there.
+
+- word: "debrief"
+  pronunciation: "/diːˈbriːf/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To question someone in detail about a completed mission or undertaking."
+    bahasa: "Menanyai seseorang secara rinci tentang misi atau tugas yang telah selesai."
+  usage: "Used after an event, project, or incident to discuss what happened, what went well, and what could be improved. It's similar to a retrospective but can be more focused on a single event."
+  synonyms:
+    - "review"
+    - "post-mortem"
+  examples:
+    workplace:
+      - "Let's schedule a debrief for tomorrow morning to discuss the production outage."
+      - "After the client presentation, the sales team had a quick debrief."
+    casual:
+      - "The friends had a debrief over coffee after their big night out."
+      - "The coach will debrief the team after the match."
+  related:
+    - word: "retrospective"
+      difference: "A 'retrospective' is a formal Agile ceremony that happens at the end of a sprint to discuss the process. A 'debrief' is more general and can happen after any significant event, like an incident or a meeting."
+    - word: "post-mortem"
+      difference: "'Post-mortem' is specifically for analyzing a failure or incident. 'Debrief' can be for successful or neutral events as well."
+  story: |
+    The deployment didn't go as smoothly as we'd hoped. The next day, the entire team got together for a debrief. We walked through the timeline of events, identified the root cause, and created action items to prevent it from happening again.
+
+- word: "fast-track"
+  pronunciation: "/ˈfɑːst ˌtræk/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To accelerate the progress of a project or person."
+    bahasa: "Mempercepat kemajuan sebuah proyek atau seseorang."
+  usage: "Used when you want to make something happen more quickly than its normal schedule, often by skipping some steps or giving it higher priority."
+  synonyms:
+    - "accelerate"
+    - "expedite"
+  examples:
+    workplace:
+      - "We need to fast-track this bug fix because it's affecting a major client."
+      - "She's on the fast-track to a promotion."
+    casual:
+      - "He paid extra to fast-track his passport application."
+      - "They're trying to fast-track the construction of the new stadium."
+  related:
+    - word: "prioritize"
+      difference: "'Prioritize' means to decide the order of importance. 'Fast-track' is the action of making the highest priority item move faster, often by dedicating more resources to it."
+    - word: "expedite"
+      difference: "'Expedite' is a more formal synonym for 'fast-track'. They are very similar in meaning."
+  story: |
+    The CEO announced a new strategic initiative and wanted to see results quickly. Management decided to fast-track the project, giving us extra resources and clearing any bureaucratic hurdles so we could deliver a prototype in record time.
+
+- word: "go-live"
+  pronunciation: "/ɡoʊ laɪv/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The moment when a new system, website, or feature is made available to users."
+    bahasa: "Saat ketika sistem, situs web, atau fitur baru tersedia untuk pengguna."
+  usage: "Refers to the final step of a deployment process, where the code becomes active in the production environment."
+  synonyms:
+    - "launch"
+    - "deployment"
+  examples:
+    workplace:
+      - "The team is preparing for the go-live of the new website next Monday."
+      - "We have a go/no-go meeting an hour before the scheduled go-live."
+    casual:
+      - "The go-live for the new online game is scheduled for midnight."
+      - "After months of planning, the go-live of her blog was a success."
+  related:
+    - word: "deployment"
+      difference: "'Deployment' is the *process* of moving code to an environment. 'Go-live' is the specific *event* when that code becomes accessible to end-users."
+    - word: "launch"
+      difference: "'Launch' is a broader business term that includes marketing and communication. 'Go-live' is a more technical term focused on the system becoming operational."
+  story: |
+    After weeks of testing, the big day finally arrived: the go-live of our new checkout system. The team gathered in a war room, monitoring dashboards and logs closely. The first few transactions came through successfully, and everyone breathed a sigh of relief. The go-live was a success.
+
+- word: "in-flight"
+  pronunciation: "/ɪn flaɪt/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Currently in progress; not yet completed."
+    bahasa: "Sedang dalam proses; belum selesai."
+  usage: "Used to describe work, projects, or even data that has been started but has not yet reached its final destination or state."
+  synonyms:
+    - "in-progress"
+    - "ongoing"
+  examples:
+    workplace:
+      - "We can't deploy now; there's an in-flight data migration that needs to finish first."
+      - "Let's review all the in-flight projects at the end of the quarter."
+    casual:
+      - "Please don't turn off your computer; there are in-flight downloads."
+      - "Changes were made to the plan while the project was already in-flight."
+  related:
+    - word: "ongoing"
+      difference: "'Ongoing' describes something that is happening now. 'In-flight' specifically suggests movement from a starting point to an end point, like a process or transaction."
+    - word: "pending"
+      difference: "'Pending' means waiting to be started or approved. 'In-flight' means already started but not finished."
+  story: |
+    The manager asked for a status update on the new feature. I told her that the backend work was complete, but the frontend work was still in-flight. We couldn't schedule a demo until all the UI components were fully integrated and tested.
+
+- word: "reality-check"
+  pronunciation: "/riˈæl.ə.ti ˌtʃek/"
+  part_of_speech: "noun"
+  meaning:
+    english: "An occasion that forces you to confront the true facts of a situation."
+    bahasa: "Sebuah kesempatan yang memaksa Anda untuk menghadapi fakta sebenarnya dari suatu situasi."
+  usage: "Used when you need to re-evaluate an idea or plan against the constraints of the real world (e.g., time, budget, technical feasibility)."
+  synonyms:
+    - "wake-up call"
+    - "dose of reality"
+  examples:
+    workplace:
+      - "The initial project estimate was too optimistic; the senior engineer provided a much-needed reality-check."
+      - "Let's do a quick reality-check: can we actually finish all this work in a two-week sprint?"
+    casual:
+      - "Getting his first bill was a reality-check for the new college student."
+      - "Thinking I could learn Japanese in three months was a fun idea, but I needed a reality-check."
+  related:
+    - word: "sanity-check"
+      difference: "A 'sanity-check' is a quick test to see if something seems reasonable or logical ('Does this number look right?'). A 'reality-check' is a deeper assessment of whether a plan is practical or achievable in the real world."
+    - word: "feasibility study"
+      difference: "A 'feasibility study' is a formal, detailed analysis of a plan's viability. A 'reality-check' is often an informal, quicker discussion to ground a team's expectations."
+  story: |
+    The product manager came in with an ambitious plan for a new feature, full of exciting ideas. During the planning meeting, the lead engineer provided a gentle reality-check. He pointed out the dependencies on other teams and the significant refactoring required, helping everyone to agree on a more achievable scope for the next quarter.
+
+- word: "time-box"
+  pronunciation: "/ˈtaɪm ˌbɒks/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To allocate a fixed, maximum unit of time to an activity."
+    bahasa: "Mengalokasikan unit waktu yang tetap dan maksimum untuk suatu kegiatan."
+  usage: "A common technique in Agile and project management to ensure that a task or meeting doesn't take longer than planned. You set a duration and stick to it."
+  synonyms:
+    - "limit"
+    - "cap"
+  examples:
+    workplace:
+      - "Let's time-box this discussion to 15 minutes to keep the meeting on schedule."
+      - "We decided to time-box the research phase to one week to avoid analysis paralysis."
+    casual:
+      - "I'm going to time-box my cleaning to one hour, then I'll relax."
+      - "He had to time-box his presentation to 10 minutes."
+  related:
+    - word: "deadline"
+      difference: "A 'deadline' is the final moment by which a task must be completed. A 'time-box' is the fixed duration *allocated* for working on the task itself. You work within the time-box to meet the deadline."
+    - word: "schedule"
+      difference: "A 'schedule' is a plan for when things will happen. 'Time-boxing' is a technique used within a schedule to control the duration of individual activities."
+  story: |
+    The team's brainstorming session was starting to go off-topic. The Scrum Master stepped in and said, 'Okay team, this is a great discussion, but let's time-box it to another 5 minutes and then we need to move on to planning.' This helped everyone refocus and make a decision quickly.

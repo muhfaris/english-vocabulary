@@ -1,0 +1,22 @@
+story:
+  title: "planning-for-go-live"
+  date: "2025-09-01"
+  text: |
+    The team gathered for a crucial meeting. The **go-live** for the new payments module was just a week away, and everyone could feel the pressure. "Alright team," said Maya, the project manager, "let's do a final **reality-check**. Are we truly ready?"
+
+    Devi, the lead engineer, spoke first. "The code is solid, and QA has signed off. However, we need a clear **contingency** plan. What happens if we see a spike in errors after deployment?"
+
+    The team spent the next hour mapping out potential issues. They decided to prepare a script for a quick **rollback**, just in case. They also put a temporary **stand-down** on any other non-essential deployments for 24 hours after the launch to minimize risks.
+
+    "What about the **in-flight** transactions?" asked a junior developer. "What happens to payments that are being processed during the deployment?"
+
+    Devi explained the graceful handling mechanism they had built. To ensure no stone was left unturned, they decided to **time-box** a final testing session to simulate this exact scenario. After the meeting, everyone felt more confident. They had a plan, a backup plan, and had addressed the key risks. The **debrief** after this meeting was positive, and the team was ready for the big day.
+  highlighted_words:
+    - "go-live"
+    - "reality-check"
+    - "contingency"
+    - "rollback"
+    - "stand-down"
+    - "in-flight"
+    - "time-box"
+    - "debrief"
