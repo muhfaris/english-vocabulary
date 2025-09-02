@@ -247,3 +247,28 @@
       difference: "A 'schedule' is a plan for when things will happen. 'Time-boxing' is a technique used within a schedule to control the duration of individual activities."
   story: |
     The team's brainstorming session was starting to go off-topic. The Scrum Master stepped in and said, 'Okay team, this is a great discussion, but let's time-box it to another 5 minutes and then we need to move on to planning.' This helped everyone refocus and make a decision quickly.
+- word: "constraints"
+  pronunciation: "/kənˈstreɪnts/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A limitation or restriction. In project management, these are factors that limit the team's options, such as time, budget, or technical limitations."
+    bahasa: "Batasan"
+  usage: "When discussing the boundaries or limitations you have to work within."
+  synonyms:
+    - "limitations"
+    - "restrictions"
+    - "boundaries"
+  examples:
+    workplace:
+      - "We have to build the solution within the constraints of the existing legacy system."
+      - "Our main constraints for this project are the tight deadline and limited budget."
+    casual:
+      - "I'd love to travel more, but my financial constraints make it difficult."
+      - "He had to work within the constraints of a small kitchen."
+  related:
+    - word: "Requirements"
+      difference: "'Requirements' define what the system *must do*. 'Constraints' define the boundaries within which the system *must be built*. A requirement might be 'the system must accept credit cards', while a constraint might be 'the system must be built using Java'."
+    - word: "Blocker"
+      difference: "A 'blocker' is a specific issue stopping work right now. A 'constraint' is a permanent or long-term boundary that you have to design your solution around."
+  story: |
+    The team was excited to design the new feature. They had many great ideas for a rich, interactive user interface. However, the product manager reminded them of the key constraint: the feature had to be accessible to users on low-bandwidth internet connections. This constraint forced them to simplify their design, focusing on a lightweight and fast-loading experience instead of flashy animations.
