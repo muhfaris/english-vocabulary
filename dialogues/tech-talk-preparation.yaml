@@ -1,0 +1,71 @@
+dialogue:
+  - speaker: Sarah
+    english: "Hey Ben, how's the prep for our tech talk coming along?"
+    bahasa: "Hai Ben, bagaimana persiapan untuk tech talk kita?"
+  - speaker: Ben
+    english: "Hey Sarah! It's going okay. I've got the basic structure down, but I'm a bit stuck on the live demo part."
+    bahasa: "Hai Sarah! Cukup baik. Aku sudah punya kerangka dasarnya, tapi agak macet di bagian demo langsung."
+  - speaker: Sarah
+    english: "Oh, the live demo is always the trickiest. What's the issue?"
+    bahasa: "Oh, demo langsung memang selalu yang paling sulit. Apa masalahnya?"
+  - speaker: Ben
+    english: "I'm worried the local environment might act up during the presentation. It's a bit flaky."
+    bahasa: "Aku khawatir lingkungan lokalnya akan bermasalah saat presentasi. Agak tidak stabil."
+  - speaker: Sarah
+    english: "I get that. How about we record the demo beforehand as a backup plan?"
+    bahasa: "Aku mengerti. Bagaimana kalau kita rekam demonya terlebih dahulu sebagai rencana cadangan?"
+  - speaker: Ben
+    english: "That's a great idea! A video would be a reliable safety net. Have you finished your slides?"
+    bahasa: "Ide yang bagus! Video bisa jadi jaring pengaman yang bisa diandalkan. Apa kamu sudah selesai dengan slide-mu?"
+  - speaker: Sarah
+    english: "Almost. I'm trying to dumb down the complex parts without losing the core message. It's a fine line."
+    bahasa: "Hampir selesai. Aku mencoba menyederhanakan bagian-bagian yang rumit tanpa menghilangkan pesan intinya. Ini sangat sulit."
+  - speaker: Ben
+    english: "Tell me about it. It's tough to balance technical depth with audience engagement."
+    bahasa: "Aku tahu sekali. Sulit untuk menyeimbangkan kedalaman teknis dengan keterlibatan audiens."
+  - speaker: Sarah
+    english: "Exactly. I'm thinking of adding more diagrams and animations to make it more digestible."
+    bahasa: "Tepat sekali. Aku berpikir untuk menambahkan lebih banyak diagram dan animasi agar lebih mudah dicerna."
+  - speaker: Ben
+    english: "Nice. Visual aids always help. Do you want to do a dry run tomorrow afternoon?"
+    bahasa: "Bagus. Bantuan visual selalu membantu. Apakah kamu mau latihan besok siang?"
+  - speaker: Sarah
+    english: "Definitely. Let's book a meeting room. We can give each other feedback."
+    bahasa: "Tentu saja. Ayo kita pesan ruang rapat. Kita bisa saling memberi masukan."
+  - speaker: Ben
+    english: "Sounds like a plan. I'll send out the invite."
+    bahasa: "Setuju. Aku akan kirim undangannya."
+
+expressions:
+  - phrase: "coming along"
+    meaning_english: "How something is progressing."
+    meaning_bahasa: "Bagaimana sesuatu berjalan atau kemajuannya."
+  - phrase: "stuck on"
+    meaning_english: "Unable to proceed with something."
+    meaning_bahasa: "Tidak dapat melanjutkan sesuatu."
+  - phrase: "act up"
+    meaning_english: "Behave badly or strangely."
+    meaning_bahasa: "Bertingkah aneh atau tidak semestinya."
+  - phrase: "flaky"
+    meaning_english: "Unreliable; likely to fail."
+    meaning_bahasa: "Tidak dapat diandalkan; kemungkinan besar akan gagal."
+  - phrase: "safety net"
+    meaning_english: "A backup or safeguard."
+    meaning_bahasa: "Rencana cadangan atau jaring pengaman."
+  - phrase: "dumb down"
+    meaning_english: "To simplify something complex."
+    meaning_bahasa: "Menyederhanakan sesuatu yang rumit."
+  - phrase: "a fine line"
+    meaning_english: "A subtle distinction between two concepts."
+    meaning_bahasa: "Perbedaan yang sangat tipis di antara dua hal."
+  - phrase: "dry run"
+    meaning_english: "A rehearsal or practice session."
+    meaning_bahasa: "Latihan atau sesi praktik."
+
+questions:
+  - q: "What is Ben's main concern about the tech talk?"
+    a: "He's worried that his local development environment might fail during the live demo."
+  - q: "What solution does Sarah suggest for the demo problem?"
+    a: "She suggests recording the demo beforehand as a backup."
+  - q: "What is Sarah's challenge with her part of the presentation?"
+    a: "She is finding it difficult to simplify complex topics without losing the main technical points."
