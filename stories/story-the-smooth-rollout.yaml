@@ -1,0 +1,18 @@
+story:
+  title: "the-smooth-rollout"
+  date: "2025-09-03"
+  text: |
+    Today was the big **rollout** for our new feature. The morning started calmly. My plan was to finish a small refactoring task before the deployment. But as soon as I got settled, my manager called for a "quick sync." It was a classic **context switch**, moving from deep coding focus to sudden meeting mode.
+
+    An unexpected **alert** popped up from our monitoring system right after the meeting. It wasn't a major **incident**, but it was enough to get everyone's attention. The team decided to **keep an eye on** the system logs while proceeding with the deployment. We wanted to make sure everything would **go smoothly**.
+
+    The deployment itself was tense. It was an "**all hands on deck**" situation, with everyone ready to jump in if something went wrong. We used the new automated pipeline, and I had to **monitor** the dashboard closely, watching the metrics and logs as the new version was released to users incrementally. Thankfully, there were no more surprises. The rollout was a success! It's a great feeling when a plan comes together, even with a few bumps along the way.
+  highlighted_words:
+    - "rollout"
+    - "context switch"
+    - "alert"
+    - "incident"
+    - "keep an eye on"
+    - "go smoothly"
+    - "all hands on deck"
+    - "monitor"

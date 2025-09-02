@@ -1,0 +1,202 @@
+- word: "rollout"
+  pronunciation: "/ˈroʊl.aʊt/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The process of making a new product, service, or feature available to the public or a group of users."
+    bahasa: "Proses membuat produk, layanan, atau fitur baru tersedia untuk publik atau sekelompok pengguna."
+  usage: "Used to describe the official launch or release of something, often done in phases."
+  synonyms:
+    - "launch"
+    - "release"
+    - "deployment"
+  examples:
+    workplace:
+      - "The marketing team is preparing for the global rollout of the new software."
+      - "We are planning a phased rollout, starting with a small group of beta testers."
+    casual:
+      - "The rollout of the new recycling program in the city will begin next month."
+      - "They're excited about the rollout of the new menu at their favorite restaurant."
+  related:
+    - word: "deployment"
+      difference: "'Deployment' is a more technical term, referring to the act of installing and configuring the software on servers. 'Rollout' is a broader, more business-focused term that includes the deployment as well as marketing and communication efforts."
+    - word: "launch"
+      difference: "'Launch' and 'rollout' are very similar. 'Launch' often implies a single, big event, while 'rollout' can suggest a more gradual process."
+  story: |
+    The team planned the rollout of the new user dashboard for weeks. They decided on a canary rollout, releasing it to just 1% of users at first. After confirming that everything was stable, they gradually increased the percentage over two days until all users had the new version.
+
+- word: "context switch"
+  pronunciation: "/ˈkɒn.tekst swɪtʃ/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "The process of shifting from one unrelated task or mental state to another, which often results in a loss of focus and productivity."
+    bahasa: "Proses beralih dari satu tugas atau keadaan mental yang tidak terkait ke yang lain, yang seringkali mengakibatkan hilangnya fokus dan produktivitas."
+  usage: "Used, especially by developers, to describe the mental cost of being interrupted or having to juggle multiple projects."
+  synonyms:
+    - "task switching"
+    - "shifting gears"
+  examples:
+    workplace:
+      - "Too many meetings cause frequent context switching and make it hard to code."
+      - "The constant context switch between fixing bugs and developing new features is challenging."
+    casual:
+      - "Going from doing my taxes to planning a vacation was a major context switch."
+      - "Every time I have to answer the phone while cooking, the context switch makes me forget what I was doing."
+  related:
+    - word: "multitasking"
+      difference: "'Multitasking' is often seen as doing multiple things at once. 'Context switch' refers to the act of stopping one thing and starting another, highlighting the mental effort involved in the transition."
+    - word: "interruption"
+      difference: "An 'interruption' is the event that causes a 'context switch'. The interruption is the cause, the context switch is the effect."
+  story: |
+    I was deep into a complex coding problem when a colleague asked for an urgent code review. That context switch completely broke my concentration. After finishing the review, it took me a good 20 minutes just to remember where I had left off and get back into the zone.
+
+- word: "alert"
+  pronunciation: "/əˈlɜːt/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A notification or warning of a potential problem or a specific event, often from a monitoring system."
+    bahasa: "Pemberitahuan atau peringatan tentang potensi masalah atau peristiwa tertentu, seringkali dari sistem pemantauan."
+  usage: "Used in an operational context to describe an automated message that signals something needs attention."
+  synonyms:
+    - "notification"
+    - "warning"
+  examples:
+    workplace:
+      - "The on-call engineer received an alert that the server's CPU usage was too high."
+      - "We need to configure an alert for when the database connection fails."
+    casual:
+      - "My phone gives me a weather alert when a storm is coming."
+      - "I set up a price alert for the flight I want to book."
+  related:
+    - word: "notification"
+      difference: "A 'notification' is a general term for any message. An 'alert' is a specific type of notification that is urgent and often indicates a problem."
+    - word: "error"
+      difference: "An 'error' is the problem itself. An 'alert' is the message that tells you about the error."
+  story: |
+    During the night, an automated alert was sent to the team's Slack channel. The alert indicated that the application's response time was critically slow. The on-call developer immediately woke up, investigated the issue, and restarted the service to resolve the problem before it affected too many users.
+
+- word: "incident"
+  pronunciation: "/ˈɪn.sɪ.dənt/"
+  part_of_speech: "noun"
+  meaning:
+    english: "An unexpected event that disrupts a service or a system, which requires a response to fix."
+    bahasa: "Peristiwa tak terduga yang mengganggu layanan atau sistem, yang memerlukan respons untuk memperbaikinya."
+  usage: "A formal term used in IT and operations to describe a problem, like a service outage or a major bug, that needs to be managed and resolved."
+  synonyms:
+    - "issue"
+    - "problem"
+    - "outage"
+  examples:
+    workplace:
+      - "The team is currently handling an incident related to the payment gateway failure."
+      - "After every major incident, we conduct a post-mortem to understand the root cause."
+    casual:
+      - "The police were called to investigate the incident at the bank."
+      - "She described the funny incident that happened on her way to work."
+  related:
+    - word: "bug"
+      difference: "A 'bug' is a flaw in the code. An 'incident' is the real-world consequence of that bug, especially when it impacts users. A single bug can cause multiple incidents."
+    - word: "problem"
+      difference: "'Problem' is a general term. 'Incident' is a more formal, operational term with a defined process for handling it (e.g., incident management)."
+  story: |
+    Last week, the company experienced a major incident. The main database went down for an hour, making the entire application unavailable for all users. The engineering team quickly assembled an incident response team to diagnose and fix the issue, while the support team communicated with customers.
+
+- word: "keep an eye on"
+  pronunciation: "/kiːp ən aɪ ɒn/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To watch or monitor something or someone carefully."
+    bahasa: "Mengawasi atau memantau sesuatu atau seseorang dengan cermat."
+  usage: "An informal way to say you will be monitoring a situation, often because there is a potential for problems."
+  synonyms:
+    - "monitor"
+    - "watch closely"
+  examples:
+    workplace:
+      - "I've deployed the fix, but please keep an eye on the error logs for the next few hours."
+      - "Can you keep an eye on the new intern and make sure she has everything she needs?"
+    casual:
+      - "Could you keep an eye on my bag while I go to the restroom?"
+      - "I'm trying to eat healthier, so I need to keep an eye on my sugar intake."
+  related:
+    - word: "monitor"
+      difference: "'Monitor' is more formal and often implies using tools or systems for observation. 'Keep an eye on' is more informal and suggests personal, direct observation."
+    - word: "ignore"
+      difference: "This is the opposite of keeping an eye on something."
+  story: |
+    After deploying a change to the caching system, the lead developer told the team, 'This should improve performance, but it's a sensitive area. Let's all keep an eye on the server response times for the rest of the day to make sure everything is stable.'
+
+- word: "go smoothly"
+  pronunciation: "/ɡoʊ ˈsmuːð.li/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To happen without any problems or difficulties."
+    bahasa: "Terjadi tanpa masalah atau kesulitan."
+  usage: "Used to describe a process or event that is successful and free of complications."
+  synonyms:
+    - "go well"
+    - "proceed without a hitch"
+  examples:
+    workplace:
+      - "The client presentation needs to go smoothly, so let's do a dry-run."
+      - "Thanks to our detailed planning, the server migration went smoothly."
+    casual:
+      - "I hope my first day at the new job goes smoothly."
+      - "The party went smoothly; everyone had a great time."
+  related:
+    - word: "succeed"
+      difference: "'Succeed' focuses on achieving the final goal. 'Go smoothly' describes the *process* of getting to that goal, emphasizing the lack of problems along the way."
+    - word: "run into problems"
+      difference: "This is the opposite of something going smoothly."
+  story: |
+    The team was nervous about the database upgrade, as it was a complex procedure. They prepared for weeks, writing scripts and creating a step-by-step plan. On the day of the upgrade, they followed the plan exactly, and everything went smoothly. The entire process was finished in under an hour with zero downtime.
+
+- word: "all hands on deck"
+  pronunciation: "/ɔːl hændz ɒn dek/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A situation in which everyone available is needed to help with a problem or urgent task."
+    bahasa: "Situasi di mana setiap orang yang tersedia dibutuhkan untuk membantu mengatasi masalah atau tugas mendesak."
+  usage: "An idiom used to signal that a situation is critical and requires the effort of the entire team."
+  synonyms:
+    - "everyone involved"
+    - "all together now"
+  examples:
+    workplace:
+      - "We have a major outage; it's all hands on deck to get the system back online."
+      - "To meet the deadline, it's going to be all hands on deck for the rest of the week."
+    casual:
+      - "My sister is moving this weekend, so it's all hands on deck to help her pack."
+      - "It was all hands on deck to clean the house before the guests arrived."
+  related:
+    - word: "teamwork"
+      difference: "'Teamwork' is the general concept of working together. 'All hands on deck' is a specific, urgent call for teamwork in a crisis or to meet a critical goal."
+    - word: "individual work"
+      difference: "This is the opposite of an all hands on deck situation."
+  story: |
+    Just hours before the product launch, a critical bug was found during final testing. The project manager declared an 'all hands on deck' situation. Developers, testers, and even the product manager themselves gathered in a war room to swarm the problem. By working together, they managed to find and fix the issue with just minutes to spare.
+
+- word: "monitor"
+  pronunciation: "/ˈmɒn.ɪ.tər/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To watch and check a situation carefully for a period of time in order to see how it changes or develops."
+    bahasa: "Mengamati dan memeriksa situasi dengan cermat selama periode waktu tertentu untuk melihat bagaimana ia berubah atau berkembang."
+  usage: "A formal verb used to describe the act of observing a system's health, performance, or metrics, often using a dashboard or specific tools."
+  synonyms:
+    - "observe"
+    - "track"
+    - "watch"
+  examples:
+    workplace:
+      - "We need to constantly monitor our application for any performance issues."
+      - "The network team uses this dashboard to monitor server traffic."
+    casual:
+      - "The doctor will monitor the patient's condition overnight."
+      - "I use an app to monitor my daily steps."
+  related:
+    - word: "observe"
+      difference: "'Observe' means to watch something, but 'monitor' implies a more systematic and continuous process of observation over time, often with a specific purpose like checking for changes or quality."
+    - word: "log"
+      difference: "To 'log' is to record events as they happen. To 'monitor' is to watch those logs or other metrics to check the system's status."
+  story: |
+    After every new release, the on-call engineer's main responsibility is to monitor the system's health. They watch a dashboard with dozens of graphs showing CPU usage, memory, response times, and error rates. If any of these metrics go outside the normal range, they have to investigate immediately.
