@@ -1,0 +1,15 @@
+story:
+  title: "prepping-for-the-big-demo"
+  date: "2025-09-02"
+  text: |
+    Tuesday was all about preparing for the big **demo** on Friday. My team and I had a **dry-run** in the morning to present the new feature to our product manager. The goal was to get some early **feedback** so we could **polish** the rough edges. The initial run-through went okay, but there were a few points that needed more detail. Our PM asked us to **clarify** the data flow, as she anticipated the **stakeholders** would definitely ask about it.
+
+    After the meeting, I booked a focus room and spent the rest of the day updating the presentation slides and making small code tweaks. It’s always a good idea to **incorporate** feedback quickly. We want to make sure the presentation goes smoothly and everyone is aligned. By the end of the day, I felt much more confident. We have another internal dry-run tomorrow, and hopefully, it will be even better.
+  highlighted_words:
+    - "demo"
+    - "dry-run"
+    - "feedback"
+    - "polish"
+    - "clarify"
+    - "stakeholders"
+    - "incorporate"
