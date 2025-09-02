@@ -695,3 +695,77 @@
       difference: "'Record' is a more general term. 'Document' often implies creating a more structured and formal record for others to read and use."
   story: |
     A developer built a complex new feature. The code worked perfectly, but nobody else on the team knew how to use it or maintain it. The tech lead asked him to document his work. He spent the next day writing a clear guide that explained the architecture, the API endpoints, and the reasons behind his key decisions. This made it much easier for the rest of the team to work with the new feature.
+- word: "progress"
+  pronunciation: "/ˈprəʊ.ɡres/"
+  part_of_speech: "noun"
+  meaning:
+    english: "Forward or onward movement toward a destination or goal."
+    bahasa: "Kemajuan; pergerakan maju menuju tujuan."
+  usage: "Used to describe the advancement of work. You can 'make progress' on a task or 'track progress' of a project."
+  synonyms:
+    - "advancement"
+    - "development"
+  examples:
+    workplace:
+      - "We made good progress on the feature this week."
+      - "The project manager tracks our progress using a Gantt chart."
+    casual:
+      - "He's making great progress in learning to play the guitar."
+      - "The construction of the new bridge is showing slow progress."
+  related:
+    - word: "velocity"
+      difference: "'Progress' is the general advancement on a task or project. 'Velocity' is a specific Agile metric that measures the amount of work a team completes in a sprint, used to predict future progress."
+    - word: "status"
+      difference: "'Status' is a snapshot of where things are at a certain point in time ('What is the status?'). 'Progress' is the movement and advancement over a period of time ('Have we made progress?')."
+  story: |
+    At the daily stand-up, each team member shared their progress. I mentioned that I had finished the backend logic for the new API and was starting the integration tests. It was motivating to hear about everyone's progress and see the feature coming together piece by piece.
+
+- word: "elusive"
+  pronunciation: "/iˈluː.sɪv/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Difficult to find, catch, or achieve."
+    bahasa: "Sulit ditemukan, ditangkap, atau dicapai."
+  usage: "Used to describe something that is hard to grasp or identify, often a bug that is difficult to reproduce."
+  synonyms:
+    - "tricky"
+    - "hard to pin down"
+  examples:
+    workplace:
+      - "We're trying to fix an elusive bug that only appears in production."
+      - "Getting a final decision from the committee has been an elusive goal."
+    casual:
+      - "The solution to the riddle was elusive."
+      - "Sleep was elusive the night before her big exam."
+  related:
+    - word: "intermittent"
+      difference: "An 'intermittent' issue happens at irregular intervals. An 'elusive' bug is not just intermittent, but also very difficult to reproduce or find the cause of, even when it's happening."
+    - word: "hidden"
+      difference: "'Hidden' implies something is intentionally concealed. 'Elusive' means it's just hard to find or catch, not necessarily hidden on purpose."
+  story: |
+    The team spent a whole week hunting an elusive memory leak. The application would run fine for hours, and then suddenly crash. The bug was impossible to reproduce in the development environment, making it incredibly frustrating. Finally, after adding extensive logging, they managed to corner the elusive bug.
+
+- word: "pressure"
+  pronunciation: "/ˈpreʃ.ər/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The use of persuasion, influence, or intimidation to make someone do something; a sense of stressful urgency."
+    bahasa: "Tekanan; penggunaan persuasi, pengaruh, atau intimidasi untuk membuat seseorang melakukan sesuatu; rasa urgensi yang menekan."
+  usage: "Used to describe the stress or expectation to perform, especially when facing a deadline or high stakes."
+  synonyms:
+    - "stress"
+    - "urgency"
+  examples:
+    workplace:
+      - "There's a lot of pressure to meet the quarterly targets."
+      - "He works well under pressure."
+    casual:
+      - "She felt the pressure of her parents' expectations."
+      - "Don't give in to peer pressure."
+  related:
+    - word: "stress"
+      difference: "'Stress' is the internal feeling of emotional or mental strain. 'Pressure' is the external force or expectation that often causes stress. The deadline creates pressure; the feeling you have is stress."
+    - word: "deadline"
+      difference: "A 'deadline' is a specific time by which something must be done. It is a common source of 'pressure'."
+  story: |
+    As the release date approached, the pressure began to build. The marketing team had already announced the new feature, and the first major client was waiting for it. The development team felt the pressure, but they stayed focused, supported each other, and managed to deliver a high-quality product on time.
