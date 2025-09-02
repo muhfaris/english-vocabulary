@@ -1,0 +1,261 @@
+- word: "Roadblock"
+  pronunciation: "/ˈroʊd.blɑːk/"
+  part_of_speech: "noun"
+  meaning:
+    english: "An obstacle or challenge that prevents progress on a project or task."
+    bahasa: "Hambatan atau rintangan yang menghalangi kemajuan proyek atau tugas."
+  usage: "Use 'roadblock' to describe a specific problem that is stopping you or your team from moving forward. It’s a common way to explain delays in stand-up meetings."
+  synonyms:
+    - "Obstacle"
+    - "Hurdle"
+    - "Impediment"
+  examples:
+    workplace:
+      - "We've hit a roadblock with the API integration; their documentation is outdated."
+      - "During stand-up, I'll mention that the deployment script failure is our main roadblock."
+    casual:
+      - "I wanted to finish painting the house this weekend, but running out of paint was a major roadblock."
+      - "My personal project hit a roadblock when I realized the library I was using is no longer supported."
+  related:
+    - word: "Blocker"
+      difference: "'Blocker' is very similar and often used interchangeably in tech. However, a 'blocker' implies a complete stop (you are 'blocked'), while a 'roadblock' can sometimes imply a challenge that might be worked around."
+    - word: "Bottleneck"
+      difference: "A 'bottleneck' is a specific point in a process where the flow of work is congested or slowed down, affecting the entire system. A 'roadblock' is a more general obstacle that might not be related to process flow."
+  story: |
+    At the sprint planning meeting, Sarah, the project manager, asked, "What's the status on the new payment gateway feature?"
+    David, the lead developer, sighed. "We've run into a significant roadblock. The third-party service we need to connect with isn't sending the confirmation data we expect. Until we resolve this with their support team, we can't proceed with the final testing phase."
+
+- word: "On the same page"
+  pronunciation: "/ɑːn ðə seɪm peɪdʒ/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To have a shared understanding or agreement on a situation or plan."
+    bahasa: "Memiliki pemahaman atau kesepakatan yang sama mengenai suatu situasi atau rencana."
+  usage: "This is a very common phrase in team discussions, meetings, and reviews. Use it to confirm that everyone understands the goals, requirements, or next steps in the same way."
+  synonyms:
+    - "In agreement"
+    - "Aligned"
+    - "In sync"
+  examples:
+    workplace:
+      - "Before we start coding, let's have a quick meeting to ensure everyone is on the same page about the feature requirements."
+      - "I'm glad we had this discussion. I feel like the design and engineering teams are finally on the same page."
+    casual:
+      - "We need to be on the same page about our holiday plans before we book any tickets."
+      - "My co-founder and I are always on the same page when it comes to our company's vision."
+  related:
+    - word: "Alignment"
+      difference: "'Alignment' is a more formal noun that means a state of agreement or cooperation. 'Being on the same page' is the casual, idiomatic way to describe achieving that alignment."
+    - word: "Consensus"
+      difference: "'Consensus' means a general agreement that everyone in the group accepts, even if it's not their first choice. 'Being on the same page' is more about shared understanding, which usually leads to consensus but isn't exactly the same."
+  story: |
+    The weekly sync-up between the frontend and backend teams was crucial. For weeks, small misunderstandings had caused delays. The backend team expected a data format that the frontend team wasn't sending. "Okay," said Maria, the tech lead. "Let's map out the entire data flow on the whiteboard. I want to make sure we are all on the same page, down to the last detail, before we write another line of code."
+
+- word: "Whiteboard"
+  pronunciation: "/ˈwaɪt.bɔːrd/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To brainstorm or plan ideas, typically by drawing on a whiteboard (can be a physical board or a digital tool)."
+    bahasa: "Melakukan curah pendapat atau merencanakan ide, biasanya dengan menggambar di papan tulis (bisa papan fisik atau alat digital)."
+  usage: "Often used as a verb in tech environments, 'to whiteboard' means to have a collaborative session to solve a problem or design a system. It implies a creative, visual, and often informal process."
+  synonyms:
+    - "Brainstorm"
+    - "Outline"
+    - "Map out"
+  examples:
+    workplace:
+      - "This logic is too complex to discuss over chat. Let's get in a room and whiteboard the architecture."
+      - "I'll whiteboard the user flow and share a picture with the team for feedback."
+    casual:
+      - "We need to plan our road trip. Let's whiteboard all the places we want to visit."
+      - "She whiteboarded her life goals to get a clearer picture of what she wanted."
+  related:
+    - word: "Diagram"
+      difference: "'To diagram' is to create a formal, structured drawing (like a UML diagram or a flowchart). 'To whiteboard' is more about the freeform, collaborative process of generating and connecting ideas, which might result in a diagram."
+    - word: "Sketch"
+      difference: "'To sketch' is to draw a rough or unfinished version of something. It's often a solo activity. 'To whiteboard' emphasizes the collaborative aspect of drawing and problem-solving with a team."
+  story: |
+    "I'm stuck on how to structure the database for the new microservice," Kenji admitted during stand-up.
+    His teammate, Fatima, replied, "No problem. After stand-up, let's grab a meeting room and whiteboard it. We can draw out the tables, relationships, and how the data will flow. Seeing it visually always helps."
+
+- word: "Firefighting"
+  pronunciation: "/ˈfaɪərˌfaɪ.t̬ɪŋ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The practice of dealing with problems as they arise rather than planning to avoid them; working reactively on urgent, unforeseen issues."
+    bahasa: "Praktik menangani masalah saat muncul daripada merencanakan untuk menghindarinya; bekerja secara reaktif pada isu-isu mendesak yang tidak terduga."
+  usage: "Use this term to describe a period where you or your team are constantly fixing urgent bugs or production issues, leaving no time for planned project work. It usually has a negative connotation."
+  synonyms:
+    - "Crisis management"
+    - "Troubleshooting"
+    - "Reactive work"
+  examples:
+    workplace:
+      - "I didn't make any progress on my feature this week because I was stuck firefighting production errors."
+      - "Our goal for this quarter is to reduce technical debt so we can do less firefighting and more development."
+    casual:
+      - "Being a single parent sometimes feels like constant firefighting."
+      - "He's so disorganized; his whole morning was just firefighting emails he should have answered yesterday."
+  related:
+    - word: "Proactive"
+      difference: "'Proactive' is the opposite of firefighting. It means taking action to prevent problems before they happen. For example, 'We need to be more proactive about monitoring to avoid future firefighting.'"
+    - word: "Triage"
+      difference: "'Triage' is the process of sorting and prioritizing incoming issues, which is a key activity during firefighting. Firefighting is the overall state of being reactive, while triage is the specific action of deciding what to fix first."
+  story: |
+    The team's morale was low. For the third sprint in a row, their plans were derailed by a series of critical bugs from the last release. "We're in constant firefighting mode," the manager said during the retrospective. "We fix one bug, and two more appear. We need to dedicate the next sprint entirely to stabilization and automated testing, or we'll never get out of this cycle."
+
+- word: "Back-burner"
+  pronunciation: "/ˈbækˌbɜːr.nər/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A state of not being actively worked on; low priority."
+    bahasa: "Keadaan di mana sesuatu tidak sedang dikerjakan secara aktif; prioritas rendah."
+  usage: "Used with 'put on the back-burner'. It’s a common idiom for de-prioritizing a task, feature, or project to focus on more urgent matters."
+  synonyms:
+    - "De-prioritize"
+    - "Postpone"
+    - "Shelve"
+  examples:
+    workplace:
+      - "We have to put the UI redesign on the back-burner to deal with this critical security vulnerability."
+      - "Is this feature a priority, or can we put it on the back-burner for now?"
+    casual:
+      - "I've had to put my hobby project on the back-burner because I'm so busy with work."
+      - "Let's put this conversation on the back-burner and talk about it later."
+  related:
+    - word: "Backlog"
+      difference: "A 'backlog' is a formal, organized list of tasks or features waiting to be worked on. Putting something on the 'back-burner' is a more informal way of saying it's not important right now, and it may or may not be in the official backlog."
+    - word: "Shelve"
+      difference: "'To shelve' something implies a more permanent or long-term postponement. Putting something on the 'back-burner' suggests it's temporary and you might come back to it sooner."
+  story: |
+    During the product roadmap meeting, the team reviewed their ambitious goals for the quarter. However, the lead engineer raised a concern about server costs. "If we don't optimize our database queries now, our hosting bill will double," he warned. The product manager nodded grimly. "You're right. We'll have to put the new notification feature on the back-burner and prioritize the optimization work."
+
+- word: "Rule of thumb"
+  pronunciation: "/ˌruːl əv ˈθʌm/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A broadly accurate guide or principle, based on practice rather than theory."
+    bahasa: "Panduan atau prinsip yang akurat secara umum, berdasarkan praktik bukan teori."
+  usage: "Use this to share a general guideline or best practice that is not a strict rule but is helpful in most situations. It’s great for giving advice or making quick estimations."
+  synonyms:
+    - "General guideline"
+    - "Best practice"
+    - "Heuristic"
+  examples:
+    workplace:
+      - "As a rule of thumb, we write unit tests for any new function that contains business logic."
+      - "A good rule of thumb is to keep your functions under 50 lines of code to maintain readability."
+    casual:
+      - "For cooking rice, a good rule of thumb is to use two parts water to one part rice."
+      - "My rule of thumb is to not check work emails after 7 PM."
+  related:
+    - word: "Best Practice"
+      difference: "'Best practice' is a more formal term for a method or technique that has been generally accepted as superior to any alternatives. A 'rule of thumb' is more like a personal or informal guideline."
+    - word: "Convention"
+      difference: "A 'convention' is a way in which something is usually done by a specific team or community (e.g., coding conventions). A 'rule of thumb' is a more general principle that can be applied in many different contexts."
+  story: |
+    A junior developer asked his senior, "How do I know when to create a new component versus just adding to an existing one?"
+    The senior replied, "A good rule of thumb is the 'Rule of Three'. If you find yourself copying and pasting the same piece of code for the third time, it's a good sign that you should extract it into its own reusable function or component. It's not a strict law, but it's a helpful guideline."
+
+- word: "Liaise"
+  pronunciation: "/liˈeɪz/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To speak to other people at work in order to exchange information with them; to act as a link between people or groups."
+    bahasa: "Berbicara dengan orang lain di tempat kerja untuk bertukar informasi; bertindak sebagai penghubung antara orang atau kelompok."
+  usage: "This is a slightly formal but common verb used to describe the act of communication and coordination between different teams or individuals. It's often used in job descriptions and project planning."
+  synonyms:
+    - "Coordinate"
+    - "Communicate"
+    - "Mediate"
+  examples:
+    workplace:
+      - "My role requires me to liaise with the product team to ensure the technical solution meets their requirements."
+      - "Can you liaise with the QA team to schedule a time for testing our new feature?"
+    casual:
+      - "I need to liaise with the caterer to finalize the menu for the party."
+      - "As the team captain, he had to liaise between the players and the coach."
+  related:
+    - word: "Coordinate"
+      difference: "'Coordinate' focuses more on organizing activities and logistics to make them work together efficiently. 'Liaise' focuses more on the communication and information exchange aspect between the groups being coordinated."
+    - word: "Collaborate"
+      difference: "'Collaborate' means to work together on a shared task or project. 'Liaise' is the communication that enables that collaboration, but it's not the act of working together itself."
+  story: |
+    The mobile app team and the web app team were developing a shared feature. To ensure consistency, they appointed one person from each team to be the point of contact. "Okay, so from now on, Ana will liaise with the web team," the engineering manager announced. "Any questions about the API or shared components should go through her. This will prevent miscommunication."
+
+- word: "Synergy"
+  pronunciation: "/ˈsɪn.ər.dʒi/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The interaction of two or more organizations or teams to produce a combined effect greater than the sum of their separate effects."
+    bahasa: "Interaksi antara dua atau lebih organisasi atau tim untuk menghasilkan efek gabungan yang lebih besar daripada jumlah efek terpisah mereka."
+  usage: "Often used in a business or corporate context to describe the benefits of teamwork. While it can sometimes be seen as a buzzword, it genuinely describes a situation where collaboration is highly effective."
+  synonyms:
+    - "Teamwork"
+    - "Collaboration"
+    - "Cooperation"
+  examples:
+    workplace:
+      - "There's great synergy between the design and development teams, which is why our products look good and work well."
+      - "By merging the two departments, we hope to create synergy and improve efficiency."
+    casual:
+      - "The synergy between the two musicians resulted in an amazing album."
+      - "Their partnership had a natural synergy that made them successful."
+  related:
+    - word: "Collaboration"
+      difference: "'Collaboration' is the action of working together. 'Synergy' is the positive outcome or result of that collaboration, where the result is better than what the individuals could have achieved alone."
+    - word: "Teamwork"
+      difference: "'Teamwork' is the general concept of people working together in a group. 'Synergy' is a specific, powerful outcome of good teamwork."
+  story: |
+    At the all-hands meeting, the CEO presented the results of the new 'platform' team, which was formed by combining backend, frontend, and DevOps engineers. "The synergy we've seen from this team is incredible," she said. "By working together from the start of a project, they've reduced deployment time by 50% and improved site reliability. This is a perfect example of the whole being greater than the sum of its parts."
+
+- word: "Run something by someone"
+  pronunciation: "/rʌn ˈsʌmθɪŋ baɪ ˈsʌmwʌn/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To tell someone about an idea or plan so that they can give you their opinion."
+    bahasa: "Memberi tahu seseorang tentang sebuah ide atau rencana agar mereka dapat memberikan pendapat."
+  usage: "A very common and informal way to ask for feedback or approval. It’s less formal than asking for a 'review' or 'approval' and implies a quick, casual check."
+  synonyms:
+    - "Get feedback on"
+    - "Check with"
+    - "Float an idea past"
+  examples:
+    workplace:
+      - "This is just a rough draft, but I wanted to run it by you before I spend more time on it."
+      - "Before I commit this change, I'm going to run my approach by the senior engineer."
+    casual:
+      - "Can I run a crazy idea by you for my birthday party?"
+      - "I'm going to run this new recipe by my wife and see what she thinks."
+  related:
+    - word: "Consult"
+      difference: "'To consult' someone is more formal and implies seeking expert advice. 'To run something by someone' is more casual and can be done with a peer or manager for a quick opinion."
+    - word: "Propose"
+      difference: "'To propose' something is to formally suggest it for consideration or discussion. 'To run something by someone' is the informal step you might take before you're ready to make a formal proposal."
+  story: |
+    A developer, Alex, was thinking about a clever way to optimize a slow database query. Instead of just implementing it, he walked over to his team lead's desk. "Hey, got a second?" he asked. "I have an idea for refactoring the user search query. Can I run my approach by you quickly to see if I'm missing anything obvious?"
+
+- word: "Reinvent the wheel"
+  pronunciation: "/ˌriː.ɪn.vent ðə ˈwiːl/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To waste time and effort creating something that has already been created and is available."
+    bahasa: "Membuang-buang waktu dan tenaga untuk menciptakan sesuatu yang sudah ada dan tersedia."
+  usage: "This idiom is extremely common in software development. Use it to caution against building a custom solution when a well-tested library, framework, or service already exists for that exact problem."
+  synonyms:
+    - "Duplicate effort"
+    - "Redo work"
+  examples:
+    workplace:
+      - "Why are you trying to write your own date formatting library? Let's not reinvent the wheel—just use a popular one like date-fns."
+      - "We spent a month building a custom analytics dashboard, only to realize we were just reinventing the wheel. We should have used an off-the-shelf product."
+    casual:
+      - "He's trying to build his own social media site from scratch. It feels like he's reinventing the wheel."
+      - "Sometimes it's better to use a template than to reinvent the wheel for every single document."
+  related:
+    - word: "Use a library"
+      difference: "This is the common solution to avoid reinventing the wheel. A 'library' is a collection of pre-written code that you can use to perform common tasks."
+    - word: "Not Invented Here (NIH) Syndrome"
+      difference: "This is a mindset where a team or company avoids using existing third-party solutions in favor of building their own, often because they distrust external code or believe they can do it better. This mindset often leads to reinventing the wheel."
+  story: |
+    During a code review, a senior engineer noticed that a junior developer had written several complex functions to handle user authentication. He left a comment: "This code is well-written, but we're reinventing the wheel here. Our company has a standard authentication service that handles all of this, including password resets and multi-factor auth. Let's use that service instead so we don't have to maintain this custom logic."
