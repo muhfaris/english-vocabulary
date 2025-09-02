@@ -1,0 +1,78 @@
+dialogue:
+  - speaker: Alex
+    english: "Hey team, we've got a P1 ticket. Users are reporting that the image upload feature is failing in production."
+    bahasa: "Hai tim, kita dapat tiket P1. Pengguna melaporkan bahwa fitur unggah gambar gagal di produksi."
+  - speaker: Ben
+    english: "Oh, that's not good. I'm on it. I'm checking the logs right now."
+    bahasa: "Oh, itu tidak bagus. Saya akan menanganinya. Saya sedang memeriksa log sekarang."
+  - speaker: Alex
+    english: "Thanks, Ben. Let me know what you find. This is a top priority."
+    bahasa: "Terima kasih, Ben. Beri tahu saya apa yang kamu temukan. Ini adalah prioritas utama."
+  - speaker: Ben
+    english: "Found something. Looks like we're getting a 'permission denied' error when trying to save the file to the S3 bucket."
+    bahasa: "Menemukan sesuatu. Sepertinya kita mendapatkan error 'permission denied' saat mencoba menyimpan file ke S3 bucket."
+  - speaker: Alex
+    english: "Permission denied? That's strange. We haven't changed anything related to S3 permissions, have we?"
+    bahasa: "Permission denied? Aneh sekali. Kita belum mengubah apa pun yang berhubungan dengan izin S3, kan?"
+  - speaker: Ben
+    english: "Not that I know of. I'm checking the deployment history. Maybe a recent change to our IAM role?"
+    bahasa: "Tidak setahu saya. Saya sedang memeriksa riwayat deployment. Mungkin ada perubahan terbaru pada IAM role kita?"
+  - speaker: Alex
+    english: "Good call. While you do that, I'll check the S3 bucket policy directly, just in case."
+    bahasa: "Ide bagus. Selagi kamu melakukan itu, saya akan memeriksa kebijakan S3 bucket secara langsung, untuk berjaga-jaga."
+  - speaker: Ben
+    english: "Aha! Found it. A new policy was attached to our production role last night. It seems to have restricted write access."
+    bahasa: "Aha! Menemukannya. Ada kebijakan baru yang dilampirkan ke role produksi kita tadi malam. Sepertinya akses tulisnya dibatasi."
+  - speaker: Alex
+    english: "I see it too. Okay, we need to revert that change ASAP. I'll contact the security team to get this rolled back."
+    bahasa: "Saya juga melihatnya. Oke, kita perlu mengembalikan perubahan itu secepatnya. Saya akan menghubungi tim keamanan untuk membatalkannya."
+  - speaker: Ben
+    english: "Roger that. In the meantime, I'll prepare a hotfix in case they need us to update the code to use a different role."
+    bahasa: "Baik. Sementara itu, saya akan menyiapkan hotfix jika mereka meminta kita untuk memperbarui kode agar menggunakan role yang berbeda."
+
+expressions:
+  - phrase: "P1 ticket"
+    meaning_english: "A high-priority issue that needs immediate attention."
+    meaning_bahasa: "Tiket prioritas tinggi yang memerlukan perhatian segera."
+  - phrase: "On it"
+    meaning_english: "I am currently working on it."
+    meaning_bahasa: "Saya sedang mengerjakannya."
+  - phrase: "Top priority"
+    meaning_english: "The most important task that needs to be done first."
+    meaning_bahasa: "Tugas paling penting yang harus diselesaikan terlebih dahulu."
+  - phrase: "Permission denied"
+    meaning_english: "An error indicating that you don't have the necessary rights to access a resource."
+    meaning_bahasa: "Error yang menunjukkan bahwa Anda tidak memiliki hak yang diperlukan untuk mengakses sumber daya."
+  - phrase: "Good call"
+    meaning_english: "A good suggestion or decision."
+    meaning_bahasa: "Saran atau keputusan yang bagus."
+  - phrase: "Just in case"
+    meaning_english: "As a precaution."
+    meaning_bahasa: "Sebagai tindakan pencegahan."
+  - phrase: "Aha! Found it."
+    meaning_english: "An expression used when you suddenly discover something."
+    meaning_bahasa: "Ekspresi yang digunakan ketika Anda tiba-tiba menemukan sesuatu."
+  - phrase: "ASAP (As Soon As Possible)"
+    meaning_english: "As quickly as possible."
+    meaning_bahasa: "Secepat mungkin."
+  - phrase: "Rolled back"
+    meaning_english: "To revert to a previous version of something."
+    meaning_bahasa: "Mengembalikan ke versi sebelumnya."
+  - phrase: "Roger that"
+    meaning_english: "A phrase used, especially in radio communication, to mean 'I have received and understood your message'."
+    meaning_bahasa: "Frasa yang digunakan, terutama dalam komunikasi radio, yang berarti 'Saya telah menerima dan memahami pesan Anda'."
+  - phrase: "Hotfix"
+    meaning_english: "A small piece of code created to fix a bug or a critical issue in a live system."
+    meaning_bahasa: "Bagian kecil dari kode yang dibuat untuk memperbaiki bug atau masalah kritis dalam sistem yang sedang berjalan."
+
+questions:
+  - q: "What is the problem that the users are reporting?"
+    a: "The image upload feature is failing in the production environment."
+  - q: "What kind of error did Ben find in the logs?"
+    a: "He found a 'permission denied' error when the application tries to save a file to an S3 bucket."
+  - q: "What was the root cause of the 'permission denied' error?"
+    a: "A new policy was attached to their production IAM role, which restricted write access to the S3 bucket."
+  - q: "How does Alex plan to solve the problem immediately?"
+    a: "He will contact the security team to get the policy change rolled back."
+  - q: "What is Ben preparing as a backup plan?"
+    a: "He is preparing a hotfix to modify the code to use a different IAM role, in case the security team cannot roll back the change quickly."
