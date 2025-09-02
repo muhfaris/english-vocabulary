@@ -1,0 +1,17 @@
+story:
+  title: "a-day-of-teamwork"
+  date: "2025-09-02"
+  text: |
+    The day kicked off with a quick meeting with the frontend team to **scope out** the new user profile page. We needed to **finalize** the API endpoints and agree on the data structure. The meeting was productive, and we left with a clear action plan.
+
+    Later, a junior developer messaged me; he was stuck on a tricky bug. I suggested a **pair programming** session, which was a great chance to **mentor** him. Together, we tracked down the root cause: a subtle **logic error** in a conditional statement. He was relieved to get it fixed.
+
+    The rest of my afternoon was focused on my own tasks. I managed to **knock out** a few small tickets from our sprint board. Before logging off, I took some time to **document** the new API changes, making sure everything was clear for the frontend developers. It felt good to end the day having helped my team and made solid progress.
+  highlighted_words:
+    - "scope out"
+    - "finalize"
+    - "pair programming"
+    - "mentor"
+    - "logic error"
+    - "knock out"
+    - "document"

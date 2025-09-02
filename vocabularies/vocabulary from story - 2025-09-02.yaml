@@ -522,3 +522,176 @@
       difference: "'Integrate' and 'incorporate' are very similar. 'Integrate' is often used in a more technical context, especially when combining different systems or software components."
   story: |
     After the user testing session, we had a list of great suggestions. We spent the next sprint planning how to incorporate that feedback. The biggest change was to incorporate a new 'quick access' menu, which made the app much easier to navigate.
+- word: "scope out"
+  pronunciation: "/skoʊp aʊt/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To determine and define the boundaries and requirements of a project or task."
+    bahasa: "Menentukan dan mendefinisikan batasan dan persyaratan sebuah proyek atau tugas."
+  usage: "Used in the planning phase of a project to describe the act of investigating and setting the scope. It's about figuring out what needs to be done and what doesn't."
+  synonyms:
+    - "define"
+    - "outline"
+    - "assess"
+  examples:
+    workplace:
+      - "Before we start coding, we need to scope out the entire feature."
+      - "Let's have a meeting to scope out the work for the next sprint."
+    casual:
+      - "They went to scope out the new restaurant before deciding to have a party there."
+      - "I need to scope out how much work it will be to clean the garage this weekend."
+  related:
+    - word: "scope creep"
+      difference: "'Scope out' is the initial process of defining the project boundaries. 'Scope creep' is what happens later when new, unplanned features are added, expanding the original scope."
+    - word: "define"
+      difference: "'Define' is more formal and general. 'Scope out' is more colloquial and specifically implies investigation and assessment as part of the definition process."
+  story: |
+    The product manager asked the team to build a new notification system. Before writing any code, the lead engineer scheduled a meeting to scope out the project. They discussed what types of notifications were needed, who should receive them, and what the user interface should look like. This helped them create a clear plan and avoid misunderstandings later on.
+- word: "finalize"
+  pronunciation: "/ˈfaɪ.nəl.aɪz/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To complete the last details of a plan, agreement, or document, making it final and unchangeable."
+    bahasa: "Menyelesaikan detail terakhir dari sebuah rencana, perjanjian, atau dokumen, membuatnya final dan tidak dapat diubah."
+  usage: "Used when making a decision or plan official and complete. It implies that discussions and changes are over."
+  synonyms:
+    - "confirm"
+    - "settle"
+    - "complete"
+  examples:
+    workplace:
+      - "We need to finalize the project requirements by the end of the day."
+      - "The team will meet tomorrow to finalize the release date."
+    casual:
+      - "Let's finalize our vacation plans tonight."
+      - "She called the restaurant to finalize the reservation details."
+  related:
+    - word: "confirm"
+      difference: "'Confirm' means to verify that something is true or definite. 'Finalize' means to make something definite by completing the last steps. You might confirm a plan before you finalize it."
+    - word: "decide"
+      difference: "'Decide' is about making a choice. 'Finalize' is about completing the process of implementing that choice."
+  story: |
+    After weeks of discussion and several draft designs, the team met to finalize the new logo. They reviewed the last two options, made one minor color tweak, and got approval from the marketing head. Once the decision was made, the designer could finalize the official brand guidelines and distribute the assets to the rest of the company.
+- word: "pair programming"
+  pronunciation: "/pɛər ˈproʊˌɡræmɪŋ/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "An agile software development technique in which two programmers work together at one workstation."
+    bahasa: "Teknik pengembangan perangkat lunak tangkas di mana dua pemrogram bekerja bersama di satu stasiun kerja."
+  usage: "Used to describe the practice of two developers coding together. One, the 'driver', writes code while the other, the 'navigator', reviews each line and thinks about the overall direction."
+  synonyms:
+    - "collaborative coding"
+    - "team programming"
+  examples:
+    workplace:
+      - "We used pair programming to tackle that complex algorithm."
+      - "Let's do a pair programming session to get you familiar with this part of the codebase."
+    casual:
+      - "My friend and I did some pair programming on our hobby project over the weekend."
+      - "It's like pair programming for cooking when two people follow one recipe together."
+  related:
+    - word: "code review"
+      difference: "'Pair programming' is a real-time, collaborative activity where code is reviewed as it's written. A 'code review' happens asynchronously, after the code has been written and submitted for feedback."
+    - word: "mob programming"
+      difference: "'Mob programming' is an extension of pair programming where a whole team works on the same thing at the same time, sharing one computer."
+  story: |
+    A new developer on the team was assigned a difficult bug. After struggling for a few hours, she asked a senior developer for help. They decided to do a pair programming session. The senior dev acted as the navigator, guiding the thought process, while the new dev drove, writing the code. They not only fixed the bug quickly but the new developer also learned a lot about the system.
+- word: "mentor"
+  pronunciation: "/ˈmen.tɔːr/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To advise and train someone with less experience, especially in a professional context."
+    bahasa: "Menasihati dan melatih seseorang yang kurang berpengalaman, terutama dalam konteks profesional."
+  usage: "Used to describe the act of guiding or teaching a colleague, often a junior one. It implies a relationship built on trust and a desire to help someone grow."
+  synonyms:
+    - "guide"
+    - "coach"
+    - "advise"
+  examples:
+    workplace:
+      - "A senior engineer was assigned to mentor the new hire during her first few months."
+      - "I try to mentor junior developers on my team whenever I can."
+    casual:
+      - "He agreed to mentor a young musician from his hometown."
+      - "She mentors high school students who are interested in science."
+  related:
+    - word: "coach"
+      difference: "A 'coach' typically focuses on improving performance for a specific task or skill. A 'mentor' provides broader, long-term guidance for career and personal development."
+    - word: "train"
+      difference: "'Train' is more formal and structured, focused on teaching specific skills. 'Mentor' is more informal and relationship-based, covering skills, mindset, and career advice."
+  story: |
+    When I first joined the company, I was assigned a mentor, a senior developer named Sarah. She didn't just teach me about the codebase; she helped me navigate the company culture, set career goals, and build my confidence. Having someone to mentor me was invaluable, and now I try to do the same for new members of our team.
+- word: "logic error"
+  pronunciation: "/ˈlɒdʒ.ɪk ˈer.ər/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A bug in a program that causes it to operate incorrectly, but not to terminate or crash. The code runs, but it produces the wrong result."
+    bahasa: "Bug dalam program yang menyebabkannya beroperasi secara tidak benar, tetapi tidak berhenti atau mogok. Kode berjalan, tetapi menghasilkan hasil yang salah."
+  usage: "Used by developers to describe a specific type of bug where the code is syntactically correct but the underlying algorithm or reasoning is flawed."
+  synonyms:
+    - "flaw in logic"
+    - "semantic error"
+  examples:
+    workplace:
+      - "The calculation was wrong because of a subtle logic error in the tax formula."
+      - "I spent hours debugging, only to find a simple logic error in a conditional statement."
+    casual:
+      - "My budget spreadsheet had a logic error; I was adding instead of subtracting an expense."
+      - "Following the recipe in the wrong order was a logic error that ruined the cake."
+  related:
+    - word: "syntax error"
+      difference: "A 'syntax error' is a mistake in the language's grammar (like a typo or a missing semicolon) that prevents the code from running at all. A 'logic error' occurs in code that is syntactically perfect but produces an incorrect outcome."
+    - word: "bug"
+      difference: "'Bug' is a general term for any kind of error in a program. A 'logic error' is a specific category of bug."
+  story: |
+    The feature was supposed to give a discount to users over 65, but it was giving it to users under 65 instead. The code ran without crashing, so it wasn't a syntax error. After much debugging, the developer found the logic error: the code said `if (age < 65)` instead of `if (age > 65)`. It was a simple mistake, but it had a big impact on the output.
+- word: "knock out"
+  pronunciation: "/nɒk aʊt/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To complete a task or a series of tasks, often quickly or with great effort."
+    bahasa: "Menyelesaikan sebuah tugas atau serangkaian tugas, seringkali dengan cepat atau dengan usaha besar."
+  usage: "A colloquial and energetic way to say you've finished something. It implies efficiency and decisiveness."
+  synonyms:
+    - "complete"
+    - "finish"
+    - "get done"
+  examples:
+    workplace:
+      - "I'm going to put on my headphones and try to knock out these last few tickets."
+      - "She managed to knock out the entire report in one afternoon."
+    casual:
+      - "Let's try to knock out our homework before dinner."
+      - "He wanted to knock out all his errands in the morning."
+  related:
+    - word: "complete"
+      difference: "'Complete' is a standard, formal term for finishing something. 'Knock out' is more informal and dynamic, often used for tasks on a to-do list."
+    - word: "finish"
+      difference: "'Finish' is very similar to 'complete'. 'Knock out' adds a sense of speed or force to the act of finishing."
+  story: |
+    It was the last day of the sprint, and the team had three small but important bugs left to fix. They decided to swarm on them. In a focused three-hour session, they managed to knock out all three tasks, getting the code tested and merged just before the deadline.
+- word: "document"
+  pronunciation: "/ˈdɒk.jə.ment/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To record something in written, photographic, or other form."
+    bahasa: "Mencatat sesuatu dalam bentuk tulisan, foto, atau bentuk lainnya."
+  usage: "In a software context, it means to write explanations about how code works, how to use an API, or what decisions were made. It's crucial for maintainability and onboarding."
+  synonyms:
+    - "record"
+    - "write down"
+    - "log"
+  examples:
+    workplace:
+      - "You should always document your code so others can understand it."
+      - "We need to document the new process for the rest of the team."
+    casual:
+      - "He likes to document his travels with a blog and photos."
+      - "It's important to document your expenses for tax purposes."
+  related:
+    - word: "comment (in code)"
+      difference: "A 'comment' is a note written directly inside the source code to explain a specific line or block. To 'document' is a broader activity that can include writing separate, formal documentation files, API references, or architectural decision records."
+    - word: "record"
+      difference: "'Record' is a more general term. 'Document' often implies creating a more structured and formal record for others to read and use."
+  story: |
+    A developer built a complex new feature. The code worked perfectly, but nobody else on the team knew how to use it or maintain it. The tech lead asked him to document his work. He spent the next day writing a clear guide that explained the architecture, the API endpoints, and the reasons behind his key decisions. This made it much easier for the rest of the team to work with the new feature.
