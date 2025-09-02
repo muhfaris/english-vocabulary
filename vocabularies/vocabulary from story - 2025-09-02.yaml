@@ -247,3 +247,278 @@
       difference: "'Culture' refers to the shared mindset, values, and behaviors of a group or organization. 'Mindset' is often used to describe an individual's way of thinking, but can also apply to a team."
   story: |
     The team was struggling with bugs and slow progress. The new manager introduced a 'quality-first' mindset. Instead of rushing to finish features, they started focusing on writing better tests and doing more thorough code reviews. It slowed them down at first, but soon their velocity increased because they spent less time fixing their own mistakes.
+
+- word: "task"
+  pronunciation: "/tæsk/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A specific piece of work to be done or undertaken."
+    bahasa: "Tugas; pekerjaan tertentu yang harus dilakukan."
+  usage: "Use 'task' to refer to a single, defined unit of work, often assigned to someone. It's more specific than 'work' and is a fundamental concept in project management."
+  synonyms:
+    - "assignment"
+    - "job"
+    - "duty"
+  examples:
+    workplace:
+      - "My first task for today is to review the pull request from my colleague."
+      - "The project manager broke down the feature into smaller tasks for the team."
+    casual:
+      - "I have a few tasks to finish at home, like doing the laundry and cleaning the kitchen."
+      - "Her main task was to make sure all the guests were comfortable."
+  related:
+    - word: "assignment"
+      difference: "'Assignment' is often used in an educational or formal context, while 'task' is more common in a workplace or general context."
+    - word: "project"
+      difference: "A 'project' is a large-scale endeavor that is composed of many smaller 'tasks'."
+  story: |
+    During our sprint planning, my team lead assigned a new task to me: improve the performance of the user dashboard. It was a challenging but exciting piece of work. I broke it down into sub-tasks, like optimizing the database queries and adding a caching layer.
+- word: "commitment"
+  pronunciation: "/kəˈmɪtmənt/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A promise or firm decision to do something; a state of being dedicated to a cause or activity."
+    bahasa: "Komitmen; janji atau keputusan teguh untuk melakukan sesuatu."
+  usage: "In a professional context, 'commitment' refers to the dedication or promise to complete a task or achieve a goal. It implies a sense of responsibility."
+  synonyms:
+    - "promise"
+    - "dedication"
+    - "pledge"
+  examples:
+    workplace:
+      - "Our team made a commitment to deliver the new feature by the end of the quarter."
+      - "His commitment to writing clean code is impressive."
+    casual:
+      - "They have a strong commitment to their relationship."
+      - "Joining a gym is a big financial commitment."
+  related:
+    - word: "promise"
+      difference: "A 'promise' is a verbal or written assurance, while a 'commitment' is the dedication and action that follows the promise."
+    - word: "obligation"
+      difference: "'Obligation' suggests a duty that is required, sometimes without personal choice, whereas 'commitment' often implies a personal and willing dedication."
+  story: |
+    At the beginning of the sprint, the team discussed the scope of work. We each made a commitment to complete our assigned user stories. This shared commitment helped us stay focused and motivated, even when we faced unexpected challenges. It created a strong sense of accountability.
+- word: "hurdle"
+  pronunciation: "/ˈhɜːrdl/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A problem or difficulty that must be overcome."
+    bahasa: "Rintangan; masalah atau kesulitan yang harus diatasi."
+  usage: "Use 'hurdle' to describe an obstacle or challenge that stands in the way of progress. It's often used to imply that the obstacle is significant but surmountable."
+  synonyms:
+    - "obstacle"
+    - "barrier"
+    - "challenge"
+  examples:
+    workplace:
+      - "The biggest hurdle for our project was the lack of clear requirements."
+      - "We need to overcome a few technical hurdles before we can launch."
+    casual:
+      - "Finding a good apartment in this city can be a real hurdle."
+      - "She passed her final exams, which was the last hurdle before graduation."
+  related:
+    - word: "blocker"
+      difference: "A 'blocker' completely stops progress on a task. A 'hurdle' is an obstacle that makes progress difficult but not necessarily impossible. You can often work on other things while figuring out a hurdle."
+    - word: "obstacle"
+      difference: "'Obstacle' and 'hurdle' are very similar. 'Hurdle' often has a slightly more athletic and surmountable connotation, as in jumping over a hurdle in a race."
+  story: |
+    Integrating the third-party payment gateway was the final hurdle for our e-commerce site. The documentation was outdated, and their support team was slow to respond. After two days of intense debugging and collaboration, we finally figured it out and and cleared the hurdle, allowing us to proceed with the launch.
+- word: "lesson"
+  pronunciation: "/ˈlesn/"
+  part_of_speech: "noun"
+  meaning:
+    english: "An experience, event, or fact that provides new knowledge or a deeper understanding of something."
+    bahasa: "Pelajaran; pengalaman, kejadian, atau fakta yang memberikan pengetahuan baru atau pemahaman yang lebih dalam."
+  usage: "Use 'lesson' to refer to the knowledge gained from an experience, especially from a mistake or a challenge. A 'lesson learned' is a common phrase in project retrospectives."
+  synonyms:
+    - "insight"
+    - "moral"
+    - "takeaway"
+  examples:
+    workplace:
+      - "The server outage was a tough lesson in the importance of having a reliable backup system."
+      - "In our retrospective, we discussed the key lessons learned from the last sprint."
+    casual:
+      - "Losing my wallet taught me a valuable lesson about being more careful."
+      - "One of life's important lessons is to never take anything for granted."
+  related:
+    - word: "moral"
+      difference: "A 'moral' is typically a lesson about right and wrong, often found at the end of a story or fable. A 'lesson' can be about any topic, not just ethics."
+    - word: "takeaway"
+      difference: "'Takeaway' is a more informal, business-oriented term for the key points or lessons to be remembered from a meeting, presentation, or experience."
+  story: |
+    Our initial project timeline was far too optimistic. We missed our first major deadline, which was a hard lesson for the entire team. We learned the importance of accounting for unexpected issues and technical debt. In our next planning session, we applied this lesson and created a much more realistic schedule.
+- word: "demo"
+  pronunciation: "/ˈdɛm.oʊ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A demonstration of a product or feature to show how it works."
+    bahasa: "Demonstrasi produk atau fitur untuk menunjukkan cara kerjanya."
+  usage: "Used when you are presenting a working piece of software to an audience, like stakeholders, your team, or clients."
+  synonyms:
+    - "demonstration"
+    - "presentation"
+  examples:
+    workplace:
+      - "We need to prepare for the client demo next week."
+      - "The sprint demo is scheduled for Friday afternoon."
+    casual:
+      - "He gave me a quick demo of his new smart home setup."
+      - "The video game convention had a lot of cool demos to try."
+  related:
+    - word: "prototype"
+      difference: "A 'prototype' is an early model of a product used for testing concepts. A 'demo' is a presentation of a working product, which might be built from a prototype or be the final version."
+    - word: "presentation"
+      difference: "'Presentation' is a general term for showing and explaining something. A 'demo' is a specific type of presentation that focuses on showing a product in action."
+  story: |
+    Every two weeks, our team holds a sprint demo to showcase what we've built. It's a great opportunity to get feedback from the product owner and other teams. Last week, I had to demo the new search functionality. I was a bit nervous, but it went perfectly.
+
+- word: "dry-run"
+  pronunciation: "/draɪ rʌn/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A rehearsal of a performance or procedure before the real one."
+    bahasa: "Latihan dari sebuah pertunjukan atau prosedur sebelum yang sebenarnya."
+  usage: "Used when you practice an event or presentation beforehand to find and fix any problems. It’s like a practice run."
+  synonyms:
+    - "rehearsal"
+    - "practice run"
+  examples:
+    workplace:
+      - "Let's do a quick dry-run of the presentation before the stakeholders arrive."
+      - "The dry-run of the deployment process revealed a few issues we need to fix."
+    casual:
+      - "They did a dry-run of the wedding ceremony the day before."
+      - "We should do a dry-run of our camping setup in the backyard."
+  related:
+    - word: "rehearsal"
+      difference: "'Rehearsal' is often associated with arts (like theater or music). 'Dry-run' is more commonly used in business, technical, and operational contexts."
+    - word: "walkthrough"
+      difference: "A 'walkthrough' is about explaining something step-by-step. A 'dry-run' is about *performing* the actual process or presentation to practice it."
+  story: |
+    Before our big product launch, we scheduled a full dry-run of the go-live procedure. The entire engineering team was involved. We simulated every step, from running database migrations to updating the servers. This dry-run helped us identify a critical flaw in our plan, which we were able to fix just in time.
+
+- word: "feedback"
+  pronunciation: "/ˈfiːd.bæk/"
+  part_of_speech: "noun"
+  meaning:
+    english: "Information or criticism about a person's performance of a task, used as a basis for improvement."
+    bahasa: "Informasi atau kritik tentang kinerja seseorang dalam suatu tugas, digunakan sebagai dasar untuk perbaikan."
+  usage: "Used to talk about comments, suggestions, or criticism you receive from others about your work. It can be positive or negative, but it's always intended to be helpful."
+  synonyms:
+    - "input"
+    - "critique"
+  examples:
+    workplace:
+      - "I received some really helpful feedback on my code during the review."
+      - "Could you please provide some feedback on this design mockup?"
+    casual:
+      - "The chef asked for feedback on the new dish."
+      - "I'm looking for feedback on my essay before I submit it."
+  related:
+    - word: "criticism"
+      difference: "'Criticism' can often have a negative connotation, focusing on what's wrong. 'Feedback' is a more neutral and constructive term that includes suggestions for improvement."
+    - word: "suggestion"
+      difference: "A 'suggestion' is a specific idea for what to do. 'Feedback' is a broader term that can include suggestions, observations, and general comments."
+  story: |
+    After I submitted my pull request, my tech lead left some detailed feedback. He pointed out an edge case I hadn't considered and suggested a more efficient way to write a query. I really appreciated the constructive feedback, as it helped me learn and improve the quality of the code.
+
+- word: "polish"
+  pronunciation: "/ˈpɒl.ɪʃ/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To improve something, making it more refined and professional."
+    bahasa: "Memperbaiki sesuatu, membuatnya lebih halus dan profesional."
+  usage: "Used when you are making the final improvements to a piece of work to make it look and feel finished. It's about refining the small details."
+  synonyms:
+    - "refine"
+    - "improve"
+  examples:
+    workplace:
+      - "I just need a few more hours to polish the user interface before the demo."
+      - "She's great at taking a rough draft and polishing it into a final report."
+    casual:
+      - "He needs to polish his resume before applying for jobs."
+      - "Let's polish up our presentation slides."
+  related:
+    - word: "refine"
+      difference: "'Refine' and 'polish' are very similar. 'Polish' often implies focusing on the surface-level appearance and smoothness, while 'refine' can also include improving the underlying structure."
+    - word: "finish"
+      difference: "'Finish' means to complete something. 'Polish' is a step you might take *before* you consider something truly finished, focusing on the quality and details."
+  story: |
+    The core functionality of the new feature was working, but it didn't feel quite ready for users. The team decided to spend a few days to polish the experience. We added better animations, improved the error messages, and tweaked the colors. It was a small effort that made a huge difference in the final product.
+
+- word: "clarify"
+  pronunciation: "/ˈklær.ə.faɪ/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To make a statement or situation less confusing and more easily understandable."
+    bahasa: "Membuat pernyataan atau situasi menjadi tidak membingungkan dan lebih mudah dipahami."
+  usage: "Used when you need to explain something more clearly or ask for more details to remove ambiguity."
+  synonyms:
+    - "explain"
+    - "make clear"
+  examples:
+    workplace:
+      - "Could you please clarify the requirements for this task?"
+      - "I'd like to clarify my previous point to avoid any misunderstanding."
+    casual:
+      - "Let me clarify what I meant."
+      - "I need to call the hotel to clarify our booking details."
+  related:
+    - word: "explain"
+      difference: "'Explain' is about giving details about something. 'Clarify' is specifically about making something that was previously *unclear* become *clear*."
+    - word: "confirm"
+      difference: "'Confirm' is about verifying that something is true or correct. 'Clarify' is about making the meaning of something understood."
+  story: |
+    During the planning meeting, the product manager created a new ticket, but the acceptance criteria were a bit vague. I asked him, 'Could you clarify what you mean by 'a seamless user experience'?' He then provided specific examples, which helped the team understand exactly what needed to be built.
+
+- word: "stakeholders"
+  pronunciation: "/ˈsteɪkˌhoʊl.dərz/"
+  part_of_speech: "noun"
+  meaning:
+    english: "People or groups who have an interest in a project or business because they are involved in it or affected by it."
+    bahasa: "Orang atau kelompok yang memiliki kepentingan dalam suatu proyek atau bisnis karena mereka terlibat di dalamnya atau terpengaruh olehnya."
+  usage: "Used to refer to anyone who has a 'stake' in the outcome of your work. This can include clients, managers, executives, users, or even other teams."
+  synonyms:
+    - "interested parties"
+    - "key people"
+  examples:
+    workplace:
+      - "We need to get approval from the key stakeholders before we proceed."
+      - "The project manager is responsible for communicating with all stakeholders."
+    casual:
+      - "The stakeholders in the community center project include local residents and businesses."
+      - "Parents are important stakeholders in their children's education."
+  related:
+    - word: "shareholder"
+      difference: "A 'shareholder' owns shares (stock) in a company and is a type of stakeholder. 'Stakeholder' is a much broader term that includes anyone affected by the business, not just owners."
+    - word: "client"
+      difference: "A 'client' is a customer who pays for a product or service. A client is a stakeholder, but stakeholders also include internal people like your boss or other teams."
+  story: |
+    For our latest project, we held a kickoff meeting with all the major stakeholders. This included representatives from marketing, sales, and customer support. It was crucial to get everyone's input early to ensure we were all aligned on the project goals and to avoid any surprises later on.
+
+- word: "incorporate"
+  pronunciation: "/ɪnˈkɔːr.pər.eɪt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To include something as part of a whole."
+    bahasa: "Memasukkan sesuatu sebagai bagian dari keseluruhan."
+  usage: "Used when you are taking an idea, feedback, or a component and adding it into your existing work."
+  synonyms:
+    - "include"
+    - "integrate"
+  examples:
+    workplace:
+      - "We will incorporate your feedback into the next version of the design."
+      - "The plan is to incorporate the new library into our main application."
+    casual:
+      - "She likes to incorporate fresh herbs from her garden into her cooking."
+      - "The architect decided to incorporate a lot of natural light into the building's design."
+  related:
+    - word: "add"
+      difference: "'Add' is a simple term for putting one thing with another. 'Incorporate' implies a deeper level of integration, where the new part becomes a seamless component of the whole."
+    - word: "integrate"
+      difference: "'Integrate' and 'incorporate' are very similar. 'Integrate' is often used in a more technical context, especially when combining different systems or software components."
+  story: |
+    After the user testing session, we had a list of great suggestions. We spent the next sprint planning how to incorporate that feedback. The biggest change was to incorporate a new 'quick access' menu, which made the app much easier to navigate.
