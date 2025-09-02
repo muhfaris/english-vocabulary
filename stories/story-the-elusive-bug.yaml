@@ -1,0 +1,16 @@
+story:
+  title: "the-elusive-bug"
+  date: "2025-09-02"
+  text: |
+    It was one of those quiet Tuesday afternoons. I was feeling pretty good about my **progress** on the new feature, and my pull request was already up for review. Suddenly, a high-priority ticket landed in my queue. A customer was reporting an **elusive** bug that only happened on their specific account, and we couldn't reproduce it in our testing environments. This was going to be a tricky one.
+
+    My manager and I had a quick **huddle** to discuss the best way to **tackle** the issue. We decided the first step was to try and get more information. I spent the next hour adding more detailed logging around the affected code path. The plan was to deploy this to production and hope the extra logs would give us a clue.
+
+    It felt like a small step, but with a bug this mysterious, any new piece of information was a win. The customer was getting impatient, so the **pressure** was on. I just hoped the new logs would **surface** some useful information so we could finally get to the bottom of it.
+  highlighted_words:
+    - "progress"
+    - "elusive"
+    - "huddle"
+    - "tackle"
+    - "pressure"
+    - "surface"
