@@ -1,0 +1,56 @@
+dialogue:
+  - speaker: Alex
+    english: "Hey, Sarah! Welcome to the team. I'm Alex, and I'll be helping you get set up today."
+    bahasa: "Hai, Sarah! Selamat datang di tim. Aku Alex, dan aku akan membantumu bersiap-siap hari ini."
+  - speaker: Sarah
+    english: "Hi, Alex! Thanks, it's great to be here. I'm excited to get started."
+    bahasa: "Hai, Alex! Terima kasih, senang bisa berada di sini. Aku tidak sabar untuk memulai."
+  - speaker: Alex
+    english: "Awesome. First things first, let's get your development environment configured. Have you received your new laptop yet?"
+    bahasa: "Keren. Pertama-tama, mari kita konfigurasikan lingkungan pengembanganmu. Apakah kamu sudah menerima laptop barumu?"
+  - speaker: Sarah
+    english: "Yes, I have it right here. I've already gone through the initial OS setup."
+    bahasa: "Ya, sudah ada di sini. Aku sudah menyelesaikan pengaturan awal OS."
+  - speaker: Alex
+    english: "Perfect. I've just sent you an invite to our team's repository. You'll need to clone it to get the project source code."
+    bahasa: "Sempurna. Aku baru saja mengirimimu undangan ke repositori tim kita. Kamu perlu meng-clone-nya untuk mendapatkan kode sumber proyek."
+  - speaker: Sarah
+    english: "Got it. While that's downloading, could you give me a high-level overview of the project's architecture?"
+    bahasa: "Oke. Sambil menunggu unduhan selesai, bisakah kamu memberiku gambaran umum tentang arsitektur proyek ini?"
+  - speaker: Alex
+    english: "Of course. It's a microservices-based architecture. The backend is primarily in Go, and the frontend is a React single-page application."
+    bahasa: "Tentu saja. Ini adalah arsitektur berbasis layanan mikro. Backend utamanya menggunakan Go, dan frontend-nya adalah aplikasi halaman tunggal React."
+  - speaker: Sarah
+    english: "That sounds great. I have a lot of experience with React. Is there any documentation I can read to get up to speed?"
+    bahasa: "Kedengarannya bagus. Aku punya banyak pengalaman dengan React. Apakah ada dokumentasi yang bisa aku baca agar bisa cepat paham?"
+  - speaker: Alex
+    english: "Definitely. We have a Confluence space with all our technical docs. I'll send you the link. Your first task will be to set up the project locally and get it running."
+    bahasa: "Tentu. Kami punya ruang Confluence dengan semua dokumen teknis kami. Aku akan mengirimimu tautannya. Tugas pertamamu adalah menyiapkan proyek secara lokal dan menjalankannya."
+  - speaker: Sarah
+    english: "Okay, sounds like a plan. Thanks for your help, Alex!"
+    bahasa: "Oke, kedengarannya bagus. Terima kasih atas bantuanmu, Alex!"
+
+expressions:
+  - phrase: "Get set up"
+    meaning_english: "To prepare everything you need to start working."
+    meaning_bahasa: "Menyiapkan semua yang dibutuhkan untuk mulai bekerja."
+  - phrase: "First things first"
+    meaning_english: "Used to say what you will do or consider before anything else."
+    meaning_bahasa: "Digunakan untuk mengatakan apa yang akan Anda lakukan atau pertimbangkan sebelum hal lain."
+  - phrase: "Clone the repository"
+    meaning_english: "To make a local copy of a remote code repository."
+    meaning_bahasa: "Membuat salinan lokal dari repositori kode jarak jauh."
+  - phrase: "High-level overview"
+    meaning_english: "A general description of a system or a project, without details."
+    meaning_bahasa: "Deskripsi umum tentang suatu sistem atau proyek, tanpa detail."
+  - phrase: "Get up to speed"
+    meaning_english: "To learn the necessary information to become fully productive."
+    meaning_bahasa: "Mempelajari informasi yang diperlukan untuk menjadi produktif sepenuhnya."
+
+questions:
+  - q: "What is the first thing Alex helps Sarah with?"
+    a: "He helps her configure her development environment."
+  - q: "What kind of architecture does the project use?"
+    a: "It uses a microservices-based architecture."
+  - q: "What will Sarah's first task be?"
+    a: "To set up the project locally and get it running."
