@@ -466,7 +466,7 @@
   pronunciation: "/kəˈnɛəri rɪˈliːs/"
   part_of_speech: "phrase"
   meaning:
-    english: "A deployment strategy where a new version of an application is gradually rolled out to a small subset of users before making it available to everyone. This helps to detect any potential problems with the new version in a controlled way."
+    english: "A deployment strategy where a new version of an an application is gradually rolled out to a small subset of users before making it available to everyone. This helps to detect any potential problems with the new version in a controlled way."
     bahasa: "Rilis kenari. Strategi penerapan di mana versi baru aplikasi diluncurkan secara bertahap ke sebagian kecil pengguna sebelum tersedia untuk semua orang. Ini membantu mendeteksi potensi masalah dengan versi baru secara terkendali."
   usage: "Use it when talking about a cautious, phased deployment approach to minimize risk."
   synonyms:
@@ -657,7 +657,7 @@
       - "What started as a simple recipe ended in a lot of yak shaving."
   related:
     - word: "Rabbit Hole"
-      difference: "Going down a 'rabbit hole' usually implies getting lost in research or a complex topic. 'Yak shaving' specifically refers to getting sidetracked by a series of *tasks* that you must complete before you can get back to your original goal."
+      difference: "Going down a 'rabbit hole' usually implies getting lost in a complex topic. 'Yak shaving' specifically refers to getting sidetracked by a series of *tasks* that you must complete before you can get back to your original goal."
   story: |
     All I wanted to do was fix a typo in the documentation. But to do that, I had to update the static site generator. To update that, I needed to install a new version of Node.js. To install that, I had to update my system package manager. It was a perfect example of yak shaving. What should have been a two-minute task took two hours.
 - word: "In-house"
@@ -1317,3 +1317,101 @@
       difference: "Safe methods (like GET or HEAD) do not change the state on the server. Idempotent methods (like PUT or DELETE) might change the state, but only the first time they are called. POST is neither safe nor idempotent."
   story: |
     A customer complained they were charged twice for the same order. The team investigated and found that their payment API was not idempotent. The customer's browser had timed out and automatically retried the request, causing a second charge. The team fixed this by adding a unique request ID, so if the server saw the same ID twice, it would return the result of the first request without processing it again.
+- word: "demonstrate"
+  pronunciation: "/ˈdɛmənˌstreɪt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To show something clearly by giving proof or evidence. In a tech context, it often means to present a working piece of software."
+    bahasa: "Mendemonstrasikan"
+  usage: "When you are showing how a feature works, often in a meeting (a 'demo')."
+  synonyms:
+    - "show"
+    - "present"
+    - "display"
+  examples:
+    workplace:
+      - "In the sprint review, the team will demonstrate the new feature to the stakeholders."
+      - "Can you demonstrate how you reproduced the bug?"
+    casual:
+      - "The chef will demonstrate how to cook the dish."
+      - "He demonstrated great courage."
+  related:
+    - word: "Demo"
+      difference: "'Demo' is the noun (the event), 'demonstrate' is the verb (the action)."
+    - word: "Present"
+      difference: "'Present' is more about showing slides or information, while 'demonstrate' is more about showing a live, working system."
+  story: |
+    At the end of the sprint, it was time for the sprint review. The team had worked hard on a new login flow. Sarah, the lead developer, shared her screen and started to demonstrate the feature. She showed how a user could sign up, log in, and reset their password. By demonstrating the working software, she gave the product owner and stakeholders confidence that the team had successfully met the sprint goal.
+- word: "momentum"
+  pronunciation: "/moʊˈmɛntəm/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The force or speed of movement; impetus. In a project context, a feeling of progress and forward movement."
+    bahasa: "Momentum"
+  usage: "When a team is working well and making consistent, visible progress."
+  synonyms:
+    - "impetus"
+    - "drive"
+    - "forward motion"
+  examples:
+    workplace:
+      - "After a few successful sprints, the team has built up a lot of momentum."
+      - "Let's tackle these small tasks first to build some momentum."
+    casual:
+      - "The campaign is gaining momentum."
+      - "The ball gained momentum as it rolled down the hill."
+  related:
+    - word: "Velocity"
+      difference: "'Velocity' is a specific Agile metric measuring the rate of work completed. 'Momentum' is a more subjective feeling of progress and enthusiasm."
+    - word: "Progress"
+      difference: "'Progress' is the act of moving forward. 'Momentum' is the force *behind* that progress, which suggests it will continue."
+  story: |
+    The project had a slow start, with many debates about architecture. But once the foundational decisions were made, the team started closing tasks one after another. They delivered a key feature ahead of schedule. This success created a sense of momentum. Everyone was energized and motivated, and the positive energy carried them through the next, even more challenging, phase of the project.
+- word: "end-to-end"
+  pronunciation: "/ˌɛnd tə ˈɛnd/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Describing a process that takes a system or service from its beginning to its end, and delivers a complete functional solution, usually without needing to obtain anything from a third party."
+    bahasa: "Dari awal hingga akhir."
+  usage: "To describe a complete process or test that covers a user flow from start to finish."
+  synonyms:
+    - "comprehensive"
+    - "complete"
+  examples:
+    workplace:
+      - "We are responsible for the end-to-end delivery of this feature."
+      - "The team performed end-to-end testing before the release."
+    casual:
+      - "He provided an end-to-end explanation of the problem."
+      - "The service offers an end-to-end solution for home renovation."
+  related:
+    - word: "Integration Test"
+      difference: "An integration test checks if different modules work together. An end-to-end test is broader, testing the entire system from the user's perspective."
+    - word: "Turnkey"
+      difference: "'Turnkey' implies a solution that is ready to use immediately. 'End-to-end' describes the scope of a process or service."
+  story: |
+    The project manager wanted to ensure the new feature worked perfectly. She didn't just want unit tests; she wanted an end-to-end test. The QA engineer wrote a script that simulated a real user's journey: from logging in, to searching for a product, adding it to the cart, and successfully checking out. This end-to-end test gave the team confidence that the entire workflow was solid.
+- word: "ran into"
+  pronunciation: "/ræn ˈɪntuː/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To encounter something unexpectedly, especially a problem or difficulty."
+    bahasa: "Menemui (secara tidak sengaja)."
+  usage: "A common, informal way to say you encountered an issue."
+  synonyms:
+    - "encountered"
+    - "came across"
+  examples:
+    workplace:
+      - "I ran into a problem with the new library version."
+      - "Let me know if you ran into any issues during testing."
+    casual:
+      - "I ran into an old friend at the store."
+      - "We ran into some traffic on the way here."
+  related:
+    - word: "Discovered"
+      difference: "'Discovered' implies finding something through investigation. 'Ran into' implies encountering it by chance or accident while doing something else."
+    - word: "Faced"
+      difference: "'Faced' suggests you are now actively dealing with a known problem. 'Ran into' is about the moment of first encountering it."
+  story: |
+    I thought the task would be simple. I just needed to update a configuration file. But when I tried to deploy the change, the build failed. I ran into a dependency conflict that I hadn't anticipated. It took me two hours to figure out the correct versions for all the packages, turning a simple task into a complicated one.
