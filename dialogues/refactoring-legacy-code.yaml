@@ -1,0 +1,72 @@
+dialogue:
+  - speaker: Alex
+    english: "Hey Ben, got a minute? I'm in a bit of a pickle with this legacy module."
+    bahasa: "Hai Ben, punya waktu sebentar? Aku sedikit pusing dengan modul lawas ini."
+  - speaker: Ben
+    english: "Sure, what's up? Legacy code, huh? I know that feeling."
+    bahasa: "Tentu, ada apa? Kode lawas, ya? Aku tahu perasaan itu."
+  - speaker: Alex
+    english: "It's pure spaghetti code. No documentation, no tests. I'm afraid to even touch it."
+    bahasa: "Ini benar-benar kode spaghetti. Tidak ada dokumentasi, tidak ada tes. Aku bahkan takut untuk menyentuhnya."
+  - speaker: Ben
+    english: "I've been there. The first thing I'd do is write some characterization tests."
+    bahasa: "Aku pernah mengalaminya. Hal pertama yang akan aku lakukan adalah menulis beberapa tes karakterisasi."
+  - speaker: Alex
+    english: "Characterization tests? You mean, tests that just confirm the current behavior, bugs and all?"
+    bahasa: "Tes karakterisasi? Maksudmu, tes yang hanya mengkonfirmasi perilaku saat ini, termasuk bug-nya?"
+  - speaker: Ben
+    english: "Exactly. That way, you create a safety net. You'll know immediately if your changes break something."
+    bahasa: "Tepat sekali. Dengan begitu, kamu membuat jaring pengaman. Kamu akan langsung tahu jika perubahanmu merusak sesuatu."
+  - speaker: Alex
+    english: "That makes a lot of sense. My main worry is introducing a regression."
+    bahasa: "Itu sangat masuk akal. Kekhawatiran utamaku adalah menimbulkan regresi."
+  - speaker: Ben
+    english: "You could also wrap the new logic in a feature flag. Roll it out to a small group of users first."
+    bahasa: "Kamu juga bisa membungkus logika baru dengan feature flag. Rilis dulu ke sekelompok kecil pengguna."
+  - speaker: Alex
+    english: "That's a great idea! It gives us a rollback plan if things go south."
+    bahasa: "Ide yang bagus! Itu memberi kita rencana pemulihan jika terjadi masalah."
+  - speaker: Ben
+    english: "Take it one step at a time. Small, incremental refactors are much safer."
+    bahasa: "Lakukan selangkah demi selangkah. Refactor kecil dan bertahap jauh lebih aman."
+  - speaker: Alex
+    english: "Thanks, Ben. This gives me a much clearer path forward. Time to get my hands dirty."
+    bahasa: "Terima kasih, Ben. Ini memberiku jalan ke depan yang jauh lebih jelas. Waktunya untuk mulai bekerja."
+  - speaker: Ben
+    english: "No problem. Ping me if you get stuck. Good luck!"
+    bahasa: "Tidak masalah. Hubungi aku jika kamu buntu. Semoga berhasil!"
+
+expressions:
+  - phrase: "In a bit of a pickle"
+    meaning_english: "To be in a difficult or troublesome situation."
+    meaning_bahasa: "Berada dalam situasi yang sulit atau menyusahkan."
+  - phrase: "Spaghetti code"
+    meaning_english: "Code that is unstructured, tangled, and difficult to understand or maintain."
+    meaning_bahasa: "Kode yang tidak terstruktur, kusut, dan sulit dipahami atau dipelihara."
+  - phrase: "Safety net"
+    meaning_english: "A safeguard or protection against failure or bad outcomes."
+    meaning_bahasa: "Jaring pengaman atau perlindungan terhadap kegagalan atau hasil yang buruk."
+  - phrase: "Introduce a regression"
+    meaning_english: "To reintroduce a bug that had been previously fixed."
+    meaning_bahasa: "Memperkenalkan kembali bug yang sebelumnya sudah diperbaiki."
+  - phrase: "Go south"
+    meaning_english: "To fail, decline, or go wrong."
+    meaning_bahasa: "Gagal, menurun, atau menjadi salah."
+  - phrase: "Get my hands dirty"
+    meaning_english: "To start doing the practical, and often difficult, work."
+    meaning_bahasa: "Mulai melakukan pekerjaan praktis, dan seringkali sulit."
+  - phrase: "Ping me"
+    meaning_english: "Contact me or send me a message."
+    meaning_bahasa: "Hubungi saya atau kirimi saya pesan."
+
+questions:
+  - q: "What problem is Alex facing at the beginning of the dialogue?"
+    a: "He is struggling with a legacy module that is spaghetti code and has no tests."
+  - q: "What is the first step Ben suggests Alex should take?"
+    a: "Ben suggests writing characterization tests to create a safety net."
+  - q: "What is a characterization test according to Ben?"
+    a: "It's a test that confirms the current behavior of the code, including any existing bugs."
+  - q: "How does Ben suggest managing the risk of releasing the changes?"
+    a: "He suggests using a feature flag to roll out the new logic to a small group of users first."
+  - q: "What is the overall approach Ben recommends for refactoring?"
+    a: "He recommends taking small, incremental steps for a safer refactoring process."
