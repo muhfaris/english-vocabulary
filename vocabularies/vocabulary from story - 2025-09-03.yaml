@@ -96,7 +96,7 @@
     - word: "bug"
       difference: "A 'bug' is a flaw in the code. An 'incident' is the real-world consequence of that bug, especially when it impacts users. A single bug can cause multiple incidents."
     - word: "problem"
-      difference: "'Problem' is a general term. 'Incident' is a more formal, operational term with a defined process for handling it (e.g., incident management)."
+      difference: "'Problem' is a a general term. 'Incident' is a more formal, operational term with a defined process for handling it (e.g., incident management)."
   story: |
     Last week, the company experienced a major incident. The main database went down for an hour, making the entire application unavailable for all users. The engineering team quickly assembled an incident response team to diagnose and fix the issue, while the support team communicated with customers.
 
@@ -200,3 +200,126 @@
       difference: "To 'log' is to record events as they happen. To 'monitor' is to watch those logs or other metrics to check the system's status."
   story: |
     After every new release, the on-call engineer's main responsibility is to monitor the system's health. They watch a dashboard with dozens of graphs showing CPU usage, memory, response times, and error rates. If any of these metrics go outside the normal range, they have to investigate immediately.
+- word: "meeting"
+  pronunciation: "/ˈmiː.tɪŋ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "An occasion when two or more people come together to discuss something."
+    bahasa: "Sebuah acara ketika dua orang atau lebih berkumpul untuk mendiskusikan sesuatu."
+  usage: "Used to describe a formal or informal gathering of people in a workplace to make decisions, share information, or solve problems. It's a fundamental activity in any collaborative environment."
+  synonyms:
+    - "appointment"
+    - "conference"
+    - "huddle"
+  examples:
+    workplace:
+      - "I have a team meeting at 10 AM to discuss our weekly progress."
+      - "Can we schedule a brief meeting to go over the project requirements?"
+    casual:
+      - "The parent-teacher meeting is scheduled for next Tuesday."
+      - "Let's have a quick meeting to decide on our holiday plans."
+  related:
+    - word: "Huddle"
+      difference: "A 'huddle' is typically a short, informal, and often spontaneous meeting to address a specific, immediate issue. A 'meeting' is usually more structured, scheduled, and may cover a broader range of topics."
+    - word: "Stand-up"
+      difference: "A 'stand-up' is a specific type of daily meeting, usually short and with a fixed format (e.g., each person states what they did, what they will do, and any blockers). A 'meeting' is a more general term."
+  story: |
+    The team scheduled a meeting to plan the upcoming sprint. They booked a conference room, and the project manager prepared an agenda. During the meeting, they discussed the user stories, estimated the effort for each task, and agreed on the sprint goal. This ensured everyone was aligned before the work began.
+- word: "agenda"
+  pronunciation: "/əˈdʒen.də/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A list of matters to be discussed at a meeting."
+    bahasa: "Daftar hal-hal yang akan dibahas dalam sebuah pertemuan."
+  usage: "Used to refer to the plan or list of topics for a meeting. A clear agenda helps keep meetings focused and productive."
+  synonyms:
+    - "schedule"
+    - "program"
+    - "list of topics"
+  examples:
+    workplace:
+      - "Did you receive the agenda for this afternoon's meeting?"
+      - "Let's stick to the agenda to ensure we finish on time."
+    casual:
+      - "What's on the agenda for our trip this weekend?"
+      - "My personal agenda for today is to clean the house and then relax."
+  related:
+    - word: "Minutes"
+      difference: "An 'agenda' is the plan for a meeting, created *before* it happens. 'Minutes' are the notes or official record of what was discussed and decided, created *after* it happens."
+    - word: "To-do list"
+      difference: "A 'to-do list' is a list of tasks for an individual to complete. An 'agenda' is a list of topics for a group to discuss in a meeting."
+  story: |
+    The weekly sync meeting used to be chaotic and unproductive. That changed when the team lead started sending out an agenda the day before. Knowing the topics in advance allowed everyone to come prepared. The meetings became shorter, more focused, and resulted in clear action items.
+- word: "brainstorm"
+  pronunciation: "/ˈbreɪn.stɔːm/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To suggest a lot of ideas for a future activity or to solve a problem, usually in a group."
+    bahasa: "Menyarankan banyak ide untuk kegiatan di masa depan atau untuk memecahkan masalah, biasanya dalam kelompok."
+  usage: "Used to describe a creative process of generating ideas without judgment. It's a common technique in planning and problem-solving sessions."
+  synonyms:
+    - "generate ideas"
+    - "think up"
+  examples:
+    workplace:
+      - "Let's get together this afternoon to brainstorm a new name for the product."
+      - "We need to brainstorm ways to improve user engagement."
+    casual:
+      - "The family sat down to brainstorm ideas for their summer vacation."
+      - "I need to brainstorm a topic for my final essay."
+  related:
+    - word: "Discuss"
+      difference: "'Discuss' means to talk about something, often involving analysis and evaluation. 'Brainstorm' is specifically about generating a wide range of new ideas, usually without immediate criticism."
+    - word: "Ideate"
+      difference: "'Ideate' is a more formal, design-thinking term for the process of forming ideas. 'Brainstorm' is a more common and informal word for the same activity."
+  story: |
+    The team was stuck on how to solve a complex performance issue. The lead engineer called for a session and said, 'Okay, no bad ideas. Let's just brainstorm.' For 30 minutes, they filled a whiteboard with every possible solution, from simple tweaks to radical architectural changes. This session produced the unconventional idea that eventually solved the problem.
+- word: "ambiguity"
+  pronunciation: "/ˌæm.bɪˈɡjuː.ə.ti/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The quality of being open to more than one interpretation; inexactness."
+    bahasa: "Kualitas keterbukaan terhadap lebih dari satu interpretasi; ketidaktepatan."
+  usage: "Used to describe a situation, statement, or requirement that is unclear, confusing, or could be understood in multiple ways. In software development, ambiguity in requirements is a common source of problems."
+  synonyms:
+    - "unclearness"
+    - "vagueness"
+    - "uncertainty"
+  examples:
+    workplace:
+      - "We need to remove the ambiguity from the user story before we can start working on it."
+      - "The lack of clear goals created a lot of ambiguity for the team."
+    casual:
+      - "The ambiguity of the movie's ending left the audience with many questions."
+      - "There is some ambiguity in the law, which makes it difficult to interpret."
+  related:
+    - word: "Clarity"
+      difference: "'Clarity' is the opposite of 'ambiguity'. It means something is clear and easy to understand."
+    - word: "Confusion"
+      difference: "'Ambiguity' is the cause; 'confusion' is the effect. An ambiguous statement can cause confusion for the listener."
+  story: |
+    The initial ticket just said: 'Improve the user profile page.' This created a lot of ambiguity for the developers. Did it mean improve the design, add new fields, or make it load faster? The team had to go back to the product manager to get more specific requirements and remove the ambiguity before they could write any code.
+- word: "follow-up"
+  pronunciation: "/ˈfɒl.əʊ.ʌp/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A further action connected with something that happened before."
+    bahasa: "Tindakan lebih lanjut yang terhubung dengan sesuatu yang terjadi sebelumnya."
+  usage: "Used to refer to a subsequent action, such as a meeting, email, or task, that is intended to continue or check on a previous one."
+  synonyms:
+    - "next step"
+    - "check-in"
+  examples:
+    workplace:
+      - "I'm sending a follow-up email to summarize the decisions from our meeting."
+      - "We need to schedule a follow-up to check on the progress of this task."
+    casual:
+      - "The doctor scheduled a follow-up appointment in two weeks."
+      - "As a follow-up to our conversation, here is the link I promised you."
+  related:
+    - word: "Continuation"
+      difference: "'Continuation' means the process of something continuing. A 'follow-up' is a specific, distinct action taken after an initial event."
+    - word: "Update"
+      difference: "An 'update' is information about the current status of something. A 'follow-up' is an action. You might schedule a follow-up meeting *to get* an update."
+  story: |
+    After a big planning meeting, the project manager noticed that several important questions were still unanswered. She created a shared document with the open items and assigned owners for each. Her follow-up action was to schedule another, shorter meeting two days later, specifically to go through that list and ensure every point was resolved.
