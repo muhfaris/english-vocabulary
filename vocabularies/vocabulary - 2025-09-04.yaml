@@ -1,0 +1,249 @@
+- word: "Recap"
+  pronunciation: "/ˈriːkæp/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A brief summary of what has been said or decided."
+    bahasa: "Ringkasan singkat dari apa yang telah dibicarakan atau diputuskan."
+  usage: "Use 'recap' at the beginning or end of a meeting to quickly go over the main points. It’s great for making sure everyone is on the same page."
+  synonyms:
+    - "summary"
+    - "overview"
+  examples:
+    workplace:
+      - "Before we end the stand-up, let's do a quick recap of today's action items."
+      - "I missed the first part of the meeting; can someone give me a quick recap?"
+    casual:
+      - "I can't believe you missed the game! Here's a recap: we won in the last second."
+      - "Let's recap the plan for our holiday trip."
+  related:
+    - word: "Summary"
+      difference: "'Summary' is a general term for a brief statement of the main points. 'Recap' is more conversational and often used for summarizing something that just happened, like a meeting or event."
+    - word: "Briefing"
+      difference: "'Briefing' is a meeting where information or instructions are given, usually *before* an event. 'Recap' is a summary *after* an event."
+  story: |
+    At the end of a long sprint planning session, David, the team lead, said, "Alright team, that was a lot to cover. Let's do a quick recap to make sure we're all aligned. We've committed to three user stories, Sarah will tackle the API integration, and I'll handle the database migration. Any questions? No? Great. Let's get to it." This simple recap prevented a lot of confusion later in the week.
+
+- word: "Go-to person"
+  pronunciation: "/ˈɡoʊ tuː ˈpɜːrsn/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "The person who is the most knowledgeable or skilled in a particular area and is the first person you should ask for help."
+    bahasa: "Orang yang paling berpengetahuan atau terampil di bidang tertentu dan menjadi orang pertama yang harus dimintai bantuan."
+  usage: "Use this phrase to identify an expert on a team. It's a sign of trust and respect for someone's skills. You can ask 'Who is the go-to person for CSS?'"
+  synonyms:
+    - "expert"
+    - "specialist"
+  examples:
+    workplace:
+      - "If you have any questions about the deployment script, talk to Maria. She's the go-to person for anything related to CI/CD."
+      - "We need to make David the go-to person for front-end architecture to ensure consistency."
+    casual:
+      - "My dad is the go-to person in our family for fixing anything broken."
+      - "Who's the go-to person for recommendations on good sci-fi books?"
+  related:
+    - word: "Subject Matter Expert (SME)"
+      difference: "SME is a more formal, official title for an expert. 'Go-to person' is informal and based on reputation and experience within a team."
+    - word: "Point of contact"
+      difference: "A 'point of contact' is the designated person for communication on a topic, but they aren't necessarily the expert. They might just pass the message along. A 'go-to person' is the expert you consult directly."
+  story: |
+    A new bug was reported in the payment gateway. The team was stumped. The junior developer, Alex, asked, "Who should I talk to about this?" Without hesitation, everyone replied, "Lena." Lena had been at the company for years and had written most of the original payment code. She was the undisputed go-to person for any critical payment issues. With her help, Alex found the root cause in under an hour.
+
+- word: "Ballpark figure"
+  pronunciation: "/ˈbɔːlpɑːrk ˈfɪɡjər/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A rough, approximate number or estimate."
+    bahasa: "Angka atau perkiraan yang kasar dan tidak tepat."
+  usage: "Use this when you need an estimate but don't need it to be exact. It's common when discussing project timelines or costs in the early stages."
+  synonyms:
+    - "rough estimate"
+    - "approximation"
+  examples:
+    workplace:
+      - "I don't need the exact number of hours yet, just give me a ballpark figure so I can create the project budget."
+      - "Can you provide a ballpark figure for how long it will take to fix this bug?"
+    casual:
+      - "What's a ballpark figure for a trip to Japan for two weeks?"
+      - "I'm not sure how many people are coming to the party, but a ballpark figure would be around 30."
+  related:
+    - word: "Estimate"
+      difference: "'Estimate' is a more general term. A 'ballpark figure' is specifically a very rough, informal estimate, implying less precision than a formal 'estimate'."
+    - word: "Forecast"
+      difference: "A 'forecast' is a prediction based on data and analysis, usually about future trends (e.g., sales forecast). A 'ballpark figure' is a simple, rough guess, often without deep analysis."
+  story: |
+    The product manager asked the engineering team, "We're thinking of building a new recommendation engine. Before we commit, can you give me a ballpark figure on the timeline?" The lead engineer replied, "We haven't looked at the details, but as a ballpark figure, I'd say it's probably a 3-month project for two engineers. We can provide a more accurate estimate after a technical spike."
+
+- word: "Park this"
+  pronunciation: "/pɑːrk ðɪs/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To postpone a discussion or idea to be dealt with later."
+    bahasa: "Menunda diskusi atau ide untuk dibahas nanti."
+  usage: "A polite and efficient way to keep a meeting on track. When a discussion is becoming a distraction or is not relevant to everyone, you can suggest to 'park it'."
+  synonyms:
+    - "table this"
+    - "put a pin in it"
+  examples:
+    workplace:
+      - "That's an interesting point, but it's outside the scope of this meeting. Let's park this for now and discuss it in our architecture sync."
+      - "We're running out of time, so let's park this topic and move on to the next agenda item."
+    casual:
+      - "I want to talk about our holiday plans, but we should probably park this conversation until the kids are asleep."
+      - "Let's park the 'where to eat' debate and just focus on getting to the cinema on time."
+  related:
+    - word: "Postpone"
+      difference: "'Postpone' is more formal and means to decide that something will be done at a later time. 'Park this' is an informal, conversational way to specifically stop a current discussion with the intention of returning to it later."
+    - word: "Shelve"
+      difference: "'Shelve' means to decide not to proceed with a project or idea, either temporarily or permanently. It implies a longer delay than 'park this,' which usually means returning to it soon."
+  story: |
+    During the daily stand-up, a developer started a deep discussion about switching from REST to gRPC for a new service. The Scrum Master gently interrupted, "This is a great conversation to have, but we have a lot of people waiting. Let's park this for now and set up a separate meeting for everyone who's interested. Okay?" The team agreed, and the stand-up quickly got back on track.
+
+- word: "From scratch"
+  pronunciation: "/frəm skræʧ/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "From the very beginning, without using any pre-existing components or work."
+    bahasa: "Dari awal, tanpa menggunakan komponen atau pekerjaan yang sudah ada sebelumnya."
+  usage: "Use this to describe building something new, like a new application or feature, without relying on templates, frameworks, or previous code."
+  synonyms:
+    - "from the ground up"
+    - "from square one"
+  examples:
+    workplace:
+      - "The old codebase was too messy to refactor, so we decided to rewrite the entire module from scratch."
+      - "For my side project, I'm building a simple blog engine from scratch to better understand web frameworks."
+    casual:
+      - "She bakes the best cakes. She never uses a mix; she makes everything from scratch."
+      - "After his computer crashed without a backup, he had to set up his development environment from scratch."
+  related:
+    - word: "Greenfield"
+      difference: "'Greenfield' is a project that is not constrained by prior work; it's a clean slate. 'From scratch' describes the *action* of building on that clean slate. They are often used together, e.g., 'It's a greenfield project, so we're building it from scratch'."
+    - word: "Boilerplate"
+      difference: "'Boilerplate' is a template or pre-written code that you use to *avoid* starting from scratch. It gives you a basic structure to build upon."
+  story: |
+    The team was tasked with creating a new analytics dashboard. They could have used a third-party library, but they had very specific performance requirements. "It's a challenge," the tech lead said, "but to get the speed we need, we have to build the rendering engine from scratch. It will be more work upfront, but we'll have full control over the performance."
+
+- word: "In the loop"
+  pronunciation: "/ɪn ðə luːp/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "Kept informed and included in the communication about a particular project or topic."
+    bahasa: "Selalu diberi informasi dan dilibatkan dalam komunikasi mengenai proyek atau topik tertentu."
+  usage: "Use this to talk about who is receiving updates. You can ask to be 'kept in the loop' or offer to 'keep someone in the loop'."
+  synonyms:
+    - "informed"
+    - "up to date"
+  examples:
+    workplace:
+      - "Please keep me in the loop on the progress of the bug fix. I need to update the stakeholders."
+      - "I wasn't in the loop on that decision. Can you forward me the email thread?"
+    casual:
+      - "Keep me in the loop about your travel plans!"
+      - "I'm trying to stay in the loop with what my friends are up to."
+  related:
+    - word: "CC (Carbon Copy)"
+      difference: "CC'ing someone on an email is a specific *action* to keep them in the loop. 'In the loop' is the *state* of being informed, which can happen through email, meetings, or chats."
+    - word: "Out of the loop"
+      difference: "This is the direct opposite. 'Out of the loop' means not being informed or included in communication."
+  story: |
+    Maria was managing a project with dependencies on another team. She sent a message to the other team's lead: "Hey, could you add me to your team's weekly update email? I just want to stay in the loop on your progress so I can anticipate any potential delays on our end." This proactive step helped her manage expectations with her own team and stakeholders.
+
+- word: "Out of the loop"
+  pronunciation: "/aʊt əv ðə luːp/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "Not kept informed or included in communication about a particular project or topic."
+    bahasa: "Tidak diberi informasi atau tidak dilibatkan dalam komunikasi mengenai proyek atau topik tertentu."
+  usage: "Use this to describe a situation where someone lacks information. You might realize, 'I'm completely out of the loop on this,' and then ask for an update."
+  synonyms:
+    - "uninformed"
+    - "unaware"
+  examples:
+    workplace:
+      - "I've been on vacation for a week, so I'm completely out of the loop. What's the latest update on Project Phoenix?"
+      - "It feels like the design team is out of the loop. We need to include them in our daily stand-ups."
+    casual:
+      - "I haven't watched the news all week, so I'm out of the loop on current events."
+      - "He's been so busy with his new job that he's completely out of the loop with his friends."
+  related:
+    - word: "In the loop"
+      difference: "This is the direct opposite. 'In the loop' means being informed, while 'out of the loop' means not being informed."
+    - word: "Unaware"
+      difference: "'Unaware' means you don't know something. 'Out of the loop' is more specific; it implies there is a group of people communicating, and you are not part of it."
+  story: |
+    Tom returned from a two-week paternity leave feeling refreshed but disconnected. In his first meeting back, everyone was discussing 'the new staging environment'. He had no idea what they were talking about. He finally raised his hand and said, "Sorry everyone, I'm completely out of the loop. Can someone give me the 30-second summary of this new environment?" His team was happy to catch him up.
+
+- word: "Take it offline"
+  pronunciation: "/teɪk ɪt ˌɔːfˈlaɪn/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To discuss a topic in a smaller group or privately, after the current meeting, because it's too detailed or not relevant to everyone present."
+    bahasa: "Membahas topik dalam kelompok yang lebih kecil atau secara pribadi setelah rapat saat ini, karena terlalu detail atau tidak relevan untuk semua orang yang hadir."
+  usage: "A very common and useful phrase to manage meeting time effectively. It's similar to 'Park this,' but more strongly implies a separate, specific conversation needs to happen."
+  synonyms:
+    - "discuss this later"
+    - "address this separately"
+  examples:
+    workplace:
+      - "The two of you seem to have a specific technical disagreement. Let's take it offline and not use everyone's time in this meeting."
+      - "I have some thoughts on your proposal, but let's take it offline so we can go through the details."
+    casual:
+      - "I don't want to argue about this in front of our guests. Let's take this offline."
+      - "This conversation is getting too serious for a party. Can we take it offline and talk tomorrow?"
+  related:
+    - word: "Park this"
+      difference: "'Park this' means to set a topic aside to be revisited later, maybe in the same meeting or a future one. 'Take it offline' specifically means to move the conversation out of the current group setting to a more private or focused one."
+    - word: "Side conversation"
+      difference: "A 'side conversation' is a discussion that happens during a meeting, often distractingly. The goal of 'take it offline' is to prevent a deep topic from becoming a disruptive side conversation."
+  story: |
+    During a sprint review, two senior engineers started debating the pros and cons of a specific database indexing strategy. The discussion was getting highly technical. The product manager intervened politely, "This is valuable, but it's probably too in-the-weeds for this audience. Can you two take it offline and post a summary of your decision in the engineering channel later?" They agreed, and the review continued smoothly.
+
+- word: "Double-check"
+  pronunciation: "/ˈdʌbl ʧɛk/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To check something a second time to ensure it is correct, safe, or complete."
+    bahasa: "Memeriksa sesuatu untuk kedua kalinya untuk memastikan itu benar, aman, atau lengkap."
+  usage: "An essential verb for software development and daily life. You double-check your code before committing, double-check a deployment script before running it, or double-check that you've muted your mic."
+  synonyms:
+    - "verify"
+    - "confirm"
+  examples:
+    workplace:
+      - "Before you merge your branch, please double-check that you've resolved all the comments on your PR."
+      - "I'm about to run the database migration on production. Can someone else double-check my script?"
+    casual:
+      - "I need to double-check that I locked the front door."
+      - "Can you double-check the flight time? I don't want to miss it."
+  related:
+    - word: "Verify"
+      difference: "'Verify' is a bit more formal and often implies checking against a standard or specification. 'Double-check' is more general and simply means to check again."
+    - word: "Sanity check"
+      difference: "A 'sanity check' is a quick, high-level check to see if something makes sense at all. A 'double-check' is a more thorough, second review to ensure correctness."
+  story: |
+    The team was about to deploy a critical hotfix. Everything looked good. The tests were green, and the PR was approved. Just before hitting the deploy button, the senior engineer said, "Wait. Let's just double-check the environment variables. The last outage was because of a copy-paste error there." They spent an extra two minutes, found one variable pointing to the wrong endpoint, and fixed it. The double-check saved them from another major incident.
+
+- word: "Quick and dirty"
+  pronunciation: "/kwɪk ænd ˈdɜːrti/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A solution that is done quickly and expediently, but not carefully or well-made. It's often a temporary fix."
+    bahasa: "Solusi yang dibuat dengan cepat dan seadanya, tetapi tidak dengan cermat atau baik. Seringkali ini adalah perbaikan sementara."
+  usage: "Use this to describe a temporary solution that you intend to replace later. It's important to be clear that it's not a permanent, high-quality solution."
+  synonyms:
+    - "makeshift"
+    - "stopgap"
+  examples:
+    workplace:
+      - "I've implemented a quick and dirty fix to get the server back online. I'll create a ticket for a proper solution tomorrow."
+      - "This script is just a quick and dirty way to parse the logs; we'll need to build a more robust tool later."
+    casual:
+      - "We don't have a proper tent peg, so I used a stick as a quick and dirty replacement."
+      - "The report doesn't have to be perfect. Just give me a quick and dirty version for now."
+  related:
+    - word: "Workaround"
+      difference: "A 'workaround' is a way to bypass a problem. A 'quick and dirty' solution *is* a type of workaround, but it specifically emphasizes that the solution is of low quality and temporary."
+    - word: "Technical debt"
+      difference: "'Technical debt' is the implied cost of rework caused by choosing an easy (limited) solution now instead of using a better approach that would take longer. A 'quick and dirty' fix is a classic way to incur technical debt."
+  story: |
+    A critical demo for a major stakeholder was in one hour, but a key feature was broken due to a change in an external API. There was no time to re-architect the feature properly. "Okay," the developer said, "I have an idea. I can hard-code the expected response. It's a quick and dirty solution, but it will make the demo work. We absolutely must fix it properly right after the meeting." The team agreed it was the right call.
