@@ -515,3 +515,147 @@
       difference: "A 'deliverable' is a tangible outcome or product of a project (e.g., a report, a piece of software). An 'action item' is a task that needs to be done, which might contribute to a deliverable."
   story: |
     Our weekly sync meeting used to be just a lot of talking. We'd discuss problems but nothing would get done. We changed the format so that at the end of every meeting, we explicitly define the action items. Each action item has an owner and a due date. It has made our meetings much more productive.
+- word: "swamped"
+  pronunciation: "/swɑːmpt/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Extremely busy with a large amount of work."
+    bahasa: "Sangat sibuk dengan banyak pekerjaan; kebanjiran pekerjaan."
+  usage: "Used informally to describe a situation where you have too much work to handle, making you feel busy and slightly stressed."
+  synonyms:
+    - "inundated"
+    - "overloaded"
+  examples:
+    workplace:
+      - "I'm completely swamped with requests this week; I don't think I can take on any new tasks."
+      - "Let's check with the DevOps team to see if they are swamped before we assign this to them."
+    casual:
+      - "I was swamped with homework and couldn't go to the party."
+      - "Every time I open my email, I feel swamped."
+  related:
+    - word: "busy"
+      difference: "'Busy' means having a lot to do, but 'swamped' implies you have *too much* to do, often to the point of being overwhelmed."
+    - word: "overwhelmed"
+      difference: "'Swamped' is about the volume of work, whereas 'overwhelmed' is about the emotional feeling of not being able to cope with the work or a situation."
+  story: |
+    On Monday morning, Alex, a software engineer, opened his project board and saw five new high-priority tickets. "I'm totally swamped," he said to his manager during stand-up. He had to juggle fixing a critical bug, preparing for a demo, and reviewing a teammate's code. By the end of the day, he had made progress but was still swamped with tasks for the rest of the week.
+- word: "lend a hand"
+  pronunciation: "/lɛnd ə hænd/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To help or assist someone with something."
+    bahasa: "Membantu seseorang."
+  usage: "A friendly and common way to offer or ask for help. It can be used in both formal and informal situations."
+  synonyms:
+    - "help out"
+    - "assist"
+  examples:
+    workplace:
+      - "Could you lend a hand with this deployment script? I'm getting an error I don't understand."
+      - "I see you're struggling with that bug. I have some free time, so I'm happy to lend a hand."
+    casual:
+      - "Are you moving furniture? I can lend a hand if you need."
+      - "Thanks for lending a hand with the dishes."
+  related:
+    - word: "help"
+      difference: "'Lend a hand' is a more informal and friendly-sounding alternative to 'help.' It often implies a more hands-on, practical kind of assistance."
+    - word: "support"
+      difference: "'Support' can be more general, including emotional or moral support, while 'lend a hand' almost always refers to practical, physical, or task-oriented help."
+  story: |
+    Maria was new to the team and was having trouble setting up her local development environment. After struggling for an hour, her colleague, Ben, noticed and offered to lend a hand. Together, they walked through the configuration files and found the issue in less than 20 minutes. Maria was grateful for the help, and it was a great start to their collaboration.
+- word: "overwhelmed"
+  pronunciation: "/ˌoʊvərˈwɛlmd/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Feeling a strong emotional effect from having too many things to deal with or a situation that is too difficult."
+    bahasa: "Merasa kewalahan; terbebani secara emosional karena terlalu banyak hal atau situasi yang sulit."
+  usage: "Used to describe the emotional state of feeling unable to cope with the amount of work, stress, or information you are receiving."
+  synonyms:
+    - "overburdened"
+    - "snowed under"
+  examples:
+    workplace:
+      - "When I saw the 200 bug reports, I felt completely overwhelmed."
+      - "It's easy to get overwhelmed when you're new to a project, so don't hesitate to ask questions."
+    casual:
+      - "She was overwhelmed with joy when she received the good news."
+      - "The city noise can be overwhelming for someone who grew up in the countryside."
+  related:
+    - word: "swamped"
+      difference: "'Swamped' refers to the quantity of work, while 'overwhelmed' describes the emotional impact of that work. You can be swamped but still feel in control, but if you're overwhelmed, you feel you've lost control."
+    - word: "stressed"
+      difference: "'Stressed' is a general feeling of worry or tension. 'Overwhelmed' is a more intense version of stress, where the pressure feels too great to manage."
+  story: |
+    During her first week on-call, Aisha felt overwhelmed. The pager went off three times in one night for different critical alerts. She had to analyze logs, restart services, and communicate updates to stakeholders all at once. Though she managed to resolve the incidents, she told her manager the next day that the experience was overwhelming and asked for more training on incident management.
+- word: "specs"
+  pronunciation: "/spɛks/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A detailed description of the design, features, and requirements of a product or project. Short for 'specifications'."
+    bahasa: "Spesifikasi; deskripsi rinci tentang desain, fitur, dan persyaratan suatu produk atau proyek."
+  usage: "Commonly used in engineering, design, and product development to refer to the formal documentation that outlines what needs to be built."
+  synonyms:
+    - "requirements"
+    - "specifications"
+  examples:
+    workplace:
+      - "I can't start coding until the product manager provides the final specs for the new feature."
+      - "Did you read the specs? The button needs to be blue, not green."
+    casual:
+      - "He was checking the specs of the new phone before buying it."
+      - "What are the specs on your new gaming PC?"
+  related:
+    - word: "brief"
+      difference: "A 'brief' is a short summary of a project's goals and requirements, while 'specs' are much more detailed and technical instructions on how to execute it."
+    - word: "documentation"
+      difference: "'Documentation' is a broad term for any explanatory material. 'Specs' are a specific type of documentation that defines the requirements for a product or system."
+  story: |
+    The team was ready to start the next sprint, but there was a problem: the specs for the new API endpoint were incomplete. The document didn't mention what the error responses should be. The lead engineer, David, told the team to pause development on that feature. "We can't build it right without clear specs," he said. He scheduled a meeting with the product owner to clarify the requirements first.
+- word: "realistic"
+  pronunciation: "/ˌriːəˈlɪstɪk/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Having or showing a sensible and practical idea of what can be achieved or expected."
+    bahasa: "Realistis; memiliki atau menunjukkan gagasan yang masuk akal dan praktis tentang apa yang dapat dicapai atau diharapkan."
+  usage: "Used to describe goals, expectations, or plans that are practical and achievable given the available resources and time."
+  synonyms:
+    - "achievable"
+    - "practical"
+  examples:
+    workplace:
+      - "A two-week deadline for this project is not realistic; we need at least a month."
+      - "Let's set a realistic goal for this sprint so we don't have to work overtime."
+    casual:
+      - "Be realistic; you can't learn to play the guitar in one day."
+      - "Her career expectations are very realistic."
+  related:
+    - word: "optimistic"
+      difference: "'Optimistic' means hopeful and confident about the future, which can sometimes lead to unrealistic plans. 'Realistic' is based on facts and practical limitations."
+    - word: "pessimistic"
+      difference: "'Pessimistic' means tending to see the worst aspect of things, which can lead to underestimating what's possible. 'Realistic' is a balance between optimistic and pessimistic."
+  story: |
+    During sprint planning, the product manager wanted to include ten new features. The engineering team pushed back, explaining that given their current workload and team size, that wasn't a realistic plan. They negotiated and agreed on the top three most important features. This created a realistic goal for the sprint, which they successfully delivered without burning out.
+- word: "estimate"
+  pronunciation: "/ˈɛstɪmət/ (noun), /ˈɛstɪmeɪt/ (verb)"
+  part_of_speech: "noun | verb"
+  meaning:
+    english: "(noun) A rough calculation or judgment of the value, number, quantity, or extent of something. (verb) To roughly calculate or judge."
+    bahasa: "(kata benda) Perkiraan; perhitungan atau penilaian kasar tentang nilai, jumlah, atau besaran sesuatu. (kata kerja) Memperkirakan; menghitung atau menilai secara kasar."
+  usage: "Used frequently in project management and software development to predict the time, effort, or cost required to complete a task."
+  synonyms:
+    - "approximation"
+    - "projection"
+  examples:
+    workplace:
+      - "(noun) My estimate for completing this task is three days."
+      - "(verb) Can you estimate how long it will take to fix this bug?"
+    casual:
+      - "(noun) The mechanic gave me an estimate for the car repairs."
+      - "(verb) I estimate we'll arrive in about an hour."
+  related:
+    - word: "quote"
+      difference: "An 'estimate' is a rough guess, while a 'quote' is a fixed price or timeframe that is formally offered and, once accepted, is usually binding."
+    - word: "forecast"
+      difference: "A 'forecast' is a prediction about future trends or events (e.g., sales forecast), while an 'estimate' is a calculation of the effort or cost for a specific task."
+  story: |
+    Before starting a new feature, the team held a planning poker session to create an estimate for the work involved. Each developer chose a card representing the complexity. After a brief discussion about the technical challenges, they agreed on an estimate of 8 story points. This estimate helped the product owner prioritize the feature in the backlog and set expectations with stakeholders.
