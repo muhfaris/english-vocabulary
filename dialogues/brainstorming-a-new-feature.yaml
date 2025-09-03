@@ -1,0 +1,67 @@
+dialogue:
+  - speaker: Maria
+    english: "Hey Leo, got a minute? I want to brainstorm some ideas for the new user dashboard."
+    bahasa: "Hai Leo, ada waktu sebentar? Aku ingin bertukar pikiran tentang beberapa ide untuk dasbor pengguna yang baru."
+  - speaker: Leo
+    english: "Sure, I'm all ears. What's on your mind?"
+    bahasa: "Tentu, aku siap mendengarkan. Apa yang ada di pikiranmu?"
+  - speaker: Maria
+    english: "Well, I was thinking we need a central place for users to see their recent activity, key metrics, and maybe some quick links."
+    bahasa: "Yah, aku berpikir kita butuh tempat terpusat bagi pengguna untuk melihat aktivitas terbaru mereka, metrik utama, dan mungkin beberapa tautan cepat."
+  - speaker: Leo
+    english: "I like that. A modular design could work well here. We could have widgets for each of those sections."
+    bahasa: "Aku suka itu. Desain modular bisa sangat cocok di sini. Kita bisa memiliki widget untuk setiap bagian tersebut."
+  - speaker: Maria
+    english: "Exactly! And users could customize the layout. What do you think about integrating notifications directly into the dashboard?"
+    bahasa: "Tepat! Dan pengguna bisa menyesuaikan tata letaknya. Bagaimana menurutmu tentang mengintegrasikan notifikasi langsung ke dasbor?"
+  - speaker: Leo
+    english: "That’s a great idea. It would keep them engaged. We should probably mock up a few designs first."
+    bahasa: "Itu ide yang bagus. Itu akan membuat mereka tetap terlibat. Mungkin kita harus membuat beberapa mockup desain terlebih dahulu."
+  - speaker: Maria
+    english: "Good call. I'll sketch out a wireframe this afternoon. How about we also add a 'getting started' guide for new users?"
+    bahasa: "Saran yang bagus. Aku akan membuat sketsa wireframe sore ini. Bagaimana kalau kita juga menambahkan panduan 'memulai' untuk pengguna baru?"
+  - speaker: Leo
+    english: "Perfect. That would improve the onboarding experience. We should keep performance in mind, though. Dashboards can get heavy."
+    bahasa: "Sempurna. Itu akan meningkatkan pengalaman orientasi pengguna. Tapi kita harus tetap memperhatikan performa. Dasbor bisa menjadi berat."
+  - speaker: Maria
+    english: "Agreed. We'll need to be smart about data fetching. Maybe use lazy loading for the widgets."
+    bahasa: "Setuju. Kita harus cerdas dalam pengambilan data. Mungkin menggunakan lazy loading untuk widget."
+  - speaker: Leo
+    english: "Sounds like a solid plan. Let's sync up again tomorrow with our initial mockups."
+    bahasa: "Terdengar seperti rencana yang solid. Mari kita sinkronisasi lagi besok dengan mockup awal kita."
+  - speaker: Maria
+    english: "Great. Thanks for bouncing ideas around with me."
+    bahasa: "Bagus. Terima kasih sudah bertukar ide denganku."
+  - speaker: Leo
+    english: "Anytime. This is the fun part of the job!"
+    bahasa: "Kapan saja. Ini adalah bagian yang menyenangkan dari pekerjaan!"
+
+expressions:
+  - phrase: "brainstorm"
+    meaning_english: "To think about and suggest a lot of ideas for a particular purpose."
+    meaning_bahasa: "Bertukar pikiran: Memikirkan dan menyarankan banyak ide untuk tujuan tertentu."
+  - phrase: "all ears"
+    meaning_english: "To be ready and eager to listen."
+    meaning_bahasa: "Siap mendengarkan: Siap dan bersemangat untuk mendengarkan."
+  - phrase: "mock up"
+    meaning_english: "To create a model or example of something, like a new product or a website page."
+    meaning_bahasa: "Membuat mockup: Membuat model atau contoh dari sesuatu, seperti produk baru atau halaman situs web."
+  - phrase: "wireframe"
+    meaning_english: "A simple visual guide to show how a webpage or application will be structured."
+    meaning_bahasa: "Wireframe: Panduan visual sederhana untuk menunjukkan bagaimana sebuah halaman web atau aplikasi akan terstruktur."
+  - phrase: "lazy loading"
+    meaning_english: "A design pattern in computer programming that defers initialization of an object until the point at which it is needed."
+    meaning_bahasa: "Lazy loading: Sebuah pola desain dalam pemrograman komputer yang menunda inisialisasi sebuah objek hingga saat dibutuhkan."
+  - phrase: "sync up"
+    meaning_english: "To meet and make sure you have the same information."
+    meaning_bahasa: "Sinkronisasi: Bertemu dan memastikan Anda memiliki informasi yang sama."
+
+questions:
+  - q: "What is the main topic of Maria and Leo's conversation?"
+    a: "They are brainstorming ideas for a new user dashboard feature."
+  - q: "What design approach does Leo suggest for the dashboard?"
+    a: "He suggests a modular design with widgets."
+  - q: "What is Maria's suggestion to improve the onboarding experience for new users?"
+    a: "She suggests adding a 'getting started' guide."
+  - q: "What potential issue does Leo bring up regarding the dashboard?"
+    a: "He mentions that dashboards can become heavy and affect performance."
