@@ -1,0 +1,15 @@
+story:
+  title: "the-morning-huddle"
+  date: "2025-09-03"
+  text: |
+    My day started with a **morning brew** and our usual stand-up. After the updates, my team lead called for a **quick sync** to discuss the new profile feature. The product manager had given us the initial **user requirements**, but we needed to **hammer out** the details.
+
+    Our goal was to create a realistic **action plan**. We needed to reach a consensus on the technical approach before everyone was fully **on board**. During the discussion, we identified a few potential **roadblocks**, particularly with a third-party API. It was a productive session. We came out with a clearer picture and a set of tasks. I was assigned to investigate the API, which I was happy to take on. The sync was a great way to ensure we were all aligned before diving in.
+  highlighted_words:
+    - "morning brew"
+    - "quick sync"
+    - "user requirements"
+    - "hammer out"
+    - "action plan"
+    - "on board"
+    - "roadblocks"
