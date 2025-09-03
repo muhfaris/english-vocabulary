@@ -1266,36 +1266,99 @@
         }
 
         .word-tooltip {
-            position: absolute;
-            bottom: 100%;
-            left: 50%;
-            transform: translateX(-50%);
-            background: #2c3e50;
-            color: white;
-            padding: 10px 15px;
-            border-radius: 8px;
-            font-size: 0.9rem;
-            white-space: nowrap;
-            opacity: 0;
             visibility: hidden;
-            transition: all 0.3s ease;
+            width: 280px;
+            background: linear-gradient(135deg, #667eea, #764ba2) !important;
+            color: #ffffff !important;
+            -webkit-text-fill-color: #ffffff !important;
+            text-fill-color: #ffffff !important;
+            text-align: left;
+            border-radius: 12px;
+            padding: 16px;
+            position: absolute;
             z-index: 1001;
+            bottom: 120%;
+            left: 50%;
+            margin-left: -140px;
+            opacity: 0;
+            transform: translateY(8px) scale(0.9);
+            transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
             pointer-events: none;
+            font-size: 0.9rem;
+            line-height: 1.4;
+            white-space: normal;
+            background-clip: padding-box !important;
+            -webkit-background-clip: padding-box !important;
         }
 
         .word-tooltip::after {
-            content: '';
+            content: "";
             position: absolute;
             top: 100%;
             left: 50%;
-            transform: translateX(-50%);
-            border: 5px solid transparent;
-            border-top-color: #2c3e50;
+            margin-left: -10px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: #667eea transparent transparent transparent;
         }
 
         .highlighted-word:hover .word-tooltip {
-            opacity: 1;
             visibility: visible;
+            opacity: 1;
+            transform: translateY(0) scale(1);
+        }
+        .word-tooltip *,
+        .word-tooltip h3,
+        .word-tooltip p {
+            color: #ffffff !important;
+            -webkit-text-fill-color: #ffffff !important;
+            background-clip: initial !important;
+            -webkit-background-clip: initial !important;
+            text-fill-color: #ffffff !important;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.3) !important;
+        }
+
+        .word-tooltip h3 {
+            margin: 0 0 10px 0;
+            font-size: 1.1rem;
+            color: #ffffff !important;
+            font-weight: 600;
+        }
+
+        .word-tooltip p {
+            margin: 0 0 8px 0;
+            font-size: 0.9rem;
+            line-height: 1.4;
+            color: #f0f0f0 !important;
+        }
+
+        .word-tooltip p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Force text visibility - override any inheritance */
+        .highlighted-word .word-tooltip {
+            color: #ffffff !important;
+            -webkit-text-fill-color: #ffffff !important;
+            background: linear-gradient(135deg, #667eea, #764ba2) !important;
+            background-clip: padding-box !important;
+            -webkit-background-clip: padding-box !important;
+        }
+
+        .highlighted-word:hover .word-tooltip {
+            color: #ffffff !important;
+            -webkit-text-fill-color: #ffffff !important;
+        }
+
+        /* Responsive tooltip for mobile */
+        @media (max-width: 600px) {
+            .word-tooltip {
+                width: 240px;
+                margin-left: -120px;
+                padding: 14px;
+                font-size: 0.85rem;
+            }
         }
 
         /* Dialogue Modal Styles */
@@ -2101,7 +2164,7 @@
             </div>
             <div class="cache-info-body" id="cacheInfoBody">
                 <p>We cache content locally to improve performance and reduce loading times.</p>
-                <p><strong>Cache expires every 15 minutes</strong> - after which fresh content will be automatically fetched.</p>
+                <p><strong>Cache expires every 30 minutes</strong> - after which fresh content will be automatically fetched.</p>
                 <div id="cacheDetails"></div>
             </div>
         </div>
@@ -2147,7 +2210,7 @@
         let showingDialogues = false;
         
         // Cache configuration
-        const CACHE_EXPIRY_MINUTES = 15; // Cache expires after 15 minutes
+        const CACHE_EXPIRY_MINUTES = 30; // Cache expires after 30 minutes
         const CACHE_KEYS = {
             VOCABULARY: 'vocab_cache_',
             VOCABULARY_TIMESTAMP: 'vocab_cache_timestamp_',
@@ -2812,11 +2875,17 @@
             
             if (story.highlighted_words && story.highlighted_words.length > 0) {
                 story.highlighted_words.forEach(word => {
+                    // Find the word definition for tooltip
+                    const wordObj = allVocabulary.find(w => w.word.toLowerCase() === word.toLowerCase());
+                    const tooltipContent = wordObj ? 
+                        `${word}: ${wordObj.meaning.english}` :
+                        'Click for definition';
+                    
                     const regex = new RegExp(`\\*\\*(${word})\\*\\*`, 'gi');
                     processedText = processedText.replace(regex, 
                         `<span class="highlighted-word" onclick="showWordTooltip('$1')">
                             $1
-                            <span class="word-tooltip">Click for definition</span>
+                            <span class="word-tooltip">${tooltipContent}</span>
                         </span>`);
                 });
             }
@@ -2915,32 +2984,25 @@
             if (cacheInfo.vocabulary && cacheInfo.vocabulary.length > 0) {
                 detailsHtml += '<div class="cache-detail-item">';
                 detailsHtml += '<strong>📚 Vocabulary:</strong><br>';
-                detailsHtml += `${cacheInfo.vocabulary.length} entries cached<br>`;
-                const validEntries = cacheInfo.vocabulary.filter(v => !v.expired).length;
-                const expiredEntries = cacheInfo.vocabulary.length - validEntries;
-                detailsHtml += `${validEntries} valid, ${expiredEntries} expired`;
+                detailsHtml += `${cacheInfo.vocabulary.length} entries cached`;
                 detailsHtml += '</div>';
             }
             
             // Stories cache (all stories - rarely used since date range is auto-set)
             if (cacheInfo.stories) {
-                const expiredClass = cacheInfo.stories.expired ? ' cache-expired' : '';
-                detailsHtml += `<div class="cache-detail-item${expiredClass}">`;
+                detailsHtml += '<div class="cache-detail-item">';
                 detailsHtml += '<strong>📖 All Stories:</strong><br>';
-                detailsHtml += `Last updated: ${cacheInfo.stories.timestamp.toLocaleString()}<br>`;
-                detailsHtml += `Status: ${cacheInfo.stories.expired ? 'Expired' : 'Valid'}`;
+                detailsHtml += `Last updated: ${cacheInfo.stories.timestamp.toLocaleString()}`;
                 detailsHtml += '</div>';
             }
 
             // Date range stories caches
             if (cacheInfo.storiesDateRanges && cacheInfo.storiesDateRanges.length > 0) {
                 cacheInfo.storiesDateRanges.forEach((dateRangeCache, index) => {
-                    const expiredClass = dateRangeCache.expired ? ' cache-expired' : '';
-                    detailsHtml += `<div class="cache-detail-item${expiredClass}">`;
+                    detailsHtml += '<div class="cache-detail-item">';
                     detailsHtml += '<strong>📖 Stories:</strong><br>';
                     detailsHtml += `Range: ${dateRangeCache.dateRange}<br>`;
-                    detailsHtml += `Last updated: ${dateRangeCache.timestamp.toLocaleString()}<br>`;
-                    detailsHtml += `Status: ${dateRangeCache.expired ? 'Expired' : 'Valid'}`;
+                    detailsHtml += `Last updated: ${dateRangeCache.timestamp.toLocaleString()}`;
                     detailsHtml += '</div>';
                 });
             }
@@ -2948,14 +3010,12 @@
             
             // Dialogues cache
             if (cacheInfo.dialogues) {
-                const expiredClass = cacheInfo.dialogues.expired ? ' cache-expired' : '';
-                detailsHtml += `<div class="cache-detail-item${expiredClass}">`;
+                detailsHtml += '<div class="cache-detail-item">';
                 detailsHtml += '<strong>💬 Dialogues:</strong><br>';
-                detailsHtml += `Last updated: ${cacheInfo.dialogues.timestamp.toLocaleString()}<br>`;
-                detailsHtml += `Status: ${cacheInfo.dialogues.expired ? 'Expired' : 'Valid'}`;
+                detailsHtml += `Last updated: ${cacheInfo.dialogues.timestamp.toLocaleString()}`;
                 detailsHtml += '</div>';
             } else {
-                detailsHtml += '<div class="cache-detail-item cache-expired">';
+                detailsHtml += '<div class="cache-detail-item">';
                 detailsHtml += '<strong>💬 Dialogues:</strong> Not cached yet';
                 detailsHtml += '</div>';
             }
