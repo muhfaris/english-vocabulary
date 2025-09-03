@@ -1,0 +1,68 @@
+dialogue:
+  - speaker: Alex
+    english: "Hey Ben, do you have a minute to talk about the new feature?"
+    bahasa: "Hai Ben, apakah kamu punya waktu sebentar untuk membicarakan fitur baru?"
+  - speaker: Ben
+    english: "Sure, Alex. I was just about to grab a coffee. What's up?"
+    bahasa: "Tentu, Alex. Aku baru saja mau ambil kopi. Ada apa?"
+  - speaker: Alex
+    english: "It's about the real-time notification system. I've been looking at the requirements, and it seems a bit tricky."
+    bahasa: "Ini tentang sistem notifikasi real-time. Aku sudah melihat persyaratannya, dan sepertinya agak rumit."
+  - speaker: Ben
+    english: "Ah, that one. Yeah, the real-time aspect is the challenging part. What are your initial thoughts on the implementation?"
+    bahasa: "Ah, yang itu. Ya, aspek real-time-nya memang bagian yang menantang. Apa pemikiran awalmu tentang implementasinya?"
+  - speaker: Alex
+    english: "I'm thinking of using WebSockets for the client-server communication. It seems more efficient than long polling."
+    bahasa: "Aku berpikir untuk menggunakan WebSockets untuk komunikasi client-server. Sepertinya lebih efisien daripada long polling."
+  - speaker: Ben
+    english: "I agree. WebSockets are probably the way to go. Have you considered which library we should use?"
+    bahasa: "Aku setuju. WebSockets mungkin adalah cara yang tepat. Apakah kamu sudah mempertimbangkan library mana yang harus kita gunakan?"
+  - speaker: Alex
+    english: "I was looking at Socket.IO. It has good documentation and a large community, so it should be reliable."
+    bahasa: "Aku sedang melihat Socket.IO. Dokumentasinya bagus dan komunitasnya besar, jadi seharusnya bisa diandalkan."
+  - speaker: Ben
+    english: "That's a solid choice. It also handles automatic reconnection, which is a big plus. What about the backend?"
+    bahasa: "Itu pilihan yang bagus. Socket.IO juga menangani koneksi ulang otomatis, yang merupakan nilai tambah yang besar. Bagaimana dengan backend-nya?"
+  - speaker: Alex
+    english: "I'll need to set up a dedicated service to manage the WebSocket connections and push notifications to the clients."
+    bahasa: "Aku perlu menyiapkan layanan khusus untuk mengelola koneksi WebSocket dan mendorong notifikasi ke klien."
+  - speaker: Ben
+    english: "Sounds like a plan. Let's create a small proof of concept first to make sure everything works as expected."
+    bahasa: "Terdengar seperti sebuah rencana. Mari kita buat bukti konsep kecil terlebih dahulu untuk memastikan semuanya berfungsi seperti yang diharapkan."
+  - speaker: Alex
+    english: "Good idea. I'll get started on that this afternoon."
+    bahasa: "Ide bagus. Aku akan mulai mengerjakannya sore ini."
+  - speaker: Ben
+    english: "Great. Let me know if you hit any roadblocks. I'm happy to help."
+    bahasa: "Bagus. Beri tahu aku jika kamu menemui hambatan. Aku senang membantu."
+
+expressions:
+  - phrase: "What's up?"
+    meaning_english: "A casual way to ask 'What is happening?' or 'How are you?'"
+    meaning_bahasa: "Cara santai untuk bertanya 'Ada apa?' atau 'Apa kabar?'"
+  - phrase: "a bit tricky"
+    meaning_english: "Slightly difficult or complicated."
+    meaning_bahasa: "Sedikit sulit atau rumit."
+  - phrase: "the way to go"
+    meaning_english: "The best or most suitable option."
+    meaning_bahasa: "Pilihan terbaik atau paling sesuai."
+  - phrase: "a solid choice"
+    meaning_english: "A very good and reliable decision."
+    meaning_bahasa: "Keputusan yang sangat bagus dan dapat diandalkan."
+  - phrase: "a big plus"
+    meaning_english: "A significant advantage."
+    meaning_bahasa: "Keuntungan yang signifikan."
+  - phrase: "proof of concept"
+    meaning_english: "A small project to test if a concept or theory has practical potential."
+    meaning_bahasa: "Proyek kecil untuk menguji apakah suatu konsep atau teori memiliki potensi praktis."
+  - phrase: "hit any roadblocks"
+    meaning_english: "Encounter any problems or obstacles."
+    meaning_bahasa: "Menemui masalah atau rintangan."
+
+questions:
+  - q: "What new feature are Alex and Ben discussing?"
+    a: "They are discussing a real-time notification system."
+  - q: "What technology does Alex suggest for client-server communication?"
+    a: "Alex suggests using WebSockets, specifically the Socket.IO library."
+  - q: "What is Ben's suggestion before starting the full implementation?"
+    a: "Ben suggests creating a small proof of concept first."
