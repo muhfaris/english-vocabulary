@@ -515,6 +515,183 @@
       difference: "A 'deliverable' is a tangible outcome or product of a project (e.g., a report, a piece of software). An 'action item' is a task that needs to be done, which might contribute to a deliverable."
   story: |
     Our weekly sync meeting used to be just a lot of talking. We'd discuss problems but nothing would get done. We changed the format so that at the end of every meeting, we explicitly define the action items. Each action item has an owner and a due date. It has made our meetings much more productive.
+- word: "morning brew"
+  pronunciation: "/ˈmɔːr.nɪŋ bruː/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "An informal term for a cup of coffee or tea that you drink in the morning."
+    bahasa: "Istilah informal untuk secangkir kopi atau teh yang Anda minum di pagi hari."
+  usage: "Used as a casual and friendly way to refer to one's first caffeinated beverage of the day. It helps create a relaxed, conversational tone."
+  synonyms:
+    - "cup of joe"
+    - "morning coffee"
+  examples:
+    workplace:
+      - "I can't start my workday until I've had my morning brew."
+      - "Let's grab a quick morning brew before the stand-up meeting."
+    casual:
+      - "My morning brew is an essential part of my weekend routine."
+      - "He sat on the porch, enjoying his morning brew and the newspaper."
+  related:
+    - word: "cup of coffee"
+      difference: "'Cup of coffee' is a standard, neutral term. 'Morning brew' is more colloquial and personal, often implying a routine or ritual."
+    - word: "caffeine fix"
+      difference: "'Caffeine fix' emphasizes the need for caffeine to feel awake or functional. 'Morning brew' has a cozier, more pleasant connotation."
+  story: |
+    Every day, the first thing I do when I get to the office is head to the kitchen to make my morning brew. It's a small ritual that helps me get into the right mindset for coding. Today, I bumped into our designer there, and we had a great chat about the new UI components over our drinks.
+
+- word: "quick sync"
+  pronunciation: "/kwɪk sɪŋk/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A short, informal meeting to align on a specific topic and ensure everyone has the same information."
+    bahasa: "Rapat singkat dan informal untuk menyelaraskan topik tertentu dan memastikan semua orang memiliki informasi yang sama."
+  usage: "Used for unscheduled, brief meetings that are more focused than a general catch-up. It's about getting 'in sync' or aligned quickly."
+  synonyms:
+    - "huddle"
+    - "quick chat"
+  examples:
+    workplace:
+      - "Let's have a quick sync before the client call to make sure we're on the same page."
+      - "I had a quick sync with the backend team to discuss the API changes."
+    casual:
+      - "My wife and I had a quick sync about our weekend plans."
+      - "The bandmates had a quick sync before going on stage."
+  related:
+    - word: "stand-up meeting"
+      difference: "A 'stand-up' is a daily, recurring meeting for general status updates. A 'quick sync' is a one-off meeting called for a specific, immediate purpose."
+    - word: "meeting"
+      difference: "A 'meeting' is often more formal, scheduled, and longer. A 'quick sync' is intentionally brief, informal, and focused."
+  story: |
+    The frontend and backend developers were having trouble with an integration. Instead of a long email thread, the tech lead suggested a 'quick sync.' The four of them got on a 15-minute call, shared their screens, and figured out the issue. The quick sync saved them hours of frustration.
+
+- word: "user requirements"
+  pronunciation: "/ˈjuː.zər rɪˈkwaɪər.mənts/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A statement or set of statements that describe what a user needs from a product, system, or process."
+    bahasa: "Pernyataan atau serangkaian pernyataan yang menggambarkan apa yang dibutuhkan pengguna dari suatu produk, sistem, atau proses."
+  usage: "Used in product development and project management to define the goals and functionalities of a product from the user's perspective. It's the 'what', not the 'how'."
+  synonyms:
+    - "requirements"
+    - "specs (specifications)"
+  examples:
+    workplace:
+      - "The product manager is responsible for gathering and documenting the user requirements."
+      - "We can't start development until the user requirements are clearly defined."
+    casual:
+      - "When building a treehouse, the user requirements from the kids included a rope ladder and a secret door."
+      - "The user requirements for my new phone are a good camera and long battery life."
+  related:
+    - word: "technical requirements"
+      difference: "'User requirements' describe what the user wants to do. 'Technical requirements' describe how the system must be built to allow the user to do it (e.g., programming language, database)."
+    - word: "user story"
+      difference: "A 'user story' is a common format for writing a user requirement in Agile development (e.g., 'As a user, I want to...'). It's a specific way to express a requirement."
+  story: |
+    The team received the user requirements for the new reporting feature. They stated that users must be able to export reports in both PDF and CSV formats and filter the data by date range. With these clear requirements, the development team could start designing the technical solution.
+
+- word: "hammer out"
+  pronunciation: "/ˈhæm.ər aʊt/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To work out the details of a plan or agreement through intense discussion or negotiation."
+    bahasa: "Menyelesaikan detail dari sebuah rencana atau perjanjian melalui diskusi atau negosiasi yang intens."
+  usage: "Used when a decision or plan requires effort and debate to be finalized. It implies a collaborative and sometimes difficult process of creation."
+  synonyms:
+    - "work out"
+    - "thrash out"
+    - "iron out"
+  examples:
+    workplace:
+      - "The team spent the afternoon in a meeting to hammer out the details of the project plan."
+      - "We need to hammer out a deal with the vendor by the end of the week."
+    casual:
+      - "The roommates sat down to hammer out a schedule for cleaning the apartment."
+      - "The band stayed up late to hammer out the final version of their new song."
+  related:
+    - word: "discuss"
+      difference: "'Discuss' simply means to talk about something. 'Hammer out' implies the goal of the discussion is to produce a final, agreed-upon result, often with some difficulty."
+    - word: "finalize"
+      difference: "'Finalize' is the act of making a plan official. 'Hammer out' is the process of creating the plan that will then be finalized."
+  story: |
+    The two senior engineers had different ideas for the database schema. They booked a meeting room, and for two hours, they went back and forth at the whiteboard to hammer out a solution that combined the best of both approaches. It was an intense but productive session.
+
+- word: "action plan"
+  pronunciation: "/ˈæk.ʃən plæn/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A detailed plan outlining the specific steps or actions needed to achieve a goal."
+    bahasa: "Rencana terperinci yang menguraikan langkah-langkah atau tindakan spesifik yang diperlukan untuk mencapai suatu tujuan."
+  usage: "Used in project management and planning to refer to a concrete list of tasks. An action plan answers the questions: who will do what, and by when?"
+  synonyms:
+    - "game plan"
+    - "strategy"
+    - "list of action items"
+  examples:
+    workplace:
+      - "After the retrospective, the team created an action plan to address the issues they identified."
+      - "My manager asked me to create an action plan for improving the performance of our service."
+    casual:
+      - "His action plan for getting healthier included exercising three times a week and eating more vegetables."
+      - "The community group developed an action plan to clean up the local park."
+  related:
+    - word: "goal"
+      difference: "A 'goal' is the desired outcome (the 'what'). An 'action plan' is the series of steps to achieve that goal (the 'how')."
+    - word: "to-do list"
+      difference: "A 'to-do list' is often personal and informal. An 'action plan' is typically more formal, shared, and strategic, often with assigned owners and deadlines."
+  story: |
+    The security audit revealed several vulnerabilities. The engineering team immediately held a meeting to create an action plan. They listed each vulnerability, assigned an owner to fix it, and set a deadline for each task. This clear action plan helped them systematically resolve all the issues.
+
+- word: "on board"
+  pronunciation: "/ɒn bɔːrd/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "In agreement with or supportive of a plan, idea, or project."
+    bahasa: "Setuju dengan atau mendukung suatu rencana, ide, atau proyek."
+  usage: "Used to describe getting someone's approval, support, or participation. You can 'be on board' with an idea or 'get someone on board'."
+  synonyms:
+    - "in agreement"
+    - "supportive"
+  examples:
+    workplace:
+      - "We need to get the marketing team on board with this new feature launch."
+      - "I'm fully on board with the proposal to refactor the legacy code."
+    casual:
+      - "Are you on board with the plan to go hiking this weekend?"
+      - "It took some convincing, but my parents are finally on board with my decision."
+  related:
+    - word: "onboarding"
+      difference: "'Onboarding' (one word, noun) is the process of integrating a new employee into a company. 'On board' (two words, phrase) means to be in agreement."
+    - word: "agree"
+      difference: "'Agree' is a simple verb for having the same opinion. 'On board' implies not just agreement but also support and a willingness to participate."
+  story: |
+    A developer proposed a major architectural change. At first, the team was hesitant due to the risks. But after she presented a detailed plan, including the long-term benefits and a migration strategy, she managed to get everyone on board.
+
+- word: "roadblocks"
+  pronunciation: "/ˈroʊd.blɒks/"
+  part_of_speech: "noun"
+  meaning:
+    english: "Problems or obstacles that prevent progress or achieving a goal."
+    bahasa: "Masalah atau rintangan yang menghalangi kemajuan atau pencapaian tujuan."
+  usage: "A common metaphor in project management and problem-solving to describe any issue that stops or significantly slows down work."
+  synonyms:
+    - "blockers"
+    - "obstacles"
+    - "hurdles"
+  examples:
+    workplace:
+      - "The lack of clear documentation is a major roadblock for new developers."
+      - "We need to identify any potential roadblocks before we commit to a deadline."
+    casual:
+      - "Financial issues were a roadblock to his dream of starting a business."
+      - "Unexpected car trouble created a roadblock in their travel plans."
+  related:
+    - word: "blocker"
+      difference: "'Blocker' and 'roadblock' are often used interchangeably in software development. 'Roadblock' is a more general term understood by a wider audience, while 'blocker' is very common in Agile/Scrum contexts."
+    - word: "issue"
+      difference: "An 'issue' is a general problem or concern. A 'roadblock' is a specific type of issue that is actively preventing progress."
+  story: |
+    The team was making great progress until they hit a roadblock: the test environment was unstable. They couldn't reliably test their new code, which halted any further development. They had to create a new task to fix the environment before they could get back to their original work.
 - word: "swamped"
   pronunciation: "/swɑːmpt/"
   part_of_speech: "adjective"
