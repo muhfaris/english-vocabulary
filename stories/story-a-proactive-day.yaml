@@ -1,0 +1,18 @@
+story:
+  title: "a-proactive-day"
+  date: "2025-09-03"
+  text: |
+    My day started with a warm **cup of coffee** and a quick look at my calendar. First up was the daily **check-in** with my team. We discussed our progress and any immediate blockers. My manager asked me to **oversee** the final integration of a new feature, which meant I’d have a quick **touchpoint** with the QA team later in the afternoon to ensure everything was running smoothly.
+
+    The morning was productive, but we hit a small **setback** when a critical bug was reported in the staging environment. It was a classic case of 'it works on my machine!' We had to be **proactive** and decided to swarm on it. After a couple of hours of debugging, we managed to fix it.
+
+    By the end of the day, I had a quick meeting with my manager to **wrap up** the week's tasks. We created a clear **action item** for me for Monday: document the new integration process. It felt good to end the week with a clear plan, ready to start fresh next week.
+  highlighted_words:
+    - "cup of coffee"
+    - "check-in"
+    - "oversee"
+    - "touchpoint"
+    - "setback"
+    - "proactive"
+    - "wrap up"
+    - "action item"
