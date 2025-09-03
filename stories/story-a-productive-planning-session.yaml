@@ -1,0 +1,15 @@
+story:
+  title: "a-productive-planning-session"
+  date: "2025-09-03"
+  text: |
+    My morning started with a crucial **meeting** to plan our next big feature: a personalized user dashboard. Our project manager, Sarah, kicked things off with a clear **agenda** that she had sent out the day before. This simple step was great because it helped everyone come prepared and kept the discussion focused. The first item was to **brainstorm** ideas for the different widgets the dashboard could have.
+
+    Initially, there was a lot of **ambiguity** around the technical requirements. We weren't sure where the data would come from or how we would handle real-time updates. Questions like 'Should we use WebSockets or polling?' and 'What's the expected load on the database?' were floating around.
+
+    We spent a solid hour at the whiteboard, mapping out user flows and potential data models. It was a really productive session that helped us resolve most of the uncertainty. By the end, we had a list of action items and a shared understanding. My main task was to create a proof-of-concept for the data-fetching mechanism. Sarah scheduled a **follow-up** for Friday. In that meeting, we'll do a walkthrough of the POC and finalize the technical approach. It felt great to have a clear path forward, all thanks to one well-structured meeting.
+  highlighted_words:
+    - "meeting"
+    - "agenda"
+    - "brainstorm"
+    - "ambiguity"
+    - "follow-up"
