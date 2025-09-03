@@ -323,3 +323,195 @@
       difference: "An 'update' is information about the current status of something. A 'follow-up' is an action. You might schedule a follow-up meeting *to get* an update."
   story: |
     After a big planning meeting, the project manager noticed that several important questions were still unanswered. She created a shared document with the open items and assigned owners for each. Her follow-up action was to schedule another, shorter meeting two days later, specifically to go through that list and ensure every point was resolved.
+- word: "check-in"
+  pronunciation: "/ˈtʃɛkɪn/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A brief meeting or conversation to report progress or see how things are going."
+    bahasa: "Sebuah pertemuan atau percakapan singkat untuk melaporkan kemajuan atau melihat bagaimana keadaannya."
+  usage: "Use 'check-in' to refer to a short, often informal, status update meeting. It's common in agile or scrum environments (like a daily stand-up) but can also be used for any quick progress report."
+  synonyms:
+    - "status update"
+    - "catch-up"
+  examples:
+    workplace:
+      - "Let's have a quick check-in before the end of the day to see where we are with the deployment."
+      - "Our daily check-in is at 9 AM every morning."
+    casual:
+      - "I'm just calling for a quick check-in to see how you're feeling."
+      - "We should have a weekly check-in to make sure we're both on track with our fitness goals."
+  related:
+    - word: "stand-up"
+      difference: "A 'stand-up' is a specific type of 'check-in' that is usually daily and very short, where team members stand to keep the meeting brief. 'Check-in' is a more general term."
+    - word: "status meeting"
+      difference: "A 'status meeting' is often more formal and longer than a 'check-in'. A 'check-in' is typically quick and informal."
+  story: |
+    As a remote team, we start every day with a 15-minute video call. This daily check-in is essential for us to stay aligned. Everyone shares what they worked on yesterday and what their plan is for today. It's not for problem-solving, just a quick way to make sure we are all on the same page.
+- word: "oversee"
+  pronunciation: "/ˌoʊvərˈsiː/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To watch over and manage a job or activity to make sure it is done correctly."
+    bahasa: "Mengawasi dan mengelola suatu pekerjaan atau kegiatan untuk memastikan semuanya dilakukan dengan benar."
+  usage: "Use 'oversee' when someone is in a position of responsibility to supervise a project, a process, or a team. It implies a more hands-off management style than 'micromanage'."
+  synonyms:
+    - "supervise"
+    - "manage"
+  examples:
+    workplace:
+      - "She was chosen to oversee the development of the new mobile application."
+      - "As the tech lead, my job is to oversee the code quality of the junior developers."
+    casual:
+      - "He's overseeing the preparations for his daughter's wedding."
+      - "Can you oversee the kids while they play in the backyard?"
+  related:
+    - word: "manage"
+      difference: "'Manage' often implies more direct control and involvement in day-to-day tasks and people management, while 'oversee' suggests a higher-level supervision and ensuring things are on track."
+    - word: "supervise"
+      difference: "'Supervise' is very similar to 'oversee', but 'oversee' can sometimes imply a broader scope or a more official capacity, like overseeing a whole project, not just a few people."
+  story: |
+    When we started the new project, the director of engineering asked me to oversee the initial setup of the infrastructure. I wasn't writing the code myself, but I was responsible for making sure the team followed best practices and that our new systems were secure and scalable.
+- word: "touchpoint"
+  pronunciation: "/ˈtʌtʃpɔɪnt/"
+  part_of_speech: "noun"
+  meaning:
+    english: "An occasion when a business and a customer or two teams interact; a brief interaction."
+    bahasa: "Sebuah kesempatan ketika bisnis dan pelanggan atau dua tim berinteraksi; interaksi singkat."
+  usage: "Use 'touchpoint' to describe a point of contact or a brief meeting between different people or groups. It's a business jargon term that has become common in workplace communication."
+  synonyms:
+    - "interaction"
+    - "point of contact"
+  examples:
+    workplace:
+      - "We have a weekly touchpoint with the marketing team to keep them updated on our progress."
+      - "This meeting is a good touchpoint to align on the project goals before we start coding."
+    casual:
+      - "I try to have a daily touchpoint with my kids after school to hear about their day."
+      - "The family dinner is our main touchpoint during the week."
+  related:
+    - word: "check-in"
+      difference: "A 'check-in' is a type of 'touchpoint', but 'touchpoint' is broader. A 'touchpoint' can be any interaction (e.g., an email, a meeting, a demo), while a 'check-in' is specifically for getting a status update."
+    - word: "meeting"
+      difference: "A 'meeting' is a general term for a gathering of people. A 'touchpoint' is usually a shorter, more focused interaction, and might not even be a formal meeting (it could be a quick call or chat)."
+  story: |
+    The design team and the development team used to work in silos. To fix this, we scheduled a weekly touchpoint every Wednesday. During this 30-minute meeting, the designers share their latest mockups, and the developers give feedback on feasibility. It has improved our collaboration immensely.
+- word: "wrap up"
+  pronunciation: "/ræp ʌp/"
+  part_of_speech: "phrasal verb"
+  meaning:
+    english: "To finish or complete something."
+    bahasa: "Menyelesaikan atau mengakhiri sesuatu."
+  usage: "Use 'wrap up' to talk about bringing something to a conclusion. It can be used for meetings, projects, tasks, or even the end of the day."
+  synonyms:
+    - "finish"
+    - "conclude"
+  examples:
+    workplace:
+      - "Let's wrap up this meeting in the next five minutes."
+      - "I need to wrap up this feature by the end of the day."
+    casual:
+      - "It's getting late, let's wrap up the party."
+      - "I'm just going to wrap up this chapter before I go to bed."
+  related:
+    - word: "finish"
+      difference: "'Finish' is a more general and slightly more formal term. 'Wrap up' is more conversational and often implies completing the final parts of something."
+    - word: "complete"
+      difference: "'Complete' often suggests that all parts of a task are done and it has met a certain standard. 'Wrap up' is more about the action of bringing it to an end."
+  story: |
+    It was Friday afternoon, and everyone was eager to start the weekend. The project manager said, "Okay team, let's wrap up our work for the week. Please push your latest changes and update your tickets." We all spent the last hour documenting our progress so we could start fresh on Monday.
+- word: "cup of coffee"
+  pronunciation: "/kʌp əv ˈkɔːfi/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A common beverage, often used to signify the start of the day, a break, or an informal chat."
+    bahasa: "Secangkir kopi; minuman umum, sering digunakan untuk menandakan awal hari, istirahat, atau obrolan informal."
+  usage: "Used literally, but also metaphorically to suggest a short, informal meeting or conversation. 'Grabbing a cup of coffee' is a common way to invite someone for a chat."
+  synonyms:
+    - "coffee break"
+    - "chat over coffee"
+  examples:
+    workplace:
+      - "I always start my workday with a fresh cup of coffee."
+      - "Do you have a minute to grab a cup of coffee and discuss the new design?"
+    casual:
+      - "Let's catch up over a cup of coffee this weekend."
+      - "A good book and a cup of coffee is my perfect Sunday morning."
+  related:
+    - word: "coffee chat"
+      difference: "A 'coffee chat' is explicitly an informal meeting. A 'cup of coffee' can be just the drink, or it can imply the meeting, depending on context."
+    - word: "break"
+      difference: "A 'break' is any short period of rest from work. A 'cup of coffee' or 'coffee break' is a specific type of break."
+  story: |
+    I was struggling to understand a complex piece of legacy code. A senior engineer saw my frustration and said, "Let's grab a cup of coffee." We went to the kitchen, and over a warm drink, he drew the system architecture on a napkin. That informal chat was more helpful than hours of reading documentation.
+- word: "proactive"
+  pronunciation: "/ˌproʊˈæktɪv/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Taking action by causing change and not only reacting to change when it happens."
+    bahasa: "Mengambil tindakan dengan menyebabkan perubahan dan tidak hanya bereaksi terhadap perubahan ketika itu terjadi."
+  usage: "Use 'proactive' to describe someone who anticipates future problems, needs, or changes and takes action to prepare for them in advance. It's a highly valued trait in the workplace."
+  synonyms:
+    - "forward-thinking"
+    - "enterprising"
+  examples:
+    workplace:
+      - "She is a proactive team member, always looking for ways to improve our processes."
+      - "We need to be proactive about security, not just wait for an attack to happen."
+    casual:
+      - "He's proactive about his health and gets a check-up every year."
+      - "Being proactive about saving money now will help you in the future."
+  related:
+    - word: "reactive"
+      difference: "'Reactive' is the opposite of 'proactive'. Reactive means waiting for something to happen and then responding to it. Proactive means acting in advance."
+    - word: "active"
+      difference: "'Active' means being busy or involved in something. 'Proactive' is more specific; it means being active in a way that anticipates the future."
+  story: |
+    Our system used to have a lot of small outages that we would fix as they happened. A new engineer on the team decided to be proactive. She spent a week adding better monitoring and alerts to our system. Now, we often get notified of potential problems before they affect our users.
+- word: "setback"
+  pronunciation: "/ˈsɛtbæk/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A problem that makes progress more difficult or success less likely."
+    bahasa: "Sebuah masalah yang membuat kemajuan lebih sulit atau kesuksesan kurang mungkin terjadi."
+  usage: "Use 'setback' to describe an unexpected problem or delay in a project or plan. It's a common way to talk about challenges without being overly negative."
+  synonyms:
+    - "obstacle"
+    - "hitch"
+  examples:
+    workplace:
+      - "The unexpected bug was a major setback for our release schedule."
+      - "Losing a key team member was a temporary setback, but we've recovered."
+    casual:
+      - "The bad weather was a setback for our holiday plans."
+      - "Failing the exam was a setback, but he's determined to try again."
+  related:
+    - word: "blocker"
+      difference: "A 'blocker' is something that completely stops progress on a task. A 'setback' is a problem that makes progress harder or slower, but doesn't necessarily stop it completely."
+    - word: "failure"
+      difference: "'Failure' is a lack of success. A 'setback' is a problem on the way to a goal, but the goal might still be achievable. A setback can lead to failure, but it isn't failure itself."
+  story: |
+    We were on track to finish the project a week ahead of schedule. However, we faced a major setback when our cloud provider had a regional outage. Our staging environment was down for a whole day, which delayed our testing and pushed back our final deployment.
+- word: "action item"
+  pronunciation: "/ˈækʃən ˈaɪtəm/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A discrete task that must be accomplished, usually arising from a meeting or discussion."
+    bahasa: "Tugas terpisah yang harus diselesaikan, biasanya muncul dari pertemuan atau diskusi."
+  usage: "Use 'action item' in a professional context, especially after meetings, to refer to specific, assigned tasks. It helps ensure that discussions lead to concrete outcomes."
+  synonyms:
+    - "task"
+    - "to-do"
+  examples:
+    workplace:
+      - "The main action item from this meeting is for me to create a project proposal."
+      - "Let's summarize the action items before we end the call."
+    casual:
+      - "After our family meeting, our action item was to clean the garage this weekend."
+      - "My action item from the doctor's visit is to schedule a follow-up appointment."
+  related:
+    - word: "task"
+      difference: "'Task' is a general word for any piece of work. An 'action item' is specifically a task that has been identified and assigned during a meeting or discussion."
+    - word: "deliverable"
+      difference: "A 'deliverable' is a tangible outcome or product of a project (e.g., a report, a piece of software). An 'action item' is a task that needs to be done, which might contribute to a deliverable."
+  story: |
+    Our weekly sync meeting used to be just a lot of talking. We'd discuss problems but nothing would get done. We changed the format so that at the end of every meeting, we explicitly define the action items. Each action item has an owner and a due date. It has made our meetings much more productive.
