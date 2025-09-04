@@ -1,0 +1,16 @@
+story:
+  title: "the-afternoon-brainstorm"
+  date: "2025-09-04"
+  text: |
+    My morning was filled with routine tasks: code reviews and fixing a minor **glitch**. The real challenge came after lunch. Our team gathered in a meeting room for a **brainstorm** session. The goal was to come up with ideas for the next quarter's main project. The energy was high, and we filled the whiteboard with diagrams and notes.
+
+    The product manager wanted a new feature, but the engineering team had concerns about its **feasibility**. We needed to **align** on a solution that was both valuable for users and technically possible. After a lot of discussion, we started to find some common ground. We didn't **finalize** everything, but we made good **progress**. The session ended with a clear **takeaway** for everyone: to do some individual research on the most promising ideas. It felt like a productive afternoon, a good first step in defining our future **roadmap**.
+  highlighted_words:
+    - "glitch"
+    - "brainstorm"
+    - "feasibility"
+    - "align"
+    - "finalize"
+    - "progress"
+    - "takeaway"
+    - "roadmap"
