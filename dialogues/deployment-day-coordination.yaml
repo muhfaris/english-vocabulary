@@ -1,0 +1,56 @@
+dialogue:
+  - speaker: Alex
+    english: "Morning, team! It's deployment day. Is everything ready for the big push?"
+    bahasa: "Pagi, tim! Hari ini hari deployment. Apakah semuanya sudah siap untuk rilis besar ini?"
+  - speaker: Ben
+    english: "Morning, Alex. The final build passed all the tests. We're good to go from the backend side."
+    bahasa: "Pagi, Alex. Build terakhir sudah lolos semua tes. Dari sisi backend, kami sudah siap."
+  - speaker: Chloe
+    english: "Frontend is also ready. I've smoke-tested the UI on staging one last time."
+    bahasa: "Frontend juga sudah siap. Aku sudah melakukan smoke test pada UI di staging untuk terakhir kalinya."
+  - speaker: Alex
+    english: "Excellent. What's our rollback plan if things go south?"
+    bahasa: "Bagus sekali. Apa rencana rollback kita jika terjadi masalah?"
+  - speaker: Ben
+    english: "We have a script to revert the database schema and redeploy the previous version. It should take about 5 minutes."
+    bahasa: "Kami punya skrip untuk mengembalikan skema database dan mendeploy ulang versi sebelumnya. Seharusnya memakan waktu sekitar 5 menit."
+  - speaker: Chloe
+    english: "And for the frontend, we can just point the CDN back to the old asset bundle."
+    bahasa: "Dan untuk frontend, kita tinggal mengarahkan CDN kembali ke bundle aset yang lama."
+  - speaker: Alex
+    english: "Sounds solid. Let's start the deployment then. I'll monitor the logs and error rates."
+    bahasa: "Terdengar solid. Mari kita mulai deployment-nya. Aku akan memantau log dan tingkat error."
+  - speaker: Ben
+    english: "Okay, kicking off the backend deployment now."
+    bahasa: "Oke, aku mulai deployment backend sekarang."
+  - speaker: Chloe
+    english: "I'll get ready to switch the frontend once the backend is up."
+    bahasa: "Aku akan bersiap untuk mengganti frontend setelah backend-nya aktif."
+  - speaker: Alex
+    english: "Keep me in the loop, please. Communication is key on days like this."
+    bahasa: "Tolong terus kabari aku, ya. Komunikasi adalah kunci di hari-hari seperti ini."
+
+expressions:
+  - phrase: "the big push"
+    meaning_english: "A major release or deployment of a new version of the software."
+    meaning_bahasa: "Rilis atau deployment besar dari versi baru perangkat lunak."
+  - phrase: "good to go"
+    meaning_english: "Ready to proceed; everything is in order."
+    meaning_bahasa: "Siap untuk melanjutkan; semuanya sudah beres."
+  - phrase: "smoke-tested"
+    meaning_english: "Performed a quick, basic set of tests to ensure the most critical functions of the software are working."
+    meaning_bahasa: "Melakukan serangkaian tes dasar dan cepat untuk memastikan fungsi paling kritis dari perangkat lunak berjalan."
+  - phrase: "go south"
+    meaning_english: "To fail or go wrong."
+    meaning_bahasa: "Gagal atau menjadi salah."
+  - phrase: "keep me in the loop"
+    meaning_english: "Keep me informed and updated about what is happening."
+    meaning_bahasa: "Terus beri aku informasi dan pembaruan tentang apa yang terjadi."
+
+questions:
+  - q: "What is the main topic of the conversation?"
+    a: "The team is coordinating the deployment of a new version of their software."
+  - q: "What does Ben say to confirm the backend is ready?"
+    a: "He says the final build passed all the tests and they are 'good to go'."
+  - q: "What is a 'rollback plan'?"
+    a: "It's a plan to undo the changes and restore the previous state if the deployment fails."
