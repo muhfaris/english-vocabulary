@@ -1,0 +1,18 @@
+story:
+  title: "a-sudden-shift-in-priorities"
+  date: "2025-09-04"
+  text: |
+    My morning started as usual: a cup of coffee while reviewing the **backlog**. During our daily **stand-up**, we all agreed on the sprint goals. I was supposed to work on a new feature, which I was quite excited about. But just as I was about to start, a **critical** bug was reported in production.
+
+    Immediately, my manager called for a quick **huddle**. He said, "I know this is sudden, but we need to **tackle** this bug immediately. It's affecting a major client." So, my original task was put on the **back-burner**.
+
+    I spent the next few hours investigating the issue. It was a tricky one, hidden deep in the legacy code. After a lot of debugging, I finally found the root cause. I implemented a **patch** and pushed it to the staging environment for testing. The initial tests looked good, so we're planning to **deploy** it to production by the end of the day. It's a classic example of how quickly priorities can shift in a dynamic work environment.
+  highlighted_words:
+    - "backlog"
+    - "stand-up"
+    - "critical"
+    - "huddle"
+    - "tackle"
+    - "back-burner"
+    - "patch"
+    - "deploy"

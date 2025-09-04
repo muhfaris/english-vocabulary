@@ -1,0 +1,25 @@
+- word: "critical"
+  pronunciation: "/ˈkrɪtɪkəl/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Extremely important or necessary for a particular situation or task; relating to or denoting a point of transition from one state to another."
+    bahasa: "Sangat penting atau diperlukan untuk situasi atau tugas tertentu; berhubungan dengan atau menunjukkan titik transisi dari satu keadaan ke keadaan lain."
+  usage: "Use 'critical' to describe something that is absolutely essential or of the highest importance. In a software context, it often refers to bugs that can cause a system to fail, or features that are fundamental to the product."
+  synonyms:
+    - "crucial"
+    - "vital"
+    - "essential"
+  examples:
+    workplace:
+      - "We've discovered a critical bug in the payment gateway that needs to be fixed immediately."
+      - "This feature is critical for the upcoming product launch."
+    casual:
+      - "It's critical to book your tickets in advance during the holiday season."
+      - "Having a good internet connection is critical for remote work."
+  related:
+    - word: "blocker"
+      difference: "'Critical' describes the importance of a task or bug, while a 'blocker' is something that prevents you from making progress on a task. A critical bug is often a blocker for a release."
+    - word: "urgent"
+      difference: "'Critical' refers to importance, while 'urgent' refers to time sensitivity. A task can be critical but not urgent, or urgent but not critical. However, a critical bug is usually also urgent."
+  story: |
+    During the final testing phase, the QA team found a **critical** issue. If a user tried to upload a file larger than 10MB, the entire application would crash. This was a showstopper for the release. The team had to work overnight to fix this **critical** bug, as the launch was scheduled for the next day. The fix was successfully deployed just a few hours before the official launch.
