@@ -1,0 +1,25 @@
+story:
+  title: "a-quick-checkpoint"
+  date: "2025-09-05"
+  text: |
+    My morning started with a fresh cup of coffee and a quick look at my tasks. I’m currently building a new feature, and the **timeline** is a bit tight. My manager, Sarah, pinged me for a quick **checkpoint**.
+
+    “How’s it going?” she asked.
+
+    “Pretty good,” I replied. “The basic structure is done. I’m just figuring out the most **efficient** way to handle the data processing.”
+
+    She nodded. “Great. We have a **showcase** with the product team next week, so I wanted to see if you had any **concerns**.”
+
+    “Not really blockers,” I said, “but I do have a question about the user **workflow**. I think we can simplify it. I have some ideas that might make it more intuitive for the user.”
+
+    “That’s great **insight**,” she said. “Let’s schedule a quick 30-minute meeting this afternoon to go over your ideas. A more streamlined process is always a win.”
+
+    We ended the chat, and I felt more aligned. It's always good to have these small check-ins to make sure we're on the right path and to get timely feedback.
+  highlighted_words:
+    - "timeline"
+    - "checkpoint"
+    - "efficient"
+    - "showcase"
+    - "concerns"
+    - "workflow"
+    - "insight"

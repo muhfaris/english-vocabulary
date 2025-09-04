@@ -1,0 +1,168 @@
+- word: "timeline"
+  pronunciation: "/ˈtaɪm.laɪn/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A schedule of when events are planned to happen."
+    bahasa: "Garis waktu atau jadwal kapan suatu peristiwa direncanakan untuk terjadi."
+  usage: "Use 'timeline' to talk about the schedule for a project or task, including key dates and deadlines."
+  synonyms:
+    - "schedule"
+    - "roadmap"
+  examples:
+    workplace:
+      - "What's the timeline for delivering this feature?"
+      - "We need to adjust the project timeline because of the unexpected delay."
+    casual:
+      - "The timeline for our vacation is pretty packed."
+      - "Let's create a timeline for our weekend chores."
+  related:
+    - word: "deadline"
+      difference: "'Deadline' is the final date for completing a task, while 'timeline' is the entire schedule of events leading up to the deadline."
+    - word: "roadmap"
+      difference: "'Roadmap' is a high-level, strategic plan of goals and milestones, often for a product or company. A 'timeline' is more detailed and execution-focused for a specific project."
+  story: |
+    During the sprint planning, the project manager presented the timeline for the next two weeks. It showed all the tasks, their dependencies, and the final deadline. This helped the team understand the priorities and manage their work effectively.
+- word: "checkpoint"
+  pronunciation: "/ˈtʃek.pɔɪnt/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A point in time, especially in a project, at which you measure progress."
+    bahasa: "Sebuah titik waktu, terutama dalam sebuah proyek, di mana Anda mengukur kemajuan."
+  usage: "Use 'checkpoint' to refer to a specific time to review progress and ensure things are on track."
+  synonyms:
+    - "milestone"
+    - "check-in"
+  examples:
+    workplace:
+      - "Let's set up a checkpoint for next Wednesday to review the prototype."
+      - "The weekly demo serves as a good checkpoint for the team."
+    casual:
+      - "Our halfway point on the hike was a good checkpoint to rest."
+      - "The end of the month is a financial checkpoint for me to review my budget."
+  related:
+    - word: "milestone"
+      difference: "A 'milestone' is a significant achievement or event in a project, while a 'checkpoint' is more of a routine check-in to monitor progress between milestones."
+    - word: "status update"
+      difference: "A 'status update' is the information you provide at a 'checkpoint'. The checkpoint is the meeting or event itself."
+  story: |
+    The team agreed to have a daily checkpoint at 10 AM. It wasn't a long meeting, just a quick 15-minute sync to discuss what everyone was working on and if there were any blockers. This helped them stay aligned without waiting for the formal weekly review.
+- word: "showcase"
+  pronunciation: "/ˈʃoʊ.keɪs/"
+  part_of_speech: "noun"
+  meaning:
+    english: "An event where something is presented to the public or a wider audience, especially to demonstrate its qualities."
+    bahasa: "Sebuah acara di mana sesuatu dipresentasikan kepada publik atau audiens yang lebih luas, terutama untuk menunjukkan kualitasnya."
+  usage: "Use 'showcase' to refer to a demonstration of work, like a new feature or product, to stakeholders or other teams."
+  synonyms:
+    - "demo"
+    - "presentation"
+  examples:
+    workplace:
+      - "We're having a showcase at the end of the sprint to show what we've built."
+      - "The team is preparing for the product showcase next week."
+    casual:
+      - "The art school is having a showcase of student work this weekend."
+      - "He used the party as a showcase for his cooking skills."
+  related:
+    - word: "demo"
+      difference: "'Demo' (demonstration) and 'showcase' are often used interchangeably. However, 'showcase' can imply a more formal or polished presentation to a wider audience, while a 'demo' can be more informal and technical."
+    - word: "exhibition"
+      difference: "An 'exhibition' is usually for art, products, or trade shows, and is often a large-scale public event. A 'showcase' in a workplace context is typically smaller and internal."
+  story: |
+    After two weeks of hard work, it was time for the sprint showcase. The team presented the new features to the product owner and other stakeholders. It was a great opportunity to get feedback and celebrate the progress they had made.
+- word: "concerns"
+  pronunciation: "/kənˈsɜːrnz/"
+  part_of_speech: "noun"
+  meaning:
+    english: "Worries or issues that you feel are important or need attention."
+    bahasa: "Kekhawatiran atau masalah yang Anda rasa penting atau perlu perhatian."
+  usage: "Use 'concerns' in a professional setting to raise potential problems, risks, or questions about a project or decision."
+  synonyms:
+    - "issues"
+    - "worries"
+  examples:
+    workplace:
+      - "I have some concerns about the new library's performance."
+      - "Let's discuss any concerns you have about the proposed timeline."
+    casual:
+      - "She expressed her concerns about his health."
+      - "My main concern is whether we'll get there on time."
+  related:
+    - word: "blocker"
+      difference: "A 'blocker' is a specific issue that prevents you from making progress. 'Concerns' are more general worries that may or may not be blockers yet, but need to be discussed."
+    - word: "risk"
+      difference: "A 'risk' is a potential future problem. 'Concerns' is a broader term that can include current issues, questions, or feelings of unease."
+  story: |
+    During the project kickoff meeting, the lead engineer raised some concerns about the database's ability to handle the expected load. It wasn't a blocker yet, but it was a valid point. The team decided to do some performance testing to address these concerns before committing to the design.
+- word: "efficient"
+  pronunciation: "/ɪˈfɪʃ.ənt/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Working in a well-organized and competent way, achieving maximum productivity with minimum wasted effort or expense."
+    bahasa: "Bekerja dengan cara yang terorganisir dan kompeten, mencapai produktivitas maksimum dengan usaha atau biaya yang terbuang minimum."
+  usage: "Use 'efficient' to describe a process, code, or person that produces good results without wasting time or resources."
+  synonyms:
+    - "productive"
+    - "streamlined"
+  examples:
+    workplace:
+      - "We need to find a more efficient way to run our tests."
+      - "She is a very efficient developer who writes clean code quickly."
+    casual:
+      - "Taking the highway is more efficient than going through the city."
+      - "He has a very efficient morning routine."
+  related:
+    - word: "effective"
+      difference: "'Effective' means doing the right thing (producing the desired result). 'Efficient' means doing the thing right (with the least amount of resources). You can be effective but not efficient."
+    - word: "productive"
+      difference: "'Productive' refers to the quantity of output. 'Efficient' refers to the quality of the process (output relative to input). An efficient process is usually productive, but a productive person isn't always efficient."
+  story: |
+    The old deployment script took 30 minutes to run. The team decided to refactor it to make it more efficient. After a few days of work, the new script could deploy the application in just 5 minutes, saving the team a lot of time each week.
+- word: "workflow"
+  pronunciation: "/ˈwɜːrk.floʊ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The sequence of steps involved in moving from the beginning to the end of a working process."
+    bahasa: "Urutan langkah-langkah yang terlibat dalam bergerak dari awal hingga akhir suatu proses kerja."
+  usage: "Use 'workflow' to describe any process, from a user's journey through an app to your team's process for developing and deploying code."
+  synonyms:
+    - "process"
+    - "procedure"
+  examples:
+    workplace:
+      - "Our team's workflow is to create a branch for each new feature."
+      - "We need to improve the user workflow for the checkout page."
+    casual:
+      - "My morning workflow starts with making coffee."
+      - "He has a specific workflow for editing his photos."
+  related:
+    - word: "process"
+      difference: "'Workflow' and 'process' are very similar. 'Workflow' often implies a more automated or systematic sequence of tasks, especially in a digital context, while 'process' is a more general term."
+    - word: "pipeline"
+      difference: "A 'pipeline' usually refers to a specific, often automated, workflow for data or code, like a CI/CD pipeline. 'Workflow' is a broader term that can include manual steps."
+  story: |
+    The design team presented the new user workflow for signing up. It was much simpler than the old one, with fewer steps. The developers discussed the technical requirements to implement this new workflow and how it would affect the existing code.
+- word: "insight"
+  pronunciation: "/ˈɪn.saɪt/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A deep and accurate understanding of a person or thing."
+    bahasa: "Pemahaman yang mendalam dan akurat tentang seseorang atau sesuatu."
+  usage: "Use 'insight' to refer to a valuable understanding or idea gained from data, experience, or discussion."
+  synonyms:
+    - "understanding"
+    - "realization"
+  examples:
+    workplace:
+      - "The user feedback gave us some valuable insight into their pain points."
+      - "Her analysis provided a new insight into the performance issue."
+    casual:
+      - "The book offers a fascinating insight into human behavior."
+      - "Talking to him gave me some insight into his motivations."
+  related:
+    - word: "feedback"
+      difference: "'Feedback' is information or opinions about something. 'Insight' is the valuable understanding you gain from that feedback. You get insight from feedback."
+    - word: "data"
+      difference: "'Data' is raw facts and figures. 'Insight' is the meaningful conclusion or understanding you derive from analyzing that data."
+  story: |
+    After analyzing the user activity logs, the data analyst shared a key insight with the team: most users were dropping off at the payment step. This insight helped the team realize there was a problem with the payment form, and they decided to prioritize fixing it in the next sprint.
