@@ -1,0 +1,61 @@
+dialogue:
+  - speaker: Ben
+    english: "Hey Alex, I've managed to fix that bug in the payment module. But I had to cut some corners to meet the deadline."
+    bahasa: "Hai Alex, aku berhasil memperbaiki bug di modul pembayaran. Tapi aku harus ambil jalan pintas untuk memenuhi tenggat waktu."
+  - speaker: Alex
+    english: "Glad to hear it's fixed. What do you mean by 'cut some corners'?"
+    bahasa: "Senang mendengarnya sudah diperbaiki. Apa maksudmu dengan 'ambil jalan pintas'?"
+  - speaker: Ben
+    english: "I hardcoded a value instead of fetching it from the config service. It works, but it feels a bit brittle."
+    bahasa: "Aku melakukan hardcode sebuah nilai daripada mengambilnya dari layanan konfigurasi. Ini berfungsi, tapi rasanya agak rapuh."
+  - speaker: Alex
+    english: "Ah, I see. What you're describing is a classic example of accumulating technical debt."
+    bahasa: "Ah, begitu. Apa yang kamu jelaskan adalah contoh klasik dari menumpuk utang teknis."
+  - speaker: Ben
+    english: "Technical debt? I've heard the term, but I'm not entirely sure what it means."
+    bahasa: "Utang teknis? Aku pernah mendengar istilah itu, tapi aku tidak sepenuhnya yakin apa artinya."
+  - speaker: Alex
+    english: "Think of it like a financial debt. We're taking a shortcut now to save time, but we'll have to 'pay it back' later with interest, which is the extra time it will take to refactor it."
+    bahasa: "Anggap saja seperti utang finansial. Kita mengambil jalan pintas sekarang untuk menghemat waktu, tetapi kita harus 'membayarnya kembali' nanti dengan bunga, yaitu waktu ekstra yang dibutuhkan untuk melakukan refaktor."
+  - speaker: Ben
+    english: "So, if we don't fix it now, it will cause more problems in the future?"
+    bahasa: "Jadi, jika kita tidak memperbaikinya sekarang, ini akan menyebabkan lebih banyak masalah di masa depan?"
+  - speaker: Alex
+    english: "Exactly. We could kick the can down the road, but it will only get more complicated. It's better to bite the bullet and refactor it properly now."
+    bahasa: "Tepat sekali. Kita bisa menunda masalah ini, tetapi hanya akan menjadi lebih rumit. Lebih baik kita hadapi sekarang dan melakukan refaktor dengan benar."
+  - speaker: Ben
+    english: "Okay, that makes sense. It will be better for the project in the long run. Can you show me the proper way to fetch from the config service?"
+    bahasa: "Oke, itu masuk akal. Ini akan lebih baik untuk proyek dalam jangka panjang. Bisakah kamu menunjukkan cara yang benar untuk mengambil dari layanan konfigurasi?"
+  - speaker: Alex
+    english: "Of course. Let's do a quick pair programming session. It's a good investment of our time."
+    bahasa: "Tentu saja. Mari kita lakukan sesi pair programming singkat. Ini adalah investasi waktu yang baik."
+
+expressions:
+  - phrase: "cut corners"
+    meaning_english: "To do something in the easiest or fastest way, often by ignoring rules or quality standards."
+    meaning_bahasa: "Ambil jalan pintas: Melakukan sesuatu dengan cara termudah atau tercepat, seringkali dengan mengabaikan aturan atau standar kualitas."
+  - phrase: "brittle"
+    meaning_english: "In software, code that works but is likely to break easily when changes are made."
+    meaning_bahasa: "Rapuh: Dalam perangkat lunak, kode yang berfungsi tetapi kemungkinan besar akan mudah rusak ketika ada perubahan."
+  - phrase: "technical debt"
+    meaning_english: "The implied cost of rework caused by choosing an easy solution now instead of using a better approach that would take longer."
+    meaning_bahasa: "Utang teknis: Biaya pengerjaan ulang yang tersirat yang disebabkan oleh pemilihan solusi mudah sekarang daripada menggunakan pendekatan yang lebih baik yang akan memakan waktu lebih lama."
+  - phrase: "kick the can down the road"
+    meaning_english: "To avoid dealing with a problem, hoping that it will be dealt with later."
+    meaning_bahasa: "Menunda masalah: Menghindari menangani masalah, dengan harapan masalah itu akan ditangani nanti."
+  - phrase: "bite the bullet"
+    meaning_english: "To decide to do something difficult or unpleasant that one has been hesitating over."
+    meaning_bahasa: "Menghadapi sekarang: Memutuskan untuk melakukan sesuatu yang sulit atau tidak menyenangkan yang selama ini diragukan."
+  - phrase: "in the long run"
+    meaning_english: "Over a long period of time; eventually."
+    meaning_bahasa: "Dalam jangka panjang: Selama periode waktu yang lama; pada akhirnya."
+
+questions:
+  - q: "What shortcut did Ben take to fix the bug?"
+    a: "He hardcoded a value instead of fetching it from the configuration service."
+  - q: "How does Alex describe technical debt?"
+    a: "He compares it to a financial debt that needs to be paid back later with interest (more work)."
+  - q: "What does the phrase 'kick the can down the road' mean in their conversation?"
+    a: "It means avoiding the necessary refactoring work and leaving it for a later time."
+  - q: "What do Alex and Ben decide to do at the end?"
+    a: "They decide to refactor the code immediately through a pair programming session."
