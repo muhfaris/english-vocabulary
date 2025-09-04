@@ -1,0 +1,70 @@
+dialogue:
+  - speaker: Alex
+    english: "Hey Ben, got a minute? I've been looking at the analytics for the dashboard page, and it's loading really slowly."
+    bahasa: "Hai Ben, ada waktu sebentar? Aku sedang melihat analitik untuk halaman dasbor, dan halamannya lambat sekali dimuat."
+  - speaker: Ben
+    english: "Oh, really? I noticed that too but haven't had the chance to dig into it. What have you found so far?"
+    bahasa: "Oh, ya? Aku juga menyadarinya tapi belum sempat mendalaminya. Apa yang sudah kamu temukan sejauh ini?"
+  - speaker: Alex
+    english: "It seems like the main bottleneck is the API call to fetch user activity data. It's taking several seconds to respond."
+    bahasa: "Sepertinya bottleneck utamanya adalah panggilan API untuk mengambil data aktivitas pengguna. Butuh beberapa detik untuk merespons."
+  - speaker: Ben
+    english: "I see. That's a heavy query. It joins multiple tables. We probably need to optimize it or introduce some caching."
+    bahasa: "Aku mengerti. Itu query yang berat. Menggabungkan beberapa tabel. Kita mungkin perlu mengoptimalkannya atau memperkenalkan caching."
+  - speaker: Alex
+    english: "I was thinking the same thing. Caching seems like a good low-hanging fruit. The data doesn't need to be real-time, maybe updated every hour."
+    bahasa: "Aku juga berpikir begitu. Caching sepertinya solusi yang mudah dicapai. Datanya tidak perlu real-time, mungkin diperbarui setiap jam."
+  - speaker: Ben
+    english: "That makes sense. We could use Redis for that. It's fast and we already have it in our stack."
+    bahasa: "Masuk akal. Kita bisa menggunakan Redis untuk itu. Cepat dan kita sudah punya di tumpukan teknologi kita."
+  - speaker: Alex
+    english: "Good idea. What about the query itself? Should we still try to optimize it?"
+    bahasa: "Ide bagus. Bagaimana dengan query-nya sendiri? Haruskah kita tetap mencoba mengoptimalkannya?"
+  - speaker: Ben
+    english: "Definitely. Caching helps, but a more efficient query is always better for the database's health in the long run. Let's run some profiling to see the exact execution plan."
+    bahasa: "Tentu saja. Caching membantu, tapi query yang lebih efisien selalu lebih baik untuk kesehatan database dalam jangka panjang. Mari kita jalankan profiling untuk melihat rencana eksekusi yang tepat."
+  - speaker: Alex
+    english: "Alright. So the plan is: profile the query, optimize it, and then implement a caching layer with a one-hour TTL."
+    bahasa: "Baiklah. Jadi rencananya adalah: profil query, optimalkan, lalu implementasikan lapisan caching dengan TTL satu jam."
+  - speaker: Ben
+    english: "Exactly. It's a good trade-off between performance and data freshness. I can start on the query profiling this afternoon."
+    bahasa: "Tepat sekali. Ini adalah trade-off yang bagus antara performa dan kebaruan data. Aku bisa mulai profiling query sore ini."
+  - speaker: Alex
+    english: "Perfect. I'll create a ticket for it and assign it to you. Thanks for the help, Ben!"
+    bahasa: "Sempurna. Aku akan membuat tiket untuk ini dan menugaskannya padamu. Terima kasih bantuannya, Ben!"
+  - speaker: Ben
+    english: "No problem, Alex. We're in the same boat when it comes to keeping the app snappy."
+    bahasa: "Tidak masalah, Alex. Kita senasib dalam hal menjaga aplikasi tetap responsif."
+
+expressions:
+  - phrase: "bottleneck"
+    meaning_english: "A point of congestion in a system that slows down the overall process."
+    meaning_bahasa: "Titik kemacetan dalam sistem yang memperlambat proses secara keseluruhan."
+  - phrase: "dig into it"
+    meaning_english: "To investigate or study something in detail."
+    meaning_bahasa: "Menyelidiki atau mempelajari sesuatu secara rinci."
+  - phrase: "low-hanging fruit"
+    meaning_english: "An objective that is easy to achieve."
+    meaning_bahasa: "Tujuan yang mudah dicapai."
+  - phrase: "in the long run"
+    meaning_english: "Over a long period of time; eventually."
+    meaning_bahasa: "Dalam jangka waktu yang lama; pada akhirnya."
+  - phrase: "trade-off"
+    meaning_english: "A situational decision that involves diminishing or losing one quality, quantity, or property of a set or design in return for gains in other aspects."
+    meaning_bahasa: "Keputusan situasional yang melibatkan pengurangan atau kehilangan satu kualitas, kuantitas, atau properti dari suatu set atau desain sebagai imbalan atas keuntungan dalam aspek lain."
+  - phrase: "in the same boat"
+    meaning_english: "To be in the same difficult or unfortunate situation as someone else."
+    meaning_bahasa: "Berada dalam situasi sulit atau tidak menguntungkan yang sama dengan orang lain."
+  - phrase: "snappy"
+    meaning_english: "Quick and energetic; responsive."
+    meaning_bahasa: "Cepat dan energik; responsif."
+
+questions:
+  - q: "What was the main problem Alex identified with the dashboard page?"
+    a: "The dashboard page was loading very slowly because of a slow API call to fetch user activity data."
+  - q: "What were the two main solutions Ben proposed to solve the performance issue?"
+    a: "Ben proposed optimizing the database query and introducing a caching layer using Redis."
+  - q: "What is the agreed-upon plan to address the issue?"
+    a: "The plan is to first profile the query to understand its execution, then optimize it, and finally implement a caching layer with a one-hour time-to-live (TTL)."
+  - q: "What does the expression 'low-hanging fruit' refer to in their conversation?"
+    a: "It refers to implementing caching, which Alex considered an easy and effective first step to improve performance."
