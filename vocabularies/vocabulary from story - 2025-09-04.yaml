@@ -73,3 +73,128 @@
       difference: "An 'action item' is a specific task assigned to someone. A 'takeaway' is a key idea or conclusion. A takeaway might *lead* to an action item, but they are not the same."
   story: |
     The team held a retrospective to discuss what went well and what didn't during the last sprint. After an hour of discussion, the Scrum Master summarized the conversation. "My key takeaway," she said, "is that our testing process needs improvement. We all agree on that. The resulting action item is for me to schedule a follow-up meeting to brainstorm a better testing strategy."
+- word: "kick-start"
+  pronunciation: "/ˈkɪk.stɑːrt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To start something quickly and energetically."
+    bahasa: "Memulai sesuatu dengan cepat dan penuh semangat."
+  usage: "Use 'kick-start' when you want to describe the beginning of a process, project, or event that is done with a burst of energy or a specific action to get it going."
+  synonyms:
+    - "initiate"
+    - "launch"
+    - "get going"
+  examples:
+    workplace:
+      - "Let's kick-start the week with a quick team meeting to align on our goals."
+      - "We need a good marketing campaign to kick-start sales of the new product."
+    casual:
+      - "I always kick-start my day with a cup of strong coffee."
+      - "He tried to kick-start his old motorcycle, but the engine wouldn't turn over."
+  related:
+    - word: "jump-start"
+      difference: "'Jump-start' often implies starting something that was stalled or having trouble, like a car battery. 'Kick-start' is more general and implies starting with energy, not necessarily fixing a problem."
+    - word: "initiate"
+      difference: "'Initiate' is more formal and means to cause a process or action to begin. 'Kick-start' is more informal and emphasizes speed and energy."
+  story: |
+    The project manager decided to kick-start the new development sprint with a brainstorming session. She hoped this energetic start would build momentum and get everyone excited about the upcoming tasks.
+- word: "resolve"
+  pronunciation: "/rɪˈzɒlv/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To find a solution to a problem, dispute, or contentious matter."
+    bahasa: "Menyelesaikan atau menemukan solusi untuk suatu masalah atau perselisihan."
+  usage: "Use 'resolve' when you have a problem, conflict, or issue that needs a definitive solution. It implies a more final and thorough fixing than just 'solving'."
+  synonyms:
+    - "solve"
+    - "settle"
+    - "fix"
+  examples:
+    workplace:
+      - "We need to resolve this bug before the end of the day."
+      - "The support team was able to resolve the customer's issue within an hour."
+    casual:
+      - "They finally resolved their disagreement and are friends again."
+      - "He made a New Year's resolution to resolve his financial debts."
+  related:
+    - word: "solve"
+      difference: "'Solve' is generally used for problems, puzzles, or questions that have a correct answer. 'Resolve' is often used for disputes, conflicts, or complex issues that require a decision or settlement between different options or parties."
+    - word: "fix"
+      difference: "'Fix' is more informal and usually refers to repairing something that is broken or not working correctly. 'Resolve' is broader and can apply to abstract issues like conflicts or doubts."
+  story: |
+    The team had been debating the best database to use for weeks. To resolve the issue, the tech lead scheduled a meeting, presented the pros and cons of each option, and guided the team to a final decision.
+- word: "sync"
+  pronunciation: "/sɪŋk/"
+  part_of_speech: "noun/verb"
+  meaning:
+    english: "(noun) A short meeting to share information and ensure everyone is aligned. (verb) To align or synchronize."
+    bahasa: "(kata benda) Pertemuan singkat untuk berbagi informasi dan memastikan semua orang selaras. (kata kerja) Menyelaraskan atau menyinkronkan."
+  usage: "In a workplace context, 'sync' is a casual term for a short meeting. It's used to imply a quick, informal catch-up rather than a long, formal meeting."
+  synonyms:
+    - "catch-up"
+    - "check-in"
+    - "alignment meeting"
+  examples:
+    workplace:
+      - "Let's have a quick sync before the client presentation."
+      - "I need to sync with the product manager about the new feature requirements."
+    casual:
+      - "Let's sync up later this week to plan our trip."
+      - "Make sure your phone is set to sync your contacts with the cloud."
+  related:
+    - word: "meeting"
+      difference: "'Meeting' is a general term for any gathering. A 'sync' is specifically a short meeting focused on alignment and information sharing, and is a more informal, modern office slang."
+    - word: "sync up"
+      difference: "'Sync up' is a phrasal verb that means the same as the verb 'sync'. They are often used interchangeably in conversation (e.g., 'Let's sync' vs. 'Let's sync up')."
+  story: |
+    Before writing any code, the frontend and backend developers had a quick 15-minute sync. They wanted to agree on the data format for the API to avoid any integration issues later. This brief meeting saved them hours of rework.
+- word: "deep work"
+  pronunciation: "/diːp wɜːrk/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "Professional activities performed in a state of distraction-free concentration that push your cognitive capabilities to their limit."
+    bahasa: "Aktivitas profesional yang dilakukan dalam keadaan konsentrasi bebas gangguan yang mendorong kemampuan kognitif Anda hingga batasnya."
+  usage: "Use 'deep work' to describe a period of intense, focused work without interruptions like emails, messages, or meetings. It's for tasks that require significant mental effort."
+  synonyms:
+    - "focused work"
+    - "concentration"
+    - "flow state"
+  examples:
+    workplace:
+      - "I'm blocking off my calendar for two hours of deep work this afternoon."
+      - "To solve this complex algorithm, I need a few hours of uninterrupted deep work."
+    casual:
+      - "Writing a novel requires a lot of deep work."
+      - "When I'm studying for exams, I try to get into a state of deep work."
+  related:
+    - word: "multitasking"
+      difference: "'Deep work' is the opposite of 'multitasking'. Deep work involves focusing on a single task, while multitasking involves switching between multiple tasks, which often leads to reduced focus and quality."
+    - word: "flow"
+      difference: "'Flow' is a psychological state of being fully immersed in an activity. 'Deep work' is the practice or activity that often leads to a state of flow."
+  story: |
+    As a programmer, some bugs can't be fixed in between meetings. For a particularly tricky issue, I booked a meeting room for myself, put my phone on silent, and engaged in three hours of deep work. By focusing entirely on the problem, I was finally able to find the root cause.
+- word: "hand-off"
+  pronunciation: "/ˈhænd.ɒf/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The process of transferring responsibility for a task or project from one person or team to another."
+    bahasa: "Proses pengalihan tanggung jawab untuk suatu tugas atau proyek dari satu orang atau tim ke orang lain."
+  usage: "Use 'hand-off' when a task or project moves from one stage to another, and a new person or team takes over. It's common in processes like design-to-development or development-to-QA."
+  synonyms:
+    - "transfer"
+    - "handover"
+    - "pass-off"
+  examples:
+    workplace:
+      - "The hand-off from the design team to the development team went smoothly."
+      - "We need to document our work clearly to ensure a clean hand-off to the operations team."
+    casual:
+      - "The relay race runner practiced the baton hand-off."
+      - "There was a poor hand-off of the project, and the new manager didn't know what to do."
+  related:
+    - word: "handover"
+      difference: "'Hand-off' and 'handover' are largely synonymous, especially in business contexts. 'Hand-off' is more common in American English, while 'handover' is more common in British English."
+    - word: "delegate"
+      difference: "'Delegate' means to entrust a task to another person, but you might still retain overall responsibility. A 'hand-off' implies a more complete transfer of responsibility."
+  story: |
+    Once the development work on the new feature was complete, the engineering team prepared for the hand-off to the QA (Quality Assurance) team. They created detailed test notes and held a meeting to walk the testers through the changes, ensuring a smooth transition.

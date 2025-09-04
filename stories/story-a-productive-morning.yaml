@@ -1,0 +1,18 @@
+story:
+  title: "a-productive-morning"
+  date: "2025-09-04"
+  text: |
+    The morning started with a strong cup of coffee, the perfect **kick-start** to what I hoped would be a productive day. During our daily stand-up, I gave a quick update on my main task: a feature enhancement for the user profile page. I had a blocker yesterday, but I managed to **resolve** it this morning.
+
+    After the meeting, I had a quick **sync** with Sarah, our designer, to finalize the UI details. With all questions answered, it was time for some **deep work**. I put on my headphones, signaling to my colleagues that I was going in for a focused session. The code flowed smoothly, and I felt a great sense of **momentum**.
+
+    By lunchtime, I had a work-in-progress **pull request** ready for initial feedback. I still had to add some unit tests, but the core logic was there. Before heading out for lunch, I did a quick **hand-off** to a junior developer who needed my input on a small task. Reaching this small **milestone** before noon felt great.
+  highlighted_words:
+    - "kick-start"
+    - "resolve"
+    - "sync"
+    - "deep work"
+    - "momentum"
+    - "pull request"
+    - "hand-off"
+    - "milestone"
