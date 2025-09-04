@@ -23,3 +23,53 @@
       difference: "'Critical' refers to importance, while 'urgent' refers to time sensitivity. A task can be critical but not urgent, or urgent but not critical. However, a critical bug is usually also urgent."
   story: |
     During the final testing phase, the QA team found a **critical** issue. If a user tried to upload a file larger than 10MB, the entire application would crash. This was a showstopper for the release. The team had to work overnight to fix this **critical** bug, as the launch was scheduled for the next day. The fix was successfully deployed just a few hours before the official launch.
+- word: "feasibility"
+  pronunciation: "/ˌfiː.zəˈbɪl.ə.ti/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The quality of being possible and likely to be achieved."
+    bahasa: "Kelayakan; kualitas dari sesuatu yang mungkin dan dapat dicapai."
+  usage: "Used to assess whether a plan, project, or idea can realistically be done, considering factors like time, resources, and technical limitations."
+  synonyms:
+    - "practicability"
+    - "viability"
+    - "workability"
+  examples:
+    workplace:
+      - "Before we commit to the project, we need to conduct a feasibility study."
+      - "The team had a long discussion about the technical feasibility of the proposed feature."
+    casual:
+      - "He questioned the feasibility of climbing the mountain in one day."
+      - "They are exploring the feasibility of starting their own business."
+  related:
+    - word: "viable"
+      difference: "'Viable' is an adjective describing that something is capable of working successfully. 'Feasibility' is the noun, representing the *concept* or *study* of whether something is viable."
+    - word: "possibility"
+      difference: "'Possibility' means something *can* happen, but doesn't consider whether it's practical or a good idea. 'Feasibility' is more specific, evaluating if it's practical and likely to succeed."
+  story: |
+    A product manager proposed an ambitious new feature involving real-time data analysis. The engineering team was excited but had to first investigate its feasibility. They spent a few days building a small proof-of-concept to check if the database could handle the load and if the calculations could be done quickly enough. This feasibility check was crucial before they could agree to build the full feature.
+- word: "takeaway"
+  pronunciation: "/ˈteɪk.ə.weɪ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A key fact, point, or idea to be remembered, typically one emerging from a discussion or meeting."
+    bahasa: "Poin atau ide kunci untuk diingat, biasanya yang muncul dari diskusi atau pertemuan."
+  usage: "Used to summarize the most important conclusions or action items from a meeting, presentation, or experience."
+  synonyms:
+    - "key point"
+    - "main conclusion"
+    - "lesson"
+  examples:
+    workplace:
+      - "The main takeaway from the meeting is that we need to prioritize the user experience."
+      - "Let's end this presentation with a few key takeaways."
+    casual:
+      - "My main takeaway from the book is that small habits can make a big difference."
+      - "The biggest takeaway from my trip was how important it is to be flexible."
+  related:
+    - word: "summary"
+      difference: "A 'summary' is a brief overview of everything that was discussed. A 'takeaway' is a specific, important point that one should 'take away' or remember from the discussion."
+    - word: "action item"
+      difference: "An 'action item' is a specific task assigned to someone. A 'takeaway' is a key idea or conclusion. A takeaway might *lead* to an action item, but they are not the same."
+  story: |
+    The team held a retrospective to discuss what went well and what didn't during the last sprint. After an hour of discussion, the Scrum Master summarized the conversation. "My key takeaway," she said, "is that our testing process needs improvement. We all agree on that. The resulting action item is for me to schedule a follow-up meeting to brainstorm a better testing strategy."
