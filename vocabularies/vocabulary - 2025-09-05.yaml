@@ -1,0 +1,254 @@
+- word: "Hard stop"
+  pronunciation: "/hɑːrd stɒp/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A firm, non-negotiable end time for a meeting or activity."
+    bahasa: "Waktu berakhir yang pasti dan tidak bisa ditawar untuk sebuah rapat atau aktivitas."
+  usage: "Use this phrase to inform others that you have a commitment immediately after the current meeting, so it must end on time. It sets a clear expectation that the discussion cannot go over the scheduled time."
+  synonyms:
+    - "Strict deadline"
+    - "Firm cutoff"
+  examples:
+    workplace:
+      - "Team, just a heads-up, I have a hard stop at 11 AM for another client call."
+      - "Let's try to cover the main points first, as there's a hard stop in 30 minutes."
+    casual:
+      - "I can help you with that now, but I have a hard stop at 5 PM to pick up my kids."
+      - "We need to finish this game soon; my hard stop is when the pizza arrives."
+  related:
+    - word: "Wrap up"
+      difference: "'Wrap up' is a suggestion to start concluding a discussion, while a 'hard stop' is a firm declaration of the end time. You might say 'Let's start wrapping up' as you approach a hard stop."
+    - word: "Deadline"
+      difference: "A 'deadline' usually refers to when a project or task must be completed, which could be days or weeks away. A 'hard stop' refers to the end time of a specific, scheduled event happening now, like a meeting."
+  story: |
+    During the daily stand-up, Maya, the project manager, said, "Alright team, let's keep our updates brief today. I have a hard stop at 9:15 AM to join the quarterly planning session." Everyone nodded. When David started going into a deep dive on a minor bug, Maya gently interrupted, "That's a great point, David, but let's take that offline. Remembering the hard stop, we need to give everyone a chance to speak."
+
+- word: "Let's pick this up..."
+  pronunciation: "/lɛts pɪk ðɪs ʌp.../"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A common phrase used to politely postpone a discussion and continue it at a later time."
+    bahasa: "Frasa umum yang digunakan untuk menunda diskusi dengan sopan dan melanjutkannya di lain waktu."
+  usage: "Use this when a conversation is going off-topic, getting too detailed for the current meeting, or when you're running out of time. It's a gentle way to park a conversation without dismissing it."
+  synonyms:
+    - "Let's table this"
+    - "Let's circle back to this"
+  examples:
+    workplace:
+      - "This is a bigger topic than we can solve in five minutes. Let's pick this up in our dedicated planning session tomorrow."
+      - "I see your point, but it's out of scope for this meeting. Let's pick this up offline, just you and me."
+    casual:
+      - "I'd love to hear more about your trip, but I have to go now. Let's pick this up over lunch next week."
+      - "This debate about the best pizza topping is getting intense. Let's pick this up later and just eat."
+  related:
+    - word: "Take it offline"
+      difference: "'Take it offline' specifically means to continue the conversation outside of the current group meeting, often in a smaller setting. 'Let's pick this up' is more general and can mean postponing it for another group meeting or taking it offline."
+    - word: "Park this"
+      difference: "'Park this' or 'put it in the parking lot' is a very direct way to stop a conversation, often used by meeting facilitators. 'Let's pick this up' sounds a bit softer and more collaborative."
+  story: |
+    The team was reviewing the new login screen design. "What if we also add a 'Login with Apple' button?" asked Ben. The lead engineer, Sarah, replied, "That's a great feature idea, Ben, but it's not in our current sprint goals. Let's pick this up when we plan for the next quarter. For now, let's focus on the existing requirements."
+
+- word: "Run with it"
+  pronunciation: "/rʌn wɪð ɪt/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To give someone the authority and trust to proceed with a task or idea independently."
+    bahasa: "Memberi seseorang wewenang dan kepercayaan untuk melanjutkan tugas atau ide secara mandiri."
+  usage: "This is often used by managers or team leads to empower a team member. It means 'I trust your judgment, you don't need to ask for permission at every step, just go ahead and make it happen'."
+  synonyms:
+    - "Take the lead"
+    - "Own it"
+  examples:
+    workplace:
+      - "This is a solid plan for the new API. I want you to run with it."
+      - "You clearly understand the user's needs. Just run with it and show us a prototype next week."
+    casual:
+      - "You have a great idea for the party theme. Just run with it, and let me know what I need to buy."
+      - "That's a cool concept for a story. You should totally run with it and write the first chapter."
+  related:
+    - word: "Delegate"
+      difference: "'Delegate' is the formal act of assigning a task to someone. 'Run with it' is what you say after delegating to give them autonomy and encourage initiative."
+    - word: "Empower"
+      difference: "'Empower' is the concept of giving someone authority. 'Run with it' is the specific, informal phrase you use to put that empowerment into action."
+  story: |
+    After brainstorming a new feature for caching user preferences, the tech lead, Alex, was impressed with a junior developer's proposal. "I love your approach, Chloe," Alex said. "It's well-thought-out and covers all the edge cases we discussed. This is your baby now. Run with it, and feel free to pull me in if you get stuck."
+
+- word: "Trivial"
+  pronunciation: "/ˈtrɪv.i.əl/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Of little value or importance; (in software) a task or change that is very simple to implement."
+    bahasa: "Bernilai atau berarti kecil; (dalam software) tugas atau perubahan yang sangat sederhana untuk diimplementasikan."
+  usage: "Be careful when using this word. While it can be used to describe a task you find easy ('It was a trivial fix'), calling someone else's concern or bug 'trivial' can sound dismissive. It's often used to quickly classify the complexity of a task."
+  synonyms:
+    - "Minor"
+    - "Insignificant"
+    - "Simple"
+  examples:
+    workplace:
+      - "The bug was just a typo in the config file, a trivial fix that took two minutes."
+      - "Let's focus on the major performance issues first and save the trivial UI tweaks for later."
+    casual:
+      - "Don't worry about the small details; they're trivial."
+      - "Compared to climbing a mountain, a five-mile walk is trivial."
+  related:
+    - word: "Minor"
+      difference: "'Minor' and 'trivial' are very similar. However, 'trivial' often implies an even lower level of effort or importance than 'minor'. A bug could be 'minor' but still take a few hours to fix, while a 'trivial' bug should ideally take minutes."
+    - word: "Complex"
+      difference: "'Complex' is the direct antonym. It describes a task that is difficult and has many interconnected parts, whereas a 'trivial' task is straightforward."
+  story: |
+    "I've found a bug," said the new intern. "When you resize the window to a very specific width, the logo shifts by one pixel." The senior developer, Maria, looked at the bug report. "Nice catch!" she said. "It's a trivial change in the CSS. Since you found it, do you want to create your first pull request to fix it? It's a great way to start."
+
+- word: "Corrupted"
+  pronunciation: "/kəˈrʌp.tɪd/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Describes a file, data, or program that has been damaged and is no longer usable."
+    bahasa: "Menjelaskan file, data, atau program yang telah rusak dan tidak dapat digunakan lagi."
+  usage: "This term is used when explaining why something isn't working as expected, especially with files or data storage. It points to a problem with data integrity."
+  synonyms:
+    - "Damaged"
+    - "Unreadable"
+    - "Garbled"
+  examples:
+    workplace:
+      - "The application can't start because the configuration file seems to be corrupted."
+      - "We lost a day's worth of data because the database backup was corrupted."
+    casual:
+      - "I can't open my vacation photos; I think the memory card is corrupted."
+      - "My game save is corrupted, so I have to start all over again."
+  related:
+    - word: "Bug"
+      difference: "A 'bug' is a flaw in the code's logic. 'Corrupted' data is a problem with the data itself, not necessarily the code that reads it (though a bug could cause corruption)."
+    - word: "Crash"
+      difference: "A 'crash' is when a program stops working unexpectedly. A crash can be caused by trying to read a 'corrupted' file."
+  story: |
+    The deployment failed right at the last step. The team gathered around a monitor, looking at the error logs. "The build artifact uploaded to the server, but the checksum doesn't match," said Leo. "I downloaded it manually, and it won't unzip. I think the file got corrupted during the network transfer. Let's trigger the build again and re-upload."
+
+- word: "Intermittent"
+  pronunciation: "/ˌɪn.təˈmɪt.ənt/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Occurring at irregular intervals; not continuous or steady."
+    bahasa: "Terjadi secara tidak teratur; tidak terus-menerus atau stabil."
+  usage: "This is a key word for describing the most frustrating type of bugs. An intermittent issue is one that you can't always make happen, which makes it very hard to debug."
+  synonyms:
+    - "Sporadic"
+    - "Occasional"
+    - "Infrequent"
+  examples:
+    workplace:
+      - "We're having trouble fixing the bug because the issue is intermittent and we can't reproduce it consistently."
+      - "Users are reporting intermittent failures when uploading large files."
+    casual:
+      - "My Wi-Fi connection is intermittent this morning; it keeps dropping."
+      - "The weather forecast is for intermittent rain, so bring an umbrella."
+  related:
+    - word: "Consistent"
+      difference: "'Consistent' or 'reproducible' is the opposite. A consistent bug happens every single time you perform a certain set of steps. An 'intermittent' one does not."
+    - word: "Glitch"
+      difference: "A 'glitch' is a small, temporary fault. Many glitches are 'intermittent'. The word 'glitch' focuses on the event, while 'intermittent' describes how often the event occurs."
+  story: |
+    "I swear, the payment button is sometimes disabled for no reason," a QA tester reported. The developer, Kenji, spent a whole day trying to see it happen. "I can't find the cause," he said at stand-up. "The problem is intermittent. It works perfectly for me 99% of the time. I'll have to add more logging to try and catch what's happening in the rare case it fails."
+
+- word: "Reproduce"
+  pronunciation: "/ˌriː.prəˈdʒuːs/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To recreate a bug or issue following a specific set of steps. It's the first step to fixing it."
+    bahasa: "Menciptakan kembali bug atau masalah dengan mengikuti serangkaian langkah tertentu. Ini adalah langkah pertama untuk memperbaikinya."
+  usage: "This is a fundamental concept in bug fixing. If you can't reproduce the bug, you can't verify that you've fixed it. It's often used in phrases like 'I can't reproduce it' or 'What are the steps to reproduce?'"
+  synonyms:
+    - "Recreate"
+    - "Trigger"
+    - "Provoke (the bug)"
+  examples:
+    workplace:
+      - "The QA team gave us clear steps to reproduce the error, which made it much easier to fix."
+      - "I've been trying for an hour, but I can't reproduce the crash the user is describing."
+    casual:
+      - "He claims he can solve a Rubik's Cube in 30 seconds, but he can't seem to reproduce that result now."
+      - "The chef is trying to reproduce the flavor of his grandmother's secret sauce."
+  related:
+    - word: "Debug"
+      difference: "'Reproducing' the bug is the first step. Once you can reproduce it reliably, you can then 'debug' it, which is the process of finding the root cause in the code."
+    - word: "Steps to reproduce (STR)"
+      difference: "This is a noun phrase, often abbreviated as STR. It refers to the detailed, step-by-step instructions needed to make the bug appear. You need good STR to 'reproduce' a bug."
+  story: |
+    A user submitted a bug report: "The app is slow." The developer assigned to the ticket, Fatima, replied with a comment: "Thank you for the report. Could you please provide more details? What actions are you taking when it feels slow? We need clear steps to reproduce the issue on our end before we can start investigating."
+
+- word: "Downtime"
+  pronunciation: "/ˈdaʊn.taɪm/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A period of time when a system, server, or service is unavailable or not operational."
+    bahasa: "Periode waktu ketika sistem, server, atau layanan tidak tersedia atau tidak beroperasi."
+  usage: "This word is used when discussing system reliability and outages. 'Scheduled downtime' is planned for maintenance, while 'unscheduled downtime' is an emergency."
+  synonyms:
+    - "Outage"
+    - "Unavailability"
+    - "Service interruption"
+  examples:
+    workplace:
+      - "We have scheduled downtime for the database server this Saturday at 2 AM for a system upgrade."
+      - "The unexpected power failure at the data center caused three hours of downtime across all our services."
+    casual:
+      - "After a long week, I need some downtime this weekend just to relax and do nothing."
+      - "The factory had some downtime because a key machine broke."
+  related:
+    - word: "Outage"
+      difference: "'Downtime' and 'outage' are largely synonymous. 'Outage' is often used to describe the event itself ('We had an outage'), while 'downtime' is used to measure the duration of that event ('We experienced 3 hours of downtime')."
+    - word: "Uptime"
+      difference: "'Uptime' is the opposite of downtime. It's the measure of time a system has been operational. High uptime (like 99.999%) is a key goal for many systems."
+  story: |
+    The team lead gathered everyone for a quick meeting. "Last night, we had 15 minutes of unscheduled downtime because a critical service ran out of memory," she explained. "Our monitoring system alerted us, and we were able to restart it quickly. Our post-mortem task is to figure out the root cause and ensure this doesn't happen again."
+
+- word: "Retroactive"
+  pronunciation: "/ˌret.rəʊˈæk.tɪv/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Taking effect from a date in the past."
+    bahasa: "Berlaku surut atau berlaku sejak tanggal di masa lalu."
+  usage: "In software, this is often used when a change needs to be applied to existing data, not just new data. For example, if you add a new field to a user profile, you might need to run a script to retroactively populate that field for all existing users."
+  synonyms:
+    - "Retrospective"
+    - "Ex post facto"
+  examples:
+    workplace:
+      - "We need to write a migration script to make the database schema change retroactive for all 2 million existing records."
+      - "The new privacy policy will be applied retroactively to all user data collected in the last year."
+    casual:
+      - "The company announced a retroactive pay raise, so our next paycheck will include back pay for the last three months."
+      - "The new law was made retroactive, so it applied to actions taken before the law was passed."
+  related:
+    - word: "Backfill"
+      difference: "'Backfill' is the verb for the action you take to make something 'retroactive'. You 'backfill' old data to apply a new rule 'retroactively'."
+    - word: "Forward-looking"
+      difference: "This is the opposite. A 'forward-looking' change only applies to new things created from this point on and doesn't affect existing data or states."
+  story: |
+    The development team introduced a new 'user achievement' badge for completing 100 tasks. "This is great for new users," said the product manager, "but what about our loyal users who have already completed hundreds of tasks?" The lead engineer responded, "Good point. I'll write a script that does a retroactive check. It will scan all existing users and grant them the badge if they meet the criteria."
+
+- word: "Gut check"
+  pronunciation: "/ɡʌt tʃɛk/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A quick assessment or decision based on intuition, experience, and instinct rather than detailed analysis."
+    bahasa: "Penilaian atau keputusan cepat berdasarkan intuisi, pengalaman, dan insting daripada analisis mendetail."
+  usage: "Use this when you want a quick, informal opinion from someone, especially a senior person. It's asking, 'Forget the data for a second, what does your experience tell you about this?'"
+  synonyms:
+    - "Intuition check"
+    - "Instinctive reaction"
+  examples:
+    workplace:
+      - "Can I get a quick gut check on this UI design? Does it feel right to you?"
+      - "The data says this approach is faster, but as a gut check, I'm worried it's harder to maintain."
+    casual:
+      - "I know he seems nice, but my gut check tells me something is off."
+      - "Before I accept the offer, I need to do a gut check and see if it feels like the right move for my career."
+  related:
+    - word: "Sanity check"
+      difference: "A 'sanity check' is a brief check to ensure something is reasonable and not obviously wrong ('Does this number look sane?'). A 'gut check' is more about feelings and intuition ('Does this *feel* like the right path?')."
+    - word: "Data-driven"
+      difference: "'Data-driven' is the opposite approach. It means making decisions based purely on objective data, whereas a 'gut check' relies on subjective experience."
+  story: |
+    The team was debating between two libraries for their new project. One was new and popular, the other was older but very stable. After 30 minutes of comparing features, the engineering manager, Ken, said, "Okay, let's pause the technical debate. Tech Lead, give me a gut check. If we have a critical production issue at 3 AM, which one of these do you trust more to debug quickly?" The lead paused, then said, "The older one. My gut tells me the new one has too many unknown unknowns."
