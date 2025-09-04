@@ -198,3 +198,79 @@
       difference: "'Delegate' means to entrust a task to another person, but you might still retain overall responsibility. A 'hand-off' implies a more complete transfer of responsibility."
   story: |
     Once the development work on the new feature was complete, the engineering team prepared for the hand-off to the QA (Quality Assurance) team. They created detailed test notes and held a meeting to walk the testers through the changes, ensuring a smooth transition.
+- word: "lead on"
+  pronunciation: "/liːd ɒn/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To take the primary responsibility for managing or organizing a task, project, or team."
+    bahasa: "Mengambil tanggung jawab utama untuk mengelola atau mengorganisir tugas, proyek, atau tim."
+  usage: "Used in a workplace context to indicate who is responsible for guiding a particular effort. It's a common way to assign ownership."
+  synonyms:
+    - "take the lead"
+    - "be in charge of"
+  examples:
+    workplace:
+      - "She was asked to take the lead on the new marketing campaign."
+      - "Who is taking the lead on organizing the team offsite?"
+    casual:
+      - "He decided to take the lead on planning the family vacation."
+      - "Can you take the lead on making dinner tonight?"
+  related:
+    - word: "manage"
+      difference: "'Manage' often implies a formal role with authority over people or resources. 'Take the lead on' is more informal and can be temporary or task-specific, focusing on initiative rather than formal hierarchy."
+    - word: "oversee"
+      difference: "'Oversee' suggests a more high-level supervision. 'Take the lead on' implies more direct, hands-on involvement in driving the work forward."
+  story: |
+    When the team decided to refactor their old codebase, no one was sure where to start. Sarah, a senior engineer, stepped up and said, "I can take the lead on this." She started by creating a plan, breaking down the work into smaller tasks, and organizing meetings to keep everyone aligned.
+
+- word: "vague"
+  pronunciation: "/veɪɡ/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Not clearly expressed, explained, or understood; not specific."
+    bahasa: "Tidak diekspresikan, dijelaskan, atau dipahami dengan jelas; tidak spesifik."
+  usage: "Used to describe requirements, feedback, or ideas that lack detail and clarity. It often implies that more information is needed."
+  synonyms:
+    - "unclear"
+    - "ambiguous"
+    - "indefinite"
+  examples:
+    workplace:
+      - "The user story was too vague, so we couldn't estimate it."
+      - "His feedback was a bit vague; I'm not sure what he wants me to change."
+    casual:
+      - "He gave a vague answer when I asked him about his plans."
+      - "I have a vague memory of that happening."
+  related:
+    - word: "ambiguity"
+      difference: "'Ambiguity' is a noun referring to the quality of being open to multiple interpretations. 'Vague' is an adjective describing something that lacks clarity. A vague statement has ambiguity."
+    - word: "specific"
+      difference: "'Specific' is the direct opposite of 'vague'. It means something is clearly defined and precise."
+  story: |
+    The initial project request was very vague. It just said, "Improve the user dashboard." This could mean anything from changing colors to adding complex new features. Before starting, the team had to schedule a meeting with the product manager to get more specific requirements.
+
+- word: "flesh out"
+  pronunciation: "/flɛʃ aʊt/"
+  part_of_speech: "phrasal verb"
+  meaning:
+    english: "To add more details or substance to a plan, idea, or outline."
+    bahasa: "Menambahkan lebih banyak detail atau substansi ke dalam rencana, ide, atau kerangka."
+  usage: "Used when an initial idea or plan exists but needs to be developed further with more specific information."
+  synonyms:
+    - "develop"
+    - "expand on"
+    - "elaborate on"
+  examples:
+    workplace:
+      - "We have a basic concept; now we need to flesh out the project plan."
+      - "Can you flesh out this user story with some acceptance criteria?"
+    casual:
+      - "She has a good idea for a novel, but she needs to flesh out the plot."
+      - "Let's flesh out our travel itinerary for the trip."
+  related:
+    - word: "draft"
+      difference: "A 'draft' is the initial version of something. You 'flesh out' a draft to make it more complete."
+    - word: "summarize"
+      difference: "'Summarize' is to reduce information to its key points. 'Flesh out' is the opposite; it's to expand on the key points with more detail."
+  story: |
+    The team started with a one-line idea for a new feature. They held a brainstorming session to flesh it out. They discussed the user flow, potential edge cases, and the data it would need. By the end of the meeting, they had a detailed document that was ready for a designer to create mockups.

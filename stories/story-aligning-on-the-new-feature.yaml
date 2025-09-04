@@ -1,0 +1,16 @@
+story:
+  title: "aligning-on-the-new-feature"
+  date: "2025-09-04"
+  text: |
+    The day kicked off with our usual **stand-up**. I had just finished a major bug fix, so my plate was clean. A new feature request had just come in, and my team lead asked me to take the **lead on** it. The initial requirements were a bit **vague**, so my first step was to schedule a meeting with the product manager.
+
+    In the meeting, we worked together to **flesh out** the details. We created a few user stories and defined the acceptance criteria. It was a productive session that helped remove all the ambiguity. With a clear plan in hand, I felt much more confident.
+
+    I spent the rest of the afternoon creating a technical **breakdown** of the tasks involved. I wanted to make sure I had a solid plan before writing any code. By the end of the day, I had a list of sub-tasks ready to be estimated. It felt good to start a new challenge with such clarity. It's important to **align** with the team before diving into the code.
+  highlighted_words:
+    - "stand-up"
+    - "lead on"
+    - "vague"
+    - "flesh out"
+    - "breakdown"
+    - "align"
