@@ -1,0 +1,19 @@
+story:
+  title: "a-sudden-change-in-a-tasks-direction"
+  date: "2025-09-05"
+  text: |
+    The morning started with a fresh **cup of coffee** and the usual stand-up meeting. My main **task** for the day was to continue working on a new feature for the user profile page. Everything seemed straightforward until my project manager, Sarah, scheduled a quick **follow-up** meeting after lunch.
+
+    "We need to **re-evaluate** our approach," she said, sharing her screen. "The initial **feedback** from the stakeholders is that the current design might be too complex for new users." This meant we had to **revert** some of the changes I made yesterday and simplify the user interface.
+
+    It felt like a small **setback**, but I understood the reasoning. It’s better to address these issues early than to release something users won’t like. I spent the rest of the afternoon working with the designer to **tackle** the new design. We decided to create a simpler layout, which we believe will be more intuitive. It’s a bit of extra work, but ensuring a good user experience is always the top **priority**.
+  highlighted_words:
+    - "cup of coffee"
+    - "task"
+    - "follow-up"
+    - "re-evaluate"
+    - "feedback"
+    - "revert"
+    - "setback"
+    - "tackle"
+    - "priority"
