@@ -185,3 +185,171 @@
       difference: "'Showstopper' and 'blocker' are very similar. 'Showstopper' is often used in the context of a release or presentation, implying it stops the 'show'. 'Blocker' is a more general term for anything that impedes progress."
   story: |
     During the final demo, a bug crashed the entire application. It was a complete showstopper, and the presentation had to be rescheduled.
+- word: "refinement"
+  pronunciation: "/rɪˈfaɪnmənt/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The process of making small changes to something to improve it."
+    bahasa: "Penyempurnaan, perbaikan kecil."
+  usage: "Use 'refinement' when talking about improving a plan, idea, or piece of work through small adjustments. It's common in contexts like product development or sprint planning."
+  synonyms:
+    - "improvement"
+    - "enhancement"
+  examples:
+    workplace:
+      - "We have a backlog refinement meeting every Wednesday."
+      - "This feature needs a bit more refinement before it's ready for users."
+    casual:
+      - "Her recipe was good, but it needed some refinement."
+      - "The final design is a refinement of the original sketch."
+  related:
+    - word: "improvement"
+      difference: "'Improvement' is a general term for making something better, while 'refinement' implies making small, detailed changes to something that is already good."
+    - word: "adjustment"
+      difference: "'Adjustment' is about small changes, but 'refinement' specifically implies these changes are for improvement."
+  story: |
+    During sprint planning, the team decided the user story was too broad. The product owner scheduled a refinement session to break it down into smaller, more manageable tasks. This helped clarify the scope and made it easier to estimate the effort required.
+- word: "on point"
+  pronunciation: "/ɒn pɔɪnt/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "Exactly right, accurate, or appropriate."
+    bahasa: "Tepat sasaran, akurat."
+  usage: "Use 'on point' to praise something for being very accurate, relevant, or well-executed. It's a modern, informal way to say something is excellent."
+  synonyms:
+    - "perfect"
+    - "spot-on"
+  examples:
+    workplace:
+      - "Her analysis of the production bug was completely on point."
+      - "The design team's mockups were on point with the user requirements."
+    casual:
+      - "His fashion sense is always on point."
+      - "That comment was really on point; it summarized the whole issue."
+  related:
+    - word: "accurate"
+      difference: "'Accurate' is more formal and often relates to data or facts. 'On point' is more informal and can describe a wider range of things, like style or an argument."
+    - word: "relevant"
+      difference: "'Relevant' means related to the topic, but 'on point' means it's not just related, but also perfectly expressed or timed."
+  story: |
+    The new developer, Alex, gave a presentation on his proposed architecture. His diagrams were clear, his explanations were concise, and his answers to questions were on point. The team was impressed and quickly approved his plan.
+- word: "sound"
+  pronunciation: "/saʊnd/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Based on reason, sense, or judgment; reliable and sensible."
+    bahasa: "Masuk akal, dapat diandalkan."
+  usage: "Use 'sound' to describe a decision, plan, or piece of advice that is logical and well-thought-out. It implies reliability and good judgment."
+  synonyms:
+    - "solid"
+    - "sensible"
+  examples:
+    workplace:
+      - "The team made a sound decision to delay the release and fix the critical bugs."
+      - "We need a sound strategy for migrating the database."
+    casual:
+      - "He always gives sound advice."
+      - "That's a sound investment for the future."
+  related:
+    - word: "solid"
+      difference: "'Solid' and 'sound' are often interchangeable when describing plans or ideas. 'Sound' may place slightly more emphasis on the logic and reasoning behind something."
+    - word: "good"
+      difference: "'Good' is a very general term. 'Sound' is more specific, indicating that something is good because it is based on good reasoning and is reliable."
+  story: |
+    Before starting the refactor, Maria spent a day creating a detailed plan. She presented it to her tech lead, who reviewed it and said, "This is a sound approach. It covers all the edge cases and potential risks. Let's proceed."
+- word: "crystal clear"
+  pronunciation: "/ˌkrɪstl ˈklɪər/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "Perfectly easy to understand."
+    bahasa: "Sangat jelas, jernih."
+  usage: "Use 'crystal clear' to emphasize that something is very easy to understand, with no ambiguity. It's stronger than just saying 'clear'."
+  synonyms:
+    - "obvious"
+    - "unambiguous"
+  examples:
+    workplace:
+      - "The product manager made the requirements crystal clear."
+      - "Are the instructions for the deployment process crystal clear to everyone?"
+    casual:
+      - "After he explained it a second time, the concept became crystal clear."
+      - "My intentions were crystal clear from the beginning."
+  related:
+    - word: "clear"
+      difference: "'Clear' means easy to understand. 'Crystal clear' is an idiom that adds strong emphasis, meaning 'perfectly' or 'completely' clear."
+    - word: "obvious"
+      difference: "'Obvious' means something is easy to see or notice, often without explanation. 'Crystal clear' usually refers to something that has been explained or communicated very well."
+  story: |
+    The bug report was initially confusing. It just said "File upload not working." After a quick call with the support team, they provided a video and detailed steps to reproduce the issue. "Ah," said the developer, "it's crystal clear now. I know exactly what's wrong."
+- word: "go-ahead"
+  pronunciation: "/ˈɡoʊ əˌhed/"
+  part_of_speech: "noun"
+  meaning:
+    english: "Permission to start or proceed with something."
+    bahasa: "Izin untuk memulai, lampu hijau."
+  usage: "Use 'go-ahead' as a noun to refer to the approval or permission needed to begin a task or project. It's common in professional settings."
+  synonyms:
+    - "approval"
+    - "green light"
+  examples:
+    workplace:
+      - "We're waiting for the go-ahead from the client before we start development."
+      - "As soon as we get the go-ahead, we can deploy the new feature."
+    casual:
+      - "I'm just waiting for the go-ahead from my wife to buy the new TV."
+      - "She gave me the go-ahead to start planning the party."
+  related:
+    - word: "permission"
+      difference: "'Permission' is a general term for allowing something. 'Go-ahead' is more specific to starting an action or project."
+    - word: "approval"
+      difference: "'Approval' is the act of officially agreeing to something. 'Go-ahead' is the signal to start that often follows approval."
+  story: |
+    The team finished their proof of concept and presented it to the stakeholders. The demo went well, and the project manager was happy. The next morning, they received an email with the subject "Project Phoenix: Approved." They had the go-ahead to start the full implementation.
+- word: "smooth"
+  pronunciation: "/smuːð/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Happening without any problems or difficulties."
+    bahasa: "Lancar, mulus."
+  usage: "Use 'smooth' to describe a process, transition, or operation that occurs easily and without any unexpected issues."
+  synonyms:
+    - "effortless"
+    - "seamless"
+  examples:
+    workplace:
+      - "The deployment to the staging environment was very smooth."
+      - "We're hoping for a smooth transition to the new system."
+    casual:
+      - "The journey was surprisingly smooth, with no traffic at all."
+      - "He's a smooth talker."
+  related:
+    - word: "seamless"
+      difference: "'Seamless' is similar but often emphasizes a transition between two things, like two systems or user experiences, where the connection is invisible. 'Smooth' can describe an entire process."
+    - word: "easy"
+      difference: "'Easy' means not difficult. 'Smooth' implies that something happened without *problems*, which is slightly different. A task can be difficult but still go smoothly if there are no unexpected blockers."
+  story: |
+    Everyone was nervous about the database migration. They had planned it for weeks. On the day of the migration, they followed the plan step-by-step. There were no errors, and the system was back online in under an hour. The tech lead sent a message to the team: "Great job, everyone. That was a smooth operation."
+- word: "diligent"
+  pronunciation: "/ˈdɪlɪdʒənt/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Showing care and conscientiousness in one's work or duties."
+    bahasa: "Tekun, rajin."
+  usage: "Use 'diligent' to describe someone who is hardworking, careful, and thorough in their work. It implies a consistent and responsible effort."
+  synonyms:
+    - "hardworking"
+    - "conscientious"
+  examples:
+    workplace:
+      - "She is a diligent developer who always writes high-quality code."
+      - "The team was diligent in testing all possible scenarios."
+    casual:
+      - "He was diligent in his studies and got excellent grades."
+      - "Being diligent about exercise is key to seeing results."
+  related:
+    - word: "hardworking"
+      difference: "'Hardworking' focuses on the amount of effort someone puts in. 'Diligent' also implies this effort is careful, responsible, and thorough."
+    - word: "persistent"
+      difference: "'Persistent' means continuing despite difficulty. 'Diligent' is more about the careful and conscientious quality of the work itself."
+  story: |
+    The team was tasked with improving the application's performance. It wasn't an easy task. One developer, Maria, was particularly diligent. She spent days profiling the code, identifying bottlenecks, and carefully testing each optimization. Her diligent work paid off, and the app's loading time was cut in half.
