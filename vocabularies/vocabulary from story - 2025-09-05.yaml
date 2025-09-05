@@ -353,3 +353,27 @@
       difference: "'Persistent' means continuing despite difficulty. 'Diligent' is more about the careful and conscientious quality of the work itself."
   story: |
     The team was tasked with improving the application's performance. It wasn't an easy task. One developer, Maria, was particularly diligent. She spent days profiling the code, identifying bottlenecks, and carefully testing each optimization. Her diligent work paid off, and the app's loading time was cut in half.
+- word: "priority"
+  pronunciation: "/praɪˈɒr.ə.ti/"
+  part_of_speech: "noun"
+  meaning:
+    english: "Something that is regarded as more important than other things."
+    bahasa: "Sesuatu yang dianggap lebih penting daripada yang lain; prioritas."
+  usage: "Use 'priority' to talk about tasks or items that need to be handled first because of their importance or urgency. It helps in organizing work and making decisions."
+  synonyms:
+    - "prime concern"
+    - "most important thing"
+  examples:
+    workplace:
+      - "Our top priority right now is fixing the critical bug in production."
+      - "The project manager asked us to list our tasks in order of priority."
+    casual:
+      - "My main priority this weekend is to get some rest."
+      - "She makes her family a priority over her work."
+  related:
+    - word: "prioritize"
+      difference: "'Priority' is a noun that refers to the most important thing, while 'prioritize' is a verb that means to decide the order of importance of different tasks."
+    - word: "preference"
+      difference: "'Priority' is about the order of importance or urgency, while 'preference' is about what you like more or would choose over another option, which may not be based on importance."
+  story: |
+    During our sprint planning, the team had a long discussion about what to work on next. We had a list of new features and a few bugs to fix. The product owner made it clear: "The login issue is a critical bug affecting many users, so fixing it is our highest priority. Everything else can wait until that is resolved."
