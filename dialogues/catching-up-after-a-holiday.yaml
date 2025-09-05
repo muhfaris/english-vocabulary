@@ -1,0 +1,56 @@
+dialogue:
+  - speaker: Maria
+    english: "Hey David, welcome back! How was your holiday?"
+    bahasa: "Hai David, selamat datang kembali! Bagaimana liburanmu?"
+  - speaker: David
+    english: "It was great, thanks! Totally unplugged. What did I miss?"
+    bahasa: "Sangat menyenangkan, terima kasih! Benar-benar lepas dari pekerjaan. Apa saja yang aku lewatkan?"
+  - speaker: Maria
+    english: "Well, we pushed the new search feature to production. It went smoothly."
+    bahasa: "Yah, kami sudah merilis fitur pencarian baru ke production. Semuanya berjalan lancar."
+  - speaker: David
+    english: "That's awesome news! I saw the email thread. Anything I should be aware of?"
+    bahasa: "Itu berita bagus! Aku lihat utas emailnya. Ada yang perlu aku ketahui?"
+  - speaker: Maria
+    english: "Just some minor bugs that popped up, but they're already triaged and in the backlog."
+    bahasa: "Hanya beberapa bug kecil yang muncul, tapi sudah dipilah dan masuk ke dalam backlog."
+  - speaker: David
+    english: "Got it. I'll sync up with the latest on the main branch and check the ticket board."
+    bahasa: "Mengerti. Aku akan sinkronisasi dengan kode terbaru di branch utama dan memeriksa papan tiket."
+  - speaker: Maria
+    english: "Perfect. No rush, take your time to get back into the swing of things."
+    bahasa: "Sempurna. Tidak usah terburu-buru, santai saja untuk kembali terbiasa."
+  - speaker: David
+    english: "Thanks, Maria. By the way, did we finalize the Q4 roadmap?"
+    bahasa: "Terima kasih, Maria. Omong-omong, apakah kita sudah finalisasi roadmap Q4?"
+  - speaker: Maria
+    english: "Almost. We're having a planning session this afternoon. You're back just in time!"
+    bahasa: "Hampir. Kami akan mengadakan sesi perencanaan sore ini. Kamu kembali tepat waktu!"
+  - speaker: David
+    english: "Great! I'll be there. Let me grab a coffee and I'll be ready to dive back in."
+    bahasa: "Bagus! Aku akan datang. Aku ambil kopi dulu dan akan siap untuk kembali bekerja."
+
+expressions:
+  - phrase: "totally unplugged"
+    meaning_english: "Completely disconnected from work and digital devices."
+    meaning_bahasa: "Benar-benar terputus dari pekerjaan dan perangkat digital."
+  - phrase: "pushed to production"
+    meaning_english: "Deployed the new code to the live server where users can access it."
+    bahasa: "Mendeploy kode baru ke server live di mana pengguna dapat mengaksesnya."
+  - phrase: "popped up"
+    meaning_english: "Appeared unexpectedly."
+    bahasa: "Muncul secara tak terduga."
+  - phrase: "get back into the swing of things"
+    meaning_english: "To become accustomed to a routine or activity again after a break."
+    bahasa: "Menjadi terbiasa dengan rutinitas atau aktivitas lagi setelah istirahat."
+  - phrase: "dive back in"
+    meaning_english: "To start working on something again with enthusiasm after a break."
+    bahasa: "Mulai mengerjakan sesuatu lagi dengan antusias setelah istirahat."
+
+questions:
+  - q: "Why was David away from work?"
+    a: "He was on holiday."
+  - q: "What major event happened while David was away?"
+    a: "The team deployed a new search feature to production."
+  - q: "What does Maria mean by 'take your time to get back into the swing of things'?"
+    a: "She means he shouldn't feel pressured to be fully productive immediately and should ease back into work."
