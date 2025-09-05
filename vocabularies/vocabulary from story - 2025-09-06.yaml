@@ -1,0 +1,97 @@
+- word: "brainstorming"
+  pronunciation: "/ˈbreɪnˌstɔːrmɪŋ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A group creativity technique by which efforts are made to find a conclusion for a specific problem by gathering a list of ideas spontaneously contributed by its members."
+    bahasa: "Sebuah teknik kreativitas kelompok untuk menemukan kesimpulan dari masalah tertentu dengan mengumpulkan daftar ide yang disumbangkan secara spontan oleh para anggotanya."
+  usage: "Use 'brainstorming' to describe the activity of generating ideas in a group, often in a free-form manner. It's a common practice at the beginning of a project or when trying to solve a complex problem."
+  synonyms:
+    - "idea generation"
+    - "thought shower"
+  examples:
+    workplace:
+      - "We have a brainstorming session scheduled for this afternoon to discuss the new feature."
+      - "Let's do some quick brainstorming on how to solve this bug."
+    casual:
+      - "My friends and I were brainstorming ideas for our weekend trip."
+      - "I need to do some brainstorming for my daughter's birthday party theme."
+  related:
+    - word: "brainstorm"
+      difference: "`Brainstorm` is the verb (the action), while `brainstorming` is the noun (the activity or process)."
+    - word: "meeting"
+      difference: "A `meeting` is a general term for a gathering of people. `Brainstorming` is a specific type of meeting focused on generating ideas."
+  story: |
+    The team was stuck on how to improve user engagement. The product manager decided to schedule a two-hour brainstorming session. Everyone came prepared with their initial thoughts, and by the end, the whiteboard was filled with innovative ideas, from gamification to a new loyalty program. The session was a huge success.
+- word: "flowchart"
+  pronunciation: "/ˈfloʊˌtʃɑːrt/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A diagram of the sequence of movements or actions of people or things involved in a complex system or activity."
+    bahasa: "Sebuah diagram urutan gerakan atau tindakan orang atau benda yang terlibat dalam sistem atau aktivitas yang kompleks."
+  usage: "Use 'flowchart' to refer to a visual representation of a process or workflow. It's especially useful in software development for mapping out logic, user flows, or system processes before writing code."
+  synonyms:
+    - "diagram"
+    - "workflow diagram"
+  examples:
+    workplace:
+      - "I created a flowchart to explain the new user authentication process."
+      - "Please refer to the flowchart in the documentation to understand the data flow."
+    casual:
+      - "He drew a flowchart to plan his morning routine to be more efficient."
+      - "The recipe had a helpful flowchart for the more complicated steps."
+  related:
+    - word: "diagram"
+      difference: "`Diagram` is a general term for a simplified drawing showing the appearance, structure, or workings of something. A `flowchart` is a specific type of diagram that shows a sequence of actions."
+    - word: "pseudocode"
+      difference: "`Pseudocode` is a textual description of an algorithm, whereas a `flowchart` is a graphical representation."
+  story: |
+    Before writing any code for the new payment gateway, Sarah spent the morning creating a detailed flowchart. It mapped out every possible scenario: successful payments, failed transactions, and what happens when a user's card is declined. This flowchart became the single source of truth for the developers and helped prevent several logic errors during implementation.
+- word: "prototype"
+  pronunciation: "/ˈproʊtəˌtaɪp/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A first, typical or preliminary model of something, especially a machine, from which other forms are developed or copied."
+    bahasa: "Model pertama, tipikal, atau pendahuluan dari sesuatu, terutama mesin, dari mana bentuk lain dikembangkan atau disalin."
+  usage: "Use 'prototype' to describe an early, functional but not-final version of a product or feature. In software, it's used to test concepts and gather feedback before investing in full development."
+  synonyms:
+    - "model"
+    - "mockup"
+  examples:
+    workplace:
+      - "We will build a quick prototype to test the feasibility of the new design."
+      - "The stakeholder was impressed with the interactive prototype we showed them."
+    casual:
+      - "The inventor created a working prototype of his new gadget in his garage."
+      - "She built a small-scale prototype of her dream house with cardboard."
+  related:
+    - word: "mockup"
+      difference: "A `mockup` is a static, visual representation of a product (like a picture). A `prototype` is an interactive, semi-functional model that users can click through and interact with."
+    - word: "proof of concept (POC)"
+      difference: "A `POC` is built to prove that a certain idea or technology is feasible. A `prototype` is built to show how the product will look and work."
+  story: |
+    The design team presented a beautiful mockup, but the engineers were unsure if the proposed animations would be performant. To settle the debate, they spent a day building a quick prototype. It wasn't connected to any real data, but it demonstrated the fluid user experience they were aiming for. Seeing the prototype in action gave everyone the confidence to move forward.
+- word: "iteration"
+  pronunciation: "/ˌɪtəˈreɪʃən/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The repetition of a process or utterance. In software development, it refers to a single development cycle, usually lasting a week or two, in which a team produces a new version of the software."
+    bahasa: "Pengulangan suatu proses atau ucapan. Dalam pengembangan perangkat lunak, ini merujuk pada satu siklus pengembangan, biasanya berlangsung satu atau dua minggu, di mana tim menghasilkan versi baru dari perangkat lunak."
+  usage: "Use 'iteration' to talk about the cycles of development in an agile process. It can also refer to a new version of a design or product that resulted from a cycle of feedback and refinement."
+  synonyms:
+    - "cycle"
+    - "version"
+    - "increment"
+  examples:
+    workplace:
+      - "The first iteration of the feature will be released next week."
+      - "We plan to add more functionality in the next iteration."
+    casual:
+      - "This is the third iteration of my resume; I keep refining it."
+      - "His painting improved with each iteration."
+  related:
+    - word: "increment"
+      difference: "An `increment` is the usable piece of software produced during an iteration. An `iteration` is the time-boxed period in which the work is done."
+    - word: "version"
+      difference: "`Version` is a more general term for a specific form of a product. An `iteration` is a term from agile methodology that describes the *process* of creating a new version."
+  story: |
+    The team launched the first iteration of the new dashboard with only basic features. After gathering user feedback, they started the second iteration, focusing on adding the most requested charts and filters. This iterative approach allowed them to deliver value quickly and ensure they were building something their users actually wanted.
