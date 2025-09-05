@@ -166,3 +166,22 @@
       difference: "'Data' is raw facts and figures. 'Insight' is the meaningful conclusion or understanding you derive from analyzing that data."
   story: |
     After analyzing the user activity logs, the data analyst shared a key insight with the team: most users were dropping off at the payment step. This insight helped the team realize there was a problem with the payment form, and they decided to prioritize fixing it in the next sprint.
+- word: "showstopper"
+  pronunciation: "/ˈʃoʊˌstɑːpər/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A problem or issue that is so serious that it prevents a process or activity from continuing."
+    bahasa: "Masalah atau isu yang sangat serius sehingga mencegah suatu proses atau aktivitas untuk berlanjut."
+  usage: "Use 'showstopper' to describe a critical issue that blocks a release, deployment, or other important process."
+  synonyms:
+    - "blocker"
+    - "critical issue"
+  examples:
+    workplace:
+      - "We can't release with this bug; it's a showstopper."
+      - "The lack of funding was a showstopper for their new project."
+  related:
+    - word: "blocker"
+      difference: "'Showstopper' and 'blocker' are very similar. 'Showstopper' is often used in the context of a release or presentation, implying it stops the 'show'. 'Blocker' is a more general term for anything that impedes progress."
+  story: |
+    During the final demo, a bug crashed the entire application. It was a complete showstopper, and the presentation had to be rescheduled.

@@ -1,0 +1,21 @@
+story:
+  title: "a-quick-fix-before-the-weekend"
+  date: "2025-09-05"
+  text: |
+    It was Friday afternoon, and I was looking forward to the weekend. Just as I was about to wrap up, a **bug** report came in. A user was experiencing a **glitch** in the checkout process. It wasn't a **showstopper**, but it was affecting a small number of users.
+
+    My team lead asked me to **tackle** it. "It should be a **quick-fix**," he said. "We don't want to leave it over the weekend."
+
+    I started by trying to **reproduce** the issue locally. After a few tries, I managed to do it. The problem was a small logic error in the code. I made the change, ran the tests, and everything passed. I created a **pull request** and asked my colleague to do a quick **peer review**. He approved it, and I merged the change.
+
+    With the **hotfix** deployed, I could finally relax. It’s always satisfying to solve a problem and ensure our users have a smooth experience. Now, it's time to enjoy the weekend.
+  highlighted_words:
+    - "bug"
+    - "glitch"
+    - "showstopper"
+    - "tackle"
+    - "quick-fix"
+    - "reproduce"
+    - "pull request"
+    - "peer review"
+    - "hotfix"
