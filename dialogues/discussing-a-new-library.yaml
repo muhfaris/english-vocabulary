@@ -1,0 +1,73 @@
+dialogue:
+  - speaker: Alex
+    english: "Hey Ben, have you got a minute? I wanted to show you something."
+    bahasa: "Hai Ben, ada waktu sebentar? Aku ingin menunjukkan sesuatu padamu."
+  - speaker: Ben
+    english: "Sure, what's up?"
+    bahasa: "Tentu, ada apa?"
+  - speaker: Alex
+    english: "I stumbled upon this new data visualization library called 'Chartify'. I think it could be a great fit for our dashboard."
+    bahasa: "Aku menemukan library visualisasi data baru bernama 'Chartify'. Kurasa ini bisa sangat cocok untuk dasbor kita."
+  - speaker: Ben
+    english: "Oh yeah? What makes it better than what we're currently using?"
+    bahasa: "Oh ya? Apa yang membuatnya lebih baik dari yang kita gunakan sekarang?"
+  - speaker: Alex
+    english: "It offers way more interactive charts and seems much more performant with large datasets. Plus, the documentation is fantastic."
+    bahasa: "Library ini menawarkan grafik yang jauh lebih interaktif dan tampaknya jauh lebih beperforma dengan dataset besar. Ditambah lagi, dokumentasinya fantastis."
+  - speaker: Ben
+    english: "Sounds promising. What's the catch? The learning curve might be a bit steep, right?"
+    bahasa: "Terdengar menjanjikan. Apa kekurangannya? Kurva belajarnya mungkin agak curam, kan?"
+  - speaker: Alex
+    english: "That's what I thought too, but it's surprisingly intuitive. I was way ahead of you and already built a small proof of concept this morning."
+    bahasa: "Aku juga berpikir begitu, tapi ternyata sangat intuitif. Aku sudah selangkah di depanmu dan sudah membuat bukti konsep kecil pagi ini."
+  - speaker: Ben
+    english: "Wow, really? Can I see it?"
+    bahasa: "Wow, benarkah? Boleh aku lihat?"
+  - speaker: Alex
+    english: "Absolutely. Check this out."
+    bahasa: "Tentu saja. Coba lihat ini."
+  - speaker: Ben
+    english: "This is impressive! The filtering is so smooth. I'm sold. We should propose this to the team."
+    bahasa: "Ini mengesankan! Penyaringannya sangat lancar. Aku setuju. Kita harus mengusulkan ini ke tim."
+  - speaker: Alex
+    english: "Glad you think so. I'll clean up the code for the POC and we can schedule a demo."
+    bahasa: "Senang mendengarnya. Aku akan membersihkan kode untuk POC-nya dan kita bisa menjadwalkan demo."
+  - speaker: Ben
+    english: "Perfect. Let's pencil it in for tomorrow's sync?"
+    bahasa: "Sempurna. Mari kita jadwalkan untuk sinkronisasi besok?"
+  - speaker: Alex
+    english: "Works for me. I'll add it to the agenda."
+    bahasa: "Boleh. Aku akan menambahkannya ke agenda."
+
+expressions:
+  - phrase: "Have you got a minute?"
+    meaning_english: "A common way to ask if someone has time to talk."
+    meaning_bahasa: "Cara umum untuk menanyakan apakah seseorang punya waktu untuk berbicara."
+  - phrase: "I stumbled upon..."
+    meaning_english: "I found something unexpectedly."
+    meaning_bahasa: "Saya menemukan sesuatu secara tidak terduga."
+  - phrase: "What's the catch?"
+    meaning_english: "A question asking about a hidden problem or disadvantage."
+    meaning_bahasa: "Pertanyaan yang menanyakan tentang masalah atau kerugian tersembunyi."
+  - phrase: "The learning curve might be a bit steep."
+    meaning_english: "It might be difficult to learn."
+    meaning_bahasa: "Mungkin akan sulit untuk dipelajari."
+  - phrase: "Way ahead of you."
+    meaning_english: "I have already done what you are suggesting."
+    meaning_bahasa: "Saya sudah melakukan apa yang Anda sarankan."
+  - phrase: "I'm sold."
+    meaning_english: "I am convinced or persuaded."
+    meaning_bahasa: "Saya yakin atau dibujuk."
+  - phrase: "Let's pencil it in."
+    meaning_english: "Let's schedule it tentatively."
+    meaning_bahasa: "Mari kita jadwalkan secara tentatif."
+
+questions:
+  - q: "What is the name of the new library Alex found?"
+    a: "The new library is called 'Chartify'."
+  - q: "What was Ben's initial concern about the new library?"
+    a: "He was concerned that the learning curve might be steep."
+  - q: "What did Alex do to show the library's potential?"
+    a: "He built a small proof of concept (POC) to demonstrate its features."
+  - q: "What was the final decision Alex and Ben made?"
+    a: "They decided to propose the new library to the team and scheduled a demo for the next day."
