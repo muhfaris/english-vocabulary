@@ -1,56 +1,148 @@
-dialogue:
-  - speaker: Alex
-    english: "Morning, team! It's deployment day. Is everything ready for the big push?"
-    bahasa: "Pagi, tim! Hari ini hari deployment. Apakah semuanya sudah siap untuk rilis besar ini?"
-  - speaker: Ben
-    english: "Morning, Alex. The final build passed all the tests. We're good to go from the backend side."
-    bahasa: "Pagi, Alex. Build terakhir sudah lolos semua tes. Dari sisi backend, kami sudah siap."
-  - speaker: Chloe
-    english: "Frontend is also ready. I've smoke-tested the UI on staging one last time."
-    bahasa: "Frontend juga sudah siap. Aku sudah melakukan smoke test pada UI di staging untuk terakhir kalinya."
-  - speaker: Alex
-    english: "Excellent. What's our rollback plan if things go south?"
-    bahasa: "Bagus sekali. Apa rencana rollback kita jika terjadi masalah?"
-  - speaker: Ben
-    english: "We have a script to revert the database schema and redeploy the previous version. It should take about 5 minutes."
-    bahasa: "Kami punya skrip untuk mengembalikan skema database dan mendeploy ulang versi sebelumnya. Seharusnya memakan waktu sekitar 5 menit."
-  - speaker: Chloe
-    english: "And for the frontend, we can just point the CDN back to the old asset bundle."
-    bahasa: "Dan untuk frontend, kita tinggal mengarahkan CDN kembali ke bundle aset yang lama."
-  - speaker: Alex
-    english: "Sounds solid. Let's start the deployment then. I'll monitor the logs and error rates."
-    bahasa: "Terdengar solid. Mari kita mulai deployment-nya. Aku akan memantau log dan tingkat error."
-  - speaker: Ben
-    english: "Okay, kicking off the backend deployment now."
-    bahasa: "Oke, aku mulai deployment backend sekarang."
-  - speaker: Chloe
-    english: "I'll get ready to switch the frontend once the backend is up."
-    bahasa: "Aku akan bersiap untuk mengganti frontend setelah backend-nya aktif."
-  - speaker: Alex
-    english: "Keep me in the loop, please. Communication is key on days like this."
-    bahasa: "Tolong terus kabari aku, ya. Komunikasi adalah kunci di hari-hari seperti ini."
-
-expressions:
-  - phrase: "the big push"
-    meaning_english: "A major release or deployment of a new version of the software."
-    meaning_bahasa: "Rilis atau deployment besar dari versi baru perangkat lunak."
-  - phrase: "good to go"
-    meaning_english: "Ready to proceed; everything is in order."
-    meaning_bahasa: "Siap untuk melanjutkan; semuanya sudah beres."
-  - phrase: "smoke-tested"
-    meaning_english: "Performed a quick, basic set of tests to ensure the most critical functions of the software are working."
-    meaning_bahasa: "Melakukan serangkaian tes dasar dan cepat untuk memastikan fungsi paling kritis dari perangkat lunak berjalan."
-  - phrase: "go south"
-    meaning_english: "To fail or go wrong."
-    meaning_bahasa: "Gagal atau menjadi salah."
-  - phrase: "keep me in the loop"
-    meaning_english: "Keep me informed and updated about what is happening."
-    meaning_bahasa: "Terus beri aku informasi dan pembaruan tentang apa yang terjadi."
-
-questions:
-  - q: "What is the main topic of the conversation?"
-    a: "The team is coordinating the deployment of a new version of their software."
-  - q: "What does Ben say to confirm the backend is ready?"
-    a: "He says the final build passed all the tests and they are 'good to go'."
-  - q: "What is a 'rollback plan'?"
-    a: "It's a plan to undo the changes and restore the previous state if the deployment fails."
+dialogues:
+  - title: "deployment-day-coordination"
+    dialogue:
+      - speaker: Alex
+        english: "Morning, team! It's deployment day. Is everything ready for the big push?"
+        bahasa: "Pagi, tim! Hari ini hari deployment. Apakah semuanya sudah siap untuk rilis besar ini?"
+      - speaker: Ben
+        english: "Morning, Alex. The final build passed all the tests. We're good to go from the backend side."
+        bahasa: "Pagi, Alex. Build terakhir sudah lolos semua tes. Dari sisi backend, kami sudah siap."
+      - speaker: Chloe
+        english: "Frontend is also ready. I've smoke-tested the UI on staging one last time."
+        bahasa: "Frontend juga sudah siap. Aku sudah melakukan smoke test pada UI di staging untuk terakhir kalinya."
+      - speaker: Alex
+        english: "Excellent. What's our rollback plan if things go south?"
+        bahasa: "Bagus sekali. Apa rencana rollback kita jika terjadi masalah?"
+      - speaker: Ben
+        english: "We have a script to revert the database schema and redeploy the previous version. It should take about 5 minutes."
+        bahasa: "Kami punya skrip untuk mengembalikan skema database dan mendeploy ulang versi sebelumnya. Seharusnya memakan waktu sekitar 5 menit."
+      - speaker: Chloe
+        english: "And for the frontend, we can just point the CDN back to the old asset bundle."
+        bahasa: "Dan untuk frontend, kita tinggal mengarahkan CDN kembali ke bundle aset yang lama."
+      - speaker: Alex
+        english: "Sounds solid. Let's start the deployment then. I'll monitor the logs and error rates."
+        bahasa: "Terdengar solid. Mari kita mulai deployment-nya. Aku akan memantau log dan tingkat error."
+      - speaker: Ben
+        english: "Okay, kicking off the backend deployment now."
+        bahasa: "Oke, aku mulai deployment backend sekarang."
+      - speaker: Chloe
+        english: "I'll get ready to switch the frontend once the backend is up."
+        bahasa: "Aku akan bersiap untuk mengganti frontend setelah backend-nya aktif."
+      - speaker: Alex
+        english: "Keep me in the loop, please. Communication is key on days like this."
+        bahasa: "Tolong terus kabari aku, ya. Komunikasi adalah kunci di hari-hari seperti ini."
+    expressions:
+      - phrase: "the big push"
+        meaning_english: "A major release or deployment of a new version of the software."
+        meaning_bahasa: "Rilis atau deployment besar dari versi baru perangkat lunak."
+      - phrase: "good to go"
+        meaning_english: "Ready to proceed; everything is in order."
+        meaning_bahasa: "Siap untuk melanjutkan; semuanya sudah beres."
+      - phrase: "smoke-tested"
+        meaning_english: "Performed a quick, basic set of tests to ensure the most critical functions of the software are working."
+        meaning_bahasa: "Melakukan serangkaian tes dasar dan cepat untuk memastikan fungsi paling kritis dari perangkat lunak berjalan."
+      - phrase: "go south"
+        meaning_english: "To fail or go wrong."
+        meaning_bahasa: "Gagal atau menjadi salah."
+      - phrase: "keep me in the loop"
+        meaning_english: "Keep me informed and updated about what is happening."
+        meaning_bahasa: "Terus beri aku informasi dan pembaruan tentang apa yang terjadi."
+    questions:
+      - q: "What is the main topic of the conversation?"
+        a: "The team is coordinating the deployment of a new version of their software."
+      - q: "What does Ben say to confirm the backend is ready?"
+        a: "He says the final build passed all the tests and they are 'good to go'."
+      - q: "What is a 'rollback plan'?"
+        a: "It's a plan to undo the changes and restore the previous state if the deployment fails."
+  - title: "end-of-day-wrap-up"
+    dialogue:
+      - speaker: Liam
+        english: "Phew, what a day. Are you about to head off, Chloe?"
+        bahasa: "Fiuh, hari yang melelahkan. Apakah kamu akan segera pulang, Chloe?"
+      - speaker: Chloe
+        english: "Almost. Just pushing my latest commit. I finally squashed that nasty bug in the rendering engine."
+        bahasa: "Hampir. Hanya mendorong komit terakhir saya. Akhirnya saya berhasil memperbaiki bug jahat di mesin render."
+      - speaker: Liam
+        english: "Oh, the one that was causing the screen flicker? Nice one! That's been a thorn in our side for a while."
+        bahasa: "Oh, yang menyebabkan layar berkedip? Bagus! Itu sudah menjadi duri dalam daging bagi kita untuk sementara waktu."
+      - speaker: Chloe
+        english: "Tell me about it. It was a race condition, as suspected. Took some serious debugging to pinpoint."
+        bahasa: "Ceritakan padaku tentang itu. Itu adalah kondisi balapan, seperti yang diduga. Butuh beberapa debugging serius untuk menentukannya."
+      - speaker: Liam
+        english: "I bet. I spent most of my day setting up the new CI/CD pipeline. The initial configuration is done, but it still needs some fine-tuning."
+        bahasa: "Aku yakin. Aku menghabiskan sebagian besar hariku untuk menyiapkan pipeline CI/CD yang baru. Konfigurasi awal sudah selesai, tetapi masih perlu beberapa penyesuaian."
+      - speaker: Chloe
+        english: "That's a big task. Let me know if you need a hand with the YAML files. I've wrestled with them a few times."
+        bahasa: "Itu tugas besar. Beri tahu aku jika kamu butuh bantuan dengan file YAML. Aku sudah beberapa kali bergulat dengan mereka."
+      - speaker: Liam
+        english: "Thanks, I might take you up on that offer tomorrow. My brain is a bit fried right now."
+        bahasa: "Terima kasih, mungkin aku akan menerima tawaranmu besok. Otakku agak panas sekarang."
+      - speaker: Chloe
+        english: "I feel you. So, what's left on your plate for this week?"
+        bahasa: "Aku mengerti perasaanmu. Jadi, apa yang tersisa di agendamu untuk minggu ini?"
+      - speaker: Liam
+        english: "Just the pipeline, really. If I can get it stable by Friday, I'll be a happy camper. You?"
+        bahasa: "Hanya pipeline, sungguh. Jika aku bisa membuatnya stabil pada hari Jumat, aku akan sangat senang. Kamu?"
+      - speaker: Chloe
+        english: "I need to prepare for the sprint planning on Monday. I've got a couple of user stories to groom."
+        bahasa: "Aku perlu mempersiapkan diri untuk perencanaan sprint pada hari Senin. Aku punya beberapa cerita pengguna untuk dirapikan."
+      - speaker: Liam
+        english: "Ah, right. I should probably look over the backlog as well."
+        bahasa: "Ah, benar. Aku mungkin juga harus melihat backlog."
+      - speaker: Chloe
+        english: "It's always something, isn't it? Anyway, my push is done. I'm calling it a day."
+        bahasa: "Selalu ada saja, bukan? Pokoknya, push-ku sudah selesai. Aku akan menyudahinya untuk hari ini."
+      - speaker: Liam
+        english: "Me too. Have a good evening, Chloe!"
+        bahasa: "Aku juga. Selamat malam, Chloe!"
+      - speaker: Chloe
+        english: "You too, Liam! See you tomorrow."
+        bahasa: "Kamu juga, Liam! Sampai jumpa besok."
+    expressions:
+      - phrase: "Head off"
+        meaning_english: "To leave a place."
+        meaning_bahasa: "Meninggalkan suatu tempat."
+      - phrase: "Squash a bug"
+        meaning_english: "To fix a software bug."
+        meaning_bahasa: "Memperbaiki bug perangkat lunak."
+      - phrase: "A thorn in our side"
+        meaning_english: "A persistent problem or annoyance."
+        meaning_bahasa: "Masalah atau gangguan yang terus-menerus."
+      - phrase: "Race condition"
+        meaning_english: "A bug that occurs when the timing of events affects the outcome of a program."
+        meaning_bahasa: "Bug yang terjadi ketika waktu kejadian memengaruhi hasil suatu program."
+      - phrase: "Pinpoint"
+        meaning_english: "To identify something precisely."
+        meaning_bahasa: "Mengidentifikasi sesuatu dengan tepat."
+      - phrase: "Fine-tuning"
+        meaning_english: "Making small adjustments to something to improve it."
+        meaning_bahasa: "Membuat penyesuaian kecil pada sesuatu untuk memperbaikinya."
+      - phrase: "Take you up on that offer"
+        meaning_english: "To accept an offer of help."
+        meaning_bahasa: "Menerima tawaran bantuan."
+      - phrase: "Fried"
+        meaning_english: "Mentally exhausted."
+        meaning_bahasa: "Lelah secara mental."
+      - phrase: "On your plate"
+        meaning_english: "The tasks or responsibilities you have to deal with."
+        meaning_bahasa: "Tugas atau tanggung jawab yang harus Anda tangani."
+      - phrase: "Happy camper"
+        meaning_english: "A person who is happy and content with their situation."
+        meaning_bahasa: "Seseorang yang bahagia dan puas dengan situasinya."
+      - phrase: "Groom user stories"
+        meaning_english: "To refine, estimate, and prioritize user stories in the backlog."
+        meaning_bahasa: "Menyempurnakan, memperkirakan, dan memprioritaskan cerita pengguna di backlog."
+      - phrase: "Calling it a day"
+        meaning_english: "To stop working for the day."
+        meaning_bahasa: "Berhenti bekerja untuk hari ini."
+    questions:
+      - q: "What did Chloe spend her day working on?"
+        a: "She was fixing a bug in the rendering engine."
+      - q: "What was the nature of the bug Chloe fixed?"
+        a: "It was a race condition causing screen flicker."
+      - q: "What was Liam's main task for the day?"
+        a: "He was setting up a new CI/CD pipeline."
+      - q: "What offer does Chloe make to Liam?"
+        a: "She offers to help him with the YAML files for the CI/CD pipeline."
+      - q: "What does Chloe need to do before the end of the week?"
+        a: "She needs to prepare for sprint planning by grooming some user stories."
