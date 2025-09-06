@@ -1,0 +1,18 @@
+story:
+  title: "clearing-the-path"
+  date: "2025-09-06"
+  text: |
+    The morning stand-up was routine, but I could tell my teammate, Alex, was **bogged down** by a task. He was trying to integrate a new third-party API, but the documentation was sparse and he was running into authentication errors. It was a significant **roadblock** for our sprint goal.
+
+    I had just finished my primary task, so I had the **capacity** to help. "Let's **tackle** this together," I said. We spent the next hour pair programming. I acted as a fresh pair of eyes, questioning assumptions he had made. We discovered a tiny, undocumented header that was required in the API requests.
+
+    With that one change, the connection worked perfectly. It was a classic case where two heads were better than one. We documented our findings, creating a small **how-to guide** for the rest of the team. Alex was able to **move forward** with his feature. It felt good to clear the path for him and see the team make **headway** on our commitments. This kind of **mutual support** is what makes our team culture great.
+  highlighted_words:
+    - "bogged down"
+    - "roadblock"
+    - "capacity"
+    - "tackle"
+    - "how-to guide"
+    - "move forward"
+    - "headway"
+    - "mutual support"

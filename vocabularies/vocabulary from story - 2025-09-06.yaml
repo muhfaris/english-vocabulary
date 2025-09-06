@@ -243,3 +243,123 @@
       difference: "A 'hurdle' is an obstacle to overcome. If you fail to overcome it, you become 'stuck'."
   story: |
     I was completely stuck on a complex feature. After staring at the same code for hours without progress, I asked a senior dev for help. She spotted my simple mistake immediately; I was just too stuck in my own perspective to see it.
+- word: "bogged down"
+  pronunciation: "/bɒɡd daʊn/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To be stuck or prevented from making progress."
+    bahasa: "Terjebak atau terhambat dalam membuat kemajuan."
+  usage: "Use 'bogged down' when you feel stuck on a complex task or too many details, making it difficult to proceed."
+  synonyms:
+    - "stuck"
+    - "overwhelmed"
+  examples:
+    workplace:
+      - "I'm getting bogged down in the details of this implementation."
+      - "Let's not get bogged down with minor issues in this meeting."
+    casual:
+      - "He got bogged down with chores and couldn't go out."
+      - "The car got bogged down in the mud."
+  related:
+    - word: "blocker"
+      difference: "A 'blocker' is a specific external issue stopping you. 'Bogged down' is more of a feeling of being stuck due to complexity or overload."
+    - word: "in the weeds"
+      difference: "'In the weeds' specifically means being too focused on small, often unimportant details. 'Bogged down' is more general about being stuck."
+  story: |
+    During the code review, I realized I was getting bogged down by all the minor styling comments. I decided to address the major functional feedback first and tackle the styling later to avoid losing momentum.
+- word: "how-to guide"
+  pronunciation: "/ˌhaʊ.tuː ˈɡaɪd/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A set of instructions that explains how to do something."
+    bahasa: "Panduan cara atau serangkaian instruksi yang menjelaskan cara melakukan sesuatu."
+  usage: "Use 'how-to guide' to refer to a document or article that provides step-by-step instructions for a task."
+  synonyms:
+    - "tutorial"
+    - "manual"
+  examples:
+    workplace:
+      - "I wrote a how-to guide for setting up the new development environment."
+      - "You can find the deployment process in the how-to guide on our wiki."
+    casual:
+      - "I found a great how-to guide for baking sourdough bread."
+      - "This video is a useful how-to guide for fixing a leaky faucet."
+  related:
+    - word: "documentation"
+      difference: "'Documentation' is a broad term for any documents explaining a system. A 'how-to guide' is a specific type of documentation focused on accomplishing a task."
+    - word: "SOP (Standard Operating Procedure)"
+      difference: "An 'SOP' is a formal, often mandatory, set of instructions for routine tasks in an organization. A 'how-to guide' is usually more informal and can be for any task."
+  story: |
+    When a new developer joined our team, we gave them a how-to guide on getting the project running locally. It saved them hours of setup time and allowed them to start contributing much faster.
+- word: "move forward"
+  pronunciation: "/muːv ˈfɔːr.wərd/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To make progress in a process or activity."
+    bahasa: "Maju atau membuat kemajuan dalam suatu proses atau aktivitas."
+  usage: "Use 'move forward' to talk about continuing with a plan or making progress after a decision or resolving a blocker."
+  synonyms:
+    - "proceed"
+    - "make progress"
+  examples:
+    workplace:
+      - "Now that we have approval, we can move forward with the implementation."
+      - "Let's agree on a solution so we can move forward."
+    casual:
+      - "It was a difficult breakup, but she's ready to move forward with her life."
+      - "We can't move forward with our plans until the weather clears up."
+  related:
+    - word: "continue"
+      difference: "'Continue' means to keep doing something you've already started. 'Move forward' often implies starting the next phase or making progress after a stop or a decision point."
+    - word: "proceed"
+      difference: "'Proceed' is a more formal synonym for 'move forward'. It's often used when giving or receiving permission to start something."
+  story: |
+    The team was blocked waiting for a decision from the design team. Once the final mockups were delivered, we had a clear direction and could finally move forward with building the user interface.
+- word: "headway"
+  pronunciation: "/ˈhed.weɪ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "Progress made in a forward direction, especially when it is slow or difficult."
+    bahasa: "Kemajuan yang dibuat ke arah depan, terutama ketika lambat atau sulit."
+  usage: "Use 'headway' to describe making progress on a challenging task or project."
+  synonyms:
+    - "progress"
+    - "advancement"
+  examples:
+    workplace:
+      - "We're finally making some headway on that difficult bug."
+      - "Is the team making headway on the performance improvements?"
+    casual:
+      - "The construction crew is making headway on the new bridge."
+      - "I'm trying to learn guitar, but I'm not making much headway."
+  related:
+    - word: "progress"
+      difference: "'Progress' is a general term for moving towards a goal. 'Headway' is often used to emphasize that progress is being made despite difficulties."
+    - word: "momentum"
+      difference: "'Momentum' is the force or speed of movement of a project. Making 'headway' can help build 'momentum'."
+  story: |
+    For weeks, the data migration seemed impossible due to incompatible formats. After a lot of trial and error, we finally wrote a script that worked. The project manager was happy to hear we were finally making headway.
+- word: "mutual support"
+  pronunciation: "/ˈmjuː.tʃu.əl səˈpɔːrt/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The act of two or more people giving each other help or encouragement."
+    bahasa: "Saling mendukung atau tindakan dua orang atau lebih yang saling memberi bantuan atau dorongan."
+  usage: "Use 'mutual support' to describe a collaborative environment where people help each other."
+  synonyms:
+    - "teamwork"
+    - "collaboration"
+  examples:
+    workplace:
+      - "Our team's success is built on mutual support and open communication."
+      - "A culture of mutual support helps everyone feel more comfortable asking for help."
+    casual:
+      - "Friendship is all about mutual support."
+      - "The community group provides mutual support for its members."
+  related:
+    - word: "collaboration"
+      difference: "'Collaboration' is about working together on a task. 'Mutual support' is a broader cultural aspect that includes collaboration but also emotional support and encouragement."
+    - word: "teamwork"
+      difference: "'Teamwork' is the combined action of a group. 'Mutual support' is the underlying principle that enables effective teamwork."
+  story: |
+    During a tough sprint with a tight deadline, the team's spirit of mutual support was crucial. Developers helped testers, and seniors mentored juniors. This environment not only helped us meet our goals but also made the stressful period more manageable.
