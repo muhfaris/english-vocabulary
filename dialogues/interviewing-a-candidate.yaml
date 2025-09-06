@@ -1,0 +1,67 @@
+dialogue:
+  - speaker: Alex
+    english: "So, the next candidate is waiting. Have you had a chance to look at his resume?"
+    bahasa: "Jadi, kandidat berikutnya sudah menunggu. Apakah kamu sudah sempat melihat resumenya?"
+  - speaker: Ben
+    english: "Yes, I glanced over it. He seems to have a solid background in backend development."
+    bahasa: "Ya, saya sudah melihatnya sekilas. Dia sepertinya punya latar belakang yang kuat di pengembangan backend."
+  - speaker: Alex
+    english: "Agreed. I was thinking I'd start with some behavioral questions, and then you can dive into the technical stuff. How does that sound?"
+    bahasa: "Setuju. Aku berpikir untuk memulai dengan beberapa pertanyaan perilaku, lalu kamu bisa mendalami hal-hal teknis. Bagaimana menurutmu?"
+  - speaker: Ben
+    english: "Sounds like a plan. I've prepared a small coding challenge for him. It's nothing too complex, just to see his problem-solving approach."
+    bahasa: "Terdengar bagus. Aku sudah menyiapkan tantangan coding kecil untuknya. Tidak terlalu rumit, hanya untuk melihat pendekatan pemecahan masalahnya."
+  - speaker: Alex
+    english: "Perfect. Let's make sure we also gauge his experience with system design."
+    bahasa: "Sempurna. Mari kita pastikan kita juga mengukur pengalamannya dengan perancangan sistem."
+  - speaker: Ben
+    english: "Definitely. I'll ask him to walk me through a system he's designed or worked on extensively."
+    bahasa: "Tentu saja. Aku akan memintanya untuk menjelaskan sistem yang pernah dia rancang atau kerjakan secara ekstensif."
+  - speaker: Alex
+    english: "Okay, let's bring him in. Remember to be friendly and create a relaxed atmosphere."
+    bahasa: "Oke, mari kita panggil dia masuk. Ingatlah untuk bersikap ramah dan menciptakan suasana yang santai."
+  - speaker: Ben
+    english: "Of course. We want to see the best of him, not intimidate him."
+    bahasa: "Tentu saja. Kita ingin melihat yang terbaik darinya, bukan mengintimidasinya."
+  - speaker: Alex
+    english: "Right, let's do this. I'm keen to see if he's a good fit for the team."
+    bahasa: "Baiklah, ayo kita lakukan. Aku ingin tahu apakah dia cocok untuk tim."
+  - speaker: Ben
+    english: "Me too. A good hire can make a huge difference."
+    bahasa: "Aku juga. Perekrutan yang baik bisa membuat perbedaan besar."
+
+expressions:
+  - phrase: "glanced over"
+    meaning_english: "To look at something quickly without reading it in detail."
+    meaning_bahasa: "Melihat sesuatu dengan cepat tanpa membacanya secara detail."
+  - phrase: "solid background"
+    meaning_english: "Having a lot of experience and knowledge in a particular area."
+    meaning_bahasa: "Memiliki banyak pengalaman dan pengetahuan di bidang tertentu."
+  - phrase: "dive into"
+    meaning_english: "To start doing something with a lot of energy and enthusiasm."
+    meaning_bahasa: "Mulai melakukan sesuatu dengan banyak energi dan antusiasme."
+  - phrase: "coding challenge"
+    meaning_english: "A small programming task given to a candidate to assess their skills."
+    meaning_bahasa: "Tugas pemrograman kecil yang diberikan kepada kandidat untuk menilai keterampilan mereka."
+  - phrase: "gauge his experience"
+    meaning_english: "To measure or assess the level of someone's experience."
+    meaning_bahasa: "Mengukur atau menilai tingkat pengalaman seseorang."
+  - phrase: "walk me through"
+    meaning_english: "To explain something to someone in a detailed, step-by-step way."
+    meaning_bahasa: "Menjelaskan sesuatu kepada seseorang secara rinci, langkah demi langkah."
+  - phrase: "good fit for the team"
+    meaning_english: "Someone who would work well with the other members of the team."
+    meaning_bahasa: "Seseorang yang akan bekerja dengan baik dengan anggota tim lainnya."
+  - phrase: "A good hire"
+    meaning_english: "A person who is hired and proves to be a valuable addition to the company."
+    meaning_bahasa: "Seseorang yang direkrut dan terbukti menjadi tambahan yang berharga bagi perusahaan."
+
+questions:
+  - q: "What are Alex and Ben preparing for?"
+    a: "They are preparing to interview a candidate for a software engineering role."
+  - q: "What is Ben's role in the interview?"
+    a: "Ben will handle the technical part of the interview, including a coding challenge and system design questions."
+  - q: "What is the purpose of the coding challenge?"
+    a: "To see the candidate's problem-solving approach."
+  - q: "Why do they want to create a relaxed atmosphere?"
+    a: "They want to see the best of the candidate and not intimidate them."
