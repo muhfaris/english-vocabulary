@@ -1,0 +1,87 @@
+dialogue:
+  - speaker: Alex
+    english: "Hey Ben, have you had a chance to look at the analytics for the new search filtering feature?"
+    bahasa: "Hei Ben, apakah kamu sudah sempat melihat analitik untuk fitur filter pencarian yang baru?"
+  - speaker: Ben
+    english: "Not yet, I was just about to pull up the dashboard. How's it looking?"
+    bahasa: "Belum, aku baru saja akan membuka dasbornya. Bagaimana kelihatannya?"
+  - speaker: Alex
+    english: "It's a mixed bag, really. The adoption rate is fantastic, way higher than we projected."
+    bahasa: "Benar-benar beragam hasilnya. Tingkat adopsinya fantastis, jauh lebih tinggi dari yang kita proyeksikan."
+  - speaker: Ben
+    english: "That's great to hear! So, what's the catch?"
+    bahasa: "Senang mendengarnya! Jadi, apa masalahnya?"
+  - speaker: Alex
+    english: "The drop-off rate on the advanced filters is pretty steep. Users are engaging with the basic options, but seem to bail when it gets complex."
+    bahasa: "Tingkat penurunan pada filter lanjutan cukup tajam. Pengguna berinteraksi dengan opsi dasar, tetapi tampaknya berhenti ketika menjadi rumit."
+  - speaker: Ben
+    english: "Hmm, I wonder if the UI is not as intuitive as we thought. Maybe the advanced options are hidden or look too intimidating."
+    bahasa: "Hmm, aku bertanya-tanya apakah UI-nya tidak seintuitif yang kita kira. Mungkin opsi lanjutannya tersembunyi atau terlihat terlalu mengintimidasi."
+  - speaker: Alex
+    english: "My thoughts exactly. I think we need to A/B test a more streamlined interface for the advanced filters."
+    bahasa: "Tepat sekali. Aku pikir kita perlu melakukan uji A/B pada antarmuka yang lebih sederhana untuk filter lanjutan."
+  - speaker: Ben
+    english: "Good idea. We could try a version with better tooltips or a guided tour pop-up for first-time users."
+    bahasa: "Ide bagus. Kita bisa mencoba versi dengan tooltip yang lebih baik atau pop-up tur yang dipandu untuk pengguna pertama kali."
+  - speaker: Alex
+    english: "Yeah, let's mock up a couple of designs and get some user feedback before we jump into coding."
+    bahasa: "Ya, mari kita buat beberapa desain dan dapatkan umpan balik pengguna sebelum kita mulai membuat kode."
+  - speaker: Ben
+    english: "Sounds like a plan. I'll block out some time this afternoon to sketch out some wireframes."
+    bahasa: "Terdengar seperti sebuah rencana. Aku akan meluangkan waktu sore ini untuk membuat sketsa beberapa wireframe."
+  - speaker: Alex
+    english: "Perfect. This data is super insightful. It's much better to find this out now than months down the line."
+    bahasa: "Sempurna. Data ini sangat berwawasan. Jauh lebih baik mengetahuinya sekarang daripada berbulan-bulan kemudian."
+  - speaker: Ben
+    english: "Absolutely. Data-driven decisions for the win."
+    bahasa: "Tentu saja. Keputusan berdasarkan data adalah yang terbaik."
+
+expressions:
+  - phrase: "pull up the dashboard"
+    meaning_english: "to open or display the dashboard."
+    meaning_bahasa: "membuka atau menampilkan dasbor."
+  - phrase: "a mixed bag"
+    meaning_english: "a situation or collection of things with both good and bad qualities."
+    meaning_bahasa: "situasi atau kumpulan hal-hal dengan kualitas baik dan buruk."
+  - phrase: "adoption rate"
+    meaning_english: "the speed at which a new technology or feature is being accepted and used by customers."
+    meaning_bahasa: "tingkat di mana teknologi atau fitur baru diterima dan digunakan oleh pelanggan."
+  - phrase: "drop-off rate"
+    meaning_english: "the percentage of users who leave or stop using a feature at a certain point."
+    meaning_bahasa: "persentase pengguna yang meninggalkan atau berhenti menggunakan fitur pada titik tertentu."
+  - phrase: "steep"
+    meaning_english: "(in this context) rising or falling sharply; significant."
+    meaning_bahasa: "(dalam konteks ini) naik atau turun tajam; signifikan."
+  - phrase: "bail"
+    meaning_english: "(slang) to abandon a situation; to leave."
+    meaning_bahasa: "(bahasa gaul) meninggalkan situasi; pergi."
+  - phrase: "intuitive"
+    meaning_english: "easy to use and understand without special instruction."
+    meaning_bahasa: "mudah digunakan dan dipahami tanpa instruksi khusus."
+  - phrase: "A/B test"
+    meaning_english: "a method of comparing two versions of a webpage or app against each other to determine which one performs better."
+    meaning_bahasa: "metode membandingkan dua versi halaman web atau aplikasi satu sama lain untuk menentukan mana yang berkinerja lebih baik."
+  - phrase: "streamlined"
+    meaning_english: "made more efficient and effective by simplifying it."
+    meaning_bahasa: "dibuat lebih efisien dan efektif dengan menyederhanakannya."
+  - phrase: "mock up"
+    meaning_english: "to create a model or imitation of something for testing or demonstration."
+    meaning_bahasa: "membuat model atau tiruan sesuatu untuk pengujian atau demonstrasi."
+  - phrase: "down the line"
+    meaning_english: "in the future."
+    meaning_bahasa: "di masa depan."
+  - phrase: "data-driven decisions"
+    meaning_english: "choices that are based on analysis of data rather than just intuition."
+    meaning_bahasa: "pilihan yang didasarkan pada analisis data daripada hanya intuisi."
+
+questions:
+  - q: "What were Alex and Ben discussing?"
+    a: "They were discussing the user analytics for a new search filtering feature."
+  - q: "What was the good news about the new feature?"
+    a: "The adoption rate was much higher than they had projected."
+  - q: "What was the problem identified from the data?"
+    a: "The drop-off rate for the advanced filters was very high, meaning users were not using the complex options."
+  - q: "What solution did Alex suggest?"
+    a: "He suggested A/B testing a more streamlined interface for the advanced filters."
+  - q: "What is Ben's next step?"
+    a: "He plans to sketch out some wireframes for the new designs."
