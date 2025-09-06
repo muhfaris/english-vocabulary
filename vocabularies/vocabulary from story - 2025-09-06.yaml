@@ -95,3 +95,127 @@
       difference: "`Version` is a more general term for a specific form of a product. An `iteration` is a term from agile methodology that describes the *process* of creating a new version."
   story: |
     The team launched the first iteration of the new dashboard with only basic features. After gathering user feedback, they started the second iteration, focusing on adding the most requested charts and filters. This iterative approach allowed them to deliver value quickly and ensure they were building something their users actually wanted.
+- word: "derail"
+  pronunciation: "/diːˈreɪl/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To obstruct a process or plan, causing it to fail or be delayed."
+    bahasa: "Menggagalkan atau menghambat suatu proses atau rencana."
+  usage: "Use 'derail' when an unexpected event or issue suddenly stops progress on a task or project. It implies that a plan was on track and is now off course."
+  synonyms:
+    - "disrupt"
+    - "obstruct"
+    - "thwart"
+  examples:
+    workplace:
+      - "The last-minute client request completely derailed our sprint plan."
+      - "We can't let minor bugs derail the entire release schedule."
+    casual:
+      - "Our conversation was derailed by a sudden phone call."
+      - "His injury derailed his dream of running a marathon."
+  related:
+    - word: "disrupt"
+      difference: "'Disrupt' means to interrupt an event or process, while 'derail' specifically means to cause a plan to fail or go off track, often more permanently."
+    - word: "blocker"
+      difference: "A 'blocker' is the thing that causes the 'derailment'. The blocker is the cause, and derailing is the effect."
+  story: |
+    We were making great progress on the new feature, and everything was on schedule. Then, the security team found a major vulnerability in a library we were using. The finding threatened to derail our entire project, as we had to stop all development and find a secure alternative.
+- word: "unforeseen"
+  pronunciation: "/ˌʌnfɔːrˈsiːn/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Not expected or predicted."
+    bahasa: "Tidak terduga atau tidak diperkirakan."
+  usage: "Use 'unforeseen' to describe problems, events, or circumstances that you did not anticipate. It's often used in professional contexts to explain delays or changes in plans."
+  synonyms:
+    - "unexpected"
+    - "unanticipated"
+    - "unpredicted"
+  examples:
+    workplace:
+      - "Due to unforeseen circumstances, we have to postpone the product launch."
+      - "The project was delayed by a series of unforeseen technical issues."
+    casual:
+      - "We had to cancel our trip because of an unforeseen family emergency."
+      - "An unforeseen storm left the whole town without power."
+  related:
+    - word: "unexpected"
+      difference: "'Unexpected' is a very common and general term. 'Unforeseen' sounds slightly more formal and often implies that the event could not have been reasonably predicted."
+    - word: "sudden"
+      difference: "'Sudden' describes something that happens quickly, while 'unforeseen' describes something that wasn't predicted, regardless of its speed."
+  story: |
+    The deployment was going smoothly until we hit an unforeseen snag. The new database migration script was incompatible with a legacy system that we didn't know was still active. It took the team all night to resolve the unforeseen dependency.
+- word: "scramble"
+  pronunciation: "/ˈskræmbəl/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To move or act quickly and in a disorganized way, often under pressure."
+    bahasa: "Bergerak atau bertindak cepat dan tidak teratur, seringkali di bawah tekanan."
+  usage: "Use 'scramble' when a team or person has to react quickly to an urgent situation, often without a clear plan. It conveys a sense of urgency and slight panic."
+  synonyms:
+    - "rush"
+    - "hasten"
+    - "hurry"
+  examples:
+    workplace:
+      - "The server crashed an hour before the demo, and we had to scramble to get it back online."
+      - "When the CEO asked for the report a day early, the whole team had to scramble to finish it."
+    casual:
+      - "I had to scramble to get ready when my friend arrived 30 minutes early."
+      - "The players scrambled to get back in position after the turnover."
+  related:
+    - word: "rush"
+      difference: "'Rush' means to do something quickly, but 'scramble' adds a sense of disorder or desperation. You can rush with a plan, but scrambling often implies there is no plan."
+    - word: "hustle"
+      difference: "'Hustle' implies working quickly and energetically, often with a positive connotation. 'Scramble' is more associated with a panicked or reactive response to a problem."
+  story: |
+    On Friday afternoon, a critical bug was found in the payment system. The entire engineering team had to scramble to find a fix before the weekend. We were all in a war room, quickly testing theories and reviewing recent code changes. It was chaotic, but we managed to deploy a patch just in time.
+- word: "drop everything"
+  pronunciation: "/drɑːp ˈevriθɪŋ/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To immediately stop what you are doing to focus on something else that is more urgent."
+    bahasa: "Segera menghentikan apa yang sedang Anda lakukan untuk fokus pada hal lain yang lebih mendesak."
+  usage: "This is a strong phrase used to indicate a sudden and total shift in priorities. It's often used as a command or to describe a reaction to a critical event."
+  synonyms:
+    - "stop everything"
+    - "abandon tasks"
+  examples:
+    workplace:
+      - "When the production database goes down, you drop everything and fix it."
+      - "My manager told me to drop everything and help the new intern with their setup."
+    casual:
+      - "I had to drop everything and rush to the hospital when I heard the news."
+      - "She dropped everything to help her neighbor search for their lost dog."
+  related:
+    - word: "put on hold"
+      difference: "'Put on hold' means to pause a task with the intention of returning to it later. 'Drop everything' is more immediate and drastic, implying the original task is abandoned for the foreseeable future."
+    - word: "pivot"
+      difference: "'Pivot' usually refers to a strategic change in direction for a project or company. 'Drop everything' is more of a short-term, reactive measure to an immediate crisis."
+  story: |
+    I was in the middle of a complex refactoring task that required deep focus. Suddenly, I got a message from my team lead: 'Production is down. Drop everything and join the incident call.' I immediately saved my work, closed my editor, and joined the call to help troubleshoot.
+- word: "reprioritize"
+  pronunciation: "/ˌriːpraɪˈɔːrətaɪz/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To change the order of importance of tasks or goals."
+    bahasa: "Mengubah urutan kepentingan tugas atau tujuan."
+  usage: "Use 'reprioritize' in a professional context when you need to adjust your focus based on new information, deadlines, or changing requirements. It's a key skill in dynamic environments."
+  synonyms:
+    - "reorder"
+    - "reshuffle"
+    - "reassess priorities"
+  examples:
+    workplace:
+      - "After the client feedback, we had to meet to reprioritize the features for the next sprint."
+      - "As a manager, I often have to reprioritize my team's tasks based on company goals."
+    casual:
+      - "After my son was born, I had to reprioritize my life and focus more on family."
+      - "When I started feeling burnt out, I decided to reprioritize my health and well-being."
+  related:
+    - word: "prioritize"
+      difference: "'Prioritize' is the initial act of setting priorities. 'Reprioritize' is the act of changing existing priorities."
+    - word: "delegate"
+      difference: "'Delegate' means to assign a task to someone else. You might delegate tasks as part of a plan to reprioritize your own workload."
+  story: |
+    Our team started the week with a clear set of goals for the sprint. However, on Wednesday, the marketing team announced a major new campaign that required engineering support. We had to call an emergency meeting to reprioritize our backlog, moving the campaign-related tasks to the top of the list and pushing some of our planned work to the next sprint.
