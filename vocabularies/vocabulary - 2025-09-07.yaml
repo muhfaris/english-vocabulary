@@ -1,0 +1,249 @@
+- word: "Side-track"
+  pronunciation: "/ˈsaɪd.træk/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To divert from a main course or topic."
+    bahasa: "Mengalihkan dari topik atau jalur utama."
+  usage: "Use this when a conversation in a meeting goes off-topic. You can say 'Let's not get side-tracked' to bring the focus back to the main agenda."
+  synonyms:
+    - "distract"
+    - "divert"
+  examples:
+    workplace:
+      - "The discussion about the new UI framework got side-tracked into a debate about team lunch preferences."
+      - "I had to gently remind the team not to get side-tracked by minor bugs during the sprint planning."
+    casual:
+      - "We were supposed to be cleaning the house, but we got side-tracked and ended up watching a movie."
+      - "Don't let him side-track you with his stories; we need to finish this."
+  related:
+    - word: "Tangent"
+      difference: "A tangent is the unrelated topic itself that causes the distraction. To 'go off on a tangent' is similar to getting 'side-tracked'. 'Side-track' is the action of diverting, while 'tangent' is the path of diversion."
+    - word: "Derail"
+      difference: "'Derail' is stronger than 'side-track'. It implies that the distraction has completely stopped progress on the main topic, like a train coming off its tracks. 'Side-track' is a temporary diversion you can often recover from easily."
+  story: |
+    During our daily stand-up, Alex started talking about a new feature he thought of over the weekend. It was a great idea, but our main goal was to discuss the blockers for the current sprint. The project manager, Sarah, stepped in and said, "That's an interesting idea, Alex, let's add it to the backlog. For now, let's not get side-tracked from our sprint goals." Everyone agreed and the meeting went back on track.
+
+- word: "Guesstimate"
+  pronunciation: "/ˈɡes.tɪ.mət/"
+  part_of_speech: "noun/verb"
+  meaning:
+    english: "An estimate based on a mix of guessing and calculation."
+    bahasa: "Perkiraan yang merupakan gabungan dari tebakan dan perhitungan (kira-kira)."
+  usage: "Used when you need to provide a rough estimate quickly, without having all the data. It manages expectations that the number is not precise."
+  synonyms:
+    - "rough estimate"
+    - "ballpark figure"
+  examples:
+    workplace:
+      - "I don't have the final specs, but as a guesstimate, I'd say the project will take about three weeks."
+      - "Can you give me a guesstimate of how many users might be affected by this outage?"
+    casual:
+      - "What's your guesstimate for our arrival time with this traffic?"
+      - "I'd guesstimate we need about five pizzas for the party."
+  related:
+    - word: "Estimate"
+      difference: "An 'estimate' is generally based on some data and analysis, making it more formal and reliable than a 'guesstimate'. A 'guesstimate' is more informal and acknowledges a higher degree of uncertainty."
+    - word: "Projection"
+      difference: "A 'projection' is a forecast based on historical data and trends, often used in business for future revenue or growth. It's more data-driven than an estimate or guesstimate."
+  story: |
+    The product manager asked, "How long will it take to build the new login page?" Our senior engineer, Dave, replied, "Without digging into the legacy code, it's hard to say for sure. As a quick guesstimate, I'd say about 8-10 story points. But I'll need to investigate further to give you a more accurate estimate." This managed the PM's expectations perfectly.
+
+- word: "In hindsight"
+  pronunciation: "/ɪn ˈhaɪnd.saɪt/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "Understanding a situation or event only after it has happened."
+    bahasa: "Setelah dipikir-pikir kembali (setelah kejadian)."
+  usage: "Use this phrase when reflecting on a past decision and realizing what you could have done differently. It's common in retrospectives or post-mortems."
+  synonyms:
+    - "looking back"
+    - "in retrospect"
+  examples:
+    workplace:
+      - "In hindsight, we should have added more logging before deploying to production."
+      - "The bug was so obvious in hindsight; I can't believe we missed it during code review."
+    casual:
+      - "In hindsight, I probably shouldn't have eaten that entire pizza by myself."
+      - "I can see now, in hindsight, that it was a bad idea to start a DIY project without reading the instructions."
+  related:
+    - word: "Forethought"
+      difference: "'Forethought' is the opposite of 'hindsight'. It's careful consideration of what will be necessary or may happen in the future before acting."
+    - word: "20/20 hindsight"
+      difference: "This is an intensified version of 'in hindsight'. It means having a perfect understanding of an event after it has happened, suggesting that the correct course of action is now perfectly clear."
+  story: |
+    Our team spent a week chasing a performance issue. We thought it was a database query problem. After finally finding the root cause—a misconfigured cache—our tech lead said, "In hindsight, the performance graphs were pointing to a memory issue all along. We should have investigated the cache logs first." It was a good lesson for the next incident.
+
+- word: "Hands-on"
+  pronunciation: "/ˈhændz.ɒn/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Involving active participation; practical."
+    bahasa: "Terlibat secara langsung; praktis."
+  usage: "Describes a person who is actively involved in the work (e.g., a 'hands-on manager' who codes) or a way of learning that involves doing rather than just reading or listening."
+  synonyms:
+    - "practical"
+    - "involved"
+  examples:
+    workplace:
+      - "Our new engineering manager is very hands-on and often joins our pair programming sessions."
+      - "We're running a hands-on workshop to teach the team about the new deployment pipeline."
+    casual:
+      - "He has a very hands-on approach to parenting."
+      - "I learn best with a hands-on approach, so let me try fixing it myself."
+  related:
+    - word: "Theoretical"
+      difference: "'Theoretical' is the opposite of 'hands-on'. It refers to knowledge based on ideas and principles rather than practical experience."
+    - word: "Hands-off"
+      difference: "'Hands-off' describes a style of involvement that is not direct. A 'hands-off' manager delegates tasks and trusts the team to work independently without close supervision."
+  story: |
+    When I joined my new team, I was worried the tech lead would be too busy to help me ramp up. But she was incredibly hands-on. On my first day, she sat with me, walked me through the codebase, and we did a hands-on exercise to set up my local development environment. It made the onboarding process so much smoother.
+
+- word: "Low-key"
+  pronunciation: "/ˈloʊ.kiː/"
+  part_of_speech: "adjective/adverb"
+  meaning:
+    english: "Not elaborate, showy, or intensive; modest or restrained."
+    bahasa: "Sederhana; tidak berlebihan; diam-diam."
+  usage: "Use this to describe an event, a person's personality, or an action that is relaxed and not attention-seeking. It's often used to suggest a casual or informal atmosphere."
+  synonyms:
+    - "relaxed"
+    - "understated"
+  examples:
+    workplace:
+      - "Let's have a low-key celebration for the project launch, maybe just a team lunch."
+      - "I'm low-key excited about the new features we're shipping next week."
+    casual:
+      - "We're just having a low-key get-together at my place on Saturday."
+      - "Her reaction was very low-key, but I know she was happy."
+  related:
+    - word: "High-key"
+      difference: "Often used in modern slang, 'high-key' is the direct opposite of 'low-key'. It means something is intense, obvious, or done with a lot of energy and emotion. For example, 'I'm high-key stressed about this deadline'."
+    - word: "Subtle"
+      difference: "'Subtle' means not obvious, and it can be a synonym for 'low-key'. However, 'subtle' often implies something is delicate, clever, or hard to notice, while 'low-key' is more about a relaxed, informal, and not attention-grabbing vibe."
+  story: |
+    After a stressful quarter, our manager decided against a big, formal party. Instead, he organized a low-key team outing. We went bowling, had some pizza, and just chatted. It was a nice, relaxed way to unwind without the pressure of a major event. It was a great way to bond.
+
+- word: "High-level"
+  pronunciation: "/ˈhaɪˌlev.əl/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Providing a general overview without going into details."
+    bahasa: "Tingkat tinggi; gambaran umum."
+  usage: "Commonly used to describe a summary, plan, or discussion that focuses on the main ideas or architecture rather than the specific implementation details."
+  synonyms:
+    - "general"
+    - "abstract"
+  examples:
+    workplace:
+      - "Let's start with a high-level overview of the system architecture before we dive into the code."
+      - "The project proposal only needs a high-level plan for now; we can flesh out the details later."
+    casual:
+      - "Just give me the high-level summary of the movie; I don't need every plot point."
+      - "My understanding of quantum physics is very high-level."
+  related:
+    - word: "Low-level"
+      difference: "'Low-level' is the opposite. It refers to the fundamental, detailed aspects of a system. A 'low-level' discussion would be about specific algorithms, lines of code, or memory management."
+    - word: "Granular"
+      difference: "'Granular' is similar to 'low-level' and means looking at something with a high level of detail. A 'granular' view breaks down a large system into its smallest individual components."
+  story: |
+    During a meeting with the stakeholders, our tech lead presented a high-level diagram of the new feature. She explained the main components and how they would interact without getting into technical jargon. This allowed everyone, including the non-technical people, to understand the plan. After the meeting, she told the engineering team, "Okay, now let's do a deep dive into the low-level implementation."
+
+- word: "Redundancy"
+  pronunciation: "/rɪˈdʌn.dən.si/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The inclusion of extra components that are not strictly necessary to functioning, in case of failure in other components."
+    bahasa: "Redundansi; penyediaan komponen cadangan untuk mencegah kegagalan."
+  usage: "In software engineering, this is a key concept for building reliable systems. It means having backup systems (e.g., servers, databases) that can take over if the primary system fails."
+  synonyms:
+    - "duplication"
+    - "backup"
+  examples:
+    workplace:
+      - "We have a database with redundancy, so if the primary server goes down, the replica can take over immediately."
+      - "The goal of adding another server is to build redundancy into our system and prevent a single point of failure."
+    casual:
+      - "Having a spare key to your house is a form of redundancy."
+      - "He carries two phones for redundancy, in case one runs out of battery."
+  related:
+    - word: "Resilience"
+      difference: "'Resilience' is the ability of a system to handle failures and still remain functional. 'Redundancy' is one of the main techniques used to achieve resilience."
+    - word: "Fault tolerance"
+      difference: "'Fault tolerance' is the property that enables a system to continue operating properly in the event of the failure of some of its components. Like resilience, it is a goal that is often achieved through redundancy."
+  story: |
+    Last year, our main server crashed, and the entire application was down for hours. It was a disaster. After that incident, we had a major project to improve our system's reliability. A key part of the project was introducing redundancy. We set up a secondary, mirrored database and a load balancer to distribute traffic. Now, if one server fails, the other can handle the load seamlessly.
+
+- word: "Procrastinate"
+  pronunciation: "/proʊˈkræs.tɪ.neɪt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To delay or postpone action; to put off doing something."
+    bahasa: "Menunda-nunda."
+  usage: "This is a very common word to describe the habit of delaying tasks, especially ones that are difficult or unpleasant. Software engineers might procrastinate on writing documentation or fixing a tricky bug."
+  synonyms:
+    - "delay"
+    - "put off"
+  examples:
+    workplace:
+      - "I always procrastinate on writing my unit tests until the very last minute."
+      - "Let's not procrastinate on this refactoring task; the technical debt is only getting worse."
+    casual:
+      - "I need to do my taxes, but I always procrastinate."
+      - "If you procrastinate too much, you'll have to pull an all-nighter to finish the assignment."
+  related:
+    - word: "Postpone"
+      difference: "'Postpone' means to decide to do something at a later time, and it's often a formal and conscious decision (e.g., 'The meeting was postponed'). 'Procrastinate' is more of a habitual or psychological avoidance of a task, often without a new, specific deadline in mind."
+    - word: "Dally"
+      difference: "'Dally' means to act or move slowly, or to waste time. It's similar to procrastinate but can also imply a more aimless or leisurely delay."
+  story: |
+    I had a ticket to update the dependency library for our project. I knew it was going to be a pain because it would likely cause a lot of breaking changes. So, I kept procrastinating. I'd work on easier, more interesting tickets instead. Finally, my lead checked in and asked about the status. I admitted I'd been putting it off. He said, "I get it, but the longer we procrastinate, the harder it will be. Let's tackle it together this afternoon."
+
+- word: "Intuitive"
+  pronunciation: "/ɪnˈtuː.ɪ.t̬ɪv/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Easy to use and understand without special instruction."
+    bahasa: "Intuitif; mudah digunakan dan dipahami."
+  usage: "A highly desirable quality for user interfaces (UI), APIs, or software. If something is intuitive, users don't need a manual to figure out how to use it."
+  synonyms:
+    - "user-friendly"
+    - "straightforward"
+  examples:
+    workplace:
+      - "The new design for the dashboard is much more intuitive than the old one."
+      - "Our goal is to make the API so intuitive that developers can use it with minimal documentation."
+    casual:
+      - "The controls on this new coffee machine are not very intuitive."
+      - "She has an intuitive understanding of people's feelings."
+  related:
+    - word: "Ergonomic"
+      difference: "'Ergonomic' relates to the efficiency and comfort of something in its physical working environment (like an ergonomic chair or keyboard). 'Intuitive' relates to how easy something is to understand and use mentally."
+    - word: "Self-explanatory"
+      difference: "Similar to 'intuitive', 'self-explanatory' means something is easy to understand without help. 'Intuitive' often applies to actions and usability (how to *use* it), while 'self-explanatory' can apply to text, diagrams, or concepts (how to *understand* it)."
+  story: |
+    Our team was building a new feature for our app. The first version we showed to the product manager was powerful, but it was confusing to use. He said, "Functionally, this is great, but it's not intuitive. A new user would be completely lost." So we went back to the drawing board and focused on the user experience. We simplified the layout and added helpful tooltips. The next version was a success because it felt so much more intuitive.
+
+- word: "Burnout"
+  pronunciation: "/ˈbɝːn.aʊt/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A state of emotional, physical, and mental exhaustion caused by excessive and prolonged stress."
+    bahasa: "Kelelahan emosional, fisik, dan mental akibat stres berlebihan."
+  usage: "A serious issue in the tech industry. It's used to describe the feeling of being completely drained from overwork, tight deadlines, and high pressure."
+  synonyms:
+    - "exhaustion"
+    - "fatigue"
+  examples:
+    workplace:
+      - "After months of working overtime to meet the deadline, the entire team was on the verge of burnout."
+      - "It's important to take regular vacations to avoid burnout."
+    casual:
+      - "As a student, I experienced burnout at the end of every semester."
+      - "He's suffering from burnout after trying to juggle two jobs."
+  related:
+    - word: "Stress"
+      difference: "'Stress' is the pressure or tension you feel. 'Burnout' is the state of exhaustion that can result from being under too much stress for too long. Stress is a cause; burnout is an effect."
+    - word: "Fatigue"
+      difference: "'Fatigue' is a feeling of tiredness or lack of energy. 'Burnout' is a deeper, more prolonged state of exhaustion that also includes feelings of cynicism, detachment, and a sense of ineffectiveness."
+  story: |
+    For an entire quarter, our team was in 'crunch mode,' working late nights and weekends to launch a major product. The launch was successful, but the aftermath was tough. Our best developer, Maria, seemed disengaged and quiet. She later told our manager that she was experiencing severe burnout. The company supported her by giving her a week off to recharge and re-evaluating the team's workload to ensure a healthier work-life balance in the future.
