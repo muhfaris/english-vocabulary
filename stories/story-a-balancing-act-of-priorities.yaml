@@ -1,0 +1,17 @@
+story:
+  title: "a-balancing-act-of-priorities"
+  date: "2025-09-07"
+  text: |
+    The week started with the usual Monday morning stand-up. My team lead, Sarah, did a quick recap of our current sprint goals. Everyone shared their updates, and it was clear we had a lot of **WIP**. My main task was to get the new dashboard feature ready for the **show-and-tell** on Wednesday. I was feeling confident, thinking it would be **smooth sailing** from here.
+
+    However, just after the meeting, a QA engineer pinged me about a minor visual glitch in the staging environment. It wasn't a showstopper, but it was annoying. I spent the next hour trying to **pinpoint** the root cause. It turned out to be a tricky CSS issue that I couldn't solve alone.
+
+    I decided to **collaborate** with a front-end specialist on our team, Alex. We jumped on a quick call, and with his fresh perspective, we found the problem in less than 30 minutes. After pushing the fix, I went back to my main task. The rest of the afternoon was dedicated to a final **run-through** of the feature, ensuring all the **last-minute** feedback from the product manager was incorporated. It was a classic balancing act, but everything was back on track by the end of the day.
+  highlighted_words:
+    - "WIP"
+    - "show-and-tell"
+    - "smooth sailing"
+    - "pinpoint"
+    - "collaborate"
+    - "run-through"
+    - "last-minute"
