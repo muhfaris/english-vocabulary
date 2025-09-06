@@ -1,0 +1,18 @@
+story:
+  title: "a-fresh-perspective"
+  date: "2025-09-06"
+  text: |
+    My morning was spent staring at a piece of code that just wouldn't work as expected. I felt completely **stuck**, unable to see a way forward. During our daily **stand-up**, I mentioned I had a **blocker**, but no one had an immediate solution.
+
+    Around 2 PM, my teammate, Sarah, asked if I wanted to grab a **cup of coffee**. As we waited for our drinks, we started chatting about the issue. I drew a diagram on a napkin, explaining my approach. Sarah, with a fresh perspective, pointed out a logical flaw I had completely missed. She suggested we **brainstorm** a few alternatives.
+
+    Her simple question sparked a new idea. We quickly sketched out a new **workflow** that seemed much more robust. It was amazing how stepping away from the screen and having a casual conversation could so easily **resolve** an issue that had been a major **hurdle** all morning. We went back to our desks, and with this new direction, I was finally able to move forward. It was a good reminder that sometimes the best solutions are found when you're not actively looking for them.
+  highlighted_words:
+    - "stuck"
+    - "stand-up"
+    - "blocker"
+    - "cup of coffee"
+    - "brainstorm"
+    - "workflow"
+    - "resolve"
+    - "hurdle"

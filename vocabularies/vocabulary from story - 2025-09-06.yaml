@@ -219,3 +219,27 @@
       difference: "'Delegate' means to assign a task to someone else. You might delegate tasks as part of a plan to reprioritize your own workload."
   story: |
     Our team started the week with a clear set of goals for the sprint. However, on Wednesday, the marketing team announced a major new campaign that required engineering support. We had to call an emergency meeting to reprioritize our backlog, moving the campaign-related tasks to the top of the list and pushing some of our planned work to the next sprint.
+- word: "stuck"
+  pronunciation: "/stʌk/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Unable to move from a particular position or place, or unable to change a situation."
+    bahasa: "Tidak bisa bergerak dari posisi atau tempat tertentu, atau tidak bisa mengubah suatu situasi."
+  usage: "Use 'stuck' when you are unable to make progress on a task or problem."
+  synonyms:
+    - "blocked"
+    - "jammed"
+  examples:
+    workplace:
+      - "I'm stuck on this bug; can you take a look?"
+      - "We were stuck in the planning phase for weeks."
+    casual:
+      - "I'm stuck in traffic."
+      - "He's stuck in his old ways."
+  related:
+    - word: "blocker"
+      difference: "A 'blocker' is a noun, the specific thing causing the problem. 'Stuck' is an adjective describing the state of being unable to proceed because of the blocker."
+    - word: "hurdle"
+      difference: "A 'hurdle' is an obstacle to overcome. If you fail to overcome it, you become 'stuck'."
+  story: |
+    I was completely stuck on a complex feature. After staring at the same code for hours without progress, I asked a senior dev for help. She spotted my simple mistake immediately; I was just too stuck in my own perspective to see it.
