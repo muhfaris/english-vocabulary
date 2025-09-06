@@ -1,0 +1,15 @@
+story:
+  title: "a-sudden-priority-shift"
+  date: "2025-09-06"
+  text: |
+    It started as a typical Friday. I had my tasks lined up, a fresh cup of coffee on my desk, and a clear plan to wrap up the new feature before the weekend. But as we all know, plans in software development can sometimes **derail** quite spectacularly.
+
+    Around 11 AM, an **unforeseen** issue was reported in our production environment. A critical part of the user dashboard was failing to load for a small subset of users. Immediately, it became a high-priority incident. My manager came over and told me to **drop everything** I was working on.
+
+    The team had to **scramble** to figure out the root cause. We quickly assembled a small task force. My first job was to try and reproduce the bug in a controlled environment. It was a classic case of a context switch, forcing me to **reprioritize** my entire day. The calm, focused morning had turned into a race against the clock. It’s moments like these that test your ability to adapt and solve problems under pressure.
+  highlighted_words:
+    - "derail"
+    - "unforeseen"
+    - "drop everything"
+    - "scramble"
+    - "reprioritize"
