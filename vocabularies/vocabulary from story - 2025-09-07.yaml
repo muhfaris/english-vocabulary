@@ -1,0 +1,174 @@
+- word: "WIP"
+  pronunciation: "/ˌdʌb.əl.juːˌaɪˈpiː/"
+  part_of_speech: "noun"
+  meaning:
+    english: "An acronym for 'Work in Progress,' referring to tasks or projects that have been started but are not yet completed."
+    bahasa: "Singkatan dari 'Work in Progress,' merujuk pada tugas atau proyek yang sudah dimulai tetapi belum selesai."
+  usage: "Used in project management and team updates to quickly convey the status of ongoing tasks. It helps manage expectations about what is currently being worked on."
+  synonyms:
+    - "ongoing task"
+    - "unfinished work"
+  examples:
+    workplace:
+      - "My current WIP includes the new authentication feature and a few minor bug fixes."
+      - "Let's limit our WIP to three major tasks per person to avoid context switching."
+    casual:
+      - "My weekend project is still a WIP, but I hope to finish it soon."
+      - "She has several WIP paintings in her studio."
+  related:
+    - word: "backlog"
+      difference: "A backlog is a list of tasks waiting to be started, while WIP refers to tasks that are already being worked on."
+    - word: "done"
+      difference: "Done means a task is fully completed, whereas WIP means it is still in progress."
+  story: |
+    During our daily stand-up, I shared my screen to show the Kanban board. "I have two items in the WIP column," I explained. "One is the payment gateway integration, and the other is a ticket for a minor UI bug. I expect to move the bug ticket to 'Done' by this afternoon."
+
+- word: "show-and-tell"
+  pronunciation: "/ˈʃoʊ ænd tɛl/"
+  part_of_speech: "noun"
+  meaning:
+    english: "An informal meeting or session where team members demonstrate their completed work or work in progress to get feedback."
+    bahasa: "Pertemuan atau sesi informal di mana anggota tim mendemonstrasikan pekerjaan mereka yang telah selesai atau sedang berjalan untuk mendapatkan umpan balik."
+  usage: "Common in agile development, often at the end of a sprint or a work cycle, to showcase progress, gather feedback, and ensure alignment with stakeholders."
+  synonyms:
+    - "demo"
+    - "presentation"
+  examples:
+    workplace:
+      - "We have a weekly show-and-tell every Friday for the team to see what everyone has accomplished."
+      - "I need to prepare a small presentation for the show-and-tell with the product manager."
+    casual:
+      - "My son has his first show-and-tell at school tomorrow; he's bringing his favorite toy."
+      - "The photography club had a show-and-tell to share their best pictures from the summer."
+  related:
+    - word: "sprint review"
+      difference: "A sprint review is a more formal agile ceremony with a specific structure, while a show-and-tell can be more informal and frequent."
+    - word: "demo"
+      difference: "A demo is often a one-way presentation, whereas a show-and-tell is more interactive and focused on gathering feedback."
+  story: |
+    Our team decided to hold a casual show-and-tell every other Wednesday. It wasn't a formal review, just a chance to share what we were excited about. This week, I presented a prototype for a new analytics dashboard. The feedback was incredibly helpful and gave me a few great ideas to improve it before the official sprint demo.
+
+- word: "smooth sailing"
+  pronunciation: "/smuːð ˈseɪlɪŋ/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A situation or process that is proceeding easily, without any problems or difficulties."
+    bahasa: "Sebuah situasi atau proses yang berjalan dengan mudah, tanpa masalah atau kesulitan."
+  usage: "Used to describe a project, task, or period of time that is free of obstacles. It often implies that things are going according to plan."
+  synonyms:
+    - "easy going"
+    - "trouble-free"
+  examples:
+    workplace:
+      - "After we resolved the initial setup issues, it was smooth sailing for the rest of the project."
+      - "I hope the deployment this evening is smooth sailing."
+    casual:
+      - "Once the kids went to bed, it was smooth sailing for the rest of the evening."
+      - "The road trip was smooth sailing until we hit unexpected traffic near the city."
+  related:
+    - word: "on track"
+      difference: "'On track' means you are following the plan and schedule, but you might still face challenges. 'Smooth sailing' implies a complete lack of challenges."
+    - word: "hiccup"
+      difference: "A hiccup is a small problem that interrupts smooth sailing."
+  story: |
+    The project kickoff was fantastic, and the first week was smooth sailing. All the initial tasks were completed ahead of schedule, and the team was in high spirits. We all knew challenges would come later, but for now, we were enjoying the calm and productive start.
+
+- word: "pinpoint"
+  pronunciation: "/ˈpɪn.pɔɪnt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To find or identify the exact location, cause, or nature of something with great accuracy."
+    bahasa: "Menemukan atau mengidentifikasi lokasi, penyebab, atau sifat sesuatu dengan sangat akurat."
+  usage: "Often used in the context of debugging or problem-solving, where the goal is to isolate a specific issue among many possibilities."
+  synonyms:
+    - "identify"
+    - "locate"
+  examples:
+    workplace:
+      - "It took a few hours, but I finally managed to pinpoint the cause of the memory leak."
+      - "Can you help me pinpoint the exact line of code that's causing this error?"
+    casual:
+      - "It's hard to pinpoint the exact moment I decided to change careers."
+      - "The detective tried to pinpoint the suspect's location using phone records."
+  related:
+    - word: "diagnose"
+      difference: "'Diagnose' involves identifying the nature of a problem by examining its symptoms, which is a broader process. 'Pinpoint' refers to identifying something specific and exact, often as part of a diagnosis."
+    - word: "narrow down"
+      difference: "'Narrow down' means reducing a list of possibilities. 'Pinpoint' is the final step after narrowing down, where you identify the single correct option."
+  story: |
+    A critical bug was reported in production, causing intermittent failures for our users. The error logs were vague, making it difficult to understand the problem. I spent the entire morning adding more detailed logging. With the new logs in place, I was finally able to pinpoint the issue to a race condition in a third-party library.
+
+- word: "collaborate"
+  pronunciation: "/kəˈlæb.ə.reɪt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To work jointly with others on an activity or project to achieve a common goal."
+    bahasa: "Bekerja bersama dengan orang lain dalam suatu kegiatan atau proyek untuk mencapai tujuan bersama."
+  usage: "A fundamental concept in teamwork, used to describe the act of sharing ideas, responsibilities, and effort to produce a better outcome than one could alone."
+  synonyms:
+    - "cooperate"
+    - "work together"
+  examples:
+    workplace:
+      - "The front-end and back-end teams need to collaborate closely on this new feature."
+      - "I'm excited to collaborate with the design team to improve the user experience."
+    casual:
+      - "The two musicians decided to collaborate on a new album."
+      - "We should collaborate on a plan for the surprise party."
+  related:
+    - word: "team up"
+      difference: "'Team up' is a more informal way to say you are forming a team to work together. 'Collaborate' emphasizes the process of working together itself."
+    - word: "contribute"
+      difference: "You can 'contribute' to a project by providing something (like code or an idea), but to 'collaborate' you must actively work with others."
+  story: |
+    Initially, I was struggling with the complex algorithm for the recommendation engine. After hitting a wall, I asked Maria, a data scientist on another team, if she had time to help. We decided to collaborate, and her expertise in machine learning was exactly what I needed. Together, we designed a much more efficient solution.
+
+- word: "run-through"
+  pronunciation: "/ˈrʌn.θruː/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A quick practice, rehearsal, or review of something from beginning to end."
+    bahasa: "Latihan, gladi bersih, atau tinjauan cepat dari sesuatu dari awal hingga akhir."
+  usage: "Commonly used when preparing for a presentation, demo, or deployment to ensure everything works as expected and to identify any final issues."
+  synonyms:
+    - "rehearsal"
+    - "practice"
+  examples:
+    workplace:
+      - "Let's do a quick run-through of the presentation before the client meeting."
+      - "The team did a final run-through of the deployment plan to make sure everyone knew their roles."
+    casual:
+      - "The actors had one last run-through before the opening night of the play."
+      - "I did a quick run-through of my speech in front of the mirror."
+  related:
+    - word: "dry run"
+      difference: "A 'dry run' is a type of 'run-through,' but it specifically implies a full rehearsal of a process exactly as it would happen for real (like a deployment). A 'run-through' can be more informal."
+    - word: "walkthrough"
+      difference: "A 'walkthrough' is often a step-by-step explanation or guide for others, while a 'run-through' is more of a practice for the performers or presenters themselves."
+  story: |
+    Our big demo for the stakeholders was just a day away. We scheduled a meeting for a final run-through. I shared my screen and went through the entire user flow, from signing up to creating a new project. The run-through helped us catch a few awkward phrases in the UI and a small bug, which we fixed immediately.
+
+- word: "last-minute"
+  pronunciation: "/ˌlæstˈmɪn.ɪt/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Happening or done at the latest possible time before an event."
+    bahasa: "Terjadi atau dilakukan pada saat-saat terakhir sebelum suatu acara."
+  usage: "Used to describe actions, changes, or decisions that occur just before a deadline or event, often implying a sense of urgency or lack of planning."
+  synonyms:
+    - "eleventh-hour"
+    - "late"
+  examples:
+    workplace:
+      - "The client made a few last-minute changes to the design requirements."
+      - "We had to do some last-minute testing before the release."
+    casual:
+      - "I bought a last-minute flight for the weekend."
+      - "He's famous for his last-minute holiday shopping."
+  related:
+    - word: "unplanned"
+      difference: "'Unplanned' means something wasn't planned at all. 'Last-minute' means it was done very close to a deadline, whether it was planned or not."
+    - word: "urgent"
+      difference: "'Urgent' describes the importance or time-sensitivity of a task. 'Last-minute' describes *when* the task is done."
+  story: |
+    We thought the feature was ready for deployment, but the product manager noticed a small inconsistency in the user flow. It required a last-minute code change. The team had to scramble to get it fixed, tested, and merged just an hour before the scheduled release. It was stressful, but we managed to get it done.
