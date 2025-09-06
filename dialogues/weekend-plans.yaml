@@ -1,0 +1,61 @@
+dialogue:
+  - speaker: Maya
+    english: "Hey Leo, thank goodness it's Friday! Any big plans for the weekend?"
+    bahasa: "Hai Leo, syukurlah hari Jumat! Ada rencana besar untuk akhir pekan?"
+  - speaker: Leo
+    english: "You can say that again! I'm just looking forward to unwinding. Probably just some gaming and maybe I'll finally fix that annoying bug in my personal project."
+    bahasa: "Setuju sekali! Aku hanya ingin bersantai. Mungkin main game dan akhirnya memperbaiki bug yang mengganggu di proyek pribadiku."
+  - speaker: Maya
+    english: "Oh, your smart home dashboard? What's the issue?"
+    bahasa: "Oh, dasbor rumah pintarmu? Apa masalahnya?"
+  - speaker: Leo
+    english: "The temperature sensor reading is intermittent. I think it's a race condition in the async call. It's been bugging me for weeks."
+    bahasa: "Pembacaan sensor suhunya terputus-putus. Sepertinya ini adalah race condition dalam panggilan async. Ini sudah menggangguku selama berminggu-minggu."
+  - speaker: Maya
+    english: "Sounds tricky. Well, I'm planning to go for a hike tomorrow morning to recharge my batteries."
+    bahasa: "Terdengar rumit. Nah, aku berencana untuk mendaki besok pagi untuk mengisi ulang energiku."
+  - speaker: Leo
+    english: "That sounds amazing. I should probably get some fresh air too. Staring at code all day isn't the healthiest."
+    bahasa: "Kedengarannya luar biasa. Aku juga harus mencari udara segar. Menatap kode sepanjang hari tidak sehat."
+  - speaker: Maya
+    english: "Definitely! Then on Sunday, I'm hoping to make some progress on my side project—a little app to track my reading list."
+    bahasa: "Tentu saja! Lalu di hari Minggu, aku berharap bisa membuat kemajuan pada proyek sampinganku—aplikasi kecil untuk melacak daftar bacaanku."
+  - speaker: Leo
+    english: "That's a cool idea! What stack are you using?"
+    bahasa: "Ide yang keren! Kamu pakai stack apa?"
+  - speaker: Maya
+    english: "I'm trying out SvelteKit with a simple SQLite database. Just for fun, to learn something new."
+    bahasa: "Aku sedang mencoba SvelteKit dengan database SQLite sederhana. Hanya untuk bersenang-senang, untuk mempelajari sesuatu yang baru."
+  - speaker: Leo
+    english: "Nice! Well, have a great weekend, Maya."
+    bahasa: "Keren! Selamat berakhir pekan ya, Maya."
+  - speaker: Maya
+    english: "You too, Leo! Good luck with that bug."
+    bahasa: "Kamu juga, Leo! Semoga berhasil dengan bug itu."
+
+expressions:
+  - phrase: "Thank goodness it's Friday"
+    meaning_english: "An expression of relief that the work week is over."
+    meaning_bahasa: "Ekspresi kelegaan karena minggu kerja telah berakhir."
+  - phrase: "You can say that again"
+    meaning_english: "A phrase used to show strong agreement with what someone has just said."
+    meaning_bahasa: "Frasa yang digunakan untuk menunjukkan persetujuan yang kuat dengan apa yang baru saja dikatakan seseorang."
+  - phrase: "side project"
+    meaning_english: "A personal project worked on in one's spare time, often for learning or fun."
+    meaning_bahasa: "Proyek pribadi yang dikerjakan di waktu luang, seringkali untuk belajar atau bersenang-senang."
+  - phrase: "recharge my batteries"
+    meaning_english: "To rest and relax in order to get back your energy."
+    meaning_bahasa: "Beristirahat dan bersantai untuk memulihkan energi."
+  - phrase: "race condition"
+    meaning_english: "A bug in programming where the output of a process depends on the unpredictable sequence of events."
+    meaning_bahasa: "Sebuah bug dalam pemrograman di mana hasil dari suatu proses bergantung pada urutan kejadian yang tidak dapat diprediksi."
+
+questions:
+  - q: "What are Maya and Leo discussing at the end of the week?"
+    a: "They are discussing their plans for the upcoming weekend."
+  - q: "What is the technical problem Leo is facing in his personal project?"
+    a: "He's dealing with an intermittent sensor reading, which he suspects is a race condition in an asynchronous call."
+  - q: "What is Maya's plan to relax and disconnect from work?"
+    a: "She is planning to go for a hike to get some fresh air and recharge her batteries."
+  - q: "What new technology is Maya learning with her side project?"
+    a: "She is learning to use SvelteKit."
