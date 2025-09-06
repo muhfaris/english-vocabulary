@@ -363,3 +363,127 @@
       difference: "'Teamwork' is the combined action of a group. 'Mutual support' is the underlying principle that enables effective teamwork."
   story: |
     During a tough sprint with a tight deadline, the team's spirit of mutual support was crucial. Developers helped testers, and seniors mentored juniors. This environment not only helped us meet our goals but also made the stressful period more manageable.
+- word: "morning sync"
+  pronunciation: "/ˈmɔːrnɪŋ sɪŋk/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A brief daily meeting, usually held in the morning, for a team to align on their tasks and identify any blockers."
+    bahasa: "Rapat harian singkat, biasanya diadakan di pagi hari, agar tim dapat menyelaraskan tugas mereka dan mengidentifikasi penghambat."
+  usage: "Use 'morning sync' as a common alternative to 'daily stand-up' or 'daily scrum.' It's a key part of agile development for keeping the team aligned."
+  synonyms:
+    - "daily stand-up"
+    - "daily huddle"
+    - "quick sync"
+  examples:
+    workplace:
+      - "I'll give a detailed update during our morning sync tomorrow."
+      - "Let's table this discussion for the morning sync so the whole team can weigh in."
+    casual:
+      - "My roommates and I have a quick morning sync over coffee to plan our day."
+      - "The family's morning sync is mostly about who is driving whom to school."
+  related:
+    - word: "stand-up"
+      difference: "'Stand-up' is the most common official term from agile/scrum. 'Morning sync' is a more informal, but very common, alternative that emphasizes the goal of alignment."
+    - word: "meeting"
+      difference: "A 'meeting' is a general term. A 'morning sync' is a specific type of meeting that is short, daily, and has a fixed agenda."
+  story: |
+    At 9:15 AM every day, our team gathers for our morning sync. We each share what we worked on yesterday, what we plan to do today, and mention any blockers. It rarely takes more than 15 minutes, but it's essential for keeping everyone on the same page and solving problems quickly.
+- word: "dive in"
+  pronunciation: "/daɪv ɪn/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To start doing something enthusiastically and without hesitation, often something that is complex or requires focus."
+    bahasa: "Mulai melakukan sesuatu dengan antusias dan tanpa ragu-ragu, seringkali sesuatu yang kompleks atau membutuhkan fokus."
+  usage: "Use 'dive in' or 'dive into' to describe the action of starting a task, especially a substantial one like coding a new feature or debugging a problem."
+  synonyms:
+    - "get started"
+    - "jump in"
+    - "tackle"
+  examples:
+    workplace:
+      - "I've read the requirements, and now I'm ready to dive in and start coding."
+      - "She's great at just diving into a new codebase and figuring things out."
+    casual:
+      - "The food looks delicious! Let's dive in."
+      - "I'm excited to dive into this new book I bought."
+  related:
+    - word: "start"
+      difference: "'Start' is a general verb for beginning something. 'Dive in' adds a sense of energy, enthusiasm, and immediacy. It implies you are not just starting, but immersing yourself in the task."
+    - word: "tackle"
+      difference: "'Tackle' implies you are confronting a difficult problem. 'Dive in' can be used for any task, difficult or not, and focuses more on the enthusiasm of starting."
+  story: |
+    After the planning meeting, Alex was excited about the new feature. He grabbed his headphones, put on his favorite playlist, and was ready to dive into the code. He knew it was a challenging task, but he loved the feeling of starting something new and making it come to life.
+- word: "straightforward"
+  pronunciation: "/ˌstreɪtˈfɔːrwərd/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Uncomplicated and easy to do or understand."
+    bahasa: "Tidak rumit dan mudah dilakukan atau dipahami."
+  usage: "Use 'straightforward' to describe a task, process, or explanation that is simple and has no hidden complexities or difficulties."
+  synonyms:
+    - "simple"
+    - "uncomplicated"
+    - "easy"
+  examples:
+    workplace:
+      - "The installation process is pretty straightforward if you follow the guide."
+      - "I thought it would be a straightforward bug fix, but it turned out to be very complex."
+    casual:
+      - "The recipe was straightforward and easy to follow."
+      - "He gave me straightforward directions to his house."
+  related:
+    - word: "easy"
+      difference: "'Easy' means not requiring much effort. 'Straightforward' means uncomplicated and clear. A task can be straightforward but still require a lot of effort, so it might not be 'easy'."
+    - word: "complex"
+      difference: "'Complex' is the direct antonym of 'straightforward'. It means having many interconnected parts and being difficult to understand."
+  story: |
+    The task was to update the copyright year in the website's footer. It seemed like a straightforward change. The developer expected it to take five minutes. However, the date was hard-coded in ten different files, turning a straightforward task into a tedious one.
+- word: "complex"
+  pronunciation: "/ˈkɑːmpleks/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Consisting of many different and connected parts; not easy to analyze or understand."
+    bahasa: "Terdiri dari banyak bagian yang berbeda dan terhubung; tidak mudah untuk dianalisis atau dipahami."
+  usage: "Use 'complex' to describe systems, problems, or code that have a lot of interdependencies and are difficult to reason about. It's the opposite of 'straightforward'."
+  synonyms:
+    - "complicated"
+    - "intricate"
+    - "involved"
+  examples:
+    workplace:
+      - "The logic for the tax calculation is surprisingly complex."
+      - "We need to break down this complex project into smaller, manageable tasks."
+    casual:
+      - "The instructions for assembling the furniture were very complex."
+      - "He has a complex personality."
+  related:
+    - word: "complicated"
+      difference: "'Complex' and 'complicated' are very similar. 'Complex' often refers to the inherent nature of a system with many parts. 'Complicated' can sometimes imply that something is difficult due to being poorly designed or explained."
+    - word: "straightforward"
+      difference: "'Straightforward' is the direct antonym of 'complex', meaning simple and easy to understand."
+  story: |
+    A new bug report came in that seemed simple at first. But as the engineer investigated, she discovered a complex web of interactions between three different services. The bug only occurred when they were all in a specific state, making it a very complex problem to debug and solve.
+- word: "priorities"
+  pronunciation: "/praɪˈɔːrətiːz/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The things that are regarded as more important than others."
+    bahasa: "Hal-hal yang dianggap lebih penting daripada yang lain."
+  usage: "Use 'priorities' (plural) to talk about the set of tasks or goals that have been ranked by importance. It's a fundamental concept in project management and daily work planning."
+  synonyms:
+    - "most important tasks"
+    - "key objectives"
+  examples:
+    workplace:
+      - "My top priority this week is to finish the deployment script."
+      - "We need to align on our priorities for the next quarter."
+    casual:
+      - "Right now, my main priority is finding a new apartment."
+      - "His priorities are his family and his health."
+  related:
+    - word: "priority"
+      difference: "'Priority' (singular) is the state of being most important or a single most important task. 'Priorities' (plural) refers to the entire list or collection of important tasks."
+    - word: "deadline"
+      difference: "A 'deadline' is a time limit, which often influences what your 'priorities' are. An urgent deadline will make a task a high priority."
+  story: |
+    The team came into the sprint with a clear set of priorities. However, after a major production issue, they had to shuffle everything. Fixing the outage became the number one priority, and all other feature work was put on hold. It was a good reminder that priorities can change quickly.
