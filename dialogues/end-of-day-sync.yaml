@@ -1,0 +1,58 @@
+dialogue:
+  - speaker: Maya
+    english: "Alright, I think I'm ready to call it a day. How about you, Leo?"
+    bahasa: "Baiklah, sepertinya aku siap untuk menyudahi hari ini. Bagaimana denganmu, Leo?"
+  - speaker: Leo
+    english: "Almost. I just need to push my latest changes to the feature branch. The unit tests are all passing now."
+    bahasa: "Hampir. Aku hanya perlu mengirim perubahan terbaruku ke feature branch. Semua unit test sudah lolos sekarang."
+  - speaker: Maya
+    english: "Oh, great! Did you manage to fix that tricky bug with the caching service?"
+    bahasa: "Oh, bagus! Apakah kamu berhasil memperbaiki bug yang rumit dengan layanan caching itu?"
+  - speaker: Leo
+    english: "I did. It turned out to be a race condition that only happened under heavy load. Took a while to reproduce."
+    bahasa: "Berhasil. Ternyata itu adalah race condition yang hanya terjadi di bawah beban berat. Butuh beberapa saat untuk mereproduksinya."
+  - speaker: Maya
+    english: "Nice catch! I've been working on the UI mockups for the new dashboard. I've put them up on Figma."
+    bahasa: "Penemuan yang bagus! Aku sedang mengerjakan mockup UI untuk dasbor baru. Sudah aku unggah di Figma."
+  - speaker: Leo
+    english: "Perfect. I'll take a look first thing in the morning. So, we're on the same page for tomorrow's stand-up?"
+    bahasa: "Sempurna. Aku akan melihatnya besok pagi. Jadi, kita sudah sepaham untuk stand-up besok?"
+  - speaker: Maya
+    english: "Yep. I'll report my progress on the UI, and you'll cover the bug fix and the status of the feature branch."
+    bahasa: "Yap. Aku akan melaporkan kemajuanku pada UI, dan kamu akan membahas perbaikan bug dan status feature branch."
+  - speaker: Leo
+    english: "Sounds like a plan. I'm pushing my code now... and... done. Alright, I'm officially logging off."
+    bahasa: "Terdengar bagus. Aku sedang mengirim kodeku sekarang... dan... selesai. Baiklah, aku resmi log off."
+  - speaker: Maya
+    english: "Great. Have a good evening, Leo!"
+    bahasa: "Bagus. Selamat malam, Leo!"
+  - speaker: Leo
+    english: "You too, Maya! See you tomorrow."
+    bahasa: "Kamu juga, Maya! Sampai jumpa besok."
+
+expressions:
+  - phrase: "Call it a day"
+    meaning_english: "To decide to stop working for the day."
+    meaning_bahasa: "Memutuskan untuk berhenti bekerja untuk hari itu."
+  - phrase: "Push my latest changes"
+    meaning_english: "To upload code modifications from a local computer to a central repository."
+    meaning_bahasa: "Mengunggah modifikasi kode dari komputer lokal ke repositori pusat."
+  - phrase: "Race condition"
+    meaning_english: "A situation where the behavior of a system depends on the sequence or timing of uncontrollable events."
+    meaning_bahasa: "Situasi di mana perilaku sistem bergantung pada urutan atau waktu dari peristiwa yang tidak dapat dikendalikan."
+  - phrase: "Nice catch"
+    meaning_english: "An expression used to acknowledge that someone has found a subtle or important issue."
+    meaning_bahasa: "Ekspresi yang digunakan untuk mengakui bahwa seseorang telah menemukan masalah yang halus atau penting."
+  - phrase: "On the same page"
+    meaning_english: "To have a shared understanding or agreement on a topic."
+    meaning_bahasa: "Memiliki pemahaman atau kesepakatan yang sama mengenai suatu topik."
+
+questions:
+  - q: "What was Leo's last task for the day?"
+    a: "He needed to push his latest changes to the feature branch after ensuring all unit tests were passing."
+  - q: "What kind of bug did Leo fix?"
+    a: "He fixed a race condition in the caching service that only occurred under heavy load."
+  - q: "What did Maya accomplish during the day?"
+    a: "She worked on the UI mockups for the new dashboard and uploaded them to Figma."
+  - q: "What is their plan for tomorrow's stand-up meeting?"
+    a: "Maya will report her progress on the UI, and Leo will discuss the bug fix and the status of his feature branch."
