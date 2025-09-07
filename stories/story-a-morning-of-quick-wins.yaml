@@ -1,0 +1,18 @@
+story:
+  title: "a-morning-of-quick-wins"
+  date: "2025-09-07"
+  text: |
+    It was a typical Monday morning. I started my daily **routine** by grabbing a cup of coffee and reviewing my tasks. During our stand-up, my team lead decided to **assign** a small but urgent bug to me. The bug was related to the user profile page, where profile pictures were not loading correctly.
+
+    My first step was to **investigate** the issue. I started by trying to reproduce it on my local machine. After a bit of digging, I found that a recent change in the image service API was causing the problem. The fix was quite straightforward; I just needed to update the endpoint URL.
+
+    I pushed the fix and created a pull request. My colleague, Alex, quickly reviewed it and left a comment: "Looks good to me!" With the approval, I merged the change. We have a **deployment** scheduled for this afternoon, and I'm **confident** this fix will go out with it. It felt good to solve a problem so early in the week. It’s amazing what a little bit of **teamwork** can accomplish. I'm hoping the rest of the week goes as **smoothly**. Before lunch, I decided to **go through** my remaining tasks for the sprint.
+  highlighted_words:
+    - "routine"
+    - "assign"
+    - "investigate"
+    - "deployment"
+    - "confident"
+    - "teamwork"
+    - "smoothly"
+    - "go through"

@@ -172,3 +172,178 @@
       difference: "'Urgent' describes the importance or time-sensitivity of a task. 'Last-minute' describes *when* the task is done."
   story: |
     We thought the feature was ready for deployment, but the product manager noticed a small inconsistency in the user flow. It required a last-minute code change. The team had to scramble to get it fixed, tested, and merged just an hour before the scheduled release. It was stressful, but we managed to get it done.
+
+- word: "routine"
+  pronunciation: "/ruːˈtiːn/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A sequence of actions regularly followed; a fixed program."
+    bahasa: "Rangkaian tindakan yang diikuti secara teratur; sebuah program yang tetap."
+  usage: "Used to describe tasks or activities that are performed repeatedly, often daily or weekly, as part of a standard process."
+  synonyms:
+    - "procedure"
+    - "habit"
+  examples:
+    workplace:
+      - "My morning routine at work includes checking emails and reviewing the project board."
+      - "We have a weekly routine of deploying to the staging environment every Wednesday."
+    casual:
+      - "My workout routine is pretty consistent."
+      - "His bedtime routine helps him relax."
+  related:
+    - word: "habit"
+      difference: "A 'habit' is an automatic behavior, often done unconsciously. A 'routine' is a series of actions that you consciously choose to do in a specific order."
+    - word: "process"
+      difference: "A 'process' is a series of steps to achieve a particular end, which can be complex and formal. A 'routine' is typically simpler and more personal."
+  story: |
+    As a software engineer, my daily routine helps me stay organized. I start by reviewing pull requests, then I join the stand-up meeting. After that, I focus on my assigned tasks. This routine helps me manage my time effectively and ensures I don't miss any important updates.
+
+- word: "assign"
+  pronunciation: "/əˈsaɪn/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To allocate a job or duty to someone."
+    bahasa: "Mengalokasikan pekerjaan atau tugas kepada seseorang."
+  usage: "Commonly used in a work context to indicate that a task, ticket, or responsibility has been given to a specific person or team."
+  synonyms:
+    - "delegate"
+    - "allocate"
+  examples:
+    workplace:
+      - "The project manager will assign new tasks after the sprint planning."
+      - "I was assigned to fix the bug in the payment module."
+    casual:
+      - "The teacher will assign homework at the end of the class."
+      - "He assigned me the job of bringing snacks to the party."
+  related:
+    - word: "delegate"
+      difference: "'Assign' means giving a task to someone. 'Delegate' is similar but often implies giving someone the authority and responsibility to complete the task on your behalf, especially for managers."
+    - word: "allocate"
+      difference: "'Allocate' is often used for resources (like time or money), while 'assign' is typically used for tasks or responsibilities given to people."
+  story: |
+    During our daily stand-up, a critical bug was reported. Our team lead immediately created a ticket for it and decided to assign it to me because I had the most context on that part of the codebase. I accepted the task and started working on it right away.
+
+- word: "investigate"
+  pronunciation: "/ɪnˈves.tə.ɡeɪt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To carry out a systematic or formal inquiry to discover and examine the facts of an incident, allegation, etc., so as to establish the truth."
+    bahasa: "Melakukan penyelidikan sistematis atau formal untuk menemukan dan memeriksa fakta-fakta dari suatu insiden, tuduhan, dll., untuk menetapkan kebenaran."
+  usage: "Used in problem-solving, especially for bugs or issues, to describe the process of trying to find the root cause of a problem."
+  synonyms:
+    - "examine"
+    - "explore"
+  examples:
+    workplace:
+      - "I need to investigate why the server is responding so slowly."
+      - "We are investigating reports of a new bug from our users."
+    casual:
+      - "The police are investigating the strange noise."
+      - "I'm going to investigate what's making that weird sound in my car."
+  related:
+    - word: "debug"
+      difference: "'Investigate' is the process of finding the cause of a problem. 'Debug' is the process of finding and *fixing* the problem in the code. Investigation is often the first step of debugging."
+    - word: "analyze"
+      difference: "'Analyze' involves examining data or a situation in detail. 'Investigate' is a broader term that can include analysis as one of its steps."
+  story: |
+    A user reported that they couldn't upload their profile picture. The error message was generic, so I had to investigate the issue. I checked the application logs, the server logs, and even the network requests. After an hour of investigation, I found the root cause: an expired API key for the storage service.
+
+- word: "confident"
+  pronunciation: "/ˈkɒn.fɪ.dənt/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Feeling or showing confidence in oneself; self-assured."
+    bahasa: "Merasa atau menunjukkan kepercayaan pada diri sendiri; percaya diri."
+  usage: "Used to express a strong belief in one's own or someone else's ability to do something successfully or for a particular outcome to happen."
+  synonyms:
+    - "certain"
+    - "sure"
+  examples:
+    workplace:
+      - "I'm confident that we can deliver this feature by the end of the sprint."
+      - "She gave a confident presentation to the stakeholders."
+    casual:
+      - "He is confident he will win the race."
+      - "I'm not confident about my cooking skills."
+  related:
+    - word: "sure"
+      difference: "'Sure' and 'confident' are very similar. 'Confident' often implies a belief based on evidence or past experience, while 'sure' can sometimes be more of a feeling."
+    - word: "optimistic"
+      difference: "'Optimistic' means you hope or believe that good things will happen. 'Confident' means you have a strong belief in a specific ability or outcome, based on evidence."
+  story: |
+    After spending a day refactoring the old code, I was confident that the performance would improve. I had run benchmarks and saw a 30% reduction in response time on my local machine. When I presented my findings to the team, they agreed with my solution, and I felt even more confident about the change.
+
+- word: "teamwork"
+  pronunciation: "/ˈtiːm.wɜːk/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The combined action of a group of people, especially when effective and efficient."
+    bahasa: "Tindakan gabungan dari sekelompok orang, terutama ketika efektif dan efisien."
+  usage: "Refers to the quality of collaboration and cooperation within a team. It's often cited as a key factor for a project's success."
+  synonyms:
+    - "collaboration"
+    - "cooperation"
+  examples:
+    workplace:
+      - "Good teamwork is essential for the success of any software project."
+      - "This project was a great example of effective teamwork between different departments."
+    casual:
+      - "It took a lot of teamwork to move the heavy sofa."
+      - "Their victory was a result of amazing teamwork."
+  related:
+    - word: "collaboration"
+      difference: "'Teamwork' refers to the general concept and quality of working together. 'Collaboration' often refers to the specific act or process of working on a task together."
+    - word: "cooperation"
+      difference: "'Cooperation' means working together and helping each other. 'Teamwork' is a broader term that includes cooperation, communication, and a shared goal."
+  story: |
+    We had a very tight deadline for the new feature release. The front-end developers were falling behind, so two back-end engineers, including myself, jumped in to help with some of the UI components. It was a great example of teamwork. We all shared the same goal and helped each other out to meet the deadline.
+
+- word: "go through"
+  pronunciation: "/ɡoʊ θruː/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To examine something carefully, or to experience a difficult or unpleasant situation."
+    bahasa: "Memeriksa sesuatu dengan cermat, atau mengalami situasi yang sulit atau tidak menyenangkan."
+  usage: "In a work context, it's often used to mean 'review' or 'examine' a document, list, or process. It can also mean to proceed with an official process."
+  synonyms:
+    - "review"
+    - "examine"
+  examples:
+    workplace:
+      - "Let's go through the pull request one more time before merging."
+      - "We need to go through the security checklist before deployment."
+    casual:
+      - "I need to go through my emails."
+      - "She's going through a tough time right now."
+  related:
+    - word: "review"
+      difference: "'Review' is a more formal term for examining something. 'Go through' is a more casual and common phrasal verb for the same action."
+    - word: "check"
+      difference: "'Check' often implies a quick look to verify something. 'Go through' suggests a more thorough examination from beginning to end."
+  story: |
+    Before our sprint planning meeting, our product manager asked us to go through the list of user stories in the backlog. She wanted us to be prepared to discuss the priorities and estimate the effort for each task. It took about 30 minutes to go through all of them, but it made the meeting much more productive.
+
+- word: "smoothly"
+  pronunciation: "/ˈsmuːð.li/"
+  part_of_speech: "adverb"
+  meaning:
+    english: "In a way that happens without any problems or difficulties."
+    bahasa: "Dengan cara yang terjadi tanpa masalah atau kesulitan."
+  usage: "Used to describe an action or process that proceeds without interruptions, errors, or issues. It emphasizes the ease and efficiency of the event."
+  synonyms:
+    - "effortlessly"
+    - "easily"
+  examples:
+    workplace:
+      - "The deployment went smoothly, and there were no rollbacks needed."
+      - "If everything goes smoothly, we should finish the project ahead of schedule."
+    casual:
+      - "The event ran smoothly from start to finish."
+      - "The conversation flowed smoothly between them."
+  related:
+    - word: "smooth"
+      difference: "'Smooth' is an adjective that describes a thing (e.g., a smooth process), while 'smoothly' is an adverb that describes an action (e.g., the process went smoothly)."
+    - word: "seamlessly"
+      difference: "'Seamlessly' implies that transitions between parts are not noticeable. 'Smoothly' describes the overall lack of problems in the process itself."
+  story: |
+    Our team was preparing for a major database migration over the weekend. Everyone was a bit nervous because so many things could go wrong. We did a dry run on Friday, which helped us find a few potential issues. On the day of the migration, everything went smoothly. The scripts ran without any errors, and the new database was up and running in less time than we had estimated.
