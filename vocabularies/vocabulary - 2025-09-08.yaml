@@ -1,0 +1,249 @@
+- word: "Juggling"
+  pronunciation: "/ˈdʒʌɡ.lɪŋ/"
+  part_of_speech: "verb"
+  meaning:
+    english: "Managing several important tasks or activities at once."
+    bahasa: "Menyeimbangkan atau mengelola beberapa tugas penting sekaligus."
+  usage: "Use this when you feel like you have too many different responsibilities to handle at the same time, and you're trying to keep all of them moving forward."
+  synonyms:
+    - "balancing"
+    - "multitasking"
+  examples:
+    workplace:
+      - "This week, I'm juggling three high-priority tickets and a code review."
+      - "She's great at juggling her project work with her mentoring responsibilities."
+    casual:
+      - "As a working parent, I'm always juggling my job and my family's schedule."
+      - "He's juggling two part-time jobs to save up for a new car."
+  related:
+    - word: "Multitasking"
+      difference: "Multitasking is doing multiple things at the exact same time (like listening to a meeting while coding), whereas juggling is more about managing multiple *projects* or *responsibilities* over a period."
+    - word: "Overwhelmed"
+      difference: "Juggling tasks can make you feel overwhelmed, which is the feeling of having too much to handle. Juggling is the action; overwhelmed is the potential emotional result."
+  story: |
+    During our daily stand-up, Maria said, "I'm currently juggling the new feature implementation with fixing a critical bug that just came in. I'll focus on the bug first to unblock the QA team, and then get back to the feature." Her manager appreciated the clear update on how she was handling the competing priorities.
+
+- word: "Troubleshoot"
+  pronunciation: "/ˈtrʌb.əl.ʃuːt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To analyze and solve problems in a system or machine."
+    bahasa: "Mencari dan memperbaiki masalah pada sistem atau mesin."
+  usage: "This is the go-to word for the process of diagnosing and fixing a problem, especially a technical one. It implies a systematic search for the source of an issue."
+  synonyms:
+    - "diagnose"
+    - "debug"
+  examples:
+    workplace:
+      - "The login page is down; I need to troubleshoot the authentication service."
+      - "Can you help me troubleshoot this API connection? I keep getting a 401 error."
+    casual:
+      - "My Wi-Fi isn't working, so I have to troubleshoot my router."
+      - "He spent all afternoon trying to troubleshoot why his new printer wouldn't connect."
+  related:
+    - word: "Debug"
+      difference: "Debugging is specifically for finding and fixing errors (`bugs`) in code. Troubleshooting is a broader term that can include code, but also hardware, network issues, or configuration problems."
+    - word: "Investigate"
+      difference: "Investigate is about gathering information about a problem. Troubleshooting is the entire process that includes investigation, forming a hypothesis, and applying a fix."
+  story: |
+    The CI/CD pipeline failed unexpectedly overnight. David was assigned the ticket. He started to troubleshoot by checking the deployment logs. He found an error related to a recently updated dependency, fixed the version number in the config file, and re-ran the pipeline successfully. His ability to troubleshoot quickly saved the team a lot of time.
+
+- word: "Shore up"
+  pronunciation: "/ʃɔːr ʌp/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To strengthen or support something that is weak or failing."
+    bahasa: "Memperkuat atau menopang sesuatu yang lemah atau goyah."
+  usage: "Use this when you're talking about reinforcing a system, a codebase, or even an argument that has weaknesses. It's about making something more robust."
+  synonyms:
+    - "reinforce"
+    - "strengthen"
+  examples:
+    workplace:
+      - "We need to shore up our backend services before the big sales event."
+      - "The latest security patch is meant to shore up vulnerabilities in the old library."
+    casual:
+      - "The government is taking measures to shore up the economy."
+      - "He added more examples to his presentation to shore up his main argument."
+  related:
+    - word: "Refactor"
+      difference: "Refactoring is about restructuring existing code without changing its external behavior, often to improve readability or maintainability. Shoring up is about strengthening a system, which might be done *by* refactoring, but could also involve adding resources, improving infrastructure, or adding more tests."
+    - word: "Fortify"
+      difference: "Fortify is very similar, but often implies defending against an external threat (like fortifying a system against attacks). Shore up is more general and can just be about fixing internal weaknesses."
+  story: |
+    After a recent outage, the SRE team held a meeting to discuss what went wrong. They realized the database was a single point of failure. Their top priority became to shore up the data layer by introducing a replica set and a failover mechanism, ensuring the system would be more resilient in the future.
+
+- word: "Unblock"
+  pronunciation: "/ˌʌnˈblɒk/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To remove an obstacle or 'blocker' that is preventing progress."
+    bahasa: "Menghilangkan halangan atau 'blocker' yang menghambat kemajuan."
+  usage: "A very common word in agile/scrum meetings. You use it when you are stuck on a task and need help, or when you are helping someone else who is stuck."
+  synonyms:
+    - "enable"
+    - "clear the way"
+  examples:
+    workplace:
+      - "I'm blocked by the API team. Can someone help me get the new endpoint specs to unblock my work?"
+      - "Thanks for the quick approval! I'm now unblocked and can proceed with the deployment."
+    casual:
+      - "The city finally sent a crew to unblock the drain on our street."
+      - "Talking through my writer's block with a friend helped unblock my creativity."
+  related:
+    - word: "Blocker"
+      difference: "A blocker is the noun—it's the thing that is stopping you. To unblock is the verb—the action of removing that blocker."
+    - word: "Resolve"
+      difference: "You resolve an issue or a problem. Unblock is more specific to a person or a task's progress. Resolving a bug will unblock the tester."
+  story: |
+    During stand-up, Ken said, "I'm still blocked. I need the API key from the infrastructure team." The scrum master immediately said, "Okay, my top priority after this meeting is to talk to the infra lead and get you that key. We need to get you unblocked today."
+
+- word: "Headroom"
+  pronunciation: "/ˈhed.ruːm/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The capacity or potential for something to grow, expand, or operate."
+    bahasa: "Kapasitas atau potensi untuk bertumbuh, berekspansi, atau beroperasi."
+  usage: "Engineers use this to talk about system capacity. For example, how much more traffic a server can handle, or how much more data a database can store before it needs to be upgraded."
+  synonyms:
+    - "capacity"
+    - "leeway"
+  examples:
+    workplace:
+      - "Our servers are at 80% CPU usage. We don't have much headroom for traffic spikes."
+      - "We chose the larger database instance to give us plenty of headroom for the next two years."
+    casual:
+      - "The project has enough budget headroom to allow for some unexpected costs."
+      - "I set my personal deadline two days before the real one to give myself some headroom."
+  related:
+    - word: "Scalability"
+      difference: "Scalability is a system's ability to handle more load. Headroom is the *current* amount of spare capacity a system has. A scalable system is designed to add headroom easily."
+    - word: "Buffer"
+      difference: "A buffer is a reserved amount of something (time, money, memory) to protect against unexpected situations. Headroom is the unused capacity that naturally exists, not necessarily something you intentionally set aside as a buffer."
+  story: |
+    The DevOps team sent out a warning. "Team, our main Kubernetes cluster is running low on memory headroom. We're seeing pods getting evicted. We need to either optimize our applications to use less memory or add more nodes to the cluster before we face a major incident."
+
+- word: "Back-and-forth"
+  pronunciation: "/ˌbæk.ən(d)ˈfɔːrθ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A series of communications, negotiations, or arguments between people."
+    bahasa: "Serangkaian komunikasi, negosiasi, atau perdebatan antara orang-orang."
+  usage: "Use this to describe a long discussion, especially one that happens over email or chat, where it takes many messages to reach a decision."
+  synonyms:
+    - "discussion"
+    - "dialogue"
+  examples:
+    workplace:
+      - "After a long back-and-forth on the pull request, we finally agreed on the implementation."
+      - "Let's schedule a quick call to avoid the endless back-and-forth over email."
+    casual:
+      - "There was a lot of back-and-forth with the seller before we agreed on a price for the car."
+      - "My brother and I had a back-and-forth about where to go for dinner."
+  related:
+    - word: "Discussion"
+      difference: "A discussion is any conversation. A back-and-forth specifically implies multiple rounds of communication, often with disagreement or negotiation."
+    - word: "Alignment"
+      difference: "Alignment is the goal you want to reach. The back-and-forth is often the process you go through to get to that alignment."
+  story: |
+    The product manager and the lead engineer had a week-long back-and-forth in the comments of a Jira ticket. The PM wanted a complex new filter, but the engineer argued it would be slow. Finally, they jumped on a call, shared screens, and decided on a simpler design in 15 minutes, ending the long back-and-forth.
+
+- word: "Nuance"
+  pronunciation: "/ˈnjuː.ɑːns/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A subtle difference in or shade of meaning, expression, or sound."
+    bahasa: "Perbedaan atau corak makna, ekspresi, atau suara yang tipis (halus)."
+  usage: "Perfect for when you're discussing complex requirements, user feedback, or technical details where small differences are very important."
+  synonyms:
+    - "subtlety"
+    - "distinction"
+  examples:
+    workplace:
+      - "The user feedback is positive, but there's a nuance we're missing about their workflow."
+      - "He's a great product manager because he understands the nuance of customer needs."
+    casual:
+      - "To really appreciate this coffee, you have to pay attention to the nuance of its flavor."
+      - "The actor's performance was full of nuance."
+  related:
+    - word: "Detail"
+      difference: "A detail is any specific piece of information. A nuance is a *subtle* detail that changes the overall meaning or interpretation. All nuances are details, but not all details have nuance."
+    - word: "Edge case"
+      difference: "An edge case is a rare problem or situation. Nuance is about subtle meaning. You might need to understand the nuance of a requirement to identify a potential edge case."
+  story: |
+    During planning, the designer said, "The button should be blue." But the senior developer asked, "Which blue? The brand's primary blue or the slightly lighter one we use for secondary actions?" It seemed like a small point, but the nuance was important for user experience. Using the wrong blue could confuse users about the button's importance.
+
+- word: "Rally"
+  pronunciation: "/ˈræl.i/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To bring people together in order to support an idea, a person, or a cause."
+    bahasa: "Mengumpulkan (orang) untuk mendukung sebuah ide, seseorang, atau tujuan."
+  usage: "Use this when a team needs to unite and focus its energy to overcome a challenge, like fixing a major bug or meeting a tight deadline."
+  synonyms:
+    - "unite"
+    - "mobilize"
+  examples:
+    workplace:
+      - "The production server is down! We need to rally the on-call team to get it back up."
+      - "The manager's speech really helped rally the team to finish the project on time."
+    casual:
+      - "The community was able to rally together to clean up the park after the storm."
+      - "She rallied her friends to help her move to a new apartment."
+  related:
+    - word: "Motivate"
+      difference: "To motivate is to give someone a reason to do something. To rally is to bring people together for a shared purpose, which is a form of motivation, but it emphasizes the group aspect."
+    - word: "Assemble"
+      difference: "Assemble means to gather people or things together. Rally includes the idea of inspiring them and uniting them for action, not just physically bringing them to one place."
+  story: |
+    With just 48 hours left before the launch, a showstopper bug was found. The team was tired and morale was low. The tech lead, Sarah, called a quick meeting. "I know we're exhausted," she said, "but we're so close. Let's rally together, focus on this one problem, and get this product shipped." Her confidence and clear direction helped the team rally and they managed to fix the bug just in time.
+
+- word: "Clunky"
+  pronunciation: "/ˈklʌŋ.ki/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Awkward, heavy, and not working in a smooth or graceful way."
+    bahasa: "Kaku, berat, dan tidak bekerja dengan lancar atau mulus."
+  usage: "Often used to describe a user interface (UI) that is difficult or annoying to use. It can also describe a process or a piece of code that is inefficient and awkward."
+  synonyms:
+    - "awkward"
+    - "cumbersome"
+  examples:
+    workplace:
+      - "The user interface for the admin panel is so clunky; it takes five clicks to do a simple task."
+      - "We need to refactor this clunky script; it's slow and hard to maintain."
+    casual:
+      - "My first laptop was a clunky machine that weighed a ton."
+      - "The app's navigation feels clunky compared to its competitors."
+  related:
+    - word: "Legacy"
+      difference: "Legacy code is old code. It might be clunky, but it doesn't have to be. Clunky describes the *quality* of the user or developer experience, not just the age of the code."
+    - word: "Inefficient"
+      difference: "Inefficient means something wastes time or resources. Clunky things are usually inefficient, but clunky focuses more on the feeling of awkwardness and difficulty in use."
+  story: |
+    During a user testing session, the team watched as a new user struggled with the date-picker component. "Why do I have to click this tiny arrow so many times?" the user asked. The product manager sighed and wrote in her notes: "The date-picker is clunky and needs a complete redesign." It was clear that what seemed logical to the developers was a frustrating experience for the user.
+
+- word: "Slick"
+  pronunciation: "/slɪk/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Operating or done in a very impressive, smooth, and efficient way."
+    bahasa: "Beroperasi atau dilakukan dengan cara yang sangat mengesankan, lancar, dan efisien."
+  usage: "The opposite of clunky. Use this to praise a well-designed UI, a smooth animation, an efficient process, or a clever piece of code."
+  synonyms:
+    - "smooth"
+    - "polished"
+  examples:
+    workplace:
+      - "The new mobile app has a really slick user interface; the animations are beautiful."
+      - "That was a slick piece of code. You solved a complex problem in just a few lines."
+    casual:
+      - "He delivered a very slick presentation that impressed the clients."
+      - "The magician performed a slick card trick."
+  related:
+    - word: "Intuitive"
+      difference: "Intuitive means something is easy to use without instruction. A slick UI is almost always intuitive, but slick also includes an element of style and impressiveness."
+    - word: "Efficient"
+      difference: "Efficient means it works well without waste. Slick means it works well *and* looks good doing it. It's about both performance and presentation."
+  story: |
+    The team just released a new onboarding flow for their app. A senior executive who tried it sent a message on Slack: "Wow, the new user onboarding is incredibly slick! It was so smooth and guided me through the setup perfectly. Major kudos to the team." The message was screenshotted and posted in the team's channel as a celebration of their hard work.
