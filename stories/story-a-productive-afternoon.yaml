@@ -1,0 +1,16 @@
+story:
+  title: "a-productive-afternoon"
+  date: "2025-09-08"
+  text: |
+    The morning was a blur of meetings, but the afternoon was finally time for some **deep work**. I put on my headphones, sipped my coffee, and tackled a tricky bug that had been in the **backlog** for a week. The initial code was a bit **messy**, but after an hour of focused effort, I managed to refactor it into something much cleaner.
+
+    My teammate, Sarah, sent me a message asking for a quick **walkthrough** of the new analytics dashboard I had built. We jumped on a quick call, and I showed her how to navigate the key features. Her feedback was positive, which was a nice **boost**.
+
+    With the bug fixed and the walkthrough done, I felt a great sense of **accomplishment**. I still had a couple of hours left in the day, so I decided to get a head start on a new feature. It’s always satisfying to end the day knowing you’ve made tangible progress. I updated my tasks in the project management tool and sent a quick status update to the team. It was a good, productive afternoon.
+  highlighted_words:
+    - "deep work"
+    - "backlog"
+    - "messy"
+    - "walkthrough"
+    - "boost"
+    - "accomplishment"

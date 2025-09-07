@@ -1,0 +1,75 @@
+- word: "messy"
+  pronunciation: "/ˈmɛsi/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Untidy, disorganized, or dirty. In code, it refers to code that is poorly structured and difficult to read or maintain."
+    bahasa: "Berantakan, tidak teratur, atau kotor. Dalam konteks kode, ini merujuk pada kode yang strukturnya buruk dan sulit dibaca atau dipelihara."
+  usage: "Use 'messy' to describe something that lacks order, like a cluttered desk, a chaotic situation, or poorly written code that needs refactoring."
+  synonyms:
+    - "disorganized"
+    - "unstructured"
+    - "cluttered"
+  examples:
+    workplace:
+      - "The initial version of the script was a bit messy, so I spent an hour cleaning it up."
+      - "We need to refactor this component; the codebase has become quite messy over time."
+    casual:
+      - "Sorry about the state of my room; it's a little messy."
+      - "The project's planning was messy, which led to a lot of confusion."
+  related:
+    - word: "cluttered"
+      difference: "'Cluttered' specifically refers to being filled with too many things in a disorganized way, while 'messy' is a more general term for any lack of order."
+    - word: "spaghetti code"
+      difference: "'Spaghetti code' is a specific type of messy code characterized by a complex and tangled control structure, making it very difficult to follow."
+  story: |
+    During a code review, Alex pointed out that a particular function was messy. It had nested if-statements and variables with unclear names. The team agreed to prioritize refactoring it in the next sprint to improve readability and make future updates easier.
+- word: "boost"
+  pronunciation: "/buːst/"
+  part_of_speech: "noun"
+  meaning:
+    english: "Something that helps or encourages improvement, growth, or progress."
+    bahasa: "Sesuatu yang membantu atau mendorong perbaikan, pertumbuhan, atau kemajuan."
+  usage: "Use 'boost' to refer to something that provides a positive push or increase, such as a boost in confidence, performance, or morale."
+  synonyms:
+    - "encouragement"
+    - "improvement"
+    - "lift"
+  examples:
+    workplace:
+      - "Positive feedback from the client gave the team a much-needed morale boost."
+      - "The new automation tool will give our productivity a significant boost."
+    casual:
+      - "A good cup of coffee gives me a nice energy boost in the morning."
+      - "Winning the first match was a great confidence boost for the team."
+  related:
+    - word: "increase"
+      difference: "'Increase' refers to a general rise in quantity or level, whereas 'boost' implies a more active or encouraging push that causes the increase."
+    - word: "enhancement"
+      difference: "'Enhancement' is an improvement to the quality or value of something, while a 'boost' is more about an increase in level, speed, or morale."
+  story: |
+    The team was feeling a bit down after a challenging week. On Friday, the project manager announced that their feature had received overwhelmingly positive user feedback. The news was a huge boost, and everyone left for the weekend feeling motivated and proud of their work.
+- word: "accomplishment"
+  pronunciation: "/əˈkʌmplɪʃmənt/"
+  part_of_speech: "noun"
+  meaning:
+    english: "Something that has been achieved successfully, typically through effort, skill, or courage."
+    bahasa: "Sesuatu yang telah berhasil dicapai, biasanya melalui usaha, keterampilan, atau keberanian."
+  usage: "Use 'accomplishment' to talk about a completed goal or a successful achievement. It often implies a sense of pride and satisfaction."
+  synonyms:
+    - "achievement"
+    - "success"
+    - "feat"
+  examples:
+    workplace:
+      - "Shipping the new feature on time was a major accomplishment for the team."
+      - "At my performance review, I highlighted my key accomplishments for the quarter."
+    casual:
+      - "Running a marathon was a personal accomplishment I'm very proud of."
+      - "Finishing a challenging book feels like a real accomplishment."
+  related:
+    - word: "achievement"
+      difference: "'Accomplishment' and 'achievement' are very similar and often interchangeable. 'Achievement' can sometimes feel slightly more formal or tied to a specific, recognized success (like winning an award)."
+    - word: "milestone"
+      difference: "A 'milestone' is a significant point or event in a project's timeline, marking progress toward a larger goal. An 'accomplishment' is the successful completion of a goal itself."
+  story: |
+    After weeks of hard work, the development team finally launched the new mobile app. The launch went smoothly, and user adoption rates exceeded all expectations. For the lead developer, seeing the app in the hands of thousands of users was a huge sense of accomplishment and a testament to the team's dedication.
