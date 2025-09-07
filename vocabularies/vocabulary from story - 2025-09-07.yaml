@@ -347,3 +347,184 @@
       difference: "'Seamlessly' implies that transitions between parts are not noticeable. 'Smoothly' describes the overall lack of problems in the process itself."
   story: |
     Our team was preparing for a major database migration over the weekend. Everyone was a bit nervous because so many things could go wrong. We did a dry run on Friday, which helped us find a few potential issues. On the day of the migration, everything went smoothly. The scripts ran without any errors, and the new database was up and running in less time than we had estimated.
+- word: "hectic"
+  pronunciation: "/ˈhek.tɪk/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Full of incessant or frantic activity."
+    bahasa: "Penuh dengan aktivitas yang tak henti-hentinya atau panik."
+  usage: "Use 'hectic' to describe a day, a week, or a period of time that is very busy and slightly chaotic. It's a common way to talk about having too much to do."
+  synonyms:
+    - "frantic"
+    - "chaotic"
+    - "manic"
+  examples:
+    workplace:
+      - "It's been a hectic week with the new release."
+      - "The morning was too hectic to grab a coffee."
+    casual:
+      - "The holiday season is always hectic."
+      - "Life with three kids is always hectic."
+  related:
+    - word: "busy"
+      difference: "'Busy' means you have a lot to do. 'Hectic' implies that the business is also disorganized and possibly stressful."
+    - word: "overwhelmed"
+      difference: "'Overwhelmed' is a feeling of being unable to cope with the amount of work. A 'hectic' schedule can make you feel 'overwhelmed'."
+  story: |
+    The team had a hectic week preparing for the product demo. There were last-minute changes from the product manager, unexpected bugs, and a tight deadline. Everyone was working hard, and communication was key to surviving the hectic schedule.
+
+- word: "coordinate"
+  pronunciation: "/koʊˈɔːr.dən.eɪt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To organize the different parts of an activity or group of people so that they work together effectively."
+    bahasa: "Mengatur berbagai bagian dari suatu kegiatan atau sekelompok orang agar mereka bekerja sama secara efektif."
+  usage: "Use 'coordinate' when you are managing multiple people or tasks to achieve a common goal. It's a key responsibility for team leads, project managers, and anyone in a leadership role."
+  synonyms:
+    - "organize"
+    - "manage"
+    - "synchronize"
+  examples:
+    workplace:
+      - "I need to coordinate with the design team to get the final assets."
+      - "The project manager's job is to coordinate the work of the entire team."
+    casual:
+      - "Let's coordinate our schedules to find a time to meet."
+      - "She had to coordinate the arrivals of all the wedding guests."
+  related:
+    - word: "collaborate"
+      difference: "'Collaborate' means to work together on a task. 'Coordinate' is about managing the process of collaboration to ensure it's efficient."
+    - word: "manage"
+      difference: "'Manage' is a broader term that can include things like performance reviews and career growth. 'Coordinate' is specifically about organizing tasks and people for a particular goal."
+  story: |
+    For the multi-team project, Sarah was assigned to coordinate the efforts between the front-end, back-end, and mobile teams. She created a shared calendar, set up regular sync meetings, and made sure everyone had what they needed from the other teams. Her ability to coordinate was the main reason the project was a success.
+
+- word: "launch"
+  pronunciation: "/lɔːntʃ/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To officially start something, such as a new product or service."
+    bahasa: "Memulai sesuatu secara resmi, seperti produk atau layanan baru."
+  usage: "Use 'launch' to refer to the act of making a new product, feature, or website available to the public. It's a significant event that often marks the end of a project."
+  synonyms:
+    - "release"
+    - "go live"
+    - "introduce"
+  examples:
+    workplace:
+      - "We are planning to launch the new feature next quarter."
+      - "The marketing team is preparing a campaign for the product launch."
+    casual:
+      - "She's planning to launch her own business next year."
+      - "The author will launch her new book with a signing event."
+  related:
+    - word: "deploy"
+      difference: "'Deploy' is the technical process of moving code to a production environment. 'Launch' is the business event of making the feature available and announcing it to users. A feature can be deployed but not launched (e.g., behind a feature flag)."
+    - word: "release"
+      difference: "'Release' and 'launch' are often used interchangeably. 'Launch' can sometimes feel more significant, like for a brand new product, while 'release' might be used for a smaller update or new version."
+  story: |
+    After months of development and testing, the team was finally ready to launch their new mobile app. They gathered in the "war room" on the launch day to monitor the systems as they made it available in the app stores. Seeing the first few downloads come in was a moment of celebration for the entire team.
+
+- word: "verify"
+  pronunciation: "/ˈver.ɪ.faɪ/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To check or prove that something is true, accurate, or has been done correctly."
+    bahasa: "Memeriksa atau membuktikan bahwa sesuatu itu benar, akurat, atau telah dilakukan dengan benar."
+  usage: "Use 'verify' in a technical context to mean confirming that something works as expected. It's a more formal word for 'check' and is often used in the context of testing and QA."
+  synonyms:
+    - "confirm"
+    - "check"
+    - "validate"
+  examples:
+    workplace:
+      - "Can you please verify that the bug is fixed in the staging environment?"
+      - "The QA team is responsible for verifying the new features."
+    casual:
+      - "I need to verify your identity before I can give you the keys."
+      - "He called the restaurant to verify their opening hours."
+  related:
+    - word: "check"
+      difference: "'Check' is more informal. 'Verify' implies a more rigorous or official confirmation process."
+    - word: "validate"
+      difference: "'Validate' often refers to checking if data or input meets certain predefined rules (e.g., validating an email format). 'Verify' is more about confirming that a process or result is correct."
+  story: |
+    The developer deployed his changes to the testing server. He then pinged the QA engineer, "The fix is deployed. Can you please verify it on your end?" The QA engineer went through the testing steps and, after confirming the fix worked, replied, "Verified. It's working as expected now."
+
+- word: "flawless"
+  pronunciation: "/ˈflɔː.ləs/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Without any imperfections or defects; perfect."
+    bahasa: "Tanpa cacat atau kekurangan; sempurna."
+  usage: "Use 'flawless' to describe something that was executed perfectly, without any mistakes or problems. It's a strong word to use for a successful deployment or demo."
+  synonyms:
+    - "perfect"
+    - "impeccable"
+    - "faultless"
+  examples:
+    workplace:
+      - "The demo was flawless; everything worked exactly as planned."
+      - "It was a flawless deployment with zero downtime."
+    casual:
+      - "She gave a flawless performance in the play."
+      - "The diamond was flawless."
+  related:
+    - word: "smooth"
+      difference: "'Smooth' means that something happened without major problems. 'Flawless' is stronger; it means there were *no* problems at all, not even minor ones."
+    - word: "robust"
+      difference: "'Robust' describes a system that is strong and can handle errors. A 'flawless' execution means that the system's robustness wasn't even tested because nothing went wrong."
+  story: |
+    The team practiced the deployment process multiple times in the staging environment. When it was time for the real thing, their preparation paid off. The execution was flawless—every script ran correctly, the database migration finished on time, and there were no user-facing errors.
+
+- word: "optimistic"
+  pronunciation: "/ˌɑːp.təˈmɪs.tɪk/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Hopeful and confident about the future or the successful outcome of something."
+    bahasa: "Penuh harapan dan keyakinan tentang masa depan atau hasil yang sukses dari sesuatu."
+  usage: "Use 'optimistic' to describe a positive outlook on a situation, even if there are challenges. It's about believing that a good result is likely."
+  synonyms:
+    - "hopeful"
+    - "positive"
+    - "confident"
+  examples:
+    workplace:
+      - "I'm optimistic that we can meet the deadline."
+      - "She has an optimistic view of the project's future."
+    casual:
+      - "He's optimistic about his chances of winning."
+      - "Despite the rain, she remained optimistic about the picnic."
+  related:
+    - word: "confident"
+      difference: "'Confident' is based on a feeling of self-assurance or evidence. 'Optimistic' is more about a general belief in a positive outcome, sometimes despite a lack of evidence."
+    - word: "pessimistic"
+      difference: "'Pessimistic' is the direct antonym, meaning you expect a negative outcome."
+  story: |
+    The project had faced several setbacks, but the team lead remained optimistic. She believed in her team's ability to solve the problems and reminded them of their past successes. Her optimistic attitude was contagious and helped boost the team's morale during a difficult time.
+
+- word: "team up"
+  pronunciation: "/tiːm ʌp/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To join with another person or group in order to do something together."
+    bahasa: "Bergabung dengan orang atau kelompok lain untuk melakukan sesuatu bersama."
+  usage: "Use 'team up' to describe the act of forming a temporary partnership to work on a specific task. It's a more informal way to say 'collaborate'."
+  synonyms:
+    - "collaborate"
+    - "partner up"
+    - "join forces"
+  examples:
+    workplace:
+      - "I'm going to team up with a designer to work on the UI."
+      - "The front-end and back-end developers teamed up to tackle the integration."
+    casual:
+      - "The two singers decided to team up for a duet."
+      - "Let's team up to clean the garage faster."
+  related:
+    - word: "pair programming"
+      difference: "'Pair programming' is a specific methodology where two developers work on the same code at one workstation. 'Teaming up' is more general and can involve any kind of collaboration."
+    - word: "collaborate"
+      difference: "'Collaborate' is a more formal verb. 'Team up' is a more casual, phrasal verb that means the same thing."
+  story: |
+    A complex bug was affecting both the iOS and Android apps. An iOS developer and an Android developer decided to team up to investigate. By working together, they were able to compare the codebases and find the common logic error that was causing the issue.
