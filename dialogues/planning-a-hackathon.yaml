@@ -1,0 +1,62 @@
+dialogue:
+  - speaker: Alex
+    english: "Hey Ben, have you seen the announcement about the annual hackathon next month?"
+    bahasa: "Hei Ben, sudah lihat pengumuman tentang hackathon tahunan bulan depan?"
+  - speaker: Ben
+    english: "Oh yeah! I just saw the email. I'm so hyped! Do you have any ideas for a project?"
+    bahasa: "Oh ya! Aku baru saja melihat emailnya. Aku sangat bersemangat! Apakah kamu punya ide untuk proyek?"
+  - speaker: Alex
+    english: "I was thinking we could build something to streamline our code review process. Maybe a bot that adds automated comments for common issues?"
+    bahasa: "Aku berpikir kita bisa membuat sesuatu untuk menyederhanakan proses peninjauan kode kita. Mungkin sebuah bot yang menambahkan komentar otomatis untuk masalah umum?"
+  - speaker: Ben
+    english: "That's a solid idea. Very practical. I was leaning towards something more out-of-the-box, like a fun little game using a new graphics library I've been wanting to try."
+    bahasa: "Itu ide yang solid. Sangat praktis. Aku lebih condong ke sesuatu yang lebih out-of-the-box, seperti permainan kecil yang menyenangkan menggunakan pustaka grafis baru yang ingin aku coba."
+  - speaker: Alex
+    english: "A game sounds fun too! We could definitely get creative with that. What's the tech stack you have in mind?"
+    bahasa: "Permainan juga terdengar menyenangkan! Kita pasti bisa berkreasi dengan itu. Apa tumpukan teknologi yang ada di pikiranmu?"
+  - speaker: Ben
+    english: "I was thinking of using Python with the Pyglet library. It's supposed to be really simple for 2D games."
+    bahasa: "Aku berpikir untuk menggunakan Python dengan pustaka Pyglet. Katanya sangat sederhana untuk game 2D."
+  - speaker: Alex
+    english: "Interesting. My idea would probably involve Node.js and the GitHub API. Both projects have their merits."
+    bahasa: "Menarik. Ideku mungkin akan melibatkan Node.js dan GitHub API. Kedua proyek memiliki kelebihannya masing-masing."
+  - speaker: Ben
+    english: "True. A practical tool could win us some serious brownie points with the engineering leads. But a game might be more memorable."
+    bahasa: "Benar. Alat yang praktis bisa membuat kita mendapatkan pujian dari para pimpinan teknik. Tapi sebuah game mungkin akan lebih berkesan."
+  - speaker: Alex
+    english: "How about we pitch both ideas to Sarah and see if she wants to join our team? A third perspective might help us decide."
+    bahasa: "Bagaimana kalau kita ajukan kedua ide ini ke Sarah dan lihat apakah dia mau bergabung dengan tim kita? Perspektif orang ketiga mungkin bisa membantu kita memutuskan."
+  - speaker: Ben
+    english: "Great plan. Let's grab her after the stand-up tomorrow. I'm excited to get the ball rolling on this!"
+    bahasa: "Rencana yang bagus. Ayo kita ajak dia setelah stand-up besok. Aku tidak sabar untuk memulai ini!"
+
+expressions:
+  - phrase: "I'm so hyped"
+    meaning_english: "I'm very excited and full of energy."
+    meaning_bahasa: "Aku sangat bersemangat dan penuh energi."
+  - phrase: "streamline our code review process"
+    meaning_english: "To make the process of checking code more efficient and simpler."
+    meaning_bahasa: "Membuat proses pengecekan kode menjadi lebih efisien dan sederhana."
+  - phrase: "a solid idea"
+    meaning_english: "A very good, reliable, or well-founded idea."
+    meaning_bahasa: "Ide yang sangat bagus, dapat diandalkan, atau beralasan."
+  - phrase: "out-of-the-box"
+    meaning_english: "Creative, unconventional, and not conforming to the usual way of thinking."
+    meaning_bahasa: "Kreatif, tidak konvensional, dan tidak sesuai dengan cara berpikir yang biasa."
+  - phrase: "tech stack"
+    meaning_english: "The set of technologies, programming languages, and tools used to build a software application."
+    meaning_bahasa: "Kumpulan teknologi, bahasa pemrograman, dan alat yang digunakan untuk membangun aplikasi perangkat lunak."
+  - phrase: "brownie points"
+    meaning_english: "Credit or praise for doing something good or pleasing someone in authority."
+    meaning_bahasa: "Pujian atau penghargaan karena melakukan sesuatu yang baik atau menyenangkan seseorang yang berwenang."
+  - phrase: "get the ball rolling"
+    meaning_english: "To start a process or activity."
+    meaning_bahasa: "Memulai suatu proses atau kegiatan."
+
+questions:
+  - q: "What are the two main project ideas Alex and Ben are discussing for the hackathon?"
+    a: "They are discussing building a practical tool to streamline code reviews and creating a fun game with a new graphics library."
+  - q: "What is Ben's reason for suggesting a game project?"
+    a: "He wants to try out a new graphics library he's been interested in and do something creative."
+  - q: "How do they plan to decide which project to work on?"
+    a: "They plan to pitch both ideas to another colleague, Sarah, to get a third perspective and help them decide."
