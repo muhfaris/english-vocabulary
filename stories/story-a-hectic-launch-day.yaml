@@ -1,0 +1,17 @@
+story:
+  title: "a-hectic-launch-day"
+  date: "2025-09-07"
+  text: |
+    It was a **hectic** morning. Today was the day we were scheduled to **launch** the new commenting feature. As the team lead, my main job was to **coordinate** all the moving parts. I had to make sure the front-end changes, back-end updates, and database migrations were all ready to go at the same time.
+
+    Before the official rollout, we decided to **team up** with the QA engineers to do one final round of testing on the staging environment. We needed to **verify** that everything was working as expected and that no last-minute bugs had crept in. The tests went well, and we were **optimistic** about the release.
+
+    The actual launch was surprisingly smooth. We monitored the logs closely for the first hour, and everything looked stable. It was a nearly **flawless** execution. By the end of the day, we saw new comments popping up from real users. It was a great feeling to see our hard work finally live.
+  highlighted_words:
+    - "hectic"
+    - "launch"
+    - "coordinate"
+    - "team up"
+    - "verify"
+    - "optimistic"
+    - "flawless"
