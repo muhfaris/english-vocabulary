@@ -1,0 +1,17 @@
+story:
+  title: "a-missed-detail"
+  date: "2025-09-07"
+  text: |
+    I spent most of the morning preparing to **showcase** my new feature to the team. I was confident the code was **solid** and ready for review. During the informal demo, I walked them through the main user flow. Everything went smoothly until a senior engineer, Maria, asked, "What happens in a **scenario** where the user uploads an empty file?"
+
+    I had completely **overlooked** that possibility. It was a clear **flaw** in the logic that would have definitely caused bugs later on. I felt a bit embarrassed, but Maria was cool about it. "No worries," she said, "it happens. Just **refine** the logic to handle that case, and you should be good to go."
+
+    After the meeting, I spent an hour adding a validation check. It was a simple fix, but an important one. I made a mental note to be more thorough in my testing next time. I pushed the changes and let Maria know. After her quick check, she gave me the **go-ahead** to merge the code. It was a good reminder that feedback is a gift, even when it means more work.
+  highlighted_words:
+    - "showcase"
+    - "solid"
+    - "scenario"
+    - "overlooked"
+    - "flaw"
+    - "refine"
+    - "go-ahead"

@@ -528,3 +528,132 @@
       difference: "'Collaborate' is a more formal verb. 'Team up' is a more casual, phrasal verb that means the same thing."
   story: |
     A complex bug was affecting both the iOS and Android apps. An iOS developer and an Android developer decided to team up to investigate. By working together, they were able to compare the codebases and find the common logic error that was causing the issue.
+- word: "solid"
+  pronunciation: "/ˈsɒlɪd/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Reliable, well-made, and of good quality. In software, it means the code is robust and unlikely to fail."
+    bahasa: "Dapat diandalkan, dibuat dengan baik, dan berkualitas bagus. Dalam perangkat lunak, ini berarti kodenya kuat dan tidak mungkin gagal."
+  usage: "Use 'solid' to describe code or a feature that you are confident in. It implies that the work is not just complete, but also well-tested and dependable."
+  synonyms:
+    - "robust"
+    - "reliable"
+    - "stable"
+  examples:
+    workplace:
+      - "The initial version of the feature is solid, so we can build on top of it."
+      - "She writes really solid code; it rarely has bugs."
+    casual:
+      - "This table is solid; it's made of real wood."
+      - "He has a solid understanding of the topic."
+  related:
+    - word: "robust"
+      difference: "'Robust' specifically means it can handle errors and unexpected inputs. 'Solid' is more general, meaning it's just good, reliable work."
+    - word: "stable"
+      difference: "'Stable' means it doesn't crash or change unexpectedly over time. 'Solid' refers to the quality of the implementation itself."
+  story: |
+    Before submitting his code for review, Alex spent an extra day writing unit tests. He wanted to make sure his implementation was solid. When his team lead reviewed the code, she was impressed, saying, "This is solid work, Alex. It's well-documented and the logic is sound."
+
+- word: "scenario"
+  pronunciation: "/səˈnɛəri.oʊ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A postulated sequence or development of events; a possible situation or sequence of events."
+    bahasa: "Urutan atau perkembangan peristiwa yang didalilkan; situasi atau urutan peristiwa yang mungkin terjadi."
+  usage: "In software development, 'scenario' is used to describe a specific situation or user workflow that needs to be considered, especially in testing. It helps define the scope of a feature or a test case."
+  synonyms:
+    - "situation"
+    - "case"
+    - "use case"
+  examples:
+    workplace:
+      - "We need to account for the scenario where the user loses internet connection during an upload."
+      - "The QA team has a list of scenarios to test before the release."
+    casual:
+      - "In the worst-case scenario, we'll have to cancel the trip."
+      - "Let's go over the different scenarios for the party if it rains."
+  related:
+    - word: "edge case"
+      difference: "An 'edge case' is a specific type of scenario that is rare or extreme (e.g., uploading a file of 0 bytes or the maximum allowed size). 'Scenario' is a more general term for any possible situation."
+    - word: "use case"
+      difference: "A 'use case' describes how a user will perform a task from start to finish. A 'scenario' can be a specific path or variation within that use case."
+  story: |
+    The product manager outlined the main success scenario for the new login feature. But as engineers, we had to think about other possibilities. "What's the scenario if a user tries to log in with an incorrect password five times in a row?" asked one developer. This led to a discussion about implementing a rate-limiting feature to enhance security.
+
+- word: "overlooked"
+  pronunciation: "/ˌoʊvərˈlʊkt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To fail to notice or consider something."
+    bahasa: "Gagal memperhatikan atau mempertimbangkan sesuatu."
+  usage: "Use 'overlooked' when you realize you have missed something, like a requirement, a bug, or a specific scenario. It's often used when admitting a mistake."
+  synonyms:
+    - "missed"
+    - "forgotten"
+    - "neglected"
+  examples:
+    workplace:
+      - "I completely overlooked the requirement to add analytics to the new button."
+      - "It seems we overlooked a major security flaw in the initial design."
+    casual:
+      - "In my rush to leave, I overlooked my keys on the table."
+      - "The beautiful view from the back of the house is often overlooked."
+  related:
+    - word: "missed"
+      difference: "'Missed' is more general. 'Overlooked' specifically implies that you saw something but didn't pay attention to it or realize its importance."
+    - word: "forgot"
+      difference: "'Forgot' means you failed to remember something. 'Overlooked' means you failed to notice or consider it, even if you were looking at it."
+  story: |
+    The feature worked perfectly in testing. However, shortly after release, bug reports started flooding in. It turned out the team had overlooked one critical detail: the feature was not compatible with the Safari browser. They had only tested it in Chrome and Firefox. It was a painful lesson in remembering to test across all supported platforms.
+
+- word: "flaw"
+  pronunciation: "/flɔː/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A mark, blemish, or other imperfection that mars a substance or object. In software, it refers to a weakness or defect in logic or design."
+    bahasa: "Tanda, noda, atau ketidaksempurnaan lain yang merusak suatu zat atau benda. Dalam perangkat lunak, ini merujuk pada kelemahan atau cacat dalam logika atau desain."
+  usage: "Use 'flaw' to describe a problem in the design or logic of a system. It's often used to describe a more fundamental problem than a simple 'bug'."
+  synonyms:
+    - "defect"
+    - "weakness"
+    - "fault"
+  examples:
+    workplace:
+      - "The security audit revealed a major flaw in our authentication logic."
+      - "There's a fundamental design flaw in how we handle user data."
+    casual:
+      - "There was a flaw in the diamond that reduced its value."
+      - "His argument had a fatal flaw."
+  related:
+    - word: "bug"
+      difference: "A 'bug' is typically an error in the code that causes incorrect behavior. A 'flaw' is a deeper issue in the design or logic that might lead to multiple bugs."
+    - word: "vulnerability"
+      difference: "A 'vulnerability' is a specific type of flaw that can be exploited for malicious purposes, usually related to security."
+  story: |
+    During a code review, a senior developer pointed out a serious flaw in my approach. My code worked for the happy path, but she explained that my design would not scale well and would cause performance issues under heavy load. We had to go back to the drawing board to fix the architectural flaw before moving forward.
+
+- word: "refine"
+  pronunciation: "/rɪˈfaɪn/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To improve something by making small changes, in particular to make it more subtle or precise."
+    bahasa: "Memperbaiki sesuatu dengan membuat perubahan kecil, khususnya untuk membuatnya lebih halus atau presisi."
+  usage: "Use 'refine' to describe the process of making small improvements to an existing feature, design, or piece of code. It's about taking something that already works and making it better."
+  synonyms:
+    - "improve"
+    - "polish"
+    - "tweak"
+  examples:
+    workplace:
+      - "We need to refine the user interface based on the latest feedback."
+      - "I'm going to spend some time refining the search algorithm to be more accurate."
+    casual:
+      - "She spent years refining her painting technique."
+      - "He's still refining the recipe for his famous chili."
+  related:
+    - word: "improve"
+      difference: "'Improve' is a general term for making something better. 'Refine' specifically implies making small, careful adjustments to make it more precise or elegant."
+    - word: "refactor"
+      difference: "'Refactor' is a technical term for restructuring code without changing its external behavior. 'Refine' is a more general term that could include refactoring as well as making behavioral changes."
+  story: |
+    The first version of the dashboard was functional, but it felt cluttered. The team spent the next sprint working with a UX designer to refine the layout. They didn't add any new features; instead, they focused on improving spacing, changing colors, and making the charts easier to read. The result was a much more polished and professional-looking product.
