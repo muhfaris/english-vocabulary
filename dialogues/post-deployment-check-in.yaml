@@ -1,0 +1,68 @@
+dialogue:
+  - speaker: Alex
+    english: "Morning, Ben. Got a minute to chat about last night's deployment?"
+    bahasa: "Pagi, Ben. Ada waktu sebentar untuk bicara tentang deployment semalam?"
+  - speaker: Ben
+    english: "Sure, Alex. I was just looking at the monitoring dashboard. Everything seems stable so far."
+    bahasa: "Tentu, Alex. Aku baru saja melihat dasbor pemantauan. Sejauh ini semuanya tampak stabil."
+  - speaker: Alex
+    english: "That's great to hear. I haven't seen any new error spikes in the logs either. The hotfix seems to be holding up."
+    bahasa: "Baguslah kalau begitu. Aku juga tidak melihat lonjakan error baru di log. Hotfix-nya sepertinya bertahan."
+  - speaker: Ben
+    english: "Yeah, CPU and memory usage are well within normal parameters. The performance improvements we rolled out are noticeable."
+    bahasa: "Ya, penggunaan CPU dan memori berada dalam parameter normal. Peningkatan performa yang kita rilis terlihat."
+  - speaker: Alex
+    english: "Excellent. Have you had a chance to check the new feature's adoption rate?"
+    bahasa: "Luar biasa. Apakah kamu sudah sempat memeriksa tingkat adopsi fitur baru?"
+  - speaker: Ben
+    english: "I have. It's still early, but we're seeing a steady stream of users engaging with it. The initial feedback from the support team is positive too."
+    bahasa: "Sudah. Memang masih terlalu dini, tapi kami melihat aliran pengguna yang stabil berinteraksi dengannya. Umpan balik awal dari tim dukungan juga positif."
+  - speaker: Alex
+    english: "Perfect. Let's keep a close eye on it for the rest of the day. We should probably touch base again before signing off."
+    bahasa: "Sempurna. Mari kita awasi terus selama sisa hari ini. Kita mungkin harus berkomunikasi lagi sebelum selesai kerja."
+  - speaker: Ben
+    english: "Agreed. I'll set up a quick sync for late afternoon. Anything else on your radar?"
+    bahasa: "Setuju. Aku akan atur sinkronisasi singkat sore nanti. Ada lagi yang perlu diperhatikan?"
+  - speaker: Alex
+    english: "Nope, that's all for now. Just wanted to do a quick health check. Thanks for the update!"
+    bahasa: "Tidak, itu saja untuk saat ini. Hanya ingin melakukan pemeriksaan cepat. Terima kasih atas informasinya!"
+  - speaker: Ben
+    english: "No problem. Catch you later."
+    bahasa: "Tidak masalah. Sampai nanti."
+
+expressions:
+  - phrase: "Got a minute to chat?"
+    meaning_english: "A casual way to ask if someone has a short amount of time to talk."
+    meaning_bahasa: "Cara santai untuk menanyakan apakah seseorang punya sedikit waktu untuk berbicara."
+  - phrase: "Holding up"
+    meaning_english: "Functioning correctly or remaining stable, especially under pressure."
+    meaning_bahasa: "Berfungsi dengan benar atau tetap stabil, terutama di bawah tekanan."
+  - phrase: "Well within normal parameters"
+    meaning_english: "Operating at a level that is considered safe and expected."
+    meaning_bahasa: "Beroperasi pada tingkat yang dianggap aman dan diharapkan."
+  - phrase: "Adoption rate"
+    meaning_english: "The speed at which new users start using a new feature or product."
+    meaning_bahasa: "Tingkat kecepatan pengguna baru mulai menggunakan fitur atau produk baru."
+  - phrase: "Steady stream"
+    meaning_english: "A continuous and regular flow of something."
+    meaning_bahasa: "Aliran sesuatu yang berkelanjutan dan teratur."
+  - phrase: "Keep a close eye on it"
+    meaning_english: "To monitor something carefully and frequently."
+    meaning_bahasa: "Memantau sesuatu dengan cermat dan sering."
+  - phrase: "Touch base"
+    meaning_english: "To make contact or reconnect with someone for a brief update."
+    meaning_bahasa: "Menghubungi atau terhubung kembali dengan seseorang untuk pembaruan singkat."
+  - phrase: "On your radar"
+    meaning_english: "Something that you are aware of and considering."
+    meaning_bahasa: "Sesuatu yang Anda sadari dan pertimbangkan."
+  - phrase: "Health check"
+    meaning_english: "A quick review to ensure a system is running smoothly."
+    meaning_bahasa: "Tinjauan cepat untuk memastikan sistem berjalan lancar."
+
+questions:
+  - q: "What is the main topic of the conversation?"
+    a: "The main topic is a post-deployment check-in to ensure the system is stable after a recent update."
+  - q: "What were the initial results of the deployment?"
+    a: "The initial results were positive: the system was stable, performance improvements were noticeable, and there were no new error spikes."
+  - q: "What is the plan for the rest of the day?"
+    a: "They plan to continue monitoring the system and have another brief meeting (a 'sync') in the late afternoon."
