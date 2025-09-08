@@ -1,0 +1,251 @@
+- word: "Uptime"
+  pronunciation: "/ˈʌp.taɪm/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The measure of time a machine, typically a server or computer, has been operational and available."
+    bahasa: "Ukuran waktu sebuah mesin, biasanya server atau komputer, telah beroperasi dan tersedia."
+  usage: "This is a key metric for system reliability. High uptime (e.g., 99.999%, known as 'five nines') is a common goal for critical systems. It's the opposite of 'downtime'."
+  synonyms:
+    - "Availability"
+    - "Operational time"
+  examples:
+    workplace:
+      - "Our service level agreement (SLA) promises 99.9% uptime to our customers."
+      - "We're deploying a new monitoring tool to better track our system's uptime."
+    casual:
+      - "My internet connection has had terrible uptime this week; it's always disconnecting."
+      - "I'm proud of my old PC; it has an uptime of six months without a single crash."
+  related:
+    - word: "Downtime"
+      difference: "'Downtime' is the direct antonym of 'Uptime'. 'Uptime' is when the system is working, and 'downtime' is when it is not."
+    - word: "SLA (Service Level Agreement)"
+      difference: "An 'SLA' is a formal commitment between a service provider and a customer. 'Uptime' is one of the most common metrics guaranteed in an SLA."
+  story: |
+    The operations team gathered for their weekly review. The main dashboard showed a big green number: 99.998% uptime for the main application over the last month. "This is fantastic work," said the manager. "Last month's hardware upgrade and our improved failover system have clearly paid off. Let's aim for five nines next quarter."
+
+- word: "Data-driven"
+  pronunciation: "/ˈdeɪ.təˌdrɪv.ən/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Describes a process or activity that is based on the analysis of data rather than intuition or personal experience."
+    bahasa: "Menjelaskan proses atau aktivitas yang didasarkan pada analisis data daripada intuisi atau pengalaman pribadi."
+  usage: "Use this adjective to describe a culture or approach to making decisions. Being data-driven means relying on metrics and evidence."
+  synonyms:
+    - "Evidence-based"
+    - "Metric-oriented"
+  examples:
+    workplace:
+      - "We need to be more data-driven in our feature planning instead of just building what we think is cool."
+      - "The A/B test results will help us make a data-driven decision about which button color converts better."
+    casual:
+      - "My approach to fitness is data-driven; I track all my workouts and my diet to see what works."
+      - "He made a data-driven choice to buy a specific car model based on reliability reports."
+  related:
+    - word: "Gut check"
+      difference: "'Gut check' is the opposite of a 'data-driven' approach. A gut check relies on intuition and experience, while being data-driven relies on objective numbers and facts."
+    - word: "Metrics"
+      difference: "'Metrics' are the specific data points (like user sign-ups, page load time, etc.) that you collect and analyze to be 'data-driven'."
+  story: |
+    For years, the design team chose the website's layout based on their aesthetic sense. A new product manager joined and introduced a more data-driven approach. Instead of arguing about which design "felt" better, they started running experiments, tracking user clicks, and analyzing heatmaps. The decisions were no longer based on opinions but on what the data showed was most effective for users.
+
+- word: "Guesstimate"
+  pronunciation: "/ˈɡes.tɪ.mət/"
+  part_of_speech: "noun"
+  meaning:
+    english: "An estimate made without much data; a rough calculation that is more than a guess but less than a formal estimate."
+    bahasa: "Perkiraan yang dibuat tanpa banyak data; perhitungan kasar yang lebih dari sekadar tebakan tetapi kurang dari perkiraan formal."
+  usage: "This is a very common, informal word used in planning meetings when you need a rough idea of effort or time, but don't have enough information to make a proper estimate."
+  synonyms:
+    - "Rough estimate"
+    - "Ballpark figure"
+    - "Approximation"
+  examples:
+    workplace:
+      - "I don't know the exact complexity yet, but as a guesstimate, I'd say this task will take about three days."
+      - "Can you give me a guesstimate of how many users will be affected by this change?"
+    casual:
+      - "I'm not sure how many people are coming to the party, but my guesstimate is around 20."
+      - "What's your guesstimate for our arrival time if we leave now?"
+  related:
+    - word: "Estimate"
+      difference: "An 'estimate' is a more formal calculation based on available data and analysis. A 'guesstimate' is a less formal, quicker, and rougher version of an estimate."
+    - word: "Ballpark figure"
+      difference: "These two terms are very similar and often used interchangeably. Both refer to a rough, approximate number."
+  story: |
+    "We need to build a new reporting dashboard for the marketing team," the project manager said. "How long will it take?" The lead engineer replied, "That's a big question. Without knowing the exact data sources and all the required charts, I can only give you a guesstimate. My gut says it's probably a one-month project for two developers, but I'll need to do more research to give you a proper estimate."
+
+- word: "Nail down"
+  pronunciation: "/neɪl daʊn/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To finalize, confirm, or establish something with certainty."
+    bahasa: "Menyelesaikan, mengkonfirmasi, atau menetapkan sesuatu dengan pasti."
+  usage: "Use this phrasal verb when you want to move from a vague idea to a concrete plan or decision. It's about removing ambiguity."
+  synonyms:
+    - "Finalize"
+    - "Pin down"
+    - "Confirm"
+  examples:
+    workplace:
+      - "We need to nail down the requirements for this feature before we start writing any code."
+      - "Can we have a quick meeting to nail down the details of the deployment plan?"
+    casual:
+      - "Let's nail down a time and place to meet for dinner this weekend."
+      - "I thought I had a solution, but it's been hard to nail down the exact cause of the problem."
+  related:
+    - word: "Flesh out"
+      difference: "'Fleshing out' is the process of adding more detail to an idea. 'Nailing down' is the final step of making a decision about those details."
+    - word: "Ambiguity"
+      difference: "The goal of 'nailing down' the details is to remove all 'ambiguity' (uncertainty or vagueness)."
+  story: |
+    The team had been discussing a new project for weeks. They had a general idea of what they wanted to build, but the details were still fuzzy. "Okay team," the tech lead said, "this has been a good discussion, but we can't keep going in circles. This week, our only goal is to nail down the minimum viable product (MVP). I want a final list of features by Friday."
+
+- word: "In the weeds"
+  pronunciation: "/ɪn ðə wiːdz/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To be too focused on the minor, complex details of a problem, often losing sight of the bigger picture."
+    bahasa: "Terlalu fokus pada detail kecil yang rumit dari suatu masalah, seringkali kehilangan gambaran besarnya."
+  usage: "This idiom is used to describe a discussion or a person that is getting bogged down in technicalities. It's often used as a gentle reminder to zoom out."
+  synonyms:
+    - "Bogged down in details"
+    - "Lost in the details"
+  examples:
+    workplace:
+      - "I think we're getting too deep in the weeds with this database schema discussion. Let's step back and remember the user's goal."
+      - "I spent all day in the weeds of a legacy CSS file trying to fix a minor alignment issue."
+    casual:
+      - "He started explaining the rules of the board game, but soon we were lost in the weeds of all the exceptions."
+      - "I was trying to plan my vacation, but I got stuck in the weeds comparing flight prices for hours."
+  related:
+    - word: "High-level"
+      difference: "A 'high-level' view is the opposite of being 'in the weeds'. It's a summary or overview that avoids minor details."
+    - word: "Drill down"
+      difference: "'Drilling down' is the act of intentionally going into details. Getting 'in the weeds' is what happens when you drill down too far or at the wrong time."
+  story: |
+    During a system design meeting, two senior engineers were debating the pros and cons of different caching algorithms. The discussion became very technical. After ten minutes, the engineering manager interrupted. "Folks, this is a fascinating topic, but I think we're getting in the weeds. For now, can we just agree to use a simple cache and move on? We can always optimize it later if we need to."
+
+- word: "Spin up"
+  pronunciation: "/spɪn ʌp/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To create or launch something quickly, usually a server, virtual machine, or software environment."
+    bahasa: "Membuat atau meluncurkan sesuatu dengan cepat, biasanya server, mesin virtual, atau lingkungan perangkat lunak."
+  usage: "This is a very common phrasal verb in the age of cloud computing. It implies an automated or semi-automated process of creating computing resources."
+  synonyms:
+    - "Provision"
+    - "Launch"
+    - "Set up"
+  examples:
+    workplace:
+      - "I'll spin up a new test server for you to try out your changes."
+      - "Our CI/CD pipeline automatically spins up a fresh environment for every pull request."
+    casual:
+      - "I need to spin up a quick website for my cousin's wedding."
+      - "Let's spin up a quick group chat for this project."
+  related:
+    - word: "Provision"
+      difference: "'Provision' is a more formal and technical term for the same action. 'Spin up' is the common, informal slang used by developers."
+    - word: "Infrastructure as Code (IaC)"
+      difference: "'Infrastructure as Code' (like Terraform or CloudFormation) is the technology that allows you to 'spin up' and manage resources in a repeatable, automated way."
+  story: |
+    A QA tester found a critical bug. "I need to test the fix on a clean environment," she said. The developer replied, "No problem. I'll spin up a new instance for you on AWS with the patched code. It should be ready in about five minutes."
+
+- word: "Happy path"
+  pronunciation: "/ˈhæp.i pɑːθ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The default, expected scenario in a process with no errors or exceptions. It's the sequence of steps a user takes when everything goes perfectly."
+    bahasa: "Skenario default yang diharapkan dalam suatu proses tanpa kesalahan atau pengecualian. Ini adalah urutan langkah yang diambil pengguna ketika semuanya berjalan dengan sempurna."
+  usage: "This is a fundamental concept in software testing and user story creation. You first define the 'happy path' and then consider all the 'edge cases' or alternative paths."
+  synonyms:
+    - "Sunny-day scenario"
+    - "Golden path"
+    - "Ideal flow"
+  examples:
+    workplace:
+      - "The code for the happy path is complete, but now I need to add error handling for all the things that can go wrong."
+      - "Our automated tests should cover not just the happy path, but also various failure scenarios."
+    casual:
+      - "The happy path for my morning routine is waking up, exercising, and having coffee, all before the kids wake up."
+      - "The happy path for this road trip is no traffic and good weather."
+  related:
+    - word: "Edge case"
+      difference: "An 'edge case' is a scenario that is outside the 'happy path'. It deals with extreme or unusual conditions, while the happy path deals with the normal, expected ones."
+    - word: "User story"
+      difference: "A good 'user story' often starts by describing the 'happy path' (e.g., 'As a user, I can log in with my correct credentials') and then adds acceptance criteria for other scenarios."
+  story: |
+    "I've finished the user registration feature," a junior developer announced. The senior developer asked, "Great, does it work?" "Yes!" the junior replied. "Okay, so the happy path is covered," said the senior. "Now, what happens if the user enters a password that's too short? Or an email that's already registered? Or if the database is down? We need to make sure our code is robust enough to handle more than just the happy path."
+
+- word: "Backport"
+  pronunciation: "/ˈbæk.pɔːt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To take a fix or a feature from a newer version of a system and apply it to an older version."
+    bahasa: "Mengambil perbaikan atau fitur dari versi sistem yang lebih baru dan menerapkannya ke versi yang lebih lama."
+  usage: "This term is used when you need to provide a critical fix (like a security patch) to a version of the software that is still supported but not the latest."
+  synonyms:
+    - "Retrofit"
+  examples:
+    workplace:
+      - "We found a major security vulnerability in our latest code, so we need to backport the fix to all supported versions."
+      - "The customer is on version 2.5 and can't upgrade, but they need this new feature. We'll have to backport it for them."
+    casual:
+      - "It's like taking a modern safety feature, like an airbag, and trying to backport it into a classic car."
+  related:
+    - word: "Patch"
+      difference: "A 'patch' is the piece of code that contains a fix. 'Backporting' is the action of applying that 'patch' to an older software version."
+    - word: "Fork"
+      difference: "A 'fork' is a copy of a codebase that you can develop independently. You might 'backport' a fix from the main project into your 'fork'."
+  story: |
+    The team released version 3.0 of their software, which included a major performance improvement. However, their biggest enterprise client was still using the long-term support (LTS) version 2.8 and was not ready to upgrade. Since the performance issue was critical for them, the engineering team had to backport the optimization from version 3.0 to a new 2.8.1 release just for that client.
+
+- word: "Hot potato"
+  pronunciation: "/hɒt pəˈteɪ.təʊ/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A problem or issue that is passed around from person to person because nobody wants to deal with it."
+    bahasa: "Masalah atau isu yang dilempar dari orang ke orang karena tidak ada yang mau menanganinya."
+  usage: "Use this idiom to describe a difficult or controversial task that people are trying to avoid. It often implies a lack of ownership."
+  synonyms:
+    - "Passing the buck"
+    - "Undesirable task"
+  examples:
+    workplace:
+      - "That bug in the legacy module has become a hot potato; it's been reassigned five times."
+      - "No one wants to be the one to tell the client we're behind schedule. The task is a real hot potato."
+    casual:
+      - "Deciding who has to clean the garage is a hot potato in our family."
+      - "The last piece of cake was a hot potato; everyone wanted it but was too polite to take it."
+  related:
+    - word: "Ownership"
+      difference: "A 'hot potato' situation arises from a lack of 'ownership'. When someone finally takes 'ownership' of the problem, the passing stops."
+    - word: "Escalate"
+      difference: "If a 'hot potato' issue can't be resolved at the team level, it often needs to be 'escalated' to a manager to assign clear ownership."
+  story: |
+    A strange bug was reported where user data would occasionally get corrupted. The ticket was first assigned to the front-end team, who said it was a back-end issue. The back-end team blamed the database. The database team said the data was already corrupted when they received it. The ticket became a hot potato, passed from one team to another. Finally, the engineering director stepped in and created a cross-functional task force to own the problem collectively.
+
+- word: "Rubber ducking"
+  pronunciation: "/ˈrʌb.ər ˈdʌk.ɪŋ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The process of debugging code by explaining it, line-by-line, to an inanimate object, like a rubber duck. The act of explaining often helps one find the solution on their own."
+    bahasa: "Proses men-debug kode dengan menjelaskannya, baris demi baris, kepada benda mati, seperti bebek karet. Tindakan menjelaskan seringkali membantu seseorang menemukan solusinya sendiri."
+  usage: "Also known as 'rubber duck debugging'. This is a well-known problem-solving technique in software development. You can refer to the act itself or the general method."
+  synonyms:
+    - "Explaining the problem aloud"
+    - "Talking it through"
+  examples:
+    workplace:
+      - "I was stuck on this bug for hours, but after five minutes of rubber ducking with my colleague, I saw the mistake."
+      - "Before you ask me for help, have you tried some basic rubber ducking first?"
+    casual:
+      - "I use a form of rubber ducking to practice my presentation, explaining it to my empty chair."
+      - "My son was rubber ducking his homework problem to his teddy bear and suddenly figured it out."
+  related:
+    - word: "Walkthrough"
+      difference: "A 'walkthrough' is when you explain your code to another person to get their feedback. 'Rubber ducking' is when you explain it (to a person or an object) for your own benefit, to clarify your own thoughts."
+    - word: "Debug"
+      difference: "'Rubber ducking' is a specific technique used to 'debug' code."
+  story: |
+    Keiko was staring at her screen, completely stuck. Her code wasn't working, and she had no idea why. She had read it a hundred times. Frustrated, she grabbed the small rubber duck from her desk, sat it next to her monitor, and said, "Okay, Mr. Quackers, here's what's happening." She started explaining the code's logic, and halfway through a sentence, she stopped. "Oh... oh my gosh, I see it now." The duck said nothing, but the act of explaining had illuminated the flaw in her logic.
