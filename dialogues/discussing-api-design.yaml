@@ -1,0 +1,68 @@
+dialogue:
+  - speaker: Alex
+    english: "Phew, what a day. I'm about to call it a day. How about you?"
+    bahasa: "Fiuh, hari yang luar biasa. Aku mau menyudahi hari ini. Bagaimana denganmu?"
+  - speaker: Ben
+    english: "Same here. Just pushing my latest commits. I finally cracked that bug in the authentication service."
+    bahasa: "Sama. Baru saja melakukan push commit terbaruku. Akhirnya aku berhasil memperbaiki bug di layanan otentikasi itu."
+  - speaker: Alex
+    english: "Oh, nice one! That was a tricky one. What was the issue in the end?"
+    bahasa: "Oh, bagus sekali! Itu bug yang rumit. Apa masalahnya pada akhirnya?"
+  - speaker: Ben
+    english: "It was a race condition. The user profile was being accessed before it was fully populated. A classic."
+    bahasa: "Itu adalah race condition. Profil pengguna diakses sebelum terisi penuh. Klasik."
+  - speaker: Alex
+    english: "Ah, those are the worst to debug. Glad you sorted it out. I spent most of my day bogged down in meetings."
+    bahasa: "Ah, yang seperti itu paling buruk untuk di-debug. Senang kamu berhasil menyelesaikannya. Aku menghabiskan sebagian besar hariku terjebak dalam rapat."
+  - speaker: Ben
+    english: "Tell me about it. I had three back-to-back this morning. My calendar was a sea of blue."
+    bahasa: "Jangan tanya. Aku ada tiga rapat berurutan pagi ini. Kalenderku penuh dengan warna biru."
+  - speaker: Alex
+    english: "On the bright side, I managed to get the design for the new notification system approved."
+    bahasa: "Sisi baiknya, aku berhasil mendapatkan persetujuan untuk desain sistem notifikasi yang baru."
+  - speaker: Ben
+    english: "That's great news! So we can kick off the development next sprint?"
+    bahasa: "Itu berita bagus! Jadi kita bisa memulai pengembangannya di sprint berikutnya?"
+  - speaker: Alex
+    english: "Yep, that's the plan. I've already created the initial stories in Jira."
+    bahasa: "Yap, itu rencananya. Aku sudah membuat story awalnya di Jira."
+  - speaker: Ben
+    english: "Awesome. Well, have a good evening. Don't work too late."
+    bahasa: "Keren. Baiklah, selamat malam. Jangan bekerja terlalu larut."
+  - speaker: Alex
+    english: "You too, Ben. See you tomorrow."
+    bahasa: "Kamu juga, Ben. Sampai jumpa besok."
+  - speaker: Ben
+    english: "Catch you later."
+    bahasa: "Sampai nanti."
+
+expressions:
+  - phrase: "call it a day"
+    meaning_english: "to stop working for the day"
+    meaning_bahasa: "menyudahi pekerjaan untuk hari ini"
+  - phrase: "cracked that bug"
+    meaning_english: "solved a difficult bug"
+    meaning_bahasa: "menyelesaikan bug yang sulit"
+  - phrase: "race condition"
+    meaning_english: "a bug where the outcome of a process depends on the unpredictable sequence of events"
+    meaning_bahasa: "bug di mana hasil dari suatu proses bergantung pada urutan kejadian yang tidak dapat diprediksi"
+  - phrase: "bogged down"
+    meaning_english: "stuck or delayed"
+    meaning_bahasa: "terjebak atau tertunda"
+  - phrase: "back-to-back"
+    meaning_english: "one after another without a break"
+    meaning_bahasa: "satu demi satu tanpa jeda"
+  - phrase: "on the bright side"
+    meaning_english: "a positive aspect of a bad situation"
+    meaning_bahasa: "sisi baik dari situasi yang buruk"
+  - phrase: "kick off"
+    meaning_english: "to start something"
+    meaning_bahasa: "memulai sesuatu"
+
+questions:
+  - q: "What was Ben working on?"
+    a: "He was working on a bug in the authentication service."
+  - q: "What was the root cause of the bug?"
+    a: "It was a race condition."
+  - q: "What did Alex achieve today?"
+    a: "He got the design for the new notification system approved."
