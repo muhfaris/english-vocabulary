@@ -1,0 +1,51 @@
+- word: "pinpoint"
+  pronunciation: "/ˈpɪn.pɔɪnt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To find or identify the exact location, cause, or nature of something."
+    bahasa: "Menentukan dengan tepat lokasi, penyebab, atau sifat sesuatu."
+  usage: "Use 'pinpoint' when you need to be very precise in identifying something, like the root cause of a bug or a specific piece of data in a large dataset."
+  synonyms:
+    - "identify"
+    - "locate"
+    - "determine"
+  examples:
+    workplace:
+      - "It took a few hours, but we finally managed to pinpoint the memory leak."
+      - "Can you pinpoint the exact line of code that's causing the crash?"
+    casual:
+      - "He used the map to pinpoint the best spot for a picnic."
+      - "She couldn't pinpoint the reason for her sudden headache."
+  related:
+    - word: "diagnose"
+      difference: "'Diagnose' is about identifying the nature of a problem (like a disease or a software issue) by examining its symptoms, while 'pinpoint' is about finding its exact location or cause."
+    - word: "locate"
+      difference: "'Locate' means to find the position of something, which is similar to 'pinpoint', but 'pinpoint' often implies greater precision and difficulty."
+  story: |
+    During our sprint retrospective, we tried to pinpoint the main reason for our velocity drop. After analyzing the data, we realized that unexpected bugs in a third-party library were the primary bottleneck. Being able to pinpoint this helped us create a better plan for the next sprint.
+
+- word: "mitigate"
+  pronunciation: "/ˈmɪt.ɪ.ɡeɪt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To make something bad, such as a risk or a problem, less severe, serious, or painful."
+    bahasa: "Mengurangi atau meringankan sesuatu yang buruk, seperti risiko atau masalah, agar tidak terlalu parah, serius, atau menyakitkan."
+  usage: "Use 'mitigate' in the context of reducing the negative impact of a known issue or risk. It's not about fixing the problem entirely, but about lessening its consequences."
+  synonyms:
+    - "reduce"
+    - "lessen"
+    - "alleviate"
+  examples:
+    workplace:
+      - "We've added caching to mitigate the high latency of the database."
+      - "To mitigate the risk of data loss, we perform daily backups."
+    casual:
+      - "He took some medicine to mitigate his allergy symptoms."
+      - "Opening the windows helped mitigate the stuffiness in the room."
+  related:
+    - word: "prevent"
+      difference: "'Prevent' means to stop something from happening altogether. 'Mitigate' means to reduce the impact of something that has already happened or is expected to happen."
+    - word: "resolve"
+      difference: "'Resolve' means to find a solution to a problem. 'Mitigate' is about reducing the immediate negative effects, often as a temporary measure before a full resolution is found."
+  story: |
+    A critical security vulnerability was discovered in a library we use. While the library's team worked on a patch, we had to mitigate the risk immediately. We implemented a temporary firewall rule to block suspicious traffic, which helped protect our system until the permanent fix could be deployed.
