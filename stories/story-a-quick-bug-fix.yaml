@@ -1,0 +1,19 @@
+story:
+  title: "a-quick-bug-fix"
+  date: "2025-09-08"
+  text: |
+    My day started with the usual **stand-up** meeting. Everyone shared their progress, and things seemed to be on track. After the meeting, I grabbed a cup of coffee and started working on a new feature. Suddenly, a message **pops up** from a colleague. A critical **bug** had been found in the production **environment**. It was a small issue that had somehow slipped through our testing phase.
+
+    I had to **drop everything** and investigate the problem immediately. After a bit of **debugging**, I found the root cause. It was a silly mistake in the code that was easy to miss. I quickly prepared a **hotfix**. Before pushing the changes, I did a thorough **code review** with a senior engineer to make sure my fix wouldn't introduce any new problems. He gave me the **green light**. I also added a new **unit test** to ensure this specific issue would not happen again. It's a good **practice** to improve the test coverage whenever a bug is fixed. The rest of the day was much calmer. It was a good reminder that even small bugs need to be taken seriously and that a good review process is a lifesaver.
+  highlighted_words:
+    - "stand-up"
+    - "pops up"
+    - "bug"
+    - "environment"
+    - "drop everything"
+    - "debugging"
+    - "hotfix"
+    - "code review"
+    - "green light"
+    - "unit test"
+    - "practice"
