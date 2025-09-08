@@ -1,0 +1,59 @@
+dialogue:
+  - speaker: Alex
+    english: "Hey, have you seen the email from the release team? They've just announced a code freeze."
+    bahasa: "Hei, sudah lihat email dari tim rilis? Mereka baru saja mengumumkan pembekuan kode."
+  - speaker: Ben
+    english: "Oh, really? I must have missed it. When does it start?"
+    bahasa: "Oh, benarkah? Aku pasti melewatkannya. Kapan mulainya?"
+  - speaker: Alex
+    english: "It starts this Friday at 5 PM. We need to merge all our pending pull requests before then."
+    bahasa: "Mulai hari Jumat ini jam 5 sore. Kita harus menggabungkan semua pull request yang tertunda sebelum itu."
+  - speaker: Ben
+    english: "Got it. I have one PR that's still waiting for a final review. I'll ping the reviewer right away."
+    bahasa: "Mengerti. Aku punya satu PR yang masih menunggu review akhir. Aku akan segera menghubungi reviewer-nya."
+  - speaker: Alex
+    english: "Good idea. The email says only critical bug fixes will be allowed after the freeze."
+    bahasa: "Ide bagus. Emailnya bilang hanya perbaikan bug kritis yang akan diizinkan setelah pembekuan."
+  - speaker: Ben
+    english: "That's standard procedure. So, we should prioritize getting our features in."
+    bahasa: "Itu prosedur standar. Jadi, kita harus memprioritaskan memasukkan fitur-fitur kita."
+  - speaker: Alex
+    english: "Exactly. I'm just wrapping up the unit tests for my latest task. Should be ready for review this afternoon."
+    bahasa: "Tepat sekali. Aku sedang menyelesaikan unit test untuk tugasku yang terakhir. Seharusnya siap untuk direview sore ini."
+  - speaker: Ben
+    english: "Perfect. Let's make sure we're all aligned so we don't have any last-minute scrambles."
+    bahasa: "Sempurna. Mari kita pastikan kita semua selaras agar tidak ada perebutan di menit-menit terakhir."
+  - speaker: Alex
+    english: "Agreed. Better to be safe than sorry."
+    bahasa: "Setuju. Lebih baik mencegah daripada mengobati."
+  - speaker: Ben
+    english: "Definitely. I'll double-check my branch for any uncommitted changes as well."
+    bahasa: "Tentu saja. Aku akan memeriksa ulang branch-ku untuk setiap perubahan yang belum di-commit juga."
+
+expressions:
+  - phrase: "code freeze"
+    meaning_english: "A period where no new code is allowed to be added to the codebase, usually before a release."
+    meaning_bahasa: "Sebuah periode di mana tidak ada kode baru yang diizinkan untuk ditambahkan ke basis kode, biasanya sebelum rilis."
+  - phrase: "pending pull requests"
+    meaning_english: "Pull requests that have been submitted but not yet merged into the main branch."
+    meaning_bahasa: "Pull request yang telah dikirimkan tetapi belum digabungkan ke cabang utama."
+  - phrase: "ping the reviewer"
+    meaning_english: "To notify or remind the reviewer to look at the code."
+    meaning_bahasa: "Untuk memberitahu atau mengingatkan reviewer untuk melihat kode."
+  - phrase: "critical bug fixes"
+    meaning_english: "Fixes for severe errors that prevent the system from functioning correctly."
+    meaning_bahasa: "Perbaikan untuk kesalahan parah yang mencegah sistem berfungsi dengan benar."
+  - phrase: "last-minute scrambles"
+    meaning_english: "A hurried and chaotic effort to get things done right before a deadline."
+    meaning_bahasa: "Upaya yang terburu-buru dan kacau untuk menyelesaikan sesuatu tepat sebelum tenggat waktu."
+  - phrase: "better to be safe than sorry"
+    meaning_english: "It's wiser to be cautious than to regret later."
+    meaning_bahasa: "Lebih bijaksana untuk berhati-hati daripada menyesal kemudian."
+
+questions:
+  - q: "What is a 'code freeze'?"
+    a: "It's a period when developers are not allowed to add new code to the repository to ensure stability before a release."
+  - q: "Why is it important to merge pull requests before a code freeze?"
+    a: "To ensure that all new features and improvements are included in the upcoming release."
+  - q: "What does it mean to 'ping' someone in a work context?"
+    a: "It means to send them a quick message or notification to get their attention or remind them of something."
