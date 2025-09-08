@@ -1,0 +1,22 @@
+story:
+  title: "a-fresh-start"
+  date: "2025-09-08"
+  text: |
+    Monday morning started with a fresh cup of coffee and the usual team **stand-up**. Our project manager quickly went through the **agenda**, and everyone shared their progress. I mentioned that I had finished my previous task and was ready to **tackle** something new.
+
+    A small **issue** with the login page had been reported over the weekend, so my team lead decided to **assign** it to me. It seemed like a quick fix. Before diving in, I sent a quick **update** to the support team, letting them know I was on it. The fix was straightforward—a simple logic error.
+
+    After pushing the fix, I prepared for my main task of the week: a new feature for the user profile page. This one required me to **collaborate** with a designer to ensure the user experience was smooth. We needed to be **in sync** to make sure the technical implementation matched the visual designs.
+
+    With the bug resolved and a clear plan for the new feature, I was ready to **implement** the first part of the code. It felt good to have a productive start to the week, with clear **priorities** and no blockers in sight.
+  highlighted_words:
+    - "stand-up"
+    - "agenda"
+    - "tackle"
+    - "issue"
+    - "assign"
+    - "update"
+    - "collaborate"
+    - "in sync"
+    - "implement"
+    - "priorities"
