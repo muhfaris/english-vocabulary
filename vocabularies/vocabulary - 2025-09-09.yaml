@@ -1,0 +1,249 @@
+- word: "Tedious"
+  pronunciation: "/ˈtiːdiəs/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Too long, slow, or dull; tiresome or monotonous."
+    bahasa: "Membosankan; melelahkan karena terlalu panjang atau berulang-ulang."
+  usage: "Use this word to describe a task that is boring and repetitive, often one that you wish could be automated. It perfectly captures the feeling of doing a job that requires little thought but a lot of time."
+  synonyms:
+    - "Monotonous"
+    - "Boring"
+  examples:
+    workplace:
+      - "Manually testing all the API endpoints one by one is such a tedious process."
+      - "I spent the whole day on the tedious task of migrating the database records by hand."
+    casual:
+      - "Filling out all that paperwork was incredibly tedious."
+      - "I find long car rides through the desert to be very tedious."
+  related:
+    - word: "Repetitive"
+      difference: "'Repetitive' means something is done over and over again. 'Tedious' also implies this but adds a strong feeling of being boring or tiresome."
+    - word: "Boring"
+      difference: "'Boring' is a general lack of interest. 'Tedious' is more specific, suggesting a task is boring *because* it's long and repetitive."
+  story: |
+    At stand-up, Amir sighed. "I'm still working on the data migration task. It's so tedious. I'm just copying and pasting values from an old spreadsheet into the new system. I'm thinking of writing a quick script to automate the rest of it because I can't take another day of this."
+
+- word: "Intuitive"
+  pronunciation: "/ɪnˈtjuːɪtɪv/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Easy to use and understand without needing instruction."
+    bahasa: "Intuitif; mudah digunakan dan dipahami tanpa perlu instruksi."
+  usage: "This is a key compliment for any product, UI, or even an API. It means the design is so good and logical that users naturally know what to do. It's the gold standard for user-facing features."
+  synonyms:
+    - "User-friendly"
+    - "Straightforward"
+  examples:
+    workplace:
+      - "The new dashboard is so intuitive; I didn't even need to read the documentation."
+      - "We need to make the user onboarding process more intuitive for non-technical users."
+    casual:
+      - "The controls on this new camera are very intuitive."
+      - "She has an intuitive understanding of people's feelings."
+  related:
+    - word: "Straightforward"
+      difference: "'Straightforward' means something is easy to understand, without complexity. 'Intuitive' is similar but emphasizes that you can understand it almost instinctively, without conscious thought."
+    - word: "User-friendly"
+      difference: "'User-friendly' is a broad term for things that are easy for people to use. 'Intuitive' is a specific *type* of user-friendliness where things work exactly as you'd expect them to."
+  story: |
+    During a design review, Sarah presented the new mobile app layout. "Our main goal here was to make the experience as intuitive as possible," she explained. "When a new user opens the app, they should immediately know how to add an item to their cart and check out. If they have to stop and think about it, we haven't done our job right."
+
+- word: "Clunky"
+  pronunciation: "/ˈklʌŋki/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Awkwardly solid, heavy, and outdated; not smooth or streamlined."
+    bahasa: "Kaku; kikuk; terasa berat dan ketinggalan zaman; tidak mulus atau efisien."
+  usage: "The perfect word for describing a user interface or a process that is slow, awkward, and frustrating to use. It's the opposite of 'intuitive' or 'seamless'."
+  synonyms:
+    - "Awkward"
+    - "Cumbersome"
+  examples:
+    workplace:
+      - "The old admin panel is so clunky; it takes five clicks to do a simple task."
+      - "Users are complaining that the file upload process feels clunky and slow."
+    casual:
+      - "My first laptop was a clunky beast that weighed a ton."
+      - "The gear shift on this old car is really clunky."
+  related:
+    - word: "Awkward"
+      difference: "'Awkward' can describe social situations or physical movements. 'Clunky' is almost always used for objects or systems, implying they are poorly designed and difficult to operate."
+    - word: "Outdated"
+      difference: "'Outdated' means something is old and no longer current. 'Clunky' describes the *feeling* of using something, which is often *because* it's outdated, but focuses on the poor user experience."
+  story: |
+    "I was trying to use the legacy reporting tool yesterday," David said during lunch. "It's unbelievably clunky. The interface looks like it's from the 90s, and every time you click a button, you have to wait ten seconds for the page to refresh. We really need to prioritize building a new one."
+
+- word: "Leverage"
+  pronunciation: "/ˈliːvərɪdʒ/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To use something to maximum advantage."
+    bahasa: "Memanfaatkan; menggunakan sesuatu untuk mendapatkan keuntungan maksimal."
+  usage: "A very common word in tech and business. It means more than just 'to use'; it implies using something strategically to get a better result, like using an existing library so you don't have to write code from scratch."
+  synonyms:
+    - "Utilize"
+    - "Exploit"
+  examples:
+    workplace:
+      - "We should leverage the existing user authentication service instead of building a new one."
+      - "She was able to leverage her experience in machine learning to solve the problem quickly."
+    casual:
+      - "He's trying to leverage his connections to find a new job."
+      - "To open the jar, she leveraged a spoon against the lid."
+  related:
+    - word: "Use"
+      difference: "'Use' is a neutral, general-purpose verb. 'Leverage' is a business-speak term that implies using something for a strategic advantage or to gain power/efficiency."
+    - word: "Utilize"
+      difference: "'Utilize' is a more formal version of 'use'. 'Leverage' is a step beyond that, strongly suggesting that you're using a resource to its fullest potential to achieve a specific goal."
+  story: |
+    The team lead announced, "For the new notification feature, we're not going to build our own email server. Instead, we'll leverage a third-party service like SendGrid. It'll save us weeks of development time and let us focus on the core logic."
+
+- word: "Mandate"
+  pronunciation: "/ˈmændeɪt/"
+  part_of_speech: "noun"
+  meaning:
+    english: "An official order or commission to do something."
+    bahasa: "Mandat; perintah atau kewajiban resmi untuk melakukan sesuatu."
+  usage: "Use this when talking about a requirement that comes from management, security, or another team that you are required to follow. It implies a top-down decision that is not up for debate."
+  synonyms:
+    - "Requirement"
+    - "Directive"
+  examples:
+    workplace:
+      - "There's a new security mandate that all passwords must be updated every 90 days."
+      - "Management has given us a mandate to improve accessibility across all our products by the end of the year."
+    casual:
+      - "The government issued a mandate requiring citizens to wear masks."
+      - "The election victory gave the new president a clear mandate for his policies."
+  related:
+    - word: "Requirement"
+      difference: "A 'requirement' is a need for a project (e.g., 'the app has a requirement to support login'). A 'mandate' is a formal, often top-down *order* that creates that requirement."
+    - word: "Rule"
+      difference: "A 'rule' is a general principle or regulation. A 'mandate' is a specific, official instruction to perform a certain action or achieve a certain goal."
+  story: |
+    "Why are we suddenly spending so much time on logging?" a junior developer asked. The senior dev replied, "It's a new mandate from the compliance team. After the last audit, they've required that every user action must be logged in a specific, secure format. We don't have a choice; it's a top priority now."
+
+- word: "Silo"
+  pronunciation: "/ˈsaɪləʊ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A part of an organization that operates in isolation from others, not sharing information or collaborating."
+    bahasa: "Silo; bagian dari organisasi yang beroperasi secara terpisah dari yang lain, tidak berbagi informasi atau berkolaborasi."
+  usage: "This is a very common term for describing organizational problems. When you say teams are working in 'silos', it means they are disconnected, which often leads to duplicated work, integration problems, and a lack of shared vision."
+  synonyms:
+    - "Bubble"
+    - "Ivory tower"
+  examples:
+    workplace:
+      - "The marketing and engineering teams are working in silos; they never talk to each other."
+      - "We need to break down these silos to improve collaboration and speed up development."
+    casual:
+      - "He's been living in a political silo and only listens to news that confirms his beliefs."
+      - "Universities are often criticized for having academic departments that are silos of research."
+  related:
+    - word: "Department"
+      difference: "A 'department' is a formal division of an organization. A 'silo' is a negative term describing a department or team that has poor communication and collaboration with others."
+    - word: "Clique"
+      difference: "A 'clique' is a small, exclusive group of people. A 'silo' is usually larger, like an entire team or department, and the isolation is more about workflow and information than social exclusion."
+  story: |
+    During the retrospective, the project manager said, "Our biggest problem on this project was communication. The front-end team and the back-end team were in complete silos. The back-end team would change an API endpoint without telling the front-end team, which caused the app to break. We need a better process for cross-team communication."
+
+- word: "Retrofit"
+  pronunciation: "/ˈretrəʊfɪt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To add a component or feature to something that it did not have when it was first built."
+    bahasa: "Memasang (komponen baru) pada sesuatu yang sudah ada; memodifikasi."
+  usage: "This word is perfect for describing the process of updating an older system with modern technology or features. It's not a full rewrite ('overhaul'), but rather an addition to what's already there."
+  synonyms:
+    - "Upgrade"
+    - "Modify"
+  examples:
+    workplace:
+      - "We have to retrofit two-factor authentication onto our old login system."
+      - "Instead of a full rewrite, we decided to retrofit a caching layer to improve the performance of the legacy application."
+    casual:
+      - "He retrofitted his classic car with a modern sound system."
+      - "They retrofitted the old building with new, energy-efficient windows."
+  related:
+    - word: "Upgrade"
+      difference: "'Upgrade' means to replace something with a newer or better version (e.g., upgrading a library). 'Retrofit' means to add something new to a system that was not designed to have it."
+    - word: "Patch"
+      difference: "A 'patch' is usually a small fix for a bug. A 'retrofit' is typically a larger undertaking, adding a new capability or feature."
+  story: |
+    "The client loves our main application, but they want it to send push notifications," said Maria. "The app was built ten years ago and was never designed for that. So, my main task for this sprint is to figure out how to retrofit a notification service into the existing architecture without breaking anything."
+
+- word: "Piecemeal"
+  pronunciation: "/ˈpiːsmiːl/"
+  part_of_speech: "adverb/adjective"
+  meaning:
+    english: "Done piece by piece; in a gradual, often unsystematic way."
+    bahasa: "Sedikit demi sedikit; secara bertahap dan seringkali tidak sistematis."
+  usage: "Use this to describe work that is done in small, separate parts rather than in a planned, holistic way. It often has a slightly negative connotation, suggesting a lack of a clear, overarching strategy."
+  synonyms:
+    - "Bit by bit"
+    - "Incrementally"
+  examples:
+    workplace:
+      - "We've been fixing these bugs in a piecemeal fashion, but we really need to address the root cause."
+      - "The feature was developed piecemeal by different developers, and now it feels inconsistent."
+    casual:
+      - "He's buying his new computer setup piecemeal, starting with the monitor."
+      - "The house was renovated piecemeal over several years."
+  related:
+    - word: "Incrementally"
+      difference: "'Incrementally' means adding small parts one at a time, which is often a good thing (like in Agile). 'Piecemeal' is similar but often implies the process is disorganized or incomplete."
+    - word: "Gradually"
+      difference: "'Gradually' means something happens slowly over time. 'Piecemeal' focuses more on the fact that it's happening in separate, disconnected pieces."
+  story: |
+    In the team meeting, the tech lead warned, "We have to be careful not to build this new platform piecemeal. If one team builds the UI, and another builds the API, and a third builds the database without a shared plan, we'll end up with a system that's a nightmare to integrate. We need a solid architectural plan first."
+
+- word: "Overhaul"
+  pronunciation: "/ˈəʊvəhɔːl/"
+  part_of_speech: "noun/verb"
+  meaning:
+    english: "A thorough examination and renovation of something."
+    bahasa: "Perombakan; pemeriksaan dan perbaikan menyeluruh."
+  usage: "This word is stronger than 'refactor' or 'update'. An 'overhaul' implies a major, fundamental change to a system or process. It's what you do when small fixes are no longer enough."
+  synonyms:
+    - "Revamp"
+    - "Rewrite"
+  examples:
+    workplace:
+      - "The legacy code is so messy that it needs a complete overhaul."
+      - "We're planning an overhaul of our entire CI/CD pipeline to make it faster and more reliable."
+    casual:
+      - "The new management is planning a complete overhaul of the company's strategy."
+      - "My car needs a major engine overhaul."
+  related:
+    - word: "Refactor"
+      difference: "'Refactor' means changing the internal structure of code without changing its external behavior. An 'overhaul' is much bigger and can involve changing everything, including features and behavior."
+    - word: "Revamp"
+      difference: "'Revamp' and 'overhaul' are very similar. 'Overhaul' often implies fixing something that's broken or inefficient, while 'revamp' can also mean just giving something a new, improved look and feel."
+  story: |
+    "For the next quarter, our main objective is a complete overhaul of the user authentication system," the engineering manager announced. "I know it's a huge task, but the current system is a security risk and a major bottleneck. We're not just patching it anymore; we're rebuilding it from the ground up with modern, secure technology."
+
+- word: "Mainstay"
+  pronunciation: "/ˈmeɪnsteɪ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A person or thing on which something else is based or depends."
+    bahasa: "Andalan; penopang utama; orang atau hal yang menjadi sandaran."
+  usage: "Use this to describe a core, essential component or technology that is fundamental to your application or system. It's the reliable foundation that everything else is built upon."
+  synonyms:
+    - "Pillar"
+    - "Cornerstone"
+  examples:
+    workplace:
+      - "The original monolith API is still the mainstay of our mobile application, even though we're building microservices."
+      - "For years, our reliable PostgreSQL database has been the mainstay of our data storage."
+    casual:
+      - "For decades, the fishing industry was the mainstay of the town's economy."
+      - "That old, comfortable chair has been a mainstay of our living room for years."
+  related:
+    - word: "Foundation"
+      difference: "'Foundation' is the base on which something is built. 'Mainstay' is similar but emphasizes its role as the primary *support* that keeps it going."
+    - word: "Backbone"
+      difference: "'Backbone' refers to the a fundamental, structural part of a system. 'Mainstay' is very close but can also refer to something that is the most reliable or important part, not just structural."
+  story: |
+    A new developer asked, "Why is everyone so careful when they make changes to the 'CoreUtils' library?" A senior engineer replied, "Because that library is the mainstay of half our applications. It handles all our core logic for logging, configuration, and error handling. If you introduce a bug there, you could bring down multiple services. It's old, but it's stable and reliable."
