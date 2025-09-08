@@ -1,0 +1,74 @@
+dialogue:
+  - speaker: Tom
+    english: "Hi Sarah, do you have a moment? I'm a bit stuck on this ticket."
+    bahasa: "Hai Sarah, apa kamu punya waktu sebentar? Aku sedikit kesulitan dengan tiket ini."
+  - speaker: Sarah
+    english: "Of course, Tom. What's up? Let's take a look."
+    bahasa: "Tentu saja, Tom. Ada apa? Coba kita lihat."
+  - speaker: Tom
+    english: "I'm trying to implement the new authentication service, but I keep getting a 'Cross-Origin Resource Sharing' error. I've been banging my head against the wall for an hour."
+    bahasa: "Aku sedang mencoba mengimplementasikan layanan otentikasi baru, tapi aku terus mendapatkan galat 'Cross-Origin Resource Sharing'. Aku sudah pusing selama satu jam."
+  - speaker: Sarah
+    english: "Ah, the infamous CORS error. It's a classic rite of passage. Don't worry, we've all been there. Can you show me your code?"
+    bahasa: "Ah, galat CORS yang terkenal itu. Itu adalah ritual peralihan yang klasik. Jangan khawatir, kita semua pernah mengalaminya. Bisa tunjukkan kodemu?"
+  - speaker: Tom
+    english: "Sure. Here's the frontend service making the API call, and here's the server-side controller."
+    bahasa: "Tentu. Ini layanan frontend yang melakukan panggilan API, dan ini controller di sisi server."
+  - speaker: Sarah
+    english: "Okay, I see. Your frontend code looks fine. The issue is likely on the server side. You need to configure the server to accept requests from the frontend's origin."
+    bahasa: "Oke, aku mengerti. Kode frontend-mu terlihat baik-baik saja. Masalahnya kemungkinan ada di sisi server. Kamu perlu mengkonfigurasi server untuk menerima permintaan dari origin frontend."
+  - speaker: Tom
+    english: "I thought I did that. I added `app.use(cors())` in my main server file."
+    bahasa: "Kupikir aku sudah melakukannya. Aku menambahkan `app.use(cors())` di file server utamaku."
+  - speaker: Sarah
+    english: "That's a good start, but sometimes you need to be more specific with the options. Let's try configuring the CORS middleware with the specific origin of your frontend application."
+    bahasa: "Itu awal yang bagus, tapi terkadang kamu perlu lebih spesifik dengan opsinya. Coba kita konfigurasikan middleware CORS dengan origin spesifik dari aplikasi frontend-mu."
+  - speaker: Tom
+    english: "Oh, I see. So I need to pass an options object to the `cors()` function?"
+    bahasa: "Oh, begitu. Jadi aku perlu memberikan objek opsi ke fungsi `cors()`?"
+  - speaker: Sarah
+    english: "Exactly. Try something like this: `app.use(cors({ origin: 'http://localhost:3000' }))`. Make sure the port matches your frontend's."
+    bahasa: "Tepat sekali. Coba seperti ini: `app.use(cors({ origin: 'http://localhost:3000' }))`. Pastikan port-nya cocok dengan frontend-mu."
+  - speaker: Tom
+    english: "Okay, let me try that... Wow, it works! The error is gone. Thank you so much, Sarah!"
+    bahasa: "Oke, aku coba... Wow, berhasil! Galatnya hilang. Terima kasih banyak, Sarah!"
+  - speaker: Sarah
+    english: "No problem at all. CORS can be tricky at first. The key is to remember it's a security feature to protect users. You're just telling the server which domains are safe to talk to."
+    bahasa: "Sama-sama. CORS memang bisa rumit pada awalnya. Kuncinya adalah mengingat bahwa ini adalah fitur keamanan untuk melindungi pengguna. Kamu hanya memberitahu server domain mana yang aman untuk diajak bicara."
+  - speaker: Tom
+    english: "That makes sense. I'll read up more on it. I really appreciate you taking the time to walk me through this."
+    bahasa: "Masuk akal. Aku akan membaca lebih lanjut tentang itu. Aku sangat menghargai kamu meluangkan waktu untuk membimbingku."
+  - speaker: Sarah
+    english: "Anytime. That's what I'm here for. Keep up the great work, Tom. You're picking things up quickly."
+    bahasa: "Kapan saja. Itulah gunanya aku di sini. Teruslah bekerja dengan baik, Tom. Kamu cepat belajar."
+  - speaker: Tom
+    english: "Thanks, Sarah. That means a lot."
+    bahasa: "Terima kasih, Sarah. Itu sangat berarti."
+
+expressions:
+  - phrase: "have a moment"
+    meaning_english: "to have some free time to talk or help"
+    meaning_bahasa: "punya waktu sebentar"
+  - phrase: "a bit stuck"
+    meaning_english: "having difficulty with something"
+    meaning_bahasa: "sedikit kesulitan"
+  - phrase: "banging my head against the wall"
+    meaning_english: "to be frustrated by a problem that is difficult to solve"
+    meaning_bahasa: "merasa frustrasi karena masalah yang sulit dipecahkan"
+  - phrase: "rite of passage"
+    meaning_english: "a common experience that marks a transition to a new stage"
+    meaning_bahasa: "ritual peralihan"
+  - phrase: "walk me through this"
+    meaning_english: "to guide someone through a process step-by-step"
+    meaning_bahasa: "membimbing saya melalui ini"
+  - phrase: "picking things up quickly"
+    meaning_english: "learning new things fast"
+    meaning_bahasa: "cepat belajar hal-hal baru"
+
+questions:
+  - q: "What was Tom's problem?"
+    a: "He was getting a CORS (Cross-Origin Resource Sharing) error when trying to implement a new authentication service."
+  - q: "What was Sarah's solution?"
+    a: "She suggested configuring the CORS middleware on the server with the specific origin of the frontend application."
+  - q: "What does the expression 'banging my head against the wall' mean?"
+    a: "It means being very frustrated because you are unable to solve a problem."
