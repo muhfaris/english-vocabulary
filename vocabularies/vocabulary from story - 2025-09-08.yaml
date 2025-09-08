@@ -1,0 +1,250 @@
+- word: "hectic"
+  pronunciation: "/ˈhek.tɪk/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Full of incessant or frantic activity."
+    bahasa: "Sangat sibuk dan penuh dengan aktivitas."
+  usage: "Use 'hectic' to describe a day, a schedule, or a period of time that is very busy and fast-paced."
+  synonyms:
+    - "frantic"
+    - "chaotic"
+    - "frenzied"
+  examples:
+    workplace:
+      - "This week has been so hectic with the upcoming release."
+      - "I need a vacation after this hectic project."
+    casual:
+      - "The market was hectic on Saturday morning."
+      - "Life with three kids is always hectic."
+  related:
+    - word: "busy"
+      difference: "'Busy' means having a lot to do. 'Hectic' implies being busy in a chaotic or rushed way."
+    - word: "overwhelming"
+      difference: "'Overwhelming' describes a feeling of being overpowered by too many things. 'Hectic' describes the situation itself."
+  story: |
+    The days leading up to a major deployment are always hectic. The team is busy fixing last-minute bugs, the project manager is coordinating with stakeholders, and everyone is running on coffee and adrenaline. It's a controlled chaos, but the sense of accomplishment after a successful release makes the hectic period worthwhile.
+- word: "juggling"
+  pronunciation: "/ˈdʒʌɡ.lɪŋ/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To cope with by balancing (several activities or demands) at one time."
+    bahasa: "Menyeimbangkan beberapa aktivitas atau tuntutan sekaligus."
+  usage: "Use 'juggling' when you are trying to manage multiple tasks, responsibilities, or priorities at the same time."
+  synonyms:
+    - "balancing"
+    - "managing"
+    - "handling"
+  examples:
+    workplace:
+      - "I'm currently juggling two projects and my regular support tasks."
+      - "She is skilled at juggling her responsibilities as a team lead and a senior developer."
+    casual:
+      - "He's juggling a full-time job with evening classes."
+      - "As a parent, you're always juggling work and family life."
+  related:
+    - word: "multitasking"
+      difference: "'Multitasking' is doing multiple tasks at the same time. 'Juggling' emphasizes the difficulty and skill required to keep everything under control, like keeping balls in the air."
+    - word: "managing"
+      difference: "'Managing' is a broader term for handling things. 'Juggling' specifically implies dealing with several *competing* things at once."
+  story: |
+    As a product manager, I'm constantly juggling the needs of different stakeholders. The engineering team wants clear, stable requirements, while the sales team brings in new customer requests daily. My job is to keep all these 'balls in the air' without dropping any, ensuring we build the right features without derailing our long-term roadmap. It's a continuous act of juggling priorities.
+- word: "allocate"
+  pronunciation: "/ˈæl.ə.keɪt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To distribute (resources or duties) for a particular purpose."
+    bahasa: "Mengalokasikan (sumber daya atau tugas) untuk tujuan tertentu."
+  usage: "Use 'allocate' in a formal context when talking about distributing time, money, resources, or tasks."
+  synonyms:
+    - "assign"
+    - "distribute"
+    - "allot"
+  examples:
+    workplace:
+      - "We need to allocate more resources to testing."
+      - "The manager will allocate tasks to each team member during sprint planning."
+    casual:
+      - "I need to allocate at least an hour a day for exercise."
+      - "They decided to allocate a part of their savings for a vacation."
+  related:
+    - word: "assign"
+      difference: "'Assign' is typically used for tasks or roles given to people. 'Allocate' is more often used for resources like time, budget, or memory, though it can also be used for tasks."
+    - word: "delegate"
+      difference: "'Delegate' means to entrust a task or responsibility to another person, usually someone of lower rank. 'Allocate' is about distributing resources, not just entrusting tasks."
+  story: |
+    During sprint planning, the team lead's main job is to allocate the available 'story points' or hours to the tasks in the backlog. She has to be careful to allocate enough time for development, testing, and potential bug fixes. If she doesn't allocate the resources properly, the team might not be able to complete its commitments for the sprint.
+- word: "collaborate"
+  pronunciation: "/kəˈlæb.ə.reɪt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To work jointly on an activity, especially to produce or create something."
+    bahasa: "Bekerja sama dalam suatu kegiatan, terutama untuk menghasilkan atau menciptakan sesuatu."
+  usage: "Use 'collaborate' to describe people or teams working together towards a common goal."
+  synonyms:
+    - "cooperate"
+    - "work together"
+    - "team up"
+  examples:
+    workplace:
+      - "The front-end and back-end teams need to collaborate on the new API."
+      - "We use Slack to collaborate with our remote colleagues."
+    casual:
+      - "The two musicians decided to collaborate on an album."
+      - "Let's collaborate on a surprise party for her."
+  related:
+    - word: "cooperate"
+      difference: "'Cooperate' means to help each other and not hinder one another. 'Collaborate' is more active and creative, implying working together to create something new."
+    - word: "team up"
+      difference: "'Team up' is a more informal phrase for 'collaborate'."
+  story: |
+    For the new feature to be successful, the design team and the development team had to collaborate from day one. Instead of designers just handing over mockups, they sat with the developers to understand technical constraints. This close partnership allowed them to collaborate on a solution that was both user-friendly and feasible to build within the timeline.
+- word: "overlook"
+  pronunciation: "/ˌoʊ.vɚˈlʊk/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To fail to notice or consider something."
+    bahasa: "Gagal memperhatikan atau mempertimbangkan sesuatu; mengabaikan."
+  usage: "Use 'overlook' when someone accidentally misses or ignores something important."
+  synonyms:
+    - "miss"
+    - "neglect"
+    - "ignore"
+  examples:
+    workplace:
+      - "During the code review, he managed to overlook a critical bug."
+      - "We shouldn't overlook the importance of writing good documentation."
+    casual:
+      - "I'm willing to overlook his lateness this one time."
+      - "In my hurry, I managed to overlook a typo in the email."
+  related:
+    - word: "ignore"
+      difference: "'Ignore' usually implies a deliberate choice to not pay attention to something. 'Overlook' is often accidental, a result of carelessness or being in a hurry."
+    - word: "miss"
+      difference: "'Miss' is very similar, but 'overlook' can also mean to forgive or pardon something ('I'll overlook it this time')."
+  story: |
+    We were confident about the release, but we had managed to overlook one small detail: a third-party API we depended on was being deprecated. It was a classic case of assuming something would work without verifying. Luckily, we caught it during the final testing phase. It was a good lesson to never overlook the dependencies, no matter how stable they seem.
+- word: "drop everything"
+  pronunciation: "/drɑːp ˈev.ri.θɪŋ/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To stop what you are doing immediately to focus on something more urgent."
+    bahasa: "Meninggalkan semua pekerjaan untuk fokus pada sesuatu yang lebih mendesak."
+  usage: "Used when a high-priority task or issue arises that requires immediate attention, forcing you to abandon your current work."
+  synonyms:
+    - "stop everything"
+    - "abandon task"
+  examples:
+    workplace:
+      - "When the production server went down, we had to drop everything to fix it."
+      - "My manager told me to drop everything and help the new intern."
+    casual:
+      - "I had to drop everything to pick up my sister from the airport."
+      - "She dropped everything to help her friend who was in trouble."
+  related:
+    - word: "put on hold"
+      difference: "'Drop everything' implies abandoning a task completely, while 'put on hold' suggests temporarily pausing it with the intention of returning to it later."
+    - word: "all hands on deck"
+      difference: "'All hands on deck' is a call for everyone to help with a crisis, which often requires them to 'drop everything' they are doing."
+  story: |
+    During our sprint, we were making steady progress on our new feature. Suddenly, a critical security vulnerability was reported. Our team lead immediately said, "Okay team, we need to drop everything and address this now." We all stopped our current tasks and swarmed on the vulnerability, knowing that the security of our users' data was the top priority.
+
+- word: "debugging"
+  pronunciation: "/diːˈbʌɡ.ɪŋ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The process of finding and fixing errors or bugs in the source code of computer programs."
+    bahasa: "Proses menemukan dan memperbaiki kesalahan atau bug dalam kode sumber program komputer."
+  usage: "A core activity for software developers, 'debugging' refers to the systematic process of identifying why code is not behaving as expected and correcting it."
+  synonyms:
+    - "troubleshooting"
+    - "fault finding"
+  examples:
+    workplace:
+      - "I spent most of yesterday debugging the payment gateway integration."
+      - "Effective debugging requires patience and a logical approach."
+    casual:
+      - "My friend is great at debugging my computer problems."
+      - "He's debugging his new smart home setup; the lights aren't turning on."
+  related:
+    - word: "testing"
+      difference: "'Testing' is the process of finding bugs, while 'debugging' is the process of fixing them. Testing identifies the problem; debugging identifies the cause and implements a solution."
+    - word: "troubleshooting"
+      difference: "'Troubleshooting' is a broader term for solving problems in any system (hardware, software, etc.), while 'debugging' specifically refers to fixing code."
+  story: |
+    A user reported that the app was crashing every time they tried to upload a photo. I spent the afternoon debugging the issue. I started by trying to reproduce the crash on my local machine. Once I could, I used a debugger tool to step through the code line by line, inspecting variables. After a few hours of intense debugging, I finally found the null pointer exception that was causing the crash.
+
+- word: "green light"
+  pronunciation: "/ˌɡriːn ˈlaɪt/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "Permission or approval to proceed with a project or task."
+    bahasa: "Izin atau persetujuan untuk melanjutkan proyek atau tugas."
+  usage: "Used to signify that a decision-maker has given their official go-ahead for something to start or continue."
+  synonyms:
+    - "go-ahead"
+    - "approval"
+  examples:
+    workplace:
+      - "We're just waiting for the green light from management to start the project."
+      - "Once the design gets the green light, we can begin development."
+    casual:
+      - "I got the green light from my parents to go on the trip."
+      - "The city gave the green light for the new park to be built."
+  related:
+    - word: "sign-off"
+      difference: "'Sign-off' is a more formal act of approval, often involving a signature or official documentation. Getting the 'green light' can be more informal, like a verbal agreement."
+    - word: "thumbs-up"
+      difference: "A 'thumbs-up' is a general gesture of approval, while 'green light' specifically implies permission to proceed with an action or project."
+  story: |
+    Our team had been working on a proposal for a new microservice architecture for weeks. We presented our plan to the architecture review board, outlining the benefits in scalability and maintenance. After a long discussion, the head of engineering finally said, "This looks solid. You have the green light to start the proof of concept." Our team was thrilled to finally get the approval we needed to move forward.
+
+- word: "unit test"
+  pronunciation: "/ˈjuː.nɪt ˈtest/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A type of software test that focuses on a single, isolated part (a 'unit') of a program, like a function or a method, to ensure it works correctly on its own."
+    bahasa: "Jenis pengujian perangkat lunak yang berfokus pada satu bagian terisolasi ('unit') dari sebuah program, seperti fungsi atau metode, untuk memastikan bagian tersebut bekerja dengan benar."
+  usage: "A fundamental practice in modern software development to ensure code quality and prevent regressions. Developers write unit tests to verify the behavior of their code in isolation."
+  synonyms:
+    - "component test"
+    - "module test"
+  examples:
+    workplace:
+      - "I wrote a unit test for the new sorting function to cover all edge cases."
+      - "Our CI/CD pipeline fails if any unit test doesn't pass."
+    casual:
+      - "You can think of a unit test like checking if a single lego brick is the right shape before you build something with it."
+      - "He explained that a unit test is like testing a single ingredient before you bake a cake."
+  related:
+    - word: "integration test"
+      difference: "A 'unit test' checks a single component in isolation, while an 'integration test' verifies that multiple components work together correctly."
+    - word: "end-to-end test"
+      difference: "An 'end-to-end test' simulates a full user workflow through the entire application, whereas a 'unit test' only focuses on the smallest piece of code."
+  story: |
+    When I joined the team, I noticed the codebase had very few tests. A senior developer encouraged me to add a unit test for every new piece of logic I wrote. For my first task, a currency conversion function, I wrote a unit test to check if it correctly handled positive values, zero, and negative values. When I ran the test, it immediately caught a bug with negative inputs. It showed me how valuable a good unit test can be.
+
+- word: "practice"
+  pronunciation: "/ˈpræk.tɪs/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A customary way of doing something; a standard procedure or convention."
+    bahasa: "Cara yang biasa dilakukan untuk melakukan sesuatu; prosedur atau konvensi standar."
+  usage: "Often used in phrases like 'best practice' or 'common practice' to refer to a method or technique that is widely accepted as being effective or correct."
+  synonyms:
+    - "convention"
+    - "custom"
+    - "procedure"
+  examples:
+    workplace:
+      - "It's good practice to comment your code so others can understand it."
+      - "Our team follows the practice of daily stand-up meetings to stay aligned."
+    casual:
+      - "Making a grocery list before shopping is a good practice to save money."
+      - "It's a common practice in our family to have dinner together every Sunday."
+  related:
+    - word: "procedure"
+      difference: "A 'procedure' is a series of specific steps to be followed, while a 'practice' is a more general habit or way of doing things that might not be as rigidly defined."
+    - word: "habit"
+      difference: "A 'habit' is an individual's automatic behavior, whereas a 'practice' is often a conscious, shared convention within a group or profession."
+  story: |
+    During a code review, my team lead pointed out that I wasn't adding comments to my public methods. He explained, "It's a standard practice on our team to document public APIs so that it's easier for other developers to use your code without having to read the implementation." I took his feedback and made it a regular practice in all my future work, which greatly improved the clarity of my contributions.
