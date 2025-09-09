@@ -1,0 +1,17 @@
+story:
+  title: "a-sudden-change-in-direction"
+  date: "2025-09-09"
+  text: |
+    My morning started with a fresh cup of coffee and the usual stand-up meeting. Everything seemed **on track**. My main task was to refactor a legacy module, and I was making good progress. But just as I **settled in**, a message **popped up** from my project manager. "Urgent: we need to pivot."
+
+    Apparently, some feedback from our beta testers revealed a major **flaw** in our user flow. Management decided we needed to streamline the process immediately. This meant my refactoring task was no longer a priority. My manager asked me to **sketch out** a new design and present it by the end of the day. It was a sudden change, but I understood the **reasoning**. I quickly **acknowledged** the message and started sketching out some ideas. It was a classic case of needing to **adapt** to new information. I knew I had to touch base with the UI/UX designer to ensure my ideas were feasible. The day had just taken an unexpected **turn**.
+  highlighted_words:
+    - "on track"
+    - "settle in"
+    - "pop up"
+    - "flaw"
+    - "sketch out"
+    - "reasoning"
+    - "acknowledged"
+    - "adapt"
+    - "turn"
