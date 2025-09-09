@@ -1,0 +1,18 @@
+story:
+  title: "a-week-of-learning"
+  date: "2025-09-09"
+  text: |
+    Last week was a whirlwind of activity. It started with an unexpected production issue, and I was assigned to be **on-call** to monitor the system. After a few stressful hours, we managed to resolve it. To prevent it from happening again, my team scheduled a **post-mortem** meeting to discuss the root cause. It was a great learning experience.
+
+    We decided to **team-up** with the infrastructure team to improve our alerting system. I was tasked with doing a **deep-dive** into the monitoring logs to identify patterns. It was a lot of data to go through, but it was worth it.
+
+    Later in the week, we had our regular sprint **retrospective**. We discussed what went well and what could be improved. One of the key takeaways was that we need to be more careful with **user-facing** changes. We agreed to add an extra layer of testing for any feature that directly impacts the customer experience.
+
+    By the end of the week, I felt like I had learned so much. From handling a production incident to collaborating with another team, it was a week of growth. It's moments like these that make me appreciate the challenges and rewards of being a software engineer.
+  highlighted_words:
+    - "on-call"
+    - "post-mortem"
+    - "team-up"
+    - "deep-dive"
+    - "retrospective"
+    - "user-facing"

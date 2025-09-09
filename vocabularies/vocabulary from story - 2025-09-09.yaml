@@ -478,3 +478,157 @@
       difference: "'Finalize' means to put something into its final, approved form. 'Wrap up' can be more general, simply meaning to bring something to an end."
   story: |
     As we approached the end of the project, we held a final meeting to wrap up any loose ends. We made sure all the documentation was complete and that the code was ready for handover to the maintenance team. It felt good to wrap up the project successfully.
+- word: "on-call"
+  pronunciation: "/ɒn kɔːl/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Designated as being available to provide a professional service if necessary, but not formally on duty."
+    bahasa: "Siap dihubungi atau bertugas jika diperlukan, tetapi tidak sedang dalam jam kerja formal."
+  usage: "Used to describe a period when a person must be available to respond to emergencies or critical issues, common in IT and medical fields."
+  synonyms:
+    - "on duty"
+    - "on standby"
+  examples:
+    workplace:
+      - "I can't go out tonight; I'm on-call for the production servers."
+      - "The on-call engineer was paged at 3 AM to fix a critical database issue."
+    casual:
+      - "My sister is a doctor, so she's often on-call during weekends."
+      - "Being on-call is stressful because you always have to be ready to work."
+  related:
+    - word: "on duty"
+      difference: "'On duty' means you are actively working your scheduled hours, while 'on-call' means you are available to work if needed outside of regular hours."
+    - word: "standby"
+      difference: "'Standby' is very similar to 'on-call' and often used interchangeably, but 'on-call' is more common in professional contexts like IT or medicine."
+  story: |
+    As the release date approached, our team lead decided to create an on-call rotation schedule. This week, it was my turn. On Tuesday night, while I was about to sleep, I received an alert. A critical service was down. I quickly opened my laptop, identified the issue, and deployed a fix. Being on-call was tiring, but it felt good to know I could help keep our systems running smoothly for our users.
+
+- word: "post-mortem"
+  pronunciation: "/ˌpoʊstˈmɔːrtəm/"
+  part_of_speech: "noun"
+  meaning:
+    english: "An analysis or discussion of an event after it has occurred, especially to determine why it was a failure."
+    bahasa: "Analisis atau diskusi tentang suatu peristiwa setelah terjadi, terutama untuk menentukan mengapa peristiwa itu gagal."
+  usage: "In a business or tech context, a post-mortem is a meeting to analyze a project, incident, or event that has concluded, focusing on what went wrong and how to improve in the future. It's about learning, not blaming."
+  synonyms:
+    - "debriefing"
+    - "retrospective"
+    - "review"
+  examples:
+    workplace:
+      - "We're holding a post-mortem tomorrow to understand the cause of the server outage."
+      - "The post-mortem report highlighted a lack of automated testing as the root cause."
+    casual:
+      - "After the failed camping trip, we had a little post-mortem about what to pack next time."
+      - "He conducted a personal post-mortem of his marathon performance to see how he could run faster."
+  related:
+    - word: "retrospective"
+      difference: "'Post-mortem' specifically focuses on an incident or failure. 'Retrospective' is broader and is typically held at the end of a sprint or project to discuss what went well and what didn't, regardless of a major failure."
+    - word: "debriefing"
+      difference: "'Debriefing' is a more general term for a meeting to question someone about a completed mission or undertaking. A 'post-mortem' is a specific type of debriefing focused on a failure."
+  story: |
+    Our website was down for a full hour last Friday. It was a stressful situation, but the team managed to get it back online. On Monday, we all gathered for a blameless post-mortem. We mapped out the timeline of the incident, identified the root cause—a misconfigured deployment script—and created action items to prevent it from happening again. The post-mortem was crucial for turning a negative event into a valuable learning opportunity.
+
+- word: "team-up"
+  pronunciation: "/tiːm ʌp/"
+  part_of_speech: "phrasal verb"
+  meaning:
+    english: "To join with another person or group in order to do something together."
+    bahasa: "Bergabung dengan orang atau kelompok lain untuk melakukan sesuatu bersama."
+  usage: "Used when people or groups collaborate on a specific task or project."
+  synonyms:
+    - "collaborate"
+    - "partner up"
+    - "join forces"
+  examples:
+    workplace:
+      - "The front-end and back-end developers had to team-up to solve the integration issue."
+      - "Let's team-up to finish this report faster."
+    casual:
+      - "The two artists decided to team-up for a new exhibition."
+      - "My brother and I used to team-up to clean the house."
+  related:
+    - word: "collaborate"
+      difference: "'Collaborate' is a more formal term for working together. 'Team-up' is more informal and often implies a more temporary or spontaneous partnership."
+    - word: "partner up"
+      difference: "'Partner up' usually implies a pair of two people working together, while 'team-up' can be used for larger groups as well."
+  story: |
+    For the upcoming hackathon, I decided to team-up with a designer from the marketing department. I had a cool idea for a mobile app, but I knew my design skills were limited. By teaming up, we could combine my coding skills with her design expertise. We worked really well together and ended up winning second place. It was a great reminder that teaming up with people with different skills can lead to amazing results.
+
+- word: "deep-dive"
+  pronunciation: "/diːp daɪv/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A thorough or detailed examination of a subject or problem."
+    bahasa: "Pemeriksaan yang mendalam atau terperinci tentang suatu subjek atau masalah."
+  usage: "Used to describe an in-depth analysis of a topic. It implies going beyond the surface level to understand all the details."
+  synonyms:
+    - "in-depth analysis"
+    - "thorough investigation"
+    - "detailed study"
+  examples:
+    workplace:
+      - "We need to do a deep-dive into the performance data to understand the bottleneck."
+      - "The consultant presented a deep-dive on market trends."
+    casual:
+      - "I did a deep-dive into the history of my favorite band."
+      - "The documentary was a fascinating deep-dive into marine biology."
+  related:
+    - word: "overview"
+      difference: "An 'overview' is a general summary or high-level look at a topic, while a 'deep-dive' is a detailed, in-depth examination."
+    - word: "analysis"
+      difference: "'Analysis' is a broad term for examining something. 'Deep-dive' emphasizes the thoroughness and depth of the analysis."
+  story: |
+    Our application's user engagement numbers were dropping, and no one knew why. My manager asked me to do a deep-dive into the user activity logs from the past three months. It was a huge amount of data, but after a few days of analysis, I discovered a pattern. Users were dropping off at a specific step in the onboarding process. This deep-dive gave us the insights we needed to fix the issue and improve our user experience.
+
+- word: "retrospective"
+  pronunciation: "/ˌrɛtrəˈspɛktɪv/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A meeting held by a project team at the end of a project or sprint to reflect on what went well, what didn't, and what to improve for the next time."
+    bahasa: "Pertemuan yang diadakan oleh tim proyek di akhir proyek atau sprint untuk merefleksikan apa yang berjalan baik, apa yang tidak, dan apa yang harus diperbaiki untuk waktu berikutnya."
+  usage: "A key practice in Agile and Scrum methodologies. It's a structured meeting for a team to learn from their experiences and improve their process."
+  synonyms:
+    - "debriefing"
+    - "review"
+    - "post-mortem"
+  examples:
+    workplace:
+      - "In our sprint retrospective, we decided to allocate more time for testing."
+      - "The retrospective helped the team communicate better and resolve conflicts."
+    casual:
+      - "After his first year of college, he had a personal retrospective on his study habits."
+      - "The family had a retrospective on their vacation to plan a better one next year."
+  related:
+    - word: "post-mortem"
+      difference: "A 'post-mortem' is typically held after a failure or incident to find the root cause. A 'retrospective' is a regular event in a project cycle (like a sprint) to discuss improvements, regardless of failure."
+    - word: "review"
+      difference: "A 'review' (like a sprint review) is often about demonstrating the work that was completed. A 'retrospective' is about reflecting on the process of how the work was done."
+  story: |
+    At the end of our two-week sprint, we all gathered for the retrospective. Our Scrum Master, Sarah, started by asking us to write down what went well and what didn't on sticky notes. We then grouped the notes and discussed them one by one. We celebrated our successes and openly talked about our challenges. The retrospective helped us identify a bottleneck in our code review process, and we agreed on a new approach for the next sprint. It's one of the most valuable meetings we have as a team.
+
+- word: "user-facing"
+  pronunciation: "/ˈjuːzər ˈfeɪsɪŋ/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Relating to or involving the parts of a computer system, application, or device that a user sees and interacts with directly."
+    bahasa: "Berkaitan dengan atau melibatkan bagian-bagian dari sistem komputer, aplikasi, atau perangkat yang dilihat dan berinteraksi langsung dengan pengguna."
+  usage: "Used to describe any component of a product that is visible or directly accessible to the end-user, such as the user interface (UI)."
+  synonyms:
+    - "client-side"
+    - "front-end"
+    - "public-facing"
+  examples:
+    workplace:
+      - "We need to make sure the new design is consistent across all user-facing pages."
+      - "The documentation for our user-facing API needs to be very clear and easy to understand."
+    casual:
+      - "The user-facing part of the app is very intuitive and easy to navigate."
+      - "She enjoys working on user-facing features because she can see the direct impact on customers."
+  related:
+    - word: "back-end"
+      difference: "'Back-end' refers to the server-side logic and database of an application, which the user does not see. 'User-facing' refers to the front-end or client-side, which the user interacts with."
+    - word: "internal"
+      difference: "'Internal' tools or systems are used only by employees within a company, while 'user-facing' systems are for external customers or users."
+  story: |
+    Our team was working on a major update to our web application. My task was to refactor the user authentication flow. This was a critical, user-facing feature, so I had to be extremely careful. Any bug could prevent users from logging in. I spent a lot of time writing tests and getting feedback from our designer to ensure the new login page was not only secure but also easy to use. Seeing the positive feedback from users after the release made all the hard work on this user-facing component worth it.
