@@ -1,0 +1,112 @@
+- title: daily-standup-and-a-quick-sync-42be20
+  dialogue:
+  - speaker: Maria
+    english: Morning, team! Quick stand-up. What's on everyone's plate today?
+    bahasa: Pagi, tim! Stand-up singkat. Apa yang ada di agenda kalian hari ini?
+  - speaker: David
+    english: I'm still working on the caching layer for the user service. I think
+      I can wrap it up by EOD.
+    bahasa: Aku masih mengerjakan lapisan caching untuk layanan pengguna. Sepertinya
+      bisa kuselesaikan hari ini.
+  - speaker: Maria
+    english: Great. Any blockers?
+    bahasa: Bagus. Ada kendala?
+  - speaker: David
+    english: Not at the moment. The documentation for the Redis library is pretty
+      straightforward.
+    bahasa: Saat ini tidak ada. Dokumentasi untuk library Redis cukup jelas.
+  - speaker: Maria
+    english: Excellent. What about you, Chloe?
+    bahasa: Luar biasa. Bagaimana denganmu, Chloe?
+  - speaker: Chloe
+    english: I'm going to start on the UI for the new reporting feature. I've got
+      the mockups from the design team.
+    bahasa: Aku akan mulai mengerjakan UI untuk fitur pelaporan baru. Aku sudah dapat
+      mockup dari tim desain.
+  - speaker: Maria
+    english: Perfect. After this, David, can we have a quick sync? I want to discuss
+      the deployment strategy for your changes.
+    bahasa: Sempurna. Setelah ini, David, bisakah kita sinkronisasi sebentar? Aku
+      ingin membahas strategi deployment untuk perubahanmu.
+  - speaker: David
+    english: Sure, ping me when you're ready.
+    bahasa: Tentu, hubungi aku jika sudah siap.
+  expressions:
+  - phrase: What's on your plate?
+    meaning_english: What are you working on right now?
+    meaning_bahasa: Apa yang sedang kamu kerjakan saat ini?
+  - phrase: Wrap it up by EOD
+    meaning_english: Finish it by the end of the day.
+    meaning_bahasa: Selesaikan pada akhir hari ini.
+  - phrase: Any blockers?
+    meaning_english: Are there any problems preventing you from making progress?
+    meaning_bahasa: Apakah ada masalah yang menghambat kemajuanmu?
+  - phrase: A quick sync
+    meaning_english: A short meeting to make sure everyone is aligned.
+    meaning_bahasa: Rapat singkat untuk memastikan semua orang sepaham.
+  - phrase: Ping me
+    meaning_english: Contact me or send me a message.
+    meaning_bahasa: Hubungi aku atau kirimi aku pesan.
+  questions:
+  - q: What is David's main task for the day?
+    a: David is working on implementing the caching layer for the user service.
+  - q: What will Chloe start working on?
+    a: Chloe will start working on the UI for the new reporting feature.
+  - q: Why does Maria want to sync with David?
+    a: Maria wants to discuss the deployment strategy for the changes David is making.
+- title: daily-standup-and-a-quick-sync-6e9e75
+  dialogue:
+  - speaker: Maria
+    english: Morning, team! Quick stand-up. What's on everyone's plate today?
+    bahasa: Pagi, tim! Stand-up singkat. Apa yang ada di agenda kalian hari ini?
+  - speaker: David
+    english: I'm still working on the caching layer for the user service. I think
+      I can wrap it up by EOD.
+    bahasa: Aku masih mengerjakan lapisan caching untuk layanan pengguna. Sepertinya
+      bisa kuselesaikan hari ini.
+  - speaker: Maria
+    english: Great. Any blockers?
+    bahasa: Bagus. Ada kendala?
+  - speaker: David
+    english: Not at the moment. The documentation for the Redis library is pretty
+      straightforward.
+    bahasa: Saat ini tidak ada. Dokumentasi untuk library Redis cukup jelas.
+  - speaker: Maria
+    english: Excellent. What about you, Chloe?
+    bahasa: Luar biasa. Bagaimana denganmu, Chloe?
+  - speaker: Chloe
+    english: I'm going to start on the UI for the new reporting feature. I've got
+      the mockups from the design team.
+    bahasa: Aku akan mulai mengerjakan UI untuk fitur pelaporan baru. Aku sudah dapat
+      mockup dari tim desain.
+  - speaker: Maria
+    english: Perfect. After this, David, can we have a quick sync? I want to discuss
+      the deployment strategy for your changes.
+    bahasa: Sempurna. Setelah ini, David, bisakah kita sinkronisasi sebentar? Aku
+      ingin membahas strategi deployment untuk perubahanmu.
+  - speaker: David
+    english: Sure, ping me when you're ready.
+    bahasa: Tentu, hubungi aku jika sudah siap.
+  expressions:
+  - phrase: What's on your plate?
+    meaning_english: What are you working on right now?
+    meaning_bahasa: Apa yang sedang kamu kerjakan saat ini?
+  - phrase: Wrap it up by EOD
+    meaning_english: Finish it by the end of the day.
+    meaning_bahasa: Selesaikan pada akhir hari ini.
+  - phrase: Any blockers?
+    meaning_english: Are there any problems preventing you from making progress?
+    meaning_bahasa: Apakah ada masalah yang menghambat kemajuanmu?
+  - phrase: A quick sync
+    meaning_english: A short meeting to make sure everyone is aligned.
+    meaning_bahasa: Rapat singkat untuk memastikan semua orang sepaham.
+  - phrase: Ping me
+    meaning_english: Contact me or send me a message.
+    meaning_bahasa: Hubungi aku atau kirimi aku pesan.
+  questions:
+  - q: What is David's main task for the day?
+    a: David is working on implementing the caching layer for the user service.
+  - q: What will Chloe start working on?
+    a: Chloe will start working on the UI for the new reporting feature.
+  - q: Why does Maria want to sync with David?
+    a: Maria wants to discuss the deployment strategy for the changes David is making.
