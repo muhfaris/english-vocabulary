@@ -1,0 +1,258 @@
+- word: "pinpoint"
+  pronunciation: "/ˈpɪn.pɔɪnt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To find or identify the exact location, cause, or nature of something."
+    bahasa: "Menentukan dengan tepat lokasi, penyebab, atau sifat sesuatu."
+  usage: "Use 'pinpoint' when you need to be very precise in identifying something, like the root cause of a bug or a specific piece of data in a large dataset."
+  synonyms:
+    - "identify"
+    - "locate"
+    - "determine"
+  examples:
+    workplace:
+      - "It took a few hours, but we finally managed to pinpoint the memory leak."
+      - "Can you pinpoint the exact line of code that's causing the crash?"
+    casual:
+      - "He used the map to pinpoint the best spot for a picnic."
+      - "She couldn't pinpoint the reason for her sudden headache."
+  related:
+    - word: "diagnose"
+      difference: "'Diagnose' is about identifying the nature of a problem (like a disease or a software issue) by examining its symptoms, while 'pinpoint' is about finding its exact location or cause."
+    - word: "locate"
+      difference: "'Locate' means to find the position of something, which is similar to 'pinpoint', but 'pinpoint' often implies greater precision and difficulty."
+  story: |
+    During our sprint retrospective, we tried to pinpoint the main reason for our velocity drop. After analyzing the data, we realized that unexpected bugs in a third-party library were the primary bottleneck. Being able to pinpoint this helped us create a better plan for the next sprint.
+
+- word: "mitigate"
+  pronunciation: "/ˈmɪt.ɪ.ɡeɪt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To make something bad, such as a risk or a problem, less severe, serious, or painful."
+    bahasa: "Mengurangi atau meringankan sesuatu yang buruk, seperti risiko atau masalah, agar tidak terlalu parah, serius, atau menyakitkan."
+  usage: "Use 'mitigate' in the context of reducing the negative impact of a known issue or risk. It's not about fixing the problem entirely, but about lessening its consequences."
+  synonyms:
+    - "reduce"
+    - "lessen"
+    - "alleviate"
+  examples:
+    workplace:
+      - "We've added caching to mitigate the high latency of the database."
+      - "To mitigate the risk of data loss, we perform daily backups."
+    casual:
+      - "He took some medicine to mitigate his allergy symptoms."
+      - "Opening the windows helped mitigate the stuffiness in the room."
+  related:
+    - word: "prevent"
+      difference: "'Prevent' means to stop something from happening altogether. 'Mitigate' means to reduce the impact of something that has already happened or is expected to happen."
+    - word: "resolve"
+      difference: "'Resolve' means to find a solution to a problem. 'Mitigate' is about reducing the immediate negative effects, often as a temporary measure before a full resolution is found."
+  story: |
+    A critical security vulnerability was discovered in a library we use. While the library's team worked on a patch, we had to mitigate the risk immediately. We implemented a temporary firewall rule to block suspicious traffic, which helped protect our system until the permanent fix could be deployed.
+- word: "flaw"
+  pronunciation: "/flɔː/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A fault, mistake, or weakness, especially one that happens while something is being planned or made, or that causes something not to be perfect."
+    bahasa: "Cacat, kesalahan, atau kelemahan, terutama yang terjadi saat sesuatu sedang direncanakan atau dibuat, atau yang menyebabkan sesuatu tidak sempurna."
+  usage: "Use 'flaw' to describe a defect or an imperfection in a plan, design, argument, or system."
+  synonyms:
+    - "defect"
+    - "bug"
+    - "imperfection"
+  examples:
+    workplace:
+      - "The security audit revealed a critical flaw in our authentication logic."
+      - "There's a fundamental flaw in the proposed architecture."
+    casual:
+      - "Despite its flaws, the movie was still enjoyable."
+      - "His only flaw is that he's a bit too stubborn."
+  related:
+    - word: "bug"
+      difference: "A 'bug' is a specific type of flaw in software code that causes it to behave unexpectedly. 'Flaw' is a more general term that can apply to design, logic, or requirements, not just code."
+    - word: "weakness"
+      difference: "A 'weakness' is a point where a system is vulnerable orlacks strength. A 'flaw' is a more direct imperfection or error in its construction."
+  story: |
+    During the demo, a stakeholder pointed out a major flaw in our new feature's user experience. The workflow was confusing and not intuitive. We had to go back to the drawing board to fix the flaw before the official release.
+
+- word: "reasoning"
+  pronunciation: "/ˈriː.zən.ɪŋ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The process of thinking about something in a logical way in order to form a conclusion or judgment."
+    bahasa: "Proses berpikir tentang sesuatu secara logis untuk membentuk kesimpulan atau penilaian."
+  usage: "Use 'reasoning' to refer to the logical thought process behind a decision, conclusion, or argument."
+  synonyms:
+    - "logic"
+    - "rationale"
+    - "justification"
+  examples:
+    workplace:
+      - "Could you please explain the reasoning behind your technical decision?"
+      - "The document should outline the reasoning for choosing this new framework."
+    casual:
+      - "I don't understand the reasoning behind his sudden decision to quit."
+      - "Her reasoning was sound, so we all agreed with her plan."
+  related:
+    - word: "rationale"
+      difference: "'Rationale' and 'reasoning' are very similar. 'Rationale' often refers to the set of reasons presented to explain a decision, while 'reasoning' can refer to the mental process of arriving at that decision."
+    - word: "logic"
+      difference: "'Logic' refers to the principles of correct reasoning. 'Reasoning' is the act of applying that logic to a specific problem."
+  story: |
+    When I proposed refactoring the entire module, my tech lead asked for my reasoning. I explained that the current code was hard to maintain and prone to bugs. After I walked him through my thought process, he agreed with my reasoning and approved the task.
+
+- word: "acknowledged"
+  pronunciation: "/əkˈnɒl.ɪdʒd/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To accept, admit, or recognize something, or the truth or existence of something."
+    bahasa: "Menerima, mengakui, atau menyadari sesuatu, atau kebenaran atau keberadaan sesuatu."
+  usage: "Use 'acknowledged' to show that you have received and understood a message, or to admit that something is true."
+  synonyms:
+    - "admitted"
+    - "recognized"
+    - "confirmed"
+  examples:
+    workplace:
+      - "He acknowledged the bug report and assigned it to a developer."
+      - "The team acknowledged that the initial estimates were too optimistic."
+    casual:
+      - "She acknowledged my greeting with a nod."
+      - "He never acknowledged the help he received from his friends."
+  related:
+    - word: "confirm"
+      difference: "'Confirm' means to verify that something is true or will happen. 'Acknowledge' simply means to recognize its existence or receipt, not necessarily to agree with it or verify it."
+    - word: "admit"
+      difference: "'Admit' often implies reluctance in acknowledging something, especially a mistake or fault. 'Acknowledge' is more neutral."
+  story: |
+    After I sent the email about the server outage, I waited for a reply. A few minutes later, the operations team leader acknowledged my message with a simple "Got it, we're on it." It was a relief to know they were aware of the issue.
+
+- word: "adapt"
+  pronunciation: "/əˈdæpt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To change, or to change something, to suit different conditions or uses."
+    bahasa: "Berubah, atau mengubah sesuatu, agar sesuai dengan kondisi atau kegunaan yang berbeda."
+  usage: "Use 'adapt' to describe the process of adjusting to new circumstances, requirements, or environments."
+  synonyms:
+    - "adjust"
+    - "modify"
+    - "acclimate"
+  examples:
+    workplace:
+      - "As a software engineer, you must be able to adapt to new technologies quickly."
+      - "We had to adapt our plan when the client changed the requirements."
+    casual:
+      - "He found it hard to adapt to the new school."
+      - "Animals in the desert have adapted to the hot and dry conditions."
+  related:
+    - word: "adjust"
+      difference: "'Adjust' usually means to make a small change to something to make it fit or work better. 'Adapt' can imply a more fundamental change to suit a new situation."
+    - word: "adopt"
+      difference: "'Adopt' means to start using a new method, idea, or technology. 'Adapt' means to change something you are already doing to fit a new context."
+  story: |
+    When our team switched from Scrum to Kanban, it took us a few weeks to adapt. We had to change our daily routines and how we thought about work in progress. But soon, everyone adapted to the new workflow and our productivity improved.
+
+- word: "settle in"
+  pronunciation: "/ˈset.əl ɪn/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To become comfortable and familiar with a new situation, home, or job."
+    bahasa: "Menjadi nyaman dan akrab dengan situasi, rumah, atau pekerjaan baru."
+  usage: "Use 'settle in' to describe the process of getting used to a new environment and feeling at home there."
+  synonyms:
+    - "get comfortable"
+    - "acclimate"
+    - "get used to"
+  examples:
+    workplace:
+      - "It took her a few weeks to settle in at her new company."
+      - "Once you settle in, you'll love working here."
+    casual:
+      - "Let's give the new puppy some time to settle in."
+      - "After moving to a new city, it took a while to settle in."
+  related:
+    - word: "onboarding"
+      difference: "'Onboarding' is the formal process of integrating a new employee into a company. 'Settle in' is the personal process of that employee becoming comfortable and familiar with their new role and environment."
+    - word: "adjust"
+      difference: "'Adjust' is about making small changes to cope with a new situation. 'Settle in' is about the overall feeling of becoming comfortable and belonging."
+  story: |
+    On my first day, my manager told me, "Don't worry about being productive right away. Just take your time to settle in, meet the team, and get familiar with our codebase." That made me feel much more relaxed.
+
+- word: "pop up"
+  pronunciation: "/pɒp ʌp/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To appear or happen, especially suddenly and unexpectedly."
+    bahasa: "Muncul atau terjadi, terutama secara tiba-tiba dan tidak terduga."
+  usage: "Use 'pop up' to describe things that appear unexpectedly, such as notifications, error messages, or unforeseen tasks."
+  synonyms:
+    - "appear suddenly"
+    - "emerge"
+    - "arise"
+  examples:
+    workplace:
+      - "An unexpected error message keeps popping up on the screen."
+      - "Urgent tasks always seem to pop up right before a deadline."
+    casual:
+      - "A new coffee shop just popped up on the corner."
+      - "I was browsing the web when an annoying ad popped up."
+  related:
+    - word: "arise"
+      difference: "'Arise' is a more formal word for when issues or situations emerge. 'Pop up' is more casual and often implies something appearing suddenly and briefly."
+    - word: "appear"
+      difference: "'Appear' is a neutral term for something coming into view. 'Pop up' adds a sense of suddenness and surprise."
+  story: |
+    I was about to finish my work for the day when a critical bug ticket popped up in my queue. It was from a major client, so I had to stay late to investigate and fix it.
+
+- word: "sketch out"
+  pronunciation: "/sketʃ aʊt/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To give a general description of a plan or idea, without giving all the details."
+    bahasa: "Memberikan gambaran umum tentang suatu rencana atau ide, tanpa memberikan semua detailnya."
+  usage: "Use 'sketch out' when you are creating a rough or preliminary version of something, like a plan, a design, or an idea."
+  synonyms:
+    - "outline"
+    - "draft"
+    - "rough out"
+  examples:
+    workplace:
+      - "Let's sketch out the main features for the new module before we start coding."
+      - "I'll sketch out a proposal and send it to you for feedback."
+    casual:
+      - "She sketched out a map to show me how to get to her house."
+      - "He sketched out his travel plans for the summer."
+  related:
+    - word: "draft"
+      difference: "'Draft' often refers to creating a preliminary version of a written document, like a report or an email. 'Sketch out' is more general and can apply to ideas, plans, or visual designs."
+    - word: "outline"
+      difference: "'Outline' usually refers to creating a structured list of points or topics. 'Sketch out' is more about creating a general concept or drawing."
+  story: |
+    Before writing a single line of code for the new feature, I met with the product manager to sketch out the user flow on a whiteboard. This helped us align on the core logic and identify potential issues early on.
+
+- word: "turn"
+  pronunciation: "/tɜːn/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A change in the direction or nature of something."
+    bahasa: "Perubahan arah atau sifat sesuatu."
+  usage: "Use 'turn' to describe a significant change in events, often unexpected. It can be a 'turn of events'."
+  synonyms:
+    - "change"
+    - "shift"
+    - "development"
+  examples:
+    workplace:
+      - "The project took an unexpected turn when the main stakeholder left the company."
+      - "The meeting took a positive turn after we resolved the main disagreement."
+    casual:
+      - "The story had a surprising turn at the end."
+      - "His health took a turn for the worse."
+  related:
+    - word: "shift"
+      difference: "A 'shift' often implies a more gradual change in position or focus. A 'turn' can be more sudden and decisive, changing the direction of events."
+    - word: "change"
+      difference: "'Change' is a very general term. 'Turn' specifically refers to a change in the course of events or the nature of a situation."
+  story: |
+    We were all confident about the release until the final round of testing. Then, events took a dramatic turn. We discovered a major data corruption issue, and we had to postpone the launch to fix it.
