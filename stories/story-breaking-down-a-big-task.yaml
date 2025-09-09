@@ -1,0 +1,17 @@
+story:
+  title: "breaking-down-a-big-task"
+  date: "2025-09-08"
+  text: |
+    Monday morning started with a new ticket assigned to me. At first glance, the scope seemed huge, and I felt a bit overwhelmed. The goal was to build a new notification system from scratch, and the initial description was quite vague.
+
+    Before writing any code, I knew I needed to **collaborate** with the Product Manager, Sarah. We scheduled a quick call to walk through the requirements together. Sarah shared some great **insights** into the user problems we were trying to solve, which immediately made the purpose of the feature much clearer. She explained the core expected **behavior** of the notification system, helping me understand what was essential for the first release versus what could wait.
+
+    This discussion was incredibly helpful. The task, which initially seemed daunting, now felt much more **manageable**. We agreed to break it down into smaller, logical pieces and prioritize the most critical parts for the current sprint. It was a huge **relief** to realize I didn't have to build the entire system all at once.
+
+    Feeling much more confident, I grabbed my second cup of coffee and started mapping out the architecture for the first component. It's amazing how a 30-minute conversation can turn a mountain of work into a clear and achievable path forward. The rest of the day was productive, and I even had a preliminary design ready for review by the evening.
+  highlighted_words:
+    - "collaborate"
+    - "insights"
+    - "behavior"
+    - "manageable"
+    - "relief"
