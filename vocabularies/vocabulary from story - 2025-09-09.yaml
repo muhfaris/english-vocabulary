@@ -1,0 +1,480 @@
+- word: "pinpoint"
+  pronunciation: "/ˈpɪn.pɔɪnt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To find or identify the exact location, cause, or nature of something."
+    bahasa: "Menentukan dengan tepat lokasi, penyebab, atau sifat sesuatu."
+  usage: "Use 'pinpoint' when you need to be very precise in identifying something, like the root cause of a bug or a specific piece of data in a large dataset."
+  synonyms:
+    - "identify"
+    - "locate"
+    - "determine"
+  examples:
+    workplace:
+      - "It took a few hours, but we finally managed to pinpoint the memory leak."
+      - "Can you pinpoint the exact line of code that's causing the crash?"
+    casual:
+      - "He used the map to pinpoint the best spot for a picnic."
+      - "She couldn't pinpoint the reason for her sudden headache."
+  related:
+    - word: "diagnose"
+      difference: "'Diagnose' is about identifying the nature of a problem (like a disease or a software issue) by examining its symptoms, while 'pinpoint' is about finding its exact location or cause."
+    - word: "locate"
+      difference: "'Locate' means to find the position of something, which is similar to 'pinpoint', but 'pinpoint' often implies greater precision and difficulty."
+  story: |
+    During our sprint retrospective, we tried to pinpoint the main reason for our velocity drop. After analyzing the data, we realized that unexpected bugs in a third-party library were the primary bottleneck. Being able to pinpoint this helped us create a better plan for the next sprint.
+
+- word: "mitigate"
+  pronunciation: "/ˈmɪt.ɪ.ɡeɪt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To make something bad, such as a risk or a problem, less severe, serious, or painful."
+    bahasa: "Mengurangi atau meringankan sesuatu yang buruk, seperti risiko atau masalah, agar tidak terlalu parah, serius, atau menyakitkan."
+  usage: "Use 'mitigate' in the context of reducing the negative impact of a known issue or risk. It's not about fixing the problem entirely, but about lessening its consequences."
+  synonyms:
+    - "reduce"
+    - "lessen"
+    - "alleviate"
+  examples:
+    workplace:
+      - "We've added caching to mitigate the high latency of the database."
+      - "To mitigate the risk of data loss, we perform daily backups."
+    casual:
+      - "He took some medicine to mitigate his allergy symptoms."
+      - "Opening the windows helped mitigate the stuffiness in the room."
+  related:
+    - word: "prevent"
+      difference: "'Prevent' means to stop something from happening altogether. 'Mitigate' means to reduce the impact of something that has already happened or is expected to happen."
+    - word: "resolve"
+      difference: "'Resolve' means to find a solution to a problem. 'Mitigate' is about reducing the immediate negative effects, often as a temporary measure before a full resolution is found."
+  story: |
+    A critical security vulnerability was discovered in a library we use. While the library's team worked on a patch, we had to mitigate the risk immediately. We implemented a temporary firewall rule to block suspicious traffic, which helped protect our system until the permanent fix could be deployed.
+- word: "flaw"
+  pronunciation: "/flɔː/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A fault, mistake, or weakness, especially one that happens while something is being planned or made, or that causes something not to be perfect."
+    bahasa: "Cacat, kesalahan, atau kelemahan, terutama yang terjadi saat sesuatu sedang direncanakan atau dibuat, atau yang menyebabkan sesuatu tidak sempurna."
+  usage: "Use 'flaw' to describe a defect or an imperfection in a plan, design, argument, or system."
+  synonyms:
+    - "defect"
+    - "bug"
+    - "imperfection"
+  examples:
+    workplace:
+      - "The security audit revealed a critical flaw in our authentication logic."
+      - "There's a fundamental flaw in the proposed architecture."
+    casual:
+      - "Despite its flaws, the movie was still enjoyable."
+      - "His only flaw is that he's a bit too stubborn."
+  related:
+    - word: "bug"
+      difference: "A 'bug' is a specific type of flaw in software code that causes it to behave unexpectedly. 'Flaw' is a more general term that can apply to design, logic, or requirements, not just code."
+    - word: "weakness"
+      difference: "A 'weakness' is a point where a system is vulnerable orlacks strength. A 'flaw' is a more direct imperfection or error in its construction."
+  story: |
+    During the demo, a stakeholder pointed out a major flaw in our new feature's user experience. The workflow was confusing and not intuitive. We had to go back to the drawing board to fix the flaw before the official release.
+
+- word: "reasoning"
+  pronunciation: "/ˈriː.zən.ɪŋ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The process of thinking about something in a logical way in order to form a conclusion or judgment."
+    bahasa: "Proses berpikir tentang sesuatu secara logis untuk membentuk kesimpulan atau penilaian."
+  usage: "Use 'reasoning' to refer to the logical thought process behind a decision, conclusion, or argument."
+  synonyms:
+    - "logic"
+    - "rationale"
+    - "justification"
+  examples:
+    workplace:
+      - "Could you please explain the reasoning behind your technical decision?"
+      - "The document should outline the reasoning for choosing this new framework."
+    casual:
+      - "I don't understand the reasoning behind his sudden decision to quit."
+      - "Her reasoning was sound, so we all agreed with her plan."
+  related:
+    - word: "rationale"
+      difference: "'Rationale' and 'reasoning' are very similar. 'Rationale' often refers to the set of reasons presented to explain a decision, while 'reasoning' can refer to the mental process of arriving at that decision."
+    - word: "logic"
+      difference: "'Logic' refers to the principles of correct reasoning. 'Reasoning' is the act of applying that logic to a specific problem."
+  story: |
+    When I proposed refactoring the entire module, my tech lead asked for my reasoning. I explained that the current code was hard to maintain and prone to bugs. After I walked him through my thought process, he agreed with my reasoning and approved the task.
+
+- word: "acknowledged"
+  pronunciation: "/əkˈnɒl.ɪdʒd/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To accept, admit, or recognize something, or the truth or existence of something."
+    bahasa: "Menerima, mengakui, atau menyadari sesuatu, atau kebenaran atau keberadaan sesuatu."
+  usage: "Use 'acknowledged' to show that you have received and understood a message, or to admit that something is true."
+  synonyms:
+    - "admitted"
+    - "recognized"
+    - "confirmed"
+  examples:
+    workplace:
+      - "He acknowledged the bug report and assigned it to a developer."
+      - "The team acknowledged that the initial estimates were too optimistic."
+    casual:
+      - "She acknowledged my greeting with a nod."
+      - "He never acknowledged the help he received from his friends."
+  related:
+    - word: "confirm"
+      difference: "'Confirm' means to verify that something is true or will happen. 'Acknowledge' simply means to recognize its existence or receipt, not necessarily to agree with it or verify it."
+    - word: "admit"
+      difference: "'Admit' often implies reluctance in acknowledging something, especially a mistake or fault. 'Acknowledge' is more neutral."
+  story: |
+    After I sent the email about the server outage, I waited for a reply. A few minutes later, the operations team leader acknowledged my message with a simple "Got it, we're on it." It was a relief to know they were aware of the issue.
+
+- word: "adapt"
+  pronunciation: "/əˈdæpt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To change, or to change something, to suit different conditions or uses."
+    bahasa: "Berubah, atau mengubah sesuatu, agar sesuai dengan kondisi atau kegunaan yang berbeda."
+  usage: "Use 'adapt' to describe the process of adjusting to new circumstances, requirements, or environments."
+  synonyms:
+    - "adjust"
+    - "modify"
+    - "acclimate"
+  examples:
+    workplace:
+      - "As a software engineer, you must be able to adapt to new technologies quickly."
+      - "We had to adapt our plan when the client changed the requirements."
+    casual:
+      - "He found it hard to adapt to the new school."
+      - "Animals in the desert have adapted to the hot and dry conditions."
+  related:
+    - word: "adjust"
+      difference: "'Adjust' usually means to make a small change to something to make it fit or work better. 'Adapt' can imply a more fundamental change to suit a new situation."
+    - word: "adopt"
+      difference: "'Adopt' means to start using a new method, idea, or technology. 'Adapt' means to change something you are already doing to fit a new context."
+  story: |
+    When our team switched from Scrum to Kanban, it took us a few weeks to adapt. We had to change our daily routines and how we thought about work in progress. But soon, everyone adapted to the new workflow and our productivity improved.
+
+- word: "settle in"
+  pronunciation: "/ˈset.əl ɪn/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To become comfortable and familiar with a new situation, home, or job."
+    bahasa: "Menjadi nyaman dan akrab dengan situasi, rumah, atau pekerjaan baru."
+  usage: "Use 'settle in' to describe the process of getting used to a new environment and feeling at home there."
+  synonyms:
+    - "get comfortable"
+    - "acclimate"
+    - "get used to"
+  examples:
+    workplace:
+      - "It took her a few weeks to settle in at her new company."
+      - "Once you settle in, you'll love working here."
+    casual:
+      - "Let's give the new puppy some time to settle in."
+      - "After moving to a new city, it took a while to settle in."
+  related:
+    - word: "onboarding"
+      difference: "'Onboarding' is the formal process of integrating a new employee into a company. 'Settle in' is the personal process of that employee becoming comfortable and familiar with their new role and environment."
+    - word: "adjust"
+      difference: "'Adjust' is about making small changes to cope with a new situation. 'Settle in' is about the overall feeling of becoming comfortable and belonging."
+  story: |
+    On my first day, my manager told me, "Don't worry about being productive right away. Just take your time to settle in, meet the team, and get familiar with our codebase." That made me feel much more relaxed.
+
+- word: "pop up"
+  pronunciation: "/pɒp ʌp/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To appear or happen, especially suddenly and unexpectedly."
+    bahasa: "Muncul atau terjadi, terutama secara tiba-tiba dan tidak terduga."
+  usage: "Use 'pop up' to describe things that appear unexpectedly, such as notifications, error messages, or unforeseen tasks."
+  synonyms:
+    - "appear suddenly"
+    - "emerge"
+    - "arise"
+  examples:
+    workplace:
+      - "An unexpected error message keeps popping up on the screen."
+      - "Urgent tasks always seem to pop up right before a deadline."
+    casual:
+      - "A new coffee shop just popped up on the corner."
+      - "I was browsing the web when an annoying ad popped up."
+  related:
+    - word: "arise"
+      difference: "'Arise' is a more formal word for when issues or situations emerge. 'Pop up' is more casual and often implies something appearing suddenly and briefly."
+    - word: "appear"
+      difference: "'Appear' is a neutral term for something coming into view. 'Pop up' adds a sense of suddenness and surprise."
+  story: |
+    I was about to finish my work for the day when a critical bug ticket popped up in my queue. It was from a major client, so I had to stay late to investigate and fix it.
+
+- word: "sketch out"
+  pronunciation: "/sketʃ aʊt/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To give a general description of a plan or idea, without giving all the details."
+    bahasa: "Memberikan gambaran umum tentang suatu rencana atau ide, tanpa memberikan semua detailnya."
+  usage: "Use 'sketch out' when you are creating a rough or preliminary version of something, like a plan, a design, or an idea."
+  synonyms:
+    - "outline"
+    - "draft"
+    - "rough out"
+  examples:
+    workplace:
+      - "Let's sketch out the main features for the new module before we start coding."
+      - "I'll sketch out a proposal and send it to you for feedback."
+    casual:
+      - "She sketched out a map to show me how to get to her house."
+      - "He sketched out his travel plans for the summer."
+  related:
+    - word: "draft"
+      difference: "'Draft' often refers to creating a preliminary version of a written document, like a report or an email. 'Sketch out' is more general and can apply to ideas, plans, or visual designs."
+    - word: "outline"
+      difference: "'Outline' usually refers to creating a structured list of points or topics. 'Sketch out' is more about creating a general concept or drawing."
+  story: |
+    Before writing a single line of code for the new feature, I met with the product manager to sketch out the user flow on a whiteboard. This helped us align on the core logic and identify potential issues early on.
+
+- word: "turn"
+  pronunciation: "/tɜːn/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A change in the direction or nature of something."
+    bahasa: "Perubahan arah atau sifat sesuatu."
+  usage: "Use 'turn' to describe a significant change in events, often unexpected. It can be a 'turn of events'."
+  synonyms:
+    - "change"
+    - "shift"
+    - "development"
+  examples:
+    workplace:
+      - "The project took an unexpected turn when the main stakeholder left the company."
+      - "The meeting took a positive turn after we resolved the main disagreement."
+    casual:
+      - "The story had a surprising turn at the end."
+      - "His health took a turn for the worse."
+  related:
+    - word: "shift"
+      difference: "A 'shift' often implies a more gradual change in position or focus. A 'turn' can be more sudden and decisive, changing the direction of events."
+    - word: "change"
+      difference: "'Change' is a very general term. 'Turn' specifically refers to a change in the course of events or the nature of a situation."
+  story: |
+    We were all confident about the release until the final round of testing. Then, events took a dramatic turn. We discovered a major data corruption issue, and we had to postpone the launch to fix it.
+- word: "stand-up"
+  pronunciation: "/ˈstænd.ʌp/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A short, daily team meeting where members briefly share their progress, plans, and any obstacles."
+    bahasa: "Rapat tim harian yang singkat di mana anggota secara ringkas berbagi kemajuan, rencana, dan hambatan apa pun."
+  usage: "Use 'stand-up' to refer to the daily agile or scrum meeting. It's called a stand-up because attendees typically stand to keep the meeting short."
+  synonyms:
+    - "daily scrum"
+    - "huddle"
+    - "check-in"
+  examples:
+    workplace:
+      - "I'll give a full update during the stand-up tomorrow morning."
+      - "Our stand-up is at 9:15 AM every day."
+    casual:
+      - "Let's have a quick stand-up to decide where to go for lunch."
+      - "The family had a brief stand-up in the kitchen to coordinate their weekend plans."
+  related:
+    - word: "meeting"
+      difference: "A 'meeting' is a general term for any gathering. A 'stand-up' is a specific type of short, daily, status-update meeting."
+    - word: "huddle"
+      difference: "'Huddle' is similar and often used interchangeably. 'Stand-up' is more closely associated with agile software development methodologies."
+  story: |
+    During our morning stand-up, I mentioned that I was blocked on the payment gateway integration. My teammate, Sarah, had faced a similar issue before and offered to help me after the meeting. The stand-up made it easy to get the help I needed quickly.
+- word: "align"
+  pronunciation: "/əˈlaɪn/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To come to an agreement or understanding; to ensure that team members are working together towards the same goal."
+    bahasa: "Mencapai kesepakatan atau pemahaman; memastikan bahwa anggota tim bekerja sama menuju tujuan yang sama."
+  usage: "Use 'align' when you need to make sure everyone has a shared understanding and is in agreement on a plan, goal, or decision."
+  synonyms:
+    - "sync up"
+    - "get on the same page"
+    - "coordinate"
+  examples:
+    workplace:
+      - "Let's have a quick meeting to align on the project requirements."
+      - "We need to align with the design team before we start development."
+    casual:
+      - "My husband and I need to align on our budget for the month."
+      - "The players need to align on the new strategy to win the game."
+  related:
+    - word: "agree"
+      difference: "'Agree' means sharing the same opinion. 'Align' is more about making sure everyone is working towards the same outcome, even if their opinions on how to get there differ slightly."
+    - word: "coordinate"
+      difference: "'Coordinate' is about organizing the practical details of working together. 'Align' is about the shared understanding and goals that come before coordination."
+  story: |
+    Before starting the new sprint, our product manager held a meeting to align the entire team on the sprint goals. He walked us through the user stories and the expected outcomes. This session ensured we were all on the same page and understood what we needed to build.
+- word: "blocker"
+  pronunciation: "/ˈblɒk.ər/"
+  part_of_speech: "noun"
+  meaning:
+    english: "An issue or obstacle that prevents progress on a task or project."
+    bahasa: "Masalah atau rintangan yang menghalangi kemajuan pada suatu tugas atau proyek."
+  usage: "Use 'blocker' in a work context, especially in agile development, to describe something that is stopping you from completing your work."
+  synonyms:
+    - "obstacle"
+    - "impediment"
+    - "hindrance"
+  examples:
+    workplace:
+      - "I have a blocker; I'm waiting for the API key from the other team."
+      - "We need to resolve this blocker before we can proceed with the deployment."
+    casual:
+      - "My main blocker to finishing this book is a lack of free time."
+      - "The rainy weather is a blocker for our hiking plans."
+  related:
+    - word: "issue"
+      difference: "An 'issue' is a problem that needs to be addressed. A 'blocker' is a specific type of issue that is actively preventing work from continuing."
+    - word: "bottleneck"
+      difference: "A 'bottleneck' is a point in a process where the flow is restricted, slowing things down. A 'blocker' is a complete stop to progress on a specific task."
+  story: |
+    During the stand-up, I reported that I had a blocker. My local development environment wasn't working after the last system update. The tech lead spent an hour with me to fix it, which unblocked my work for the rest of the day.
+- word: "pair programming"
+  pronunciation: "/peər ˈproʊ.ɡræm.ɪŋ/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "An agile software development technique in which two programmers work together at one workstation."
+    bahasa: "Teknik pengembangan perangkat lunak tangkas di mana dua pemrogram bekerja bersama di satu stasiun kerja."
+  usage: "Use 'pair programming' to describe the practice of two developers coding together. One, the 'driver', writes code while the other, the 'navigator', reviews each line and thinks about the overall direction."
+  synonyms:
+    - "pairing"
+    - "collaborative coding"
+  examples:
+    workplace:
+      - "We used pair programming to tackle the complex algorithm."
+      - "I learned a lot from the pair programming session with the senior developer."
+    casual:
+      - "You could think of cooking a new recipe with a friend as a form of pair programming for the kitchen."
+      - "The two musicians engaged in a sort of pair programming to write the song together."
+  related:
+    - word: "code review"
+      difference: "'Code review' is when one person checks another's completed work. 'Pair programming' is when two people work on the code at the same time, providing continuous, real-time review."
+    - word: "teamwork"
+      difference: "'Teamwork' is a general term for working together. 'Pair programming' is a very specific methodology for collaborative coding."
+  story: |
+    I was stuck on a difficult bug for hours. I asked a teammate if she had time for a quick pair programming session. With two pairs of eyes on the problem, we found the root cause in just 30 minutes. It was a great example of how effective pair programming can be.
+- word: "merge"
+  pronunciation: "/mɜːrdʒ/"
+  part_of_speech: "verb"
+  meaning:
+    english: "In version control systems like Git, to combine the changes from one branch into another."
+    bahasa: "Dalam sistem kontrol versi seperti Git, untuk menggabungkan perubahan dari satu cabang ke cabang lain."
+  usage: "Use 'merge' when talking about integrating code changes. It's a fundamental action in Git and other version control systems."
+  synonyms:
+    - "integrate"
+    - "combine"
+  examples:
+    workplace:
+      - "I need to merge the latest changes from the main branch into my feature branch."
+      - "Please review my pull request before I merge it."
+    casual:
+      - "The two rivers merge to form a larger one."
+      - "She tried to merge two different ideas into one cohesive plan."
+  related:
+    - word: "commit"
+      difference: "A 'commit' is saving a snapshot of your changes to a branch. A 'merge' is the action of combining the commits from one branch into another."
+    - word: "rebase"
+      difference: "'Merge' combines histories by creating a new 'merge commit'. 'Rebase' rewrites the commit history of a branch to make it look as if it were created from the tip of another branch, resulting in a linear history."
+  story: |
+    After my code was reviewed and approved, I was ready to merge my feature branch into the main development branch. I clicked the 'merge' button, and my work became part of the official codebase, ready for the next deployment.
+- word: "code review"
+  pronunciation: "/koʊd rɪˈvjuː/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A process where developers other than the code's author examine the code for quality, correctness, and adherence to standards."
+    bahasa: "Sebuah proses di mana pengembang selain penulis kode memeriksa kode untuk kualitas, kebenaran, dan kepatuhan terhadap standar."
+  usage: "Use 'code review' to refer to the practice of having your code checked by teammates before it is merged into the main codebase. It's a critical step for maintaining code quality."
+  synonyms:
+    - "peer review"
+    - "code inspection"
+  examples:
+    workplace:
+      - "I submitted my pull request for code review this morning."
+      - "The code review process helps us catch bugs early."
+    casual:
+      - "Asking a friend to read your important email before you send it is like a casual code review."
+      - "The author sent his manuscript for peer review before publishing."
+  related:
+    - word: "pair programming"
+      difference: "'Pair programming' is a continuous, real-time review during coding. A 'code review' is a separate, asynchronous step that happens after a chunk of code has been written."
+    - word: "quality assurance (QA)"
+      difference: "'Code review' focuses on the code itself (logic, style, standards). 'QA' focuses on testing the functionality of the final product from a user's perspective."
+  story: |
+    I finished writing the code for the new feature and opened a pull request. I requested a code review from two senior developers on my team. They left a few comments with suggestions for improvement, which I addressed before my code was approved and merged.
+- word: "deadline"
+  pronunciation: "/ˈded.laɪn/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The latest time or date by which something should be completed."
+    bahasa: "Waktu atau tanggal terakhir di mana sesuatu harus diselesaikan."
+  usage: "Use 'deadline' to refer to a specific due date for a task, project, or deliverable. It creates a sense of urgency."
+  synonyms:
+    - "due date"
+    - "cutoff point"
+    - "time limit"
+  examples:
+    workplace:
+      - "The deadline for this project is the end of the week."
+      - "We are working hard to meet the deadline."
+    casual:
+      - "The deadline for the library books is next Monday."
+      - "I have a personal deadline to finish my new year's resolutions."
+  related:
+    - word: "timeline"
+      difference: "A 'timeline' is the entire schedule for a project, including multiple milestones. A 'deadline' is a single, specific point on that timeline when something is due."
+    - word: "milestone"
+      difference: "A 'milestone' is a significant point or event in a project. A 'deadline' is a date by which a milestone or the entire project must be a completed."
+  story: |
+    Our team was facing a tight deadline for the upcoming release. We had to prioritize our tasks carefully and put in some extra hours to ensure we delivered all the promised features on time. The pressure was high, but meeting the deadline felt very rewarding.
+- word: "heads-down"
+  pronunciation: "/ˌhedzˈdaʊn/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Focused deeply on work, without distractions."
+    bahasa: "Fokus mendalam pada pekerjaan, tanpa gangguan."
+  usage: "Use 'heads-down' to describe a period of intense, focused work. It implies that you are not available for meetings or interruptions."
+  synonyms:
+    - "focused"
+    - "concentrating"
+    - "deep work"
+  examples:
+    workplace:
+      - "I need a few hours of heads-down time to finish this feature."
+      - "This afternoon is reserved for heads-down work; let's not schedule any meetings."
+    casual:
+      - "He was heads-down in his book and didn't notice me arrive."
+      - "It's time for some heads-down studying before the exam."
+  related:
+    - word: "busy"
+      difference: "'Busy' means having a lot to do. 'Heads-down' specifically means being deeply focused on a single task."
+    - word: "in the zone"
+      difference: "'In the zone' is a state of feeling energized and focused. 'Heads-down' describes the action of focusing, which can lead to being 'in the zone'."
+  story: |
+    With the deadline approaching, I blocked off my calendar for the afternoon. I put on my headphones, turned off my notifications, and had a productive heads-down session. It's amazing how much you can get done when you eliminate all distractions.
+- word: "wrap up"
+  pronunciation: "/ræp ʌp/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To finish or complete something."
+    bahasa: "Menyelesaikan atau mengakhiri sesuatu."
+  usage: "Use 'wrap up' to talk about bringing a task, meeting, or project to a conclusion."
+  synonyms:
+    - "finish"
+    - "conclude"
+    - "complete"
+  examples:
+    workplace:
+      - "Let's wrap up this meeting in the next five minutes."
+      - "I need to wrap up this report before I leave for the day."
+    casual:
+      - "It's getting late; let's wrap up the party."
+      - "She's trying to wrap up her shopping so we can go home."
+  related:
+    - word: "finish"
+      difference: "'Finish' is a standard, neutral term. 'Wrap up' is a slightly more informal and common phrasal verb used in business and casual conversation."
+    - word: "finalize"
+      difference: "'Finalize' means to put something into its final, approved form. 'Wrap up' can be more general, simply meaning to bring something to an end."
+  story: |
+    As we approached the end of the project, we held a final meeting to wrap up any loose ends. We made sure all the documentation was complete and that the code was ready for handover to the maintenance team. It felt good to wrap up the project successfully.

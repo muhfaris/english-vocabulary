@@ -1,0 +1,19 @@
+story:
+  title: "a-day-of-collaboration"
+  date: "2025-09-09"
+  text: |
+    My day kicked off with our usual morning **stand-up**. Our team lead quickly went over the project board to make sure we were all **aligned** on the tasks for the day. I mentioned that I had a **blocker** with the new API integration, and my colleague, Alex, offered to help.
+
+    After the meeting, Alex and I jumped into a **pair programming** session. His fresh perspective was exactly what I needed. Together, we figured out the issue in less than an hour. With the blocker gone, I could finally **merge** my feature branch. I submitted it for **code review**, hoping to get feedback before the end of the day.
+
+    The afternoon was dedicated to some **heads-down** work on a different feature with a tight **deadline**. It felt good to focus and make solid progress. As the day started to **wrap up**, I saw that my code review had been approved. It’s always satisfying to end the day with a completed task. Teamwork really does make the dream work.
+  highlighted_words:
+    - "stand-up"
+    - "align"
+    - "blocker"
+    - "pair programming"
+    - "merge"
+    - "code review"
+    - "deadline"
+    - "heads-down"
+    - "wrap up"
