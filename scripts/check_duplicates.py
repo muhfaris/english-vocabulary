@@ -1,29 +1,27 @@
 import os
 import yaml
 from collections import Counter
+import csv
 
 def check_duplicate_vocabularies():
     words = []
     has_duplicates = False
-    vocab_dir = 'vocabularies'
-    for filename in os.listdir(vocab_dir):
-        if filename.endswith('.yaml'):
-            filepath = os.path.join(vocab_dir, filename)
-            with open(filepath, 'r') as f:
-                try:
-                    data = yaml.safe_load(f)
-                    if data:
-                        for entry in data:
-                            if isinstance(entry, dict) and 'word' in entry:
-                                words.append(entry['word'])
-                except yaml.YAMLError as e:
-                    print(f"Error parsing {filepath}: {e}")
+    try:
+        with open('vocabularies.csv', 'r', newline='') as f:
+            reader = csv.reader(f)
+            next(reader)  # Skip header
+            for row in reader:
+                if row:
+                    words.append(row[0].strip())
+    except FileNotFoundError:
+        print("vocabularies.csv not found.")
+        return False
 
     word_counts = Counter(words)
     duplicates = {word: count for word, count in word_counts.items() if count > 1}
 
     if duplicates:
-        print("Duplicate vocabularies found:")
+        print("Duplicate vocabularies found in vocabularies.csv:")
         for word, count in duplicates.items():
             print(f"- '{word}' found {count} times.")
         has_duplicates = True
@@ -34,6 +32,10 @@ def check_duplicate_stories():
     titles = []
     has_duplicates = False
     stories_dir = 'stories'
+    if not os.path.isdir(stories_dir):
+        print(f"Directory not found: {stories_dir}")
+        return False
+
     for filename in os.listdir(stories_dir):
         if filename.endswith('.yaml'):
             filepath = os.path.join(stories_dir, filename)
@@ -57,7 +59,7 @@ def check_duplicate_stories():
     return has_duplicates
 
 if __name__ == "__main__":
-    print("Checking for duplicate vocabulary words...")
+    print("Checking for duplicate vocabulary words in vocabularies.csv...")
     vocab_duplicates = check_duplicate_vocabularies()
 
     print("\nChecking for duplicate story titles...")
