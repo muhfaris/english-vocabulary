@@ -1,0 +1,11 @@
+story:
+  title: "the-elusive-bug-hunt"
+  date: "2025-09-10"
+  text: |
+    It was a **frustrating** morning. I was trying to fix a bug that was reported by a user, but I couldn't **replicate** it in my local environment. I spent hours trying different scenarios, but the bug just wouldn't show up. I knew I had to be **thorough**, so I started logging every step I took, hoping to find a pattern. After a few more hours of digging, I finally found the **culprit**. It was a small logic error in a rarely used part of the code. Finding it felt like a real **breakthrough**. I was so relieved that I could finally fix it and move on to other tasks.
+  highlighted_words:
+    - "frustrating"
+    - "replicate"
+    - "thorough"
+    - "culprit"
+    - "breakthrough"
