@@ -1,0 +1,124 @@
+- word: "frustrating"
+  pronunciation: "/frəˈstreɪtɪŋ/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Causing annoyance, impatience, or anger because you cannot do what you want to do."
+    bahasa: "Mengesalkan, membuat frustrasi."
+  usage: "Use this word to describe a situation, task, or problem that makes you feel annoyed or blocked."
+  synonyms:
+    - "annoying"
+    - "exasperating"
+  examples:
+    workplace:
+      - "It was a frustrating meeting; we discussed a lot but made no decisions."
+      - "Debugging this legacy code is a frustrating experience."
+    casual:
+      - "Trying to assemble this furniture with unclear instructions is so frustrating."
+      - "He found it frustrating that the Wi-Fi kept disconnecting."
+  related:
+    - word: "frustration"
+      difference: "'Frustration' is the noun form, representing the feeling itself, while 'frustrating' is the adjective describing something that causes the feeling."
+    - word: "annoying"
+      difference: "'Annoying' is similar but often implies a lower level of irritation. 'Frustrating' suggests being blocked from achieving a goal."
+  story: |
+    "I'm dealing with a really frustrating bug," Sarah told her colleague. "Every time I think I've fixed it, it reappears for a different reason. I can't seem to make progress."
+
+- word: "replicate"
+  pronunciation: "/ˈrɛplɪkeɪt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To make or do something again in exactly the same way."
+    bahasa: "Mereplikasi, meniru."
+  usage: "In software development, this word is commonly used to mean reproducing a bug or an issue to understand and fix it."
+  synonyms:
+    - "reproduce"
+    - "duplicate"
+  examples:
+    workplace:
+      - "The QA team found a bug, but the developers are unable to replicate it on their machines."
+      - "Before I can fix the issue, I need to be able to replicate it consistently."
+    casual:
+      - "He tried to replicate his grandmother's recipe, but it didn't taste the same."
+      - "The artist tried to replicate the famous painting."
+  related:
+    - word: "duplicate"
+      difference: "'Duplicate' means to make an exact copy of something. 'Replicate' often implies re-creating a process or result, not just copying an object."
+    - word: "reproduce"
+      difference: "Often used interchangeably with 'replicate' in a technical context. 'Replicate' can sometimes imply a more exact and controlled process."
+  story: |
+    A user reported a critical issue, but to solve it, the developer first needed to replicate the problem. He spent the morning setting up the same environment and data the user had, hoping to trigger the bug himself.
+
+- word: "thorough"
+  pronunciation: "/ˈθɜːroʊ/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Complete with regard to every detail; not superficial or partial."
+    bahasa: "Menyeluruh, teliti."
+  usage: "Use this to describe work, a person, or a process that is very detailed and careful, leaving nothing out."
+  synonyms:
+    - "comprehensive"
+    - "meticulous"
+  examples:
+    workplace:
+      - "She conducted a thorough code review and found several potential issues."
+      - "We need to do a thorough analysis before we commit to this new feature."
+    casual:
+      - "The doctor gave him a thorough check-up."
+      - "He did a thorough cleaning of the house before the guests arrived."
+  related:
+    - word: "detailed"
+      difference: "'Detailed' focuses on having many small parts or facts. 'Thorough' emphasizes completeness and covering every aspect."
+    - word: "meticulous"
+      difference: "'Meticulous' implies extreme care and attention to detail, often more so than 'thorough'."
+  story: |
+    Before the major release, the team performed a thorough testing cycle. They checked every feature, edge case, and user flow to ensure the application was stable and bug-free.
+
+- word: "culprit"
+  pronunciation: "/ˈkʌlprɪt/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The person or thing responsible for a crime or misdeed; the cause of a problem or defect."
+    bahasa: "Biang keladi, penyebab."
+  usage: "In a technical context, it refers to the specific piece of code, configuration, or system that is causing a bug or issue."
+  synonyms:
+    - "cause"
+    - "source"
+  examples:
+    workplace:
+      - "After hours of debugging, we found the culprit: a typo in a configuration file."
+      - "The memory leak was hard to find, but the culprit was a third-party library."
+    casual:
+      - "The police are still searching for the culprit."
+      - "Who's the culprit that ate the last piece of cake?"
+  related:
+    - word: "cause"
+      difference: "'Cause' is a general term for why something happens. 'Culprit' is more informal and personifies the cause, as if it were a guilty party."
+    - word: "root cause"
+      difference: "'Root cause' is a more formal term for the fundamental reason for a problem, while 'culprit' is a more casual way to refer to the immediate source of the issue."
+  story: |
+    The server kept crashing intermittently, and the team couldn't figure out why. After a long investigation, they found the culprit: a recent update to a dependency was causing a memory leak.
+
+- word: "breakthrough"
+  pronunciation: "/ˈbreɪkθruː/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A sudden, dramatic, and important discovery or development."
+    bahasa: "Terobosan."
+  usage: "Use this to describe a moment of significant progress after a period of being stuck on a difficult problem."
+  synonyms:
+    - "discovery"
+    - "advancement"
+  examples:
+    workplace:
+      - "After weeks of being stuck, the team finally had a breakthrough on the performance issue."
+      - "The invention of the new algorithm was a breakthrough for the company."
+    casual:
+      - "Scientists have made a major breakthrough in cancer research."
+      - "He had a personal breakthrough and finally understood his own motivations."
+  related:
+    - word: "progress"
+      difference: "'Progress' is gradual advancement. A 'breakthrough' is a sudden leap forward."
+    - word: "discovery"
+      difference: "A 'discovery' is finding something that already existed. A 'breakthrough' is often about overcoming a barrier or making a significant advance."
+  story: |
+    The team was struggling to improve the app's loading time. They tried several optimizations with little success. The breakthrough came when a junior developer suggested a completely new caching strategy that cut the loading time in half.
