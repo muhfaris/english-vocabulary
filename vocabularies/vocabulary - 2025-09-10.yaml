@@ -1,0 +1,259 @@
+- word: "State-of-the-art"
+  pronunciation: "/ˌsteɪt əv ði ˈɑːrt/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Using the most modern and advanced techniques or methods available."
+    bahasa: "Canggih; menggunakan teknik atau metode paling modern dan termaju yang tersedia."
+  usage: "Use this phrase to describe technology, tools, or processes that are at the very forefront of their field. It’s a great buzzword for presentations or when advocating for a new technology."
+  synonyms:
+    - "Cutting-edge"
+    - "Advanced"
+    - "Most modern"
+  examples:
+    workplace:
+      - "We're upgrading our servers to a state-of-the-art cloud infrastructure."
+      - "Her presentation showcased a state-of-the-art approach to machine learning."
+    casual:
+      - "I just bought a new phone with a state-of-the-art camera."
+      - "Their new office building is truly state-of-the-art."
+  related:
+    - word: "Bleeding-edge"
+      difference: "Bleeding-edge is even more advanced than state-of-the-art, implying it's so new it might be unstable or not fully tested. State-of-the-art is advanced but generally stable and accepted."
+    - word: "Cutting-edge"
+      difference: "Very similar to state-of-the-art, often used interchangeably. Cutting-edge might imply slightly more risk or newness, but the difference is minimal."
+  story: |
+    During a project kickoff, the tech lead announced, "For this new feature, we'll be using a state-of-the-art framework. It will improve performance and make us more competitive." The team was excited to work with such modern technology, even though they knew it would mean a steep learning curve.
+
+- word: "Nice-to-have"
+  pronunciation: "/ˈnaɪs tə hæv/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Desirable but not essential; a feature or item that would be good to have but the project can succeed without."
+    bahasa: "Bagus untuk dimiliki, tapi tidak esensial; fitur atau item yang bagus jika ada, tetapi proyek tetap bisa berhasil tanpanya."
+  usage: "Perfect for sprint planning or feature prioritization meetings. Use it to classify tasks that are lower priority compared to critical ones."
+  synonyms:
+    - "Optional"
+    - "Non-essential"
+    - "Desirable"
+  examples:
+    workplace:
+      - "The animated loading screen is a nice-to-have, but let's focus on the core functionality first."
+      - "We've listed dark mode as a nice-to-have feature for the next release."
+    casual:
+      - "A sunroof in the car is a nice-to-have, but not a deal-breaker."
+      - "Having a guest room is a nice-to-have when friends visit."
+  related:
+    - word: "Must-have"
+      difference: "A must-have is a requirement that is absolutely essential for the project to be considered complete or successful. A nice-to-have is optional."
+    - word: "Optional"
+      difference: "Optional is a more formal and direct synonym. Nice-to-have has a slightly more positive and appreciative tone, suggesting it adds value even if not required."
+  story: |
+    The product manager presented the feature list for the upcoming sprint. "Real-time collaboration is a must-have," she said, pointing to the top of the list. "Adding custom themes, however, is a nice-to-have. If we have extra time, we'll tackle it, but our main goal is the core feature."
+
+- word: "Must-have"
+  pronunciation: "/ˈmʌst hæv/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Absolutely essential or required; a feature or item that is a mandatory requirement."
+    bahasa: "Harus dimiliki; benar-benar esensial atau dibutuhkan; fitur atau item yang merupakan persyaratan wajib."
+  usage: "Use this to emphasize the critical importance of a feature, requirement, or task. It helps clarify priorities and define the minimum viable product (MVP)."
+  synonyms:
+    - "Essential"
+    - "Mandatory"
+    - "Required"
+  examples:
+    workplace:
+      - "Secure user authentication is a must-have for this application."
+      - "For the MVP launch, a functioning payment gateway is a must-have."
+    casual:
+      - "For me, good battery life is a must-have in a smartphone."
+      - "A reliable internet connection is a must-have for anyone working from home."
+  related:
+    - word: "Requirement"
+      difference: "Requirement is a more formal term used in documentation (e.g., 'functional requirements'). Must-have is the conversational, informal way to express a critical requirement."
+    - word: "Core feature"
+      difference: "A core feature is a fundamental part of the product's purpose. While most core features are must-haves, a must-have could also be a non-functional requirement like security or performance."
+  story: |
+    During sprint planning, a junior developer suggested, "What if we add a social media sharing button?" The tech lead replied, "That's a good idea for later, but it's not a must-have for our initial launch. Our must-have list is simple: users must be able to log in, create a profile, and upload a file. Nothing else matters for now."
+
+- word: "Game plan"
+  pronunciation: "/ˈɡeɪm plæn/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A strategy or plan for achieving success."
+    bahasa: "Rencana permainan; sebuah strategi atau rencana untuk mencapai kesuksesan."
+  usage: "Use this in planning meetings or when discussing how to approach a complex task or project. It’s a less formal way of saying 'strategy'."
+  synonyms:
+    - "Strategy"
+    - "Plan of action"
+    - "Roadmap"
+  examples:
+    workplace:
+      - "Okay team, what's our game plan for tackling this production bug?"
+      - "The project manager laid out the game plan for the next quarter."
+    casual:
+      - "My game plan for the weekend is to relax and watch movies."
+      - "We need a game plan to get all this cleaning done before the guests arrive."
+  related:
+    - word: "Strategy"
+      difference: "Strategy is a more formal, high-level term. A game plan is often more detailed, tactical, and focused on the immediate steps to be taken."
+    - word: "Roadmap"
+      difference: "A roadmap is a high-level, visual summary of a project's goals and timeline, often spanning months or years. A game plan is usually more short-term and specific to a particular task or challenge."
+  story: |
+    "The deployment failed again," said Maya, looking stressed. "Alright," replied her manager, "let's not panic. Let's huddle for ten minutes and come up with a game plan. Step one: roll back the changes. Step two: analyze the logs. Step three: identify the root cause. That's our game plan."
+
+- word: "Hit the ground running"
+  pronunciation: "/hɪt ðə ɡraʊnd ˈrʌnɪŋ/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To start something and proceed at a fast pace with great enthusiasm and effectiveness from the very beginning."
+    bahasa: "Langsung tancap gas; memulai sesuatu dan melanjutkannya dengan cepat, antusias, dan efektif sejak awal."
+  usage: "Commonly used when a new employee joins a team or a new project starts. It sets an expectation of immediate productivity."
+  synonyms:
+    - "Start quickly"
+    - "Get a flying start"
+    - "Jump right in"
+  examples:
+    workplace:
+      - "Our new hire is amazing; she already fixed two bugs and hit the ground running."
+      - "With the project deadline so close, we need to hit the ground running on Monday."
+    casual:
+      - "After moving to the new city, she hit the ground running and made friends immediately."
+      - "He finished the tutorial and hit the ground running with his new hobby."
+  related:
+    - word: "Ramp up"
+      difference: "Ramp up implies a gradual increase in productivity or knowledge over a period of time. Hit the ground running means being productive from the very start, with little to no ramp-up time."
+    - word: "Onboarding"
+      difference: "Onboarding is the process of integrating a new employee into a company. The goal of a good onboarding process is to help the new hire hit the ground running."
+  story: |
+    The team just hired a senior engineer, Alex. On his first day, after a brief introduction to the codebase, he said, "I've worked with this stack before. Point me to the ticket list." By the end of the week, he had already submitted a significant pull request. The manager told the team, "Alex really hit the ground running."
+
+- word: "Back to the drawing board"
+  pronunciation: "/bæk tə ðə ˈdrɔːɪŋ bɔːrd/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To start over on a plan from the beginning because the previous attempt failed."
+    bahasa: "Kembali ke papan gambar; memulai kembali sebuah rencana dari awal karena upaya sebelumnya gagal."
+  usage: "Use this when an idea, prototype, or plan is rejected or proves unworkable. It signifies a need to rethink the entire approach."
+  synonyms:
+    - "Start from scratch"
+    - "Rethink"
+    - "Start over"
+  examples:
+    workplace:
+      - "The client hated the user interface design, so it's back to the drawing board for the design team."
+      - "Our initial algorithm was too slow. It looks like we're going back to the drawing board."
+    casual:
+      - "My recipe for the cake was a disaster. Oh well, back to the drawing board."
+      - "I thought I had planned the perfect trip, but the flights were all booked. Back to the drawing board."
+  related:
+    - word: "Pivot"
+      difference: "A pivot is a change in strategy, but not necessarily a complete start-over. Going back to the drawing board is more drastic, implying the original idea was fundamentally flawed."
+    - word: "Iterate"
+      difference: "Iterating is making small, incremental changes to improve something. Going back to the drawing board means the current version is being discarded, not just improved."
+  story: |
+    The team spent two weeks building a proof of concept. During the demo, they discovered a major security flaw that couldn't be easily patched. The tech lead sighed and said, "Well, that's a showstopper. We can't move forward with this approach. It's back to the drawing board, everyone. Let's brainstorm a new architecture tomorrow morning."
+
+- word: "Cut corners"
+  pronunciation: "/kʌt ˈkɔːrnərz/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To do something in the easiest, cheapest, or fastest way, often by sacrificing quality or ignoring rules."
+    bahasa: "Ambil jalan pintas; melakukan sesuatu dengan cara termudah, termurah, atau tercepat, seringkali dengan mengorbankan kualitas atau mengabaikan aturan."
+  usage: "This phrase has a negative connotation. Use it to describe a situation where quality was compromised for speed or cost, often leading to problems later (like technical debt)."
+  synonyms:
+    - "Take shortcuts"
+    - "Skimp"
+    - "Do a rush job"
+  examples:
+    workplace:
+      - "The previous developers cut corners, and now we're paying the price with all this legacy code."
+      - "We have a tight deadline, but we can't afford to cut corners on security testing."
+    casual:
+      - "He cut corners on building the bookshelf, and it collapsed a week later."
+      - "Never cut corners when it comes to safety."
+  related:
+    - word: "Quick and dirty"
+      difference: "A 'quick and dirty' solution is a fast, temporary fix that is acknowledged as imperfect. 'Cutting corners' implies a more serious, often hidden, sacrifice of quality or standards for the sake of convenience."
+    - word: "Technical debt"
+      difference: "Technical debt is often the result of having cut corners. By taking shortcuts now, you create problems that will need to be fixed later, which is the 'debt'."
+  story: |
+    "Why is the system so slow?" the manager asked. The senior engineer sighed. "The original team was under a lot of pressure to launch. They cut corners on the database design. They chose a quick solution instead of the right one, and now we're dealing with the performance issues."
+
+- word: "Get the ball rolling"
+  pronunciation: "/ɡɛt ðə bɔːl ˈroʊlɪŋ/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To start a process or activity."
+    bahasa: "Mulai menggelindingkan bola; memulai sebuah proses atau aktivitas."
+  usage: "A friendly, informal way to initiate action in a meeting or at the start of a project. It’s about taking the first step."
+  synonyms:
+    - "Kick off"
+    - "Initiate"
+    - "Start the process"
+  examples:
+    workplace:
+      - "Alright, let's get the ball rolling on this project. Who wants to create the first ticket?"
+      - "I'll send out a meeting invite to get the ball rolling on our Q4 planning."
+    casual:
+      - "We need to plan our vacation. I'll get the ball rolling by researching some destinations."
+      - "Who wants to get the ball rolling and order the pizza?"
+  related:
+    - word: "Kick off"
+      difference: "Kick off is very similar and often used for the formal start of a project (e.g., 'kick-off meeting'). Get the ball rolling is slightly more informal and can be used for any small activity, not just big projects."
+    - word: "Initiate"
+      difference: "Initiate is a more formal verb for starting something. Get the ball rolling is the conversational equivalent."
+  story: |
+    The team had been discussing a new feature for an hour, but no one had taken any concrete steps. Finally, the scrum master said, "This has been a great discussion, but we need to move forward. I'm going to get the ball rolling by creating the main epic in Jira. From there, we can start adding the user stories we talked about."
+
+- word: "Go the extra mile"
+  pronunciation: "/ɡoʊ ði ˈɛkstrə maɪl/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To make a special effort to do more than what is expected or required."
+    bahasa: "Berusaha lebih keras; melakukan upaya khusus untuk melakukan lebih dari yang diharapkan atau dibutuhkan."
+  usage: "Use this to praise someone's exceptional effort or to describe a situation where you intend to deliver outstanding work. It’s a strong positive phrase."
+  synonyms:
+    - "Exceed expectations"
+    - "Do more than is required"
+    - "Go above and beyond"
+  examples:
+    workplace:
+      - "She really went the extra mile by creating detailed documentation for the new feature."
+      - "Let's go the extra mile for this client; they're very important to us."
+    casual:
+      - "The hotel staff went the extra mile to make our stay comfortable."
+      - "He went the extra mile and helped his neighbor fix their fence."
+  related:
+    - word: "Above and beyond"
+      difference: "Very similar and used interchangeably. 'Going the extra mile' often implies a journey or effort, while 'above and beyond' can refer to any action that exceeds the call of duty."
+    - word: "Proactive"
+      difference: "Being proactive is about anticipating future needs and acting on them. Going the extra mile is about exceeding current expectations. You can be proactive without necessarily going the extra mile, and vice versa."
+  story: |
+    A bug was reported late on a Friday afternoon. The developer, Ben, could have just applied a quick patch. Instead, he stayed a bit later to not only fix the bug but also refactor the related code to prevent similar issues in the future. In the Monday stand-up, his manager gave him a shout-out: "Thanks, Ben, for going the extra mile on that bug fix. We all appreciate it."
+
+- word: "Catch-22"
+  pronunciation: "/ˌkætʃ twɛntiˈtuː/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A paradoxical situation where someone needs something that they can only get by not needing it, creating a no-win scenario."
+    bahasa: "Situasi paradoks di mana seseorang membutuhkan sesuatu yang hanya bisa didapat dengan tidak membutuhkannya, menciptakan skenario tanpa kemenangan."
+  usage: "Use this to describe a frustrating, circular problem where the solution is blocked by the problem itself. It perfectly captures a specific type of logical trap."
+  synonyms:
+    - "Dilemma"
+    - "No-win situation"
+    - "Paradox"
+  examples:
+    workplace:
+      - "I can't get the security clearance to access the server, but I need to access the server to complete the security training. It's a Catch-22."
+      - "To get a job as a senior developer, you need 5 years of experience. But to get the experience, you need a job. It's a classic Catch-22 for new graduates."
+    casual:
+      - "You need a car to get to work, but you need a job to afford a car. What a Catch-22."
+      - "The bank will only lend you money if you can prove you don't need it. That's the old Catch-22 of credit."
+  related:
+    - word: "Dilemma"
+      difference: "A dilemma is a difficult choice between two or more undesirable options. A Catch-22 is a specific type of dilemma where the rules of the situation create a logical loop that prevents any choice from succeeding."
+    - word: "Deadlock"
+      difference: "In computing, a deadlock is a specific state where two or more processes are blocked, each waiting for the other to release a resource. A Catch-22 is a broader, more philosophical or bureaucratic type of deadlock."
+  story: |
+    The team needed to test their new feature on a realistic dataset. However, the privacy policy stated that they couldn't use production data on the staging environment. "So, we can't test our feature properly until it's in production, but we can't release it to production until it's properly tested," the lead engineer explained. "We're in a real Catch-22 here. We need to find a way to generate realistic, anonymized data."
