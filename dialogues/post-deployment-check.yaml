@@ -1,0 +1,71 @@
+dialogue:
+  - speaker: Maya
+    english: "Morning, Alex. How are the servers holding up after last night's deployment?"
+    bahasa: "Pagi, Alex. Bagaimana keadaan server setelah deployment tadi malam?"
+  - speaker: Alex
+    english: "So far, so good. I've been keeping an eye on the logs, and everything seems stable. No major errors."
+    bahasa: "Sejauh ini, baik-baik saja. Aku sudah memantau log, dan semuanya tampak stabil. Tidak ada error besar."
+  - speaker: Maya
+    english: "That's a relief. Did you get a chance to check the real-time analytics?"
+    bahasa: "Syukurlah. Apakah kamu sempat memeriksa analitik real-time?"
+  - speaker: Alex
+    english: "Yep. User engagement is normal, and the conversion rates look consistent. The new feature doesn't seem to have thrown anything off."
+    bahasa: "Tentu. Keterlibatan pengguna normal, dan tingkat konversi terlihat konsisten. Fitur baru sepertinya tidak mengganggu apa pun."
+  - speaker: Maya
+    english: "Great. I was a bit worried about the potential performance hit on the database."
+    bahasa: "Bagus. Aku sedikit khawatir tentang potensi penurunan performa pada database."
+  - speaker: Alex
+    english: "I ran a few heavy queries this morning, and the response times are still well within our acceptable threshold."
+    bahasa: "Aku menjalankan beberapa query berat pagi ini, dan waktu responsnya masih dalam ambang batas yang dapat diterima."
+  - speaker: Maya
+    english: "Awesome. Sounds like it was a smooth rollout then. Let's keep monitoring it for the rest of the day just in case."
+    bahasa: "Keren. Sepertinya peluncurannya berjalan lancar. Mari kita pantau terus selama sisa hari ini untuk berjaga-jaga."
+  - speaker: Alex
+    english: "Agreed. I'll set up a custom alert for any unusual spikes in CPU usage, just to be on the safe side."
+    bahasa: "Setuju. Aku akan mengatur peringatan khusus untuk lonjakan penggunaan CPU yang tidak biasa, untuk jaga-jaga."
+  - speaker: Maya
+    english: "Good call. Thanks for being on top of it, Alex."
+    bahasa: "Ide bagus. Terima kasih sudah menanganinya dengan baik, Alex."
+  - speaker: Alex
+    english: "No problem. Team effort!"
+    bahasa: "Tidak masalah. Usaha tim!"
+
+expressions:
+  - phrase: "holding up"
+    meaning_english: "To remain strong or in a stable condition."
+    meaning_bahasa: "Bertahan atau dalam kondisi stabil."
+  - phrase: "keeping an eye on"
+    meaning_english: "To watch or monitor something carefully."
+    meaning_bahasa: "Mengawasi atau memantau sesuatu dengan cermat."
+  - phrase: "so far, so good"
+    meaning_english: "An expression meaning that progress has been satisfactory up to this point."
+    meaning_bahasa: "Ekspresi yang berarti kemajuan memuaskan hingga saat ini."
+  - phrase: "thrown anything off"
+    meaning_english: "To cause something to be incorrect or disrupted."
+    meaning_bahasa: "Menyebabkan sesuatu menjadi tidak benar atau terganggu."
+  - phrase: "performance hit"
+    meaning_english: "A negative impact on the speed or efficiency of a system."
+    meaning_bahasa: "Dampak negatif pada kecepatan atau efisiensi sistem."
+  - phrase: "well within our acceptable threshold"
+    meaning_english: "Safely inside the limits that are considered acceptable."
+    meaning_bahasa: "Aman di dalam batas yang dianggap dapat diterima."
+  - phrase: "smooth rollout"
+    meaning_english: "A successful and trouble-free deployment or launch of a new product or feature."
+    meaning_bahasa: "Penerapan atau peluncuran produk atau fitur baru yang sukses dan tanpa masalah."
+  - phrase: "on the safe side"
+    meaning_english: "To take precautions; to be careful."
+    meaning_bahasa: "Mengambil tindakan pencegahan; berhati-hati."
+  - phrase: "good call"
+    meaning_english: "A good decision or idea."
+    meaning_bahasa: "Keputusan atau ide yang bagus."
+  - phrase: "on top of it"
+    meaning_english: "In control of a situation and aware of changes."
+    meaning_bahasa: "Mengendalikan situasi dan sadar akan perubahan."
+
+questions:
+  - q: "What are Maya and Alex discussing?"
+    a: "They are discussing the status of the servers and system performance after a recent deployment."
+  - q: "What was Maya's main concern?"
+    a: "She was worried about a potential performance hit on the database."
+  - q: "What action did Alex take to be 'on the safe side'?"
+    a: "He decided to set up a custom alert for any unusual spikes in CPU usage."
