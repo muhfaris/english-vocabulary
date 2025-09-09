@@ -1,0 +1,70 @@
+dialogue:
+  - speaker: Rina
+    english: "Hey, Ben. Got any big plans for the weekend?"
+    bahasa: "Hai, Ben. Punya rencana besar untuk akhir pekan?"
+  - speaker: Ben
+    english: "Not really. I think I'm just going to take it easy. Maybe catch up on some reading. You?"
+    bahasa: "Tidak juga. Aku pikir aku hanya akan bersantai. Mungkin membaca buku yang belum sempat. Kamu?"
+  - speaker: Rina
+    english: "Same here. I'm planning to just chill and recharge. This week was pretty intense."
+    bahasa: "Sama. Aku berencana untuk santai dan memulihkan energi. Minggu ini cukup intens."
+  - speaker: Ben
+    english: "You can say that again. That last-minute bug was a real headache."
+    bahasa: "Setuju sekali. Bug yang muncul di saat-saat terakhir itu benar-benar memusingkan."
+  - speaker: Rina
+    english: "Tell me about it. I'm just glad we managed to squash it before the release."
+    bahasa: "Aku tahu. Aku senang kita berhasil memperbaikinya sebelum rilis."
+  - speaker: Ben
+    english: "For sure. It was a team effort. By the way, did you push your latest changes to the dev branch?"
+    bahasa: "Tentu saja. Itu adalah usaha tim. Ngomong-ngomong, apakah kamu sudah mendorong perubahan terbarumu ke branch dev?"
+  - speaker: Rina
+    english: "Yep, all synced up. I also added comments to the new functions, so it should be clear."
+    bahasa: "Ya, semua sudah sinkron. Aku juga menambahkan komentar pada fungsi-fungsi baru, jadi seharusnya jelas."
+  - speaker: Ben
+    english: "Awesome. I'll take a look on Monday morning. I'm hoping to start fresh on the new feature."
+    bahasa: "Bagus. Aku akan melihatnya pada Senin pagi. Aku berharap bisa memulai hal baru dengan fitur baru."
+  - speaker: Rina
+    english: "Sounds good. Let's touch base on Monday to align on the next steps."
+    bahasa: "Terdengar bagus. Mari kita bicara singkat pada hari Senin untuk menyamakan langkah selanjutnya."
+  - speaker: Ben
+    english: "Perfect. Well, have a great weekend, Rina."
+    bahasa: "Sempurna. Selamat berakhir pekan, Rina."
+  - speaker: Rina
+    english: "You too, Ben. See you on Monday."
+    bahasa: "Kamu juga, Ben. Sampai jumpa hari Senin."
+
+expressions:
+  - phrase: "take it easy"
+    meaning_english: "To relax and avoid stress."
+    meaning_bahasa: "Bersantai: Untuk rileks dan menghindari stres."
+  - phrase: "catch up on"
+    meaning_english: "To do something that you did not have time to do earlier."
+    meaning_bahasa: "Mengejar ketinggalan: Melakukan sesuatu yang tidak sempat dilakukan sebelumnya."
+  - phrase: "chill and recharge"
+    meaning_english: "To relax and get your energy back."
+    meaning_bahasa: "Santai dan memulihkan energi: Bersantai dan mengembalikan energi Anda."
+  - phrase: "last-minute"
+    meaning_english: "Happening at the latest possible time before an event."
+    meaning_bahasa: "Menit terakhir: Terjadi pada waktu yang paling mungkin sebelum suatu acara."
+  - phrase: "a real headache"
+    meaning_english: "Something that is very annoying or difficult to deal with."
+    meaning_bahasa: "Benar-benar memusingkan: Sesuatu yang sangat mengganggu atau sulit untuk dihadapi."
+  - phrase: "squash a bug"
+    meaning_english: "To fix a software bug."
+    meaning_bahasa: "Memperbaiki bug: Memperbaiki bug perangkat lunak."
+  - phrase: "push changes"
+    meaning_english: "To upload local repository content to a remote repository."
+    meaning_bahasa: "Mendorong perubahan: Mengunggah konten repositori lokal ke repositori jarak jauh."
+  - phrase: "touch base"
+    meaning_english: "To talk to someone for a short time to find out how they are or what they think about something."
+    meaning_bahasa: "Bicara singkat: Berbicara dengan seseorang sebentar untuk mencari tahu kabar mereka atau apa yang mereka pikirkan tentang sesuatu."
+
+questions:
+  - q: "What are Ben's plans for the weekend?"
+    a: "He plans to take it easy and catch up on some reading."
+  - q: "What made Rina's week intense?"
+    a: "A last-minute bug."
+  - q: "What did Rina do after pushing her changes?"
+    a: "She added comments to the new functions."
+  - q: "What do Rina and Ben plan to do on Monday?"
+    a: "They plan to touch base and align on the next steps for the new feature."
