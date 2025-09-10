@@ -1,0 +1,249 @@
+- word: "Deep-rooted"
+  pronunciation: "/ˌdiːpˈruːtɪd/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Firmly embedded in thought or behavior, difficult to change."
+    bahasa: "Sudah mengakar kuat, sulit diubah."
+  usage: "Use this to describe a problem, belief, or culture that has existed for a long time and is hard to remove. It often refers to legacy issues in code or ingrained habits in a team."
+  synonyms:
+    - "ingrained"
+    - "entrenched"
+  examples:
+    workplace:
+      - "The performance issues are deep-rooted in the old architecture of the application."
+      - "We have a deep-rooted culture of manual testing that we're trying to shift towards automation."
+    casual:
+      - "His fear of public speaking is deep-rooted and started in his childhood."
+      - "Some traditions are so deep-rooted that they are hard to change."
+  related:
+    - word: "Legacy"
+      difference: "'Legacy' refers to something old that has been passed down (like legacy code), while 'deep-rooted' specifically describes the difficulty of changing it."
+    - word: "Chronic"
+      difference: "'Chronic' usually describes a problem that recurs frequently, while 'deep-rooted' describes a problem that is fundamentally part of the system."
+  story: |
+    During a sprint retrospective, the team discussed why they kept missing their deployment targets. Anya, a senior engineer, pointed out, "The problem is deep-rooted. Our codebase has a dependency on a library that is notoriously slow. We've built so much on top of it that replacing it is a massive task. It's not a simple fix."
+
+- word: "Blueprint"
+  pronunciation: "/ˈbluːprɪnt/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A detailed plan or model of how to do something."
+    bahasa: "Cetak biru, sebuah rencana atau model detail tentang cara melakukan sesuatu."
+  usage: "In tech, it's used metaphorically to refer to a design document, architectural plan, or a template for creating new services or components."
+  synonyms:
+    - "template"
+    - "plan"
+  examples:
+    workplace:
+      - "The architect provided a blueprint for the new microservices ecosystem."
+      - "Let's use the successful project as a blueprint for future initiatives."
+    casual:
+      - "He considers his father's career as a blueprint for his own."
+      - "The book provides a blueprint for a healthier lifestyle."
+  related:
+    - word: "Prototype"
+      difference: "A 'blueprint' is the plan or design on paper. A 'prototype' is an early, functional model built from the blueprint to test the concept."
+    - word: "Mockup"
+      difference: "A 'mockup' is a visual design, often of a user interface, showing how something will look. A 'blueprint' is more about the underlying structure and plan."
+  story: |
+    Before starting the new feature, the team lead, Ben, scheduled a meeting. "Alright team," he said, "I've shared the technical blueprint for the new authentication service. It outlines the API endpoints, the database schema, and how it will interact with the existing user service. Please review it carefully so we're all on the same page before we write a single line of code."
+
+- word: "Headroom"
+  pronunciation: "/ˈhedruːm/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The capacity for something to grow or expand in the future."
+    bahasa: "Kapasitas untuk bertumbuh atau berkembang di masa depan."
+  usage: "Engineers use this word to talk about system resources like memory, CPU, or storage. Having 'headroom' means the system can handle more load or data without failing."
+  synonyms:
+    - "capacity"
+    - "leeway"
+  examples:
+    workplace:
+      - "Our servers are running at 80% capacity. We don't have much headroom for traffic spikes."
+      - "When we designed the database, we made sure to leave enough headroom for the next five years of user growth."
+    casual:
+      - "The budget has some headroom for unexpected expenses."
+      - "He's already a great player, but he still has plenty of headroom to improve."
+  related:
+    - word: "Scalability"
+      difference: "'Scalability' is the ability of a system to handle a growing amount of work. 'Headroom' is the *current* unused capacity that allows for that growth."
+    - word: "Buffer"
+      difference: "A 'buffer' is a reserve kept for safety against something unexpected. 'Headroom' is more specifically about the potential for future growth."
+  story: |
+    During a capacity planning meeting, Sarah, the DevOps engineer, presented a graph. "As you can see, our user base is growing 15% month-over-month. While our current infrastructure is fine, we'll run out of headroom in about six months. I propose we start upgrading our servers now to avoid future performance bottlenecks."
+
+- word: "Unify"
+  pronunciation: "/ˈjuːnɪfaɪ/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To bring together or combine different parts to make a single unit."
+    bahasa: "Menyatukan atau menggabungkan bagian-bagian yang berbeda untuk menjadi satu unit."
+  usage: "This is often used when talking about integrating different systems, standardizing codebases, or creating a single, consistent user experience across multiple platforms."
+  synonyms:
+    - "integrate"
+    - "consolidate"
+  examples:
+    workplace:
+      - "Our goal for this quarter is to unify the user authentication process across our web and mobile apps."
+      - "We need to unify our coding standards to improve code quality."
+    casual:
+      - "The new leader's speech helped to unify the team."
+      - "Music can unify people from different cultures."
+  related:
+    - word: "Merge"
+      difference: "'Merge' is often used in a technical context like merging code branches. 'Unify' is a broader term for bringing different things together into a cohesive whole, often conceptually or strategically."
+    - word: "Combine"
+      difference: "'Combine' is a general term for putting things together. 'Unify' implies that the result is a more cohesive, integrated, and singular entity."
+  story: |
+    The company had grown through acquisitions, and its products felt disjointed. The new CTO announced a major initiative called 'Project Unify'. "For the next year," she said, "our top priority is to unify the user experience. When a customer uses our products, it should feel like one seamless platform, not three different applications stitched together. This means we'll need to unify our design systems, our APIs, and our branding."
+
+- word: "Staple"
+  pronunciation: "/ˈsteɪpəl/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A main or important element of something."
+    bahasa: "Sesuatu yang menjadi bagian utama atau penting."
+  usage: "In a work context, it refers to a tool, practice, or technology that is fundamental and used all the time. For example, a specific programming language or a daily stand-up meeting."
+  synonyms:
+    - "mainstay"
+    - "cornerstone"
+  examples:
+    workplace:
+      - "Daily stand-up meetings are a staple of our agile process."
+      - "Python has become a staple for data science and machine learning tasks."
+    casual:
+      - "Rice is a staple food in many Asian countries."
+      - "That actor is a staple of action movies."
+  related:
+    - word: "Standard"
+      difference: "A 'standard' is a level of quality or an approved way of doing something. A 'staple' is a core component or practice that is used frequently."
+    - word: "Convention"
+      difference: "A 'convention' is a way something is usually done by agreement (like a coding convention). A 'staple' is a fundamental part of a process or toolkit, whether it's a formal convention or not."
+  story: |
+    During onboarding, the new engineer asked, "What tools do you use for project management?" The team lead replied, "We use a few, but Jira is the staple around here. All our tasks, bugs, and stories are tracked in Jira. It's the cornerstone of our workflow, so you'll need to get very familiar with it."
+
+- word: "Quick-witted"
+  pronunciation: "/ˌkwɪkˈwɪtɪd/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Showing or characterized by an ability to think and respond quickly and intelligently."
+    bahasa: "Cerdas dan cepat tanggap."
+  usage: "A great compliment for a colleague who is sharp, solves problems quickly, or makes clever remarks during discussions. It highlights their mental agility."
+  synonyms:
+    - "sharp"
+    - "astute"
+  examples:
+    workplace:
+      - "Ask Maria for help with that bug; she's quick-witted and will probably spot the issue in minutes."
+      - "His quick-witted response during the client demo saved us from a very awkward situation."
+    casual:
+      - "She's a quick-witted comedian, always ready with a clever joke."
+      - "You need to be quick-witted to win at that debate game."
+  related:
+    - word: "Smart"
+      difference: "'Smart' is a general term for being intelligent. 'Quick-witted' specifically emphasizes the speed and cleverness of thought and response."
+    - word: "Clever"
+      difference: "'Clever' can sometimes imply ingenuity that might be tricky. 'Quick-witted' is almost always a positive term for fast and intelligent thinking."
+  story: |
+    The team was stumped by a bizarre bug that only appeared on certain devices. After an hour of everyone staring at the code, David, the junior dev, suddenly said, "Wait, could it be a timezone issue? The bug only happens for users in Asia." The team lead laughed and said, "David, you're so quick-witted! I bet that's it. We were all focused on the UI, but you thought about the user's environment."
+
+- word: "Fall through the cracks"
+  pronunciation: "/fɔːl θruː ðə kræks/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To be overlooked or forgotten, especially in a busy or complex system."
+    bahasa: "Terlewat atau terlupakan, terutama dalam sistem yang sibuk atau rumit."
+  usage: "Perfect for describing when a task, a bug report, or an important piece of information gets lost. It happens often in fast-paced environments with many moving parts."
+  synonyms:
+    - "be overlooked"
+    - "get lost"
+  examples:
+    workplace:
+      - "With so many emails, some user feedback might fall through the cracks."
+      - "We need a better ticketing system so that no bug reports fall through the cracks."
+    casual:
+      - "He made a promise, but it seems to have fallen through the cracks."
+      - "In a large class, it's easy for quiet students to fall through the cracks."
+  related:
+    - word: "Missed"
+      difference: "'Missed' is general and can be anyone's fault. 'Fall through the cracks' implies that the system or process is to blame for allowing something to be overlooked, rather than a single person's mistake."
+    - word: "Neglected"
+      difference: "'Neglected' implies a deliberate or careless failure to do something. 'Fall through the cracks' is usually accidental, caused by being too busy or having a poor system."
+  story: |
+    At the weekly sync, the product manager asked, "What's the status of the 'Export to PDF' feature?" There was a moment of silence. Then, the tech lead sighed, "I think that one fell through the cracks. It was mentioned in a meeting a month ago, but a ticket was never created for it. With all the urgent bugs we had, it just got forgotten. I'll create the ticket right now."
+
+- word: "Jargon"
+  pronunciation: "/ˈdʒɑːrɡən/"
+  part_of_speech: "noun"
+  meaning:
+    english: "Special words or expressions that are used by a particular profession or group and are difficult for others to understand."
+    bahasa: "Istilah atau ekspresi khusus yang digunakan oleh profesi atau kelompok tertentu dan sulit dipahami oleh orang lain."
+  usage: "Use this word to talk about technical language itself. You might tell a new team member not to worry about the jargon, or you might suggest avoiding jargon when talking to non-technical stakeholders."
+  synonyms:
+    - "lingo"
+    - "terminology"
+  examples:
+    workplace:
+      - "Try to avoid too much technical jargon in the presentation for the sales team."
+      - "As a new developer, it took me a few months to understand all the team's jargon."
+    casual:
+      - "I couldn't understand the lawyers; their conversation was full of legal jargon."
+      - "Every hobby, from knitting to gaming, has its own jargon."
+  related:
+    - word: "Slang"
+      difference: "'Jargon' is professional or technical language. 'Slang' is very informal language used by a particular group of people, often socially."
+    - word: "Acronym"
+      difference: "An 'acronym' is a specific type of jargon, formed from the initial letters of other words (like 'API' or 'SQL'). 'Jargon' is the broader category that includes acronyms and other specialized terms."
+  story: |
+    During a meeting with the marketing department, an engineer started explaining, "We'll just containerize the service using Docker and deploy it on a Kubernetes cluster to ensure high availability and horizontal scaling." The marketing manager looked confused. The engineer's lead gently interrupted, "Let me try to explain without the jargon. We're going to package the new feature so it runs reliably, and we'll set it up so it can handle lots of users without slowing down."
+
+- word: "Off-topic"
+  pronunciation: "/ˌɒfˈtɒpɪk/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Not related to the main subject being discussed."
+    bahasa: "Tidak berhubungan dengan topik utama yang sedang dibahas."
+  usage: "A polite and professional way to steer a conversation back to its original purpose. It's very useful for keeping meetings efficient and focused."
+  synonyms:
+    - "irrelevant"
+    - "unrelated"
+  examples:
+    workplace:
+      - "That's an interesting point, but it's a bit off-topic. Let's stick to the agenda for now."
+      - "The chat channel became very off-topic, so the manager had to intervene."
+    casual:
+      - "Sorry to go off-topic, but did you see that movie last night?"
+      - "The conversation started about work and ended up on some off-topic subject like aliens."
+  related:
+    - word: "Tangent"
+      difference: "A 'tangent' is a line of discussion that deviates from the original topic. Going 'off-topic' is the state of being on that tangent. People 'go off on a tangent'."
+    - word: "Digression"
+      difference: "A 'digression' is a temporary departure from the main subject in speech or writing. It's very similar to a tangent. 'Off-topic' is a simpler, more direct way to describe the content itself."
+  story: |
+    The daily stand-up was supposed to be a quick 15-minute sync. But today, two engineers started debating the best way to make coffee. After a few minutes, the Scrum Master gently raised a hand. "Hey guys, this is a fascinating discussion, but it's a little off-topic for our stand-up. Can we park this and get back to our updates? We can create a #coffee channel on Slack later."
+
+- word: "Down the road"
+  pronunciation: "/daʊn ðə roʊd/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "In the future."
+    bahasa: "Di masa depan; nanti."
+  usage: "A common, casual way to talk about future plans, features, or consequences without specifying an exact timeline. It's often used for things that are not an immediate priority."
+  synonyms:
+    - "later on"
+    - "in the long run"
+  examples:
+    workplace:
+      - "We can't implement that feature now, but it's definitely something we'll consider down the road."
+      - "Making this technical shortcut now will save us time, but it might cause problems down the road."
+    casual:
+      - "He plans to travel the world somewhere down the road."
+      - "Down the road, you'll be glad you saved money."
+  related:
+    - word: "Eventually"
+      difference: "'Eventually' implies that something will happen at some point in the end, often after a delay or a series of events. 'Down the road' is more vague and less certain; it's just 'sometime in the future'."
+    - word: "Future-proof"
+      difference: "'Future-proof' means to design something so it won't be outdated in the future. You 'future-proof' something to prepare for what might happen 'down the road'."
+  story: |
+    "I know the user interface looks a bit dated," the product manager admitted. "But our main priority this quarter is to fix the backend stability issues. A full UI overhaul is on the roadmap, but it's a project for down the road, probably next year. For now, we need to make sure the foundation is solid."
