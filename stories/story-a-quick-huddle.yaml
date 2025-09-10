@@ -1,0 +1,18 @@
+story:
+  title: "a-quick-huddle"
+  date: "2025-09-11"
+  text: |
+    It was a typical Wednesday morning. I had my cup of coffee and was ready to tackle my tasks for the day. I had a clear game plan: finish the **frontend** **implementation** for the new feature. Everything was going smoothly until I hit a blocker. The API from the **backend** I needed wasn't returning the correct data. I double-checked my code, but the issue was a **misunderstanding** of the **data structure**.
+
+    I sent a quick message to Sarah, the backend engineer, and we decided to have a quick huddle. It was a very **collaborative** session. We looked at the API documentation together and realized where the confusion was. It was a small oversight, but it was blocking my progress.
+
+    Sarah quickly fixed the API, and I was back on track. I really **appreciate** having such a responsive team. We were able to resolve the issue in less than an hour. By the end of the day, I had managed to complete my task and even had some time to help a **junior** developer with a code review. It was a productive day after all.
+  highlighted_words:
+    - "frontend"
+    - "implementation"
+    - "backend"
+    - "misunderstanding"
+    - "data structure"
+    - "collaborative"
+    - "appreciate"
+    - "junior"
