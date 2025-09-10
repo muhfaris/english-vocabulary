@@ -1,0 +1,11 @@
+story:
+  title: "a-streamlined-workflow"
+  date: "2025-09-10"
+  text: |
+    I used to **procrastinate** on my weekly reports, but I've recently built a **streamlined** process that makes it much easier. This morning, I started by running a script that pulls all the necessary data. While it was running, I had a quick meeting with my project manager to discuss a new feature **enhancement**. She was very **receptive** to my ideas, which was great. I made sure to **jot down** the key takeaways from our conversation so I wouldn't forget them. By the time the meeting was over, my script had finished, and I just had to format the report. What used to take me hours now takes less than one. It feels great to have that extra time back in my day.
+  highlighted_words:
+    - "procrastinate"
+    - "streamlined"
+    - "enhancement"
+    - "receptive"
+    - "jot down"
