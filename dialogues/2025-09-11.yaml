@@ -1,0 +1,66 @@
+- title: discussing-a-performance-bottleneck
+  dialogue:
+    - speaker: Alex
+      english: "Hey Ben, got a second? I've been looking at the metrics for the new dashboard."
+      bahasa: "Hai Ben, ada waktu sebentar? Aku sedang melihat metrik untuk dasbor baru."
+    - speaker: Ben
+      english: "Sure, what's up?"
+      bahasa: "Tentu, ada apa?"
+    - speaker: Alex
+      english: "The `/api/v1/dashboard/stats` endpoint is responding really slowly. Sometimes up to 3 seconds."
+      bahasa: "Endpoint `/api/v1/dashboard/stats` merespons dengan sangat lambat. Terkadang hingga 3 detik."
+    - speaker: Ben
+      english: "Oh, wow. That's not good. I remember writing that. It was a bit complex, with multiple database queries."
+      bahasa: "Oh, wow. Itu tidak bagus. Aku ingat yang menulis itu. Kodenya agak kompleks, dengan beberapa kueri basis data."
+    - speaker: Alex
+      english: "Yeah, I saw that. It looks like there's a loop making individual queries for each user's project. That's a classic N+1 problem."
+      bahasa: "Ya, aku melihatnya. Sepertinya ada perulangan yang membuat kueri individual untuk setiap proyek pengguna. Itu masalah N+1 yang klasik."
+    - speaker: Ben
+      english: "Ah, right. I was trying to get it working first and planned to optimize it later. I guess 'later' is now."
+      bahasa: "Ah, benar. Aku mencoba membuatnya berfungsi dulu dan berencana untuk mengoptimalkannya nanti. Kurasa 'nanti' itu sekarang."
+    - speaker: Alex
+      english: "No worries, it happens. We can probably fix this by eager loading the projects with a single query."
+      bahasa: "Jangan khawatir, itu biasa terjadi. Kita mungkin bisa memperbaikinya dengan melakukan eager loading pada proyek dengan satu kueri."
+    - speaker: Ben
+      english: "You mean using a `JOIN` statement or something similar?"
+      bahasa: "Maksudmu menggunakan pernyataan `JOIN` atau yang serupa?"
+    - speaker: Alex
+      english: "Exactly. Or using the ORM's built-in feature to preload the association. That should cut down the database calls significantly."
+      bahasa: "Tepat sekali. Atau menggunakan fitur bawaan ORM untuk memuat asosiasi di awal. Itu seharusnya mengurangi panggilan basis data secara signifikan."
+    - speaker: Ben
+      english: "Got it. I'll get on that right away. I'll create a new branch and start refactoring the query."
+      bahasa: "Mengerti. Aku akan segera mengerjakannya. Aku akan membuat cabang baru dan mulai me-refactor kueri itu."
+    - speaker: Alex
+      english: "Great. Let me know if you need a hand. Let's aim to get a PR up by the end of the day."
+      bahasa: "Bagus. Beri tahu aku jika kamu butuh bantuan. Mari kita usahakan agar ada PR sebelum akhir hari."
+    - speaker: Ben
+      english: "Will do. Thanks for spotting that!"
+      bahasa: "Pasti. Terima kasih sudah menemukannya!"
+
+  expressions:
+    - phrase: "performance bottleneck"
+      meaning_english: "A part of the system that slows down the overall performance."
+      meaning_bahasa: "Bagian dari sistem yang memperlambat kinerja secara keseluruhan."
+    - phrase: "N+1 problem"
+      meaning_english: "An inefficiency where the code makes one query to retrieve a list of items, and then N additional queries to fetch details for each item."
+      meaning_bahasa: "Inefisiensi di mana kode membuat satu kueri untuk mengambil daftar item, dan kemudian N kueri tambahan untuk mengambil detail untuk setiap item."
+    - phrase: "get it working first"
+      meaning_english: "Prioritizing functionality over optimization during initial development."
+      meaning_bahasa: "Memprioritaskan fungsionalitas daripada optimisasi selama pengembangan awal."
+    - phrase: "eager loading"
+      meaning_english: "The process of loading related data in advance with a single query to avoid multiple database round-trips."
+      meaning_bahasa: "Proses memuat data terkait di muka dengan satu kueri untuk menghindari beberapa perjalanan bolak-balik ke basis data."
+    - phrase: "ORM (Object-Relational Mapping)"
+      meaning_english: "A technique that lets you query and manipulate data from a database using an object-oriented paradigm."
+      meaning_bahasa: "Teknik yang memungkinkan Anda menanyakan dan memanipulasi data dari basis data menggunakan paradigma berorientasi objek."
+    - phrase: "get a PR up"
+      meaning_english: "To create and submit a Pull Request for review."
+      bahasa: "Membuat dan mengirimkan Pull Request untuk ditinjau."
+
+  questions:
+    - q: "What was the problem Alex identified with the dashboard endpoint?"
+      a: "The endpoint was responding very slowly, taking up to 3 seconds."
+    - q: "What was the technical cause of the slowness?"
+      a: "It was a classic N+1 query problem, where a loop was making individual database queries for each item."
+    - q: "What was the proposed solution to fix the performance bottleneck?"
+      a: "To use eager loading to fetch all the necessary data in a single, more efficient query."
