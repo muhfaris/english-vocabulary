@@ -110,3 +110,82 @@
     a: Chloe will start working on the UI for the new reporting feature.
   - q: Why does Maria want to sync with David?
     a: Maria wants to discuss the deployment strategy for the changes David is making.
+- title: code-review-session-a8b3f1
+  dialogue:
+  - speaker: Liam
+    english: Hey Sara, do you have a moment to look at my PR? I've just pushed the
+      changes for the authentication flow.
+    bahasa: Hai Sara, ada waktu sebentar untuk melihat PR-ku? Aku baru saja mengirim
+      perubahan untuk alur otentikasi.
+  - speaker: Sara
+    english: Sure, Liam. Let me pull it up. PR #257, right?
+    bahasa: Tentu, Liam. Coba aku buka. PR #257, kan?
+  - speaker: Liam
+    english: That's the one. I've added the new social login providers.
+    bahasa: Betul. Aku sudah menambahkan penyedia login sosial yang baru.
+  - speaker: Sara
+    english: Okay, I see it. The code looks clean at first glance. Good job on splitting
+      the logic into smaller functions.
+    bahasa: Oke, aku lihat. Kodenya terlihat bersih sekilas. Kerja bagus memisahkan
+      logika menjadi fungsi-fungsi yang lebih kecil.
+  - speaker: Liam
+    english: Thanks. I tried to keep it modular.
+    bahasa: Terima kasih. Aku berusaha menjaganya tetap modular.
+  - speaker: Sara
+    english: I have one minor suggestion. On line 88, you're making a direct database
+      call inside the loop. This could lead to performance issues.
+    bahasa: Aku punya satu saran kecil. Di baris 88, kamu melakukan pemanggilan database
+      langsung di dalam loop. Ini bisa menyebabkan masalah performa.
+  - speaker: Liam
+    english: Ah, good catch. I should probably fetch all the necessary data before
+      the loop, right?
+    bahasa: Ah, temuan yang bagus. Seharusnya aku mengambil semua data yang diperlukan
+      sebelum loop, kan?
+  - speaker: Sara
+    english: Exactly. That would be much more efficient. It's a common pattern to
+      avoid N+1 queries.
+    bahasa: Tepat sekali. Itu akan jauh lebih efisien. Ini adalah pola umum untuk
+      menghindari N+1 query.
+  - speaker: Liam
+    english: Makes sense. I'll refactor that part. Anything else?
+    bahasa: Masuk akal. Aku akan refactor bagian itu. Ada lagi?
+  - speaker: Sara
+    english: Just a small nitpick. Could you add a comment explaining the regex for
+      the email validation? It's a bit complex.
+    bahasa: Hanya detail kecil. Bisakah kamu menambahkan komentar yang menjelaskan
+      regex untuk validasi email? Agak rumit.
+  - speaker: Liam
+    english: Will do. Thanks for the thorough feedback! I'll push the updates in a
+      bit.
+    bahasa: Siap. Terima kasih atas masukan yang mendalam! Aku akan kirim pembaruannya
+      sebentar lagi.
+  - speaker: Sara
+    english: No problem. Happy to help.
+    bahasa: Sama-sama. Senang bisa membantu.
+  expressions:
+  - phrase: Pull it up
+    meaning_english: Open or view something on a computer.
+    meaning_bahasa: Buka atau lihat sesuatu di komputer.
+  - phrase: At first glance
+    meaning_english: From an initial impression.
+    meaning_bahasa: Dari kesan pertama.
+  - phrase: Good catch
+    meaning_english: Acknowledging that someone has found a good point or a mistake.
+    meaning_bahasa: Mengakui bahwa seseorang telah menemukan poin bagus atau kesalahan.
+  - phrase: N+1 queries
+    meaning_english: A performance issue where an application makes one query to
+      retrieve a list of items, and then one additional query for each item in the
+      list.
+    meaning_bahasa: Masalah performa di mana aplikasi membuat satu kueri untuk mengambil
+      daftar item, dan kemudian satu kueri tambahan untuk setiap item dalam daftar
+      tersebut.
+  - phrase: Nitpick
+    meaning_english: A small, minor criticism or suggestion.
+    meaning_bahasa: Kritik atau saran kecil yang tidak signifikan.
+  questions:
+  - q: What feature did Liam work on?
+    a: The authentication flow, specifically adding new social login providers.
+  - q: What was Sara's main performance suggestion?
+    a: To avoid making a database call inside a loop to prevent N+1 query issues.
+  - q: What was Sara's minor suggestion?
+    a: To add a comment explaining a complex regex for email validation.
