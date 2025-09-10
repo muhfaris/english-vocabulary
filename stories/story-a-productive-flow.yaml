@@ -1,0 +1,15 @@
+story:
+  title: "a-productive-flow"
+  date: "2025-09-10"
+  text: |
+    My day started with the morning **kick-off** for our new feature. The project manager walked us through the **agenda**, and we all agreed on the initial **scope**. After the meeting, I put on my headphones and went completely **heads-down**, getting into a state of deep **flow**. The code was just coming to me, and I made a ton of progress.
+
+    Later in the afternoon, I hit a small snag with an API integration. Instead of struggling alone, I decided to **ping** my colleague, Sarah. We had a **quick sync** over video call, and she pointed out something I had missed in the documentation. It was a simple fix, but her fresh perspective saved me a lot of time. With that sorted, I was able to finish my task for the day, feeling accomplished.
+  highlighted_words:
+    - "kick-off"
+    - "agenda"
+    - "scope"
+    - "heads-down"
+    - "flow"
+    - "ping"
+    - "quick sync"
