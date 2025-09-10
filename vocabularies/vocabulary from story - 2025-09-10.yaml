@@ -283,3 +283,53 @@
       difference: "A 'quick sync' is typically shorter, more informal, and more focused on a single topic than a general 'meeting'."
   story: |
     The frontend and backend developers had a quick sync to finalize the API contract. In just 15 minutes, they agreed on the data format and were able to continue their work without any blockers.
+- word: "simplify"
+  pronunciation: "/ˈsɪm.plɪ.faɪ/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To make something simpler or easier to do or understand."
+    bahasa: "Menyederhanakan atau membuat sesuatu lebih mudah dilakukan atau dipahami."
+  usage: "Use 'simplify' when you are reducing the complexity of a process, system, or explanation."
+  synonyms:
+    - "streamline"
+    - "clarify"
+    - "uncomplicate"
+  examples:
+    workplace:
+      - "We need to simplify the user interface to improve usability."
+      - "He simplified the complex algorithm so the junior developers could understand it."
+    casual:
+      - "She simplified the recipe by using fewer ingredients."
+      - "Let me simplify the explanation for you."
+  related:
+    - word: "streamline"
+      difference: "'Streamline' focuses on making a process more efficient and effective, often by removing unnecessary steps. 'Simplify' is broader and focuses on reducing complexity to make something easier to understand or use."
+    - word: "refactor"
+      difference: "'Refactor' is a technical term for restructuring existing computer code without changing its external behavior. The goal of refactoring is often to simplify the code's internal structure."
+  story: |
+    The team decided to simplify the checkout process after receiving user feedback that it was too confusing. They removed three steps and combined two pages into one. The new, simplified flow led to a significant increase in completed purchases.
+- word: "unblock"
+  pronunciation: "/ˌʌnˈblɒk/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To remove an obstacle or issue that is preventing someone from making progress."
+    bahasa: "Menghilangkan rintangan atau masalah yang menghalangi seseorang untuk membuat kemajuan."
+  usage: "Use 'unblock' in a work context, especially in agile development, when you help someone overcome a 'blocker'."
+  synonyms:
+    - "resolve"
+    - "clear the way"
+    - "enable"
+  examples:
+    workplace:
+      - "I need the new API documentation to unblock my work."
+      - "Thanks for the quick call; you completely unblocked me."
+    casual:
+      - "The plumber came to unblock the drain."
+      - "Talking about the problem helped to unblock his creativity."
+  related:
+    - word: "blocker"
+      difference: "A 'blocker' is the problem that stops progress. To 'unblock' someone is the action of removing that blocker for them."
+    - word: "resolve"
+      difference: "'Resolve' means to find a solution to a problem. 'Unblock' is more specific; it means to resolve a problem *for someone else* so they can continue their work."
+  story: |
+    During the daily stand-up, a junior developer mentioned he was stuck. He couldn't get the database to connect on his local machine. A senior engineer spent 15 minutes with him after the meeting to fix the configuration issue. This quick intervention helped to unblock the junior dev, allowing him to continue with his feature development.
