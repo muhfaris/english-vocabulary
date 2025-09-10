@@ -333,3 +333,123 @@
       difference: "'Resolve' means to find a solution to a problem. 'Unblock' is more specific; it means to resolve a problem *for someone else* so they can continue their work."
   story: |
     During the daily stand-up, a junior developer mentioned he was stuck. He couldn't get the database to connect on his local machine. A senior engineer spent 15 minutes with him after the meeting to fix the configuration issue. This quick intervention helped to unblock the junior dev, allowing him to continue with his feature development.
+- word: "procrastinate"
+  pronunciation: "/proʊˈkræstɪneɪt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To delay or postpone action; to put off doing something."
+    bahasa: "Menunda-nunda"
+  usage: "Use this word when someone is delaying a task, usually something they should be doing now. It often has a slightly negative connotation, implying laziness or avoidance."
+  synonyms:
+    - "delay"
+    - "put off"
+  examples:
+    workplace:
+      - "I always procrastinate on my expense reports until the last minute."
+      - "Let's not procrastinate on this decision; we need to act now."
+    casual:
+      - "I need to stop procrastinating and clean my apartment."
+      - "He procrastinated for so long that he missed the deadline to apply."
+  related:
+    - word: "postpone"
+      difference: "'Postpone' means to decide to do something at a later time, which is often a neutral and planned action. 'Procrastinate' is more about delaying something out of reluctance or laziness."
+    - word: "delay"
+      difference: "'Delay' is a general term for making something happen later than intended. 'Procrastinate' is a specific type of delay caused by one's own inaction."
+  story: |
+    As a junior developer, I used to procrastinate on writing documentation. I'd finish the code and tell myself I'd do the docs later. But 'later' never came. My tech lead noticed and explained that delaying it only makes it harder. Now, I write it as I code.
+- word: "streamlined"
+  pronunciation: "/ˈstriːmlaɪnd/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Made more efficient and effective by simplifying or improving procedures."
+    bahasa: "Disederhanakan"
+  usage: "Use this to describe a process, system, or workflow that has been improved to be faster, simpler, or more efficient."
+  synonyms:
+    - "efficient"
+    - "simplified"
+  examples:
+    workplace:
+      - "Our new CI/CD pipeline has a streamlined deployment process."
+      - "We need a more streamlined approach to onboarding new team members."
+    casual:
+      - "The new app update has a streamlined user interface."
+      - "Her morning routine is so streamlined; she's ready in 20 minutes."
+  related:
+    - word: "efficient"
+      difference: "'Efficient' means achieving maximum productivity with minimum wasted effort. 'Streamlined' specifically refers to the process of *making* something efficient by removing unnecessary parts."
+    - word: "simplified"
+      difference: "'Simplified' means to make something easier to understand or do. 'Streamlined' is a type of simplification focused on making a process more effective or faster."
+  story: |
+    Our code review process used to be slow. It involved multiple manual checks. We introduced a new bot that automates linting and formatting checks. The whole workflow is now so streamlined that reviews that once took hours are now done in minutes.
+- word: "enhancement"
+  pronunciation: "/ɪnˈhænsmənt/"
+  part_of_speech: "noun"
+  meaning:
+    english: "An improvement or addition that makes something better."
+    bahasa: "Peningkatan"
+  usage: "Use this to refer to an upgrade or improvement to an existing feature, product, or system. It's not a new feature, but a betterment of an old one."
+  synonyms:
+    - "improvement"
+    - "upgrade"
+  examples:
+    workplace:
+      - "The latest software update includes a performance enhancement."
+      - "We are planning a small enhancement to the user profile page."
+    casual:
+      - "The new noise-cancelling feature is a great enhancement to my headphones."
+      - "He made some enhancements to his home office setup."
+  related:
+    - word: "feature"
+      difference: "A 'feature' is a distinct component or function of a product. An 'enhancement' is an improvement to an existing feature."
+    - word: "fix"
+      difference: "A 'fix' solves a problem or bug. An 'enhancement' adds value or improves functionality that wasn't broken."
+  story: |
+    Users weren't using our search functionality much. It worked, but it was slow. We spent a sprint on a performance enhancement, making it return results in milliseconds. Now, it's one of our most-used features.
+- word: "receptive"
+  pronunciation: "/rɪˈsɛptɪv/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Willing to consider or accept new suggestions and ideas."
+    bahasa: "Terbuka"
+  usage: "Use this to describe someone who is open-minded and willing to listen to feedback or new ideas."
+  synonyms:
+    - "open-minded"
+    - "responsive"
+  examples:
+    workplace:
+      - "My manager is very receptive to new ideas from the team."
+      - "The stakeholders were receptive to our proposal for the new design."
+    casual:
+      - "He was receptive to my suggestion for our vacation plans."
+      - "I'm always receptive to trying new types of food."
+  related:
+    - word: "open-minded"
+      difference: "'Open-minded' is a general personality trait. 'Receptive' is more specific to a particular situation or idea, describing how someone reacts in that moment."
+    - word: "accepting"
+      difference: "'Accepting' can imply agreement. 'Receptive' means you are willing to listen and consider, but not necessarily that you agree."
+  story: |
+    I was nervous before my first code review. I expected a lot of criticism. But my reviewer was very receptive. She listened to my explanations and gave constructive feedback. It made me feel much more confident about contributing in the future.
+- word: "jot down"
+  pronunciation: "/dʒɒt daʊn/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To write something down quickly."
+    bahasa: "Mencatat"
+  usage: "Use this for the action of quickly writing a short note, idea, or reminder, often by hand."
+  synonyms:
+    - "note down"
+    - "write down"
+  examples:
+    workplace:
+      - "Let me jot down your feedback so I don't forget it."
+      - "During the meeting, I jotted down a few action items."
+    casual:
+      - "I should jot down that recipe before I forget the ingredients."
+      - "Can you jot down your phone number for me?"
+  related:
+    - word: "write down"
+      difference: "'Write down' is a general term. 'Jot down' implies speed and brevity, like scribbling a quick note."
+    - word: "take notes"
+      difference: "'Take notes' is more formal and structured, like what you would do in a lecture. 'Jot down' is more casual and for short pieces of information."
+  story: |
+    During our daily stand-up, my teammate mentioned a new library that could solve a problem I was working on. I didn't want to interrupt the flow of the meeting, so I quickly grabbed a sticky note and jotted down its name to look up later.
