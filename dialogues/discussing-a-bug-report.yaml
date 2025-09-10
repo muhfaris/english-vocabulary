@@ -1,0 +1,64 @@
+dialogue:
+  - speaker: Liam
+    english: "Hey Maya, got a minute? A critical bug report just came in."
+    bahasa: "Hai Maya, ada waktu sebentar? Laporan bug kritis baru saja masuk."
+  - speaker: Maya
+    english: "Sure, what's up? Which part of the system is it about?"
+    bahasa: "Tentu, ada apa? Tentang bagian sistem yang mana?"
+  - speaker: Liam
+    english: "It's about the payment gateway integration. Users are reporting intermittent transaction failures."
+    bahasa: "Ini tentang integrasi gateway pembayaran. Pengguna melaporkan kegagalan transaksi yang sesekali terjadi."
+  - speaker: Maya
+    english: "Ouch, that's serious. Have you been able to reproduce it on your end?"
+    bahasa: "Waduh, itu serius. Apakah kamu sudah bisa mereproduksinya di sisimu?"
+  - speaker: Liam
+    english: "Not yet. I've been trying for the last 30 minutes, but no luck. It seems to be an edge case."
+    bahasa: "Belum. Aku sudah mencoba selama 30 menit terakhir, tapi belum berhasil. Sepertinya ini kasus yang jarang terjadi."
+  - speaker: Maya
+    english: "Did the report have any specific details? Like user ID, browser, or timestamp?"
+    bahasa: "Apakah laporannya ada detail spesifik? Seperti ID pengguna, browser, atau waktu kejadian?"
+  - speaker: Liam
+    english: "Yes, thankfully. I have the user ID and the exact timestamp. I'm going to check the logs around that time."
+    bahasa: "Ya, untungnya ada. Aku punya ID pengguna dan waktu yang tepat. Aku akan memeriksa log sekitar waktu itu."
+  - speaker: Maya
+    english: "Good idea. Let's dig into it together. Finding the root cause is the priority."
+    bahasa: "Ide bagus. Mari kita selidiki bersama. Menemukan akar masalahnya adalah prioritas."
+  - speaker: Liam
+    english: "Agreed. If we can find it quickly, we might need to push a hotfix today."
+    bahasa: "Setuju. Jika kita bisa menemukannya dengan cepat, kita mungkin perlu merilis perbaikan darurat hari ini."
+  - speaker: Maya
+    english: "Alright, let's get to it. Share the log files with me."
+    bahasa: "Baiklah, ayo kita mulai. Bagikan file lognya denganku."
+
+expressions:
+  - phrase: "Got a minute?"
+    meaning_english: "A common way to ask if someone has a short amount of time to talk."
+    meaning_bahasa: "Cara umum untuk bertanya apakah seseorang punya sedikit waktu untuk berbicara."
+  - phrase: "What's up?"
+    meaning_english: "A casual greeting used to ask what someone is doing or how they are."
+    meaning_bahasa: "Sapaan santai yang digunakan untuk menanyakan apa yang sedang dilakukan atau bagaimana kabar seseorang."
+  - phrase: "Reproduce an issue"
+    meaning_english: "To be able to make a bug or problem happen again in a controlled environment to study it."
+    meaning_bahasa: "Dapat membuat bug atau masalah terjadi lagi di lingkungan yang terkendali untuk mempelajarinya."
+  - phrase: "Edge case"
+    meaning_english: "A problem or situation that occurs only at an extreme (maximum or minimum) operating parameter."
+    meaning_bahasa: "Masalah atau situasi yang hanya terjadi pada parameter operasi yang ekstrem (maksimum atau minimum)."
+  - phrase: "Root cause"
+    meaning_english: "The fundamental reason for the occurrence of a problem."
+    meaning_bahasa: "Alasan mendasar terjadinya suatu masalah."
+  - phrase: "Dig into it"
+    meaning_english: "To investigate or study something thoroughly."
+    meaning_bahasa: "Menyelidiki atau mempelajari sesuatu secara menyeluruh."
+  - phrase: "Push a hotfix"
+    meaning_english: "To quickly release a patch to fix a critical issue in a live production environment."
+    bahasa: "Merilis perbaikan dengan cepat untuk memperbaiki masalah kritis di lingkungan produksi."
+
+questions:
+  - q: "What is the critical bug report about?"
+    a: "The bug is related to the payment gateway integration, causing intermittent transaction failures."
+  - q: "Is Liam able to reproduce the bug easily?"
+    a: "No, he has not been able to reproduce it yet and suspects it's an edge case."
+  - q: "What is their first step to investigate the bug?"
+    a: "They plan to check the server logs around the time the failure was reported."
+  - q: "What might they need to do if they find the cause quickly?"
+    a: "They might need to push a hotfix to resolve the issue on the same day."
