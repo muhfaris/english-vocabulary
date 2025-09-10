@@ -1,0 +1,181 @@
+- word: "frontend"
+  pronunciation: "/ˈfrʌntˌɛnd/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The part of a website or application that the user interacts with directly."
+    bahasa: "Bagian dari situs web atau aplikasi yang berinteraksi langsung dengan pengguna."
+  usage: "Use 'frontend' to talk about the user interface (UI) of an application, like the layout, buttons, and visual elements."
+  synonyms:
+    - "client-side"
+    - "user interface (UI)"
+  examples:
+    workplace:
+      - "I'm working on the frontend to improve the user experience."
+      - "The frontend team is responsible for building the visual part of our app."
+    casual:
+      - "I love the frontend of this new app; it's so easy to use."
+      - "He's a frontend developer, so he designs what you see on the website."
+  related:
+    - word: "backend"
+      difference: "Frontend is what the user sees and interacts with, while backend is the server-side logic and database that powers the application."
+  story: |
+    As a frontend developer, my main job is to make sure the user has a smooth experience. Today, I'm building a new settings page. I need to make sure all the buttons are aligned and the text is readable. It's a lot of small details, but it's what makes the frontend feel polished.
+
+- word: "implementation"
+  pronunciation: "/ˌɪmpləmɛnˈteɪʃən/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The process of putting a decision or plan into effect; execution."
+    bahasa: "Proses menerapkan keputusan atau rencana; eksekusi."
+  usage: "Use 'implementation' to describe the actual work of building or creating something according to a plan or design."
+  synonyms:
+    - "execution"
+    - "application"
+  examples:
+    workplace:
+      - "The implementation of the new feature will take about two weeks."
+      - "We need to discuss the implementation details before we start coding."
+    casual:
+      - "The idea is good, but the implementation is proving to be difficult."
+      - "Her implementation of the recipe was perfect."
+  related:
+    - word: "plan"
+      difference: "A 'plan' is the idea or design, while 'implementation' is the action of making the plan a reality."
+  story: |
+    We spent last week designing the new login flow. This week, my task is the implementation. I have to write the code that actually handles user sign-ups and logins. It's a critical part of the application, so I need to be careful with the implementation details to ensure it's secure and reliable.
+
+- word: "backend"
+  pronunciation: "/ˈbækˌɛnd/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The part of a website or application that the user does not see, including servers, databases, and application logic."
+    bahasa: "Bagian dari situs web atau aplikasi yang tidak dilihat pengguna, termasuk server, database, dan logika aplikasi."
+  usage: "Use 'backend' to refer to the server-side of an application, where data is processed and stored."
+  synonyms:
+    - "server-side"
+  examples:
+    workplace:
+      - "The bug is in the backend, so we need a server-side engineer to fix it."
+      - "Our backend services are responsible for processing all the data."
+    casual:
+      - "The app is slow because there's an issue with the backend."
+      - "She's a backend developer, so she works with databases and servers."
+  related:
+    - word: "frontend"
+      difference: "Backend is the server, database, and logic that the user doesn't see, while frontend is the user interface that the user interacts with."
+  story: |
+    I'm a backend developer. While the frontend team makes the app look pretty, I make sure everything works behind the scenes. Today, I'm optimizing a database query to make the app faster. No one will see my work directly, but they'll feel the improvement when the app loads quicker.
+
+- word: "misunderstanding"
+  pronunciation: "/ˌmɪsʌndərˈstændɪŋ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A failure to understand something correctly."
+    bahasa: "Kegagalan untuk memahami sesuatu dengan benar; kesalahpahaman."
+  usage: "Use 'misunderstanding' when there's been a communication error or a wrong interpretation of something."
+  synonyms:
+    - "misinterpretation"
+    - "confusion"
+  examples:
+    workplace:
+      - "There was a misunderstanding about the deadline, so the project is late."
+      - "Let's have a meeting to clear up any misunderstanding about the requirements."
+    casual:
+      - "We had a small misunderstanding, but we're friends again now."
+      - "I think you're operating under a misunderstanding about what I meant."
+  related:
+    - word: "disagreement"
+      difference: "A 'misunderstanding' is usually unintentional and based on confusion, while a 'disagreement' is a difference of opinion where both sides understand each other but have different views."
+  story: |
+    There was a misunderstanding between the design team and the development team. The developers built the feature based on an old design file. It was a simple mistake, but it caused a delay. We now have a new process to make sure everyone is always looking at the latest designs to avoid any future misunderstanding.
+
+- word: "data structure"
+  pronunciation: "/ˈdeɪtə ˈstrʌktʃər/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A specialized format for organizing, processing, retrieving and storing data."
+    bahasa: "Format khusus for mengorganisir, memproses, mengambil, dan menyimpan data."
+  usage: "Use 'data structure' to talk about how data is organized in code, such as in an array, list, or map."
+  synonyms:
+    - "data format"
+  examples:
+    workplace:
+      - "We need to agree on the data structure for the API response."
+      - "Choosing the right data structure is important for performance."
+    casual:
+      - "He explained the data structure to me like it was a filing cabinet for information."
+      - "The code is confusing because the data structure is very complex."
+  related:
+    - word: "database"
+      difference: "A 'data structure' is how data is organized in the application's memory, while a 'database' is where data is stored permanently on a disk."
+  story: |
+    We're building a feature to show a user's friends. I need to decide on the best data structure to store the list of friends. An array seems simple, but a map might be faster for looking up a specific friend. I'll need to think about how we'll use the data to choose the most efficient data structure.
+
+- word: "collaborative"
+  pronunciation: "/kəˈlæbəˌreɪtɪv/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Produced by or involving two or more parties working together."
+    bahasa: "Dihasilkan oleh atau melibatkan dua pihak atau lebih yang bekerja sama."
+  usage: "Use 'collaborative' to describe a situation where people work together as a team."
+  synonyms:
+    - "cooperative"
+    - "joint"
+  examples:
+    workplace:
+      - "This was a collaborative effort from the entire team."
+      - "We have a very collaborative work environment."
+    casual:
+      - "The musicians had a collaborative approach to writing the song."
+      - "It was a collaborative project between two artists."
+  related:
+    - word: "teamwork"
+      difference: "'Teamwork' is the action of working together, while 'collaborative' is the adjective that describes that way of working."
+  story: |
+    Our team has a very collaborative culture. When someone is stuck, we all jump in to help. Today, we had a tough bug to solve. We all gathered around a whiteboard and shared ideas. After an hour of collaborative problem-solving, we found the solution. It's much better than struggling alone.
+
+- word: "appreciate"
+  pronunciation: "/əˈpriːʃiˌeɪt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To recognize the full worth of; to be grateful for something."
+    bahasa: "Mengenali nilai penuh dari; berterima kasih untuk sesuatu."
+  usage: "Use 'appreciate' to show gratitude or to acknowledge the value of something or someone."
+  synonyms:
+    - "value"
+    - "respect"
+  examples:
+    workplace:
+      - "I really appreciate you helping me with this task."
+      - "We appreciate all the hard work you've put into this project."
+    casual:
+      - "I appreciate your honesty."
+      - "I'd appreciate it if you didn't do that."
+  related:
+    - word: "thank"
+      difference: "'Thank' is a direct expression of gratitude, while 'appreciate' is more about recognizing the value of the action or person. 'Appreciate' often sounds a bit more formal and heartfelt."
+  story: |
+    I was having a hard time with a new technology. My mentor, Sarah, spent an hour explaining it to me. I told her, 'I really appreciate you taking the time to help me.' It's important to let people know you value their help. It makes for a better team environment.
+
+- word: "junior"
+  pronunciation: "/ˈdʒuːnjər/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Having a low or lower rank or status; for or denoting young or younger people."
+    bahasa: "Memiliki pangkat atau status yang rendah atau lebih rendah; untuk atau menunjukkan orang muda atau lebih muda."
+  usage: "In a professional context, 'junior' describes someone who is new to a field or has less experience."
+  synonyms:
+    - "entry-level"
+    - "less experienced"
+  examples:
+    workplace:
+      - "We're hiring a junior developer to join our team."
+      - "As a junior engineer, you'll have a mentor to guide you."
+    casual:
+      - "My junior year of college was the best."
+      - "He's the junior partner in the firm."
+  related:
+    - word: "senior"
+      difference: "'Junior' refers to someone with less experience, while 'senior' refers to someone with more experience and typically more responsibility."
+  story: |
+    When I started as a junior developer, I was a bit overwhelmed. There was so much to learn. But the senior developers were very patient with me. Now, I'm helping a new junior developer who just joined our team. It feels good to be able to help someone who is in the same position I was in a few years ago.
