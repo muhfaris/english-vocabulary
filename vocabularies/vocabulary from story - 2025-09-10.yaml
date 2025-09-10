@@ -122,3 +122,164 @@
       difference: "A 'discovery' is finding something that already existed. A 'breakthrough' is often about overcoming a barrier or making a significant advance."
   story: |
     The team was struggling to improve the app's loading time. They tried several optimizations with little success. The breakthrough came when a junior developer suggested a completely new caching strategy that cut the loading time in half.
+- word: "kick-off"
+  pronunciation: "/ˈkɪk.ɒf/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The start of an event or project."
+    bahasa: "Awal dari sebuah acara atau proyek."
+  usage: "Used to describe the formal start of a project, meeting, or event."
+  synonyms:
+    - "start"
+    - "launch"
+    - "commencement"
+  examples:
+    workplace:
+      - "The project kick-off is scheduled for Monday at 10 AM."
+      - "We need to prepare the presentation for the kick-off meeting."
+    casual:
+      - "The kick-off for the festival is a parade through the town."
+      - "Let's have a small party as a kick-off for the holiday season."
+  related:
+    - word: "stand-up"
+      difference: "A kick-off is a one-time event to start a project, while a stand-up is a short, daily meeting to track progress."
+  story: |
+    The team was excited for the project kick-off. They had been planning for weeks, and it was finally time to start the work. The meeting set a positive tone for the entire project.
+- word: "flow"
+  pronunciation: "/floʊ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A mental state of being fully immersed and focused in an activity."
+    bahasa: "Keadaan mental yang sepenuhnya terbenam dan fokus pada suatu aktivitas."
+  usage: "Often used by developers and creatives to describe a state of high productivity and concentration."
+  synonyms:
+    - "focus"
+    - "concentration"
+    - "immersion"
+  examples:
+    workplace:
+      - "I was in a state of flow and didn't even notice it was time for lunch."
+      - "It's hard to get into a flow state with so many interruptions."
+    casual:
+      - "She was in a flow state while painting, completely lost in her art."
+      - "When I'm running, I sometimes get into a flow where I don't feel tired."
+  related:
+    - word: "focus"
+      difference: "Flow is a deeper, more immersive state than just focus. It often involves a feeling of effortless action."
+  story: |
+    As a developer, getting into a state of flow is the best feeling. The code just seems to write itself, and complex problems become easier to solve. It's the most productive part of the day.
+- word: "agenda"
+  pronunciation: "/əˈdʒen.də/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A list of matters to be discussed at a meeting."
+    bahasa: "Daftar hal-hal yang akan didiskusikan dalam sebuah pertemuan."
+  usage: "Used to structure a meeting and ensure all important topics are covered."
+  synonyms:
+    - "schedule"
+    - "itinerary"
+    - "plan"
+  examples:
+    workplace:
+      - "Please add your item to the agenda before the meeting."
+      - "Let's stick to the agenda to keep the meeting on track."
+    casual:
+      - "What's the agenda for our trip this weekend?"
+      - "My only agenda for today is to relax."
+  related:
+    - word: "minutes"
+      difference: "An agenda is the plan for a meeting, while minutes are the notes taken during the meeting."
+  story: |
+    Before every meeting, the team lead sends out a clear agenda. This helps everyone prepare and ensures the discussion is productive and focused.
+- word: "scope"
+  pronunciation: "/skoʊp/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The extent of the area or subject matter that something deals with or to which it is relevant."
+    bahasa: "Cakupan area atau subjek yang dibahas atau relevan."
+  usage: "In software development, it refers to the specific features and deliverables of a project."
+  synonyms:
+    - "range"
+    - "extent"
+    - "boundaries"
+  examples:
+    workplace:
+      - "Adding that feature is outside the scope of the current sprint."
+      - "We need to define the scope of the project clearly to avoid any misunderstandings."
+    casual:
+      - "The scope of the book is limited to European history."
+      - "That's beyond the scope of my responsibilities."
+  related:
+    - word: "feature"
+      difference: "A feature is a specific piece of functionality, while the scope is the collection of all features and work to be done in a project."
+  story: |
+    During sprint planning, the team had a long discussion to define the scope of the new feature. They wanted to make sure everyone had a clear understanding of what was included and what was not, to avoid 'scope creep' later on.
+- word: "heads-down"
+  pronunciation: "/ˌhedzˈdaʊn/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Concentrating hard on something without distractions."
+    bahasa: "Berkonsentrasi penuh pada sesuatu tanpa gangguan."
+  usage: "Used to describe a period of focused work."
+  synonyms:
+    - "focused"
+    - "concentrating"
+    - "buried in work"
+  examples:
+    workplace:
+      - "I'm going heads-down for the next two hours to finish this feature."
+      - "It's been a heads-down kind of day; I haven't talked to anyone."
+    casual:
+      - "He was heads-down studying for his final exams all week."
+      - "She was heads-down in a book and didn't hear me come in."
+  related:
+    - word: "busy"
+      difference: "Heads-down specifically implies deep focus and a lack of interruptions, while 'busy' can mean many things, including being in meetings or handling multiple small tasks."
+  story: |
+    When a deadline is approaching, the whole team goes heads-down. Everyone puts on their headphones, focuses on their tasks, and works hard to get the job done.
+- word: "ping"
+  pronunciation: "/pɪŋ/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To send a quick message to someone, typically online."
+    bahasa: "Mengirim pesan singkat kepada seseorang, biasanya secara online."
+  usage: "A casual way to say you will contact someone, usually via a messaging app like Slack or Teams."
+  synonyms:
+    - "message"
+    - "contact"
+    - "notify"
+  examples:
+    workplace:
+      - "I'll ping you on Slack when I have an update."
+      - "Can you ping me when you're free to talk?"
+    casual:
+      - "Ping me when you get home so I know you're safe."
+      - "I'll ping you the address of the restaurant."
+  related:
+    - word: "call"
+      difference: "Pinging someone is usually less intrusive than calling them. It's a quick, text-based message that doesn't require an immediate response."
+  story: |
+    When I'm stuck on a problem, I usually ping a senior developer on the team. A quick question can often save me hours of searching for a solution on my own.
+- word: "quick sync"
+  pronunciation: "/kwɪk sɪŋk/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A short, informal meeting to align on a specific topic."
+    bahasa: "Pertemuan singkat dan informal untuk menyamakan persepsi tentang topik tertentu."
+  usage: "Used when a quick conversation is needed to resolve an issue or make a decision, often to avoid a long, formal meeting."
+  synonyms:
+    - "huddle"
+    - "check-in"
+    - "brief chat"
+  examples:
+    workplace:
+      - "Let's have a quick sync to discuss the feedback from the client."
+      - "A quick sync with the designer helped me understand the requirements better."
+    casual:
+      - "We had a quick sync before the party to decide who was bringing what."
+      - "Let's do a quick sync this evening to plan our weekend."
+  related:
+    - word: "meeting"
+      difference: "A 'quick sync' is typically shorter, more informal, and more focused on a single topic than a general 'meeting'."
+  story: |
+    The frontend and backend developers had a quick sync to finalize the API contract. In just 15 minutes, they agreed on the data format and were able to continue their work without any blockers.
