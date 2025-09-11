@@ -1,0 +1,66 @@
+- title: sprint-retrospective
+  dialogue:
+    - speaker: Sarah
+      english: "Alright team, welcome to the sprint retrospective. Let's start with what went well this time."
+      bahasa: "Baiklah tim, selamat datang di retrospektif sprint. Mari kita mulai dengan apa yang berjalan baik kali ini."
+    - speaker: Tom
+      english: "I'll go first. The new CI/CD pipeline is a game-changer. Deployments are so much faster now."
+      bahasa: "Aku duluan. Pipeline CI/CD yang baru benar-benar mengubah segalanya. Deployment jadi jauh lebih cepat sekarang."
+    - speaker: Chloe
+      english: "I agree. Kudos to the infra team for that. It saved me a lot of time."
+      bahasa: "Setuju. Pujian untuk tim infra untuk itu. Itu menghemat banyak waktuku."
+    - speaker: Sarah
+      english: "Great to hear. Anything else on the positive side?"
+      bahasa: "Senang mendengarnya. Ada lagi di sisi positif?"
+    - speaker: Tom
+      english: "The pair programming session on the payment gateway feature was super productive."
+      bahasa: "Sesi pair programming untuk fitur gateway pembayaran sangat produktif."
+    - speaker: Sarah
+      english: "Excellent. Now, let's talk about what could have gone better."
+      bahasa: "Luar biasa. Sekarang, mari kita bicarakan apa yang bisa lebih baik lagi."
+    - speaker: Chloe
+      english: "I struggled with the user profile story. The requirements were a bit vague, especially the part about data privacy settings. It led to some rework."
+      bahasa: "Aku kesulitan dengan story profil pengguna. Persyaratannya agak kabur, terutama bagian tentang pengaturan privasi data. Itu menyebabkan beberapa pengerjaan ulang."
+    - speaker: Sarah
+      english: "Thanks for bringing that up, Chloe. That's valuable feedback. How can we prevent this from happening again?"
+      bahasa: "Terima kasih telah mengangkatnya, Chloe. Itu umpan balik yang berharga. Bagaimana kita bisa mencegah ini terjadi lagi?"
+    - speaker: Tom
+      english: "Maybe we need a stricter 'Definition of Ready'. If a ticket doesn't have clear acceptance criteria, it shouldn't be pulled into the sprint."
+      bahasa: "Mungkin kita memerlukan 'Definition of Ready' yang lebih ketat. Jika sebuah tiket tidak memiliki kriteria penerimaan yang jelas, tiket itu tidak boleh ditarik ke dalam sprint."
+    - speaker: Sarah
+      english: "I like that. So, an action item for this retrospective is to refine our 'Definition of Ready'. I can create a draft and share it for feedback."
+      bahasa: "Aku suka itu. Jadi, item tindakan untuk retrospektif ini adalah untuk menyempurnakan 'Definition of Ready' kita. Aku bisa membuat draf dan membagikannya untuk mendapatkan masukan."
+    - speaker: Chloe
+      english: "Sounds like a good plan. Maybe we can add a checklist to the ticket template."
+      bahasa: "Terdengar seperti rencana yang bagus. Mungkin kita bisa menambahkan daftar periksa ke templat tiket."
+    - speaker: Sarah
+      english: "Perfect. I'll add that to the action item. Thanks, everyone, for the constructive discussion."
+      bahasa: "Sempurna. Aku akan menambahkannya ke item tindakan. Terima kasih semuanya atas diskusi yang membangun."
+  expressions:
+    - phrase: "sprint retrospective"
+      meaning_english: "A meeting held at the end of a sprint for the team to reflect on what went well, what didn't, and how to improve."
+      meaning_bahasa: "Pertemuan yang diadakan di akhir sprint bagi tim untuk merefleksikan apa yang berjalan baik, apa yang tidak, dan bagaimana cara meningkatkannya."
+    - phrase: "game-changer"
+      meaning_english: "Something that significantly alters the way things are done."
+      meaning_bahasa: "Sesuatu yang secara signifikan mengubah cara kerja."
+    - phrase: "Kudos to"
+      meaning_english: "Praise or recognition given to someone for their achievements."
+      meaning_bahasa: "Pujian atau pengakuan yang diberikan kepada seseorang atas pencapaian mereka."
+    - phrase: "rework"
+      meaning_english: "Work that has to be done again because it was not done correctly the first time."
+      meaning_bahasa: "Pekerjaan yang harus dilakukan lagi karena tidak dilakukan dengan benar pada kali pertama."
+    - phrase: "Definition of Ready"
+      meaning_english: "A set of criteria that a user story must meet before it can be considered ready for development in a sprint."
+      meaning_bahasa: "Satu set kriteria yang harus dipenuhi oleh sebuah user story sebelum dapat dianggap siap untuk dikembangkan dalam sebuah sprint."
+    - phrase: "action item"
+      meaning_english: "A specific, discrete task that arises from a meeting or discussion that needs to be completed."
+      meaning_bahasa: "Tugas spesifik dan terpisah yang muncul dari sebuah pertemuan atau diskusi yang perlu diselesaikan."
+  questions:
+    - q: "What is the purpose of a sprint retrospective meeting?"
+      a: "For the team to reflect on their work process and identify areas for improvement for the next sprint."
+    - q: "What was a key success mentioned in the dialogue?"
+      a: "The new CI/CD pipeline, which made deployments much faster."
+    - q: "What problem did Chloe face during the sprint?"
+      a: "She had to do rework on a user story because the requirements were vague."
+    - q: "What was the main action item the team decided on?"
+      a: "To refine their 'Definition of Ready' and create a better ticket template to ensure user stories have clear requirements."
