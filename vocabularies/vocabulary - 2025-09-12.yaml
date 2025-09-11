@@ -1,0 +1,249 @@
+- word: "Congestion"
+  pronunciation: "/kənˈdʒes.tʃən/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A state of being overcrowded or blocked, leading to slow performance."
+    bahasa: "Kemacetan atau kepadatan. Situasi di mana sistem terlalu penuh atau terhalang, menyebabkan performa melambat."
+  usage: "Use this word when a system (like a network or server) is overloaded with traffic or tasks, which slows everything down. It’s a great way to describe performance issues without getting too technical."
+  synonyms:
+    - "overload"
+    - "bottleneck"
+  examples:
+    workplace:
+      - "The recent marketing campaign caused network congestion, and our main site became unresponsive."
+      - "We need to optimize the database queries to reduce congestion during peak hours."
+    casual:
+      - "I avoid that road during rush hour because the traffic congestion is terrible."
+      - "There's always a lot of congestion in the kitchen right before lunch."
+  related:
+    - word: "Bottleneck"
+      difference: "A 'bottleneck' is the specific point in a system that is causing the slowdown. 'Congestion' is the overall state of being slow because of too much traffic or data."
+    - word: "Overload"
+      difference: "'Overload' refers to a system having too much to handle, which often causes congestion. Congestion is the effect, while overload is the cause."
+  story: |
+    During our daily stand-up, Maya, our team lead, looked concerned. "Team, we're seeing significant performance degradation on the analytics dashboard," she said. "The system is experiencing heavy congestion every morning when users run their first reports. It’s like a traffic jam on the data highway. We need to figure out what's causing this and clear it up before it impacts more users."
+
+- word: "Earmark"
+  pronunciation: "/ˈɪr.mɑːrk/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To set aside something (like funds, time, or resources) for a particular purpose."
+    bahasa: "Menandai atau menyisihkan sesuatu (seperti dana, waktu, atau sumber daya) untuk tujuan tertentu."
+  usage: "Use 'earmark' in planning meetings when you want to officially allocate resources. It sounds more formal and decisive than just 'saving' or 'keeping'."
+  synonyms:
+    - "allocate"
+    - "reserve"
+  examples:
+    workplace:
+      - "We need to earmark at least two days next sprint to address technical debt."
+      - "The budget has been approved, and a portion is earmarked for upgrading our servers."
+    casual:
+      - "I've earmarked this weekend for finally cleaning out the garage."
+      - "She earmarked her bonus for a vacation to Bali."
+  related:
+    - word: "Allocate"
+      difference: "'Allocate' is a general term for distributing resources. 'Earmark' is more specific, implying that you're setting something aside for one single, special purpose."
+    - word: "Dedicate"
+      difference: "'Dedicate' is similar but often implies a stronger, more personal commitment. You dedicate your time to a cause, but you earmark funds for a project."
+  story: |
+    In our sprint planning meeting, David, the product manager, announced, "Great news, everyone. We've received approval to build the new notification feature." He continued, "To make sure this goes smoothly, I've managed to earmark one of our top UX designers to work with us exclusively for the next two sprints. Her time is completely reserved for this project, so let's make the most of it."
+
+- word: "Hiccup"
+  pronunciation: "/ˈhɪk.ʌp/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A small, temporary problem, setback, or interruption."
+    bahasa: "Sebuah masalah kecil, kemunduran, atau gangguan yang bersifat sementara. (Mirip cegukan)."
+  usage: "A 'hiccup' is a perfect word for a minor, unexpected problem that briefly stops progress. It sounds less severe than 'blocker' or 'issue' and implies it can be fixed easily."
+  synonyms:
+    - "glitch"
+    - "snag"
+  examples:
+    workplace:
+      - "The deployment was going smoothly until we hit a small hiccup with the database migration script."
+      - "We had a slight hiccup in our plan, but we're back on track now."
+    casual:
+      - "There was a little hiccup with the train schedule, so I arrived a bit late."
+      - "Our video call had a hiccup, and your screen froze for a moment."
+  related:
+    - word: "Setback"
+      difference: "A 'setback' is usually more serious and causes a longer delay than a 'hiccup'. A hiccup is a minor annoyance; a setback can be a major problem."
+    - word: "Glitch"
+      difference: "A 'glitch' is almost always used for a technical malfunction in software or hardware. A 'hiccup' can be used for both technical problems and process or planning issues."
+  story: |
+    "How's the feature rollout going?" asked my manager. I replied, "It's going well! We had a small hiccup earlier. The third-party API we depend on was down for about 15 minutes. But it came back online, and everything has been running smoothly since. It was just a temporary scare."
+
+- word: "Juggling"
+  pronunciation: "/ˈdʒʌɡ.lɪŋ/"
+  part_of_speech: "verb"
+  meaning:
+    english: "Trying to manage and balance several different tasks or activities at the same time."
+    bahasa: "Menyulap. Berusaha mengelola dan menyeimbangkan beberapa tugas atau aktivitas yang berbeda secara bersamaan."
+  usage: "Use this to describe a busy situation where you're handling multiple responsibilities. It creates a vivid image of someone trying to keep many balls in the air."
+  synonyms:
+    - "multitasking"
+    - "handling"
+  examples:
+    workplace:
+      - "This week, I'm juggling three high-priority bug fixes and a feature request."
+      - "Our project manager is a pro at juggling the needs of developers, designers, and stakeholders."
+    casual:
+      - "As a working parent, I'm always juggling my job and my family's schedule."
+      - "He's juggling two part-time jobs to save up for a new car."
+  related:
+    - word: "Multitasking"
+      difference: "'Multitasking' is a neutral, almost technical term for doing multiple things at once. 'Juggling' implies a sense of difficulty, urgency, or even stress, like you're trying hard not to let anything drop."
+    - word: "Balancing"
+      difference: "'Balancing' suggests finding a stable equilibrium between things. 'Juggling' suggests a more chaotic, active, and continuous effort to keep things under control."
+  story: |
+    During our one-on-one, my manager asked how I was doing. "Honestly, I'm juggling a lot right now," I admitted. "I'm trying to finish the API documentation, review a junior dev's code, and also prepare for that big demo on Friday. It feels like I'm constantly switching contexts, but I'm managing to keep everything moving forward."
+
+- word: "Nuance"
+  pronunciation: "/ˈnuː.ɑːns/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A subtle and slight difference in meaning, expression, tone, or detail."
+    bahasa: "Nuansa. Perbedaan yang halus dan tipis dalam makna, ekspresi, nada, atau detail."
+  usage: "Talk about 'nuance' when you need to discuss the small but important details. It’s perfect for conversations about user experience (UX), complex requirements, or even team communication."
+  synonyms:
+    - "subtlety"
+    - "distinction"
+  examples:
+    workplace:
+      - "The client's feedback has a lot of nuance, so we need to read it carefully before making changes."
+      - "There's a legal nuance in the new data privacy law that our engineering team needs to understand."
+    casual:
+      - "He didn't understand the nuance of her sarcastic joke."
+      - "To become a great chef, you must appreciate the nuance of different spices."
+  related:
+    - word: "Detail"
+      difference: "A 'detail' is just a piece of information. A 'nuance' is a subtle quality or difference that you have to pay close attention to notice, and it often changes the overall meaning or feeling."
+    - word: "Subtlety"
+      difference: "'Subtlety' and 'nuance' are very close synonyms. 'Nuance' is often used to refer to variations in meaning or interpretation, while 'subtlety' can also refer to a skillful or delicate quality."
+  story: |
+    In a design review, the UX designer explained, "The button can't just say 'Submit.' There's a nuance here. If the user is uploading a file, it should say 'Upload.' If they are saving a draft, it should say 'Save Draft.' This small change in text provides a better user experience by matching their intent. It’s these little nuances that make an application feel intuitive."
+
+- word: "Pioneer"
+  pronunciation: "/ˌpaɪəˈnɪr/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To be one of the first to develop or use a new method, technology, or idea."
+    bahasa: "Mempelopori. Menjadi salah satu yang pertama mengembangkan atau menggunakan metode, teknologi, atau gagasan baru."
+  usage: "Use 'pioneer' when your team is adopting a technology or process that is very new and not widely used yet. It implies courage and exploration into the unknown."
+  synonyms:
+    - "spearhead"
+    - "innovate"
+  examples:
+    workplace:
+      - "Our company decided to pioneer the use of quantum computing for data analysis."
+      - "She pioneered a new, more efficient testing methodology that the whole department now uses."
+    casual:
+      - "He was a director who pioneered a new style of filmmaking."
+      - "This community pioneered a new way of recycling plastic."
+  related:
+    - word: "Innovate"
+      difference: "'Innovate' means to introduce something new. 'Pioneer' is more about being the very first to explore a new field or method. All pioneers are innovators, but not all innovators are pioneers."
+    - word: "Lead"
+      difference: "'Lead' means to be in charge or ahead of others. 'Pioneer' specifically means you are leading in a new and unexplored territory."
+  story: |
+    During a tech talk, the speaker said, "When we first started using Rust for our backend services five years ago, nobody else in our industry was doing it. We had to pioneer our own best practices, write our own libraries, and figure everything out from scratch. It was challenging, but it gave us a huge performance advantage in the long run."
+
+- word: "Rundown"
+  pronunciation: "/ˈrʌn.daʊn/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A quick summary or brief explanation of the main points of something."
+    bahasa: "Ringkasan atau penjelasan singkat tentang poin-poin utama dari sesuatu."
+  usage: "Ask for a 'rundown' when you need a quick update on a project or situation, without all the tiny details. It's a casual way to ask for a summary."
+  synonyms:
+    - "summary"
+    - "briefing"
+  examples:
+    workplace:
+      - "Can you give me a quick rundown of what was decided in the meeting I missed?"
+      - "Before we start, let's get a rundown of the open tickets for this sprint."
+    casual:
+      - "I haven't been following the news. Can you give me a rundown of the major events?"
+      - "He gave me a rundown of the plot of the movie so I wouldn't be lost."
+  related:
+    - word: "Summary"
+      difference: "'Summary' is a bit more formal. 'Rundown' is more colloquial and often implies a spoken explanation. You'd ask for a rundown in a conversation, but you might write a summary in a report."
+    - word: "Briefing"
+      difference: "A 'briefing' is usually a more formal, one-way communication of information, often from a superior to their team. A 'rundown' is a more casual, informal exchange."
+  story: |
+    A new developer just joined our team. To help him get started, I said, "Welcome aboard! Let me give you a quick rundown of our tech stack. We use React on the frontend, a Node.js server with Express for our main API, and a PostgreSQL database. I'll send you the full documentation later, but that's the basic rundown to get you started."
+
+- word: "Stale"
+  pronunciation: "/steɪl/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "No longer new or fresh; out of date. Often used for data or code branches."
+    bahasa: "Basi atau usang. Tidak lagi baru atau segar; kedaluwarsa. Sering digunakan untuk data atau cabang kode."
+  usage: "This is a perfect word for a software engineering context. A pull request can be 'stale' if it's old and has conflicts. Cached data can be 'stale' if it doesn't reflect the latest information."
+  synonyms:
+    - "outdated"
+    - "obsolete"
+  examples:
+    workplace:
+      - "This pull request is three weeks old and has become stale. You'll need to rebase it."
+      - "The dashboard was showing stale data because the cache hadn't been updated."
+    casual:
+      - "I can't eat this bread; it's stale."
+      - "His jokes are getting a bit stale; he always tells the same ones."
+  related:
+    - word: "Outdated"
+      difference: "'Outdated' implies that something has been replaced by a newer version (like outdated software). 'Stale' implies that something has simply been sitting for too long and is no longer fresh or relevant (like a stale branch)."
+    - word: "Deprecated"
+      difference: "'Deprecated' is a formal status for a feature or function, meaning it's still supported but will be removed in the future. 'Stale' is an informal description for anything that's old and needs updating."
+  story: |
+    During code review, Maria commented on my pull request: "Hey, this looks good, but I noticed your branch is 50 commits behind the main branch. It's pretty stale at this point. Could you please rebase your changes? I'm worried about potential merge conflicts if we try to merge it as is."
+
+- word: "Traction"
+  pronunciation: "/ˈtræk.ʃən/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The progress, popularity, or acceptance an idea, product, or project is gaining."
+    bahasa: "Daya tarik atau cengkeraman. Kemajuan, popularitas, atau penerimaan yang diperoleh sebuah ide, produk, atau proyek."
+  usage: "Use 'traction' to talk about the success and adoption of a new feature or product. If a feature is getting a lot of use, it's 'gaining traction'."
+  synonyms:
+    - "momentum"
+    - "acceptance"
+  examples:
+    workplace:
+      - "Our new mobile app is finally starting to gain traction with users."
+      - "It was just an internal tool at first, but it got so much traction that we're releasing it publicly."
+    casual:
+      - "The new social media platform is struggling to get traction against its competitors."
+      - "The petition started to gain traction after a celebrity shared it."
+  related:
+    - word: "Momentum"
+      difference: "'Momentum' is about the speed of progress, the feeling that things are moving faster and faster. 'Traction' is about the connection with the audience or market. You need traction to build momentum."
+    - word: "Adoption"
+      difference: "'Adoption' refers to the act of users starting to use a product. 'Traction' is the broader concept of that adoption becoming significant and growing."
+  story: |
+    In the company's quarterly meeting, the CEO showed a graph with a sharply rising curve. "I'm thrilled to announce that the 'Project Dashboard' feature we launched last quarter is getting incredible traction," she said. "We've seen a 300% increase in weekly active users. This shows we've built something people really need, and it’s solving a real problem for our customers."
+
+- word: "Under the hood"
+  pronunciation: "/ˈʌn.dər ðə hʊd/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "The hidden, complex, inner workings of a system, like a machine or a piece of software."
+    bahasa: "Di balik layar / di bawah kap mesin. Cara kerja internal sebuah sistem yang tersembunyi dan kompleks."
+  usage: "This is a classic phrase in tech. Use it to distinguish between the simple user interface and the complex logic that powers it. It’s great for explaining what a developer works on."
+  synonyms:
+    - "behind the scenes"
+    - "internally"
+  examples:
+    workplace:
+      - "The user interface looks simple, but there is a lot of complex processing happening under the hood."
+      - "I don't know how the search algorithm works under the hood, but it's incredibly fast."
+    casual:
+      - "I just press a button on my coffee machine. I have no idea what happens under the hood."
+      - "She's a great leader because she understands what’s going on under the hood of the company."
+  related:
+    - word: "Behind the scenes"
+      difference: "This phrase is very similar and often interchangeable. 'Under the hood' is more commonly used for machines and technology, evoking the image of looking at a car engine. 'Behind the scenes' is more often used for processes involving people, like in theater or business."
+    - word: "Internals"
+      difference: "'Internals' is a more technical noun referring to the inner workings. You might say, 'I'm studying the internals of the database.' 'Under the hood' is a more descriptive, informal phrase."
+  story: |
+    A junior developer asked me, "How does clicking this one button manage to update the user's profile, send an email, and refresh the dashboard all at once?" I smiled and said, "It looks like magic from the outside, right? Let's dive into the code. I'll show you what's happening under the hood. There's an event listener that triggers a series of API calls and state updates. It’s pretty cool."
