@@ -1,0 +1,66 @@
+title: planning-a-refactor
+dialogue:
+  - speaker: Liam
+    english: "Hey Chloe, do you have a minute? I was just navigating the `UserService` module."
+    bahasa: "Hai Chloe, ada waktu sebentar? Aku baru saja melihat-lihat modul `UserService`."
+  - speaker: Chloe
+    english: "Sure, Liam. What's on your mind? That module is ancient."
+    bahasa: "Tentu, Liam. Ada apa? Modul itu sudah kuno."
+  - speaker: Liam
+    english: "Exactly. It's becoming a real bottleneck. The code is so tightly coupled, it's hard to make changes without breaking something."
+    bahasa: "Tepat sekali. Modul itu mulai menjadi penghambat. Kodenya sangat terikat erat, sulit membuat perubahan tanpa merusak sesuatu."
+  - speaker: Chloe
+    english: "You're telling me. I had to add a new user permission last week and it took me a whole day. It's a classic case of technical debt."
+    bahasa: "Aku setuju. Aku harus menambahkan izin pengguna baru minggu lalu dan itu memakan waktu seharian. Ini adalah contoh klasik dari utang teknis."
+  - speaker: Liam
+    english: "I think it's time we considered a proper refactor. The number of code smells in there is just growing."
+    bahasa: "Kurasa sudah waktunya kita mempertimbangkan untuk melakukan refactor yang layak. Jumlah 'code smell' di sana terus bertambah."
+  - speaker: Chloe
+    english: "I'm all for it. What's the scope you're thinking of? A full rewrite or something more incremental?"
+    bahasa: "Aku sangat setuju. Lingkup seperti apa yang kamu pikirkan? Menulis ulang sepenuhnya atau sesuatu yang lebih bertahap?"
+  - speaker: Liam
+    english: "A full rewrite sounds tempting, but I'm worried about scope creep. I'd prefer an incremental approach."
+    bahasa: "Menulis ulang sepenuhnya terdengar menggiurkan, tapi aku khawatir tentang 'scope creep'. Aku lebih suka pendekatan bertahap."
+  - speaker: Chloe
+    english: "That's wise. We can't afford to put a freeze on new features for too long. So, what's the first step?"
+    bahasa: "Itu bijaksana. Kita tidak bisa membekukan fitur baru terlalu lama. Jadi, apa langkah pertamanya?"
+  - speaker: Liam
+    english: "First, I think we need to improve the test coverage. We need a solid safety net before we start changing the logic."
+    bahasa: "Pertama, kurasa kita perlu meningkatkan cakupan tes. Kita butuh jaring pengaman yang kokoh sebelum mulai mengubah logikanya."
+  - speaker: Chloe
+    english: "Absolutely. We can start by writing characterization tests for the existing behavior."
+    bahasa: "Tentu saja. Kita bisa mulai dengan menulis 'characterization tests' untuk perilaku yang ada saat ini."
+  - speaker: Liam
+    english: "Great minds think alike. Let's block out some time next week to pair on writing those tests."
+    bahasa: "Pikiran kita sama. Mari kita luangkan waktu minggu depan untuk bekerja sama menulis tes-tes itu."
+  - speaker: Chloe
+    english: "Sounds like a plan. I'll create a calendar invite. It feels good to finally tackle this."
+    bahasa: "Terdengar seperti rencana. Aku akan membuat undangan di kalender. Senang rasanya akhirnya bisa mengatasi ini."
+
+expressions:
+  - phrase: "Tightly coupled"
+    meaning_english: "Code where different parts are highly dependent on each other, making changes difficult."
+    meaning_bahasa: "Kode di mana bagian-bagian yang berbeda sangat bergantung satu sama lain, membuat perubahan menjadi sulit."
+  - phrase: "Technical debt"
+    meaning_english: "The implied cost of rework caused by choosing an easy (limited) solution now instead of using a better approach that would take longer."
+    meaning_bahasa: "Biaya pengerjaan ulang yang tersirat yang disebabkan oleh memilih solusi yang mudah (terbatas) sekarang daripada menggunakan pendekatan yang lebih baik yang akan memakan waktu lebih lama."
+  - phrase: "Code smells"
+    meaning_english: "Symptoms in the source code of a program that possibly indicate a deeper problem."
+    meaning_bahasa: "Gejala dalam kode sumber program yang mungkin menunjukkan masalah yang lebih dalam."
+  - phrase: "Scope creep"
+    meaning_english: "When the requirements or goals of a project expand from what was originally intended."
+    meaning_bahasa: "Ketika persyaratan atau tujuan sebuah proyek meluas dari yang semula direncanakan."
+  - phrase: "Incremental approach"
+    meaning_english: "Making changes in small, manageable steps rather than all at once."
+    meaning_bahasa: "Melakukan perubahan dalam langkah-langkah kecil yang dapat dikelola daripada sekaligus."
+  - phrase: "Test coverage"
+    meaning_english: "A metric that measures the percentage of source code that is executed when a particular test suite runs."
+    meaning_bahasa: "Metrik yang mengukur persentase kode sumber yang dieksekusi saat rangkaian tes tertentu berjalan."
+
+questions:
+  - q: "What module did Liam and Chloe decide to refactor?"
+    a: "They decided to refactor the `UserService` module."
+  - q: "What was the main reason for refactoring the module?"
+    a: "The code was tightly coupled and had a lot of technical debt, making it difficult to change."
+  - q: "What was the first step they agreed on for the refactoring process?"
+    a: "They agreed to first improve the test coverage to create a safety net."
