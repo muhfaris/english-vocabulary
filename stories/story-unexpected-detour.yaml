@@ -1,0 +1,15 @@
+story:
+  title: "unexpected-detour"
+  date: "2025-09-11"
+  text: |
+    The day began with my usual routine: a cup of coffee while scanning through team messages. Our morning **stand-up** was brief, with everyone sharing their progress. I was all set to continue working on a new feature, but my plans took an **unexpected** turn. A **high-priority** bug was reported from our customer support team. The login page was failing for a small group of users, and we needed to address it immediately.
+
+    I decided to **investigate** the issue. It was a strange one, as I couldn't replicate it at first. I had to **dig deeper** into the logs. After about an hour, I finally found the **culprit**: a specific browser extension was interfering with our authentication script. It was a tricky one to find.
+
+    The fix required adding a small validation check. I wrote the code, added a comment explaining the "why," and pushed it for review. I sent a quick message to my tech lead to give him a **heads-up**. He approved the change quickly, and I deployed the **hotfix**. It’s always satisfying to solve a puzzle like that. The rest of the day felt much more **relaxed** after getting that done.
+  highlighted_words:
+    - "unexpected"
+    - "high-priority"
+    - "investigate"
+    - "dig deeper"
+    - "relaxed"

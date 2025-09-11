@@ -298,3 +298,117 @@
       difference: "'Foresight' is knowing what to do *before* an event. 'Hindsight' is understanding what you *should have done* after the event has already happened."
   story: |
     The system was designed to be modular from the very beginning. The original architect had the **foresight** to know that we would need to replace different components in the future. Because of his **foresight**, we can now upgrade our database with minimal effort.
+- word: "unexpected"
+  pronunciation: "/ˌʌnɪkˈspɛktɪd/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Not expected or regarded as likely to happen."
+    bahasa: "Tidak terduga; di luar dugaan."
+  usage: "Use this to describe an event, outcome, or situation that you did not anticipate."
+  synonyms:
+    - "unforeseen"
+    - "surprising"
+  examples:
+    workplace:
+      - "We ran into an unexpected issue during deployment."
+      - "The positive feedback from the client was an unexpected bonus."
+    casual:
+      - "An unexpected guest arrived at the party."
+      - "The story had an unexpected ending."
+  related:
+    - word: "surprising"
+      difference: "'Surprising' emphasizes the feeling of surprise an event causes. 'Unexpected' is more neutral and simply states that the event was not predicted."
+  story: |
+    The team was confident about the release. Everything had been tested. However, an unexpected bug appeared in production that was not present in the staging environment. It turned out to be a configuration difference between the two systems.
+
+- word: "high-priority"
+  pronunciation: "/haɪ praɪˈɒrəti/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Of great importance; needing to be dealt with before other things."
+    bahasa: "Prioritas tinggi; sangat penting."
+  usage: "Use this to describe tasks, bugs, or projects that are more important than others and require immediate attention."
+  synonyms:
+    - "critical"
+    - "urgent"
+  examples:
+    workplace:
+      - "The server outage is a high-priority issue; all other work must stop."
+      - "I have a list of high-priority tasks to complete before the end of the day."
+    casual:
+      - "Getting the leaky roof fixed is a high-priority for us."
+      - "For me, daily exercise is a high-priority."
+  related:
+    - word: "urgent"
+      difference: "'Urgent' relates to time, meaning it must be done now. 'High-priority' relates to importance. Something can be high-priority but not urgent (e.g., planning next year's strategy)."
+  story: |
+    As soon as the security vulnerability was discovered, it became a high-priority ticket. The team dropped everything else to work on a patch. In software, protecting user data is always a high-priority concern.
+
+- word: "investigate"
+  pronunciation: "/ɪnˈvɛstɪɡeɪt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To carry out a systematic or formal inquiry to discover and examine the facts of an incident, allegation, etc., so as to establish the truth."
+    bahasa: "Menyelidiki; memeriksa."
+  usage: "Use this verb when you are trying to find out the cause of a problem, especially a technical one, by examining logs, code, and data."
+  synonyms:
+    - "examine"
+    - "explore"
+  examples:
+    workplace:
+      - "I need to investigate why the API is returning a 500 error."
+      - "The performance team is investigating the recent slowdown."
+    casual:
+      - "The police are investigating the crime."
+      - "I'm going to investigate what's making that strange noise in the attic."
+  related:
+    - word: "debug"
+      difference: "'Debug' is a specific type of investigation focused on finding and fixing bugs in code. 'Investigate' is more general and can apply to any type of problem-solving."
+  story: |
+    A customer reported that their data was not being saved correctly. My manager asked me to investigate the issue. I spent the morning looking through the application logs and database records to trace the user's activity and find out where things went wrong.
+
+- word: "dig deeper"
+  pronunciation: "/dɪg ˈdiːpər/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To investigate something more thoroughly than before."
+    bahasa: "Menggali lebih dalam; menyelidiki lebih lanjut."
+  usage: "Use this phrase when a surface-level investigation is not enough and you need to look for more detailed information to find the root cause."
+  synonyms:
+    - "probe further"
+    - "look closer"
+  examples:
+    workplace:
+      - "The initial logs didn't show anything. We need to dig deeper."
+      - "If you want to understand this legacy code, you'll have to dig deeper into the documentation."
+    casual:
+      - "The movie was interesting, but if you dig deeper, you'll find many hidden meanings."
+      - "She started with a simple family tree, but decided to dig deeper into her ancestry."
+  related:
+    - word: "deep dive"
+      difference: "A 'deep dive' is a noun phrase for a thorough investigation (e.g., 'Let's do a deep dive'). 'Dig deeper' is a verb phrase for the action of investigating more thoroughly (e.g., 'We need to dig deeper')."
+  story: |
+    The website was slow, but the reason wasn't obvious. The server CPU and memory looked fine. I had to dig deeper and analyze the network requests. I discovered that we were loading a huge, uncompressed image on the homepage, which was the real culprit.
+
+- word: "relaxed"
+  pronunciation: "/rɪˈlækst/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Free from tension and anxiety; at ease."
+    bahasa: "Santai; rileks."
+  usage: "Use this to describe a person's feeling, a situation, or an atmosphere that is calm and not stressful."
+  synonyms:
+    - "calm"
+    - "at ease"
+  examples:
+    workplace:
+      - "After the major release was successfully deployed, the team atmosphere became much more relaxed."
+      - "Our company has a relaxed dress code."
+    casual:
+      - "I feel so relaxed after my vacation."
+      - "It was a relaxed weekend with no plans."
+  related:
+    - word: "calm"
+      difference: "'Calm' often refers to a quiet and peaceful state. 'Relaxed' refers to a lack of stress or worry. You can be in a noisy place but still feel relaxed."
+  story: |
+    The week before a deadline is always stressful. But once the project is launched, the office has a much more relaxed vibe. People take longer lunch breaks, chat more, and the overall pressure is gone. It's a nice change of pace.
