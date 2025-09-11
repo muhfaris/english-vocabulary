@@ -1,0 +1,20 @@
+story:
+  title: "a-day-of-unexpected-turns"
+  date: "2025-09-12"
+  text: |
+    The day started as usual. I grabbed my **morning brew** and joined the daily **huddle**. My main task was to **flesh out** the technical plan for a new feature. I had already **scoped out** the work last week, so I thought it would be a straightforward day of writing documentation.
+
+    Around noon, my manager pinged me. "We need to **pivot**," he said. "The client wants a different feature urgently." This meant my morning's work was now on the **back-burner**. I had to quickly **get up to speed** on the new requirements.
+
+    The new task involved fixing a critical bug in a legacy module. The code was **brittle**, and any change could have unforeseen consequences. I spent the afternoon in a **deep dive**, trying to understand the logic. It was a real challenge, but also a chance to **level up** my debugging skills. By the end of the day, I had a solid plan to tackle the bug, which I shared with the team for feedback. It was a good reminder that every day can be unpredictable.
+  highlighted_words:
+    - "morning brew"
+    - "huddle"
+    - "flesh out"
+    - "scoped out"
+    - "pivot"
+    - "back-burner"
+    - "get up to speed"
+    - "brittle"
+    - "deep dive"
+    - "level up"
