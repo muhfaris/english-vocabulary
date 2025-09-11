@@ -64,3 +64,69 @@
       a: "It was a classic N+1 query problem, where a loop was making individual database queries for each item."
     - q: "What was the proposed solution to fix the performance bottleneck?"
       a: "To use eager loading to fetch all the necessary data in a single, more efficient query."
+- title: a-hectic-morning-with-the-team
+  dialogue:
+    - speaker: Maria
+      english: "Morning, team. It looks like the CI pipeline is broken. All builds are failing."
+      bahasa: "Pagi, tim. Sepertinya pipeline CI kita rusak. Semua build gagal."
+    - speaker: David
+      english: "Oh, seriously? I just merged my feature branch. Was it my change?"
+      bahasa: "Oh, serius? Aku baru saja me-merge feature branch-ku. Apa karena perubahanku?"
+    - speaker: Maria
+      english: "I don't think so. The error seems to be related to a dependency download failing. Something about a checksum mismatch."
+      bahasa: "Kurasa tidak. Kesalahannya sepertinya terkait dengan kegagalan unduhan dependensi. Sesuatu tentang checksum yang tidak cocok."
+    - speaker: Lisa
+      english: "I saw that too. It started about 30 minutes ago. Maybe the package repository is having issues."
+      bahasa: "Aku juga melihatnya. Itu dimulai sekitar 30 menit yang lalu. Mungkin repositori paketnya sedang bermasalah."
+    - speaker: David
+      english: "Okay, so it's not just me. That's a relief. What's the plan?"
+      bahasa: "Oke, jadi bukan hanya aku. Syukurlah. Apa rencananya?"
+    - speaker: Maria
+      english: "Lisa, can you check the status page for our package registry? David, can you try running the build locally to confirm it's not a code issue?"
+      bahasa: "Lisa, bisakah kamu memeriksa halaman status registri paket kita? David, bisakah kamu mencoba menjalankan build secara lokal untuk memastikan ini bukan masalah kode?"
+    - speaker: Lisa
+      english: "On it. Their status page says they are investigating an incident. High latency and download failures."
+      bahasa: "Siap. Halaman status mereka mengatakan mereka sedang menyelidiki sebuah insiden. Latensi tinggi dan kegagalan unduhan."
+    - speaker: David
+      english: "Running it locally now... yeah, all dependencies downloaded fine and the build passed."
+      bahasa: "Sedang menjalankannya secara lokal sekarang... ya, semua dependensi berhasil diunduh dan build-nya berhasil."
+    - speaker: Maria
+      english: "Alright, so we're blocked by an external service. I'll post an update in the main engineering channel to let everyone know."
+      bahasa: "Baiklah, jadi kita terhalang oleh layanan eksternal. Aku akan memposting pembaruan di saluran engineering utama untuk memberitahu semua orang."
+    - speaker: Lisa
+      english: "Good idea. In the meantime, should we focus on something else? I can pick up that code review for the analytics feature."
+      bahasa: "Ide bagus. Sementara itu, haruskah kita fokus pada hal lain? Aku bisa mengambil ulasan kode untuk fitur analitik."
+    - speaker: Maria
+      english: "Perfect. Let's pivot to tasks that don't require the CI pipeline for now. Let's sync up again in an hour."
+      bahasa: "Sempurna. Mari kita beralih ke tugas-tugas yang tidak memerlukan pipeline CI untuk saat ini. Mari kita sinkronisasi lagi dalam satu jam."
+    - speaker: David
+      english: "Sounds good. Thanks, Maria."
+      bahasa: "Terdengar bagus. Terima kasih, Maria."
+
+  expressions:
+    - phrase: "CI pipeline is broken"
+      meaning_english: "The Continuous Integration system, which automatically builds and tests code, is not working."
+      meaning_bahasa: "Sistem Integrasi Berkelanjutan, yang secara otomatis membangun dan menguji kode, tidak berfungsi."
+    - phrase: "checksum mismatch"
+      meaning_english: "An error indicating that a downloaded file is corrupt or different from the expected version."
+      meaning_bahasa: "Kesalahan yang menunjukkan bahwa file yang diunduh rusak atau berbeda dari versi yang diharapkan."
+    - phrase: "package repository"
+      meaning_english: "A central place where software packages (libraries, dependencies) are stored and can be retrieved from."
+      meaning_bahasa: "Tempat terpusat di mana paket perangkat lunak (pustaka, dependensi) disimpan dan dapat diambil."
+    - phrase: "status page"
+      meaning_english: "A webpage provided by a service to communicate the current status of its operations and any ongoing incidents."
+      meaning_bahasa: "Halaman web yang disediakan oleh layanan untuk mengkomunikasikan status operasinya saat ini dan setiap insiden yang sedang berlangsung."
+    - phrase: "blocked by an external service"
+      meaning_english: "Unable to proceed with a task because a third-party service that it depends on is unavailable."
+      meaning_bahasa: "Tidak dapat melanjutkan tugas karena layanan pihak ketiga yang menjadi sandarannya tidak tersedia."
+    - phrase: "pivot to tasks"
+      meaning_english: "To switch focus to different tasks, usually in response to a blocker or change in priority."
+      meaning_bahasa: "Mengalihkan fokus ke tugas yang berbeda, biasanya sebagai respons terhadap penghalang atau perubahan prioritas."
+
+  questions:
+    - q: "What was the initial problem the team faced in the morning?"
+      a: "The CI (Continuous Integration) pipeline was broken, causing all builds to fail."
+    - q: "What was the root cause of the broken pipeline?"
+      a: "An external package repository was experiencing an incident, leading to dependency download failures."
+    - q: "How did the team decide to handle the situation while the external service was down?"
+      a: "They decided to pivot to other tasks that didn't depend on the CI pipeline and planned to sync up later."
