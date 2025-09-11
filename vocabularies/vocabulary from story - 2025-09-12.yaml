@@ -1,0 +1,47 @@
+- word: "get up to speed"
+  pronunciation: "/gɛt ʌp tu spid/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To learn the latest information about something; to become fully informed."
+    bahasa: "Mempelajari informasi terbaru; menjadi paham sepenuhnya."
+  usage: "Use this phrase when you need to quickly learn about a new project, technology, or situation to become effective."
+  synonyms:
+    - "catch up"
+    - "become familiar"
+    - "acquaint oneself with"
+  examples:
+    workplace:
+      - "I just joined the project, so I need to **get up to speed** on the codebase."
+      - "Can you give me a summary of the meeting? I need to **get up to speed**."
+    casual:
+      - "I need to **get up to speed** on the latest season of my favorite show."
+      - "He read the news to **get up to speed** on current events."
+  related:
+    - word: "onboarding"
+      difference: "'Onboarding' is a formal process of integrating a new employee. 'Getting up to speed' is an informal action of learning about a specific topic or project, and can be done by anyone at any time."
+  story: |
+    A new developer joined our team today. To help her **get up to speed**, we gave her access to the project documentation and scheduled a few walkthrough sessions. By the end of the week, she was already contributing to the code.
+
+- word: "level up"
+  pronunciation: "/ˈlɛvəl ʌp/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To improve your skills or abilities, often to a new level of proficiency."
+    bahasa: "Meningkatkan kemampuan; naik level."
+  usage: "Originally from video games, this phrase is now commonly used to describe personal or professional development and skill improvement."
+  synonyms:
+    - "improve"
+    - "enhance"
+    - "upgrade skills"
+  examples:
+    workplace:
+      - "I'm taking an online course to **level up** my Python skills."
+      - "This challenging project is a great opportunity to **level up** as an engineer."
+    casual:
+      - "He's been practicing every day to **level up** his guitar playing."
+      - "She decided to **level up** her cooking skills by taking a class."
+  related:
+    - word: "skill up"
+      difference: "'Skill up' is very similar and often used interchangeably. 'Level up' has a more modern, game-like feel to it, implying advancing to a new, distinct tier of ability."
+  story: |
+    Our company encourages us to spend a few hours every Friday on professional development. I'm using this time to learn about machine learning. It's a great way to **level up** my skill set and stay current with new technologies.
