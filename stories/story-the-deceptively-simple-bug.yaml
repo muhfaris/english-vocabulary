@@ -1,0 +1,17 @@
+story:
+  title: "the-deceptively-simple-bug"
+  date: "2025-09-11"
+  text: |
+    My morning started with what looked like a **seemingly** straightforward bug report. A user’s profile picture wasn't updating correctly. "Easy fix," I thought, grabbing my coffee. I decided to **dig into** the frontend code first, expecting a simple state management issue.
+
+    However, an hour later, I was deep in a **rabbit hole**. The frontend was sending the correct data, but the backend seemed to be ignoring it. I looped in Sarah from the backend team to help me **get to the bottom of** it. Together, we found the issue was quite **tricky**—an old caching layer was serving stale data, but only for certain user accounts.
+
+    It **turned out** that a recent update to the caching service had a subtle configuration change. Once we figured that out, the fix was quick. I deployed the patch and confirmed with the user that everything was working. It was a good reminder that even simple bugs can have complex roots. By the end of the day, we had a **solid** fix in place and a better understanding of our caching system.
+  highlighted_words:
+    - "seemingly"
+    - "dig into"
+    - "rabbit hole"
+    - "get to the bottom of"
+    - "tricky"
+    - "turn out"
+    - "solid"
