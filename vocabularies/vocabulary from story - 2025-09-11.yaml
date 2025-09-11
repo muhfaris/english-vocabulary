@@ -1,0 +1,162 @@
+- word: "seemingly"
+  pronunciation: "/ˈsiːmɪŋli/"
+  part_of_speech: "adverb"
+  meaning:
+    english: "Appearing to be true or real, but not necessarily so."
+    bahasa: "Tampaknya; kelihatannya."
+  usage: "Use 'seemingly' to introduce a situation that appears one way on the surface but might be different in reality. It often precedes an adjective."
+  synonyms:
+    - "apparently"
+    - "ostensibly"
+    - "on the surface"
+  examples:
+    workplace:
+      - "The bug seemed straightforward at first, but it was **seemingly** connected to a deeper issue."
+      - "This was a **seemingly** minor change, but it improved performance by 10%."
+    casual:
+      - "He was **seemingly** calm, but I knew he was nervous."
+      - "It was a **seemingly** endless road."
+  related:
+    - word: "apparently"
+      difference: "'Apparently' suggests that you've heard or read something that gives you an impression, while 'seemingly' is more about the visual or obvious appearance of a situation."
+  story: |
+    At our stand-up, Maria mentioned a **seemingly** simple task: updating the copyright year in the website's footer. It looked like a five-minute job. However, she discovered the year was hard-coded in over 20 different files. What started as a seemingly easy task turned into a small refactoring project.
+- word: "dig into"
+  pronunciation: "/dɪg ˈɪntuː/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To investigate something more thoroughly; to explore in detail."
+    bahasa: "Mendalami; menyelidiki lebih dalam."
+  usage: "Use 'dig into' when you need to start investigating a problem, a piece of code, or a topic in more detail."
+  synonyms:
+    - "investigate"
+    - "examine"
+    - "probe"
+  examples:
+    workplace:
+      - "I need to **dig into** the logs to understand why the server crashed."
+      - "Let's **dig into** the user feedback from last week's release."
+    casual:
+      - "I want to **dig into** that new book everyone is talking about."
+      - "She started to **dig into** her family's history."
+  related:
+    - word: "look into"
+      difference: "'Look into' is a general term for investigating. 'Dig into' implies a deeper, more thorough, and more effortful investigation."
+  story: |
+    The performance dashboard showed a spike in latency every night at 2 AM. Nobody knew why. My team lead asked me to **dig into** it. I spent the afternoon analyzing server metrics and cron jobs. After a few hours of digging, I found a backup script that was consuming all the resources.
+- word: "rabbit hole"
+  pronunciation: "/ˈræbɪt hoʊl/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A complex and bizarre or difficult situation, especially one that is difficult to get out of."
+    bahasa: "Situasi yang rumit dan membingungkan (seringkali berawal dari hal kecil)."
+  usage: "Used to describe a line of investigation or a task that becomes unexpectedly deep, complex, and time-consuming."
+  synonyms:
+    - "maze"
+    - "tangled mess"
+    - "complex situation"
+  examples:
+    workplace:
+      - "I was just trying to fix a typo, but it led me down a **rabbit hole** of legacy code."
+      - "Be careful with that module; it's a known **rabbit hole** for bugs."
+    casual:
+      - "I started watching one video about making bread and went down a YouTube **rabbit hole** for hours."
+      - "Researching my ancestry has become a fascinating **rabbit hole**."
+  related:
+    - word: "can of worms"
+      difference: "Opening a 'can of worms' means starting something that will cause a lot of problems. Going down a 'rabbit hole' is more about getting lost in a complex and deep investigation."
+  story: |
+    A user reported that our app was slow on a specific phone model. I thought it would be a simple CSS fix. But it turned out to be a rendering issue deep within the mobile browser itself. I spent the whole day reading documentation and trying workarounds. It was a real **rabbit hole**.
+- word: "get to the bottom of"
+  pronunciation: "/gɛt tu ðə ˈbɒtəm ʌv/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To find the true cause or origin of a problem or situation."
+    bahasa: "Menemukan akar masalah; mencari tahu penyebab sebenarnya."
+  usage: "This phrase is used when you are determined to uncover the fundamental reason for an issue, often after a surface-level investigation has failed."
+  synonyms:
+    - "uncover the truth"
+    - "find the root cause"
+    - "solve the mystery"
+  examples:
+    workplace:
+      - "We need to **get to the bottom of** this data discrepancy before the end of the sprint."
+      - "She's the best detective on our team; she can always **get to the bottom of** any bug."
+    casual:
+      - "I'm going to **get to the bottom of** why my internet is so slow."
+      - "The journalist was determined to **get to the bottom of** the story."
+  related:
+    - word: "figure out"
+      difference: "'Figure out' means to find a solution or understand something. 'Get to the bottom of' specifically emphasizes finding the *root cause* of a problem, suggesting a deeper investigation."
+  story: |
+    Our automated tests were failing intermittently, but no one knew why. The build would pass, then fail with the same code. We assembled a small task force to **get to the bottom of** the issue. After two days, we discovered the test runner server was running out of memory, causing the random failures.
+- word: "tricky"
+  pronunciation: "/ˈtrɪki/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Requiring skill or careful handling; difficult or complicated."
+    bahasa: "Rumit; sulit; butuh kehati-hatian."
+  usage: "Use 'tricky' to describe a problem, task, or situation that is not straightforward and might have hidden complexities."
+  synonyms:
+    - "difficult"
+    - "complicated"
+    - "delicate"
+  examples:
+    workplace:
+      - "Merging these two branches is going to be **tricky** because of the conflicts."
+      - "The logic for this feature is a bit **tricky**, so let's write extra tests."
+    casual:
+      - "Parking in this city is always **tricky**."
+      - "It's a **tricky** question to answer."
+  related:
+    - word: "complex"
+      difference: "'Complex' refers to something with many interconnected parts. 'Tricky' implies that it requires cleverness or care to handle, even if it isn't necessarily complex."
+  story: |
+    I had to write a SQL query to migrate user data from our old system. The schema was completely different, so mapping the fields was **tricky**. I had to be extremely careful not to lose any user information. I asked a senior dev to double-check my script before running it.
+- word: "turn out"
+  pronunciation: "/tɜːrn aʊt/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To prove to be the case; the final result or outcome of a situation."
+    bahasa: "Ternyata; pada akhirnya."
+  usage: "Use 'turn out' to describe an unexpected result or to state the final conclusion of a series of events."
+  synonyms:
+    - "end up"
+    - "prove to be"
+    - "be discovered to be"
+  examples:
+    workplace:
+      - "The bug I was hunting all day **turned out** to be a single typo in a config file."
+      - "We were worried about the deployment, but everything **turned out** fine."
+    casual:
+      - "The weather forecast was bad, but it **turned out** to be a beautiful day."
+      - "I thought I lost my keys, but they **turned out** to be in my other jacket."
+  related:
+    - word: "end up"
+      difference: "'End up' focuses on the final state or location (e.g., 'we ended up at the wrong restaurant'). 'Turn out' focuses more on the final nature or truth of a situation (e.g., 'it turned out to be the wrong restaurant')."
+  story: |
+    We spent a week optimizing a slow API endpoint. We thought the database query was the bottleneck. After a lot of investigation, it **turned out** that the problem wasn't the query at all, but the way we were serializing the data to JSON. It was an unexpected discovery.
+- word: "solid"
+  pronunciation: "/ˈsɒlɪd/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Reliable, dependable, and of good quality; well-founded."
+    bahasa: "Kuat; andal; bagus; meyakinkan."
+  usage: "In a workplace context, 'solid' is used to describe work, a plan, or an understanding that is thorough, reliable, and trustworthy."
+  synonyms:
+    - "reliable"
+    - "dependable"
+    - "robust"
+    - "sound"
+  examples:
+    workplace:
+      - "That's a **solid** plan. Let's move forward with it."
+      - "Her code is always **solid**; I rarely find bugs in it."
+    casual:
+      - "He gave a **solid** performance in the game."
+      - "You need a **solid** reason to miss the event."
+  related:
+    - word: "robust"
+      difference: "'Robust' specifically refers to something that is strong and can withstand stress or failure (e.g., a robust system). 'Solid' is more general and can refer to quality and reliability in plans, ideas, or work that isn't necessarily a system."
+  story: |
+    Before we presented our new feature proposal to the stakeholders, we spent two days refining the plan. We gathered data, created mockups, and estimated the timeline. We wanted to make sure our proposal was **solid** and could withstand any questions. The presentation went great because our preparation was so **solid**.
