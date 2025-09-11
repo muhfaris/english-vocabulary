@@ -1,0 +1,16 @@
+story:
+  title: "a-quick-technical-discussion"
+  date: "2025-09-11"
+  text: |
+    The morning stand-up was brief. My main task was to figure out the best way to handle image uploads for the new user profile feature. I had a rough idea, but I wanted to get a second opinion. I walked over to Sarah's desk. "Got a minute?" I asked. "I'm a bit **puzzled** about the image upload implementation."
+
+    She nodded, and I quickly **sketched out** my approach on a whiteboard. "This looks good," she said, "but have you considered the consequences? Your method is simple, but it might be slow for large files. We could add a compression step on the client-side before uploading."
+
+    It was a great point. Her suggestion was a significant **improvement** to my original plan. Feeling much more confident, I went back to my desk to start implementing the new approach. It’s always good to have a **sounding board** to bounce ideas off of. The quick chat helped me avoid a potential **pitfall** and improve the user experience. I'm glad I had the **foresight** to ask for help.
+  highlighted_words:
+    - "puzzled"
+    - "sketched out"
+    - "improvement"
+    - "sounding board"
+    - "pitfall"
+    - "foresight"

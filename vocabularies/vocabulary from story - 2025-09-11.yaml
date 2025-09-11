@@ -160,3 +160,141 @@
       difference: "'Robust' specifically refers to something that is strong and can withstand stress or failure (e.g., a robust system). 'Solid' is more general and can refer to quality and reliability in plans, ideas, or work that isn't necessarily a system."
   story: |
     Before we presented our new feature proposal to the stakeholders, we spent two days refining the plan. We gathered data, created mockups, and estimated the timeline. We wanted to make sure our proposal was **solid** and could withstand any questions. The presentation went great because our preparation was so **solid**.
+- word: "puzzled"
+  pronunciation: "/ˈpʌzəld/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Feeling confused because you do not understand something."
+    bahasa: "Bingung; heran."
+  usage: "Use 'puzzled' to describe a feeling of confusion when you encounter something unexpected or difficult to understand."
+  synonyms:
+    - "confused"
+    - "bewildered"
+    - "perplexed"
+  examples:
+    workplace:
+      - "I was **puzzled** by the error message; it didn't make any sense."
+      - "She had a **puzzled** look on her face during the technical explanation."
+    casual:
+      - "He was **puzzled** about why the cake didn't rise."
+      - "I'm **puzzled** as to why he would say that."
+  related:
+    - word: "confused"
+      difference: "'Confused' is a general feeling of not understanding. 'Puzzled' often implies that you are actively trying to solve the mystery or understand the reason for your confusion."
+  story: |
+    I was **puzzled** when my code failed the tests on the CI server but passed on my local machine. It took me an hour to realize the server was running a different version of the database, which caused a subtle incompatibility.
+- word: "sketched out"
+  pronunciation: "/skɛtʃt aʊt/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To draw or describe something in a basic way, giving only the main details."
+    bahasa: "Membuat sketsa; menguraikan secara garis besar."
+  usage: "Use 'sketched out' to describe the action of quickly creating a high-level plan or design, often on a whiteboard or in a notebook."
+  synonyms:
+    - "outlined"
+    - "drafted"
+    - "drew up"
+  examples:
+    workplace:
+      - "We **sketched out** the new architecture on the whiteboard."
+      - "She **sketched out** a rough plan for the next sprint."
+    casual:
+      - "He **sketched out** a map to his house for me."
+      - "I **sketched out** a few ideas for the story."
+  related:
+    - word: "wireframe"
+      difference: "'Wireframe' is a more formal term for a visual guide that represents the skeletal framework of a website or app. 'Sketched out' is a more general action of creating a rough drawing or plan."
+  story: |
+    During the brainstorming session, we **sketched out** the user flow for the new feature. It wasn't detailed, but the rough drawing helped everyone get on the same page about the main steps the user would take.
+- word: "improvement"
+  pronunciation: "/ɪmˈpruːvmənt/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The act of making something better, or the state of being better than before."
+    bahasa: "Peningkatan; perbaikan."
+  usage: "Use 'improvement' to refer to a change that makes a product, process, or skill better than it was."
+  synonyms:
+    - "enhancement"
+    - "advancement"
+    - "upgrade"
+  examples:
+    workplace:
+      - "The latest release includes a significant performance **improvement**."
+      - "There is always room for **improvement** in our workflow."
+    casual:
+      - "I've seen a great **improvement** in his guitar playing."
+      - "The city has made many **improvements** to the public parks."
+  related:
+    - word: "enhancement"
+      difference: "'Enhancement' often refers to adding new capabilities to something that is already good. 'Improvement' is a more general term that can also refer to fixing something that was deficient."
+  story: |
+    The team noticed that the CI/CD pipeline was taking over 30 minutes to run. They dedicated a week to finding bottlenecks. The result was a huge **improvement**; the pipeline now runs in under 10 minutes, saving the team hours of waiting each day.
+- word: "sounding board"
+  pronunciation: "/ˈsaʊndɪŋ bɔːrd/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A person or group of people whose reactions to an idea or plan are used as a test of its validity or acceptability before it is presented to a wider audience."
+    bahasa: "Orang untuk bertukar pikiran; papan pantul (kiasan)."
+  usage: "Use 'sounding board' to refer to a trusted colleague you can talk to to get their opinion or feedback on an idea before you formalize it."
+  synonyms:
+    - "confidant"
+    - "advisor"
+    - "feedback source"
+  examples:
+    workplace:
+      - "I often use my tech lead as a **sounding board** for my crazy ideas."
+      - "Before I write a full proposal, I'll run the idea by a few team members as a **sounding board**."
+    casual:
+      - "My best friend is my **sounding board** for all my life decisions."
+      - "He used his family as a **sounding board** for his new business idea."
+  related:
+    - word: "mentor"
+      difference: "A 'mentor' is a more formal role for someone who provides guidance over a long period. A 'sounding board' can be any colleague you trust for a quick opinion on a specific idea."
+  story: |
+    I was stuck on a complex architectural decision. I had two possible solutions, but each had its own pros and cons. I asked a senior engineer on another team to be my **sounding board**. I explained the problem, and just talking through it with him helped me see the best path forward.
+- word: "pitfall"
+  pronunciation: "/ˈpɪtfɔːl/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A hidden or unsuspected danger or difficulty."
+    bahasa: "Jebakan; bahaya tersembunyi."
+  usage: "Use 'pitfall' to describe a potential problem or danger that is not immediately obvious when you start a task or project."
+  synonyms:
+    - "trap"
+    - "snare"
+    - "hidden danger"
+  examples:
+    workplace:
+      - "A common **pitfall** for junior developers is not writing enough tests."
+      - "He gave me some great advice on how to avoid the **pitfalls** of remote work."
+    casual:
+      - "One of the **pitfalls** of fame is the loss of privacy."
+      - "Not reading the contract carefully is a common **pitfall**."
+  related:
+    - word: "risk"
+      difference: "A 'risk' is a known potential for loss or a bad outcome. A 'pitfall' is a specific, often hidden, trap or difficulty that can cause that loss to happen."
+  story: |
+    During our project planning, the senior engineer warned us about a potential **pitfall**. He said that using the new, trendy library might seem fast at first, but it had known memory leak issues that could cause our application to crash in production. His experience helped us avoid a major problem.
+- word: "foresight"
+  pronunciation: "/ˈfɔːrsaɪt/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The ability to predict or the action of predicting what will happen or be needed in the future."
+    bahasa: "Pandangan ke depan; wawasan."
+  usage: "Use 'foresight' to describe the wisdom of thinking ahead and anticipating future problems or needs."
+  synonyms:
+    - "prevision"
+    - "anticipation"
+    - "prudence"
+  examples:
+    workplace:
+      - "She had the **foresight** to back up the database before the risky migration."
+      - "Good project management requires a lot of **foresight**."
+    casual:
+      - "He had the **foresight** to bring an umbrella, even though it was sunny."
+      - "With a little **foresight**, we could have avoided this mess."
+  related:
+    - word: "hindsight"
+      difference: "'Foresight' is knowing what to do *before* an event. 'Hindsight' is understanding what you *should have done* after the event has already happened."
+  story: |
+    The system was designed to be modular from the very beginning. The original architect had the **foresight** to know that we would need to replace different components in the future. Because of his **foresight**, we can now upgrade our database with minimal effort.
