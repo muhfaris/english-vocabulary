@@ -167,3 +167,121 @@
       difference: "'Diagnose' is about identifying the cause of the problem. 'Troubleshoot' includes both diagnosing and fixing the problem."
   story: |
     A user reported that they couldn't upload their profile picture. I spent the morning trying to **troubleshoot** the issue. First, I checked the logs. Then, I tried to reproduce the problem on my local machine. After a few hours, I discovered the issue was related to file permissions on our storage server and was able to apply a fix.
+- word: "workload"
+  pronunciation: "/ˈwɜːrkloʊd/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The amount of work to be done by a particular person or machine in a given period."
+    bahasa: "Beban kerja."
+  usage: "Use 'workload' to refer to the total amount of tasks and responsibilities someone has at their job. It can be described as heavy, light, or manageable."
+  synonyms:
+    - "caseload"
+    - "amount of work"
+  examples:
+    workplace:
+      - "My workload is very heavy this sprint, so I can't take on any new tasks."
+      - "We need to distribute the workload more evenly among the team members."
+    casual:
+      - "She's struggling to manage her academic workload this semester."
+      - "The new machine can handle a much larger workload."
+  related:
+    - word: "capacity"
+      difference: "'Capacity' is the ability to handle work, while 'workload' is the amount of work that needs to be done. You might have the capacity for more work, even with a heavy workload."
+  story: |
+    At the beginning of the week, I reviewed my workload with my manager. We realized I had too many high-priority tasks. To manage my workload better, we decided to delegate one of the tasks to another engineer.
+
+- word: "disarray"
+  pronunciation: "/ˌdɪsəˈreɪ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A state of disorganization or untidiness."
+    bahasa: "Keadaan kacau-balau; berantakan."
+  usage: "Use 'disarray' to describe a situation that has lost its order and become chaotic, often unexpectedly."
+  synonyms:
+    - "chaos"
+    - "confusion"
+    - "mess"
+  examples:
+    workplace:
+      - "The project fell into disarray after the project manager suddenly resigned."
+      - "The unexpected server outage threw the whole team's schedule into disarray."
+    casual:
+      - "His financial affairs were in complete disarray."
+      - "The room was in disarray after the party."
+  related:
+    - word: "chaos"
+      difference: "'Chaos' implies a complete lack of order and extreme confusion. 'Disarray' is a strong word, but can be slightly less extreme than 'chaos'."
+  story: |
+    Our deployment pipeline was in disarray after a recent update. Tests were failing randomly, and no one was sure why. We had to pause all deployments until we could restore order and get the pipeline back to a stable state.
+
+- word: "headspace"
+  pronunciation: "/ˈhɛdspeɪs/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A person's state of mind or mental capacity; the time and mental energy to think clearly."
+    bahasa: "Kapasitas mental; ruang berpikir."
+  usage: "Use 'headspace' to talk about the mental energy or clarity needed to deal with something. It's often used when someone is feeling stressed or overwhelmed."
+  synonyms:
+    - "mental capacity"
+    - "focus"
+    - "mindset"
+  examples:
+    workplace:
+      - "I can't think about that new feature right now; I don't have the headspace."
+      - "After a week of firefighting, I need a day of simple tasks to clear my headspace."
+    casual:
+      - "He's not in the right headspace to make a big decision."
+      - "I go for a run to get some headspace after a long day."
+  related:
+    - word: "focus"
+      difference: "'Focus' is the act of concentrating on a single task. 'Headspace' is the mental availability to be able to focus in the first place."
+  story: |
+    I was trying to debug a complex issue, but I had too many meetings and interruptions. I couldn't get into the right headspace to solve the problem. I decided to block off my calendar for the afternoon to create the headspace I needed to concentrate.
+
+- word: "reassess"
+  pronunciation: "/ˌriːəˈsɛs/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To consider or assess something again; to re-evaluate."
+    bahasa: "Menilai kembali; mengevaluasi ulang."
+  usage: "Use 'reassess' when you need to step back and evaluate a situation, plan, or priority again, often because new information has come to light."
+  synonyms:
+    - "re-evaluate"
+    - "review"
+    - "reconsider"
+  examples:
+    workplace:
+      - "Given the new deadline, we need to reassess our project plan."
+      - "Let's reassess our priorities for this week during the team meeting."
+    casual:
+      - "After the setback, he had to reassess his goals."
+      - "I'm reassessing whether this is the right car for me."
+  related:
+    - word: "review"
+      difference: "'Review' can mean simply looking over something. 'Reassess' implies a deeper level of evaluation with the intention of potentially making a change."
+  story: |
+    We initially planned to build the feature using a new framework. However, after a spike, we found it was more complex than we thought. We had to reassess our approach and decided to stick with the technology we already knew to avoid delays.
+
+- word: "morale"
+  pronunciation: "/məˈræl/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The confidence, enthusiasm, and discipline of a person or group at a particular time."
+    bahasa: "Semangat; moral."
+  usage: "Use 'morale' to describe the overall emotional or mental state of a team or individual. It can be high (good) or low (bad)."
+  synonyms:
+    - "spirit"
+    - "confidence"
+    - "enthusiasm"
+  examples:
+    workplace:
+      - "After a successful launch, team morale was very high."
+      - "Constant changes in direction can negatively affect team morale."
+    casual:
+      - "A win after a long losing streak boosted the team's morale."
+      - "The captain's speech lifted the soldiers' morale."
+  related:
+    - word: "motivation"
+      difference: "'Motivation' is the reason or willingness to do something. 'Morale' is the overall feeling of confidence and enthusiasm. High morale can lead to high motivation."
+  story: |
+    The project had been going on for months with many setbacks, and team morale was low. To boost morale, our manager organized a team lunch and shared some positive feedback from early users. It was a small gesture, but it helped lift everyone's spirits.

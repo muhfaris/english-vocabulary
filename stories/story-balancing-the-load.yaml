@@ -1,0 +1,15 @@
+story:
+  title: "balancing-the-load"
+  date: "2025-09-12"
+  text: |
+    My morning started with a fresh cup of coffee and a quick look at my task board. It was already packed. I had to finish the new feature, review a teammate's code, and prepare for the upcoming demo. My **workload** felt a bit heavy, but manageable.
+
+    Then, an urgent bug report came in. A critical part of the application was failing for a major client. Suddenly, my carefully planned day was thrown into **disarray**. I had to drop everything to investigate the bug. This constant context-switching was a real drain on my **headspace**.
+
+    After a couple of hours, I managed to find the root cause and deploy a hotfix. It was a relief, but my other tasks were now behind schedule. During my one-on-one with my manager, I explained the situation. We decided to **reassess** my priorities. She helped me delegate the code review and pushed back the demo's deadline by a day. It was a good reminder of how important it is to communicate openly when you're feeling overwhelmed. This small change significantly improved my **morale**.
+  highlighted_words:
+    - "workload"
+    - "disarray"
+    - "headspace"
+    - "reassess"
+    - "morale"
