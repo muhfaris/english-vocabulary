@@ -1,0 +1,72 @@
+dialogue:
+  - speaker: Alex
+    english: "Hey Ben, got a minute for a quick end-of-week sync?"
+    bahasa: "Hai Ben, ada waktu sebentar untuk sinkronisasi cepat akhir pekan?"
+  - speaker: Ben
+    english: "Sure, Alex. What's on your mind?"
+    bahasa: "Tentu, Alex. Ada apa?"
+  - speaker: Alex
+    english: "I've wrapped up the authentication module. It's pushed and the PR is up."
+    bahasa: "Saya sudah menyelesaikan modul otentikasi. Sudah di-push dan PR-nya sudah dibuat."
+  - speaker: Ben
+    english: "Nice one! I'll take a look at it first thing on Monday."
+    bahasa: "Bagus! Saya akan melihatnya pertama kali hari Senin."
+  - speaker: Alex
+    english: "Thanks. How about the UI bug fix you were working on?"
+    bahasa: "Terima kasih. Bagaimana dengan perbaikan bug UI yang sedang kamu kerjakan?"
+  - speaker: Ben
+    english: "It turned out to be a bit of a rabbit hole. I've managed to contain it, but it needs a more robust solution next week."
+    bahasa: "Ternyata ini sedikit rumit. Saya berhasil mengatasinya sementara, tetapi butuh solusi yang lebih kuat minggu depan."
+  - speaker: Alex
+    english: "I see. So, it's a temporary patch for now?"
+    bahasa: "Begitu. Jadi, ini perbaikan sementara untuk saat ini?"
+  - speaker: Ben
+    english: "Exactly. It stops the bleeding, but we'll need to allocate some time for a proper fix."
+    bahasa: "Tepat sekali. Ini menghentikan masalahnya untuk sementara, tapi kita perlu mengalokasikan waktu untuk perbaikan yang layak."
+  - speaker: Alex
+    english: "Sounds like a plan. Anything else blocking you?"
+    bahasa: "Terdengar bagus. Ada lagi yang menghambatmu?"
+  - speaker: Ben
+    english: "Nope, I'm all set for the weekend. Ready to switch off."
+    bahasa: "Tidak, saya sudah siap untuk akhir pekan. Siap untuk istirahat."
+  - speaker: Alex
+    english: "Same here. Have a great weekend, Ben!"
+    bahasa: "Sama. Selamat berakhir pekan, Ben!"
+  - speaker: Ben
+    english: "You too, Alex!"
+    bahasa: "Kamu juga, Alex!"
+
+expressions:
+  - phrase: "What's on your mind?"
+    meaning_english: "A way to ask someone what they are thinking about."
+    meaning_bahasa: "Cara untuk menanyakan apa yang sedang dipikirkan seseorang."
+  - phrase: "Nice one!"
+    meaning_english: "An informal way to say 'well done' or 'good job'."
+    meaning_bahasa: "Cara informal untuk mengatakan 'kerja bagus'."
+  - phrase: "First thing on Monday"
+    meaning_english: "At the very beginning of the workday on Monday."
+    meaning_bahasa: "Pada awal hari kerja di hari Senin."
+  - phrase: "A bit of a rabbit hole"
+    meaning_english: "A problem that is more complicated and time-consuming than it first appeared."
+    meaning_bahasa: "Masalah yang lebih rumit dan memakan waktu daripada yang terlihat pada awalnya."
+  - phrase: "Stops the bleeding"
+    meaning_english: "A temporary solution that prevents a problem from getting worse."
+    meaning_bahasa: "Solusi sementara yang mencegah masalah menjadi lebih buruk."
+  - phrase: "All set"
+    meaning_english: "Completely ready or prepared."
+    meaning_bahasa: "Benar-benar siap atau siap."
+  - phrase: "Switch off"
+    meaning_english: "To stop thinking about work and relax."
+    meaning_bahasa: "Berhenti memikirkan pekerjaan dan bersantai."
+
+questions:
+  - q: "What did Alex finish working on?"
+    a: "Alex finished the authentication module."
+  - q: "When will Ben review Alex's pull request?"
+    a: "Ben will review it first thing on Monday."
+  - q: "What was the issue with the UI bug fix Ben was working on?"
+    a: "It was a 'rabbit hole,' meaning it was more complex than expected."
+  - q: "Is Ben's solution for the bug permanent?"
+    a: "No, it's a temporary patch that 'stops the bleeding'."
+  - q: "What are Alex and Ben's plans for the weekend?"
+    a: "They both plan to 'switch off' and relax."
