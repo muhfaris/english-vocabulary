@@ -45,3 +45,75 @@
       difference: "'Skill up' is very similar and often used interchangeably. 'Level up' has a more modern, game-like feel to it, implying advancing to a new, distinct tier of ability."
   story: |
     Our company encourages us to spend a few hours every Friday on professional development. I'm using this time to learn about machine learning. It's a great way to **level up** my skill set and stay current with new technologies.
+- word: "daily huddle"
+  pronunciation: "/ˈdeɪli ˈhʌdl/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A short, daily meeting for a team to sync up on progress and identify any blockers."
+    bahasa: "Rapat singkat setiap hari bagi tim untuk menyamakan kemajuan dan mengidentifikasi hambatan."
+  usage: "Used to describe the brief, informal team meetings that happen every day, often in the morning. It's similar to a 'daily stand-up'."
+  synonyms:
+    - "daily stand-up"
+    - "morning sync"
+  examples:
+    workplace:
+      - "During our **daily huddle**, I mentioned that I was stuck on a bug."
+      - "Let's keep the **daily huddle** quick today, just 15 minutes."
+    casual:
+      - "My team's **daily huddle** is always at 9 AM sharp."
+      - "We decided in the **daily huddle** to move the deadline."
+  related:
+    - word: "stand-up"
+      difference: "'Stand-up' is more common and often implies that participants are standing to keep the meeting short. 'Daily huddle' is a slightly more informal term but means the same thing."
+    - word: "meeting"
+      difference: "A 'meeting' is a general term for any kind of gathering. A 'daily huddle' is a very specific type of short, daily meeting."
+  story: |
+    At our **daily huddle**, the team lead asked for a quick update from everyone. When it was my turn, I explained that the API I was working with had some unexpected issues. It was a good thing I brought it up, because another developer had faced the same problem last month and had a solution ready.
+- word: "teamwork"
+  pronunciation: "/ˈtiːmwɜːrk/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The collaborative effort of a group to achieve a common goal or to complete a task in the most effective and efficient way."
+    bahasa: "Upaya kolaboratif dari sebuah kelompok untuk mencapai tujuan bersama atau menyelesaikan tugas dengan cara yang paling efektif dan efisien."
+  usage: "Used to describe the quality of a team working well together. It emphasizes cooperation and mutual support."
+  synonyms:
+    - "collaboration"
+    - "cooperation"
+  examples:
+    workplace:
+      - "Good **teamwork** was essential to meet the project deadline."
+      - "Our manager always emphasizes the importance of **teamwork**."
+    casual:
+      - "It takes great **teamwork** to win a basketball game."
+      - "Their successful event was a result of amazing **teamwork**."
+  related:
+    - word: "collaboration"
+      difference: "'Teamwork' is about the overall cooperative spirit and efficiency of a team. 'Collaboration' often refers to the specific act of working together on a particular task or project."
+    - word: "individual work"
+      difference: "'Individual work' is the opposite, referring to tasks done by one person alone."
+  story: |
+    The new feature was complex, with a tight deadline. No single person could have finished it on time. But thanks to excellent **teamwork**, we divided the tasks, helped each other with problems, and managed to launch it successfully. Everyone's contribution was crucial.
+- word: "collaboration"
+  pronunciation: "/kəˌlæbəˈreɪʃn/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The action of working with someone to produce or create something."
+    bahasa: "Tindakan bekerja dengan seseorang untuk menghasilkan atau menciptakan sesuatu."
+  usage: "Used to describe the act of working jointly on an activity or project. It's more specific than 'teamwork' and focuses on the process of creating something together."
+  synonyms:
+    - "partnership"
+    - "cooperation"
+  examples:
+    workplace:
+      - "The design and engineering teams are in close **collaboration** on this project."
+      - "This feature is the result of a successful **collaboration** between two developers."
+    casual:
+      - "The new song is a **collaboration** between two famous artists."
+      - "Their **collaboration** on the school project got them a high grade."
+  related:
+    - word: "teamwork"
+      difference: "'Collaboration' is the act of working together on a specific task. 'Teamwork' is the overall spirit and effectiveness of a team's cooperation."
+    - word: "coordination"
+      difference: "'Coordination' is about organizing different elements or people so they work together effectively. 'Collaboration' is more about the creative process of working together."
+  story: |
+    For the new user dashboard, we needed a seamless user experience. The frontend developer and I started a close **collaboration**. We sat together, sketching out ideas and discussing the data flow. This direct **collaboration** helped us avoid many potential issues and build a much better product faster than if we had worked in silos.
