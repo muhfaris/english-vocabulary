@@ -64,3 +64,66 @@
       a: "She had to do rework on a user story because the requirements were vague."
     - q: "What was the main action item the team decided on?"
       a: "To refine their 'Definition of Ready' and create a better ticket template to ensure user stories have clear requirements."
+- title: end-of-day-wrap-up
+  dialogue:
+    - speaker: Alex
+      english: "Alright, I'm about to sign off. How'd your day go?"
+      bahasa: "Baiklah, aku akan segera sign off. Bagaimana harimu?"
+    - speaker: Ben
+      english: "Pretty productive. I managed to close out that ticket for the authentication service. It's ready for review."
+      bahasa: "Cukup produktif. Aku berhasil menyelesaikan tiket untuk layanan otentikasi. Sudah siap untuk direview."
+    - speaker: Alex
+      english: "Nice one. I'll take a look at it first thing in the morning."
+      bahasa: "Bagus. Aku akan melihatnya besok pagi."
+    - speaker: Ben
+      english: "Thanks. What about you? You were wrestling with that database migration script, right?"
+      bahasa: "Terima kasih. Bagaimana denganmu? Kamu sedang bergelut dengan skrip migrasi database itu, kan?"
+    - speaker: Alex
+      english: "Yeah, it was a bit of a headache. The staging environment was not having it. But I think I've got a handle on it now."
+      bahasa: "Ya, sedikit memusingkan. Lingkungan staging tidak mau menerimanya. Tapi sepertinya aku sudah bisa mengatasinya sekarang."
+    - speaker: Ben
+      english: "Did you figure out why the connection was timing out?"
+      bahasa: "Apakah kamu sudah menemukan mengapa koneksinya timing out?"
+    - speaker: Alex
+      english: "It turns out there was a firewall rule that was blocking the connection from the new IP range. It's always the simple things."
+      bahasa: "Ternyata ada aturan firewall yang memblokir koneksi dari rentang IP baru. Selalu saja hal-hal sepele."
+    - speaker: Ben
+      english: "Ah, classic. Well, at least you sorted it out. Have a good evening!"
+      bahasa: "Ah, klasik. Yah, setidaknya kamu berhasil menyelesaikannya. Selamat malam!"
+    - speaker: Alex
+      english: "You too. Catch you tomorrow."
+      bahasa: "Kamu juga. Sampai jumpa besok."
+    - speaker: Ben
+      english: "See ya."
+      bahasa: "Sampai jumpa."
+  expressions:
+    - phrase: "sign off"
+      meaning_english: "To log off from a computer system; to indicate that you are finishing work for the day."
+      meaning_bahasa: "Keluar dari sistem komputer; untuk menunjukkan bahwa Anda selesai bekerja untuk hari itu."
+    - phrase: "close out a ticket"
+      meaning_english: "To complete all the work associated with a task or issue in a project management system."
+      meaning_bahasa: "Menyelesaikan semua pekerjaan yang terkait dengan tugas atau masalah dalam sistem manajemen proyek."
+    - phrase: "first thing in the morning"
+      meaning_english: "At the very beginning of the workday."
+      meaning_bahasa: "Di awal hari kerja."
+    - phrase: "wrestling with"
+      meaning_english: "Struggling to solve a difficult problem."
+      meaning_bahasa: "Bergelut untuk memecahkan masalah yang sulit."
+    - phrase: "a bit of a headache"
+      meaning_english: "A task or problem that is annoying or difficult to deal with."
+      meaning_bahasa: "Tugas atau masalah yang mengganggu atau sulit dihadapi."
+    - phrase: "got a handle on it"
+      meaning_english: "To have gained an understanding or control over a situation or problem."
+      meaning_bahasa: "Telah memperoleh pemahaman atau kendali atas suatu situasi atau masalah."
+    - phrase: "sorted it out"
+      meaning_english: "To have successfully dealt with a problem or organized something."
+      bahasa: "Telah berhasil menangani masalah atau mengatur sesuatu."
+  questions:
+    - q: "What did Ben accomplish during his day?"
+      a: "He finished the task for the authentication service and it is now ready for review."
+    - q: "What was Alex's main challenge for the day?"
+      a: "He was struggling with a database migration script that was failing in the staging environment."
+    - q: "What was the root cause of Alex's problem?"
+      a: "A firewall rule was blocking the connection from a new IP range."
+    - q: "What does it mean to 'close out a ticket' in a developer's context?"
+      a: "It means to complete a task or fix an issue that was being tracked in a project management system."
