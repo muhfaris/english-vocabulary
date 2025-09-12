@@ -1,0 +1,249 @@
+- word: "Async"
+  pronunciation: "/ˈeɪsɪŋk/"
+  part_of_speech: "adjective / abbreviation"
+  meaning:
+    english: "Short for 'asynchronous'. It describes operations that can run independently in the background, without making the main application wait."
+    bahasa: "Singkatan dari 'asynchronous'. Ini menjelaskan operasi yang dapat berjalan secara independen di latar belakang, tanpa membuat aplikasi utama menunggu."
+  usage: "Use this when talking about tasks like API calls, file downloads, or database queries that shouldn't block the user interface. It's a core concept in modern web and application development."
+  synonyms:
+    - "Non-blocking"
+    - "Concurrent"
+  examples:
+    workplace:
+      - "Let's make that data fetch async so the page loads instantly."
+      - "I'm using an async call to the server to update the user's profile without a page refresh."
+    casual:
+      - "Our chat is async; we don't have to reply immediately."
+      - "Think of it like sending a text message—that's an async conversation."
+  related:
+    - word: "Asynchronous"
+      difference: "'Async' is the casual, commonly used abbreviation. 'Asynchronous' is the full, more formal term. In daily conversation, engineers almost always say 'async'."
+    - word: "Sync (Synchronous)"
+      difference: "'Sync' is the opposite. It means operations happen one after another, and each one must complete before the next one starts. It's 'blocking'."
+  story: |
+    During stand-up, Maya said, "I'm working on the new dashboard widget. The main problem is that it freezes the UI while it fetches data. I'm going to change the function to be async. This will let the data load in the background, making the user experience much smoother."
+
+- word: "Dev-env"
+  pronunciation: "/ˈdɛv ɛnv/"
+  part_of_speech: "noun / abbreviation"
+  meaning:
+    english: "Short for 'development environment'. It's a developer's personal workspace on their computer, with all the tools, code, and databases needed to build and test software."
+    bahasa: "Singkatan dari 'development environment'. Ini adalah ruang kerja pribadi developer di komputer mereka, dengan semua alat, kode, dan database yang diperlukan untuk membangun dan menguji perangkat lunak."
+  usage: "Use this to talk about your local machine setup. It's where you write and test code before sharing it with the team or moving it to other environments like staging or production."
+  synonyms:
+    - "Local setup"
+    - "Workspace"
+  examples:
+    workplace:
+      - "It works on my dev-env, I'm not sure why it's failing in the CI pipeline."
+      - "Can you help me set up my dev-env? I'm having trouble with the database container."
+    casual:
+      - "My dev-env is so customized. I have shortcuts for everything."
+      - "I need to clean up my dev-env; it's getting slow."
+  related:
+    - word: "Staging environment"
+      difference: "A staging environment is a server that mirrors production, used for final testing. A dev-env is just on your local machine."
+    - word: "Production (Prod)"
+      difference: "Prod is the live environment that real users interact with. A dev-env is a safe, isolated space for development."
+  story: |
+    Alex spent the morning trying to fix a bug. "I finally reproduced it!" he messaged the team. "The issue only happens when the database is completely empty. It was hard to spot because my dev-env always has test data in it. I'll add a check for this case."
+
+- word: "Prod"
+  pronunciation: "/prɒd/"
+  part_of_speech: "noun / abbreviation"
+  meaning:
+    english: "Short for 'production environment'. This is the live server or system that your actual customers and users are interacting with."
+    bahasa: "Singkatan dari 'production environment'. Ini adalah server atau sistem langsung (live) yang digunakan oleh pelanggan dan pengguna Anda."
+  usage: "This is a critical term. 'Prod' is the real deal. When something is 'in prod,' it's live. When something 'breaks prod,' it's a serious issue affecting real users."
+  synonyms:
+    - "Live environment"
+    - "Production"
+  examples:
+    workplace:
+      - "Be careful with that database migration; it's going directly to prod."
+      - "We have a critical bug in prod! All hands on deck!"
+    casual:
+      - "I'm always a little nervous during a prod deployment."
+      - "Pushing to prod on a Friday? That's a bold move."
+  related:
+    - word: "Dev-env"
+      difference: "'Prod' is the live environment for users. 'Dev-env' is the developer's local machine for writing code."
+    - word: "Staging"
+      difference: "'Staging' is the final test environment before 'Prod'. It's a dress rehearsal; 'Prod' is the main performance."
+  story: |
+    The team gathered for the big release. "Okay," said the project manager, "the code is tested, and everyone has approved. Are we ready to push to prod?" There was a moment of silence, then a chorus of "Yes!" With a final click, the new feature was live for millions of users.
+
+- word: "In a nutshell"
+  pronunciation: "/ɪn ə ˈnʌtˌʃɛl/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "In summary; in the fewest possible words."
+    bahasa: "Singkatnya; secara ringkas."
+  usage: "Use this when you want to give a quick summary of a complex topic, often at the beginning or end of an explanation. It's a way to signal you're giving the main point."
+  synonyms:
+    - "To sum up"
+    - "In brief"
+  examples:
+    workplace:
+      - "So, in a nutshell, the new feature isn't ready because the API we depend on is down."
+      - "In a nutshell, we need to refactor the entire payment module."
+    casual:
+      - "I missed the meeting. What happened, in a nutshell?"
+      - "In a nutshell, the movie is about a robot who learns to love."
+  related:
+    - word: "The gist"
+      difference: "'The gist' is the main idea or essence of something. 'In a nutshell' is an introductory phrase used to provide that summary. They are very similar in meaning."
+    - word: "TL;DR (Too Long; Didn't Read)"
+      difference: "TL;DR is internet slang for a very brief summary, often used in writing (like emails or documents). 'In a nutshell' is more common in spoken conversation."
+  story: |
+    After a long, technical discussion about server infrastructure, the manager turned to the new intern. "I know that was a lot to take in," she said kindly. "In a nutshell, we're moving from one cloud provider to another to save money and improve performance."
+
+- word: "Gray area"
+  pronunciation: "/ɡreɪ ˈɛəriə/"
+  part_of_speech: "noun"
+  meaning:
+    english: "An area of a situation that is unclear, not well-defined, or where the rules are ambiguous."
+    bahasa: "Area abu-abu; situasi yang tidak jelas, tidak terdefinisi dengan baik, atau di mana aturannya ambigu."
+  usage: "Use this to describe parts of a project, a technical problem, or even team responsibilities that are not clearly understood or agreed upon. It highlights uncertainty."
+  synonyms:
+    - "Ambiguity"
+    - "Uncertainty"
+  examples:
+    workplace:
+      - "The requirements for handling user-uploaded images are a bit of a gray area."
+      - "It's a gray area whether the front-end or back-end team is responsible for this data validation."
+    casual:
+      - "The legality of using that open-source library is a gray area."
+      - "Whether a hotdog is a sandwich is a classic gray area."
+  related:
+    - word: "Edge case"
+      difference: "An 'edge case' is a specific, extreme scenario. A 'gray area' is a general lack of clarity or rules about a situation."
+    - word: "Ambiguity"
+      difference: "'Ambiguity' is the state of being unclear. 'Gray area' is a noun phrase that refers to the specific situation or topic that is ambiguous."
+  story: |
+    "I've finished the main part of the task," David reported. "But there's a gray area around what to do if a user's session expires during payment. The ticket doesn't specify the desired behavior. I'll need to check with the product owner before I proceed."
+
+- word: "Best-effort"
+  pronunciation: "/bɛst ˈɛfərt/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Describes a service or task that is done with all available effort, but without any formal guarantee of delivery, quality, or reliability."
+    bahasa: "Menjelaskan layanan atau tugas yang dilakukan dengan semua upaya yang tersedia, tetapi tanpa jaminan formal pengiriman, kualitas, atau keandalan."
+  usage: "Common in discussions about network services, data delivery, or tasks where success isn't 100% guaranteed. It manages expectations by saying 'we will try our best, but can't promise'."
+  synonyms:
+    - "No guarantee"
+    - "As-is"
+  examples:
+    workplace:
+      - "The free version of our API provides best-effort support; we don't guarantee uptime."
+      - "I can try to get it done by Friday on a best-effort basis, but I can't promise."
+    casual:
+      - "The conference Wi-Fi is a best-effort service, so don't rely on it for your demo."
+      - "My help is best-effort; I'm not an expert on this."
+  related:
+    - word: "SLA (Service-Level Agreement)"
+      difference: "An SLA is the opposite. It's a formal contract that guarantees a certain level of service (e.g., 99.9% uptime). 'Best-effort' implies the absence of an SLA."
+    - word: "Promise"
+      difference: "In programming (especially JavaScript), a 'Promise' is an object representing an eventual completion (or failure). 'Best-effort' is a human concept about service quality, not a programming construct."
+  story: |
+    A user complained that their analytics dashboard was sometimes slow. The lead engineer explained, "The data is processed on a best-effort basis. Critical services get priority, so during peak times, the analytics queue might be delayed. We can't guarantee real-time results for that feature."
+
+- word: "Elephant in the room"
+  pronunciation: "/ˈɛləfənt ɪn ðə rum/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A major, obvious problem or controversial issue that is conspicuously ignored because it's uncomfortable to discuss."
+    bahasa: "Masalah besar dan jelas yang sengaja diabaikan karena tidak nyaman untuk dibicarakan."
+  usage: "Use this to draw attention to a significant, unspoken issue that you believe needs to be addressed for the team or project to move forward."
+  synonyms:
+    - "The unspoken issue"
+    - "The inconvenient truth"
+  examples:
+    workplace:
+      - "Let's address the elephant in the room: no one has been working on the documentation for months."
+      - "During the project planning meeting, the huge amount of technical debt was the elephant in the room."
+    casual:
+      - "We talked about everything except the fact that he's moving away next month—it was the elephant in the room."
+      - "Her political comment became the elephant in the room for the rest of the dinner."
+  related:
+    - word: "Red flag"
+      difference: "A 'red flag' is a warning sign of potential future problems. The 'elephant in the room' is a major problem that already exists and is being ignored."
+    - word: "Blocker"
+      difference: "A 'blocker' is a specific issue preventing a task from being completed. The 'elephant in the room' is a larger, often cultural or strategic problem that people are avoiding."
+  story: |
+    At the sprint retrospective, everyone talked about minor bugs and communication issues. Finally, Sarah spoke up. "Can we address the elephant in the room? The project deadline is in two weeks, and we all know it's impossible to finish on time. We need to discuss this with management."
+
+- word: "Put a pin in it"
+  pronunciation: "/pʊt ə pɪn ɪn ɪt/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To pause a discussion on a particular topic temporarily, with the intention of coming back to it later."
+    bahasa: "Menunda diskusi tentang topik tertentu untuk sementara, dengan niat untuk kembali membahasnya nanti."
+  usage: "A friendly way to keep a meeting on track. When a discussion is going off-topic or can't be resolved at the moment, you suggest putting a pin in it to deal with later."
+  synonyms:
+    - "Let's table this"
+    - "Let's park this"
+  examples:
+    workplace:
+      - "That's a great idea, but it's out of scope for this meeting. Let's put a pin in it and discuss it next week."
+      - "We can't decide on the database schema right now. Let's put a pin in it and do some more research."
+    casual:
+      - "I want to hear about your vacation, but I have to take this call. Let's put a pin in it until after lunch."
+      - "Should we get pizza or tacos for dinner? Let's put a pin in it and decide after the movie."
+  related:
+    - word: "Table (an issue)"
+      difference: "Very similar. 'Table it' is slightly more formal. 'Put a pin in it' is more conversational and strongly implies you *will* return to it."
+    - word: "Back-burner"
+      difference: "Putting something 'on the back-burner' means giving it low priority, possibly indefinitely. 'Putting a pin in it' suggests a short-term pause with a definite plan to return."
+  story: |
+    The team was debating the color of a new button. The discussion went on for ten minutes. The scrum master intervened gently, "This is a good conversation, but we have more critical items on the agenda. Can we put a pin in the color choice and let the designer make the final call later?"
+
+- word: "Prerequisite"
+  pronunciation: "/ˌpriːˈrɛkwəzɪt/"
+  part_of_speech: "noun"
+  meaning:
+    english: "Something that is required as a prior condition for something else to happen or exist."
+    bahasa: "Sesuatu yang diperlukan sebagai syarat sebelumnya agar hal lain dapat terjadi atau ada; prasyarat."
+  usage: "Use this to talk about dependencies, either for tasks (Task A is a prerequisite for Task B) or for software (this library is a prerequisite for the application to run)."
+  synonyms:
+    - "Requirement"
+    - "Precondition"
+  examples:
+    workplace:
+      - "Updating the database schema is a prerequisite for working on the new user profile feature."
+      - "Make sure you install all the prerequisites listed in the README file before running the project."
+    casual:
+      - "A basic understanding of math is a prerequisite for this course."
+      - "Having a driver's license is a prerequisite for this job."
+  related:
+    - word: "Dependency"
+      difference: "Very similar and often interchangeable in tech. A 'prerequisite' is a *required* dependency. You can have optional dependencies, but a prerequisite is mandatory."
+    - word: "Requirement"
+      difference: "'Requirement' is a broader term. A prerequisite is a specific type of requirement that must be fulfilled *before* something else can begin."
+  story: |
+    "I'd like to start on the analytics dashboard this week," said Ken. "What are the prerequisites?" His team lead replied, "The main prerequisite is the completion of the new API endpoint. Maria is working on that, and it should be ready for you by tomorrow."
+
+- word: "Mundane"
+  pronunciation: "/mʌnˈdeɪn/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Lacking interest or excitement; dull or repetitive."
+    bahasa: "Membosankan, tidak menarik, atau berulang-ulang."
+  usage: "Use this to describe tasks that are boring but necessary, like updating dependencies, writing boilerplate code, or manually testing simple things. It often implies a desire for automation."
+  synonyms:
+    - "Tedious"
+    - "Repetitive"
+  examples:
+    workplace:
+      - "I spent all morning on the mundane task of updating configuration files."
+      - "Let's write a script to automate this; it's too mundane to do by hand every week."
+    casual:
+      - "After a week of adventure, going back to mundane chores like laundry feels awful."
+      - "He had a very mundane job, just entering data into a spreadsheet all day."
+  related:
+    - word: "Toil"
+      difference: "'Toil' is a noun referring to hard, mundane work. 'Mundane' is an adjective describing the work. You perform 'toil'; the task itself is 'mundane'."
+    - word: "Boilerplate"
+      difference: "'Boilerplate' is the repetitive, standard code you have to write over and over. Writing it is a 'mundane' task."
+  story: |
+    The team decided to hold a 'hack day' to improve their workflow. "I want to work on something that eliminates our most mundane tasks," announced Fatima. "I'm going to build a tool that automatically generates our weekly reports. No one should have to spend two hours copying and pasting data."
