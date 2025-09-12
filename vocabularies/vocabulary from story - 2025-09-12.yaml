@@ -117,3 +117,53 @@
       difference: "'Coordination' is about organizing different elements or people so they work together effectively. 'Collaboration' is more about the creative process of working together."
   story: |
     For the new user dashboard, we needed a seamless user experience. The frontend developer and I started a close **collaboration**. We sat together, sketching out ideas and discussing the data flow. This direct **collaboration** helped us avoid many potential issues and build a much better product faster than if we had worked in silos.
+- word: "hectic"
+  pronunciation: "/ˈhɛktɪk/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Full of incessant or frantic activity."
+    bahasa: "Sangat sibuk dan penuh dengan aktivitas."
+  usage: "Use this word to describe a day, a period of time, or a situation that is very busy and chaotic."
+  synonyms:
+    - "frantic"
+    - "chaotic"
+    - "manic"
+  examples:
+    workplace:
+      - "It's been a **hectic** week with the new release."
+      - "The morning was **hectic**, with three meetings back-to-back."
+    casual:
+      - "The market was so **hectic** on Saturday."
+      - "Life with a new puppy is always a bit **hectic**."
+  related:
+    - word: "busy"
+      difference: "'Busy' means having a lot to do. 'Hectic' implies a level of chaos and being rushed or frantic that 'busy' does not necessarily have."
+    - word: "overwhelmed"
+      difference: "'Hectic' describes the situation (external), while 'overwhelmed' describes the feeling of a person (internal) who cannot cope with the hectic situation."
+  story: |
+    The week before the product launch was incredibly **hectic**. Everyone was rushing to fix last-minute bugs and finalize the documentation. We had multiple meetings every day to make sure we were all aligned. Despite the chaos, the team pulled together and we managed to launch on time.
+- word: "troubleshoot"
+  pronunciation: "/ˈtrʌblʃuːt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To analyze and solve serious problems for a company or other organization."
+    bahasa: "Menganalisis dan memecahkan masalah serius."
+  usage: "Use this verb when you are in the process of diagnosing and fixing a problem, especially with technology like software or hardware."
+  synonyms:
+    - "diagnose"
+    - "debug"
+    - "fix"
+  examples:
+    workplace:
+      - "I need to **troubleshoot** why the server is so slow."
+      - "She's an expert at **troubleshoot**ing network issues."
+    casual:
+      - "Can you help me **troubleshoot** my Wi-Fi connection?"
+      - "He's trying to **troubleshoot** the strange noise his car is making."
+  related:
+    - word: "debug"
+      difference: "'Debug' is specific to finding and fixing errors (bugs) in computer code. 'Troubleshoot' is a more general term that can apply to any problem, including hardware, software, or even processes."
+    - word: "diagnose"
+      difference: "'Diagnose' is about identifying the cause of the problem. 'Troubleshoot' includes both diagnosing and fixing the problem."
+  story: |
+    A user reported that they couldn't upload their profile picture. I spent the morning trying to **troubleshoot** the issue. First, I checked the logs. Then, I tried to reproduce the problem on my local machine. After a few hours, I discovered the issue was related to file permissions on our storage server and was able to apply a fix.
