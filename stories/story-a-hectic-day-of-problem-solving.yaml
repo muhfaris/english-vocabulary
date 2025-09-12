@@ -1,0 +1,15 @@
+story:
+  title: "a-hectic-day-of-problem-solving"
+  date: "2025-09-12"
+  text: |
+    The day started with a **hectic** morning. I felt a bit **overwhelmed** by the number of urgent tasks. My manager told me to **delegate** some of the work to a junior developer, which was a great help. We had a quick meeting to **streamline** our workflow and identify any potential **bottlenecks**.
+
+    Just when I thought things were under control, an **unforeseen** issue popped up in the production environment. We had to immediately **troubleshoot** the problem. It turned out to be a minor configuration error, but it took a couple of hours to identify and fix. By the end of the day, we managed to resolve everything. It was a stressful but productive day.
+  highlighted_words:
+    - "hectic"
+    - "overwhelmed"
+    - "delegate"
+    - "streamline"
+    - "bottleneck"
+    - "unforeseen"
+    - "troubleshoot"
