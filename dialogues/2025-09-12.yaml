@@ -127,3 +127,64 @@
       a: "A firewall rule was blocking the connection from a new IP range."
     - q: "What does it mean to 'close out a ticket' in a developer's context?"
       a: "It means to complete a task or fix an issue that was being tracked in a project management system."
+---
+- title: code-review-etiquette
+  dialogue:
+    - speaker: Maya
+      english: "Hey Leo, do you have a minute? I wanted to ask for your opinion on a code review I just received."
+      bahasa: "Hai Leo, punya waktu sebentar? Aku ingin meminta pendapatmu tentang ulasan kode yang baru saja aku terima."
+    - speaker: Leo
+      english: "Sure, what's up?"
+      bahasa: "Tentu, ada apa?"
+    - speaker: Maya
+      english: "The feedback was just 'This is not good. Please fix.' It's not very constructive, and I'm not sure what to improve."
+      bahasa: "Umpan baliknya hanya 'Ini tidak bagus. Tolong perbaiki.' Itu tidak terlalu membangun, dan aku tidak yakin apa yang harus diperbaiki."
+    - speaker: Leo
+      english: "Ah, I see. That's tough. Good code review feedback should be specific and suggest alternatives."
+      bahasa: "Ah, begitu. Itu sulit. Umpan balik ulasan kode yang baik seharusnya spesifik dan menyarankan alternatif."
+    - speaker: Maya
+      english: "Exactly. I feel a bit defensive. It feels like a personal attack rather than a critique of the code."
+      bahasa: "Tepat sekali. Aku merasa sedikit defensif. Rasanya seperti serangan pribadi daripada kritik terhadap kode."
+    - speaker: Leo
+      english: "I understand. It's important to remember to critique the code, not the coder. The goal is to improve the codebase, not to blame anyone."
+      bahasa: "Aku mengerti. Penting untuk diingat untuk mengkritik kode, bukan pembuat kodenya. Tujuannya adalah untuk meningkatkan basis kode, bukan untuk menyalahkan siapa pun."
+    - speaker: Maya
+      english: "Right. So how should I respond to this?"
+      bahasa: "Benar. Jadi bagaimana seharusnya aku menanggapi ini?"
+    - speaker: Leo
+      english: "I'd suggest leaving a comment asking for clarification. Something like, 'Could you please point out the specific areas that need improvement? I'm happy to make changes, but I need more details.'"
+      bahasa: "Aku sarankan untuk meninggalkan komentar yang meminta klarifikasi. Sesuatu seperti, 'Bisakah Anda menunjukkan area spesifik yang perlu perbaikan? Saya senang membuat perubahan, tetapi saya butuh detail lebih lanjut.'"
+    - speaker: Maya
+      english: "That's a good, non-confrontational approach. It keeps the conversation focused on the code."
+      bahasa: "Itu pendekatan yang bagus dan tidak konfrontatif. Itu membuat percakapan tetap fokus pada kode."
+    - speaker: Leo
+      english: "Exactly. And when you're reviewing someone else's code, try to start with a positive comment before diving into the critiques. It softens the blow."
+      bahasa: "Tepat. Dan saat kamu meninjau kode orang lain, cobalah untuk memulai dengan komentar positif sebelum masuk ke kritik. Itu melunakkan pukulan."
+    - speaker: Maya
+      english: "That's a great tip. Thanks, Leo. This was really helpful."
+      bahasa: "Itu tips yang bagus. Terima kasih, Leo. Ini sangat membantu."
+  expressions:
+    - phrase: "constructive feedback"
+      meaning_english: "Helpful criticism or advice that is intended to help someone improve."
+      meaning_bahasa: "Kritik atau saran yang membantu yang dimaksudkan untuk membantu seseorang berkembang."
+    - phrase: "personal attack"
+      meaning_english: "An abusive remark on or relating to somebody's person instead of providing objective criticism."
+      meaning_bahasa: "Ucapan kasar pada atau yang berhubungan dengan pribadi seseorang alih-alih memberikan kritik yang objektif."
+    - phrase: "critique the code, not the coder"
+      meaning_english: "A principle in code reviews that feedback should focus on the technical aspects of the code, not on the person who wrote it."
+      meaning_bahasa: "Prinsip dalam ulasan kode bahwa umpan balik harus fokus pada aspek teknis dari kode, bukan pada orang yang menulisnya."
+    - phrase: "non-confrontational"
+      meaning_english: "Tending to deal with situations calmly and diplomatically; not aggressive or hostile."
+      meaning_bahasa: "Cenderung menangani situasi dengan tenang dan diplomatis; tidak agresif atau bermusuhan."
+    - phrase: "softens the blow"
+      meaning_english: "To make a difficult or unpleasant situation easier to cope with."
+      bahasa: "Membuat situasi yang sulit atau tidak menyenangkan menjadi lebih mudah untuk dihadapi."
+  questions:
+    - q: "What was Maya's issue with the code review feedback she received?"
+      a: "The feedback was vague and not constructive, making it difficult for her to know what to fix."
+    - q: "What is the main principle Leo suggests for giving good code review feedback?"
+      a: "To critique the code itself, not the person who wrote it, and to be specific with suggestions."
+    - q: "How did Leo suggest Maya should respond to the unhelpful feedback?"
+      a: "He suggested she ask for specific details in a non-confrontational way to keep the focus on the code."
+    - q: "What tip did Leo give for when Maya reviews other people's code?"
+      a: "He advised starting with a positive comment to make the critical feedback easier to receive."
