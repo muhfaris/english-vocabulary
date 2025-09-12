@@ -1,0 +1,222 @@
+- word: "morning sync"
+  pronunciation: "/ˈmɔːrnɪŋ sɪŋk/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A brief daily meeting, usually held in the morning, for a team to align on their work and priorities."
+    bahasa: "Rapat singkat harian, biasanya diadakan di pagi hari, agar tim dapat menyelaraskan pekerjaan dan prioritas mereka."
+  usage: "Used to describe a short, daily team meeting that is similar to a 'daily stand-up' or 'daily huddle'. It emphasizes getting everyone on the same page."
+  synonyms:
+    - "daily stand-up"
+    - "daily huddle"
+  examples:
+    workplace:
+      - "Let's discuss this further after the **morning sync**."
+      - "Our **morning sync** helps us identify any blockers early in the day."
+    casual:
+      - "I'll grab my coffee right after our **morning sync**."
+      - "The **morning sync** is a fixed event on my calendar at 9:15 AM."
+  related:
+    - word: "meeting"
+      difference: "A 'meeting' is a general term. A 'morning sync' is a specific type of short, daily meeting to align the team."
+    - word: "agenda"
+      difference: "An 'agenda' is the list of topics for a meeting. A 'morning sync' typically has a very simple, repetitive agenda: what you did, what you'll do, and any blockers."
+  story: |
+    During our **morning sync**, I learned that the design team had just released new mockups. This was great timing, as I was about to start working on the UI for that feature. The sync ensured I had the latest information before I started coding.
+- word: "dive in"
+  pronunciation: "/daɪv ɪn/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To start doing something with enthusiasm and energy; to immerse oneself in a task or activity."
+    bahasa: "Mulai melakukan sesuatu dengan antusiasme dan energi; menenggelamkan diri dalam tugas atau aktivitas."
+  usage: "Use this phrase to indicate that you are starting a task, especially a complex or absorbing one, with focus and determination."
+  synonyms:
+    - "plunge in"
+    - "get started"
+    - "immerse oneself"
+  examples:
+    workplace:
+      - "I'm ready to **dive in** and start coding the new feature."
+      - "We have a lot of data to analyze, so let's **dive in**."
+    casual:
+      - "The food looks delicious! Let's **dive in**."
+      - "She couldn't wait to **dive in** to the new book she bought."
+  related:
+    - word: "start"
+      difference: "'Start' is a general term for beginning something. 'Dive in' implies more energy, enthusiasm, and immediate immersion."
+    - word: "tackle"
+      difference: "'Tackle' implies starting a difficult task or problem. 'Dive in' can be used for any task, difficult or not, and focuses more on the enthusiasm of starting."
+  story: |
+    After the planning meeting, I had a clear understanding of the task. I blocked off my afternoon, put on my headphones, and was ready to **dive in**. It felt good to finally start writing the code after all the discussions.
+- word: "straightforward"
+  pronunciation: "/ˌstreɪtˈfɔːrwərd/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Uncomplicated and easy to do or understand."
+    bahasa: "Tidak rumit dan mudah dilakukan atau dipahami."
+  usage: "Use this word to describe a task, process, or explanation that is simple and clear, without hidden complexities."
+  synonyms:
+    - "simple"
+    - "uncomplicated"
+    - "clear"
+  examples:
+    workplace:
+      - "The installation process is quite **straightforward**."
+      - "I thought it was a **straightforward** bug fix, but it turned out to be more complex."
+    casual:
+      - "The recipe was **straightforward** and easy to follow."
+      - "He gave a **straightforward** answer to the question."
+  related:
+    - word: "easy"
+      difference: "'Easy' means not requiring much effort. 'Straightforward' means uncomplicated and clear, even if it requires some effort. A task can be straightforward but still time-consuming."
+    - word: "complex"
+      difference: "'Complex' is the opposite of 'straightforward', meaning it has many interconnected parts and is difficult to understand."
+  story: |
+    The task was to update the copyright year in the website's footer. It seemed like a **straightforward** change. I expected to be done in five minutes, but I soon discovered the year was located in five different files, making the **straightforward** task a bit more tedious than I thought.
+- word: "complex"
+  pronunciation: "/ˈkɒmplɛks/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Consisting of many different and connected parts; not easy to analyze or understand."
+    bahasa: "Terdiri dari banyak bagian yang berbeda dan terhubung; tidak mudah untuk dianalisis atau dipahami."
+  usage: "Use this word to describe something that is intricate and has many components, such as a system, a problem, or a task."
+  synonyms:
+    - "complicated"
+    - "intricate"
+    - "involved"
+  examples:
+    workplace:
+      - "The system architecture is very **complex**."
+      - "We are dealing with a **complex** bug that is hard to reproduce."
+    casual:
+      - "The human brain is a **complex** organ."
+      - "The movie had a **complex** plot that was hard to follow."
+  related:
+    - word: "complicated"
+      difference: "'Complex' and 'complicated' are very similar. 'Complex' often refers to the inherent nature of something with many parts. 'Complicated' can sometimes imply that something is unnecessarily difficult or confusing."
+    - word: "simple"
+      difference: "'Simple' is the direct opposite of 'complex'."
+  story: |
+    The user authentication flow seems simple on the surface, but the underlying code is surprisingly **complex**. It involves multiple microservices, a database, and a third-party provider. Debugging issues in this **complex** system requires a lot of patience and careful investigation.
+- word: "side-tracked"
+  pronunciation: "/ˈsaɪdˌtrækt/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Distracted from a primary course of action or main topic."
+    bahasa: "Teralihkan dari jalur tindakan utama atau topik utama."
+  usage: "Use this to describe when you lose focus on what you were supposed to be doing because something else has caught your attention."
+  synonyms:
+    - "distracted"
+    - "diverted"
+    - "derailed"
+  examples:
+    workplace:
+      - "I got **side-tracked** by a production issue and didn't finish my main task."
+      - "Let's not get **side-tracked**; we need to stick to the meeting's agenda."
+    casual:
+      - "I went to the store to buy milk but got **side-tracked** by a sale on books."
+      - "He gets easily **side-tracked** when he's supposed to be studying."
+  related:
+    - word: "distracted"
+      difference: "'Distracted' is a general term for having your attention pulled away. 'Side-tracked' specifically implies you have been diverted onto a different path or task."
+    - word: "focus"
+      difference: "'Focus' is the opposite of being side-tracked; it's the ability to concentrate on the main task."
+  story: |
+    My plan was to spend the morning refactoring a large component. However, I noticed a small bug while I was working. I intended to spend just a few minutes on it, but I got completely **side-tracked** and ended up spending two hours fixing it.
+- word: "guesstimate"
+  pronunciation: "/ˈɡɛstɪmət/"
+  part_of_speech: "noun"
+  meaning:
+    english: "An estimate based on a mixture of guesswork and calculation."
+    bahasa: "Perkiraan yang didasarkan pada campuran tebakan dan perhitungan."
+  usage: "A casual, informal word for an estimate that is not expected to be perfectly accurate. It's a blend of 'guess' and 'estimate'."
+  synonyms:
+    - "rough estimate"
+    - "ballpark figure"
+  examples:
+    workplace:
+      - "I can give you a **guesstimate**, but I'll need to investigate further for an accurate timeline."
+      - "My **guesstimate** is that this will take about three days to complete."
+    casual:
+      - "What's your **guesstimate** for how many people will come to the party?"
+      - "Just give me a **guesstimate** of the cost."
+  related:
+    - word: "estimate"
+      difference: "An 'estimate' is a careful calculation of a value. A 'guesstimate' is more informal and acknowledges that there is a significant amount of guesswork involved."
+    - word: "forecast"
+      difference: "A 'forecast' is a prediction, often based on historical data and trends. A 'guesstimate' is usually for a current, specific task."
+  story: |
+    My project manager asked for a timeline to build a new feature. Since I hadn't fully scoped it out, I gave her a **guesstimate** of two weeks. I made it clear that this was just a rough idea and I would provide a more accurate estimate after I had a chance to analyze the requirements in detail.
+- word: "nail down"
+  pronunciation: "/neɪl daʊn/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To identify something precisely or to make a decision final and definite."
+    bahasa: "Mengidentifikasi sesuatu dengan tepat atau membuat keputusan menjadi final dan pasti."
+  usage: "Use this phrase when you are trying to finalize details, confirm information, or understand the exact cause of a problem."
+  synonyms:
+    - "pinpoint"
+    - "finalize"
+    - "confirm"
+  examples:
+    workplace:
+      - "We need to **nail down** the requirements before we start coding."
+      - "I'm trying to **nail down** the source of this bug."
+    casual:
+      - "Let's **nail down** a time for our trip this weekend."
+      - "It's hard to **nail down** the exact flavor; it's a mix of sweet and sour."
+  related:
+    - word: "finalize"
+      difference: "'Finalize' is more formal and refers to completing the final details of a plan or document. 'Nail down' is more informal and can also be used for identifying something precisely, like a bug."
+    - word: "determine"
+      difference: "'Determine' is about discovering the facts. 'Nail down' has an added sense of making something definite or fixed once it's been determined."
+  story: |
+    The bug was intermittent, which made it very hard to fix. I spent hours adding logs and running tests to **nail down** the exact conditions that caused it. Once I was able to reliably reproduce it, fixing it was easy.
+- word: "in the weeds"
+  pronunciation: "/ɪn ðə wiːdz/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "Deeply involved in the details of something; overwhelmed with too much work or too many details."
+    bahasa: "Terlalu terlibat dalam detail sesuatu; kewalahan dengan terlalu banyak pekerjaan atau detail."
+  usage: "This phrase can have two meanings: 1) being focused on the low-level details of a task, or 2) being overwhelmed by the volume or complexity of work."
+  synonyms:
+    - "bogged down"
+    - "swamped"
+  examples:
+    workplace:
+      - "He's **in the weeds** of the database query, trying to optimize it."
+      - "I'm too **in the weeds** with daily tasks to think about long-term strategy."
+    casual:
+      - "The restaurant staff was **in the weeds** during the dinner rush."
+      - "I'm **in the weeds** planning this party; there are so many little things to do."
+  related:
+    - word: "deep dive"
+      difference: "A 'deep dive' is a deliberate choice to go into the details of a topic. Being 'in the weeds' is often an unintended state of being stuck in the details, sometimes to the point of losing sight of the bigger picture."
+    - word: "overwhelmed"
+      difference: "'Overwhelmed' is a feeling of being unable to cope. 'In the weeds' describes the situation of being entangled in details, which often leads to feeling overwhelmed."
+  story: |
+    I was trying to understand a piece of legacy code. An hour later, my manager found me staring at a single function. "Don't get too lost **in the weeds**," she said. "Just focus on understanding the input and output for now. We can refactor the details later."
+- word: "spin up"
+  pronunciation: "/spɪn ʌp/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To create or start something quickly, especially a virtual machine, server, or software environment."
+    bahasa: "Membuat atau memulai sesuatu dengan cepat, terutama mesin virtual, server, atau lingkungan perangkat lunak."
+  usage: "Commonly used in tech, especially in the context of cloud computing, to refer to the quick creation of a new resource."
+  synonyms:
+    - "launch"
+    - "create"
+    - "start up"
+  examples:
+    workplace:
+      - "I need to **spin up** a new server for testing."
+      - "Can you **spin up** a copy of the production database for me?"
+    casual:
+      - "Let's **spin up** a quick website for our new project."
+      - "He can **spin up** a new business idea in a matter of hours."
+  related:
+    - word: "create"
+      difference: "'Create' is a general term. 'Spin up' is specific to technology and implies a quick, often automated, creation process."
+    - word: "deploy"
+      difference: "'Deploy' means to release software to an environment. 'Spin up' can be part of a deployment process, where you spin up new servers to run the software on."
+  story: |
+    To test the new feature without affecting the main development environment, I decided to **spin up** a new, isolated environment. With our cloud tools, it only took a few minutes to **spin up** a complete copy of the application stack.

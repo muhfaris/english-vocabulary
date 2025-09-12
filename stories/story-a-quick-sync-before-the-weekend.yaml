@@ -1,0 +1,20 @@
+story:
+  title: "a-quick-sync-before-the-weekend"
+  date: "2025-09-13"
+  text: |
+    Our team had a quick **morning sync** to align on the week's final tasks. My main goal was to fix a bug in the payment module. I thought it would be **straightforward**, but the more I started to **dive in**, the more I realized it was quite **complex**. It was connected to three other services.
+
+    I told my manager my initial **guesstimate** of two hours was too optimistic. We agreed that I needed to **nail down** the exact cause before I got lost **in the weeds**. The main **priority** was to get a fix ready for testing.
+
+    I felt a bit **side-tracked** from my original plan, but it was necessary. I decided to **spin up** a separate testing environment to reproduce the issue safely. It was a busy day, but the clear direction after the sync helped a lot.
+  highlighted_words:
+    - "morning sync"
+    - "dive in"
+    - "straightforward"
+    - "complex"
+    - "guesstimate"
+    - "nail down"
+    - "in the weeds"
+    - "priority"
+    - "side-tracked"
+    - "spin up"
