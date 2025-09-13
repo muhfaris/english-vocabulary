@@ -70,3 +70,61 @@ questions:
     a: "No, it's a temporary patch that 'stops the bleeding'."
   - q: "What are Alex and Ben's plans for the weekend?"
     a: "They both plan to 'switch off' and relax."
+---
+- title: preparing-for-a-presentation
+  dialogue:
+    - speaker: Maria
+      english: "Hey, got a sec? I'd like to run through my presentation slides with you."
+      bahasa: "Hai, punya waktu sebentar? Aku ingin membahas slide presentasiku denganmu."
+    - speaker: David
+      english: "Of course. Is this for the tech talk on Friday?"
+      bahasa: "Tentu saja. Apakah ini untuk tech talk hari Jumat?"
+    - speaker: Maria
+      english: "That's the one. I'm a bit nervous. I want to make sure the flow is logical."
+      bahasa: "Betul. Aku sedikit gugup. Aku ingin memastikan alurnya logis."
+    - speaker: David
+      english: "No worries. Let's do a quick dry run. I'll pretend I'm the audience."
+      bahasa: "Jangan khawatir. Mari kita lakukan uji coba singkat. Aku akan berpura-pura menjadi penonton."
+    - speaker: Maria
+      english: "Thanks, I appreciate it. So, I start with the problem statement, then our proposed solution, and finally a live demo."
+      bahasa: "Terima kasih, aku hargai itu. Jadi, aku mulai dengan pernyataan masalah, lalu solusi yang kami usulkan, dan terakhir demo langsung."
+    - speaker: David
+      english: "Sounds solid. How long is the demo?"
+      bahasa: "Terdengar solid. Berapa lama demonya?"
+    - speaker: Maria
+      english: "About five minutes. I've practiced it a few times, so I'm starting to get the hang of it."
+      bahasa: "Sekitar lima menit. Aku sudah berlatih beberapa kali, jadi aku mulai terbiasa."
+    - speaker: David
+      english: "Perfect. Just make sure your key takeaways are clear. We want everyone to be on the same page."
+      bahasa: "Sempurna. Pastikan saja poin-poin utamamu jelas. Kita ingin semua orang memahami hal yang sama."
+    - speaker: Maria
+      english: "Good point. I'll add a summary slide at the end. So, in a nutshell, the talk is about improving performance with caching."
+      bahasa: "Poin yang bagus. Aku akan menambahkan slide ringkasan di akhir. Jadi, singkatnya, presentasi ini tentang meningkatkan kinerja dengan caching."
+    - speaker: David
+      english: "Awesome. I think you're well-prepared. You'll do great."
+      bahasa: "Luar biasa. Aku pikir kamu sudah sangat siap. Kamu akan melakukannya dengan baik."
+  expressions:
+    - phrase: "run through"
+      meaning_english: "To quickly review or rehearse something."
+      meaning_bahasa: "Untuk meninjau atau melatih sesuatu dengan cepat."
+    - phrase: "dry run"
+      meaning_english: "A rehearsal of a performance or procedure before the real one."
+      meaning_bahasa: "Latihan pertunjukan atau prosedur sebelum yang sebenarnya."
+    - phrase: "get the hang of it"
+      meaning_english: "To learn how to do something; to acquire a skill."
+      meaning_bahasa: "Mempelajari cara melakukan sesuatu; untuk memperoleh keterampilan."
+    - phrase: "on the same page"
+      meaning_english: "To have a shared understanding or agreement."
+      meaning_bahasa: "Memiliki pemahaman atau kesepakatan bersama."
+    - phrase: "in a nutshell"
+      meaning_english: "In a few words; in summary."
+      meaning_bahasa: "Singkatnya; secara ringkas."
+  questions:
+    - q: "What is Maria preparing for?"
+      a: "She is preparing for a tech talk presentation on Friday."
+    - q: "What is David helping Maria with?"
+      a: "He is helping her by doing a dry run of her presentation and giving feedback."
+    - q: "What does the expression 'dry run' mean?"
+      a: "It means a rehearsal or practice session."
+    - q: "What is the main topic of Maria's presentation?"
+      a: "The presentation is about improving application performance by using caching techniques."
