@@ -1,0 +1,62 @@
+dialogue:
+  - speaker: Alex
+    english: "Hey Ben, got a second? I stumbled upon a new data visualization library that looks promising."
+    bahasa: "Hai Ben, ada waktu sebentar? Aku menemukan library visualisasi data baru yang sepertinya menjanjikan."
+  - speaker: Ben
+    english: "Oh yeah? What's it called? Are we considering replacing our current one?"
+    bahasa: "Oh ya? Apa namanya? Apakah kita mempertimbangkan untuk mengganti yang kita pakai sekarang?"
+  - speaker: Alex
+    english: "It's called Chartify.js. And not necessarily replace, but it seems to have better performance and more chart types out of the box."
+    bahasa: "Namanya Chartify.js. Dan tidak harus mengganti, tapi sepertinya performanya lebih baik dan punya lebih banyak jenis grafik bawaan."
+  - speaker: Ben
+    english: "That sounds good, but what's the learning curve like? And how's the documentation and community support?"
+    bahasa: "Kedengarannya bagus, tapi bagaimana dengan kurva belajarnya? Dan bagaimana dengan dokumentasi dan dukungan komunitasnya?"
+  - speaker: Alex
+    english: "The API looks pretty straightforward, similar to what we're used to. The documentation is decent, and the community is small but growing. It's a trade-off."
+    bahasa: "API-nya terlihat cukup sederhana, mirip dengan yang biasa kita gunakan. Dokumentasinya lumayan, dan komunitasnya kecil tapi berkembang. Ini adalah sebuah pertukaran."
+  - speaker: Ben
+    english: "I'm a bit wary of relying on a library without a large community. If we hit a major roadblock, we could be on our own."
+    bahasa: "Aku sedikit khawatir bergantung pada library tanpa komunitas yang besar. Jika kita menghadapi masalah besar, kita bisa jadi sendirian."
+  - speaker: Alex
+    english: "That's a valid point. How about we build a small proof of concept? Maybe a small internal dashboard with it?"
+    bahasa: "Itu poin yang valid. Bagaimana kalau kita membuat bukti konsep kecil? Mungkin dasbor internal kecil dengan library ini?"
+  - speaker: Ben
+    english: "A POC sounds like a good idea. That way, we can evaluate its capabilities and limitations without committing to it."
+    bahasa: "POC kedengarannya ide yang bagus. Dengan begitu, kita bisa mengevaluasi kemampuan dan keterbatasannya tanpa harus berkomitmen."
+  - speaker: Alex
+    english: "Exactly. We can time-box the experiment to, say, two days. If it works out well, we can pitch the idea to the team lead."
+    bahasa: "Tepat sekali. Kita bisa membatasi waktu eksperimen ini, katakanlah, dua hari. Jika berhasil, kita bisa mengajukan ide ini ke pemimpin tim."
+  - speaker: Ben
+    english: "Agreed. It's a low-risk way to explore new tech. Let's do it."
+    bahasa: "Setuju. Ini adalah cara berisiko rendah untuk menjelajahi teknologi baru. Mari kita lakukan."
+
+expressions:
+  - phrase: "stumbled upon"
+    meaning_english: "To find something by chance."
+    meaning_bahasa: "Menemukan sesuatu secara kebetulan."
+  - phrase: "out of the box"
+    meaning_english: "Available immediately, without any special configuration."
+    meaning_bahasa: "Tersedia secara langsung, tanpa konfigurasi khusus."
+  - phrase: "learning curve"
+    meaning_english: "The rate of a person's progress in learning a new skill."
+    meaning_bahasa: "Tingkat kemajuan seseorang dalam mempelajari keterampilan baru."
+  - phrase: "wary of"
+    meaning_english: "Feeling cautious or suspicious about something."
+    meaning_bahasa: "Merasa berhati-hati atau curiga terhadap sesuatu."
+  - phrase: "proof of concept (POC)"
+    meaning_english: "Evidence demonstrating that a design concept is feasible."
+    meaning_bahasa: "Bukti yang menunjukkan bahwa sebuah konsep desain dapat dilaksanakan."
+  - phrase: "time-box"
+    meaning_english: "To allocate a fixed maximum unit of time to an activity."
+    meaning_bahasa: "Mengalokasikan unit waktu maksimum yang tetap untuk suatu kegiatan."
+  - phrase: "pitch the idea"
+    meaning_english: "To present an idea for consideration."
+    meaning_bahasa: "Mempresentasikan sebuah ide untuk dipertimbangkan."
+
+questions:
+  - q: "What is the name of the new library Alex found?"
+    a: "It's called Chartify.js."
+  - q: "What was Ben's main concern about the new library?"
+    a: "He was concerned about the lack of a large community for support."
+  - q: "What did they decide to do to evaluate the library?"
+    a: "They decided to build a small proof of concept (POC) and time-box the experiment."
