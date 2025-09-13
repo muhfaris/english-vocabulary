@@ -340,3 +340,104 @@
       difference: "A 'rule' can be imposed from the outside. A 'team norm' often emerges from the team itself and is based on mutual agreement and habit."
   story: |
     During our last retrospective, we noticed that our meetings were often running over time. We decided to establish a new **team norm**: every meeting must have a clear agenda sent out at least an hour beforehand. It has helped us stay focused and respect everyone's time.
+- word: "regroup"
+  pronunciation: "/ˌriːˈɡruːp/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To pause and reorganize in order to develop a new plan or strategy, especially after a setback."
+    bahasa: "Berhenti sejenak dan menata ulang untuk mengembangkan rencana atau strategi baru, terutama setelah mengalami kemunduran."
+  usage: "Use this word when a team needs to stop, reassess a situation, and decide on a new course of action."
+  synonyms:
+    - "reorganize"
+    - "reassess"
+    - "rally"
+  examples:
+    workplace:
+      - "The client changed the requirements, so we need to **regroup** and adjust our plan."
+      - "After the failed deployment, the team took an hour to **regroup** and identify the problem."
+    casual:
+      - "We lost the first match, but we'll **regroup** and try to win the next one."
+      - "Let's **regroup** at the cafe later to figure out our evening plans."
+  related:
+    - word: "huddle"
+      difference: "A 'huddle' is a quick, often informal meeting to discuss something. 'To regroup' is the action of reorganizing, which might happen during a huddle."
+    - word: "pivot"
+      difference: "A 'pivot' is a significant change in strategy. 'To regroup' is the process of deciding on that new strategy."
+  story: |
+    The demo didn't go as planned, and the stakeholders had a lot of unexpected feedback. Instead of getting discouraged, our team lead called for a meeting to **regroup**. We spent an hour discussing the feedback and came out with a stronger, more focused plan.
+
+- word: "itemize"
+  pronunciation: "/ˈaɪtəmaɪz/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To present a list of individual items, one by one."
+    bahasa: "Menyajikan daftar item satu per satu."
+  usage: "Use this word when you need to break down a general topic or request into a detailed list of specific points or tasks."
+  synonyms:
+    - "list"
+    - "enumerate"
+    - "specify"
+  examples:
+    workplace:
+      - "Could you **itemize** the tasks required to complete this feature?"
+      - "The invoice will **itemize** all the costs involved."
+    casual:
+      - "She helped me **itemize** everything I needed to pack for the trip."
+      - "The grocery list will **itemize** all the ingredients for the recipe."
+  related:
+    - word: "list"
+      difference: "'List' can be a noun or a verb. 'Itemize' is always a verb and implies a more formal or detailed breakdown of items."
+    - word: "summarize"
+      difference: "'Summarize' is the opposite of 'itemize'. It means to give a brief overview, while 'itemize' means to provide a detailed list."
+  story: |
+    The feedback from the user testing session was very broad. To make it actionable, the product manager decided to **itemize** every piece of feedback. This helped us see the specific issues and create a clear checklist of things to fix.
+
+- word: "humbling"
+  pronunciation: "/ˈhʌmblɪŋ/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Causing a feeling of humility; making you realize that you are not as important or skilled as you thought."
+    bahasa: "Menyebabkan perasaan rendah hati; membuat Anda sadar bahwa Anda tidak sepenting atau sehebat yang Anda kira."
+  usage: "Use this to describe an experience that makes you feel more modest and less proud, often after a mistake or a challenging situation."
+  synonyms:
+    - "chastening"
+    - "sobering"
+  examples:
+    workplace:
+      - "It was a **humbling** experience to see the junior developer solve the bug I was stuck on for days."
+      - "Receiving direct, critical feedback from users can be **humbling**."
+    casual:
+      - "Visiting the Grand Canyon was a **humbling** experience; it made me feel so small."
+      - "Losing the game was a **humbling** lesson for the overconfident team."
+  related:
+    - word: "embarrassing"
+      difference: "An 'embarrassing' experience makes you feel ashamed or awkward. A 'humbling' experience makes you feel more modest and respectful of others' skills or the scale of a problem."
+    - word: "learning experience"
+      difference: "A 'learning experience' is a general term for any event you learn from. A 'humbling' experience is a specific type of learning experience that reduces your pride."
+  story: |
+    I was very confident about my code, but the code review revealed several major flaws I had completely missed. It was a **humbling** experience, but it taught me the importance of having my work checked by others. I'm grateful for the feedback.
+
+- word: "detour"
+  pronunciation: "/ˈdiːtʊr/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A deviation from a direct or intended course of action."
+    bahasa: "Penyimpangan dari jalur tindakan yang langsung atau yang dimaksudkan."
+  usage: "Use this word to describe an indirect path or an unexpected task that you have to take, which delays your original plan."
+  synonyms:
+    - "diversion"
+    - "digression"
+  examples:
+    workplace:
+      - "We had to take a **detour** to fix a critical bug before we could continue with the new feature."
+      - "The discussion took a long **detour** into technical details that weren't on the agenda."
+    casual:
+      - "We took a scenic **detour** on our way home."
+      - "The road was closed, so we had to follow a **detour**."
+  related:
+    - word: "distraction"
+      difference: "A 'distraction' is something that pulls your attention away. A 'detour' is an actual change in your course of action, often caused by an obstacle."
+    - word: "blocker"
+      difference: "A 'blocker' is something that prevents you from making any progress. A 'detour' is a way around a blocker, but it takes longer than the original path."
+  story: |
+    Our plan was to launch the new feature this week. However, late-stage testing revealed a security vulnerability. Fixing it became an unexpected **detour** that pushed our launch back by a few days, but it was a necessary one.
