@@ -1,0 +1,15 @@
+story:
+  title: "learning-the-team-conventions"
+  date: "2025-09-13"
+  text: |
+    During my first week, I had a pair programming session with a senior developer. She taught me about the team's coding conventions. "Our main **golden rule**," she said, "is to always leave the code cleaner than you found it."
+
+    She showed me the official **style guide**, which covered things like naming conventions and formatting. But she also explained some of the team's **unwritten rule**s. For example, we always add a comment explaining the 'why' behind a complex piece of logic, not just the 'what'.
+
+    She mentioned that while the company has several approved JavaScript frameworks, React has become the **de facto standard** for all new projects. It’s a **team norm** to have at least two people review any pull request before it gets merged. It was a lot to take in, but it was incredibly helpful for getting up to speed with how the team works.
+  highlighted_words:
+    - "golden rule"
+    - "style guide"
+    - "unwritten rule"
+    - "de facto standard"
+    - "team norm"

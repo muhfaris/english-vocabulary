@@ -220,3 +220,123 @@
       difference: "'Deploy' means to release software to an environment. 'Spin up' can be part of a deployment process, where you spin up new servers to run the software on."
   story: |
     To test the new feature without affecting the main development environment, I decided to **spin up** a new, isolated environment. With our cloud tools, it only took a few minutes to **spin up** a complete copy of the application stack.
+- word: "golden rule"
+  pronunciation: "/ˈɡoʊldən ruːl/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A fundamental principle or an important rule that should always be followed."
+    bahasa: "Prinsip dasar atau aturan penting yang harus selalu diikuti."
+  usage: "Used to describe a core principle that is considered highly important in a particular context."
+  synonyms:
+    - "cardinal rule"
+    - "first principle"
+  examples:
+    workplace:
+      - "The **golden rule** of our team is to never push code without running the tests."
+      - "He follows the **golden rule** of user-centered design in all his work."
+    casual:
+      - "My grandmother's **golden rule** was to always be kind to others."
+      - "Treat others as you want to be treated' is a well-known **golden rule**."
+  related:
+    - word: "best practice"
+      difference: "A 'best practice' is a recommended method that is considered effective. A 'golden rule' is a more fundamental, often mandatory, principle."
+    - word: "guideline"
+      difference: "A 'guideline' is a general recommendation. A 'golden rule' is a much stronger, more essential rule."
+  story: |
+    When mentoring a new developer, I always share the team's **golden rule**: 'always communicate blockers early'. It's the most important principle for ensuring our projects stay on track and that we can support each other effectively.
+- word: "style guide"
+  pronunciation: "/staɪl ɡaɪd/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A set of standards for the writing, formatting, and design of documents and code."
+    bahasa: "Satu set standar untuk penulisan, pemformatan, dan desain dokumen dan kode."
+  usage: "Used to refer to a document that specifies conventions for a project, team, or organization to ensure consistency."
+  synonyms:
+    - "coding standards"
+    - "manual of style"
+  examples:
+    workplace:
+      - "Please format your code according to the project's **style guide**."
+      - "Our **style guide** specifies using tabs instead of spaces."
+    casual:
+      - "The journalist consulted the AP **style guide** for the correct formatting."
+      - "Many brands have a **style guide** for their marketing materials."
+  related:
+    - word: "convention"
+      difference: "A 'convention' is a way something is usually done. A 'style guide' is a formal document that lists these conventions."
+    - word: "documentation"
+      difference: "'Documentation' is a broad term for any explanatory material. A 'style guide' is a specific type of documentation focused on standards."
+  story: |
+    We recently had a long debate about code formatting. To settle it, we decided to adopt a popular public **style guide** and configure our code editor to automatically enforce its rules. This has saved us a lot of time in code reviews.
+- word: "unwritten rule"
+  pronunciation: "/ʌnˈrɪtən ruːl/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A rule about what is appropriate or expected in a particular situation, which is not recorded in any official document but is widely understood."
+    bahasa: "Aturan tentang apa yang pantas atau diharapkan dalam situasi tertentu, yang tidak dicatat dalam dokumen resmi tetapi dipahami secara luas."
+  usage: "Used to describe informal, social, or cultural norms that people are expected to follow."
+  synonyms:
+    - "informal rule"
+    - "social norm"
+  examples:
+    workplace:
+      - "It's an **unwritten rule** that you don't schedule meetings during lunchtime."
+      - "He broke an **unwritten rule** by deploying to production on a Friday afternoon."
+    casual:
+      - "An **unwritten rule** of public transport is to give up your seat to the elderly."
+      - "She learned the **unwritten rule**s of the community quickly."
+  related:
+    - word: "policy"
+      difference: "A 'policy' is a formal, written rule or principle. An 'unwritten rule' is informal and not officially documented."
+    - word: "etiquette"
+      difference: "'Etiquette' is the set of customary rules of polite behavior in society or among members of a particular group. 'Unwritten rule' is a broader term that can cover more than just politeness."
+  story: |
+    There's an **unwritten rule** on our team that if you are the last one to finish the coffee, you should make a new pot. It’s not in any handbook, but everyone does it to be considerate to their colleagues.
+- word: "de facto standard"
+  pronunciation: "/deɪ ˌfæktoʊ ˈstændərd/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A standard that has become dominant through popular use and market forces, rather than by being officially approved by a standards organization."
+    bahasa: "Standar yang telah menjadi dominan melalui penggunaan populer dan kekuatan pasar, bukan karena disetujui secara resmi oleh organisasi standar."
+  usage: "Used to describe a technology, method, or product that is the most common and widely used in its field, even if it's not the 'official' standard."
+  synonyms:
+    - "industry standard"
+    - "common practice"
+  examples:
+    workplace:
+      - "JSON has become the **de facto standard** for data exchange in web APIs."
+      - "Although other tools exist, Git is the **de facto standard** for version control."
+    casual:
+      - "The QWERTY keyboard is the **de facto standard** for typing in English."
+      - "For many years, the MP3 was the **de facto standard** for digital audio."
+  related:
+    - word: "official standard"
+      difference: "An 'official standard' (or 'de jure standard') is one that is approved by a formal body. A 'de facto standard' becomes standard through adoption and usage."
+    - word: "trend"
+      difference: "A 'trend' is a general direction in which something is developing or changing. A 'de facto standard' is a trend that has become so dominant that it is the expected choice."
+  story: |
+    Our company doesn't have an official policy on which cloud provider to use. However, because the first few major projects were all built on AWS, it has become the **de facto standard**. Most of our internal tools and expertise are now centered around it.
+- word: "team norm"
+  pronunciation: "/tiːm nɔːrm/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "The shared expectations and rules that guide the behavior of members within a team."
+    bahasa: "Harapan dan aturan bersama yang memandu perilaku anggota dalam sebuah tim."
+  usage: "Used to describe the established ways of working and interacting that a team has developed over time."
+  synonyms:
+    - "team agreement"
+    - "ground rules"
+  examples:
+    workplace:
+      - "A key **team norm** is to provide constructive feedback during code reviews."
+      - "We established a new **team norm** to have 'no-meeting Wednesdays'."
+    casual:
+      - "Our study group has a **team norm** of coming prepared to each session."
+      - "It's a **team norm** for our sports team to celebrate together after every game."
+  related:
+    - word: "company culture"
+      difference: "'Company culture' refers to the shared values and practices of an entire organization. A 'team norm' is specific to a single team within that organization."
+    - word: "rule"
+      difference: "A 'rule' can be imposed from the outside. A 'team norm' often emerges from the team itself and is based on mutual agreement and habit."
+  story: |
+    During our last retrospective, we noticed that our meetings were often running over time. We decided to establish a new **team norm**: every meeting must have a clear agenda sent out at least an hour beforehand. It has helped us stay focused and respect everyone's time.
