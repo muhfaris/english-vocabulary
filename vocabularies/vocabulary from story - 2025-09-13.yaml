@@ -441,3 +441,161 @@
       difference: "A 'blocker' is something that prevents you from making any progress. A 'detour' is a way around a blocker, but it takes longer than the original path."
   story: |
     Our plan was to launch the new feature this week. However, late-stage testing revealed a security vulnerability. Fixing it became an unexpected **detour** that pushed our launch back by a few days, but it was a necessary one.
+- word: "legacy service"
+  pronunciation: "/ˈlɛɡəsi ˈsɜːrvɪs/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "An old method, technology, computer system, or application program that is still in use."
+    bahasa: "Sebuah metode, teknologi, sistem komputer, atau program aplikasi lama yang masih digunakan."
+  usage: "Use this term to describe a system that is outdated but still critical to the company's operations. It often implies that the system is difficult to maintain or integrate with newer systems."
+  synonyms:
+    - "outdated system"
+    - "old technology"
+  examples:
+    workplace:
+      - "We can't add this feature easily because it depends on a **legacy service**."
+      - "The team's main goal is to slowly replace the **legacy service** with a more modern one."
+    casual:
+      - "He compared the old accounting software to a **legacy service**; it works, but it's slow."
+      - "The airline's booking system is so clunky; it must be a **legacy service**."
+  related:
+    - word: "legacy code"
+      difference: "'Legacy code' refers specifically to the source code of an old application. 'Legacy service' is broader and refers to the entire system or service, which includes the code, hardware, and infrastructure."
+  story: |
+    Our team was tasked with improving the user profile page. However, all the user data was managed by a **legacy service** built over a decade ago. It had no modern API, and its database was slow. We had to write a lot of extra code to safely connect to it without causing issues. It was a clear sign that we needed to prioritize migrating away from that **legacy service**.
+- word: "side effects"
+  pronunciation: "/saɪd ɪˈfɛkts/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "An unexpected or secondary result of an action, especially one that is undesirable or problematic."
+    bahasa: "Efek samping; hasil yang tidak diharapkan atau sekunder dari suatu tindakan, terutama yang tidak diinginkan atau bermasalah."
+  usage: "In software development, this term refers to a function or expression modifying some state outside its local environment. For example, changing a global variable or writing to a database."
+  synonyms:
+    - "unintended consequences"
+    - "secondary effects"
+  examples:
+    workplace:
+      - "The bug was caused by a function with unexpected **side effects**."
+      - "We need to be careful with this change to avoid any negative **side effects** on other features."
+    casual:
+      - "One of the **side effects** of the new highway is more traffic in the local streets."
+      - "He didn't consider the **side effects** of his decision."
+  related:
+    - word: "pure function"
+      difference: "A 'pure function' is a function that has no side effects and its output is solely determined by its input. This is the opposite of a function with 'side effects'."
+  story: |
+    I wrote a function to calculate the total price of items in a shopping cart. It worked, but it also had **side effects**: it accidentally modified the original price of an item in the database. This caused problems in other parts of the application. I had to refactor my code to eliminate these **side effects** and ensure the function only performed the calculation.
+- word: "handle"
+  pronunciation: "/ˈhændl/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To deal with, manage, or be responsible for something."
+    bahasa: "Menangani, mengelola, atau bertanggung jawab atas sesuatu."
+  usage: "Use this verb to describe taking responsibility for a task, problem, or situation."
+  synonyms:
+    - "manage"
+    - "deal with"
+    - "take care of"
+  examples:
+    workplace:
+      - "I can **handle** this bug fix, so you can focus on the new feature."
+      - "She knows how to **handle** difficult clients."
+    casual:
+      - "Can you **handle** the cooking while I do the cleaning?"
+      - "He can't **handle** the pressure of his new job."
+  related:
+    - word: "delegate"
+      difference: "'To handle' something means to do it yourself. 'To delegate' something means to give the responsibility to someone else."
+  story: |
+    During our daily stand-up, we realized we had two urgent tasks. My teammate was already busy, so I told my manager, "I can **handle** the authentication issue." He agreed and assigned the ticket to me. It was a challenging problem, but I was confident I could **handle** it.
+- word: "second pair of eyes"
+  pronunciation: "/ˈsɛkənd pɛər əv aɪz/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A review of a piece of work by another person, to check for errors or suggest improvements."
+    bahasa: "Sepasang mata kedua; tinjauan pekerjaan oleh orang lain untuk memeriksa kesalahan atau menyarankan perbaikan."
+  usage: "Use this phrase when you want someone else to look over your work, especially to catch mistakes you might have missed."
+  synonyms:
+    - "peer review"
+    - "double-check"
+  examples:
+    workplace:
+      - "Before I submit this code, can I get a **second pair of eyes** on it?"
+      - "A **second pair of eyes** on the document helped catch a few typos."
+    casual:
+      - "I'd like a **second pair of eyes** on my resume before I send it out."
+      - "Can you be my **second pair of eyes** on this email to make sure it sounds okay?"
+  related:
+    - word: "code review"
+      difference: "A 'code review' is a formal process for getting a 'second pair of eyes' on your code. The phrase 'second pair of eyes' is more informal and can be used for any type of work, not just code."
+  story: |
+    I spent all day writing a complex SQL query. It seemed to work, but I was worried I might have missed something. Before running it on the production database, I asked a senior developer to be a **second pair of eyes**. She looked it over and found a small mistake that would have caused a major performance issue. I was so grateful for that **second pair of eyes**.
+- word: "approach"
+  pronunciation: "/əˈproʊtʃ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A way of dealing with a situation or problem; a way of doing something."
+    bahasa: "Pendekatan; cara menangani situasi atau masalah; cara melakukan sesuatu."
+  usage: "Use this noun to describe a strategy or method for solving a problem."
+  synonyms:
+    - "method"
+    - "strategy"
+    - "way"
+  examples:
+    workplace:
+      - "Let's try a different **approach** to solving this problem."
+      - "His **approach** to project management is very effective."
+    casual:
+      - "I like her **approach** to teaching; it's very engaging."
+      - "We need a new **approach** to marketing our product."
+  related:
+    - word: "solution"
+      difference: "An 'approach' is the way you go about trying to solve a problem. A 'solution' is the actual answer or fix to the problem."
+  story: |
+    Our initial **approach** to building the search feature was to use a simple database query. However, as we added more data, the search became very slow. We had a meeting to discuss a new **approach**. We decided to use a dedicated search engine like Elasticsearch. This **approach** was more complex to implement but provided a much faster and more scalable solution.
+- word: "reminder"
+  pronunciation: "/rɪˈmaɪndər/"
+  part_of_speech: "noun"
+  meaning:
+    english: "Something that makes you remember something."
+    bahasa: "Pengingat; sesuatu yang membuat Anda mengingat sesuatu."
+  usage: "Use this noun to describe anything that helps you remember a task, event, or lesson."
+  synonyms:
+    - "prompt"
+    - "cue"
+    - "notification"
+  examples:
+    workplace:
+      - "I set a **reminder** in my calendar for the meeting."
+      - "This bug is a good **reminder** of why we need to write more tests."
+    casual:
+      - "My mom sent me a **reminder** to call my grandma."
+      - "The photo on his desk was a **reminder** of his family."
+  related:
+    - word: "notification"
+      difference: "A 'notification' is a specific type of reminder, usually a message or alert from a system. A 'reminder' is a more general term and can be anything that makes you remember."
+  story: |
+    Last month, we had a major outage because of a small mistake. We fixed it, but the experience was stressful. Now, every time I deploy new code, that memory serves as a **reminder** to double-check everything. It’s a powerful **reminder** to be careful and diligent in my work.
+- word: "challenges"
+  pronunciation: "/ˈtʃæləndʒɪz/"
+  part_of_speech: "noun"
+  meaning:
+    english: "Difficulties in a job or undertaking that are stimulating to one's abilities."
+    bahasa: "Tantangan; kesulitan dalam pekerjaan atau usaha yang merangsang kemampuan seseorang."
+  usage: "Use this noun to describe problems or difficulties that require effort and skill to overcome."
+  synonyms:
+    - "difficulties"
+    - "obstacles"
+    - "hurdles"
+  examples:
+    workplace:
+      - "One of the biggest **challenges** of this project is the tight deadline."
+      - "We faced many technical **challenges** during the development."
+    casual:
+      - "Learning a new language has its **challenges**."
+      - "He enjoys the **challenges** of running his own business."
+  related:
+    - word: "problem"
+      difference: "A 'problem' is generally a negative thing that needs to be solved. A 'challenge' can be seen as a positive thing that tests your abilities and helps you grow."
+  story: |
+    Building the new feature presented several **challenges**. First, we had to integrate with an old, poorly documented API. Then, we had to make sure our code was extremely performant. Despite the **challenges**, the team was motivated. We knew that overcoming these **challenges** would make our product much better and would be a great learning experience for all of us.
