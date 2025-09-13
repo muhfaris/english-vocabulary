@@ -1,0 +1,17 @@
+story:
+  title: "the-deceptive-quick-fix"
+  date: "2025-09-13"
+  text: |
+    It started with a request for a quick fix. A button in the user settings page wasn't working as expected. "Should be simple," my project manager said. I agreed and started digging into the code. An hour later, I was deep in a rabbit hole. The button was tied to a **legacy service** that had poor documentation and unexpected **side effects**.
+
+    I gave my PM a heads-up that this was more complex than it looked. He understood and asked if I had the bandwidth to **handle** it or if I needed help. I said I could manage but wanted a **second pair of eyes**. My colleague, Sarah, offered to help. We decided to do a short pair programming session.
+
+    Together, we managed to iron out the issues by creating a workaround that avoided the legacy service altogether. It took longer than a "quick fix," but the solution was more robust and safer. We documented the new **approach** and updated the task. It was a good **reminder** that sometimes the simplest-looking tasks can hide the biggest **challenges**.
+  highlighted_words:
+    - "legacy service"
+    - "side effects"
+    - "handle"
+    - "second pair of eyes"
+    - "approach"
+    - "reminder"
+    - "challenges"
