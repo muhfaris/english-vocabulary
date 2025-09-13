@@ -1,0 +1,23 @@
+story:
+  title: "a-challenging-bug-fix"
+  date: "2025-09-14"
+  text: |
+    My day kicked off with a much-needed **cup of coffee** before our daily **stand-up**. Everything seemed on track until an urgent **blocker** surfaced. A critical bug was discovered in the new feature that was scheduled to **go live** this week. The developer in charge was out sick, so my manager asked me to **take over**.
+
+    At first, the task felt **daunting**. The code was unfamiliar, and the pressure was on. I spent the morning **heads-down**, trying to get up to speed. I had to **dig deep** into the logic to understand how everything connected. After a few hours of intense focus, I finally managed to **diagnose** the problem. It was a subtle logic error that only appeared under specific conditions. What a **head-scratcher**!
+
+    I called for a quick **huddle** with a senior engineer to validate my findings. Together, we **hammered out** a solution. With a clear plan, I was able to implement the fix and push it to the staging environment for testing. It was a huge relief to see the bug resolved. By the end of the day, we got the green light to **deploy** the patch, keeping our release on schedule.
+  highlighted_words:
+    - "cup of coffee"
+    - "stand-up"
+    - "blocker"
+    - "go live"
+    - "take over"
+    - "daunting"
+    - "heads-down"
+    - "dig deep"
+    - "diagnose"
+    - "head-scratcher"
+    - "huddle"
+    - "hammered out"
+    - "deploy"

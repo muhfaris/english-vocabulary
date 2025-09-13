@@ -1,0 +1,125 @@
+- word: "take over"
+  pronunciation: "/teɪk ˈoʊvər/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To assume control or responsibility for something."
+    bahasa: "Mengambil alih."
+  usage: "Used when someone assumes control of a task, project, or role from another person. It often implies a transfer of responsibility, sometimes unexpectedly."
+  synonyms:
+    - "assume control"
+    - "take charge"
+    - "step in"
+  examples:
+    workplace:
+      - "Since Sarah is on leave, I'll take over her duties for the week."
+      - "The project manager had to take over the presentation after the lead engineer called in sick."
+    casual:
+      - "Can you take over driving for a while? I'm getting tired."
+      - "My brother will take over the family business next year."
+  related:
+    - word: "handover"
+      difference: "\"Handover\" is the process of giving responsibility to someone else, while \"take over\" is the act of receiving it. A handover is often planned, whereas taking over can be abrupt."
+    - word: "step in"
+      difference: "\"Step in\" is similar but often implies intervening to help or resolve a problem, not necessarily taking permanent control."
+  story: |
+    The team was struggling to meet the deadline for the new feature. When the lead developer had to leave for a family emergency, Anya didn't hesitate to take over. She quickly got up to speed with the remaining tasks and guided the team to a successful launch.
+- word: "daunting"
+  pronunciation: "/ˈdɔːntɪŋ/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Seeming difficult to deal with in anticipation; intimidating."
+    bahasa: "Terlihat menakutkan atau sulit."
+  usage: "Describes a task or challenge that appears very difficult, intimidating, or overwhelming before you even start it."
+  synonyms:
+    - "intimidating"
+    - "challenging"
+    - "overwhelming"
+  examples:
+    workplace:
+      - "Refactoring the entire legacy codebase seemed like a daunting task."
+      - "For a junior developer, the first big project can feel daunting."
+    casual:
+      - "Climbing Mount Everest is a daunting challenge."
+      - "The thought of moving to a new city alone was daunting."
+  related:
+    - word: "challenging"
+      difference: "\"Challenging\" suggests a task is difficult but stimulating. \"Daunting\" has a stronger sense of fear or intimidation that might make you hesitant to start."
+    - word: "overwhelming"
+      difference: "\"Overwhelming\" means something is too much to handle, often emotionally or mentally. \"Daunting\" is more about the initial perception of difficulty."
+  story: |
+    The team was tasked with migrating the entire database to a new system in one weekend. The initial plan looked daunting, with hundreds of steps and a high risk of failure. However, they broke it down into smaller, manageable tasks, and it started to feel much less intimidating.
+- word: "dig deep"
+  pronunciation: "/dɪɡ diːp/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To investigate something thoroughly to uncover information or the root cause of a problem."
+    bahasa: "Menggali lebih dalam."
+  usage: "Used when you need to perform a thorough investigation or analysis, often to find information that is not obvious or easy to find."
+  synonyms:
+    - "investigate thoroughly"
+    - "probe"
+    - "delve into"
+  examples:
+    workplace:
+      - "We need to dig deep into the server logs to find the source of the crash."
+      - "The performance issue is complex; we'll have to dig deep to understand it."
+    casual:
+      - "She had to dig deep into her family history for the project."
+      - "If you want to understand the movie's themes, you have to dig deep."
+  related:
+    - word: "investigate"
+      difference: "\"Investigate\" is a general term for looking into something. \"Dig deep\" implies a more intensive and determined effort to go beyond the surface level."
+    - word: "drill down"
+      difference: "\"Drill down\" is often used in the context of data analysis, moving from a summary level to a more detailed one. \"Dig deep\" is broader and can apply to any kind of investigation."
+  story: |
+    The bug was intermittent and hard to reproduce. The developer knew she had to dig deep. She spent a full day analyzing logs, testing different scenarios, and reading through old documentation until she finally uncovered a hidden dependency conflict that was causing the issue.
+- word: "diagnose"
+  pronunciation: "/ˌdaɪəɡˈnoʊs/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To identify the nature of a problem, especially a fault or error, by examining the symptoms."
+    bahasa: "Mendiagnosis."
+  usage: "Commonly used in technical contexts to describe the process of identifying the specific cause of a problem, bug, or failure."
+  synonyms:
+    - "identify"
+    - "determine the cause"
+    - "troubleshoot"
+  examples:
+    workplace:
+      - "My first step is to diagnose the root cause of the API failure."
+      - "She's excellent at diagnosing performance bottlenecks in the application."
+    casual:
+      - "The mechanic needs to diagnose the problem with my car's engine."
+      - "It took a while to diagnose why my internet was so slow."
+  related:
+    - word: "troubleshoot"
+      difference: "\"Troubleshoot\" is the broader process of finding and fixing problems. \"Diagnose\" is specifically the step of identifying the cause of the problem."
+    - word: "analyze"
+      difference: "\"Analyze\" means to examine something in detail. You might analyze data to help you diagnose a problem."
+  story: |
+    The website was loading slowly, but the reason wasn't obvious. The on-call engineer had to diagnose the issue by checking server metrics, database queries, and network latency. After an hour, she diagnosed it as a poorly optimized query that was slowing everything down.
+- word: "head-scratcher"
+  pronunciation: "/ˈhɛdˌskrætʃər/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A confusing or difficult problem or question."
+    bahasa: "Sesuatu yang membingungkan."
+  usage: "An informal term for a problem or puzzle that is very confusing and makes you think hard, literally making you \"scratch your head.\""
+  synonyms:
+    - "puzzle"
+    - "mystery"
+    - "conundrum"
+  examples:
+    workplace:
+      - "Why the code works in staging but not in production is a real head-scratcher."
+      - "This bug has been a head-scratcher for the whole team."
+    casual:
+      - "How he fixed the car with just a paperclip is a real head-scratcher."
+      - "The last question on the quiz was a total head-scratcher."
+  related:
+    - word: "puzzle"
+      difference: "A \"puzzle\" is a game or problem designed to be solved for entertainment. A \"head-scratcher\" is usually an unexpected and frustrating real-world problem."
+    - word: "mystery"
+      difference: "A \"mystery\" is something unknown or unexplained. A \"head-scratcher\" is a specific type of mystery that is actively confusing you."
+  story: |
+    A bug report came in that a feature was failing, but only for users in a specific time zone on the last day of the month. It was a true head-scratcher. The team spent hours trying to figure out the combination of factors that could cause such a strange issue.
