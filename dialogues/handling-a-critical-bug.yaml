@@ -1,0 +1,67 @@
+dialogue:
+  - speaker: Alex
+    english: "Ben, have you seen the latest ticket from support? It's marked as a blocker."
+    bahasa: "Ben, sudah lihat tiket terbaru dari support? Ditandai sebagai blocker."
+  - speaker: Ben
+    english: "Oh, no. I was just about to push my latest commit. What's the issue?"
+    bahasa: "Oh, tidak. Aku baru saja akan mendorong commit terbaruku. Apa masalahnya?"
+  - speaker: Alex
+    english: "Users are reporting that the payment gateway is failing for international credit cards. It's a critical issue."
+    bahasa: "Pengguna melaporkan bahwa gateway pembayaran gagal untuk kartu kredit internasional. Ini masalah kritis."
+  - speaker: Ben
+    english: "Yikes. That's a huge problem. We need to jump on this right away. Have you been able to replicate it?"
+    bahasa: "Waduh. Itu masalah besar. Kita harus segera menanganinya. Apakah kamu sudah bisa mereplikasinya?"
+  - speaker: Alex
+    english: "Not yet. I was just reading the report. It seems to have started in the last hour. I suspect our latest deployment might be the culprit."
+    bahasa: "Belum. Aku baru saja membaca laporannya. Sepertinya dimulai dalam satu jam terakhir. Aku curiga deployment terbaru kita mungkin penyebabnya."
+  - speaker: Ben
+    english: "Okay, let's divide and conquer. I'll start by checking the logs for any relevant error messages. Can you try to reproduce the bug in the staging environment?"
+    bahasa: "Oke, mari kita bagi tugas. Aku akan mulai dengan memeriksa log untuk pesan kesalahan yang relevan. Bisakah kamu mencoba mereproduksi bug di lingkungan staging?"
+  - speaker: Alex
+    english: "Sounds like a plan. I'll use the test credit card numbers for international transactions. Hopefully, I can trigger the same failure."
+    bahasa: "Terdengar bagus. Aku akan menggunakan nomor kartu kredit tes untuk transaksi internasional. Semoga aku bisa memicu kegagalan yang sama."
+  - speaker: Ben
+    english: "If it's a regression from the last release, we might have to consider rolling back the deployment as a temporary fix."
+    bahasa: "Jika ini adalah regresi dari rilis terakhir, kita mungkin harus mempertimbangkan untuk mengembalikan deployment sebagai perbaikan sementara."
+  - speaker: Alex
+    english: "Agreed. Let's sync up in 30 minutes. Hopefully, one of us will have a lead by then."
+    bahasa: "Setuju. Mari kita sinkronisasi dalam 30 menit. Semoga salah satu dari kita sudah punya petunjuk saat itu."
+  - speaker: Ben
+    english: "Got it. I'm on it. Let's get this sorted."
+    bahasa: "Mengerti. Aku akan mengerjakannya. Mari kita selesaikan ini."
+
+expressions:
+  - phrase: "blocker"
+    meaning_english: "A critical issue that prevents other work from proceeding or causes a major failure in the system."
+    meaning_bahasa: "Masalah kritis yang menghalangi pekerjaan lain untuk dilanjutkan atau menyebabkan kegagalan besar dalam sistem."
+  - phrase: "jump on this"
+    meaning_english: "To start working on something immediately and with urgency."
+    meaning_bahasa: "Mulai mengerjakan sesuatu dengan segera dan dengan urgensi."
+  - phrase: "replicate the bug"
+    meaning_english: "To reproduce the exact same error or issue that was reported."
+    meaning_bahasa: "Mereproduksi kesalahan atau masalah yang sama persis seperti yang dilaporkan."
+  - phrase: "the culprit"
+    meaning_english: "The source or cause of a problem."
+    meaning_bahasa: "Sumber atau penyebab masalah."
+  - phrase: "divide and conquer"
+    meaning_english: "A strategy to break down a large problem into smaller, more manageable parts and assign them to different people."
+    meaning_bahasa: "Strategi untuk memecah masalah besar menjadi bagian-bagian yang lebih kecil dan lebih mudah dikelola dan menugaskannya kepada orang yang berbeda."
+  - phrase: "rolling back"
+    meaning_english: "Reverting a system or software to a previous, stable version."
+    meaning_bahasa: "Mengembalikan sistem atau perangkat lunak ke versi sebelumnya yang stabil."
+  - phrase: "sync up"
+    meaning_english: "To meet and share the latest information or progress on a task."
+    meaning_bahasa: "Bertemu dan berbagi informasi atau kemajuan terbaru tentang suatu tugas."
+  - phrase: "have a lead"
+    meaning_english: "To have found a clue or a starting point for solving a problem."
+    meaning_bahasa: "Telah menemukan petunjuk atau titik awal untuk memecahkan masalah."
+
+questions:
+  - q: "What was the critical issue reported by users?"
+    a: "The payment gateway was failing for international credit cards."
+  - q: "What did Alex suspect was the cause of the problem?"
+    a: "He suspected that the latest deployment might have caused the issue."
+  - q: "How did Ben and Alex decide to tackle the problem?"
+    a: "They decided to divide the work: Ben would check the logs, and Alex would try to replicate the bug in the staging environment."
+  - q: "What was their backup plan if they couldn't find a quick fix?"
+    a: "They considered rolling back the latest deployment as a temporary solution."
