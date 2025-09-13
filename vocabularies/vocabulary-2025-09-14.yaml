@@ -1,0 +1,253 @@
+- word: "Sanitize"
+  pronunciation: "/ˈsænəˌtaɪz/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To clean or modify data to remove unwanted, unsafe, or invalid characters before it is used by the application."
+    bahasa: "Membersihkan atau memodifikasi data untuk menghilangkan karakter yang tidak diinginkan, tidak aman, atau tidak valid sebelum digunakan oleh aplikasi."
+  usage: "Crucial when dealing with any user input to prevent security vulnerabilities like SQL injection or Cross-Site Scripting (XSS). You 'sanitize' input before storing it in a database or displaying it on a page."
+  synonyms:
+    - "Clean"
+    - "Filter"
+    - "Purify"
+  examples:
+    workplace:
+      - "We need to sanitize all input fields on this form to prevent security risks."
+      - "The data from the third-party API is messy; I'm writing a function to sanitize it first."
+    casual:
+      - "You should sanitize your hands before eating."
+      - "He tried to sanitize the story to make himself look better."
+  related:
+    - word: "Validate"
+      difference: "'Validate' means to check if data is in the correct format (e.g., is this a valid email address?). 'Sanitize' means to clean the data, whether it's valid or not (e.g., remove HTML tags from an email address)."
+    - word: "Escape"
+      difference: "'Escape' is a specific form of sanitization where you add backslashes or convert special characters so they are treated as literal strings, not as code."
+  story: |
+    During a code review, Liam noticed that a new developer was taking user comments and directly inserting them into the database. "This is a major security risk," Liam explained gently. "We must always sanitize user input. Imagine if someone entered malicious code in the comment box. By sanitizing it, we remove the danger before it ever reaches our system."
+
+- word: "Breadcrumb"
+  pronunciation: "/ˈbrɛdˌkrʌm/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A secondary navigation element that shows the user's location in a website or application, displaying the path from the homepage to the current page."
+    bahasa: "Elemen navigasi sekunder yang menunjukkan lokasi pengguna di situs web atau aplikasi, menampilkan jalur dari halaman beranda ke halaman saat ini."
+  usage: "Use this when discussing UI/UX design. Breadcrumbs help users understand the site structure and navigate back to higher-level pages easily."
+  synonyms:
+    - "Navigation path"
+    - "Cookie trail"
+  examples:
+    workplace:
+      - "Let's add a breadcrumb trail to the top of the settings page so users don't get lost."
+      - "The breadcrumb should show 'Home > Products > Laptops > Model XYZ'."
+    casual:
+      - "He left a breadcrumb trail of clues for the detective to follow."
+      - "It's hard to follow the breadcrumbs of their conversation to figure out what really happened."
+  related:
+    - word: "Sitemap"
+      difference: "A 'sitemap' is a map of the entire website, usually for search engines or as a user reference page. A 'breadcrumb' is a dynamic path showing the user's current location."
+    - word: "Navigation bar"
+      difference: "A 'navigation bar' is the primary menu for a site (e.g., Home, About, Contact). 'Breadcrumbs' are a secondary navigation aid showing the page hierarchy."
+  story: |
+    The UX designer presented a new mockup. "We've noticed users are getting confused in the documentation section," she said. "To solve this, we're introducing a breadcrumb navigation. This way, a user reading about a specific function can easily see which module it belongs to and can click back to the parent categories without hitting the 'back' button multiple times."
+
+- word: "Golden path"
+  pronunciation: "/ˈɡoʊldən pæθ/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "The ideal, default path that a user is expected to take through a system to complete a task successfully, with no errors or exceptions."
+    bahasa: "Jalur ideal dan default yang diharapkan diambil oleh pengguna melalui sistem untuk menyelesaikan tugas dengan sukses, tanpa kesalahan atau pengecualian."
+  usage: "Often used in testing and design. You want to ensure the 'golden path' is seamless and robust before you start worrying about edge cases."
+  synonyms:
+    - "Happy path"
+    - "Ideal user flow"
+  examples:
+    workplace:
+      - "Our E2E tests should first cover the golden path for user registration."
+      - "Let's focus on making the golden path work perfectly before adding more complex features."
+    casual:
+      - "For him, the golden path to success was hard work and dedication."
+      - "There's no golden path to a perfect relationship; it takes effort."
+  related:
+    - word: "Happy path"
+      difference: "'Golden path' and 'Happy path' are very similar and often used interchangeably. 'Golden path' can sometimes imply a more officially designed or recommended path, while 'happy path' is more of a testing term for the 'no errors' scenario."
+    - word: "Edge case"
+      difference: "An 'edge case' is a scenario outside the normal, expected parameters. The 'golden path' is the exact opposite; it's the most common, expected, and error-free scenario."
+  story: |
+    "Okay team, for this sprint, our top priority is the new checkout process," the product owner announced. "I want us to focus entirely on the golden path. A user adds an item to their cart, proceeds to checkout, enters valid payment info, and gets a success message. No error handling, no weird inputs, just that perfect flow. We'll handle the exceptions next sprint."
+
+- word: "Side-car"
+  pronunciation: "/ˈsaɪd kɑr/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A design pattern where a separate, helper application or process runs alongside a main application to provide supporting features, like logging, monitoring, or configuration."
+    bahasa: "Pola desain di mana aplikasi atau proses pembantu yang terpisah berjalan di samping aplikasi utama untuk menyediakan fitur pendukung, seperti logging, monitoring, atau konfigurasi."
+  usage: "This is a technical term used in system architecture, especially with containers and microservices. The side-car is attached to the main app but is isolated, so it can be updated independently."
+  synonyms:
+    - "Helper container"
+    - "Companion process"
+  examples:
+    workplace:
+      - "We're deploying a side-car container to handle all the logging for our main application."
+      - "Instead of building the monitoring agent into our app, we're using a side-car pattern."
+    casual:
+      - "The motorcycle had a cool vintage side-car attached to it."
+      - "He was the leader's side-car, always there to support him."
+  related:
+    - word: "Microservice"
+      difference: "A 'microservice' is a standalone application that's part of a larger system. A 'side-car' is not standalone; it's a helper process specifically attached to another application."
+    - word: "Plugin"
+      difference: "A 'plugin' runs *inside* the main application's process. A 'side-car' runs in its *own* process, alongside the main application."
+  story: |
+    The infrastructure team was planning to improve system observability. "Instead of making every development team implement their own logging logic," the lead architect said, "we will provide a standard logging side-car. You just run it next to your application container, and it will automatically collect logs and send them to our central dashboard. This way, the main app only has to focus on its business logic."
+
+- word: "Gated"
+  pronunciation: "/ˈɡeɪtɪd/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Describes a feature, content, or access that is restricted until a certain condition is met, such as a user logging in, paying, or being part of a specific group."
+    bahasa: "Menjelaskan fitur, konten, atau akses yang dibatasi hingga kondisi tertentu terpenuhi, seperti pengguna harus login, membayar, atau menjadi bagian dari grup tertentu."
+  usage: "Use this when talking about feature releases or access control. For example, a new feature might be 'gated' by a feature flag, making it visible only to internal users."
+  synonyms:
+    - "Restricted"
+    - "Conditional"
+  examples:
+    workplace:
+      - "The new dashboard is gated and only available to our premium subscribers."
+      - "We're doing a soft launch, so the feature is gated behind a feature flag for now."
+    casual:
+      - "The VIP lounge is a gated area for special guests only."
+      - "He lives in a gated community."
+  related:
+    - word: "Feature flag (or Feature toggle)"
+      difference: "A 'feature flag' is the technical mechanism used to implement a 'gated' feature. The feature is 'gated'; the tool to do it is the 'feature flag'."
+    - word: "Paywall"
+      difference: "A 'paywall' is a specific type of gate where the condition is payment. 'Gated' is a more general term that can include other conditions, like user roles or permissions."
+  story: |
+    "The marketing team wants to release our new AI assistant," said the product manager. "But we're not ready for a full public launch. Let's make it a gated feature. We'll put it behind a 'beta user' flag. Only users who sign up for our beta program will be able to see and use it. This way, we can get feedback from a smaller group first."
+
+- word: "Vanilla"
+  pronunciation: "/vəˈnɪlə/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Plain, standard, or basic, without any special or extra features; the default version."
+    bahasa: "Polos, standar, atau dasar, tanpa fitur khusus atau tambahan; versi default."
+  usage: "Often used to describe a version of software or a technology in its original, uncustomized form. For example, 'vanilla JavaScript' means JavaScript without any libraries or frameworks like React or Vue."
+  synonyms:
+    - "Plain"
+    - "Stock"
+    - "Standard"
+  examples:
+    workplace:
+      - "I'm not using any frameworks, just writing this in vanilla CSS."
+      - "Is this a customized component, or is it the vanilla one from the library?"
+    casual:
+      - "I'll just have a vanilla ice cream cone, please."
+      - "The car is a pretty vanilla model, no fancy extras."
+  related:
+    - word: "Boilerplate"
+      difference: "'Boilerplate' is the repetitive code you have to write. 'Vanilla' describes the fundamental technology you're using, without any additions."
+    - word: "Default"
+      difference: "'Default' refers to a preselected option or setting. 'Vanilla' refers to the core technology or object itself being plain or unadorned."
+  story: |
+    A junior developer was struggling to understand a complex new framework. His mentor advised him, "Before you dive into that, try building a small project using just vanilla HTML, CSS, and JavaScript. If you understand how the web works at its core, learning any framework on top of it becomes much, much easier."
+
+- word: "Heavy lifting"
+  pronunciation: "/ˈhɛvi ˈlɪftɪŋ/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "The most difficult, complex, or resource-intensive part of a job or process."
+    bahasa: "Bagian yang paling sulit, kompleks, atau membutuhkan banyak sumber daya dari suatu pekerjaan atau proses."
+  usage: "Use this to describe the part of a system that does the hardest work. A library or a service can 'do the heavy lifting,' meaning it handles the complex logic so the developer doesn't have to."
+  synonyms:
+    - "Hard work"
+    - "Grunt work"
+    - "Core logic"
+  examples:
+    workplace:
+      - "Let's use this library to handle the data processing; it does all the heavy lifting for us."
+      - "The server does the heavy lifting of calculating the results, and the app just displays them."
+    casual:
+      - "The movers did the heavy lifting of getting the piano upstairs."
+      - "He did the heavy lifting in the group project, and everyone else just presented."
+  related:
+    - word: "Under the hood"
+      difference: "'Under the hood' refers to the internal workings of a system. The 'heavy lifting' is the difficult work that often happens 'under the hood'."
+    - word: "Core logic"
+      difference: "The 'core logic' is the essential business logic of an application. This logic often performs the 'heavy lifting'."
+  story: |
+    "Wow, this new image compression API is amazing," said Chloe. "I just send it a high-resolution photo, and it sends back a perfectly optimized version in milliseconds." Her teammate replied, "Exactly. Their servers do all the heavy lifting. We don't have to worry about the complex compression algorithms ourselves; we just get the result."
+
+- word: "Spin-off"
+  pronunciation: "/ˈspɪn ɒf/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A new, separate project, team, or company that is created from a larger, existing one."
+    bahasa: "Proyek, tim, atau perusahaan baru yang terpisah yang dibuat dari yang lebih besar yang sudah ada."
+  usage: "This can refer to a feature that becomes its own product, or a team that grows into its own department. It implies taking an idea or a piece of something and giving it its own identity."
+  synonyms:
+    - "By-product"
+    - "Derivative"
+  examples:
+    workplace:
+      - "Our internal analytics tool became so popular that the company decided to launch it as a spin-off product."
+      - "The mobile development team started as a small spin-off from the main web team."
+    casual:
+      - "That TV show is a spin-off of a more famous one."
+      - "The new bakery is a spin-off from their successful restaurant."
+  related:
+    - word: "Fork"
+      difference: "In coding, a 'fork' is a copy of a repository that you can develop independently. A 'spin-off' is a more organizational or product-level term for creating a new, independent entity."
+    - word: "Pivot"
+      difference: "A 'pivot' is a change in strategy for an existing company or project. A 'spin-off' is creating a new, separate company or project from the old one."
+  story: |
+    The team built a small notification service for their own project. Over time, other teams started using it too. It grew so much that the CTO announced, "The notification service is now a formal spin-off project. It will have its own dedicated team and roadmap. Its mission is to provide reliable notifications for the entire company."
+
+- word: "Bikeshedding"
+  pronunciation: "/ˈbaɪkˌʃɛdɪŋ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The tendency to spend a disproportionate amount of time and energy on trivial and minor details of a large project, while ignoring the more important, complex issues."
+    bahasa: "Kecenderungan untuk menghabiskan waktu dan energi yang tidak proporsional pada detail-detail sepele dan kecil dari sebuah proyek besar, sambil mengabaikan isu-isu yang lebih penting dan kompleks."
+  usage: "Also known as Parkinson's Law of Triviality. Use this to gently call out a discussion that is getting stuck on unimportant details. It's a way to say, 'Are we focusing on the right thing?'"
+  synonyms:
+    - "Nitpicking"
+    - "Focusing on trivialities"
+  examples:
+    workplace:
+      - "We spent an hour arguing about the button color. It was a classic case of bikeshedding."
+      - "Let's avoid bikeshedding and focus on the core architecture first. We can decide on the logging format later."
+    casual:
+      - "The committee spent all day on the design of the new letterhead, completely bikeshedding the real budget issues."
+      - "Arguing about the font for the party invitation is pure bikeshedding."
+  related:
+    - word: "Yak shaving"
+      difference: "'Yak shaving' is when you have to do a long series of unrelated tasks before you can do the thing you actually need to do. 'Bikeshedding' is getting stuck in a discussion about trivial matters."
+    - word: "Nitpicking"
+      difference: "'Nitpicking' is finding small, often insignificant, faults. 'Bikeshedding' is the group activity of debating those insignificant things at length."
+  story: |
+    The team was in a meeting to plan a massive database migration. After 30 minutes, the entire conversation was about what to name the new backup scripts. The senior engineer finally sighed and said, "Folks, I think we're bikeshedding. We have to figure out the data transfer strategy and the downtime window. That's the hard part. The script name doesn't matter right now."
+
+- word: "Immutable"
+  pronunciation: "/ɪˈmjuːtəbəl/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Unchanging over time or unable to be changed. In programming, it refers to an object whose state cannot be modified after it is created."
+    bahasa: "Tidak berubah seiring waktu atau tidak dapat diubah. Dalam pemrograman, ini mengacu pada objek yang keadaannya tidak dapat diubah setelah dibuat."
+  usage: "A key concept in functional programming and state management. When you want to 'change' an immutable object, you actually create a new object with the new value instead of modifying the original."
+  synonyms:
+    - "Unchangeable"
+    - "Fixed"
+    - "Permanent"
+  examples:
+    workplace:
+      - "We use an immutable state management library to prevent accidental side effects."
+      - "A string in Java is immutable; you can't change it, you can only create a new one."
+    casual:
+      - "The laws of physics are immutable."
+      - "His decision was immutable."
+  related:
+    - word: "Constant (const)"
+      difference: "A 'constant' is a variable whose *reference* cannot be changed. If the constant is an object, the object's properties might still be changeable (mutable). An 'immutable' object's internal state cannot be changed at all."
+    - word: "Mutable"
+      difference: "'Mutable' is the direct opposite, meaning something *can* be changed after it's created. Most objects in programming are mutable by default."
+  story: |
+    A bug was causing user profiles to be updated incorrectly. The lead developer, debugging the code, explained, "The problem is that we have a mutable user object being passed around and multiple functions are changing it. We can't track where the incorrect change is coming from. We need to refactor this to use immutable objects. That way, instead of changing the object, we create a new, updated copy. It's safer and easier to debug."
