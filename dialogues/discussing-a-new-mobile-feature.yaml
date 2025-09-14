@@ -1,0 +1,59 @@
+dialogue:
+  - speaker: Alex
+    english: "Hey Ben, got a moment to chat about the new push notification feature?"
+    bahasa: "Hai Ben, punya waktu sebentar untuk bicara tentang fitur notifikasi push yang baru?"
+  - speaker: Ben
+    english: "Sure, Alex. I was just looking at the mockups. It seems straightforward."
+    bahasa: "Tentu, Alex. Aku baru saja melihat mockup-nya. Kelihatannya cukup jelas."
+  - speaker: Alex
+    english: "For the most part, yes. But I'm a bit concerned about the deep linking part. How do we handle different notification types?"
+    bahasa: "Sebagian besar, ya. Tapi aku sedikit khawatir tentang bagian deep linking. Bagaimana kita menangani berbagai jenis notifikasi?"
+  - speaker: Ben
+    english: "Good question. We could use a unified URL structure with parameters to specify the content type and ID."
+    bahasa: "Pertanyaan bagus. Kita bisa menggunakan struktur URL terpadu dengan parameter untuk menentukan jenis konten dan ID-nya."
+  - speaker: Alex
+    english: "That makes sense. So, something like `myapp://notification?type=comment&id=123`?"
+    bahasa: "Masuk akal. Jadi, seperti `myapp://notification?type=comment&id=123`?"
+  - speaker: Ben
+    english: "Exactly. That way, the mobile client can parse the URL and navigate to the correct screen. It's a scalable approach."
+    bahasa: "Tepat sekali. Dengan begitu, klien seluler dapat mengurai URL dan menavigasi ke layar yang benar. Ini adalah pendekatan yang dapat diskalakan."
+  - speaker: Alex
+    english: "I like it. What about offline handling? If the user taps a notification without an internet connection?"
+    bahasa: "Aku suka itu. Bagaimana dengan penanganan offline? Jika pengguna mengetuk notifikasi tanpa koneksi internet?"
+  - speaker: Ben
+    english: "We should cache the necessary data when the notification arrives. If the user is offline, we can display the cached content and show a message."
+    bahasa: "Kita harus menyimpan data yang diperlukan saat notifikasi tiba. Jika pengguna offline, kita bisa menampilkan konten yang di-cache dan menunjukkan pesan."
+  - speaker: Alex
+    english: "That's a solid plan. It ensures a good user experience regardless of connectivity. I'll start stubbing out the implementation."
+    bahasa: "Itu rencana yang solid. Ini memastikan pengalaman pengguna yang baik terlepas dari konektivitas. Aku akan mulai membuat kerangka implementasinya."
+  - speaker: Ben
+    english: "Great. Let me know if you hit any roadblocks. I'll start working on the server-side logic for sending the notifications."
+    bahasa: "Bagus. Beri tahu aku jika kamu menemukan hambatan. Aku akan mulai mengerjakan logika sisi server untuk mengirim notifikasi."
+
+expressions:
+  - phrase: "push notification"
+    meaning_english: "A message that pops up on a mobile device, sent by an app publisher."
+    meaning_bahasa: "Pesan yang muncul di perangkat seluler, dikirim oleh penerbit aplikasi."
+  - phrase: "mockups"
+    meaning_english: "Visual designs or models of a new product or feature."
+    meaning_bahasa: "Desain visual atau model dari produk atau fitur baru."
+  - phrase: "deep linking"
+    meaning_english: "A URL that links to a specific piece of content within a mobile app."
+    meaning_bahasa: "URL yang menautkan ke konten spesifik di dalam aplikasi seluler."
+  - phrase: "scalable approach"
+    meaning_english: "A method or solution that can handle growing amounts of work or users."
+    meaning_bahasa: "Metode atau solusi yang dapat menangani peningkatan jumlah pekerjaan atau pengguna."
+  - phrase: "stubbing out"
+    meaning_english: "Creating placeholder functions or modules to simulate the behavior of existing code."
+    meaning_bahasa: "Membuat fungsi atau modul placeholder untuk menyimulasikan perilaku kode yang ada."
+  - phrase: "hit any roadblocks"
+    meaning_english: "Encounter any problems or obstacles."
+    meaning_bahasa: "Menemukan masalah atau rintangan."
+
+questions:
+  - q: "What was Alex's main concern about the new feature?"
+    a: "He was concerned about how to handle deep linking for different types of notifications."
+  - q: "What solution did Ben propose for deep linking?"
+    a: "He suggested using a unified URL structure with parameters to define the content type and ID."
+  - q: "How did they decide to handle offline users tapping on notifications?"
+    a: "They planned to cache the notification data so it could be displayed even without an internet connection."
