@@ -1,0 +1,95 @@
+dialogue:
+  - speaker: Alex
+    english: Morning, Ben. Ready for our weekly planning?
+    bahasa: Pagi, Ben. Siap untuk rapat perencanaan mingguan kita?
+  - speaker: Ben
+    english: Morning, Alex. Yep, got my coffee and my task list. Let's kick things off.
+    bahasa: Pagi, Alex. Yap, sudah ada kopi dan daftar tugasku. Mari kita mulai.
+  - speaker: Alex
+    english: Alright. First on the agenda is the new payment gateway integration. Where are we with that?
+    bahasa: Baiklah. Agenda pertama adalah integrasi gateway pembayaran baru. Bagaimana perkembangannya?
+  - speaker: Ben
+    english: I've finished the initial research. It seems straightforward, but we'll need to get the API keys from the third-party provider. I've already sent them an email.
+    bahasa: Aku sudah menyelesaikan riset awal. Kelihatannya cukup mudah, tapi kita perlu mendapatkan kunci API dari penyedia pihak ketiga. Aku sudah mengirim email kepada mereka.
+  - speaker: Alex
+    english: Good thinking. That could be a blocker. What's your estimate for the integration, assuming we get the keys this week?
+    bahasa: Ide bagus. Itu bisa menjadi penghambat. Berapa perkiraanmu untuk integrasi, dengan asumsi kita mendapatkan kuncinya minggu ini?
+  - speaker: Ben
+    english: I'd say about three to four story points. The main chunk of the work will be writing the service class and the tests.
+    bahasa: Aku perkirakan sekitar tiga sampai empat story point. Bagian utama pekerjaan adalah menulis kelas layanan dan tesnya.
+  - speaker: Alex
+    english: Sounds reasonable. Let's pencil that in. What's next on your plate?
+    bahasa: Terdengar masuk akal. Mari kita catat sementara. Apa selanjutnya yang ada di daftar tugasmu?
+  - speaker: Ben
+    english: I have that bug fix for the user profile page. It's a high-priority ticket. I plan to tackle that right after this meeting.
+    bahasa: Aku punya perbaikan bug untuk halaman profil pengguna. Itu tiket prioritas tinggi. Aku berencana menanganinya setelah rapat ini.
+  - speaker: Alex
+    english: Okay, that's a top priority. Should be a quick win, right?
+    bahasa: Oke, itu prioritas utama. Seharusnya bisa selesai dengan cepat, kan?
+  - speaker: Ben
+    english: Hopefully. It looks like a simple validation issue. I'll keep you in the loop if I run into any snags.
+    bahasa: Semoga saja. Sepertinya ini masalah validasi sederhana. Aku akan memberimu kabar jika ada kendala.
+  - speaker: Alex
+    english: Perfect. Anything else you're looking at this week?
+    bahasa: Sempurna. Ada lagi yang kamu kerjakan minggu ini?
+  - speaker: Ben
+    english: I was thinking of picking up the refactoring task for the old reporting module if I have some bandwidth.
+    bahasa: Aku berpikir untuk mengambil tugas refactoring modul laporan lama jika aku punya waktu luang.
+  - speaker: Alex
+    english: That would be great. It's been on the back burner for a while. Just make sure the priority tasks are done first.
+    bahasa: Itu bagus sekali. Tugas itu sudah lama tertunda. Pastikan saja tugas-tugas prioritas selesai lebih dulu.
+  - speaker: Ben
+    english: Absolutely. I'll only start if everything else is squared away.
+    bahasa: Tentu saja. Aku hanya akan memulainya jika yang lain sudah beres.
+  - speaker: Alex
+    english: Great. That's a solid plan for the week. Let's sync up again on Wednesday to check on the progress.
+    bahasa: Bagus. Itu rencana yang solid untuk minggu ini. Mari kita sinkronisasi lagi hari Rabu untuk memeriksa kemajuannya.
+  - speaker: Ben
+    english: Sounds good. Let's get to it.
+    bahasa: Terdengar bagus. Mari kita kerjakan.
+
+expressions:
+  - phrase: kick things off
+    meaning_english: To start something.
+    meaning_bahasa: Memulai sesuatu.
+  - phrase: blocker
+    meaning_english: Something that prevents progress.
+    meaning_bahasa: Sesuatu yang menghalangi kemajuan.
+  - phrase: story points
+    meaning_english: A unit used to estimate the effort of development work.
+    meaning_bahasa: Satuan yang digunakan untuk memperkirakan upaya pekerjaan pengembangan.
+  - phrase: pencil that in
+    meaning_english: To make a tentative arrangement.
+    meaning_bahasa: Membuat jadwal atau rencana sementara.
+  - phrase: on your plate
+    meaning_english: The work or tasks you currently have to do.
+    meaning_bahasa: Pekerjaan atau tugas yang sedang harus kamu kerjakan.
+  - phrase: quick win
+    meaning_english: A task that is easy to complete and has a positive impact.
+    meaning_bahasa: Tugas yang mudah diselesaikan dan memberikan dampak positif.
+  - phrase: run into any snags
+    meaning_english: To encounter unexpected problems.
+    meaning_bahasa: Menemui masalah yang tidak terduga.
+  - phrase: keep you in the loop
+    meaning_english: To keep someone informed about what is happening.
+    meaning_bahasa: Terus memberi informasi kepada seseorang tentang apa yang terjadi.
+  - phrase: bandwidth
+    meaning_english: The capacity to take on more work.
+    meaning_bahasa: Kapasitas untuk mengambil lebih banyak pekerjaan.
+  - phrase: on the back burner
+    meaning_english: Postponed or given low priority.
+    meaning_bahasa: Ditunda atau diberi prioritas rendah.
+  - phrase: squared away
+    meaning_english: Dealt with or sorted out.
+    meaning_bahasa: Dibereskan atau diselesaikan.
+  - phrase: sync up
+    meaning_english: To meet and share information to ensure everyone is on the same page.
+    meaning_bahasa: Bertemu dan berbagi informasi untuk memastikan semua orang memiliki pemahaman yang sama.
+
+questions:
+  - q: What is the main topic of the meeting between Alex and Ben?
+    a: They are discussing their tasks for the week in a weekly planning meeting.
+  - q: What is a potential blocker for the payment gateway integration?
+    a: Waiting for the API keys from the third-party provider.
+  - q: What is Ben's top priority task after the meeting?
+    a: To fix a high-priority bug on the user profile page.
