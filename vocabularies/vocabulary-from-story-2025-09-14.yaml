@@ -123,3 +123,176 @@
       difference: "A \"mystery\" is something unknown or unexplained. A \"head-scratcher\" is a specific type of mystery that is actively confusing you."
   story: |
     A bug report came in that a feature was failing, but only for users in a specific time zone on the last day of the month. It was a true head-scratcher. The team spent hours trying to figure out the combination of factors that could cause such a strange issue.
+- word: "in the zone"
+  pronunciation: "/ɪn ðə zoʊn/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To be deeply focused and concentrated on an activity, leading to high performance and productivity."
+    bahasa: "Dalam kondisi sangat fokus."
+  usage: "Used to describe a mental state of intense focus where you are fully absorbed in what you are doing, often losing track of time. It's also known as being in a 'flow state'."
+  synonyms:
+    - "focused"
+    - "concentrated"
+    - "in a flow state"
+  examples:
+    workplace:
+      - "I finally got in the zone and finished the entire feature in two hours."
+      - "It's hard to get in the zone with so many meetings."
+    casual:
+      - "She was really in the zone while painting and didn't hear me come in."
+      - "When I'm playing guitar, I can get in the zone for hours."
+  related:
+    - word: "deep work"
+      difference: "\"Deep work\" is the practice of focusing without distractions on a cognitively demanding task. Being \"in the zone\" is the mental state you achieve during deep work."
+    - word: "focused"
+      difference: "\"Focused\" means directing your attention to something. \"In the zone\" is a more intense, immersive, and productive level of focus."
+  story: |
+    After the morning stand-up, I put on my headphones, turned off notifications, and started coding. For the next three hours, I was completely in the zone. I barely noticed the time pass as I solved one problem after another, making huge progress on the task.
+- word: "urgent"
+  pronunciation: "/ˈɜːrdʒənt/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Requiring immediate action or attention."
+    bahasa: "Mendesak."
+  usage: "Used to describe tasks, messages, or situations that are very important and need to be dealt with immediately, often because they are time-sensitive or critical."
+  synonyms:
+    - "critical"
+    - "time-sensitive"
+    - "pressing"
+  examples:
+    workplace:
+      - "The server is down, so this is an urgent issue."
+      - "I have an urgent request from the CEO that I need to handle now."
+    casual:
+      - "I have to leave; there's an urgent family matter."
+      - "It's urgent that we fix the leak before it floods the house."
+  related:
+    - word: "important"
+      difference: "An important task has high value, but may not need to be done immediately. An urgent task must be done now, regardless of its intrinsic value. A task can be one, both, or neither."
+    - word: "critical"
+      difference: "\"Critical\" is often used for issues that could cause a complete failure of a system (e.g., a critical bug). \"Urgent\" is broader and refers to anything needing immediate attention."
+  story: |
+    Just as I was about to start my planned work, I received an email with the subject line \"URGENT.\" The production database was showing an unusual spike in errors. I had to drop everything to investigate the urgent problem before it affected more users.
+- word: "request"
+  pronunciation: "/rɪˈkwɛst/"
+  part_of_speech: "noun"
+  meaning:
+    english: "An act of asking politely or formally for something."
+    bahasa: "Permintaan."
+  usage: "Used to describe the act of asking for something, like a feature, help, information, or a change. In a workplace, this is often a formal process (e.g., a pull request, a feature request)."
+  synonyms:
+    - "inquiry"
+    - "appeal"
+    - "petition"
+  examples:
+    workplace:
+      - "I submitted a request for a new software license."
+      - "The product team sent a request to add a new button to the homepage."
+    casual:
+      - "He made a request for his favorite song."
+      - "This is a request for all guests to please be quiet."
+  related:
+    - word: "demand"
+      difference: "A \"demand\" is a strong and often impolite insistence on something. A \"request\" is a polite and formal way of asking."
+    - word: "command"
+      difference: "A \"command\" is an order given by someone in authority. A \"request\" is an ask that can be accepted or denied."
+  story: |
+    A new feature request came in from the sales team. They wanted a way to export customer data to a CSV file. The product manager reviewed the request, decided it was valuable, and created a ticket for the engineering team to work on.
+- word: "context-switching"
+  pronunciation: "/ˈkɒntɛkst ˈswɪtʃɪŋ/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "The process of switching from one unrelated task to another, which can result in a loss of focus and productivity."
+    bahasa: "Beralih konteks."
+  usage: "A common term in software development and other knowledge work to describe the mental cost of moving between different tasks or projects that require different ways of thinking."
+  synonyms:
+    - "task-switching"
+    - "multitasking"
+  examples:
+    workplace:
+      - "Too much context-switching between bug fixes and feature development is killing my productivity."
+      - "Our team tries to minimize context-switching by dedicating entire days to a single project."
+    casual:
+      - "The constant context-switching between homework and chores made it hard to finish either."
+      - "I feel like a master of context-switching after a day of parenting."
+  related:
+    - word: "multitasking"
+      difference: "\"Multitasking\" often implies doing multiple things at the same time. \"Context-switching\" more accurately describes rapidly alternating between different tasks, which is how the human brain actually works."
+    - word: "focus time"
+      difference: "\"Focus time\" is a strategy to combat context-switching by blocking out time to concentrate on a single task without interruptions."
+  story: |
+    My morning was filled with context-switching. I started by writing code, then had to jump into a meeting about project planning, and immediately after, I had to review a teammate's code. Each switch required me to reload a different mental model, and it felt like I wasn't making real progress on anything.
+- word: "clarification"
+  pronunciation: "/ˌklærəfɪˈkeɪʃən/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The act of making a statement or situation less confusing and more comprehensible."
+    bahasa: "Klarifikasi."
+  usage: "Used when you need more details or a better explanation to remove ambiguity or confusion about a task, requirement, or comment."
+  synonyms:
+    - "explanation"
+    - "elucidation"
+    - "simplification"
+  examples:
+    workplace:
+      - "I need some clarification on the requirements before I start coding."
+      - "He asked for clarification on the feedback he received in the code review."
+    casual:
+      - "Could you provide some clarification on your earlier statement?"
+      - "The teacher's clarification helped the students understand the difficult topic."
+  related:
+    - word: "explanation"
+      difference: "An \"explanation\" is a set of statements to describe something. A \"clarification\" is a specific type of explanation aimed at resolving confusion."
+    - word: "justify"
+      difference: "\"Justify\" means to show or prove that something is right or reasonable. \"Clarify\" means to make something easier to understand."
+  story: |
+    The bug report simply said, \"The upload feature is broken.\" This was too vague, so the developer sent a message back asking for clarification. She asked, \"What kind of file were you uploading? What error message did you see?\" This helped her get the details needed to fix the issue.
+- word: "take a step back"
+  pronunciation: "/teɪk ə stɛp bæk/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To pause during an activity to think about it more broadly and from a different perspective, often to reassess a situation."
+    bahasa: "Mundur sejenak."
+  usage: "Used when you are too focused on the details of a problem and need to pause to see the bigger picture, reconsider your approach, or avoid getting stuck."
+  synonyms:
+    - "reassess"
+    - "re-evaluate"
+    - "see the big picture"
+  examples:
+    workplace:
+      - "We're getting stuck in the weeds. Let's take a step back and look at our main goal."
+      - "Before we write more code, let's take a step back and make sure this is the right solution."
+    casual:
+      - "They were arguing, so I told them to take a step back and breathe."
+      - "I had to take a step back from the project to get a fresh perspective."
+  related:
+    - word: "re-evaluate"
+      difference: "\"Re-evaluate\" is the action you perform when you take a step back. Taking a step back is the act of pausing to create the mental space for re-evaluation."
+    - word: "in the weeds"
+      difference: "Being \"in the weeds\" means being too focused on minor details. You \"take a step back\" to get out of the weeds."
+  story: |
+    The developer had been trying to fix a bug for hours, trying one small change after another without success. Frustrated, she decided to take a step back. She went for a short walk and thought about the system as a whole. When she returned, she realized the problem wasn't in the code she was looking at, but in a different service entirely.
+- word: "quick question"
+  pronunciation: "/kwɪk ˈkwɛstʃən/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A phrase used to preface a question that the speaker believes will be simple and fast to answer, often used to soften an interruption."
+    bahasa: "Pertanyaan singkat."
+  usage: "A very common way to politely interrupt someone in a workplace. However, these questions are often not as 'quick' as the phrase implies and can lead to context-switching."
+  synonyms:
+    - "brief inquiry"
+    - "fast question"
+  examples:
+    workplace:
+      - "\"Quick question: do you know where the latest design mockups are?\""
+      - "He messaged me, \"Got a sec for a quick question?\""
+    casual:
+      - "\"Quick question: are you going to the party tonight?\""
+      - "Excuse me, quick question—is this the right way to the station?"
+  related:
+    - word: "interruption"
+      difference: "A \"quick question\" is a form of interruption, but the phrase is used to make it sound less disruptive."
+    - word: "inquiry"
+      difference: "\"Inquiry\" is a more formal word for a question. \"Quick question\" is informal and conversational."
+  story: |
+    I was deep in focus trying to solve a complex problem when a coworker came to my desk. \"Sorry to interrupt,\" he said, \"but I have a quick question.\" He wanted to know about a decision made in a meeting last week. The question itself was simple, but it took me a full fifteen minutes to get back into my state of focus after answering.
