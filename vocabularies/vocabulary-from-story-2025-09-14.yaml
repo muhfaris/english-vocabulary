@@ -296,3 +296,28 @@
       difference: "\"Inquiry\" is a more formal word for a question. \"Quick question\" is informal and conversational."
   story: |
     I was deep in focus trying to solve a complex problem when a coworker came to my desk. \"Sorry to interrupt,\" he said, \"but I have a quick question.\" He wanted to know about a decision made in a meeting last week. The question itself was simple, but it took me a full fifteen minutes to get back into my state of focus after answering.
+- word: "quick fix"
+  pronunciation: "/kwɪk fɪks/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A simple, temporary solution to a problem that is done quickly."
+    bahasa: "Solusi sederhana dan sementara untuk suatu masalah yang dilakukan dengan cepat."
+  usage: "Often used to describe a solution that may not be the best or most permanent, but is sufficient for the immediate need. It can sometimes have a slightly negative connotation, implying that it might cause problems later."
+  synonyms:
+    - "band-aid solution"
+    - "stopgap"
+    - "workaround"
+  examples:
+    workplace:
+      - "We need a proper solution, not just a quick fix."
+      - "I implemented a quick fix to get the server back online; we'll do a full investigation tomorrow."
+    casual:
+      - "Using tape to hold the glasses together is just a quick fix."
+      - "The plumber offered a quick fix, but we need to replace the whole pipe soon."
+  related:
+    - word: "hotfix"
+      difference: "A 'hotfix' is a critical patch applied to a live production system to fix a specific, urgent bug. A 'quick fix' is a more general term for any fast, often temporary, solution."
+    - word: "workaround"
+      difference: "A 'workaround' is about bypassing a problem without fixing the root cause. A 'quick fix' is a direct, albeit often temporary, solution to the problem itself."
+  story: |
+    The image upload feature was failing for certain file types. Instead of rewriting the entire validation logic, which would take days, I applied a quick fix. I added a small check to convert the image to a compatible format before processing. It wasn't the most elegant solution, but it solved the immediate problem and kept our users happy.

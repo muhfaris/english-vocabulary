@@ -1,0 +1,18 @@
+story:
+  title: "a-day-of-quick-fixes"
+  date: "2025-09-14"
+  text: |
+    It was a typical morning. I grabbed a **cup of coffee** and joined the daily **stand-up**. Everyone reported their progress, and things seemed to be **on track**. After the meeting, my product manager and I decided to **align** on the requirements for a new feature.
+
+    Suddenly, we got a **heads-up** from the QA team. They found a minor bug in the latest build. It wasn't a major **blocker**, but it needed to be fixed before the afternoon **deploy**. I told my team I could handle it.
+
+    It turned out to be a straightforward issue. I made a **quick fix**, tested it locally, and pushed the changes. The whole process took less than an hour. It’s always satisfying to resolve issues quickly and keep the project moving smoothly. With the bug squashed, we could proceed with the deployment as planned, ensuring everything stayed on schedule.
+  highlighted_words:
+    - "cup of coffee"
+    - "stand-up"
+    - "on track"
+    - "align"
+    - "heads-up"
+    - "blocker"
+    - "deploy"
+    - "quick fix"
