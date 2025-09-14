@@ -1,0 +1,265 @@
+- word: "Cranky"
+  pronunciation: "/ˈkræŋki/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Behaving erratically or unreliably; irritable."
+    bahasa: "Berperilaku tidak menentu atau tidak dapat diandalkan; mudah marah."
+  usage: "Often used informally to describe a system, service, or piece of hardware that isn't working consistently. It personifies the technology as if it's in a bad mood."
+  synonyms:
+    - "unstable"
+    - "temperamental"
+    - "unreliable"
+  examples:
+    workplace:
+      - "The staging server has been cranky all morning; it keeps timing out."
+      - "Ever since the last update, our CI/CD pipeline gets a bit cranky and fails for no reason."
+    casual:
+      - "My laptop gets cranky when I have too many tabs open."
+      - "I'm feeling a bit cranky today; I didn't get enough sleep."
+  related:
+    - word: "Brittle"
+      difference: "Brittle code works, but it breaks easily when changes are made. A cranky system is one that is currently unreliable or unstable, even without changes."
+    - word: "Flaky"
+      difference: "Often used specifically for tests that sometimes pass and sometimes fail without any code changes. 'Cranky' is a more general term for any system or component behaving unreliably."
+  story: |
+    "What's the status of the deployment?" asked Maya.
+    "We're holding off for a bit," replied Ben. "The payment gateway's API is being cranky. It works one minute and returns a 503 error the next. We're waiting for their team to stabilize it before we proceed."
+
+- word: "Put out fires"
+  pronunciation: "/pʊt aʊt ˈfaɪərz/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To spend time on problems that need to be dealt with quickly, instead of doing your usual work."
+    bahasa: "Menghabiskan waktu untuk masalah yang perlu ditangani dengan cepat, daripada melakukan pekerjaan biasa Anda."
+  usage: "Used to describe a reactive work mode, where you're constantly dealing with urgent, unplanned issues (fires) rather than making progress on long-term goals."
+  synonyms:
+    - "firefighting"
+    - "troubleshooting"
+    - "crisis management"
+  examples:
+    workplace:
+      - "I didn't get to my planned tasks today; I was too busy putting out fires in production."
+      - "We need to improve our testing so we can stop putting out fires and start building new features."
+    casual:
+      - "Being a parent sometimes feels like you're just putting out fires all day long."
+      - "I had to put out some fires at home before I could leave for the trip."
+  related:
+    - word: "Firefighting"
+      difference: "'Firefighting' is the noun for this activity. 'Putting out fires' is the verb phrase describing the action. They are often used interchangeably."
+    - word: "Proactive"
+      difference: "This is the opposite. Being proactive means anticipating problems and preventing them, while putting out fires is a reactive process."
+  story: |
+    During the daily stand-up, Liam sighed. "My main goal for yesterday was to start the refactor on the user service. Instead, I spent the whole day putting out fires caused by that memory leak in the caching layer. Today, my priority is to find the root cause so we can stop the firefighting."
+
+- word: "Spin your wheels"
+  pronunciation: "/spɪn jər wilz/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To expend effort for little or no gain; to be busy but not productive."
+    bahasa: "Mengeluarkan usaha untuk hasil yang sedikit atau tidak ada sama sekali; sibuk tetapi tidak produktif."
+  usage: "This phrase is used when someone is stuck on a problem and not making any progress, despite working hard. It creates a metaphor of a car's wheels spinning on ice or mud."
+  synonyms:
+    - "going nowhere"
+    - "stuck in a rut"
+    - "making no headway"
+  examples:
+    workplace:
+      - "I've been trying to debug this for hours. I feel like I'm just spinning my wheels."
+      - "Let's sync up. We don't want you to spin your wheels on this if someone else has an idea."
+    casual:
+      - "I tried learning the guitar, but I felt like I was spinning my wheels after a few weeks."
+      - "He's just spinning his wheels in that dead-end job."
+  related:
+    - word: "Blocked"
+      difference: "Being 'blocked' means you cannot proceed because of an external dependency (e.g., waiting for an API key). 'Spinning your wheels' means you are actively working but not making progress."
+    - word: "Rabbit hole"
+      difference: "Going down a 'rabbit hole' is getting lost in unnecessary details, which often leads to spinning your wheels."
+  story: |
+    "How's the new search feature coming along?" asked the project manager.
+    "Honestly, I feel like I'm spinning my wheels," admitted Chloe. "I've tried three different libraries, and none of them are performing well with our dataset. I think I need to take a step back and rethink my approach."
+
+- word: "Throw it over the wall"
+  pronunciation: "/θroʊ ɪt ˈoʊvər ðə wɔl/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To pass a piece of work to the next person or team in a process without communication, context, or collaboration."
+    bahasa: "Menyerahkan pekerjaan kepada orang atau tim berikutnya dalam suatu proses tanpa komunikasi, konteks, atau kolaborasi."
+  usage: "This is a critical phrase in DevOps and agile cultures. It describes a dysfunctional workflow where teams work in silos. For example, when developers finish code and 'throw it over the wall' to the QA team without any discussion."
+  synonyms:
+    - "work in silos"
+    - "pass the buck"
+    - "hand off blindly"
+  examples:
+    workplace:
+      - "The old process was inefficient. The design team would just throw their mockups over the wall to us."
+      - "We need a proper hand-off, not just throwing it over the wall and hoping QA figures it out."
+    casual:
+      - "He finished his part of the group project and just threw it over the wall to me at the last minute."
+      - "My roommate just leaves his dirty dishes in the sink, basically throwing them over the wall for me to deal with."
+  related:
+    - word: "Handoff"
+      difference: "A 'handoff' is the process of transferring responsibility. 'Throwing it over the wall' is a *bad* kind of handoff, one that lacks collaboration."
+    - word: "Silo"
+      difference: "A 'silo' is a team or department that doesn't communicate well with others. 'Throwing it over the wall' is an action that happens *because* of silos."
+  story: |
+    In the retrospective, Ken brought up a key issue. "We need to stop the 'throw it over the wall' mentality. When the backend team changed the API response, they didn't tell the frontend team. We only found out when the app crashed in testing. We need better communication."
+
+- word: "Time-sensitive"
+  pronunciation: "/ˈtaɪmˌsɛnsɪtɪv/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Needing to be dealt with or completed within a certain period of time."
+    bahasa: "Perlu ditangani atau diselesaikan dalam jangka waktu tertentu."
+  usage: "A very common term in project management and operations to indicate urgency and to help with prioritization. It signals that a delay could have significant negative consequences."
+  synonyms:
+    - "urgent"
+    - "critical"
+    - "time-critical"
+  examples:
+    workplace:
+      - "Please review this PR first; it's a time-sensitive hotfix for a production bug."
+      - "This database migration is highly time-sensitive; it must be completed during the maintenance window on Saturday."
+    casual:
+      - "I have to mail this package now, it's time-sensitive."
+      - "The sale ends today, so this decision is a bit time-sensitive."
+  related:
+    - word: "Deadline"
+      difference: "A 'deadline' is the specific point in time by which something must be done. 'Time-sensitive' is the adjective describing the task that has such a deadline."
+    - word: "Urgent"
+      difference: "'Urgent' is a synonym, but 'time-sensitive' often implies a more specific window of opportunity or a dependency on a particular time, not just general speed."
+  story: |
+    An email popped up with the subject line "[URGENT] Action Required". The body read: "Team, we have a time-sensitive request to update our SSL certificates. They expire in 48 hours. All other work should be put on hold until this is complete to prevent a site-wide outage."
+
+- word: "Double-edged sword"
+  pronunciation: "/ˈdʌbəl-ɛdʒd sɔrd/"
+  part_of_speech: "noun"
+  meaning:
+    english: "Something that has both positive and negative consequences."
+    bahasa: "Sesuatu yang memiliki konsekuensi positif dan negatif."
+  usage: "Used to describe a situation, tool, or decision where the benefits and drawbacks are closely linked. It highlights a trade-off that must be carefully considered."
+  synonyms:
+    - "mixed blessing"
+    - "pros and cons"
+    - "catch-22"
+  examples:
+    workplace:
+      - "Using that new framework is a double-edged sword. It's fast to develop with, but the documentation is terrible."
+      - "Automating everything is a double-edged sword; it boosts efficiency but makes it harder for new developers to understand the underlying process."
+    casual:
+      - "Working from home is a double-edged sword. You get more flexibility, but it's easy to feel isolated."
+      - "Fame can be a double-edged sword."
+  related:
+    - word: "Trade-off"
+      difference: "A 'trade-off' is the act of accepting a negative in order to get a positive. A 'double-edged sword' is the thing *itself* that embodies both the positive and the negative."
+    - word: "Catch-22"
+      difference: "A 'Catch-22' is a paradoxical situation where someone cannot escape a problem because of contradictory rules or limitations. A 'double-edged sword' is about something having both good and bad aspects, not necessarily a trap."
+  story: |
+    "Should we use the new AI-powered code completion tool?" asked a junior dev.
+    The tech lead replied, "It's a double-edged sword. It can speed you up, but if you rely on it too much, you might not learn the fundamentals. Use it, but always try to understand the code it generates."
+
+- word: "Run-of-the-mill"
+  pronunciation: "/ˌrʌn əv ðə ˈmɪl/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Ordinary, with no special or interesting features."
+    bahasa: "Biasa, tanpa fitur khusus atau menarik."
+  usage: "Used to describe tasks, bugs, or problems that are not challenging or unusual. They are the everyday, standard issues you expect to see."
+  synonyms:
+    - "ordinary"
+    - "standard"
+    - "commonplace"
+  examples:
+    workplace:
+      - "It's not a critical bug, just a run-of-the-mill UI alignment issue."
+      - "Most of my day was spent on run-of-the-mill maintenance tasks."
+    casual:
+      - "It wasn't a fancy restaurant, just a run-of-the-mill cafe."
+      - "The movie was okay, but the plot was pretty run-of-the-mill."
+  related:
+    - word: "Boilerplate"
+      difference: "'Boilerplate' is standard, reusable code that you need to start a project. 'Run-of-the-mill' describes a task or situation as being ordinary."
+    - word: "Trivial"
+      difference: "A 'trivial' task is one that is extremely easy and requires little effort. A 'run-of-the-mill' task is just ordinary; it might still require a normal amount of work."
+  story: |
+    "Did you find anything interesting in the server logs?" asked Maria.
+    "Not really," David said with a shrug. "No major errors or security alerts. It was mostly just a bunch of run-of-the-mill connection timeouts and standard status updates. Nothing that would explain the performance dip."
+
+- word: "A long shot"
+  pronunciation: "/ə lɔŋ ʃɑt/"
+  part_of_speech: "noun"
+  meaning:
+    english: "An attempt or a guess that has only a small chance of succeeding."
+    bahasa: "Upaya atau tebakan yang hanya memiliki sedikit peluang untuk berhasil."
+  usage: "Used when proposing a solution or explanation that is unlikely to be correct but is still worth mentioning. It manages expectations by acknowledging the low probability of success."
+  synonyms:
+    - "slim chance"
+    - "outside chance"
+    - "wild guess"
+  examples:
+    workplace:
+      - "It's a long shot, but maybe the issue is with the browser cache. Have you tried clearing it?"
+      - "I know it's a long shot, but we might be able to finish the feature by Friday if we get help from the platform team."
+    casual:
+      - "Winning the lottery is a long shot, but I still buy a ticket sometimes."
+      - "It's a long shot, but maybe he'll agree to help us move."
+  related:
+    - word: "Edge case"
+      difference: "An 'edge case' is a rare problem that occurs at an extreme parameter. A 'long shot' is an unlikely *solution* or *attempt* to fix a problem."
+    - word: "Guesstimate"
+      difference: "A 'guesstimate' is a rough estimate made without much data. A 'long shot' is an attempt or idea that is unlikely to work, regardless of how well it's estimated."
+  story: |
+    "I'm completely stuck on this bug," said Fatima. "I've checked everything."
+    "Well, here's a long shot," replied her colleague. "There was a similar bug years ago caused by a leap-second adjustment on the server's clock. It's highly unlikely to be the same thing, but it might be worth checking the system time."
+
+- word: "No-brainer"
+  pronunciation: "/ˈnoʊˌbreɪnər/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A decision or a choice that is very easy to make and requires little to no thought."
+    bahasa: "Keputusan atau pilihan yang sangat mudah dibuat dan tidak memerlukan banyak pemikiran."
+  usage: "Used to express that a particular course of action is obviously the best one. It's often used when comparing options and one is clearly superior."
+  synonyms:
+    - "obvious choice"
+    - "clear-cut decision"
+    - "cinch"
+  examples:
+    workplace:
+      - "Given the performance gains and the better security, switching to the new database is a no-brainer."
+      - "Should we add more tests? That's a no-brainer. Of course, we should."
+    casual:
+      - "Taking the highway is a no-brainer; it's so much faster."
+      - "Would you like a free upgrade? That's a no-brainer!"
+  related:
+    - word: "Best practice"
+      difference: "A 'best practice' is a recommended way of doing things based on experience. A 'no-brainer' is a specific decision that is obviously correct in a given context."
+    - word: "Straightforward"
+      difference: "'Straightforward' describes a task or process that is easy to understand and do. A 'no-brainer' is a decision that is easy to *make*."
+  story: |
+    The team was debating whether to spend two weeks building a custom authentication service or use a well-supported, secure, third-party provider that could be integrated in a day. The tech lead stepped in. "This is a no-brainer," she said. "We should use the third-party service. It saves us time, it's more secure, and it lets us focus on our core features."
+
+- word: "Up in the air"
+  pronunciation: "/ʌp ɪn ði ɛər/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "(of a plan or issue) still to be settled; unresolved."
+    bahasa: "(tentang rencana atau masalah) masih harus diselesaikan; belum terselesaikan."
+  usage: "Used to describe a situation where a decision has not yet been made and the outcome is uncertain. It's common in project planning when some details are not yet finalized."
+  synonyms:
+    - "undecided"
+    - "unsettled"
+    - "pending"
+  examples:
+    workplace:
+      - "The release date is still up in the air until we finish performance testing."
+      - "Whether we'll use React or Vue for the new project is still up in the air."
+    casual:
+      - "Our holiday plans are up in the air at the moment."
+      - "The future of that TV show is up in the air; it hasn't been renewed yet."
+  related:
+    - word: "Tentative"
+      difference: "'Tentative' means something is planned or agreed upon, but it's not confirmed and could change. 'Up in the air' means no decision has been made at all."
+    - word: "Ambiguous"
+      difference: "'Ambiguous' means something is unclear or has more than one meaning. 'Up in the air' specifically refers to a decision or plan that is not yet made."
+  story: |
+    "Do we have the final specs for the notification feature?" asked Alex during the planning meeting.
+    "Not yet," replied the product manager. "The legal team is still reviewing the data privacy implications, so the exact implementation details are up in the air. Let's work on another ticket while we wait for their decision."
