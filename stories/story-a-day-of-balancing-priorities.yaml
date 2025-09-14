@@ -1,0 +1,15 @@
+story:
+  title: "a-day-of-balancing-priorities"
+  date: "2025-09-14"
+  text: |
+    It was one of those days where priorities seemed to shift every hour. I started my morning hoping to get **in the zone** and finish the new search feature, but an **urgent** message from the product manager popped up. He had a **request** to fix a bug found in the staging environment. The **context-switching** was a bit jarring, but I knew it was important.
+
+    I started investigating the bug, but the description was a bit vague. I sent a message asking for **clarification** and decided to **take a step back** to look at the bigger picture. While waiting for a reply, a junior developer pinged me with a "**quick question**" about the component library. I quickly helped him out and then, finally, got the clarification I needed. With a clear path forward, I was able to reproduce the bug and start working on a fix. It was a classic case of a software engineer's daily juggling act.
+  highlighted_words:
+    - "in the zone"
+    - "urgent"
+    - "request"
+    - "context-switching"
+    - "clarification"
+    - "take a step back"
+    - "quick question"
