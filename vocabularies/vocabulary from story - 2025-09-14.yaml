@@ -195,3 +195,203 @@
       difference: "'Requirements' are the specific things that need to be done. 'Scope' is the overall boundary that contains all those requirements."
   story: |
     We had a planning meeting to define the scope for the new feature. Initially, we wanted to include image and video uploads, but we realized that would take too long. We decided to reduce the scope to only include image uploads for the first version.
+- word: "behaving"
+  pronunciation: "/bɪˈheɪvɪŋ/"
+  part_of_speech: "verb"
+  meaning:
+    english: "Acting or functioning in a particular way."
+    bahasa: "Bertingkah atau berfungsi dengan cara tertentu."
+  usage: "In a software context, it's often used to describe whether a feature or system is working as intended."
+  synonyms:
+    - "acting"
+    - "functioning"
+    - "working"
+  examples:
+    workplace:
+      - "The application is not **behaving** correctly on mobile devices."
+      - "We need to ensure the new component is **behaving** as expected before we deploy."
+    casual:
+      - "The kids are **behaving** well today."
+      - "My car has been **behaving** strangely lately."
+  related:
+    - word: "behavior"
+      difference: "'Behavior' is the noun form, referring to the way something acts. 'Behaving' is the verb, the action of doing so."
+    - word: "misbehaving"
+      difference: "'Misbehaving' is the opposite, meaning it is not acting correctly."
+  story: |
+    The button was **behaving** erratically. Sometimes it would submit the form, and other times it would do nothing at all. I had to investigate the code to understand why it was **behaving** this way.
+- word: "sank"
+  pronunciation: "/sæŋk/"
+  part_of_speech: "verb"
+  meaning:
+    english: "Past tense of sink; to go down or to a lower level, often used metaphorically to describe a feeling of disappointment or despair."
+    bahasa: "Bentuk lampau dari 'sink'; turun atau ke tingkat yang lebih rendah, sering digunakan secara metaforis untuk menggambarkan perasaan kecewa atau putus asa."
+  usage: "Often used to express a sudden feeling of disappointment or dread."
+  synonyms:
+    - "dropped"
+    - "fell"
+    - "plunged"
+  examples:
+    workplace:
+      - "My heart **sank** when I realized I had deleted the wrong file."
+      - "The team's morale **sank** after the project was cancelled."
+    casual:
+      - "The boat **sank** after hitting a rock."
+      - "My spirits **sank** when it started to rain on my wedding day."
+  related:
+    - word: "sink"
+      difference: "'Sink' is the present tense. 'Sank' is the past tense. 'Sunk' is the past participle."
+    - word: "dropped"
+      difference: "'Dropped' is a more general term for falling. 'Sank' often implies a slower, more final descent, especially for feelings."
+  story: |
+    My heart **sank** when the customer reported a critical bug just minutes after our big launch. All the excitement of the release was immediately replaced with a sense of urgency and concern.
+- word: "consistently"
+  pronunciation: "/kənˈsɪstəntli/"
+  part_of_speech: "adverb"
+  meaning:
+    english: "In a way that does not change and is the same over time."
+    bahasa: "Dengan cara yang tidak berubah dan sama dari waktu ke waktu."
+  usage: "Used to describe an action or result that is reliable and repeatable."
+  synonyms:
+    - "reliably"
+    - "dependably"
+    - "repeatedly"
+  examples:
+    workplace:
+      - "The bug is hard to fix because we can't reproduce it **consistently**."
+      - "She **consistently** delivers high-quality work."
+    casual:
+      - "He **consistently** wakes up at 6 AM every day."
+      - "The restaurant **consistently** serves delicious food."
+  related:
+    - word: "consistent"
+      difference: "'Consistent' is the adjective form. 'Consistently' is the adverb that describes how an action is performed."
+    - word: "inconsistently"
+      difference: "'Inconsistently' is the opposite, meaning something is not reliable or repeatable."
+  story: |
+    We had a flaky test that would sometimes pass and sometimes fail. It wasn't running **consistently**. We had to investigate to find the source of the inconsistency to make our test suite reliable again.
+- word: "anticipated"
+  pronunciation: "/ænˈtɪsɪpeɪtɪd/"
+  part_of_speech: "verb"
+  meaning:
+    english: "Regarded as probable; expected or predicted."
+    bahasa: "Dianggap sebagai kemungkinan; diharapkan atau diprediksi."
+  usage: "Used to describe something that was foreseen or expected."
+  synonyms:
+    - "expected"
+    - "predicted"
+    - "foreseen"
+  examples:
+    workplace:
+      - "The number of users was much higher than we had **anticipated**."
+      - "We had **anticipated** this issue and already had a plan to address it."
+    casual:
+      - "The movie was not as good as I had **anticipated**."
+      - "The journey took longer than **anticipated**."
+  related:
+    - word: "unanticipated"
+      difference: "'Unanticipated' is the opposite, meaning something was not expected."
+    - word: "expected"
+      difference: "'Anticipated' often implies a greater degree of looking forward to or preparing for something than 'expected'."
+  story: |
+    We had **anticipated** that the new feature would put more load on the database, so we upgraded the server beforehand. Thanks to this foresight, the launch went smoothly without any performance issues.
+- word: "temporary"
+  pronunciation: "/ˈtɛmpərəri/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Lasting for only a limited period of time; not permanent."
+    bahasa: "Berlangsung hanya untuk jangka waktu terbatas; tidak permanen."
+  usage: "Used to describe a solution or situation that is not intended to last forever."
+  synonyms:
+    - "provisional"
+    - "interim"
+    - "short-term"
+  examples:
+    workplace:
+      - "We have a **temporary** fix in place, but we need to work on a permanent solution."
+      - "She is a **temporary** employee, hired for a six-month contract."
+    casual:
+      - "The road closure is only **temporary**."
+      - "He's living in **temporary** accommodation."
+  related:
+    - word: "permanent"
+      difference: "'Permanent' is the direct opposite of 'temporary'."
+    - word: "stopgap"
+      difference: "A 'stopgap' is a type of temporary solution used to fill a gap until a proper solution is available."
+  story: |
+    The server was running out of memory. As a **temporary** measure, we restarted it to keep the application running. We knew this was just a **temporary** fix and immediately started investigating the root cause of the memory leak.
+- word: "permanent"
+  pronunciation: "/ˈpɜːrmənənt/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Lasting or intended to last or remain unchanged indefinitely."
+    bahasa: "Abadi atau dimaksudkan untuk bertahan atau tetap tidak berubah tanpa batas waktu."
+  usage: "Used to describe a solution or situation that is intended to last for a long time or forever."
+  synonyms:
+    - "lasting"
+    - "enduring"
+    - "long-term"
+  examples:
+    workplace:
+      - "We need a **permanent** solution to this recurring problem."
+      - "After a probationary period, her position became **permanent**."
+    casual:
+      - "He has a **permanent** scar on his arm."
+      - "Is this your **permanent** address?"
+  related:
+    - word: "temporary"
+      difference: "'Temporary' is the direct opposite of 'permanent'."
+    - word: "final"
+      difference: "'Final' suggests the last in a series. 'Permanent' suggests something that will not change over time."
+  story: |
+    The quick fix we implemented last week was only temporary. This week, we are dedicating time to develop a **permanent** solution that addresses the root cause of the issue and ensures it never happens again.
+- word: "stressful"
+  pronunciation: "/ˈstrɛsfəl/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Causing mental or emotional strain or tension."
+    bahasa: "Menyebabkan ketegangan atau tekanan mental atau emosional."
+  usage: "Used to describe a situation, job, or event that causes a lot of worry or anxiety."
+  synonyms:
+    - "tense"
+    - "demanding"
+    - "anxious"
+  examples:
+    workplace:
+      - "Deploying to production on a Friday is always **stressful**."
+      - "He has a very **stressful** job."
+    casual:
+      - "Moving to a new house can be a **stressful** experience."
+      - "I find exams very **stressful**."
+  related:
+    - word: "stress"
+      difference: "'Stress' is the noun, the feeling of strain or tension. 'Stressful' is the adjective that describes something that causes stress."
+    - word: "relaxing"
+      difference: "'Relaxing' is the opposite of 'stressful'."
+  story: |
+    Being on-call can be very **stressful**. You might get paged in the middle of the night to fix a critical issue. The pressure to resolve the problem quickly while you're half-asleep is incredibly **stressful**.
+- word: "prepared"
+  pronunciation: "/prɪˈpɛərd/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Made ready for use or consideration; ready to deal with a situation."
+    bahasa: "Dipersiapkan untuk digunakan atau dipertimbangkan; siap untuk menghadapi situasi."
+  usage: "Used to describe a state of readiness for a future event."
+  synonyms:
+    - "ready"
+    - "equipped"
+    - "set"
+  examples:
+    workplace:
+      - "She was well **prepared** for the presentation."
+      - "We need to be **prepared** for a sudden increase in traffic."
+    casual:
+      - "I'm not **prepared** for the cold weather."
+      - "He always comes to the meeting **prepared** with an agenda."
+  related:
+    - word: "unprepared"
+      difference: "'Unprepared' is the opposite, meaning not ready."
+    - word: "prepare"
+      difference: "'Prepare' is the verb, the action of getting ready. 'Prepared' is the adjective describing the state of being ready."
+  story: |
+    The team was well **prepared** for the product launch. They had a detailed checklist, a rollback plan, and had notified all stakeholders. Because they were so **prepared**, they were able to handle the minor issues that came up calmly and efficiently.

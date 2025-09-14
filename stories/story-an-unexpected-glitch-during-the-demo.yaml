@@ -1,0 +1,25 @@
+story:
+  title: "an-unexpected-glitch-during-the-demo"
+  date: "2025-09-14"
+  text: |
+    Today was the big **demo** day. We were excited to **showcase** the new feature we had been working on for the past two weeks. Everything went smoothly at first, but then a weird **glitch** appeared on the screen. The feature, which had worked perfectly in our tests, suddenly wasn't **behaving** as expected.
+
+    My heart **sank** a little, but I tried to stay calm. After the demo, my product manager and I decided to **dig into** the issue immediately. We needed to **pinpoint** the root cause quickly. I started by checking the logs, while he tried to reproduce the issue **consistently**.
+
+    We decided to **collaborate** with a backend engineer, as the problem seemed to be related to the data we were receiving from the API. After an hour of debugging, we found the culprit. It was a rare edge case that we hadn't **anticipated**. For now, we have implemented a **temporary** workaround to prevent it from happening again and have created a ticket for a more **permanent** fix. It was a **stressful** experience, but a great reminder that no matter how much you test, you can never be too **prepared**.
+  highlighted_words:
+    - "demo"
+    - "showcase"
+    - "glitch"
+    - "behaving"
+    - "sank"
+    - "dig into"
+    - "pinpoint"
+    - "consistently"
+    - "collaborate"
+    - "anticipated"
+    - "temporary"
+    - "permanent"
+    - "workaround"
+    - "stressful"
+    - "prepared"
