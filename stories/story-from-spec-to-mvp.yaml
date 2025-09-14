@@ -1,0 +1,16 @@
+story:
+  title: "from-spec-to-mvp"
+  date: "2025-09-15"
+  text: |
+    The week started with a meeting to review the **technical specification** for a new feature. The document was well-written and detailed, which gave us a clear path forward. Our goal for the next two weeks is to build a **Minimum Viable Product (MVP)** to present to the stakeholders.
+
+    I was tasked with building the backend service. As I was exploring the existing code, I found a few **code smells** that I decided to refactor first. It's always better to leave the code cleaner than you found it.
+
+    By **end of day (EOD)**, I had a basic version of the service running. Before I could merge it, the code had to be tested by our **Quality Assurance (QA)** team. They will perform a series of tests to ensure everything works as expected. Once it passes QA, we will deploy it for **User Acceptance Testing (UAT)** with a small group of beta users. It's a lot of steps, but it ensures we ship a quality product.
+  highlighted_words:
+    - "technical specification"
+    - "Minimum Viable Product (MVP)"
+    - "code smell"
+    - "end of day (EOD)"
+    - "Quality Assurance (QA)"
+    - "User Acceptance Testing (UAT)"

@@ -1,0 +1,145 @@
+- word: "technical specification"
+  pronunciation: "/ˈtɛknɪkəl ˌspɛsɪfɪˈkeɪʃən/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A detailed document that describes the technical requirements of a product or feature, including how it will be built."
+    bahasa: "Dokumen terperinci yang menjelaskan persyaratan teknis suatu produk atau fitur, termasuk bagaimana itu akan dibangun."
+  usage: "Often abbreviated as 'tech spec'. It serves as a blueprint for the engineering team to follow during development."
+  synonyms:
+    - "tech spec"
+    - "engineering design document"
+  examples:
+    workplace:
+      - "Before we start coding, we need to write a technical specification."
+      - "Please review the tech spec and leave your comments."
+    casual:
+      - "He wrote a detailed technical specification for his smart home project."
+      - "The technical specification for the new gaming console was leaked online."
+  related:
+    - word: "requirements document"
+      difference: "A requirements document focuses on *what* the system should do (the business logic), while a technical specification focuses on *how* it will do it (the implementation details)."
+    - word: "user story"
+      difference: "A user story is a high-level, informal description of a feature from a user's perspective. A technical specification is a formal, detailed document for engineers."
+  story: |
+    The project kick-off meeting was a success. We all agreed on the goals. My next task is to write the technical specification. I need to detail the database schema, the API endpoints, and the caching strategy. A good tech spec will ensure the whole team is aligned and we build a robust feature.
+- word: "Minimum Viable Product (MVP)"
+  pronunciation: "/ˈmɪnɪməm ˈvaɪəbəl ˈprɒdʌkt/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A version of a new product with just enough features to be usable by early customers, who can then provide feedback for future development."
+    bahasa: "Versi produk baru dengan fitur yang cukup untuk dapat digunakan oleh pelanggan awal, yang kemudian dapat memberikan umpan balik untuk pengembangan di masa depan."
+  usage: "Used in product development to test a product idea quickly in the market without building the full feature set."
+  synonyms:
+    - "MVP"
+    - "core product"
+  examples:
+    workplace:
+      - "Let's launch an MVP first to see if there's a market for this idea."
+      - "Our MVP will only have the essential features; we can add more later."
+    casual:
+      - "He built an MVP of his app in just one weekend."
+      - "The goal of the MVP is to learn, not to make a profit."
+  related:
+    - word: "prototype"
+      difference: "A prototype is a mock-up to test a design or concept, and may not be a working product. An MVP is a working product with a limited set of features, intended for real users."
+    - word: "proof of concept (POC)"
+      difference: "A POC is a small project to test if a certain idea is technically feasible. An MVP is a functional product released to users to test if the idea is valuable to them."
+  story: |
+    Instead of spending a year building a full-featured product, we decided to launch a Minimum Viable Product (MVP) in three months. It only had one core feature, but it was enough to attract our first users and gather valuable feedback. This feedback helped us prioritize what to build next.
+- word: "code smell"
+  pronunciation: "/koʊd smɛl/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A characteristic in the source code of a program that possibly indicates a deeper problem."
+    bahasa: "Karakteristik dalam kode sumber suatu program yang mungkin menunjukkan masalah yang lebih dalam."
+  usage: "It's a hint that something might be wrong in the code, even if it works correctly. It's often a sign that the code needs refactoring."
+  synonyms:
+    - "bad practice"
+    - "design flaw indicator"
+  examples:
+    workplace:
+      - "This long function is a code smell; we should break it down."
+      - "During the code review, he pointed out a few code smells."
+    casual:
+      - "Even in my personal scripts, I try to avoid code smells."
+      - "He read a book about refactoring to learn how to identify and fix code smells."
+  related:
+    - word: "bug"
+      difference: "A bug is a concrete error in a program that causes it to behave incorrectly. A code smell is not a bug, but a sign of poor design that might lead to bugs in the future."
+    - word: "technical debt"
+      difference: "Code smells are often a form of technical debt. They are design choices that are easy to implement now but will make future changes harder."
+  story: |
+    I was reviewing a colleague's code and noticed a code smell: a lot of duplicated code in different functions. The code worked, but this duplication would make it hard to maintain. I suggested we refactor it into a single, reusable function to improve the design.
+- word: "end of day (EOD)"
+  pronunciation: "/ɛnd əv deɪ/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "The end of the business day."
+    bahasa: "Akhir hari kerja."
+  usage: "Used as a deadline for tasks to be completed within the same workday. The exact time can vary depending on the company culture."
+  synonyms:
+    - "close of business (COB)"
+    - "end of the workday"
+  examples:
+    workplace:
+      - "Please send me the report by end of day (EOD)."
+      - "I'll try to finish this task by EOD."
+    casual:
+      - "I need to go to the post office by end of day."
+      - "Let's meet up after EOD."
+  related:
+    - word: "deadline"
+      difference: "A deadline is a specific time or date by which something must be completed. EOD is a common, informal type of deadline that refers to the end of the current workday."
+    - word: "close of business (COB)"
+      difference: "COB and EOD are often used interchangeably. COB can sometimes be more formal and refer to the official closing time of the business."
+  story: |
+    My manager asked me to investigate a minor bug and give him an update by end of day (EOD). I spent the afternoon debugging the issue and sent him an email with my findings just before I logged off.
+- word: "Quality Assurance (QA)"
+  pronunciation: "/ˈkwɒlɪti əˈʃʊərəns/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The process of testing software to ensure it meets the required quality standards before it is released to users."
+    bahasa: "Proses pengujian perangkat lunak untuk memastikan memenuhi standar kualitas yang disyaratkan sebelum dirilis ke pengguna."
+  usage: "Refers to the team or the process responsible for finding bugs and verifying that the software works as expected."
+  synonyms:
+    - "QA"
+    - "software testing"
+  examples:
+    workplace:
+      - "The new feature is ready, but it needs to go through Quality Assurance (QA) first."
+      - "I'm working with the QA team to reproduce the bug."
+    casual:
+      - "Even for his personal website, he does some basic QA."
+      - "She has a lot of experience in QA."
+  related:
+    - word: "testing"
+      difference: "Testing is the act of checking the software. Quality Assurance (QA) is the broader process of ensuring quality, which includes testing but also other activities like process improvement."
+    - word: "developer"
+      difference: "A developer writes the code. A QA engineer's main role is to test the code and find issues."
+  story: |
+    We just deployed the new version to the staging environment. Now, our Quality Assurance (QA) team will start their testing. They have a comprehensive test plan to check all the new features and make sure we didn't introduce any regressions. We can't release to production until we get the green light from QA.
+- word: "User Acceptance Testing (UAT)"
+  pronunciation: "/ˈjuːzər əkˈsɛptəns ˈtɛstɪŋ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The final phase of testing where actual users test the software to see if it meets their needs and can handle real-world scenarios."
+    bahasa: "Fase akhir pengujian di mana pengguna sebenarnya menguji perangkat lunak untuk melihat apakah itu memenuhi kebutuhan mereka dan dapat menangani skenario dunia nyata."
+  usage: "UAT is done after the software has passed internal QA. It's the last step before making the software available to all users."
+  synonyms:
+    - "UAT"
+    - "beta testing"
+    - "end-user testing"
+  examples:
+    workplace:
+      - "We are conducting User Acceptance Testing (UAT) with a few of our key clients this week."
+      - "The product can't go live until it passes UAT."
+    casual:
+      - "I was invited to participate in the UAT for a new mobile game."
+      - "The feedback from UAT was very positive."
+  related:
+    - word: "Quality Assurance (QA)"
+      difference: "QA is done by an internal team to check if the software works as specified. UAT is done by real users to check if the software is acceptable for them to use."
+    - word: "beta testing"
+      difference: "Beta testing is a type of UAT where the software is released to a limited number of external users to get feedback before the official launch."
+  story: |
+    Our new feature has passed all the internal tests. Now it's time for User Acceptance Testing (UAT). We've selected a group of 50 users to try it out for a week. Their feedback will be crucial to decide if we are ready for a full public release.
