@@ -1,0 +1,85 @@
+dialogue:
+  - speaker: Alex
+    english: "Hey Ben, got a minute? I wanted to discuss the database migration for the new feature."
+    bahasa: "Hai Ben, ada waktu sebentar? Aku ingin membahas migrasi database untuk fitur baru."
+  - speaker: Ben
+    english: "Sure, Alex. I've been looking into it. It seems like a pretty big undertaking."
+    bahasa: "Tentu, Alex. Aku sudah melihatnya. Sepertinya ini pekerjaan yang cukup besar."
+  - speaker: Alex
+    english: "It is. We need to move all the user data from the old schema to the new one without any downtime."
+    bahasa: "Betul. Kita perlu memindahkan semua data pengguna dari skema lama ke skema baru tanpa ada downtime."
+  - speaker: Ben
+    english: "Right. I was thinking we could use a blue-green deployment strategy. We set up a new database with the new schema, replicate the data, and then switch over."
+    bahasa: "Benar. Aku berpikir kita bisa menggunakan strategi blue-green deployment. Kita siapkan database baru dengan skema baru, replikasi datanya, lalu kita pindah."
+  - speaker: Alex
+    english: "That's a solid plan. It minimizes risk. How do we handle writes to the database during the migration?"
+    bahasa: "Itu rencana yang bagus. Ini meminimalkan risiko. Bagaimana kita menangani penulisan ke database selama migrasi?"
+  - speaker: Ben
+    english: "We could have a short maintenance window where we make the old database read-only."
+    bahasa: "Kita bisa punya jeda pemeliharaan singkat di mana kita membuat database lama menjadi hanya-baca."
+  - speaker: Alex
+    english: "Hmm, the product manager wants to avoid any service interruption. What if we use a proxy that writes to both databases simultaneously?"
+    bahasa: "Hmm, manajer produk ingin menghindari gangguan layanan apa pun. Bagaimana jika kita menggunakan proksi yang menulis ke kedua database secara bersamaan?"
+  - speaker: Ben
+    english: "That could work, but it adds a layer of complexity. We'd need to build and test that proxy thoroughly."
+    bahasa: "Itu bisa berhasil, tetapi menambah lapisan kompleksitas. Kita perlu membangun dan menguji proksi itu secara menyeluruh."
+  - speaker: Alex
+    english: "True, but it would give us a seamless transition. Let's draft a proposal with both options and present the pros and cons to the team."
+    bahasa: "Benar, tapi itu akan memberi kita transisi yang mulus. Mari kita buat proposal dengan kedua opsi dan presentasikan pro dan kontranya kepada tim."
+  - speaker: Ben
+    english: "Sounds like a plan. I'll start a document."
+    bahasa: "Terdengar bagus. Aku akan mulai membuat dokumennya."
+  - speaker: Alex
+    english: "Great. Let's touch base again this afternoon to review it."
+    bahasa: "Bagus. Mari kita bicara lagi sore ini untuk memeriksanya."
+  - speaker: Ben
+    english: "Perfect. Talk to you then."
+    bahasa: "Sempurna. Sampai nanti."
+
+expressions:
+  - phrase: "got a minute?"
+    meaning_english: "A common way to ask if someone has time to talk."
+    meaning_bahasa: "Cara umum untuk bertanya apakah seseorang punya waktu untuk berbicara."
+  - phrase: "big undertaking"
+    meaning_english: "A large and difficult task."
+    meaning_bahasa: "Tugas yang besar dan sulit."
+  - phrase: "without any downtime"
+    meaning_english: "The service must remain available without any interruption."
+    meaning_bahasa: "Layanan harus tetap tersedia tanpa gangguan apa pun."
+  - phrase: "blue-green deployment"
+    meaning_english: "A strategy for releasing software with minimal risk by maintaining two identical environments, one of which is live (blue) and the other for the new version (green)."
+    meaning_bahasa: "Strategi untuk merilis perangkat lunak dengan risiko minimal dengan memelihara dua lingkungan identik, satu yang aktif (biru) dan yang lainnya untuk versi baru (hijau)."
+  - phrase: "solid plan"
+    meaning_english: "A good and well-thought-out plan."
+    meaning_bahasa: "Rencana yang bagus dan matang."
+  - phrase: "minimizes risk"
+    meaning_english: "Reduces the chance of problems or failure."
+    meaning_bahasa: "Mengurangi kemungkinan masalah atau kegagalan."
+  - phrase: "maintenance window"
+    meaning_english: "A scheduled period of time when a system is taken offline for maintenance."
+    meaning_bahasa: "Periode waktu yang dijadwalkan ketika sistem dimatikan untuk pemeliharaan."
+  - phrase: "layer of complexity"
+    meaning_english: "An additional level of complication in a system."
+    meaning_bahasa: "Tingkat kerumitan tambahan dalam suatu sistem."
+  - phrase: "seamless transition"
+    meaning_english: "A smooth and unnoticeable change from one system to another."
+    meaning_bahasa: "Perubahan yang mulus dan tidak terasa dari satu sistem ke sistem lain."
+  - phrase: "draft a proposal"
+    meaning_english: "To write a formal suggestion for others to consider."
+    meaning_bahasa: "Menyusun usulan resmi untuk dipertimbangkan orang lain."
+  - phrase: "pros and cons"
+    meaning_english: "The advantages and disadvantages of something."
+    meaning_bahasa: "Kelebihan dan kekurangan dari sesuatu."
+  - phrase: "touch base"
+    meaning_english: "To make contact or reconnect with someone briefly."
+    meaning_bahasa: "Menghubungi atau berhubungan kembali dengan seseorang secara singkat."
+
+questions:
+  - q: "What is the main topic of the conversation?"
+    a: "The main topic is planning a database migration for a new feature."
+  - q: "What is the main challenge they are trying to solve?"
+    a: "They need to migrate user data to a new schema without causing any service downtime."
+  - q: "What are the two solutions they discuss for handling writes during the migration?"
+    a: "They discuss two options: having a short maintenance window to make the old database read-only, or using a proxy to write to both databases simultaneously."
+  - q: "What is their final decision?"
+    a: "They decide to draft a proposal with both options, outlining the pros and cons, and present it to the team for a final decision."
