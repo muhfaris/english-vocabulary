@@ -1,0 +1,197 @@
+- word: "stand-up"
+  pronunciation: "/ˈstænd.ʌp/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A short, daily team meeting where members briefly share their progress and any obstacles."
+    bahasa: "Rapat tim harian yang singkat di mana anggota secara singkat berbagi kemajuan mereka dan hambatan apa pun."
+  usage: "Typically used in Agile software development. It's meant to be a quick status update, not a detailed discussion."
+  synonyms:
+    - "daily scrum"
+    - "huddle"
+  examples:
+    workplace:
+      - "I'll give more details after the stand-up."
+      - "My update for today's stand-up is that I've finished the login feature."
+    casual:
+      - "Our family does a quick stand-up in the morning to plan the day."
+      - "Let's have a quick stand-up before we start the project."
+  related:
+    - word: "meeting"
+      difference: "A 'stand-up' is a specific type of very short, daily meeting with a fixed agenda. A 'meeting' is a more general term for any kind of gathering."
+    - word: "huddle"
+      difference: "'Huddle' is often used interchangeably with 'stand-up' but can also refer to a quick, spontaneous meeting to solve a specific problem."
+  story: |
+    During our morning stand-up, I mentioned that I was blocked by a failing test. A senior developer immediately offered to help me look at it afterward, which saved me a lot of time.
+- word: "blocker"
+  pronunciation: "/ˈblɒk.ər/"
+  part_of_speech: "noun"
+  meaning:
+    english: "An issue or obstacle that prevents progress on a task."
+    bahasa: "Masalah atau rintangan yang menghalangi kemajuan suatu tugas."
+  usage: "Commonly used in project management and software development to describe something that is stopping work from being completed."
+  synonyms:
+    - "obstacle"
+    - "impediment"
+    - "hurdle"
+  examples:
+    workplace:
+      - "I have a blocker; I can't proceed until the new server is ready."
+      - "Let's discuss any blockers during the daily stand-up."
+    casual:
+      - "My main blocker for finishing the garden is the bad weather."
+      - "Lack of funding is a major blocker for their expansion plans."
+  related:
+    - word: "issue"
+      difference: "An 'issue' is a general problem or concern. A 'blocker' is a specific type of issue that completely stops progress."
+    - word: "challenge"
+      difference: "A 'challenge' is a difficult task that can be overcome with effort. A 'blocker' is something that stops you completely until it is removed."
+  story: |
+    I thought I could finish the feature by the end of the day, but I hit a blocker. The third-party API we rely on was down, so I couldn't test my code. I had to switch to another task while waiting for it to come back online.
+- word: "sync up"
+  pronunciation: "/sɪŋk ʌp/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To meet and share information with someone to ensure everyone is on the same page."
+    bahasa: "Bertemu dan berbagi informasi dengan seseorang untuk memastikan semua orang memiliki pemahaman yang sama."
+  usage: "Used to suggest a meeting to align on a topic, update each other, or coordinate work."
+  synonyms:
+    - "catch up"
+    - "align"
+    - "touch base"
+  examples:
+    workplace:
+      - "Let's sync up for 15 minutes to discuss the new designs."
+      - "I need to sync up with the backend team about the API changes."
+    casual:
+      - "We should sync up before the trip to finalize our plans."
+      - "I haven't seen you in ages! We need to sync up soon."
+  related:
+    - word: "meeting"
+      difference: "'Sync up' implies a more informal and often shorter meeting focused on getting aligned, whereas a 'meeting' can be more formal and cover a broader range of topics."
+    - word: "update"
+      difference: "An 'update' is the information you share. To 'sync up' is the action of meeting to share those updates."
+  story: |
+    After working separately for a few days, my colleague and I decided to sync up. We discovered our work was starting to overlap, so we re-assigned tasks to avoid duplicating effort. That quick sync up saved us a lot of rework.
+- word: "bandwidth"
+  pronunciation: "/ˈbænd.wɪdθ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The capacity to take on more work, tasks, or responsibilities."
+    bahasa: "Kapasitas untuk mengambil lebih banyak pekerjaan, tugas, atau tanggung jawab."
+  usage: "In a workplace context, it's a metaphorical way of talking about your availability and ability to handle more work."
+  synonyms:
+    - "capacity"
+    - "availability"
+  examples:
+    workplace:
+      - "I don't have the bandwidth to join another project right now."
+      - "Ask Sarah if she has the bandwidth to help you with that."
+    casual:
+      - "With the kids' school activities, I have no bandwidth for a new hobby."
+      - "I'd love to help you move, but I just don't have the bandwidth this weekend."
+  related:
+    - word: "time"
+      difference: "'Time' is a general resource. 'Bandwidth' specifically refers to your available mental and professional capacity to handle tasks, not just the hours in a day."
+    - word: "energy"
+      difference: "'Energy' is about physical or mental vitality. 'Bandwidth' is more about the amount of work you can fit into your schedule and manage effectively."
+  story: |
+    My manager asked if I could lead a new initiative. I had to be honest and say, "I'm really interested, but given my current deadlines, I don't think I have the bandwidth to give it the attention it deserves."
+- word: "heads-up"
+  pronunciation: "/ˈhedz.ʌp/"
+  part_of_speech: "noun"
+  meaning:
+    english: "An advance warning or notice about something that is going to happen."
+    bahasa: "Peringatan atau pemberitahuan di muka tentang sesuatu yang akan terjadi."
+  usage: "Used to inform someone about something so they can prepare for it."
+  synonyms:
+    - "warning"
+    - "notice"
+    - "alert"
+  examples:
+    workplace:
+      - "Just a heads-up, the server will be down for maintenance tonight."
+      - "Thanks for the heads-up about the client's visit."
+    casual:
+      - "Can you give me a heads-up when you're leaving?"
+      - "As a heads-up, the party is starting an hour later than planned."
+  related:
+    - word: "warning"
+      difference: "A 'warning' often implies danger or a negative consequence. A 'heads-up' is more neutral and is simply about providing information in advance."
+    - word: "notification"
+      difference: "A 'notification' is a formal or automated alert. A 'heads-up' is typically more informal and personal."
+  story: |
+    My teammate gave me a heads-up that the new design components were ready to be integrated. Because of his heads-up, I was able to plan my work for the next day and start using them right away.
+- word: "walk someone through"
+  pronunciation: "/wɔːk ˈsʌmwʌn θruː/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To explain or demonstrate something to someone in a careful, step-by-step way."
+    bahasa: "Menjelaskan atau mendemonstrasikan sesuatu kepada seseorang secara hati-hati, langkah demi langkah."
+  usage: "Use this phrase when you are guiding a person through a process or set of instructions in detail. It's more personal and detailed than just 'explain'."
+  synonyms:
+    - "guide someone through"
+    - "explain in detail to someone"
+  examples:
+    workplace:
+      - "Could you walk me through the new CI/CD pipeline setup?"
+      - "She walked the new intern through the company's coding standards."
+    casual:
+      - "He walked me through how to assemble the new bookshelf."
+      - "I'll walk you through the rules of the board game before we start."
+  related:
+    - word: "walkthrough"
+      difference: "'Walkthrough' is a noun referring to the demonstration itself (e.g., 'She gave a great walkthrough'). 'Walk someone through' is the verb phrase for the action of giving that demonstration."
+    - word: "explain"
+      difference: "'Explain' is more general. 'Walk someone through' implies a slower, more guided, and often more visual or hands-on explanation."
+  story: |
+    My project manager was having trouble understanding the technical complexities of a task. I told her, "No problem, I can walk you through the code." We hopped on a call, and I shared my screen, explaining each component and how they interact. By the end, she had a much clearer picture of the work involved.
+- word: "figure it out"
+  pronunciation: "/ˈfɪɡ.jər ɪt aʊt/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To understand or solve something."
+    bahasa: "Memahami atau memecahkan sesuatu."
+  usage: "A common, informal phrase used when you need to find a solution to a problem or understand a complex situation through thinking and investigation."
+  synonyms:
+    - "solve"
+    - "understand"
+    - "work it out"
+  examples:
+    workplace:
+      - "The documentation is unclear, so I'll have to figure it out on my own."
+      - "Give me some time, and I'll figure out why the build is failing."
+    casual:
+      - "I can't find the instructions, but I'm sure we can figure it out."
+      - "He's good with puzzles; he'll figure it out."
+  related:
+    - word: "solve"
+      difference: "'Solve' is more formal and often used for well-defined problems, like a math equation or a mystery. 'Figure it out' is more informal and used for a wider range of everyday problems."
+    - word: "discover"
+      difference: "'Discover' means to find something that already existed but was unknown. 'Figure it out' implies a process of thought and problem-solving to arrive at a conclusion or solution."
+  story: |
+    The bug was really strange and didn't produce any error messages. I spent the whole morning just trying to reproduce it consistently. It took a lot of trial and error, but I finally managed to figure it out. It was a simple typo in a configuration file.
+- word: "scope"
+  pronunciation: "/skəʊp/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The extent of the area or subject matter that something deals with or to which it is relevant."
+    bahasa: "Cakupan area atau pokok bahasan yang dibahas oleh sesuatu atau yang relevan dengannya."
+  usage: "In project management, it defines the boundaries of a project or task—what is included and what is not."
+  synonyms:
+    - "range"
+    - "extent"
+    - "boundaries"
+  examples:
+    workplace:
+      - "Adding that feature is out of scope for this release."
+      - "We need to clearly define the project scope before we begin."
+    casual:
+      - "The scope of the book is limited to European history."
+      - "That's a bit beyond the scope of our current discussion."
+  related:
+    - word: "scope creep"
+      difference: "'Scope' defines the boundaries. 'Scope creep' is a negative term for when those boundaries expand uncontrollably during a project."
+    - word: "requirements"
+      difference: "'Requirements' are the specific things that need to be done. 'Scope' is the overall boundary that contains all those requirements."
+  story: |
+    We had a planning meeting to define the scope for the new feature. Initially, we wanted to include image and video uploads, but we realized that would take too long. We decided to reduce the scope to only include image uploads for the first version.

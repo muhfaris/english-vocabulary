@@ -1,0 +1,18 @@
+story:
+  title: "a-quick-sync-up"
+  date: "2025-09-14"
+  text: |
+    I started my morning with a cup of coffee, getting ready for the daily **stand-up**. I had been working on a new feature, but I hit a **blocker** that I couldn’t solve on my own. During the meeting, I mentioned my issue. My team lead, Sarah, suggested we **sync up** after the call.
+
+    "I don't have much **bandwidth** today, but I can spare 15 minutes," she said.
+
+    Later, she sent me a message: "Hey, can you give me a **heads-up** before you call?" I replied, and we started a video call. I shared my screen and started to **walk her through** the code. As I was explaining the problem, the solution suddenly became clear. It's funny how sometimes just talking about an issue can help you **figure it out**. The original **scope** of the task was smaller than I thought. We ended the call, and I got back to coding, feeling much more confident.
+  highlighted_words:
+    - "stand-up"
+    - "blocker"
+    - "sync up"
+    - "bandwidth"
+    - "heads-up"
+    - "walk her through"
+    - "figure it out"
+    - "scope"
