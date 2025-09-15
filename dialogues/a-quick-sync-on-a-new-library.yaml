@@ -1,0 +1,71 @@
+dialogue:
+  - speaker: Alex
+    english: "Hey Lia, got a minute? I wanted to get your take on something."
+    bahasa: "Hai Lia, ada waktu sebentar? Aku ingin meminta pendapatmu tentang sesuatu."
+  - speaker: Lia
+    english: "Sure, what's up?"
+    bahasa: "Tentu, ada apa?"
+  - speaker: Alex
+    english: "I was looking into a new data visualization library called 'VizFlow'. It seems much more lightweight than our current one."
+    bahasa: "Aku sedang melihat-lihat library visualisasi data baru bernama 'VizFlow'. Sepertinya jauh lebih ringan daripada yang kita gunakan sekarang."
+  - speaker: Lia
+    english: "Oh yeah? What are the main benefits?"
+    bahasa: "Oh ya? Apa keuntungan utamanya?"
+  - speaker: Alex
+    english: "The bundle size is significantly smaller, and the documentation claims it's faster at rendering complex charts."
+    bahasa: "Ukuran bundelnya jauh lebih kecil, dan dokumentasinya mengklaim lebih cepat dalam me-render grafik yang kompleks."
+  - speaker: Lia
+    english: "That sounds promising. Our app's bundle size has been a pain point for a while. Is there a trade-off?"
+    bahasa: "Itu terdengar menjanjikan. Ukuran bundel aplikasi kita sudah menjadi masalah selama ini. Apakah ada komprominya?"
+  - speaker: Alex
+    english: "It seems to have a smaller community and fewer pre-built components. We might have to build some custom charts from scratch."
+    bahasa: "Sepertinya komunitasnya lebih kecil dan komponen bawaannya lebih sedikit. Kita mungkin harus membuat beberapa grafik kustom dari awal."
+  - speaker: Lia
+    english: "I see. That could slow down initial development. How steep is the learning curve?"
+    bahasa: "Aku mengerti. Itu bisa memperlambat pengembangan awal. Seberapa curam kurva belajarnya?"
+  - speaker: Alex
+    english: "It looks pretty straightforward. The API is well-designed and intuitive. I think we could pick it up quickly."
+    bahasa: "Kelihatannya cukup mudah. API-nya dirancang dengan baik dan intuitif. Kurasa kita bisa mempelajarinya dengan cepat."
+  - speaker: Lia
+    english: "Okay, let's do a small proof of concept. Can you create a small demo project with it?"
+    bahasa: "Oke, mari kita buat bukti konsep kecil. Bisakah kamu membuat proyek demo kecil dengan itu?"
+  - speaker: Alex
+    english: "Absolutely. I'll whip something up and share it with you by the end of the day."
+    bahasa: "Tentu saja. Aku akan segera membuatnya dan membagikannya padamu sebelum hari ini berakhir."
+  - speaker: Lia
+    english: "Perfect. Let's not get ahead of ourselves, but I'm curious to see what it can do."
+    bahasa: "Sempurna. Jangan terlalu terburu-buru, tapi aku penasaran untuk melihat kemampuannya."
+
+expressions:
+  - phrase: "get your take on something"
+    meaning_english: "To ask for someone's opinion or perspective on a matter."
+    meaning_bahasa: "Meminta pendapat atau pandangan seseorang mengenai suatu hal."
+  - phrase: "lightweight"
+    meaning_english: "Not complex or having a small footprint; using few resources."
+    meaning_bahasa: "Tidak rumit atau berukuran kecil; menggunakan sedikit sumber daya."
+  - phrase: "pain point"
+    meaning_english: "A persistent or recurring problem."
+    meaning_bahasa: "Masalah yang terus-menerus atau berulang."
+  - phrase: "trade-off"
+    meaning_english: "A compromise where you sacrifice one thing to gain another."
+    meaning_bahasa: "Situasi di mana Anda mengorbankan satu hal untuk mendapatkan hal lain; kompromi."
+  - phrase: "from scratch"
+    meaning_english: "From the very beginning, without using anything that already exists."
+    meaning_bahasa: "Dari awal sekali, tanpa menggunakan apa pun yang sudah ada."
+  - phrase: "steep learning curve"
+    meaning_english: "Difficult and taking a lot of effort to learn."
+    meaning_bahasa: "Sulit dan membutuhkan banyak usaha untuk dipelajari."
+  - phrase: "whip something up"
+    meaning_english: "To produce or create something quickly and easily."
+    meaning_bahasa: "Membuat atau menghasilkan sesuatu dengan cepat dan mudah."
+  - phrase: "get ahead of ourselves"
+    meaning_english: "To make plans or take actions based on a future event that might not happen."
+    meaning_bahasa: "Membuat rencana atau mengambil tindakan berdasarkan peristiwa di masa depan yang mungkin tidak terjadi."
+
+questions:
+  - q: "What is the name of the new library Alex is proposing?"
+    a: "The new library is called 'VizFlow'."
+  - q: "What is the main drawback of the new library?"
+    a: "It has a smaller community and fewer pre-built components, which might require them to build custom charts from scratch."
+  - q: "What is the next step they agreed on?"
+    a: "Alex will create a small proof of concept (a demo project) to showcase the library's capabilities."
