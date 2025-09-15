@@ -1,0 +1,17 @@
+story:
+  title: "a-productive-day"
+  date: "2025-09-15"
+  text: |
+    The morning started with our usual **dailies**, where everyone gave a quick update. My turn came, and I mentioned I was hitting a wall with a tricky bug. My tech lead suggested a quick **sync-up** after the meeting.
+
+    During our one-on-one, we decided to **dive deep** into the code together. It was a complex issue, and fixing it before the deadline seemed like **a bit of a stretch**, but we were determined. After the call, I **knuckled down**, feeling more confident with the new plan.
+
+    A few hours of focused work later, we had a breakthrough! We **ironed out** the final details through a quick chat. With the bug fixed and the pull request submitted, I felt a huge sense of relief. I updated the team, cleaned up my desk, and **called it a day**.
+  highlighted_words:
+    - "dailies"
+    - "sync-up"
+    - "dive deep"
+    - "a bit of a stretch"
+    - "knuckled down"
+    - "ironed out"
+    - "called it a day"
