@@ -1,0 +1,164 @@
+- word: "morning ritual"
+  pronunciation: "/ˈmɔːr.nɪŋ ˈrɪtʃ.u.əl/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A set of routine actions or habits that a person performs every morning."
+    bahasa: "Serangkaian tindakan atau kebiasaan rutin yang dilakukan seseorang setiap pagi."
+  usage: "Used to describe the sequence of activities someone does to start their day, often to be productive or feel prepared."
+  synonyms:
+    - "morning routine"
+    - "daily habit"
+  examples:
+    workplace:
+      - "My morning ritual includes checking the server status before the stand-up meeting."
+      - "Her morning ritual of organizing her tasks helps her stay focused throughout the day."
+    casual:
+      - "Part of my morning ritual is to have a cup of tea while reading the news."
+      - "He never skips his morning ritual of a 30-minute workout."
+  related:
+    - word: "daily stand-up"
+      difference: "A 'morning ritual' is a personal routine, while a 'daily stand-up' is a team meeting that often happens in the morning."
+  story: |
+    As a remote developer, my morning ritual is crucial. I wake up, make a fresh cup of coffee, and spend about 15 minutes reviewing my tasks for the day without any distractions. This simple routine helps me get into the right mindset before I even open my code editor.
+
+- word: "dive into"
+  pronunciation: "/daɪv ˈɪn.tuː/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To start doing something with great energy and enthusiasm, or to examine something in detail."
+    bahasa: "Mulai melakukan sesuatu dengan penuh energi dan antusiasme, atau memeriksa sesuatu secara mendetail."
+  usage: "Commonly used when starting a new task, project, or investigation with focus and intensity."
+  synonyms:
+    - "plunge into"
+    - "get stuck into"
+    - "immerse oneself in"
+  examples:
+    workplace:
+      - "We need to dive into the user feedback to understand the main issues."
+      - "As soon as the planning was done, the team was ready to dive into coding."
+    casual:
+      - "I can't wait to dive into this new book I bought."
+      - "She decided to dive into learning how to bake during the holidays."
+  related:
+    - word: "deep dive"
+      difference: "'To dive into' something is the action of starting an intense investigation. A 'deep dive' is the investigation itself, usually referring to a detailed analysis or discussion."
+  story: |
+    During our weekly sync, a new bug was reported in the payment module. Our tech lead said, 'Alright, I'll dive into the logs and see what's happening.' By the end of the day, he had found the root cause.
+
+- word: "a bit of a mess"
+  pronunciation: "/ə bɪt əv ə mɛs/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To be disorganized, untidy, or in a state of confusion."
+    bahasa: "Berantakan, tidak rapi, atau dalam keadaan bingung."
+  usage: "Used informally to describe a situation, place, or even code that is not well-organized or is chaotic."
+  synonyms:
+    - "disorderly"
+    - "chaotic"
+    - "jumbled"
+  examples:
+    workplace:
+      - "The initial version of the code was a bit of a mess, so we had to refactor it."
+      - "Our project documentation is a bit of a mess; we need to clean it up."
+    casual:
+      - "Sorry, my desk is a bit of a mess right now."
+      - "After the party, the house was a bit of a mess."
+  related:
+    - word: "legacy code"
+      difference: "'Legacy code' is old code that can be hard to work with. It is often 'a bit of a mess,' but not all messy code is legacy code."
+  story: |
+    A new developer joined our team and was asked to fix a bug in an old module. After looking at the code, he told me, 'The logic here is a bit of a mess. It's hard to follow what's going on.' We agreed to pair program to figure it out together.
+
+- word: "track down"
+  pronunciation: "/træk daʊn/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To find something or someone after a thorough and often difficult search."
+    bahasa: "Menemukan sesuatu atau seseorang setelah pencarian yang teliti dan seringkali sulit."
+  usage: "Often used when searching for the source of a problem, like a bug, or trying to find a specific piece of information."
+  synonyms:
+    - "hunt down"
+    - "find"
+    - "locate"
+  examples:
+    workplace:
+      - "It took me all morning to track down the source of the memory leak."
+      - "She's trying to track down the person who wrote this part of the code."
+    casual:
+      - "I need to track down a copy of that book for my collection."
+      - "He finally managed to track down his old friend from school."
+  related:
+    - word: "debug"
+      difference: "'To debug' is the overall process of finding and fixing errors in code. 'To track down' a bug is a key part of debugging—the search for the bug's origin."
+  story: |
+    A user reported a very strange issue that only happened on their specific device. It was a tough one, but after two days of investigation, I finally managed to track down the bug to a third-party library we were using.
+
+- word: "smoothly"
+  pronunciation: "/ˈsmuːð.li/"
+  part_of_speech: "adverb"
+  meaning:
+    english: "Happening without any problems, difficulties, or interruptions."
+    bahasa: "Terjadi tanpa masalah, kesulitan, atau gangguan."
+  usage: "Used to describe a process or activity that goes well and according to plan."
+  synonyms:
+    - "effortlessly"
+    - "flawlessly"
+    - "without a hitch"
+  examples:
+    workplace:
+      - "The deployment went smoothly, and we didn't get any new error alerts."
+      - "We hope the data migration process runs smoothly over the weekend."
+    casual:
+      - "The event went smoothly, and everyone had a great time."
+      - "The journey was long, but everything went smoothly."
+  related:
+    - word: "seamless"
+      difference: "'Smoothly' describes an action that happens without problems. 'Seamless' often describes the end result, especially from a user's perspective (e.g., a seamless user experience)."
+  story: |
+    We were all a bit nervous about the big release, as it involved many changes. We had a detailed plan and followed it step-by-step. To our relief, the entire deployment process went smoothly, and we celebrated with a team lunch.
+
+- word: "on the right track"
+  pronunciation: "/ɒn ðə raɪt træk/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "Proceeding in a way that is likely to lead to a successful result."
+    bahasa: "Berjalan dengan cara yang kemungkinan besar akan menghasilkan kesuksesan."
+  usage: "Used to express that someone is making good progress and heading in the correct direction, even if the task is not yet complete."
+  synonyms:
+    - "making progress"
+    - "headed in the right direction"
+  examples:
+    workplace:
+      - "The initial prototype looks good; I think we're on the right track."
+      - "I checked his code, and he's definitely on the right track to solving the issue."
+    casual:
+      - "I've started exercising and eating better, so I feel like I'm on the right track."
+      - "This isn't the final answer, but I think you're on the right track."
+  related:
+    - word: "on track"
+      difference: "'On the right track' means you are going in the correct direction. 'On track' is more specific and means you are following the planned schedule or timeline."
+  story: |
+    I was struggling with a complex algorithm and asked a senior engineer for help. He looked at my approach and said, 'This is a good start. You're on the right track. Just consider this one edge case.' His feedback was exactly what I needed.
+
+- word: "a sigh of relief"
+  pronunciation: "/ə saɪ əv rɪˈliːf/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "The feeling of reassurance and relaxation after a period of worry, stress, or difficulty has ended."
+    bahasa: "Perasaan lega dan rileks setelah masa khawatir, stres, atau kesulitan berakhir."
+  usage: "Used to express the feeling of happiness and release that comes when a problem is solved or a stressful situation is over."
+  synonyms:
+    - "a weight off one's shoulders"
+    - "thank goodness"
+  examples:
+    workplace:
+      - "When the critical bug was finally fixed, the whole team breathed a sigh of relief."
+      - "I let out a sigh of relief when I saw that all the tests passed."
+    casual:
+      - "He breathed a sigh of relief when he found his lost wallet."
+      - "There was a collective sigh of relief when the storm passed."
+  related:
+    - word: "post-mortem"
+      difference: "A 'sigh of relief' is the immediate emotional response after a crisis is over. A 'post-mortem' is a formal meeting that happens later to analyze what went wrong and how to prevent it in the future."
+  story: |
+    The servers went down an hour before our big product demo. We were all scrambling to fix it. Ten minutes before the demo started, we found the issue and brought the servers back online. Everyone in the room let out a collective sigh of relief.

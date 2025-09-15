@@ -1,0 +1,19 @@
+story:
+  title: "tracking-down-a-tricky-bug"
+  date: "2025-09-16"
+  text: |
+    My Tuesday started like any other day, with my usual **morning ritual**: a strong cup of coffee and a quick look at my emails. I was planning to work on a new feature, but an urgent bug report came in. A critical part of our app was failing for some users, and we had to fix it quickly.
+
+    I decided to **dive into** the code immediately. The logs showed that the data was getting corrupted somewhere along the way, but it wasn't clear where. The code responsible for this was old and complex, so it was **a bit of a mess**. I spent a few hours trying to **track down** the root cause, adding more logging and running tests.
+
+    After a while, I finally found the problem: a small logic error that only happened under very specific conditions. Once I knew what was wrong, the fix was easy. I wrote a patch, tested it, and deployed it. Everything went **smoothly**, and the error reports stopped coming in.
+
+    My manager was happy with the quick fix, and I felt like I was back **on the right track**. I let out **a sigh of relief** and went to get another cup of coffee. It wasn't the day I had planned, but it was a productive one.
+  highlighted_words:
+    - "morning ritual"
+    - "dive into"
+    - "a bit of a mess"
+    - "track down"
+    - "smoothly"
+    - "on the right track"
+    - "a sigh of relief"
