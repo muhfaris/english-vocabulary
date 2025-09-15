@@ -221,3 +221,51 @@
       difference: "A project can be 'successful' in the end, even if it had many problems. 'Smooth sailing' describes the process itself being free of problems."
   story: |
     The deployment for our new microservice was a bit stressful. We ran into a few unexpected network issues. But after about an hour of troubleshooting, we resolved them. From that point on, it was smooth sailing, and the service has been running perfectly ever since.
+- word: "cup of coffee"
+  pronunciation: "/kʌp əv ˈkɒfi/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A common beverage, but in a workplace context, it often symbolizes a short break or an informal chat."
+    bahasa: "Minuman umum, tetapi dalam konteks tempat kerja, sering kali melambangkan istirahat sejenak atau obrolan informal."
+  usage: "Used to suggest a break or an informal meeting. 'Grabbing a cup of coffee' is a very common way to initiate a casual conversation with a colleague."
+  synonyms:
+    - "coffee break"
+    - "quick chat"
+  examples:
+    workplace:
+      - "Let's grab a cup of coffee and discuss the new design."
+      - "I'm a bit stuck on this problem; I'm going to get a cup of coffee to clear my head."
+    casual:
+      - "Do you want to get a cup of coffee this weekend?"
+      - "My morning ritual always starts with a hot cup of coffee."
+  related:
+    - word: "water cooler chat"
+      difference: "Similar to a 'cup of coffee' chat, it refers to informal conversations in the office. 'Water cooler chat' is a more traditional phrase."
+    - word: "sync up"
+      difference: "'Sync up' is usually a more focused, work-related short meeting. A 'cup of coffee' chat can be about work, but is often more casual and social."
+  story: |
+    I was having trouble understanding a complex part of the codebase. My teammate, who wrote the original code, saw me struggling. She said, "Hey, let's grab a cup of coffee." During our coffee break, she sketched out the architecture on a napkin, and everything clicked into place. That informal chat over a cup of coffee was more effective than any formal meeting.
+- word: "branch"
+  pronunciation: "/brɑːntʃ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "In version control systems like Git, a branch is a separate line of development. It allows you to work on a feature or a bug fix without affecting the main codebase."
+    bahasa: "Dalam sistem kontrol versi seperti Git, 'branch' adalah jalur pengembangan terpisah. Ini memungkinkan Anda untuk mengerjakan fitur atau perbaikan bug tanpa memengaruhi basis kode utama."
+  usage: "Used when talking about source code management. Creating a new 'branch' is standard practice before starting any new work."
+  synonyms:
+    - "line of development"
+    - "feature branch"
+  examples:
+    workplace:
+      - "Create a new branch before you start working on the ticket."
+      - "I'm going to merge my branch into the main development branch."
+    casual:
+      - "Think of it like a tree branch; it grows out from the main trunk but doesn't change the trunk itself."
+      - "He's exploring a different branch of the family tree."
+  related:
+    - word: "commit"
+      difference: "A 'commit' is a single saved change within a branch. A 'branch' is a collection of commits."
+    - word: "merge"
+      difference: "'Merge' is the action of combining the changes from one branch into another."
+  story: |
+    When I was assigned a new task to add a dark mode feature, the first thing I did was create a new Git branch called `feature/dark-mode`. This allowed me to experiment freely, making many commits as I built the feature. Once everything was working perfectly and my pull request was approved, I merged the branch back into the main codebase.

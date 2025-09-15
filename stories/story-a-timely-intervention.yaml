@@ -1,0 +1,19 @@
+story:
+  title: "a-timely-intervention"
+  date: "2025-09-15"
+  text: |
+    The morning **stand-up** was brief and efficient. Everyone on the team shared their updates, and it seemed like a smooth day was ahead. I grabbed a **cup of coffee** and sat down to tackle a new feature. The initial **scope** was clear: build a new export function for user data. I started by creating a new **branch** and began coding.
+
+    However, a few hours in, I hit an unexpected **blocker**. A core library was missing a function I needed. I spent some time looking for a **workaround**, but nothing felt clean. I didn't want to introduce messy code that would become a problem later.
+
+    I decided to **sync up** with Sarah, our team lead. She had a quick look and suggested a different approach that I hadn't considered. It was a simple but brilliant idea. We agreed it was the best way forward. With her guidance, I was able to **implement** the new logic quickly. By the end of the day, I had a pull request ready for **code review**. It was a great reminder of how teamwork can turn a frustrating problem into a simple fix.
+  highlighted_words:
+    - "stand-up"
+    - "cup of coffee"
+    - "scope"
+    - "branch"
+    - "blocker"
+    - "workaround"
+    - "sync up"
+    - "implement"
+    - "code review"
