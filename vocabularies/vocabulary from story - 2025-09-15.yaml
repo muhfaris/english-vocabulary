@@ -1,0 +1,25 @@
+- word: "root cause"
+  pronunciation: "/ruːt kɔːz/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The fundamental reason for the occurrence of a problem."
+    bahasa: "Penyebab utama atau akar masalah dari suatu persoalan."
+  usage: "Used in problem-solving to identify the core issue, not just the symptoms. It's a key concept in debugging and analysis."
+  synonyms:
+    - "fundamental cause"
+    - "primary reason"
+    - "underlying issue"
+  examples:
+    workplace:
+      - "We need to find the root cause of the server crashes."
+      - "Don't just patch the bug; investigate the root cause."
+    casual:
+      - "Lack of sleep was the root cause of his irritability."
+      - "The investigation revealed that faulty wiring was the root cause of the fire."
+  related:
+    - word: "symptom"
+      difference: "A 'symptom' is an observable effect of a problem (e.g., the website is slow). The 'root cause' is the reason for the problem (e.g., an inefficient database query)."
+    - word: "quick fix"
+      difference: "A 'quick fix' often addresses a symptom to get things working again, but may not address the 'root cause', meaning the problem might reappear."
+  story: |
+    The login page was timing out intermittently. Our initial fix was to restart the server, which temporarily solved it. However, the problem kept coming back. We finally did a deep dive and found the root cause: a memory leak in a newly added third-party library. By identifying the root cause, we were able to implement a permanent solution.
