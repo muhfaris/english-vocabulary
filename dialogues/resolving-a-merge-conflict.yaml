@@ -1,0 +1,71 @@
+dialogue:
+  - speaker: Alex
+    english: "Hey Ben, got a minute? I'm running into a nasty merge conflict."
+    bahasa: "Hai Ben, ada waktu sebentar? Aku sedang mengalami konflik merge yang parah."
+  - speaker: Ben
+    english: "Sure, what's up?"
+    bahasa: "Tentu, ada apa?"
+  - speaker: Alex
+    english: "I'm trying to merge the `feature-new-auth` branch into `develop`, but Git is complaining about a bunch of conflicting files."
+    bahasa: "Aku mencoba menggabungkan branch `feature-new-auth` ke `develop`, tapi Git mengeluh tentang banyak file yang konflik."
+  - speaker: Ben
+    english: "Ah, the classic merge mayhem. Did you pull the latest changes from `develop` before starting the merge?"
+    bahasa: "Ah, kekacauan penggabungan klasik. Apakah kamu sudah pull perubahan terbaru dari `develop` sebelum memulai merge?"
+  - speaker: Alex
+    english: "I thought I did, but maybe I missed something. It looks like we both touched the same configuration file."
+    bahasa: "Kukira sudah, tapi mungkin aku melewatkan sesuatu. Sepertinya kita berdua menyentuh file konfigurasi yang sama."
+  - speaker: Ben
+    english: "That's a common culprit. Have you tried using a visual diff tool to see the changes side-by-side?"
+    bahasa: "Itu penyebab umum. Pernahkah kamu mencoba menggunakan alat pembeda visual untuk melihat perubahan secara berdampingan?"
+  - speaker: Alex
+    english: "No, I was just looking at the conflict markers in the file. It's a bit of a mess."
+    bahasa: "Belum, aku hanya melihat penanda konflik di dalam file. Agak berantakan."
+  - speaker: Ben
+    english: "Yeah, that can be tough. I'd recommend firing up VS Code's built-in merge tool or something like Meld. It makes it much clearer what's going on."
+    bahasa: "Ya, itu bisa jadi sulit. Aku sarankan untuk menyalakan alat merge bawaan VS Code atau semacam Meld. Itu membuat apa yang terjadi jadi lebih jelas."
+  - speaker: Alex
+    english: "Good idea. I'll give that a shot. What's your usual strategy? Do you prefer taking 'incoming' or 'current' changes?"
+    bahasa: "Ide bagus. Akan kucoba. Apa strategi biasamu? Apakah kamu lebih suka mengambil perubahan 'incoming' atau 'current'?"
+  - speaker: Ben
+    english: "It really depends on the context. I usually go through each conflict manually and decide what to keep. Sometimes you need a bit of both."
+    bahasa: "Itu sangat tergantung pada konteksnya. Aku biasanya memeriksa setiap konflik secara manual dan memutuskan apa yang akan disimpan. Terkadang kamu membutuhkan sedikit dari keduanya."
+  - speaker: Alex
+    english: "Right, that makes sense. I'll be careful not to blindly accept one over the other."
+    bahasa: "Benar, masuk akal. Aku akan berhati-hati untuk tidak menerima satu begitu saja tanpa mempertimbangkan yang lain."
+  - speaker: Ben
+    english: "Exactly. And once you've resolved the conflicts, don't forget to run the tests to make sure you haven't broken anything."
+    bahasa: "Tepat sekali. Dan setelah kamu menyelesaikan konflik, jangan lupa menjalankan tes untuk memastikan kamu tidak merusak apa pun."
+  - speaker: Alex
+    english: "Will do. Thanks for the tips, Ben! This is super helpful."
+    bahasa: "Akan kulakukan. Terima kasih atas sarannya, Ben! Ini sangat membantu."
+  - speaker: Ben
+    english: "No problem, man. Let me know if you get stuck again."
+    bahasa: "Tidak masalah, kawan. Beri tahu aku jika kamu buntu lagi."
+
+expressions:
+  - phrase: "running into a nasty merge conflict"
+    meaning_english: "encountering a difficult situation where git cannot automatically merge code changes."
+    meaning_bahasa: "menemukan konflik penggabungan yang parah."
+  - phrase: "classic merge mayhem"
+    meaning_english: "a humorous way to describe the chaos that can happen during a code merge."
+    meaning_bahasa: "kekacauan penggabungan yang klasik."
+  - phrase: "common culprit"
+    meaning_english: "the usual reason for a problem."
+    meaning_bahasa: "penyebab umum."
+  - phrase: "side-by-side"
+    meaning_english: "a way of viewing two things next to each other for comparison."
+    meaning_bahasa: "berdampingan."
+  - phrase: "firing up"
+    meaning_english: "starting a program or tool."
+    meaning_bahasa: "menyalakan/memulai."
+  - phrase: "blindly accept"
+    meaning_english: "to accept something without thinking about it carefully."
+    meaning_bahasa: "menerima secara buta."
+
+questions:
+  - q: "What was Alex's problem?"
+    a: "He was experiencing a merge conflict while trying to merge his feature branch into the develop branch."
+  - q: "What was Ben's first piece of advice?"
+    a: "To use a visual diff tool to better understand the conflicting changes."
+  - q: "What is important to do after resolving merge conflicts?"
+    a: "Run the tests to ensure that no functionality is broken."
