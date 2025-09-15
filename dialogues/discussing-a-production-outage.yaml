@@ -1,0 +1,56 @@
+dialogue:
+  - speaker: Alex
+    english: "Ben, do you have a minute? I wanted to sync up about the production outage from last night."
+    bahasa: "Ben, ada waktu sebentar? Aku ingin sinkronisasi tentang pemadaman produksi tadi malam."
+  - speaker: Ben
+    english: "Sure, Alex. It was a rough night. The main database server became unresponsive."
+    bahasa: "Tentu, Alex. Malam yang berat. Server database utama menjadi tidak responsif."
+  - speaker: Alex
+    english: "I saw the alerts. Do we know the root cause yet?"
+    bahasa: "Aku lihat peringatannya. Apakah kita sudah tahu akar penyebabnya?"
+  - speaker: Ben
+    english: "We're still investigating, but it looks like a memory leak in one of the new services that was deployed yesterday."
+    bahasa: "Kami masih menyelidiki, tapi sepertinya ada kebocoran memori di salah satu layanan baru yang di-deploy kemarin."
+  - speaker: Alex
+    english: "That makes sense. So, what was the immediate fix?"
+    bahasa: "Masuk akal. Jadi, apa perbaikan langsungnya?"
+  - speaker: Ben
+    english: "We had to roll back the deployment to the previous version. Everything stabilized after that."
+    bahasa: "Kami harus mengembalikan deployment ke versi sebelumnya. Semuanya stabil setelah itu."
+  - speaker: Alex
+    english: "Good call. Is there a plan to address the memory leak?"
+    bahasa: "Keputusan yang bagus. Apakah ada rencana untuk mengatasi kebocoran memori tersebut?"
+  - speaker: Ben
+    english: "Yes, the dev team is already on it. They're analyzing the service's code to find the leak."
+    bahasa: "Ya, tim pengembang sudah menanganinya. Mereka sedang menganalisis kode layanan untuk menemukan kebocorannya."
+  - speaker: Alex
+    english: "Great. We should schedule a post-mortem to discuss how we can prevent this in the future."
+    bahasa: "Bagus. Kita harus menjadwalkan post-mortem untuk membahas bagaimana kita bisa mencegah hal ini di masa depan."
+  - speaker: Ben
+    english: "Agreed. I'll set something up for this afternoon."
+    bahasa: "Setuju. Aku akan atur jadwalnya untuk sore ini."
+expressions:
+  - phrase: "Sync up"
+    meaning_english: "To update each other on the status of something."
+    meaning_bahasa: "Untuk saling memberi tahu status terbaru tentang sesuatu."
+  - phrase: "Production outage"
+    meaning_english: "A period when a live system or service is not operational."
+    meaning_bahasa: "Periode ketika sistem atau layanan yang sedang berjalan tidak beroperasi."
+  - phrase: "Root cause"
+    meaning_english: "The fundamental reason for the occurrence of a problem."
+    meaning_bahasa: "Alasan mendasar terjadinya suatu masalah."
+  - phrase: "Roll back"
+    meaning_english: "To revert to a previous version of a system or software."
+    meaning_bahasa: "Untuk kembali ke versi sistem atau perangkat lunak sebelumnya."
+  - phrase: "Post-mortem"
+    meaning_english: "A meeting to discuss a past event, typically a project or an incident, to understand what went wrong and what could be improved."
+    meaning_bahasa: "Rapat untuk membahas suatu peristiwa yang telah berlalu, biasanya sebuah proyek atau insiden, untuk memahami apa yang salah dan apa yang bisa diperbaiki."
+questions:
+  - q: "What was the main issue during the production outage?"
+    a: "The main database server became unresponsive."
+  - q: "What was the suspected root cause of the problem?"
+    a: "A memory leak in one of the new services deployed the previous day."
+  - q: "How was the issue immediately resolved?"
+    a: "The team rolled back the deployment to the previous stable version."
+  - q: "What is the next step to prevent the issue from happening again?"
+    a: "To conduct a post-mortem meeting to discuss preventive measures."
