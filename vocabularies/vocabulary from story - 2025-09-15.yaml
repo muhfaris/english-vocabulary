@@ -269,3 +269,183 @@
       difference: "'Merge' is the action of combining the changes from one branch into another."
   story: |
     When I was assigned a new task to add a dark mode feature, the first thing I did was create a new Git branch called `feature/dark-mode`. This allowed me to experiment freely, making many commits as I built the feature. Once everything was working perfectly and my pull request was approved, I merged the branch back into the main codebase.
+- word: "dailies"
+  pronunciation: "/ˈdeɪliz/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A short daily meeting, often held in the morning, for a team to synchronize on their work. Also known as a daily stand-up."
+    bahasa: "Rapat harian singkat, sering diadakan di pagi hari, agar tim dapat menyinkronkan pekerjaan mereka. Juga dikenal sebagai stand-up harian."
+  usage: "Used in agile software development to refer to the daily team meeting. It's meant to be quick and efficient."
+  synonyms:
+    - "daily stand-up"
+    - "daily scrum"
+  examples:
+    workplace:
+      - "I'll give an update on my progress during the dailies tomorrow morning."
+      - "Our dailies are always at 9:15 AM sharp."
+    casual:
+      - "I have to finish my dailies before I can start my other work."
+      - "He's running late for his team's dailies."
+  related:
+    - word: "stand-up"
+      difference: "'Stand-up' is a more common and formal term for this meeting. 'Dailies' is a more casual, slang term."
+    - word: "meeting"
+      difference: "A 'meeting' can be any length and for any purpose. 'Dailies' are specifically short, daily, and for synchronization."
+  story: |
+    At our company, we have dailies every morning at 10 AM. Everyone on the team joins a quick video call, and we each answer three questions: What did I do yesterday? What will I do today? Are there any blockers? It's a great way to stay aligned and quickly resolve any issues.
+
+- word: "sync-up"
+  pronunciation: "/ˈsɪŋk ʌp/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A short, informal meeting to align on a specific topic."
+    bahasa: "Pertemuan singkat dan informal untuk menyelaraskan pemahaman tentang topik tertentu."
+  usage: "Used when you need to quickly get on the same page with one or more colleagues. It implies a more focused and shorter meeting than a regular 'meeting'."
+  synonyms:
+    - "quick chat"
+    - "huddle"
+    - "check-in"
+  examples:
+    workplace:
+      - "Let's have a quick sync-up before the client presentation."
+      - "I need a sync-up with the backend team to discuss the API changes."
+    casual:
+      - "We should have a sync-up to plan our weekend trip."
+      - "After the holidays, the family had a sync-up to share their stories."
+  related:
+    - word: "meeting"
+      difference: "A 'meeting' can be long and formal. A 'sync-up' is almost always short, informal, and has a very specific, narrow goal."
+    - word: "alignment"
+      difference: "'Alignment' is the goal of a 'sync-up'. The sync-up is the meeting; alignment is the result."
+  story: |
+    I noticed that the new marketing page design didn't quite match the component library I was building. I sent a message to the designer and said, "Hey, can we have a quick 15-minute sync-up?" During the call, we compared our work, identified the discrepancies, and agreed on a plan to resolve them. That short sync-up saved us from hours of rework later on.
+
+- word: "dive deep"
+  pronunciation: "/daɪv diːp/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To investigate or analyze something in great detail."
+    bahasa: "Menyelidiki atau menganalisis sesuatu dengan sangat rinci."
+  usage: "Used when you need to go beyond a surface-level understanding of a problem or topic and explore its complexities."
+  synonyms:
+    - "investigate thoroughly"
+    - "do a deep dive"
+    - "analyze in depth"
+  examples:
+    workplace:
+      - "We need to dive deep into the performance data to understand the bottleneck."
+      - "I'm going to dive deep into this library's documentation to see how it works."
+    casual:
+      - "She loves to dive deep into historical novels."
+      - "For my thesis, I had to dive deep into 19th-century literature."
+  related:
+    - word: "deep dive"
+      difference: "'Deep dive' is the noun form, referring to the investigation itself (e.g., 'Let's do a deep dive'). 'Dive deep' is the verb phrase for the action of investigating (e.g., 'Let's dive deep')."
+    - word: "scratch the surface"
+      difference: "This is the opposite of 'dive deep'. It means to only deal with a small part of a subject or problem."
+  story: |
+    We had a bug that only occurred under very specific conditions. A quick look at the logs didn't reveal anything. My manager told me to block off my afternoon and really dive deep into the issue. I spent hours tracing the code's execution path, and finally found the subtle logic error that was causing the problem.
+
+- word: "a bit of a stretch"
+  pronunciation: "/ə bɪt əv ə strɛtʃ/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "Something that is difficult to achieve or believe; an exaggeration."
+    bahasa: "Sesuatu yang sulit dicapai atau dipercaya; sebuah pernyataan yang berlebihan."
+  usage: "Use this to express that a goal, deadline, or claim is probably not realistic or true."
+  synonyms:
+    - "a long shot"
+    - "unlikely"
+    - "an exaggeration"
+  examples:
+    workplace:
+      - "Finishing the entire project by Friday is a bit of a stretch."
+      - "To say he's the best engineer in the company is a bit of a stretch."
+    casual:
+      - "Calling that small car a 'family vehicle' is a bit of a stretch."
+      - "It's a bit of a stretch to say I'm fluent in Spanish; I only know a few phrases."
+  related:
+    - word: "ambitious"
+      difference: "An 'ambitious' goal is difficult but possible. A goal that is 'a bit of a stretch' is likely impossible."
+    - word: "optimistic"
+      difference: "An 'optimistic' timeline is hopeful. A timeline that is 'a bit of a stretch' is unrealistic."
+  story: |
+    During sprint planning, the product manager asked if we could add three major features to the two-week sprint. The tech lead replied, "With our current capacity, that's a bit of a stretch. We can comfortably do one, maybe two, but three is not realistic without cutting corners."
+
+- word: "knuckled down"
+  pronunciation: "/ˈnʌkəld daʊn/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To start working hard, especially when you have been delaying or not working seriously."
+    bahasa: "Mulai bekerja keras, terutama ketika Anda telah menunda atau tidak bekerja dengan serius."
+  usage: "Used when you decide to focus and apply serious effort to a task."
+  synonyms:
+    - "got serious"
+    - "focused"
+    - "buckled down"
+  examples:
+    workplace:
+      - "The deadline is next week, so I really need to knuckle down and finish this feature."
+      - "After the meeting, she knuckled down and finished the report."
+    casual:
+      - "He knuckled down to study for his final exams."
+      - "If you knuckle down now, you can finish your chores in an hour."
+  related:
+    - word: "focus"
+      difference: "'Focus' means to concentrate on something. 'Knuckle down' implies not just focusing, but also applying a high level of effort and seriousness, often after a period of not doing so."
+    - word: "procrastinate"
+      difference: "This is the opposite of 'knuckle down'. It means to delay or postpone work."
+  story: |
+    I had been putting off a refactoring task for a few days, doing easier and more interesting work instead. But I knew it was important. So on Wednesday afternoon, I turned off my notifications, put on my headphones, and really knuckled down. I worked for three straight hours and made more progress than I had in the past three days.
+
+- word: "ironed out"
+  pronunciation: "/ˈaɪərnd aʊt/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To resolve or settle a problem, difficulty, or disagreement by discussion or negotiation."
+    bahasa: "Menyelesaikan atau membereskan masalah, kesulitan, atau ketidaksepakatan melalui diskusi atau negosiasi."
+  usage: "Used when you are finalizing details or solving the last few problems in a plan or project."
+  synonyms:
+    - "resolved"
+    - "sorted out"
+    - "smoothed over"
+  examples:
+    workplace:
+      - "We need to get the whole team together to get these details ironed out."
+      - "They ironed out their differences and agreed on a new strategy."
+    casual:
+      - "We ironed out the final details of our vacation plan."
+      - "The couple ironed out their disagreement and are happy now."
+  related:
+    - word: "resolve"
+      difference: "'Resolve' is a more formal word. 'Iron out' is more conversational and often implies that the problems were small details, like wrinkles in a piece of clothing."
+    - word: "negotiate"
+      difference: "'Negotiate' is a formal process of discussion to reach an agreement. 'Iron out' is less formal and can refer to solving problems collaboratively without a formal negotiation."
+  story: |
+    The initial design for the new feature was good, but there were a few small inconsistencies in how it handled user input. The designer, the product manager, and I got on a call. In about 30 minutes, we had ironed out all the details and had a solid, consistent plan.
+
+- word: "called it a day"
+  pronunciation: "/kɔːld ɪt ə deɪ/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To stop working on something for the day."
+    bahasa: "Berhenti mengerjakan sesuatu untuk hari ini."
+  usage: "A common, informal way to announce that you are finishing your work for the day."
+  synonyms:
+    - "finish for the day"
+    - "wrap up"
+    - "clock out"
+  examples:
+    workplace:
+      - "It's 5 PM, I've finished my tasks, so I'm going to call it a day."
+      - "We've made a lot of progress. Let's call it a day and continue tomorrow."
+    casual:
+      - "I'm getting tired. Let's call it a day and go home."
+      - "After three hours of cleaning, we called it a day."
+  related:
+    - word: "finish"
+      difference: "'Finish' can mean completing a task. 'Call it a day' specifically means stopping work for the day, even if the task is not finished."
+    - word: "wrap up"
+      difference: "'Wrap up' means to bring something to a conclusion. You can 'wrap up' a meeting or a task, and then 'call it a day'."
+  story: |
+    I had been staring at the same bug for two hours, and I wasn't making any progress. My brain felt fried. Instead of getting more frustrated, I decided to call it a day. I knew that coming back to it with a fresh pair of eyes the next morning would be much more productive.
