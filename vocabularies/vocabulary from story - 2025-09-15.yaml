@@ -23,3 +23,201 @@
       difference: "A 'quick fix' often addresses a symptom to get things working again, but may not address the 'root cause', meaning the problem might reappear."
   story: |
     The login page was timing out intermittently. Our initial fix was to restart the server, which temporarily solved it. However, the problem kept coming back. We finally did a deep dive and found the root cause: a memory leak in a newly added third-party library. By identifying the root cause, we were able to implement a permanent solution.
+- word: "final touches"
+  pronunciation: "/ˈfaɪnl ˈtʌtʃɪz/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "The last small details or adjustments made to complete a project or task."
+    bahasa: "Detail atau penyesuaian kecil terakhir yang dibuat untuk menyelesaikan sebuah proyek atau tugas."
+  usage: "Used when a project is nearly finished and you are just making small improvements or fixes before it's considered complete."
+  synonyms:
+    - "finishing touches"
+    - "final adjustments"
+  examples:
+    workplace:
+      - "We're putting the final touches on the presentation slides before the big meeting."
+      - "The development work is done; we're just adding the final touches to the UI."
+    casual:
+      - "The chef is adding the final touches to the dish before serving it."
+      - "She was putting the final touches on her makeup."
+  related:
+    - word: "polish"
+      difference: "'Polish' can be a verb meaning to make improvements. 'Final touches' is a noun phrase for the improvements themselves, usually implying the work is almost complete."
+    - word: "refinement"
+      difference: "'Refinement' is the process of improving something. 'Final touches' are the specific actions taken at the very end of that process."
+  story: |
+    The team had been working hard on the new dashboard for weeks. On the last day of the sprint, they gathered to put the final touches on it—adjusting some colors, tweaking the font sizes, and updating the icon set. These small changes made a huge difference in the overall look and feel.
+- word: "last-minute"
+  pronunciation: "/ˌlɑːstˈmɪnɪt/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Happening or done at the latest possible time before an event."
+    bahasa: "Terjadi atau dilakukan pada waktu terakhir yang memungkinkan sebelum suatu acara."
+  usage: "Used to describe changes, decisions, or actions that happen very close to a deadline or event."
+  synonyms:
+    - "eleventh-hour"
+    - "down to the wire"
+  examples:
+    workplace:
+      - "We had to make a last-minute change to the code to fix a critical bug."
+      - "The client made a last-minute request to change the report's layout."
+    casual:
+      - "He always buys his gifts at the last-minute."
+      - "It was a last-minute decision to go to the beach."
+  related:
+    - word: "urgent"
+      difference: "'Urgent' means something requires immediate attention. 'Last-minute' specifically relates to timing, meaning it's happening right before a deadline, whether it's urgent or not."
+    - word: "spontaneous"
+      difference: "'Spontaneous' implies something is unplanned. 'Last-minute' can be planned, but just executed very late."
+  story: |
+    The team was ready to deploy the new feature. Everything was tested and approved. But just an hour before the release, a product manager noticed a typo in a button. It was a stressful last-minute change, but the team quickly fixed it and updated the build just in time.
+- word: "fine-tune"
+  pronunciation: "/ˈfaɪn.tjuːn/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To make small, precise adjustments to something to achieve the best or most effective results."
+    bahasa: "Membuat penyesuaian kecil dan tepat pada sesuatu untuk mencapai hasil terbaik atau paling efektif."
+  usage: "Use this when you are making minor improvements to something that is already working well, to optimize its performance or quality."
+  synonyms:
+    - "tweak"
+    - "adjust"
+    - "refine"
+  examples:
+    workplace:
+      - "We need to fine-tune the database query to improve its performance."
+      - "She's great at fine-tuning the user interface to make it more intuitive."
+    casual:
+      - "The musician is fine-tuning his guitar before the concert."
+      - "You can fine-tune the recipe by adding a little more spice."
+  related:
+    - word: "adjust"
+      difference: "'Adjust' is a general term for changing something. 'Fine-tune' implies making very small and precise changes to something that is already close to being perfect."
+    - word: "optimize"
+      difference: "'Optimize' is about making something as effective as possible, which can involve big changes. 'Fine-tune' is a method of optimization that involves small adjustments."
+  story: |
+    The new algorithm was working, but it was a bit slow. I spent the afternoon running performance tests and managed to fine-tune it. By adding a cache and simplifying one of the loops, I was able to reduce the execution time by 30%.
+- word: "meticulous"
+  pronunciation: "/məˈtɪk.jə.ləs/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Showing great attention to detail; very careful and precise."
+    bahasa: "Menunjukkan perhatian besar terhadap detail; sangat hati-hati dan tepat."
+  usage: "Used to describe someone who is very thorough and careful in their work, or to describe work that is done with great precision."
+  synonyms:
+    - "thorough"
+    - "careful"
+    - "diligent"
+  examples:
+    workplace:
+      - "Our QA tester is very meticulous; she finds bugs that no one else can."
+      - "He wrote a meticulous report that covered every aspect of the project."
+    casual:
+      - "She is meticulous about keeping her house clean."
+      - "The artist's work is known for its meticulous detail."
+  related:
+    - word: "careful"
+      difference: "'Careful' means avoiding risks or mistakes. 'Meticulous' is a stronger word that implies an extreme level of attention to every single detail."
+    - word: "thorough"
+      difference: "'Thorough' means being complete and not overlooking anything. 'Meticulous' is similar but emphasizes the precision and care taken with the details."
+  story: |
+    Our senior engineer, David, is known for his meticulous code reviews. He doesn't just look for bugs; he checks for style consistency, performance improvements, and even clarity in variable names. His meticulous approach helps everyone on the team write better code.
+- word: "sign-off"
+  pronunciation: "/ˈsaɪn.ɒf/"
+  part_of_speech: "noun"
+  meaning:
+    english: "Formal approval or authorization for something."
+    bahasa: "Persetujuan atau otorisasi resmi untuk sesuatu."
+  usage: "Used in a professional context to refer to the final approval needed from a manager, client, or stakeholder before a project or task can proceed or be considered complete."
+  synonyms:
+    - "approval"
+    - "authorization"
+    - "go-ahead"
+  examples:
+    workplace:
+      - "We can't start development until we get sign-off on the designs."
+      - "I'm waiting for the client's sign-off before I deploy the changes."
+    casual:
+      - "The committee gave its sign-off on the event plan."
+      - "We need your sign-off on the budget before we can buy the tickets."
+  related:
+    - word: "approval"
+      difference: "'Approval' is a general term for agreement. 'Sign-off' is more formal and often implies a final, official agreement that marks the completion of a stage."
+    - word: "permission"
+      difference: "'Permission' is about being allowed to do something. 'Sign-off' is more about formally agreeing that something is complete and correct."
+  story: |
+    The feature was fully tested and ready for release. The last step was to get the official sign-off from the Product Director. We did a final demo for her, she asked a few questions, and then sent an email saying "Looks great, you have my sign-off to deploy."
+- word: "pre-flight check"
+  pronunciation: "/ˌpriː.flaɪt ˈtʃek/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A final review of all components and procedures before initiating a process, especially a deployment."
+    bahasa: "Tinjauan akhir dari semua komponen dan prosedur sebelum memulai suatu proses, terutama penyebaran (deployment)."
+  usage: "Borrowed from aviation, this term is used in software development to describe the final set of checks performed right before a release to ensure everything is ready and to minimize the risk of failure."
+  synonyms:
+    - "final check"
+    - "readiness review"
+    - "launch checklist"
+  examples:
+    workplace:
+      - "Let's run a quick pre-flight check before we push this to production."
+      - "Our pre-flight check includes verifying that all environment variables are set correctly."
+    casual:
+      - "I do a quick pre-flight check of my backpack before I leave for a trip."
+      - "The event organizer did a pre-flight check of the sound system before the show."
+  related:
+    - word: "sanity check"
+      difference: "A 'sanity check' is a brief check to see if something is reasonable or makes sense. A 'pre-flight check' is a more comprehensive and systematic final review against a checklist before a critical action."
+    - word: "checklist"
+      difference: "A 'checklist' is a list of items. A 'pre-flight check' is the action of going through that checklist."
+  story: |
+    Before every major release, our team has a mandatory pre-flight check meeting. We go through a shared checklist, confirming that the database has been backed up, all automated tests are passing, and the rollback plan is ready. It feels a bit ceremonial, but this pre-flight check has saved us from several potential disasters.
+- word: "ship it"
+  pronunciation: "/ʃɪp ɪt/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "An informal expression used to mean launching a product or deploying a feature to users."
+    bahasa: "Ekspresi informal yang digunakan untuk berarti meluncurkan produk atau menyebarkan fitur kepada pengguna."
+  usage: "A common, enthusiastic phrase in tech culture used to give the final approval to release something."
+  synonyms:
+    - "launch it"
+    - "release it"
+    - "deploy it"
+  examples:
+    workplace:
+      - "The code has been reviewed and the tests are green. Let's ship it!"
+      - "After the final demo, the CEO just said, 'Ship it!'"
+    casual:
+      - "I'm done with my painting. Time to ship it to the gallery."
+      - "You've practiced your speech enough. Just go and ship it."
+  related:
+    - word: "deploy"
+      difference: "'Deploy' is the more formal, technical term for the process of releasing software. 'Ship it' is the informal, celebratory command to do so."
+    - word: "launch"
+      difference: "'Launch' often refers to releasing a brand new product to the market. 'Ship it' can be used for new products, but also for smaller features or updates."
+  story: |
+    The team had been debating for an hour whether the new button should be blue or green. Finally, the engineering manager stood up and said, "We can debate this forever, but it's good enough for now. Let's just ship it and see what the user data says."
+- word: "smooth sailing"
+  pronunciation: "/smuːð ˈseɪ.lɪŋ/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A situation where progress is being made without any problems or difficulties."
+    bahasa: "Situasi di mana kemajuan dibuat tanpa masalah atau kesulitan apa pun."
+  usage: "Used to describe a period of easy progress after difficulties have been overcome, or when a process goes well from the start."
+  synonyms:
+    - "easy going"
+    - "problem-free"
+    - "a walk in the park"
+  examples:
+    workplace:
+      - "Once we fixed the initial configuration issues, it was smooth sailing from there."
+      - "The project was complex, but thanks to good planning, the execution was smooth sailing."
+    casual:
+      - "The first part of the road trip was full of traffic, but after that, it was smooth sailing."
+      - "I thought the exam would be hard, but it was smooth sailing."
+  related:
+    - word: "easy"
+      difference: "'Easy' is a general term. 'Smooth sailing' specifically implies a lack of obstacles or interruptions in a process or journey."
+    - word: "successful"
+      difference: "A project can be 'successful' in the end, even if it had many problems. 'Smooth sailing' describes the process itself being free of problems."
+  story: |
+    The deployment for our new microservice was a bit stressful. We ran into a few unexpected network issues. But after about an hour of troubleshooting, we resolved them. From that point on, it was smooth sailing, and the service has been running perfectly ever since.
