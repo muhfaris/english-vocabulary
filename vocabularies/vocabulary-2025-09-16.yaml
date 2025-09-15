@@ -1,0 +1,249 @@
+- word: "Runbook"
+  pronunciation: "/ˈrʌnˌbʊk/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A detailed guide of procedures to carry out routine operations or respond to a specific situation, like a system alert."
+    bahasa: "Buku panduan yang berisi prosedur detail untuk menjalankan operasi rutin atau menanggapi situasi tertentu, seperti peringatan sistem."
+  usage: "Use 'runbook' when you're talking about a documented, step-by-step process that anyone on the team can follow to perform a task, especially in operations or incident response. It's about standardization and reducing human error."
+  synonyms:
+    - "Playbook"
+    - "Standard Operating Procedure (SOP)"
+  examples:
+    workplace:
+      - "The new junior engineer handled the database restart perfectly by following the runbook."
+      - "We need to create a runbook for the daily server maintenance task."
+    casual:
+      - "My morning routine is so fixed, it's like I have a personal runbook for making coffee."
+      - "He wrote a runbook for his house sitter with instructions for everything."
+  related:
+    - word: "Documentation"
+      difference: "'Documentation' is a broad term for any explanatory material. A 'runbook' is a very specific type of documentation that lists actionable steps to complete a task."
+    - word: "Checklist"
+      difference: "A 'checklist' is a simple list of items to be verified or completed. A 'runbook' is more comprehensive, often explaining *how* to perform each step, not just listing the steps."
+  story: |
+    At 2 AM, the on-call alert went off. A critical service was down. Sarah, who was on duty, felt a moment of panic. But then she remembered the runbook. She opened the wiki page titled 'Service Outage Runbook' and calmly followed the steps one by one: check the server status, analyze the logs, and restart the process in the correct order. Within 15 minutes, the service was back online. The runbook turned a potential crisis into a routine procedure.
+
+- word: "Knowledge transfer"
+  pronunciation: "/ˈnɒlɪdʒ ˈtrænsfɜːr/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "The process of sharing critical information, skills, and expertise from one person or team to another."
+    bahasa: "Proses berbagi informasi penting, keterampilan, dan keahlian dari satu orang atau tim ke tim lain."
+  usage: "This phrase is key when a team member is leaving, a new person is joining, or when a project is handed over. It's the formal process of ensuring that crucial information isn't lost."
+  synonyms:
+    - "Handover"
+    - "KT session"
+  examples:
+    workplace:
+      - "Before Alex leaves the company, we need to schedule a proper knowledge transfer with the rest of the team."
+      - "The first week for the new hire will be focused on knowledge transfer from the senior developers."
+    casual:
+      - "My grandpa did a knowledge transfer of his secret barbecue sauce recipe to me."
+      - "There was no knowledge transfer when the previous tenant left, so I have no idea how to operate this weird thermostat."
+  related:
+    - word: "Onboarding"
+      difference: "'Onboarding' is the whole process of integrating a new employee into a company. 'Knowledge transfer' is often a key part of onboarding, but it specifically refers to the sharing of job-related information."
+    - word: "Training"
+      difference: "'Training' is often about teaching a general skill (like a programming language). 'Knowledge transfer' is usually more specific, focusing on the context of a particular project, system, or role."
+  story: |
+    The 'Zephyr' project was David's baby; he had built it from scratch over two years. When he got promoted to a new team, everyone was worried about who would maintain it. The manager scheduled two full weeks for knowledge transfer. David sat with Maria, the new owner, and walked her through the architecture, the deployment pipeline, and the weird edge cases he had encountered. He didn't just show her the code; he shared the 'why' behind his decisions. The thorough knowledge transfer ensured the project continued to run smoothly long after David had moved on.
+
+- word: "Entangled"
+  pronunciation: "/ɪnˈtæŋɡəld/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Describing something, like code or systems, that is very complex, interconnected, and difficult to change or separate."
+    bahasa: "Menggambarkan sesuatu, seperti kode atau sistem, yang sangat kompleks, saling terkait, dan sulit untuk diubah atau dipisahkan."
+  usage: "Use 'entangled' to describe a situation where components are so tightly coupled that changing one thing might unexpectedly break another. It often has a negative connotation, suggesting a lack of clean design."
+  synonyms:
+    - "Tightly coupled"
+    - "Convoluted"
+  examples:
+    workplace:
+      - "I wanted to update a simple UI label, but the logic is so entangled with the backend that it's become a huge task."
+      - "Our goal for this quarter is to refactor this module and reduce how entangled the different services are."
+    casual:
+      - "His personal and work life are so entangled that he never truly disconnects."
+      - "The wires behind my TV are completely entangled; it's a huge mess."
+  related:
+    - word: "Complex"
+      difference: "'Complex' means something has many parts. 'Entangled' implies that those parts are connected in a messy, disorganized, or restrictive way."
+    - word: "Legacy code"
+      difference: "'Legacy code' is old code. It is often 'entangled,' but new code can also become entangled if not designed carefully."
+  story: |
+    "I'm trying to fix a bug in the user authentication service," said Ken during stand-up. "But the code is completely entangled with the payment processing module. To test a login change, I have to mock a credit card transaction. It makes no sense!" The team sighed in agreement. They all knew about this technical debt. The services had become so entangled over the years that what should have been a simple fix required understanding two completely different domains, making every small change a risky and time-consuming operation.
+
+- word: "Off-peak"
+  pronunciation: "/ˈɒfˌpiːk/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "A period of time when demand or usage is low."
+    bahasa: "Periode waktu ketika permintaan atau penggunaan sedang rendah."
+  usage: "Commonly used when talking about system load, network traffic, or user activity. We often schedule heavy or risky tasks during off-peak hours to minimize the impact on users."
+  synonyms:
+    - "Low-traffic hours"
+    - "Down time"
+  examples:
+    workplace:
+      - "We'll deploy the database migration during off-peak hours, around 3 AM, to avoid disrupting our users."
+      - "The analytics job is scheduled to run in the off-peak period to not slow down the main application."
+    casual:
+      - "I go to the gym during off-peak hours to avoid the crowds."
+      - "Electricity is cheaper during off-peak times."
+  related:
+    - word: "Uptime"
+      difference: "'Uptime' is the measure of time a system is operational. We schedule tasks during 'off-peak' hours to protect the uptime during peak hours."
+    - word: "Maintenance window"
+      difference: "A 'maintenance window' is a specific, scheduled period of time to perform maintenance. This window is almost always scheduled during 'off-peak' hours."
+  story: |
+    The team planned a major server upgrade for weeks. It was a delicate operation that could potentially cause significant downtime. "We absolutely must do this during the off-peak window," the engineering manager insisted. They analyzed user traffic data and found that their quietest time was between 2 AM and 4 AM on a Sunday. So, with coffee in hand, the team gathered online in the middle of the night. The off-peak schedule worked perfectly. They completed the upgrade with zero user complaints, and by the time peak traffic returned Sunday morning, the new, faster servers were ready.
+
+- word: "Roadshow"
+  pronunciation: "/ˈroʊdˌʃoʊ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A series of presentations or demonstrations given in different places (e.g., to different teams or departments) to promote a new product, feature, or idea."
+    bahasa: "Serangkaian presentasi atau demonstrasi yang diberikan di berbagai tempat (misalnya, ke berbagai tim atau departemen) untuk mempromosikan produk, fitur, atau ide baru."
+  usage: "Use 'roadshow' when you are taking an idea or a demo on a 'tour' within the company to get feedback, buy-in, or to simply inform other teams about what you've been working on."
+  synonyms:
+    - "Demo tour"
+    - "Show-and-tell series"
+  examples:
+    workplace:
+      - "The platform team is doing a roadshow this month to showcase their new internal developer tools."
+      - "We need to prepare a slide deck for our Q3 project proposal roadshow with the leadership team."
+    casual:
+      - "The author is going on a book roadshow across the country."
+      - "My band is planning a small roadshow, playing in three different cities next month."
+  related:
+    - word: "Demo"
+      difference: "A 'demo' is a single presentation. A 'roadshow' is a series of demos for different audiences."
+    - word: "Presentation"
+      difference: "A 'presentation' can be about anything. A 'roadshow' is specifically for promoting or showcasing something to multiple groups."
+  story: |
+    After six months of hard work, the "Phoenix" design system was finally ready. But the team knew that just releasing it wasn't enough; they had to convince other product teams to adopt it. So, they organized a "Phoenix Roadshow." For two weeks, they booked meetings with the Web, iOS, and Android teams. In each session, they presented the benefits, showed a live demo of how it could speed up development, and answered tough questions. The roadshow was a huge success. By going to the teams directly, they generated excitement and got the buy-in they needed.
+
+- word: "Naysayer"
+  pronunciation: "/ˈneɪˌseɪər/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A person who frequently expresses negative or skeptical opinions and opposes new ideas."
+    bahasa: "Seseorang yang sering mengungkapkan pendapat negatif atau skeptis dan menentang ide-ide baru."
+  usage: "You might use this word to describe a colleague who always finds problems with proposals but rarely offers solutions. It's about a pattern of negativity, not just a single instance of valid criticism."
+  synonyms:
+    - "Skeptic"
+    - "Cynic"
+  examples:
+    workplace:
+      - "No matter what new idea we propose, he's always the naysayer in the room, pointing out all the ways it could fail."
+      - "Let's try to get feedback from the optimistic team members first, and deal with the naysayers later."
+    casual:
+      - "When I said I wanted to be a musician, there were plenty of naysayers in my family."
+      - "He's such a naysayer; he complains about every restaurant we suggest."
+  related:
+    - word: "Criticism"
+      difference: "'Criticism' can be constructive and helpful. A 'naysayer' is someone whose criticism is often perceived as consistently negative and unhelpful."
+    - word: "Devil's advocate"
+      difference: "Someone playing 'devil's advocate' intentionally takes an opposing view to test an argument's strength. A 'naysayer' genuinely believes in their negative stance, often out of habit or pessimism."
+  story: |
+    During a brainstorming session for a new feature, the team was excited. Ideas were flying. But in the corner, Mark was shaking his head. "That'll never work," he'd say. "The users won't like it," he'd add. After the third interruption, the team lead, Sarah, finally said, "Mark, we appreciate the critical eye, but instead of being a naysayer, can you help us think of solutions to the problems you're raising?" It shifted the dynamic. While Mark's cautious nature was sometimes valuable, his constant naysaying without offering alternatives was holding the team back.
+
+- word: "In hindsight"
+  pronunciation: "/ɪn ˈhaɪndˌsaɪt/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "Understanding a situation or event only after it has happened."
+    bahasa: "Memahami suatu situasi atau peristiwa hanya setelah itu terjadi."
+  usage: "This is a very common phrase in retrospectives or post-mortems. It's used to reflect on past decisions and what you might have done differently if you knew then what you know now."
+  synonyms:
+    - "Looking back"
+    - "In retrospect"
+  examples:
+    workplace:
+      - "In hindsight, we should have added more logging before releasing that feature."
+      - "The project delay seems obvious in hindsight, but we didn't see the risks at the time."
+    casual:
+      - "In hindsight, ordering the extra-large pizza was a mistake."
+      - "She realized, in hindsight, that she had missed all the early signs of the problem."
+  related:
+    - word: "Foresight"
+      difference: "'Foresight' is the ability to predict what will happen in the future. 'Hindsight' is understanding the past. They are opposites."
+    - word: "Lesson learned"
+      difference: "A 'lesson learned' is the conclusion you draw from an experience. You often arrive at this lesson 'in hindsight'."
+  story: |
+    The deployment failed spectacularly. The whole team scrambled for an hour to roll it back. During the retrospective meeting the next day, the lead engineer said, "In hindsight, our mistake was clear. The change depended on an external API, and we didn't have a proper timeout configured." Everyone nodded. It seemed so simple now, after the failure. "We were so focused on the new logic that we overlooked the integration point," he continued. "It's a painful lesson, but in hindsight, it's a valuable one for our team's checklist going forward."
+
+- word: "Subjective"
+  pronunciation: "/səbˈdʒɛktɪv/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Based on or influenced by personal feelings, tastes, or opinions."
+    bahasa: "Berdasarkan atau dipengaruhi oleh perasaan, selera, atau pendapat pribadi."
+  usage: "Use 'subjective' to talk about things that don't have a single 'right' answer, like UI design, user experience, or even code readability. It's the opposite of 'objective', which is based on facts."
+  synonyms:
+    - "Personal"
+    - "Impressionistic"
+  examples:
+    workplace:
+      - "Whether this button should be blue or green is a subjective decision; let's see what the designer says."
+      - "Code quality has objective measures like test coverage, but code readability can be very subjective."
+    casual:
+      - "The 'best' movie of the year is a subjective choice."
+      - "His evaluation of the restaurant was purely subjective; he just didn't like the music they played."
+  related:
+    - word: "Objective"
+      difference: "'Objective' means based on facts and data, without personal feelings (e.g., 'The page loads in 3 seconds'). 'Subjective' is based on opinion (e.g., 'The page feels slow')."
+    - word: "Biased"
+      difference: "'Biased' implies a preference that is often unfair or preconceived. 'Subjective' is more neutral; it simply means something is based on personal perspective."
+  story: |
+    The team was in a heated debate during a code review. "This function is too complex!" said Maria. "I think it's perfectly clear and elegant," replied Tom. The team lead stepped in. "Okay, let's calm down. Code elegance is subjective. What one person finds beautiful, another might find confusing. Instead of arguing about our subjective feelings, let's focus on objective metrics. Does it pass all the tests? Is the performance acceptable? Is it well-documented?" By reframing the conversation around objective facts, the team was able to move forward productively.
+
+- word: "Pre-mortem"
+  pronunciation: "/ˌpriːˈmɔːrtəm/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A meeting held before a project begins where the team imagines the project has failed, and then works backward to identify potential reasons for the failure."
+    bahasa: "Pertemuan yang diadakan sebelum proyek dimulai di mana tim membayangkan proyek tersebut telah gagal, lalu bekerja mundur untuk mengidentifikasi kemungkinan penyebab kegagalan tersebut."
+  usage: "This is a project management and risk assessment technique. It's a proactive way to anticipate problems before they happen, as opposed to a 'post-mortem' which analyzes a failure after it occurs."
+  synonyms:
+    - "Risk analysis"
+    - "Failure analysis"
+  examples:
+    workplace:
+      - "For our next big project, we're holding a pre-mortem to identify risks early."
+      - "The pre-mortem exercise revealed a major dependency on another team that we hadn't considered."
+    casual:
+      - "We did a sort of pre-mortem before our road trip, thinking of everything that could go wrong: flat tire, bad weather, etc."
+      - "Before proposing, he did a mental pre-mortem of all the reasons she might say no."
+  related:
+    - word: "Post-mortem"
+      difference: "A 'post-mortem' happens *after* a failure to understand what went wrong. A 'pre-mortem' happens *before* a project starts to imagine what *could* go wrong. It's proactive vs. reactive."
+    - word: "Brainstorming"
+      difference: "'Brainstorming' is a general technique for generating ideas. A 'pre-mortem' is a specific type of brainstorming focused exclusively on identifying potential risks and failures."
+  story: |
+    The team was about to kick off the "Apollo" project, their most ambitious one yet. The manager, instead of a typical kickoff, announced they would be doing a pre-mortem. "Alright everyone," she said, "fast forward two months. The project is a complete disaster. We missed the deadline, the app is buggy, and our users hate it. What happened?" At first, the team was hesitant, but then ideas started flowing. "The third-party API we chose was unreliable," said one engineer. "We didn't get enough input from the design team," said another. By the end of the hour, they had a long list of potential pitfalls. This pre-mortem allowed them to create a solid plan to actively avoid those exact problems.
+
+- word: "From the ground up"
+  pronunciation: "/frɒm ðə ɡraʊnd ʌp/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "Building or creating something from the very beginning, with no existing parts or foundation."
+    bahasa: "Membangun atau menciptakan sesuatu dari awal, tanpa bagian atau fondasi yang sudah ada."
+  usage: "Use this phrase to emphasize that something was built from scratch, without relying on a previous version, framework, or template. It often implies a lot of work and a fresh start."
+  synonyms:
+    - "From scratch"
+    - "Anew"
+  examples:
+    workplace:
+      - "The old codebase was a mess, so we decided to rewrite the entire application from the ground up."
+      - "She has a deep understanding of the system because she built it from the ground up."
+    casual:
+      - "He built his company from the ground up with just a small loan and a good idea."
+      - "Instead of buying a pre-built shed, we're building one from the ground up."
+  related:
+    - word: "Greenfield project"
+      difference: "A 'greenfield project' is the official term for a project that isn't constrained by prior work. 'Building from the ground up' is the action you take in a greenfield project."
+    - word: "Refactor"
+      difference: "To 'refactor' is to improve the structure of *existing* code. To build 'from the ground up' is to start over with *new* code."
+  story: |
+    The startup's first product was a success, but it was built quickly and had a lot of technical debt. It was slow and hard to add new features. After securing new funding, the CTO made a bold decision. "We can't keep patching this," he announced to the engineering team. "We're going to build version 2 from the ground up." It was a massive undertaking. They started with a blank canvas, choosing a new programming language, a modern architecture, and a scalable database. It took a year, but the result was a fast, stable, and flexible platform that was ready for the future. They didn't just fix the old house; they built a new one from the ground up.
