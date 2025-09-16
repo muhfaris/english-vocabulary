@@ -1,0 +1,13 @@
+story:
+  title: "improving-app-performance"
+  date: "2025-09-17"
+  text: |
+    Today was all about improving our app's performance. My task was to pinpoint the source of a slowdown in our main dashboard. After a lot of digging, I found the culprit: a very inefficient database query. The fix itself was easy, but I had to be thorough and make sure it didn't introduce any new bugs.
+
+    I spent a good chunk of the afternoon writing tests. It felt a bit tedious, but it's a necessary step. I also had to liaise with the QA team to make sure they were aware of the change. We want to avoid any surprises during the next release. It’s a huge relief to finally solve this issue. It’s been a **persistent** problem for a while. Now, the dashboard feels much more **responsive**. My manager was happy with the **outcome**, and he gave me kudos for the quick turnaround. It's a good feeling to make a **tangible** improvement to the product. It makes the **monotony** of debugging sessions worth it.
+  highlighted_words:
+    - "persistent"
+    - "responsive"
+    - "outcome"
+    - "tangible"
+    - "monotony"

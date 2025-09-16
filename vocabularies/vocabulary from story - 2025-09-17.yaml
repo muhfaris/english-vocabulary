@@ -1,0 +1,129 @@
+- word: "persistent"
+  pronunciation: "/pərˈsɪs.tənt/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Continuing to exist or occur over a prolonged period; refusing to give up."
+    bahasa: "Gigih, terus-menerus ada, atau tidak mau menyerah."
+  usage: "Use 'persistent' to describe something that lasts for a long time, like a problem or an effort. It can be positive (a persistent developer) or negative (a persistent bug)."
+  synonyms:
+    - "continuous"
+    - "unrelenting"
+    - "stubborn"
+  examples:
+    workplace:
+      - "We finally solved the persistent bug that was causing the server to crash."
+      - "Her persistent effort to refactor the legacy code finally paid off."
+    casual:
+      - "He has a persistent cough that he can't seem to get rid of."
+      - "She was persistent in asking for a promotion."
+  related:
+    - word: "consistent"
+      difference: "'Persistent' means something continues to exist, often in a stubborn way. 'Consistent' means something is done in the same way over time to maintain a standard."
+    - word: "insistent"
+      difference: "'Persistent' is about continuing an action or existence. 'Insistent' is about demanding something forcefully and not accepting refusal."
+  story: |
+    The team was dealing with a persistent performance issue in the app. Every time they thought they had fixed it, it would reappear. It took a lot of patient and persistent debugging, but they finally found the root cause and fixed it for good.
+
+- word: "responsive"
+  pronunciation: "/rɪˈspɒn.sɪv/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Reacting quickly and positively. In tech, it often refers to a system or UI that adjusts smoothly to different screen sizes."
+    bahasa: "Cepat tanggap, responsif. Dalam teknologi, seringkali merujuk pada sistem atau antarmuka yang menyesuaikan diri dengan lancar ke berbagai ukuran layar."
+  usage: "Use 'responsive' to describe a person who replies quickly, a system that reacts fast, or a website that works well on both desktop and mobile devices."
+  synonyms:
+    - "quick to react"
+    - "receptive"
+    - "adaptive"
+  examples:
+    workplace:
+      - "The new design needs to be fully responsive to work on all devices."
+      - "Our infrastructure team is very responsive to any issues we report."
+    casual:
+      - "I sent him a message, and he was very responsive."
+      - "The audience was responsive to the speaker's jokes."
+  related:
+    - word: "reactive"
+      difference: "'Responsive' usually has a positive connotation of reacting quickly and well. 'Reactive' can be neutral or negative, meaning acting in response to a situation rather than creating or controlling it."
+    - word: "responsible"
+      difference: "'Responsive' is about reacting. 'Responsible' is about having a duty or being accountable for something."
+  story: |
+    The old website was slow and clunky on mobile phones. The development team was tasked with making it responsive. After weeks of work, they launched the new version. The UI was now fast and looked great on any screen size, making the user experience much better.
+
+- word: "outcome"
+  pronunciation: "/ˈaʊt.kʌm/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The final result or consequence of an action, process, or event."
+    bahasa: "Hasil akhir atau konsekuensi dari suatu tindakan, proses, atau peristiwa."
+  usage: "Use 'outcome' to talk about the result of something, like a project, a meeting, or a decision. It's a more formal word for 'result'."
+  synonyms:
+    - "result"
+    - "consequence"
+    - "effect"
+  examples:
+    workplace:
+      - "The desired outcome of this meeting is to have a clear plan for the next sprint."
+      - "We are waiting for the outcome of the A/B test before making a final decision."
+    casual:
+      - "What was the outcome of your doctor's appointment?"
+      - "I'm nervous about the outcome of the game."
+  related:
+    - word: "result"
+      difference: "'Outcome' and 'result' are very similar. 'Outcome' often implies a more significant or final consequence, while 'result' can be used for more immediate or smaller effects."
+    - word: "output"
+      difference: "'Outcome' is the final result or consequence. 'Output' is the amount of something produced by a person, machine, or industry; it's about production, not the final effect."
+  story: |
+    The team had a long debate about two different technical approaches. They decided to build a small prototype for each to see the outcome. The outcome of the experiment was clear: one approach was much more stable and scalable. This data-driven decision helped them move forward with confidence.
+
+- word: "tangible"
+  pronunciation: "/ˈtæn.dʒə.bəl/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Clear and definite; real; able to be touched or perceived."
+    bahasa: "Nyata, jelas, dan pasti; dapat disentuh atau dirasakan."
+  usage: "Use 'tangible' to describe something that is real and can be seen or measured, like a result, an asset, or an improvement. It's the opposite of abstract."
+  synonyms:
+    - "concrete"
+    - "real"
+    - "measurable"
+  examples:
+    workplace:
+      - "We need to show tangible progress to the stakeholders by the end of the week."
+      - "Fixing that bug had a tangible impact on user satisfaction."
+    casual:
+      - "The prize for winning the competition was a tangible reward: a new laptop."
+      - "I prefer physical books because they feel more tangible than e-books."
+  related:
+    - word: "concrete"
+      difference: "'Tangible' and 'concrete' are very similar. 'Tangible' often emphasizes the ability to be perceived or measured, while 'concrete' emphasizes being specific and not abstract."
+    - word: "physical"
+      difference: "'Tangible' means something can be perceived as real, which can include effects or results. 'Physical' refers to something having a solid form that can be touched."
+  story: |
+    For months, the team worked on a major refactoring project. There wasn't much to show to non-technical stakeholders. But this week, they finally released the changes. The app's speed improved by 50%, a tangible improvement that everyone could feel. It was rewarding to see their hard work produce such a tangible result.
+
+- word: "monotony"
+  pronunciation: "/məˈnɒt.ən.i/"
+  part_of_speech: "noun"
+  meaning:
+    english: "Lack of variety and interest; tedious repetition and routine."
+    bahasa: "Kurangnya variasi dan minat; pengulangan dan rutinitas yang membosankan."
+  usage: "Use 'monotony' to describe a situation that is boring because it's the same every day. It often has a negative connotation."
+  synonyms:
+    - "tedium"
+    - "dullness"
+    - "routine"
+  examples:
+    workplace:
+      - "He took on a new project to break the monotony of his daily tasks."
+      - "Automating the deployment process helped to reduce the monotony of manual releases."
+    casual:
+      - "The monotony of his daily routine was starting to get to him."
+      - "They went on vacation to escape the monotony of their everyday lives."
+  related:
+    - word: "routine"
+      difference: "'Monotony' is the feeling of boredom from a lack of variety. 'Routine' is a sequence of actions regularly followed, which can be good or bad. A routine can become a monotony if it's boring."
+    - word: "boredom"
+      difference: "'Monotony' is the cause (the repetitive situation), while 'boredom' is the feeling or effect."
+  story: |
+    A junior developer was assigned to fix a series of very similar, simple bugs. After a few days, the monotony of the work was affecting his motivation. His senior noticed this and assigned him a more challenging feature to work on. The new task was a welcome change and broke the monotony.
