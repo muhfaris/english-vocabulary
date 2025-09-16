@@ -162,3 +162,49 @@
       difference: "A 'sigh of relief' is the immediate emotional response after a crisis is over. A 'post-mortem' is a formal meeting that happens later to analyze what went wrong and how to prevent it in the future."
   story: |
     The servers went down an hour before our big product demo. We were all scrambling to fix it. Ten minutes before the demo started, we found the issue and brought the servers back online. Everyone in the room let out a collective sigh of relief.
+
+- word: "crunch time"
+  pronunciation: "/krʌntʃ taɪm/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A short period when there's high pressure to get a lot of work done."
+    bahasa: "Periode genting; waktu di mana tekanan tinggi untuk menyelesaikan banyak pekerjaan."
+  usage: "Use this phrase to describe a period of intense work right before a deadline."
+  synonyms:
+    - "critical period"
+    - "the final push"
+  examples:
+    workplace:
+      - "It's crunch time for the team as we approach the product launch."
+      - "We need all hands on deck during crunch time to meet our goals."
+    casual:
+      - "I can't go out this weekend, it's crunch time for my final exams."
+      - "Every student knows the feeling of crunch time at the end of the semester."
+  related:
+    - word: "deadline"
+      difference: "`Deadline` is the final date for a task, while `crunch time` is the intense period of work leading up to that date."
+  story: |
+    The development team knew that the last week before the release was going to be crunch time. They had to fix all the remaining bugs and finalize the documentation. The office was buzzing with energy as everyone worked together to get the product ready for launch.
+
+- word: "burnout"
+  pronunciation: "/ˈbɜːrnaʊt/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A state of emotional, physical, and mental exhaustion caused by excessive and prolonged stress."
+    bahasa: "Kelelahan emosional, fisik, dan mental yang disebabkan oleh stres yang berlebihan dan berkepanjangan."
+  usage: "Use this noun to describe the feeling of being completely exhausted from work or other stressors."
+  synonyms:
+    - "exhaustion"
+    - "fatigue"
+  examples:
+    workplace:
+      - "Working 12-hour days for months led to his burnout."
+      - "The company is implementing new policies to prevent employee burnout."
+    casual:
+      - "She was suffering from burnout after a year of non-stop studying."
+      - "It's important to take vacations to avoid burnout."
+  related:
+    - word: "stress"
+      difference: "`Stress` is a state of mental or emotional strain, which can be temporary. `Burnout` is a more severe, long-term state of exhaustion that results from chronic stress."
+  story: |
+    After months of working overtime to meet tight deadlines, Sarah started to experience burnout. She felt constantly tired, unmotivated, and disconnected from her work. She realized she needed to take a break and recharge, so she took a week off to focus on her well-being. When she returned, she felt refreshed and ready to tackle her tasks with a new perspective.
