@@ -1,0 +1,81 @@
+dialogue:
+  - speaker: Alex
+    english: "Hey Ben, have you had a chance to look at the new feature spec for the analytics dashboard?"
+    bahasa: "Hai Ben, apakah kamu sudah sempat melihat spesifikasi fitur baru untuk dasbor analitik?"
+  - speaker: Ben
+    english: "I just finished reading it. It seems quite comprehensive, but I have a few questions about the data visualization part."
+    bahasa: "Aku baru saja selesai membacanya. Kelihatannya cukup komprehensif, tapi aku punya beberapa pertanyaan tentang bagian visualisasi data."
+  - speaker: Alex
+    english: "Sure, what's on your mind? I was the one who drafted it, so I should be able to clarify."
+    bahasa: "Tentu, apa yang kamu pikirkan? Aku yang menyusunnya, jadi aku seharusnya bisa menjelaskannya."
+  - speaker: Ben
+    english: "It mentions we need to support real-time data updates. Is that a hard requirement? It could add a lot of complexity."
+    bahasa: "Disebutkan bahwa kita perlu mendukung pembaruan data secara real-time. Apakah itu persyaratan mutlak? Itu bisa menambah banyak kerumitan."
+  - speaker: Alex
+    english: "That's a great point. The product manager was adamant about it, but maybe we can propose a compromise, like polling for new data every 30 seconds."
+    bahasa: "Itu poin yang bagus. Manajer produk bersikeras tentang itu, tapi mungkin kita bisa mengusulkan kompromi, seperti polling untuk data baru setiap 30 detik."
+  - speaker: Ben
+    english: "That sounds more feasible. Also, for the chart types, it lists bar, line, and pie charts. Should we use a third-party library for this?"
+    bahasa: "Itu terdengar lebih memungkinkan. Juga, untuk jenis grafik, di sana tertulis grafik batang, garis, and pai. Haruskah kita menggunakan pustaka pihak ketiga untuk ini?"
+  - speaker: Alex
+    english: "I think so. Building them from scratch would be reinventing the wheel. I was thinking of using Chart.js. It's lightweight and flexible."
+    bahasa: "Aku rasa begitu. Membuatnya dari awal sama saja seperti menemukan kembali roda. Aku berpikir untuk menggunakan Chart.js. Pustaka itu ringan dan fleksibel."
+  - speaker: Ben
+    english: "Good call. I've used it before, and it's pretty straightforward. What's the timeline for this feature?"
+    bahasa: "Pilihan yang bagus. Aku pernah menggunakannya sebelumnya, dan itu cukup mudah. Apa linimasa untuk fitur ini?"
+  - speaker: Alex
+    english: "The goal is to have a working prototype by the end of the next sprint. We need to break down the tasks and estimate the effort."
+    bahasa: "Tujuannya adalah memiliki prototipe yang berfungsi pada akhir sprint berikutnya. Kita perlu memecah tugas-tugasnya dan memperkirakan usahanya."
+  - speaker: Ben
+    english: "Alright, let's schedule a meeting to do that. I'll add my comments to the spec document for now."
+    bahasa: "Baiklah, mari kita jadwalkan pertemuan untuk melakukannya. Aku akan menambahkan komentarku ke dokumen spesifikasi untuk saat ini."
+  - speaker: Alex
+    english: "Perfect. Thanks for the feedback, Ben. This is exactly why we do these reviews."
+    bahasa: "Sempurna. Terima kasih atas masukannya, Ben. Inilah mengapa kita melakukan tinjauan seperti ini."
+  - speaker: Ben
+    english: "No problem. It's always better to iron out the details before we start coding."
+    bahasa: "Tidak masalah. Selalu lebih baik untuk menyelesaikan detailnya sebelum kita mulai membuat kode."
+
+expressions:
+  - phrase: "had a chance to look at"
+    meaning_english: "had the opportunity to see or review something"
+    meaning_bahasa: "punya kesempatan untuk melihat atau meninjau sesuatu"
+  - phrase: "quite comprehensive"
+    meaning_english: "very complete and including everything that is necessary"
+    meaning_bahasa: "cukup lengkap dan mencakup semua yang diperlukan"
+  - phrase: "what's on your mind?"
+    meaning_english: "a way to ask what someone is thinking about"
+    meaning_bahasa: "cara untuk menanyakan apa yang sedang dipikirkan seseorang"
+  - phrase: "hard requirement"
+    meaning_english: "a mandatory condition or feature that must be met"
+    meaning_bahasa: "kondisi atau fitur wajib yang harus dipenuhi"
+  - phrase: "propose a compromise"
+    meaning_english: "to suggest a solution that is acceptable to all parties"
+    meaning_bahasa: "menyarankan solusi yang dapat diterima oleh semua pihak"
+  - phrase: "more feasible"
+    meaning_english: "more possible to do or achieve"
+    meaning_bahasa: "lebih mungkin untuk dilakukan atau dicapai"
+  - phrase: "reinventing the wheel"
+    meaning_english: "wasting time creating something that has already been created"
+    meaning_bahasa: "membuang-buang waktu menciptakan sesuatu yang sudah ada"
+  - phrase: "good call"
+    meaning_english: "a good decision or suggestion"
+    meaning_bahasa: "keputusan atau saran yang bagus"
+  - phrase: "break down the tasks"
+    meaning_english: "to divide a large task into smaller, more manageable parts"
+    meaning_bahasa: "membagi tugas besar menjadi bagian-bagian yang lebih kecil dan lebih mudah dikelola"
+  - phrase: "iron out the details"
+    meaning_english: "to resolve small problems or details"
+    meaning_bahasa: "menyelesaikan masalah atau detail kecil"
+
+questions:
+  - q: "What is the main topic of the conversation between Alex and Ben?"
+    a: "They are discussing the feature specification for a new analytics dashboard."
+  - q: "What is Ben's main concern about the spec?"
+    a: "He is concerned about the complexity of implementing real-time data updates."
+  - q: "What solution does Alex suggest for the data updates?"
+    a: "He suggests proposing a compromise, like polling for new data every 30 seconds."
+  - q: "What do they decide to do for the charts?"
+    a: "They decide to use a third-party library, Chart.js, instead of building the charts from scratch."
+  - q: "What is the next step they agree on?"
+    a: "They plan to schedule a meeting to break down the tasks and estimate the effort required for the feature."
