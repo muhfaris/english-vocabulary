@@ -490,3 +490,98 @@
       difference: "'Teamwork' is the collaborative effort of a group to achieve a common goal. 'Knowledge sharing' is a key practice that enhances teamwork."
   story: |
     Our team holds a 'demo day' every Friday. It's a form of knowledge sharing where engineers can showcase what they've been working on. It helps everyone stay informed about different parts of the project and often sparks new ideas.
+- word: "team lead"
+  pronunciation: "/tiːm liːd/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A person who provides guidance and direction to a group of individuals (a team) to achieve a specific goal."
+    bahasa: "Seseorang yang memberikan bimbingan dan arahan kepada sekelompok individu (tim) untuk mencapai tujuan tertentu."
+  usage: "Used to refer to the person responsible for managing a team's work, often a senior engineer or developer."
+  synonyms:
+    - "team leader"
+    - "project lead"
+    - "tech lead"
+  examples:
+    workplace:
+      - "Our team lead scheduled a meeting to discuss the project timeline."
+      - "I'll ask the team lead for clarification on this task."
+    casual:
+      - "She was chosen as the team lead for our group project in college."
+      - "The team lead for the volunteer group organized the event."
+  related:
+    - word: "manager"
+      difference: "A 'team lead' is often a hands-on technical leader who also codes, while a 'manager' is typically focused on people management, administrative tasks, and career growth."
+  story: |
+    As a new developer, I was nervous about my first big project. Luckily, my team lead was very supportive. She helped me break down the tasks, answered my questions, and reviewed my code, which helped me learn and grow in my role.
+
+- word: "fire-drill"
+  pronunciation: "/ˈfaɪər drɪl/"
+  part_of_speech: "noun"
+  meaning:
+    english: "In a workplace context, a sudden, urgent, and high-pressure task or crisis that requires immediate attention from the team."
+    bahasa: "Dalam konteks tempat kerja, tugas atau krisis yang mendadak, mendesak, dan bertekanan tinggi yang memerlukan perhatian segera dari tim."
+  usage: "Used metaphorically to describe an emergency work situation that simulates the urgency of a real fire drill."
+  synonyms:
+    - "crisis"
+    - "emergency"
+    - "all hands on deck situation"
+  examples:
+    workplace:
+      - "We had a fire-drill yesterday because the main server went down."
+      - "The CEO's last-minute request turned the afternoon into a fire-drill."
+    casual:
+      - "Getting the house ready for unexpected guests felt like a fire-drill."
+      - "It was a fire-drill to get all the documents submitted before the deadline."
+  related:
+    - word: "hotfix"
+      difference: "A 'fire-drill' is the chaotic situation or event itself. A 'hotfix' is the urgent code change or patch that is often created during a fire-drill to fix a critical issue."
+  story: |
+    On a Friday afternoon, we had a fire-drill. A critical security vulnerability was discovered in our login system. Everyone had to drop what they were doing to fix, test, and deploy a patch before the end of the day. It was stressful, but we handled it.
+
+- word: "chaotic"
+  pronunciation: "/keɪˈɒt.ɪk/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "In a state of complete confusion and disorder."
+    bahasa: "Dalam keadaan kebingungan dan kekacauan total."
+  usage: "Used to describe a situation, process, or environment that is disorganized, unpredictable, and lacks structure."
+  synonyms:
+    - "disorganized"
+    - "messy"
+    - "uncontrolled"
+  examples:
+    workplace:
+      - "The project's early stages were chaotic, with requirements changing daily."
+      - "Without a proper plan, the meeting became chaotic and unproductive."
+    casual:
+      - "The kitchen was chaotic after the kids finished baking."
+      - "The traffic during rush hour is always chaotic."
+  related:
+    - word: "agile"
+      difference: "'Chaotic' implies a lack of control and negative disorder. 'Agile' is a structured development methodology that embraces change and iteration in a controlled, adaptive way. While it might seem chaotic from the outside, it is not."
+  story: |
+    When our startup first launched, the workflow was chaotic. There were no clear processes, and everyone was doing a bit of everything. As we grew, we introduced more structure and better tools to manage the chaos and work more effectively.
+
+- word: "off-guard"
+  pronunciation: "/ˌɒf ˈɡɑːd/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To be surprised or unprepared for something."
+    bahasa: "Terkejut atau tidak siap menghadapi sesuatu."
+  usage: "Used when something unexpected happens that you were not ready for."
+  synonyms:
+    - "unprepared"
+    - "surprised"
+    - "unawares"
+  examples:
+    workplace:
+      - "The sudden change in project priorities caught the team off-guard."
+      - "His question about the server costs caught me off-guard during the presentation."
+    casual:
+      - "The pop quiz caught me completely off-guard."
+      - "Her sudden visit caught him off-guard."
+  related:
+    - word: "unforeseen"
+      difference: "'To be caught off-guard' is the feeling of being surprised and unprepared. An 'unforeseen' event is the unexpected event itself that might catch you off-guard."
+  story: |
+    I was confident about my code, so the bug report from the QA team caught me off-guard. I had tested all the usual scenarios, but I hadn't considered the specific edge case they found. It was a good lesson to always think about the unexpected.

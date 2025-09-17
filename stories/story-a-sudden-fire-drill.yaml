@@ -1,0 +1,16 @@
+story:
+  title: "a-sudden-fire-drill"
+  date: "2025-09-17"
+  text: |
+    The day started quietly, but that changed right after lunch. Our **team lead** announced a sudden **fire-drill**: a critical bug was found in production, and a major client was impacted. The bug was causing incorrect data to be displayed on their dashboard, and they were threatening to escalate the issue. It was an **all hands on deck** situation, and the pressure was on.
+
+    The next hour was **chaotic**. Everyone dropped what they were doing to investigate. The bug caught us completely **off-guard** because it was in a legacy part of the system that nobody had touched in months. The original developers had long since left the company, and the documentation was sparse. We quickly formed a small task force to dive into the code, trying to make sense of the tangled logic.
+
+    After a tense hour of debugging, we found the root cause. It was a subtle logic error related to timezone conversions that only appeared under very specific conditions. We developed a patch, and the QA team immediately started testing it in the staging environment. Once they gave us the green light, we prepared for an emergency **deployment**. It was a stressful afternoon, but the team pulled together to resolve the crisis. It was a true test of our ability to handle the unexpected and a reminder of the importance of good documentation.
+  highlighted_words:
+    - "team lead"
+    - "fire-drill"
+    - "all hands on deck"
+    - "chaotic"
+    - "off-guard"
+    - "deployment"
