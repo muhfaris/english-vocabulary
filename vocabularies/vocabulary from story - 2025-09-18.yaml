@@ -1,0 +1,114 @@
+- word: "daily scrum"
+  pronunciation: "/ˈdeɪ.li skrʌm/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A short, daily meeting in the Scrum agile framework where the team synchronizes activities and plans for the next 24 hours."
+    bahasa: "Rapat harian singkat dalam kerangka kerja agile Scrum di mana tim menyinkronkan kegiatan dan membuat rencana untuk 24 jam ke depan."
+  usage: "Used to refer to the daily stand-up meeting in a team that follows the Scrum methodology."
+  synonyms:
+    - "daily stand-up"
+    - "daily huddle"
+  examples:
+    workplace:
+      - "During the daily scrum, I mentioned that I was blocked by the API issue."
+      - "Our daily scrum is at 9 AM every morning and lasts for about 15 minutes."
+    casual:
+      - "My team's daily scrum is so efficient, it's my favorite meeting."
+      - "Let's discuss this after the daily scrum."
+  related:
+    - word: "stand-up"
+      difference: "'Daily scrum' is the official term in the Scrum framework. 'Stand-up' is a more general term for a short, daily meeting, and not all stand-ups are scrums."
+    - word: "sprint retrospective"
+      difference: "A 'daily scrum' is a short, daily planning meeting. A 'sprint retrospective' is a longer meeting held at the end of a sprint to reflect on what went well and what could be improved."
+  story: |
+    Every morning, our team starts the day with a daily scrum. We each take a turn to share our progress and any challenges we're facing. It's a great way to stay aligned and help each other out if someone is stuck.
+- word: "get down to business"
+  pronunciation: "/ɡɛt daʊn tu ˈbɪz.nɪs/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To start working seriously on the task at hand."
+    bahasa: "Mulai bekerja secara serius pada tugas yang ada."
+  usage: "Used to signal the end of casual chat and the beginning of focused work or discussion."
+  synonyms:
+    - "start working"
+    - "get serious"
+  examples:
+    workplace:
+      - "After a few minutes of small talk, the team lead said, 'Alright, let's get down to business.'"
+      - "We have a lot to cover in this meeting, so let's get down to business right away."
+    casual:
+      - "Okay, we've had our fun. Now it's time to get down to business and finish this project."
+      - "I've had my coffee, now I can get down to business."
+  related:
+    - word: "kick off"
+      difference: "'To kick off' means to start an event or project. 'To get down to business' means to start the serious work within that event or project."
+  story: |
+    The first ten minutes of the meeting were spent catching up on our weekends. Then, the project manager cleared his throat and said, "Okay everyone, let's get down to business." He shared his screen and started discussing the project plan.
+- word: "get stuck"
+  pronunciation: "/ɡɛt stʌk/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To be unable to proceed with a task or solve a problem."
+    bahasa: "Tidak dapat melanjutkan tugas atau memecahkan masalah."
+  usage: "Used when you are blocked or facing a challenge that you don't know how to overcome."
+  synonyms:
+    - "be blocked"
+    - "be stumped"
+  examples:
+    workplace:
+      - "I always get stuck on this part of the process."
+      - "If you get stuck, don't hesitate to ask for help."
+    casual:
+      - "I got stuck on the last question of the exam."
+      - "The car got stuck in the mud."
+  related:
+    - word: "blocker"
+      difference: "'To get stuck' is the state of being unable to proceed. A 'blocker' is the specific thing that is causing you to be stuck."
+  story: |
+    I was writing a complex SQL query and I got stuck. The query was running, but it wasn't returning the correct data. After trying for an hour, I asked a colleague for help. He looked at it and immediately saw the mistake in my JOIN clause.
+- word: "stumbling block"
+  pronunciation: "/ˈstʌm.blɪŋ blɒk/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A problem or obstacle that prevents progress."
+    bahasa: "Masalah atau rintangan yang menghalangi kemajuan."
+  usage: "Used to describe a specific difficulty that is holding up a project or task."
+  synonyms:
+    - "obstacle"
+    - "hurdle"
+    - "impediment"
+  examples:
+    workplace:
+      - "The main stumbling block for this project is the lack of clear requirements."
+      - "We hit a stumbling block when we found out the API was not compatible."
+    casual:
+      - "My fear of public speaking is a major stumbling block in my career."
+      - "The biggest stumbling block to finishing the house is a lack of money."
+  related:
+    - word: "blocker"
+      difference: "'Stumbling block' and 'blocker' are very similar. 'Stumbling block' is a more general term for an obstacle, while 'blocker' is often used in agile development to refer to a specific issue that stops a task."
+  story: |
+    The team was trying to improve the performance of the website. The main stumbling block was a slow database query. Once they optimized that query, the rest of the work was much easier.
+- word: "call it a day"
+  pronunciation: "/kɔːl ɪt ə deɪ/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To decide to stop working for the day."
+    bahasa: "Memutuskan untuk berhenti bekerja untuk hari itu."
+  usage: "Used at the end of a work session to indicate that you are finished."
+  synonyms:
+    - "stop working"
+    - "wrap up"
+    - "finish for the day"
+  examples:
+    workplace:
+      - "It's 5 PM, I've finished my tasks, so I'm going to call it a day."
+      - "We've made a lot of progress. Let's call it a day and continue tomorrow."
+    casual:
+      - "I'm too tired to keep studying. I think I'll call it a day."
+      - "We've been hiking for six hours. Let's call it a day and find a place to rest."
+  related:
+    - word: "sign off"
+      difference: "'To call it a day' is about deciding to stop working. 'To sign off' can mean to stop working, but it can also mean to give approval for something."
+  story: |
+    After a long day of coding and meetings, I finally pushed my last commit. I looked at the clock, and it was almost 6 PM. I sent a quick message to my team saying, "I'm done for today," and decided to call it a day.
