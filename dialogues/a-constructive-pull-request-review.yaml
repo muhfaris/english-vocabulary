@@ -1,0 +1,65 @@
+dialogue:
+  - speaker: Maria
+    english: "Hey David, I've finished reviewing your PR for the user profile update. Overall, it looks solid."
+    bahasa: "Hai David, aku sudah selesai mereview PR-mu untuk pembaruan profil pengguna. Secara keseluruhan, kelihatannya solid."
+  - speaker: David
+    english: "Great, thanks for taking a look. Any major issues?"
+    bahasa: "Bagus, terima kasih sudah melihat. Ada masalah besar?"
+  - speaker: Maria
+    english: "No, nothing major. Just a few minor suggestions. For instance, I left a comment about a variable name that could be more descriptive."
+    bahasa: "Tidak, tidak ada yang besar. Hanya beberapa saran kecil. Misalnya, aku meninggalkan komentar tentang nama variabel yang bisa lebih deskriptif."
+  - speaker: David
+    english: "Ah, I see it. 'data' is a bit generic. I'll change it to 'userProfileData'. Good catch."
+    bahasa: "Ah, aku lihat. 'data' memang agak umum. Aku akan mengubahnya menjadi 'userProfileData'. Tangkapan yang bagus."
+  - speaker: Maria
+    english: "Exactly. And there's a small nitpick about the indentation in the CSS file. It's not a blocker, but it's good to stick to our style guide."
+    bahasa: "Tepat. Dan ada sedikit nitpick tentang indentasi di file CSS. Bukan penghalang, tapi bagus untuk tetap berpegang pada panduan gaya kita."
+  - speaker: David
+    english: "You're right. I'll fix that now. Consistency is key."
+    bahasa: "Kamu benar. Aku akan perbaiki sekarang. Konsistensi adalah kunci."
+  - speaker: Maria
+    english: "One last thing, I noticed we're fetching the user's avatar in two different places. Maybe we can abstract that into a reusable function?"
+    bahasa: "Satu hal lagi, aku perhatikan kita mengambil avatar pengguna di dua tempat berbeda. Mungkin kita bisa mengabstraknya menjadi fungsi yang dapat digunakan kembali?"
+  - speaker: David
+    english: "That's a great point. It would definitely be cleaner. I'll create a separate task for that to keep this PR focused."
+    bahasa: "Itu poin yang bagus. Pasti akan lebih bersih. Aku akan membuat tugas terpisah untuk itu agar PR ini tetap fokus."
+  - speaker: Maria
+    english: "Sounds like a plan. Once you push the minor changes, I think it's good to go. LGTM!"
+    bahasa: "Terdengar seperti rencana. Setelah kamu mendorong perubahan kecil itu, aku pikir ini siap. LGTM!"
+  - speaker: David
+    english: "Awesome. Thanks for the constructive feedback, Maria. I'll push the changes in a few minutes."
+    bahasa: "Luar biasa. Terima kasih atas umpan balik yang membangun, Maria. Aku akan mendorong perubahannya dalam beberapa menit."
+expressions:
+  - phrase: "pull request (PR)"
+    meaning_english: "A request to merge code changes from one branch into another. It's a common way for developers to review code before it becomes part of the main codebase."
+    meaning_bahasa: "Permintaan untuk menggabungkan perubahan kode dari satu cabang ke cabang lain. Ini adalah cara umum bagi pengembang untuk meninjau kode sebelum menjadi bagian dari basis kode utama."
+  - phrase: "looks solid"
+    meaning_english: "A phrase indicating that the code appears to be well-written and functional."
+    bahasa: "Ungkapan yang menunjukkan bahwa kode tampaknya ditulis dengan baik dan fungsional."
+  - phrase: "good catch"
+    meaning_english: "An expression used to praise someone for noticing a mistake or an opportunity for improvement."
+    bahasa: "Ekspresi yang digunakan untuk memuji seseorang karena memperhatikan kesalahan atau peluang untuk perbaikan."
+  - phrase: "nitpick"
+    meaning_english: "A small, minor criticism or correction, often related to style or formatting rather than logic."
+    bahasa: "Kritik atau koreksi kecil, seringkali terkait dengan gaya atau pemformatan daripada logika."
+  - phrase: "blocker"
+    meaning_english: "An issue that prevents further progress or deployment."
+    meaning_bahasa: "Masalah yang menghalangi kemajuan atau penerapan lebih lanjut."
+  - phrase: "abstract into a reusable function"
+    meaning_english: "To take a piece of code that performs a specific task and turn it into a function that can be called from different parts of the application."
+    bahasa: "Mengambil sepotong kode yang melakukan tugas tertentu dan mengubahnya menjadi fungsi yang dapat dipanggil dari berbagai bagian aplikasi."
+  - phrase: "LGTM (Looks Good To Me)"
+    meaning_english: "An acronym used in code reviews to indicate that the reviewer approves the changes."
+    bahasa: "Singkatan yang digunakan dalam ulasan kode untuk menunjukkan bahwa peninjau menyetujui perubahan tersebut."
+  - phrase: "constructive feedback"
+    meaning_english: "Feedback that is helpful and intended to improve something, rather than just criticize it."
+    bahasa: "Umpan balik yang membantu dan dimaksudkan untuk meningkatkan sesuatu, bukan hanya mengkritiknya."
+questions:
+  - q: "What was the pull request about?"
+    a: "It was for updating the user profile."
+  - q: "What were the main points of feedback from Maria?"
+    a: "She suggested a more descriptive variable name, pointed out a minor indentation issue, and proposed abstracting a piece of code into a reusable function."
+  - q: "What does it mean to 'nitpick' in a code review?"
+    a: "It refers to pointing out small, often stylistic, issues that are not critical but can improve code quality and consistency."
+  - q: "What was David's reaction to the feedback?"
+    a: "He was receptive and agreed to make the suggested changes, and created a new task for the larger refactoring suggestion."
