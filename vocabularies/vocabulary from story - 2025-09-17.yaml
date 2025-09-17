@@ -415,3 +415,78 @@
       difference: "A 'strategy' is the overall plan. A 'tactic' is a specific action or move taken to achieve a part of that plan."
   story: |
     The company was facing stiff competition. They decided to develop a new strategy to stay ahead. The strategy involved focusing on a niche market and providing excellent customer service. This new strategy helped them to differentiate themselves from their competitors and attract a loyal customer base.
+- word: "constructive feedback"
+  pronunciation: "/kənˈstrʌk.tɪv ˈfiːd.bæk/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "Information or criticism that is helpful and intended to improve something."
+    bahasa: "Informasi atau kritik yang membantu dan bertujuan untuk memperbaiki sesuatu."
+  usage: "Use this phrase to describe feedback that is specific, actionable, and delivered in a positive manner, focusing on the work rather than the person."
+  synonyms:
+    - "helpful criticism"
+    - "valuable input"
+    - "positive suggestion"
+  examples:
+    workplace:
+      - "During the code review, she gave me constructive feedback that improved my code's performance."
+      - "The manager is trained to provide constructive feedback to their team members during performance reviews."
+    casual:
+      - "He gave me some constructive feedback on my presentation skills."
+      - "I appreciate your constructive feedback on my essay; it really helped."
+  related:
+    - word: "criticism"
+      difference: "'Criticism' can be positive or negative, but often has a negative connotation. 'Constructive feedback' is always intended to be positive and helpful."
+    - word: "code review"
+      difference: "A 'code review' is a process where developers check each other's code. Providing 'constructive feedback' is a key part of a successful code review."
+  story: |
+    Instead of just saying 'this is wrong,' my mentor provided constructive feedback on my pull request. He pointed out a potential edge case I missed and suggested a more efficient way to write a function, explaining the reasons why. This helped me learn and improve, rather than just feeling criticized.
+- word: "mentorship"
+  pronunciation: "/ˈmen.tɔːr.ʃɪp/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The guidance provided by a mentor, especially an experienced person in a company or educational institution."
+    bahasa: "Bimbingan yang diberikan oleh seorang mentor, terutama orang yang berpengalaman di sebuah perusahaan atau institusi pendidikan."
+  usage: "Refers to a relationship where a more experienced person helps guide a less experienced person's development."
+  synonyms:
+    - "guidance"
+    - "coaching"
+    - "advising"
+  examples:
+    workplace:
+      - "Our company has a formal mentorship program for new hires."
+      - "I'm grateful for the mentorship I received from my senior colleague."
+    casual:
+      - "Her career growth was greatly influenced by her mentorship of a famous author."
+      - "He offers mentorship to young musicians in his free time."
+  related:
+    - word: "mentor"
+      difference: "A 'mentor' is the person who provides guidance. 'Mentorship' is the process or relationship of providing that guidance."
+    - word: "onboarding"
+      difference: "'Onboarding' is the process of integrating a new employee into a company. 'Mentorship' can be a key part of a successful onboarding experience."
+  story: |
+    When I joined the team, I was assigned a senior engineer for mentorship. He didn't just help me with technical questions; he also gave me advice on navigating the company culture and setting career goals. His guidance was invaluable in my first six months.
+- word: "knowledge sharing"
+  pronunciation: "/ˈnɒl.ɪdʒ ˈʃeə.rɪŋ/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "The activity through which knowledge (information, skills, or expertise) is exchanged among people, friends, families, communities, or organizations."
+    bahasa: "Aktivitas di mana pengetahuan (informasi, keterampilan, atau keahlian) dipertukarkan di antara orang-orang, teman, keluarga, komunitas, atau organisasi."
+  usage: "Used to describe the practice of distributing information and skills within a group or team."
+  synonyms:
+    - "information exchange"
+    - "skill sharing"
+    - "communal learning"
+  examples:
+    workplace:
+      - "The company encourages knowledge sharing through weekly tech talks."
+      - "Good documentation is a form of asynchronous knowledge sharing."
+    casual:
+      - "Our book club is a great example of knowledge sharing."
+      - "He created a blog for knowledge sharing about his gardening hobby."
+  related:
+    - word: "documentation"
+      difference: "'Documentation' is a static record of information. 'Knowledge sharing' is the active process of exchanging that information, which can happen through documentation, meetings, or conversations."
+    - word: "teamwork"
+      difference: "'Teamwork' is the collaborative effort of a group to achieve a common goal. 'Knowledge sharing' is a key practice that enhances teamwork."
+  story: |
+    Our team holds a 'demo day' every Friday. It's a form of knowledge sharing where engineers can showcase what they've been working on. It helps everyone stay informed about different parts of the project and often sparks new ideas.

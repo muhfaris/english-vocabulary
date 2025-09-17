@@ -1,0 +1,15 @@
+story:
+  title: "a-new-perspective"
+  date: "2025-09-17"
+  text: |
+    As a new engineer, my first few weeks felt like a whirlwind. The **onboarding** process was thorough, but there was still so much to learn about the team’s specific ways of working. I quickly realized that understanding the unwritten **team norms** was just as important as reading the official documentation. My first task was to fix a small bug, and I made sure to follow the **style guide** closely to ensure my code was consistent with the existing codebase.
+
+    When I submitted my first **pull request**, I was a bit nervous. But my tech lead, David, was amazing. He left clear and **constructive feedback** that helped me understand the bigger picture. It didn't feel like criticism, but rather a form of **mentorship**. He explained that the team values open communication and **knowledge sharing** to help everyone grow. This experience made me feel much more confident and part of the team. It was a great reminder that a positive team culture makes all the difference.
+  highlighted_words:
+    - "onboarding"
+    - "team norms"
+    - "style guide"
+    - "pull request"
+    - "constructive feedback"
+    - "mentorship"
+    - "knowledge sharing"
