@@ -127,3 +127,171 @@
       difference: "'Monotony' is the cause (the repetitive situation), while 'boredom' is the feeling or effect."
   story: |
     A junior developer was assigned to fix a series of very similar, simple bugs. After a few days, the monotony of the work was affecting his motivation. His senior noticed this and assigned him a more challenging feature to work on. The new task was a welcome change and broke the monotony.
+
+- word: "pitch in"
+  pronunciation: "/pɪtʃ ɪn/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To join in and help with an activity, or to contribute to something."
+    bahasa: "Turut serta membantu dalam suatu kegiatan, atau berkontribusi pada sesuatu."
+  usage: "Used informally when offering or asking for help in a collaborative effort."
+  synonyms:
+    - "help out"
+    - "contribute"
+    - "lend a hand"
+  examples:
+    workplace:
+      - "The whole team had to pitch in to meet the deadline."
+      - "If you need help with the deployment, just ask, and I'll pitch in."
+    casual:
+      - "Everyone pitched in to clean up after the party."
+      - "We're making a group dinner, so feel free to pitch in."
+  related:
+    - word: "delegate"
+      difference: "'To pitch in' is to offer help voluntarily or as part of a group effort. 'To delegate' is to assign a task to someone else, usually from a position of authority."
+  story: |
+    We were behind schedule on our sprint goal. During the stand-up, our team lead said, 'We need to get this feature out by Friday. I'll handle the backend, can two of you pitch in on the frontend?' We all agreed, and with the extra help, we managed to finish it on time.
+
+- word: "a quick look"
+  pronunciation: "/ə kwɪk lʊk/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A brief or cursory examination of something."
+    bahasa: "Pemeriksaan singkat atau sepintas terhadap sesuatu."
+  usage: "Used when you are going to examine something briefly, not in great detail. It often implies an initial investigation."
+  synonyms:
+    - "a glance"
+    - "a once-over"
+    - "a brief review"
+  examples:
+    workplace:
+      - "Can you take a quick look at my code before I submit it for review?"
+      - "I'll have a quick look at the bug report and see if I can figure it out."
+    casual:
+      - "Let me have a quick look at the map to see where we are."
+      - "He gave the car a quick look before buying it."
+  related:
+    - word: "code review"
+      difference: "'A quick look' is an informal, brief check. A 'code review' is a formal, detailed process of examining code for correctness, style, and best practices."
+  story: |
+    A junior developer was having trouble with a CSS issue. He asked me, 'Do you have a minute to help?' I replied, 'Sure, let me take a quick look.' After a few minutes of inspecting the element, I found the conflicting style rule that was causing the problem.
+
+- word: "uncover"
+  pronunciation: "/ʌnˈkʌv.ər/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To discover something that was hidden, secret, or previously unknown."
+    bahasa: "Menemukan sesuatu yang tersembunyi, rahasia, atau sebelumnya tidak diketahui."
+  usage: "Often used in the context of investigation, like finding the root cause of a bug or discovering a hidden requirement."
+  synonyms:
+    - "discover"
+    - "reveal"
+    - "expose"
+  examples:
+    workplace:
+      - "The investigation helped uncover several security vulnerabilities."
+      - "During the refactoring, we managed to uncover some legacy code that was no longer being used."
+    casual:
+      - "The documentary aims to uncover the truth about the event."
+      - "Archaeologists hope to uncover the ruins of the ancient city."
+  related:
+    - word: "realize"
+      difference: "'To uncover' is to find a fact or object that was hidden. 'To realize' is to become aware of a fact or situation, often in one's own mind."
+  story: |
+    I was debugging a simple performance issue, but the more I investigated, the more I began to uncover. It turned out the initial problem was just a symptom of a much larger architectural flaw. It was a significant finding that led to a major refactoring project.
+
+- word: "deeper issue"
+  pronunciation: "/ˈdiː.pər ˈɪʃ.uː/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A fundamental, underlying problem that is the root cause of other, more obvious problems."
+    bahasa: "Masalah mendasar yang menjadi akar penyebab dari masalah-masalah lain yang lebih jelas."
+  usage: "Used to describe the core problem, as opposed to the superficial symptoms."
+  synonyms:
+    - "root cause"
+    - "underlying problem"
+    - "fundamental flaw"
+  examples:
+    workplace:
+      - "The bug is just a symptom of a deeper issue with our data handling."
+      - "We need to address the deeper issue, not just apply another temporary fix."
+    casual:
+      - "His anger is just a sign of a deeper issue he's dealing with."
+      - "The cracks in the wall point to a deeper issue with the building's foundation."
+  related:
+    - word: "bug"
+      difference: "A 'bug' is often a symptom or a single, observable problem. A 'deeper issue' is the fundamental cause that may be responsible for one or more bugs."
+  story: |
+    We kept getting reports of random crashes in the app. After weeks of applying small fixes, we realized we were only treating the symptoms. We formed a small task force to investigate and found a deeper issue related to memory management. Fixing that one problem solved all the random crashes.
+
+- word: "join forces"
+  pronunciation: "/dʒɔɪn ˈfɔːr.sɪz/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To come together and work collaboratively to achieve a common goal."
+    bahasa: "Bergabung dan bekerja sama untuk mencapai tujuan bersama."
+  usage: "Used when two or more people or groups decide to collaborate on a task."
+  synonyms:
+    - "team up"
+    - "collaborate"
+    - "work together"
+  examples:
+    workplace:
+      - "The frontend and backend teams decided to join forces to improve the app's performance."
+      - "Let's join forces and get this project done faster."
+    casual:
+      - "The two artists will join forces for a special exhibition."
+      - "We should join forces to organize the community event."
+  related:
+    - word: "pair programming"
+      difference: "'To join forces' is a general term for collaboration. 'Pair programming' is a specific agile software development technique where two programmers work together at one workstation."
+  story: |
+    I was working on the new API, and another developer was building the UI that would consume it. We realized there was a lot of back-and-forth communication. To make things more efficient, we decided to join forces. We sat together for a few days, and it made the integration process much smoother.
+
+- word: "write up"
+  pronunciation: "/raɪt ʌp/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To write something in a complete or finished form, often based on notes or an investigation."
+    bahasa: "Menulis sesuatu dalam bentuk yang lengkap atau final, seringkali berdasarkan catatan atau investigasi."
+  usage: "Commonly used for creating formal documents, reports, or summaries after an event or analysis."
+  synonyms:
+    - "document"
+    - "report"
+    - "summarize in writing"
+  examples:
+    workplace:
+      - "After the meeting, I need to write up the minutes and send them to the team."
+      - "He's going to write up a report on his findings from the user testing."
+    casual:
+      - "She decided to write up her travel experiences in a blog."
+      - "I need to write up my notes from the lecture before I forget everything."
+  related:
+    - word: "jot down"
+      difference: "'To jot down' is to write something quickly and informally. 'To write up' is to create a more formal, finished piece of writing from those notes."
+  story: |
+    After we resolved the production incident, we held a post-mortem meeting to discuss what went wrong. My manager asked me to write up the findings. I spent the afternoon creating a detailed document that included a timeline of the event, the root cause, and the steps we would take to prevent it from happening again.
+
+- word: "in the long run"
+  pronunciation: "/ɪn ðə lɒŋ rʌn/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "Over a long period of time; eventually."
+    bahasa: "Dalam jangka waktu yang lama; pada akhirnya."
+  usage: "Used to talk about the eventual or ultimate result of something, as opposed to the short-term effects."
+  synonyms:
+    - "eventually"
+    - "ultimately"
+    - "down the road"
+  examples:
+    workplace:
+      - "Automating this process will save us a lot of time in the long run."
+      - "Investing in training might seem expensive now, but it will pay off in the long run."
+    casual:
+      - "Eating healthy food is better for you in the long run."
+      - "It's a difficult decision, but it's the right one for us in the long run."
+  related:
+    - word: "short-term"
+      difference: "'In the long run' refers to a distant future outcome, while 'short-term' refers to immediate results or consequences."
+  story: |
+    Our team had a debate about whether to use a quick, easy fix or to refactor a large piece of code. The quick fix would solve the problem now, but refactoring, while more time-consuming upfront, would make the system more stable and easier to maintain. We decided to refactor because it was the better solution in the long run.

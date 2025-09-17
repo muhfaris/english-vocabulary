@@ -1,0 +1,15 @@
+story:
+  title: "a-helping-hand"
+  date: "2025-09-17"
+  text: |
+    My morning was going smoothly until a teammate asked if I could **pitch in** on a bug he was stuck on. "Sure, I can take **a quick look**," I said. What I thought would be a simple fix turned out to be more complex. As I dug into the code, I started to **uncover** a **deeper issue** with how we handle user sessions.
+
+    It was too big for one person to tackle alone, so I suggested we **join forces**. We spent the rest of the afternoon pair programming, and we finally figured out a solid solution. Before calling it a day, I decided to **write up** our findings in the internal wiki. It took some extra time, but I knew that having clear documentation would save us a lot of headaches **in the long run**. It felt good to help out and improve our codebase at the same time.
+  highlighted_words:
+    - "pitch in"
+    - "a quick look"
+    - "uncover"
+    - "deeper issue"
+    - "join forces"
+    - "write up"
+    - "in the long run"
