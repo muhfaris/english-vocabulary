@@ -1,0 +1,15 @@
+story:
+  title: "a-fresh-perspective-on-a-messy-problem"
+  date: "2025-09-17"
+  text: |
+    I started my day ready to tackle a bug that had been in the backlog for weeks. It was related to our oldest and most complex **module**, and no one wanted to touch it. After a few hours of digging through the code, my **frustration** grew. The logic was **tangled**, and every change I made seemed to break something new.
+
+    My manager noticed and suggested I take a short break. "A fresh **perspective** helps," she said. It was good advice. Away from my desk, I re-evaluated my **strategy**. Instead of trying to fix the bug directly, I realized I needed to refactor a small part of the module first.
+
+    When I returned, I had a clear path forward. It wasn't just about fixing the bug anymore; it was about leaving the code in a better state than I found it.
+  highlighted_words:
+    - "module"
+    - "frustration"
+    - "tangled"
+    - "perspective"
+    - "strategy"
