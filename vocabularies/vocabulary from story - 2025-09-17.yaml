@@ -295,3 +295,123 @@
       difference: "'In the long run' refers to a distant future outcome, while 'short-term' refers to immediate results or consequences."
   story: |
     Our team had a debate about whether to use a quick, easy fix or to refactor a large piece of code. The quick fix would solve the problem now, but refactoring, while more time-consuming upfront, would make the system more stable and easier to maintain. We decided to refactor because it was the better solution in the long run.
+
+- word: "module"
+  pronunciation: "/ˈmɒdʒ.uːl/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A part of a software program that contains one or more routines. A separable component of a system."
+    bahasa: "Bagian dari program perangkat lunak yang berisi satu atau lebih rutin. Komponen yang dapat dipisahkan dari suatu sistem."
+  usage: "Used to describe a distinct and independent unit of a larger software system."
+  synonyms:
+    - "component"
+    - "section"
+    - "unit"
+  examples:
+    workplace:
+      - "I'm working on the authentication module this week."
+      - "We need to update the payment module to support a new currency."
+    casual:
+      - "He's building a weather module for his smart mirror project."
+      - "The application is well-designed, with each feature in its own module."
+  related:
+    - word: "microservice"
+      difference: "A 'module' is a part of a single application (a monolith), while a 'microservice' is a small, independent application that can be deployed and scaled on its own."
+  story: |
+    The team decided to break down their large application into smaller, more manageable pieces. Each developer was assigned a specific module to work on, such as the user profile module or the notification module. This made it easier to develop and test features independently.
+
+- word: "frustration"
+  pronunciation: "/frʌˈstreɪ.ʃən/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The feeling of being upset or annoyed as a result of being unable to change or achieve something."
+    bahasa: "Perasaan kesal atau jengkel karena tidak dapat mengubah atau mencapai sesuatu."
+  usage: "Used to describe the feeling of annoyance when faced with a difficult problem or obstacle."
+  synonyms:
+    - "annoyance"
+    - "exasperation"
+    - "irritation"
+  examples:
+    workplace:
+      - "He expressed his frustration with the slow development environment."
+      - "To avoid frustration, let's create a clear plan before we start coding."
+    casual:
+      - "She slammed the book shut in frustration."
+      - "I can hear the frustration in your voice."
+  related:
+    - word: "burnout"
+      difference: "'Frustration' is a temporary feeling of annoyance. 'Burnout' is a more serious, long-term state of emotional and physical exhaustion caused by prolonged stress."
+  story: |
+    After spending a whole day trying to fix a bug, I was filled with frustration. I decided to take a break and go for a walk. When I came back, I was able to look at the problem with a fresh pair of eyes and found the solution in less than an hour.
+
+- word: "tangled"
+  pronunciation: "/ˈtæŋ.ɡəld/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Complicated or confusing; mixed up."
+    bahasa: "Rumit atau membingungkan; campur aduk."
+  usage: "Used to describe something that is complex and difficult to understand, like code with many interconnected parts."
+  synonyms:
+    - "convoluted"
+    - "messy"
+    - "complicated"
+  examples:
+    workplace:
+      - "The legacy code was so tangled that it was hard to make any changes."
+      - "We need to refactor this tangled mess of spaghetti code."
+    casual:
+      - "My headphone wires are all tangled up in my bag."
+      - "She tried to explain the tangled plot of the movie."
+  related:
+    - word: "spaghetti code"
+      difference: "'Tangled' is a general adjective for something complex. 'Spaghetti code' is a specific term for code that is unstructured and difficult to maintain, often because of excessive use of GOTO statements or other poor practices."
+  story: |
+    I was trying to debug an issue in a very old part of our application. The code was so tangled, with functions calling other functions in a confusing way, that it was nearly impossible to follow the logic. It took me two days to untangle it enough to find the bug.
+
+- word: "perspective"
+  pronunciation: "/pəˈspek.tɪv/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A particular way of considering something; a point of view."
+    bahasa: "Cara tertentu dalam mempertimbangkan sesuatu; sudut pandang."
+  usage: "Used to talk about a different way of looking at or thinking about a problem."
+  synonyms:
+    - "viewpoint"
+    - "outlook"
+    - "angle"
+  examples:
+    workplace:
+      - "Let's get a fresh perspective on this problem from the design team."
+      - "From a security perspective, we need to add more validation."
+    casual:
+      - "He has a very positive perspective on life."
+      - "Try to see it from her perspective."
+  related:
+    - word: "paradigm"
+      difference: "A 'perspective' is a way of looking at something. A 'paradigm' is a more fundamental model or framework that shapes how you think about everything in a particular field."
+  story: |
+    We were stuck on a design problem for days. Everyone had a different idea, and we couldn't agree on a solution. Finally, our manager brought in a consultant who had a completely different perspective. Her fresh viewpoint helped us see the problem in a new light and we were able to find a solution that worked for everyone.
+
+- word: "strategy"
+  pronunciation: "/ˈstræt.ə.dʒi/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A plan of action designed to achieve a long-term or overall aim."
+    bahasa: "Rencana tindakan yang dirancang untuk mencapai tujuan jangka panjang atau keseluruhan."
+  usage: "Used to describe a high-level plan for achieving a goal, especially in a complex situation."
+  synonyms:
+    - "plan"
+    - "master plan"
+    - "game plan"
+  examples:
+    workplace:
+      - "Our strategy is to focus on improving the user experience."
+      - "We need to develop a new marketing strategy to reach more customers."
+    casual:
+      - "His strategy for winning the game was to play defensively."
+      - "What's your strategy for getting all your homework done on time?"
+  related:
+    - word: "tactic"
+      difference: "A 'strategy' is the overall plan. A 'tactic' is a specific action or move taken to achieve a part of that plan."
+  story: |
+    The company was facing stiff competition. They decided to develop a new strategy to stay ahead. The strategy involved focusing on a niche market and providing excellent customer service. This new strategy helped them to differentiate themselves from their competitors and attract a loyal customer base.
