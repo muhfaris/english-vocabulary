@@ -1,0 +1,79 @@
+dialogue:
+  - speaker: Ben
+    english: "Hey Alex, any exciting plans for the weekend?"
+    bahasa: "Hai Alex, ada rencana seru untuk akhir pekan?"
+  - speaker: Alex
+    english: "Not really, just planning to chill and maybe work on my side project a bit. You?"
+    bahasa: "Tidak juga, hanya berencana untuk bersantai dan mungkin sedikit mengerjakan proyek sampingan saya. Kamu?"
+  - speaker: Ben
+    english: "Same here. I was thinking of finally tackling the authentication for my mobile app. It's been on the back burner for a while."
+    bahasa: "Sama. Aku berpikir untuk akhirnya menangani otentikasi untuk aplikasi selulerku. Sudah lama tertunda."
+  - speaker: Alex
+    english: "Oh, nice! What stack are you using for that?"
+    bahasa: "Oh, bagus! Kamu pakai tumpukan teknologi apa untuk itu?"
+  - speaker: Ben
+    english: "I'm using Firebase Authentication. It seems straightforward, but I've been procrastinating on it."
+    bahasa: "Aku menggunakan Otentikasi Firebase. Kelihatannya mudah, tapi aku menunda-nundanya."
+  - speaker: Alex
+    english: "I've used Firebase before. It's pretty solid. Let me know if you run into any snags."
+    bahasa: "Aku pernah menggunakan Firebase sebelumnya. Cukup solid. Beri tahu aku jika kamu mengalami kendala."
+  - speaker: Ben
+    english: "Thanks, I appreciate that. What about your project? What's it about?"
+    bahasa: "Terima kasih, aku hargai itu. Bagaimana dengan proyekmu? Tentang apa?"
+  - speaker: Alex
+    english: "It's a small web app to track personal expenses. I'm building it with Django and React."
+    bahasa: "Ini adalah aplikasi web kecil untuk melacak pengeluaran pribadi. Aku membuatnya dengan Django dan React."
+  - speaker: Ben
+    english: "That sounds cool. I've always wanted to get my hands dirty with Django."
+    bahasa: "Keren. Aku selalu ingin mencoba langsung dengan Django."
+  - speaker: Alex
+    english: "It's been a great learning experience. It helps me keep my skills sharp outside of our day-to-day tasks."
+    bahasa: "Ini pengalaman belajar yang luar biasa. Ini membantuku menjaga keterampilanku tetap terasah di luar tugas sehari-hari kami."
+  - speaker: Ben
+    english: "Definitely. It’s a good way to explore new tech without the pressure of a deadline."
+    bahasa: "Tentu saja. Ini cara yang bagus untuk menjelajahi teknologi baru tanpa tekanan tenggat waktu."
+  - speaker: Alex
+    english: "Exactly. Well, have a great weekend, Ben!"
+    bahasa: "Tepat sekali. Selamat berakhir pekan, Ben!"
+  - speaker: Ben
+    english: "You too, Alex! Good luck with the expense tracker."
+    bahasa: "Kamu juga, Alex! Semoga berhasil dengan pelacak pengeluarannya."
+
+expressions:
+  - phrase: "Chill"
+    meaning_english: "To relax or take it easy."
+    meaning_bahasa: "Bersantai"
+  - phrase: "Side project"
+    meaning_english: "A personal project worked on outside of one's main job."
+    meaning_bahasa: "Proyek sampingan"
+  - phrase: "On the back burner"
+    meaning_english: "Postponed or given low priority."
+    meaning_bahasa: "Dikesampingkan"
+  - phrase: "Straightforward"
+    meaning_english: "Easy to understand or do."
+    meaning_bahasa: "Sederhana"
+  - phrase: "Procrastinating"
+    meaning_english: "Delaying or postponing action."
+    meaning_bahasa: "Menunda-nunda"
+  - phrase: "Run into any snags"
+    meaning_english: "Encounter any problems or difficulties."
+    meaning_bahasa: "Menemui kendala"
+  - phrase: "Get my hands dirty"
+    meaning_english: "To get involved in the practical work of something."
+    meaning_bahasa: "Terlibat langsung"
+  - phrase: "Keep my skills sharp"
+    meaning_english: "To maintain and improve one's abilities."
+    meaning_bahasa: "Menjaga kemampuan tetap terasah"
+  - phrase: "Day-to-day tasks"
+    meaning_english: "Routine jobs or activities."
+    meaning_bahasa: "Tugas sehari-hari"
+
+questions:
+  - q: "What is Ben's plan for the weekend?"
+    a: "He plans to work on the authentication for his mobile app."
+  - q: "What technology is Ben using for authentication?"
+    a: "He is using Firebase Authentication."
+  - q: "What is Alex's side project about?"
+    a: "It's a web app to track personal expenses built with Django and React."
+  - q: "Why does Alex work on a side project?"
+    a: "To keep his skills sharp and learn new technologies."
