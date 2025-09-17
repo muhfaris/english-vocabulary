@@ -1,0 +1,69 @@
+dialogue:
+  - speaker: Leo
+    english: "Maria, have you seen the latest ticket? The payment gateway is failing for some users."
+    bahasa: "Maria, apakah kamu sudah melihat tiket terbaru? Gerbang pembayaran gagal untuk beberapa pengguna."
+  - speaker: Maria
+    english: "Yeah, I'm looking at the logs now. It seems to be an issue with the new API version we deployed yesterday."
+    bahasa: "Ya, aku sedang melihat log sekarang. Sepertinya ini masalah dengan versi API baru yang kita terapkan kemarin."
+  - speaker: Leo
+    english: "This is critical. We need to get a hotfix out ASAP. What's the plan?"
+    bahasa: "Ini kritis. Kita harus segera merilis hotfix. Apa rencananya?"
+  - speaker: Maria
+    english: "I've identified the problematic commit. It seems a small change in the payload structure is causing the validation to fail."
+    bahasa: "Aku sudah mengidentifikasi komit yang bermasalah. Sepertinya perubahan kecil dalam struktur payload menyebabkan validasi gagal."
+  - speaker: Leo
+    english: "So, a quick revert should do the trick?"
+    bahasa: "Jadi, revert cepat seharusnya bisa menyelesaikan masalah?"
+  - speaker: Maria
+    english: "Not exactly. Reverting it would also undo the security patch that was part of the same deployment. We need to be careful."
+    bahasa: "Tidak juga. Mengembalikannya juga akan membatalkan patch keamanan yang merupakan bagian dari penerapan yang sama. Kita harus hati-hati."
+  - speaker: Leo
+    english: "I see. So we need to isolate the bad change and patch it. How long do you think that will take?"
+    bahasa: "Aku mengerti. Jadi kita perlu mengisolasi perubahan yang buruk dan menambalnya. Menurutmu berapa lama waktu yang dibutuhkan?"
+  - speaker: Maria
+    english: "I'm already working on a fix. I think I can have a PR ready for review in the next hour. It's a one-line change."
+    bahasa: "Aku sudah mengerjakan perbaikannya. Kurasa aku bisa menyiapkan PR untuk ditinjau dalam satu jam ke depan. Ini adalah perubahan satu baris."
+  - speaker: Leo
+    english: "Great. I'll be on standby to review it as soon as it's up. We need to get this deployed before it affects more users."
+    bahasa: "Bagus. Aku akan bersiap untuk meninjaunya begitu sudah siap. Kita perlu menerapkan ini sebelum memengaruhi lebih banyak pengguna."
+  - speaker: Maria
+    english: "Agreed. I'll ping you on Slack the moment the PR is created."
+    bahasa: "Setuju. Aku akan menghubungimu di Slack begitu PR dibuat."
+  - speaker: Leo
+    english: "Thanks, Maria. Let's get this fire put out."
+    bahasa: "Terima kasih, Maria. Mari kita selesaikan masalah ini."
+  - speaker: Maria
+    english: "On it."
+    bahasa: "Sedang dikerjakan."
+
+expressions:
+  - phrase: "get a hotfix out ASAP"
+    meaning_english: "to release a critical bug fix as soon as possible"
+    meaning_bahasa: "merilis perbaikan bug kritis sesegera mungkin"
+  - phrase: "problematic commit"
+    meaning_english: "the specific version control commit that introduced the issue"
+    meaning_bahasa: "komit kontrol versi spesifik yang memperkenalkan masalah"
+  - phrase: "do the trick"
+    meaning_english: "to be a simple and effective solution"
+    meaning_bahasa: "menjadi solusi yang sederhana dan efektif"
+  - phrase: "isolate the bad change"
+    meaning_english: "to separate the specific code causing the problem from other code"
+    meaning_bahasa: "memisahkan kode spesifik yang menyebabkan masalah dari kode lain"
+  - phrase: "on standby"
+    meaning_english: "ready to act or be used if needed"
+    meaning_bahasa: "siap untuk bertindak atau digunakan jika diperlukan"
+  - phrase: "get this fire put out"
+    meaning_english: "a metaphor for solving an urgent and critical problem"
+    meaning_bahasa: "metafora untuk menyelesaikan masalah yang mendesak dan kritis"
+
+questions:
+  - q: "What is the critical issue that Leo and Maria are discussing?"
+    a: "The payment gateway is failing for some users after a recent deployment."
+  - q: "What does Maria believe is the cause of the issue?"
+    a: "A small change in the payload structure from a new API version is causing validation to fail."
+  - q: "Why can't they simply revert the last deployment?"
+    a: "Because the deployment also included an important security patch that would be undone by a revert."
+  - q: "What is Maria's proposed solution?"
+    a: "She plans to isolate the problematic line of code and create a specific fix, which she expects to have ready for review within an hour."
+  - q: "What is Leo's role in this process?"
+    a: "Leo will be on standby to quickly review Maria's pull request (PR) so the hotfix can be deployed without delay."
