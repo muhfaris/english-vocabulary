@@ -1,0 +1,249 @@
+- word: "Conundrum"
+  pronunciation: "/kəˈnʌn.drəm/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A confusing and difficult problem or question."
+    bahasa: "Teka-teki atau masalah yang membingungkan dan sulit."
+  usage: "Use 'conundrum' when you face a problem that is not just technically hard, but also confusing and has no obvious solution. It’s a step above 'challenge' or 'problem' and implies a real puzzle."
+  synonyms:
+    - "puzzle"
+    - "riddle"
+  examples:
+    workplace:
+      - "The memory leak is a real conundrum; it only happens on certain devices and we can't figure out why."
+      - "We're facing a design conundrum: should we optimize for performance or for ease of use?"
+    casual:
+      - "Choosing between two great job offers was a pleasant conundrum."
+      - "Figuring out how to fit all this furniture in my tiny apartment is quite a conundrum."
+  related:
+    - word: "Dilemma"
+      difference: "A 'dilemma' is a situation where you have to choose between two or more undesirable options. A 'conundrum' is a complex problem that's simply hard to solve."
+    - word: "Problem"
+      difference: "'Problem' is a general term for any difficulty. 'Conundrum' is more specific, emphasizing the confusing or puzzling nature of the problem."
+  story: |
+    In our weekly sync, Alex presented a tough issue. "I've hit a real conundrum," he said. "Our application works perfectly in all modern browsers, but it crashes on a specific older version of Internet Explorer that one of our major clients still uses. The usual fixes don't work, and the error messages are cryptic. It's a puzzle that defies our standard debugging playbook."
+
+- word: "Rapport"
+  pronunciation: "/ræˈpɔːr/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A close and harmonious relationship in which the people or groups concerned understand each other's feelings or ideas and communicate well."
+    bahasa: "Hubungan yang akrab dan harmonis di mana orang-orang atau kelompok saling memahami perasaan dan ide satu sama lain dan berkomunikasi dengan baik."
+  usage: "Use 'rapport' to describe the quality of communication and mutual understanding within a team or with a client. Good rapport is essential for effective collaboration."
+  synonyms:
+    - "bond"
+    - "affinity"
+  examples:
+    workplace:
+      - "She is excellent with clients because she builds rapport so quickly."
+      - "Our team has a great rapport, which makes pair programming sessions very productive."
+    casual:
+      - "He has a wonderful rapport with his students."
+      - "It's important to build a good rapport with your new neighbors."
+  related:
+    - word: "Relationship"
+      difference: "'Relationship' is a very general term for a connection between people. 'Rapport' specifically refers to a positive, harmonious relationship with good communication and mutual understanding."
+    - word: "Synergy"
+      difference: "'Synergy' is about the combined output of a group being greater than the sum of individual efforts. 'Rapport' is about the quality of the interpersonal connection that often leads to synergy."
+  story: |
+    Our new project manager, Sarah, spent her first week just talking to everyone on the team. She didn't ask about deadlines or progress. Instead, she asked about our hobbies and what we enjoyed about our work. By doing this, she built a strong rapport with the entire team. When challenges arose later, communication was easy and open because that foundation of trust was already there.
+
+- word: "Accountability"
+  pronunciation: "/əˌkaʊn.təˈbɪl.ə.ti/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The fact or condition of being accountable; responsibility."
+    bahasa: "Akuntabilitas; fakta atau kondisi di mana seseorang bertanggung jawab."
+  usage: "Talk about 'accountability' when discussing ownership and responsibility for tasks, projects, or outcomes. It's a key concept in professional environments, especially in agile teams where ownership is shared."
+  synonyms:
+    - "responsibility"
+    - "liability"
+  examples:
+    workplace:
+      - "Having a clear code owner for each module increases accountability."
+      - "Our team culture promotes accountability; if you break the build, you are expected to fix it."
+    casual:
+      - "He showed great accountability by admitting his mistake and apologizing."
+      - "Teaching children accountability for their chores is important."
+  related:
+    - word: "Responsibility"
+      difference: "'Responsibility' is about having a duty to do something. 'Accountability' is about answering for the outcome of that duty. You can share responsibility, but accountability often lies with one person or a specific team."
+    - word: "Ownership"
+      difference: "'Ownership' is a proactive feeling of responsibility for something. 'Accountability' is the state of being held responsible, especially after the fact. A strong sense of ownership leads to accountability."
+  story: |
+    During our retrospective, we discussed a bug that made it to production. "This isn't about placing blame," our manager said, "it's about accountability. We need a process where the person who writes the code and the person who reviews it both feel accountable for its quality. Let's brainstorm how we can improve our review process to catch these things earlier."
+
+- word: "Stagnant"
+  pronunciation: "/ˈstæɡ.nənt/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Showing no activity or growth; dull and sluggish."
+    bahasa: "Stagnan; tidak menunjukkan aktivitas atau pertumbuhan; lesu dan lamban."
+  usage: "Use 'stagnant' to describe a project that has lost momentum, a codebase that isn't being improved, or even skills that aren't being updated. It carries a slightly negative connotation of something that should be moving but isn't."
+  synonyms:
+    - "stalled"
+    - "dormant"
+  examples:
+    workplace:
+      - "The project has been stagnant for weeks because we are waiting for the design mockups."
+      - "If you don't learn new technologies, your career can become stagnant."
+    casual:
+      - "The air in the room was hot and stagnant."
+      - "The economy has been stagnant for the past year."
+  related:
+    - word: "Stalled"
+      difference: "'Stalled' implies that something was moving and then stopped, often temporarily. 'Stagnant' implies a longer-term state of inactivity or lack of progress."
+    - word: "Idle"
+      difference: "'Idle' means not active or in use, but it doesn't necessarily have a negative meaning (e.g., an idle server). 'Stagnant' always implies a negative state of decay or lack of progress."
+  story: |
+    "I feel like our main application's codebase has become stagnant," I mentioned to my tech lead. "We haven't introduced any new patterns or refactored old code in over a year. We're just adding small patches. I'm worried we're accumulating technical debt and not innovating." My lead nodded, agreeing it was time to prioritize a clean-up sprint.
+
+- word: "Modular"
+  pronunciation: "/ˈmɒdʒ.ə.lər/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Consisting of separate independent parts or units."
+    bahasa: "Modular; terdiri dari bagian atau unit independen yang terpisah."
+  usage: "A very common and positive word in software engineering. Use it to describe a well-designed system where different components (modules) are independent and can be developed, replaced, or upgraded without affecting the rest of the system."
+  synonyms:
+    - "component-based"
+    - "decoupled"
+  examples:
+    workplace:
+      - "We are refactoring our old application to have a more modular architecture."
+      - "Thanks to its modular design, we could easily swap out the payment provider."
+    casual:
+      - "I bought some modular shelving so I can rearrange it later."
+      - "The new curriculum has a modular structure, allowing students to choose different subjects."
+  related:
+    - word: "Monolithic"
+      difference: "'Monolithic' is the opposite of modular. A monolithic application is built as a single, indivisible unit, making it harder to change and scale."
+    - word: "Component"
+      difference: "A 'component' is one of the individual parts of a modular system. 'Modular' is the adjective that describes the system's design."
+  story: |
+    During an architecture review, the lead architect praised the team's work. "What I love about this design is how modular it is," she said. "The authentication service is completely separate from the notification service. If we need to upgrade our authentication logic in the future, we can do it without touching any other part of the system. This is a great example of sustainable design."
+
+- word: "Intricate"
+  pronunciation: "/ˈɪn.trɪ.kət/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Very complicated or detailed."
+    bahasa: "Rumit atau mendetail."
+  usage: "Use 'intricate' to describe code, logic, or a system that has many small, interconnected parts. It implies complexity that requires careful attention to understand."
+  synonyms:
+    - "complex"
+    - "sophisticated"
+  examples:
+    workplace:
+      - "The algorithm for our recommendation engine is highly intricate."
+      - "He wrote an intricate script to automate the entire deployment process."
+    casual:
+      - "The watch was a beautiful piece of craftsmanship with an intricate design."
+      - "The movie had an intricate plot that was hard to follow at times."
+  related:
+    - word: "Complex"
+      difference: "'Complex' means consisting of many different and connected parts. 'Intricate' is similar but often emphasizes the detailed and finely-wrought nature of the complexity, like a delicate pattern."
+    - word: "Complicated"
+      difference: "'Complicated' can sometimes have a negative connotation, suggesting something is difficult to understand, perhaps unnecessarily so. 'Intricate' is more neutral or even positive, suggesting impressive detail."
+  story: |
+    "I'm finally starting to understand the legacy data migration script," said a junior developer. "It's so intricate! It handles about twenty different edge cases and has all these conditional checks to ensure data integrity. It's amazing that the original developer thought of all these details."
+
+- word: "Reactive"
+  pronunciation: "/riˈæk.tɪv/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Showing a response to a stimulus; acting in response to a situation rather than creating or controlling it."
+    bahasa: "Reaktif; menunjukkan respons terhadap rangsangan; bertindak sebagai tanggapan terhadap suatu situasi daripada menciptakan atau mengendalikannya."
+  usage: "Often used as the opposite of 'proactive'. A reactive team waits for problems (like bugs or outages) to happen before fixing them. While sometimes necessary, the goal is usually to be more proactive."
+  synonyms:
+    - "responsive"
+    - "passive"
+  examples:
+    workplace:
+      - "Our support team is too reactive; we need to find ways to prevent issues before they occur."
+      - "Instead of a reactive approach to bugs, let's invest more in automated testing."
+    casual:
+      - "His reactive management style means he only deals with problems when they become urgent."
+      - "The city's reactive approach to traffic means they only build new roads after there's already a crisis."
+  related:
+    - word: "Proactive"
+      difference: "'Proactive' is the opposite. It means taking initiative to control a situation by causing something to happen, rather than waiting to respond after it happens."
+    - word: "Responsive"
+      difference: "'Responsive' usually has a positive connotation, meaning you react quickly and well to something (e.g., 'a responsive UI'). 'Reactive' is often neutral or negative, implying a lack of foresight."
+  story: |
+    In our team meeting, our manager said, "For the last quarter, we've been in a very reactive mode—constantly firefighting and fixing production bugs. For this quarter, I want us to shift our focus. Let's dedicate time to improving our monitoring and alerting so we can become more proactive and catch problems before our users do."
+
+- word: "Well-being"
+  pronunciation: "/ˈwelˌbiː.ɪŋ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The state of being comfortable, healthy, or happy."
+    bahasa: "Kesejahteraan; keadaan nyaman, sehat, atau bahagia."
+  usage: "A very important word in modern workplaces. Use it to talk about the overall health and happiness of team members, which includes mental health, work-life balance, and job satisfaction."
+  synonyms:
+    - "welfare"
+    - "health"
+  examples:
+    workplace:
+      - "Our company offers flexible working hours to promote employee well-being."
+      - "A good manager should care about the well-being of their team, not just their productivity."
+    casual:
+      - "Regular exercise is essential for your physical and mental well-being."
+      - "She took a vacation to focus on her well-being after a stressful year."
+  related:
+    - word: "Happiness"
+      difference: "'Happiness' is an emotion that can be temporary. 'Well-being' is a more holistic and stable state of being healthy and content in various aspects of life."
+    - word: "Health"
+      difference: "'Health' typically refers to physical and mental condition. 'Well-being' is broader and includes other factors like financial stability, social connections, and sense of purpose."
+  story: |
+    After a particularly tough project with a lot of overtime, our director held a special meeting. "I know the last few weeks have been intense," she said. "I want to thank you for your hard work, but I also want to emphasize the importance of your well-being. Please take some time off to recharge. Your long-term health is more important than any short-term deadline."
+
+- word: "Vigilant"
+  pronunciation: "/ˈvɪdʒ.ə.lənt/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Keeping careful watch for possible danger or difficulties."
+    bahasa: "Waspada; mengawasi dengan cermat terhadap kemungkinan bahaya atau kesulitan."
+  usage: "A great word for describing the state of mind required during critical operations like a major deployment, a production release, or when being on-call. It implies active and careful observation."
+  synonyms:
+    - "watchful"
+    - "alert"
+  examples:
+    workplace:
+      - "The on-call engineer must remain vigilant for any system alerts over the weekend."
+      - "After the security breach, the entire team became more vigilant about suspicious emails."
+    casual:
+      - "You have to be vigilant when crossing that busy street."
+      - "The mother was vigilant in watching over her sick child."
+  related:
+    - word: "Careful"
+      difference: "'Careful' is a general term for avoiding risk. 'Vigilant' is more specific and intense, suggesting you are actively looking for signs of a specific threat or problem."
+    - word: "Alert"
+      difference: "'Alert' means you are awake and quick to notice things. 'Vigilant' implies being alert over a sustained period of time because you expect trouble."
+  story: |
+    "Okay team, the deployment to production is complete," the tech lead announced. "Everything looks stable, but let's stay vigilant for the next hour. Keep a close eye on the performance dashboards and the error logs. If you see anything unusual, no matter how small, speak up immediately. We need to be watchful for any unexpected side effects."
+
+- word: "Articulate"
+  pronunciation: "/ɑːrˈtɪk.jə.leɪt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To express an idea or feeling fluently and coherently."
+    bahasa: "Mengartikulasikan; mengungkapkan ide atau perasaan dengan lancar dan koheren."
+  usage: "Use 'articulate' when you need to praise someone's ability to explain complex topics clearly, or to describe the need for clear communication in specs, meetings, or documentation."
+  synonyms:
+    - "express"
+    - "voice"
+  examples:
+    workplace:
+      - "She was able to articulate the technical challenges to the non-technical stakeholders very effectively."
+      - "You need to be able to articulate your design decisions clearly during a code review."
+    casual:
+      - "He's a great speaker, always very articulate and persuasive."
+      - "I'm trying to articulate my feelings about this, but it's difficult."
+  related:
+    - word: "Explain"
+      difference: "'Explain' means to make something clear by giving details. 'Articulate' focuses more on the skill and fluency of the expression itself. You can explain something poorly, but articulating it implies you're doing it well."
+    - word: "Express"
+      difference: "'Express' is a general term for conveying a thought or feeling. 'Articulate' is a more formal word that suggests a well-structured and clear expression, especially of complex ideas."
+  story: |
+    During a presentation, a new junior developer was struggling to explain his proposed solution. He knew the code worked, but couldn't find the right words. His tech lead, Maria, gently stepped in. "What you've built is great," she said. "Let's work together on how to articulate the benefits. It's not just about writing good code, but also about being able to explain why it's good. Being articulate helps build confidence in your work."
