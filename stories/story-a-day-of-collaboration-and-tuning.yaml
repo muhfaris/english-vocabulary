@@ -1,0 +1,17 @@
+story:
+  title: "a-day-of-collaboration-and-tuning"
+  date: "2025-09-18"
+  text: |
+    It was Wednesday morning, and my team was focused on **fine-tuning** the new checkout feature before the big release next week. I started my day by grabbing a cup of coffee and reviewing the latest feedback from the QA team. Most of it was minor UI tweaks, but then I **hit a snag**. An edge case with a specific discount code was causing the final price to be calculated incorrectly.
+
+    I spent about an hour trying to debug it alone before deciding I needed **a fresh pair of eyes**. I pinged my colleague, David, and we worked **in tandem** to trace the logic. He helped me **come up with** a simpler way to apply discounts, which was much cleaner.
+
+    After we managed to **sort out** the bug, I spent the rest of the afternoon applying the other small changes. It took a while to **get the hang of** the new styling library we were using, but by the end of the day, everything was working smoothly. It felt good to see all the pieces coming together. The feature was finally looking polished and ready for our users.
+  highlighted_words:
+    - "fine-tuning"
+    - "hit a snag"
+    - "a fresh pair of eyes"
+    - "in tandem"
+    - "come up with"
+    - "sort out"
+    - "get the hang of"
