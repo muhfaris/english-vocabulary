@@ -1,0 +1,62 @@
+dialogue:
+  - speaker: Maria
+    english: "Leo, have you seen the staging environment? All the payment processing tests are failing."
+    bahasa: "Leo, apakah kamu sudah lihat lingkungan staging? Semua tes pemrosesan pembayaran gagal."
+  - speaker: Leo
+    english: "What? They were all green this morning. I haven't deployed anything new."
+    bahasa: "Apa? Tadi pagi semuanya hijau. Aku belum men-deploy sesuatu yang baru."
+  - speaker: Maria
+    english: "Me neither. I'm looking at the logs now... it seems we're getting a 400 Bad Request from the payment gateway's API."
+    bahasa: "Aku juga tidak. Aku sedang melihat log sekarang... sepertinya kita mendapatkan 400 Bad Request dari API gateway pembayaran."
+  - speaker: Leo
+    english: "A 400? That's a client error. Did our request format change?"
+    bahasa: "400? Itu kesalahan klien. Apakah format permintaan kita berubah?"
+  - speaker: Maria
+    english: "No, but it looks like their response format did. They've deprecated the 'chargeId' field and replaced it with 'transaction_id'."
+    bahasa: "Bukan, tapi sepertinya format respons mereka yang berubah. Mereka sudah men-deprecate field 'chargeId' dan menggantinya dengan 'transaction_id'."
+  - speaker: Leo
+    english: "Are you serious? They pushed a breaking change without any version bump or announcement? That's a huge oversight on their part."
+    bahasa: "Serius? Mereka merilis breaking change tanpa menaikkan versi atau pengumuman? Itu kelalaian besar di pihak mereka."
+  - speaker: Maria
+    english: "Tell me about it. Our entire checkout flow is broken because of this. We need to roll out a hotfix, ASAP."
+    bahasa: "Tentu saja. Seluruh alur checkout kita rusak karena ini. Kita harus segera merilis hotfix."
+  - speaker: Leo
+    english: "Alright, I'll start working on a patch. I just need to update the data model and the corresponding logic."
+    bahasa: "Baiklah, aku akan mulai mengerjakan patch. Aku hanya perlu memperbarui model data dan logika yang terkait."
+  - speaker: Maria
+    english: "Okay. While you do that, I'll check their official status page and see if they've posted anything about it. This is going to be a long day."
+    bahasa: "Oke. Sambil kamu mengerjakan itu, aku akan memeriksa halaman status resmi mereka dan melihat apakah mereka sudah mem-posting sesuatu tentang ini. Ini akan menjadi hari yang panjang."
+  - speaker: Leo
+    english: "No kidding. Let's sync up in an hour to review the fix before deploying."
+    bahasa: "Tentu saja. Mari kita sinkronisasi satu jam lagi untuk meninjau perbaikannya sebelum men-deploy."
+  - speaker: Maria
+    english: "Sounds like a plan. I'll also draft an incident report for our internal stakeholders."
+    bahasa: "Terdengar bagus. Aku juga akan membuat draf laporan insiden untuk para pemangku kepentingan internal kita."
+  - speaker: Leo
+    english: "Good thinking. Let's get this fire put out."
+    bahasa: "Ide bagus. Mari kita selesaikan masalah ini."
+
+expressions:
+  - phrase: "All green"
+    meaning_english: "A term used in software testing to indicate that all tests have passed successfully."
+    meaning_bahasa: "Istilah yang digunakan dalam pengujian perangkat lunak untuk menunjukkan bahwa semua tes telah berhasil lulus."
+  - phrase: "Breaking change"
+    meaning_english: "An alteration to a component of a software system that is not backward-compatible with earlier versions."
+    meaning_bahasa: "Perubahan pada komponen sistem perangkat lunak yang tidak kompatibel dengan versi sebelumnya."
+  - phrase: "Oversight on their part"
+    meaning_english: "A mistake or failure to do something, attributable to them."
+    meaning_bahasa: "Kesalahan atau kelalaian yang disebabkan oleh mereka."
+  - phrase: "Roll out a hotfix"
+    meaning_english: "To quickly deploy a patch to fix a critical issue in a live production environment."
+    meaning_bahasa: "Men-deploy patch dengan cepat untuk memperbaiki masalah kritis di lingkungan produksi yang sedang berjalan."
+  - phrase: "Put out the fire"
+    meaning_english: "An idiom for dealing with an urgent problem or crisis."
+    meaning_bahasa: "Sebuah idiom untuk menangani masalah atau krisis yang mendesak."
+
+questions:
+  - q: "What was the initial problem Maria noticed?"
+    a: "All the payment processing tests were failing in the staging environment."
+  - q: "What was the root cause of the problem?"
+    a: "The third-party payment gateway API had a breaking change; they replaced the 'chargeId' field with 'transaction_id' without notice."
+  - q: "What was the immediate plan to resolve the issue?"
+    a: "Leo would work on a patch to adapt to the API change, while Maria would check for official announcements and prepare an incident report."
