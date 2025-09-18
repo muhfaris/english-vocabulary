@@ -1,0 +1,219 @@
+- word: "deployment"
+  pronunciation: "/dɪˈplɔɪmənt/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The process of making a software system or update available for use."
+    bahasa: "Proses membuat sistem perangkat lunak atau pembaruan tersedia untuk digunakan."
+  usage: "Use this term when referring to the release of code to an environment, such as staging or production."
+  synonyms:
+    - "release"
+    - "rollout"
+  examples:
+    workplace:
+      - "The deployment to production is scheduled for Friday at 10 PM."
+      - "We had to rollback the last deployment due to a critical bug."
+    casual:
+      - "(Not commonly used in this context)"
+  related:
+    - word: "release"
+      difference: "'Release' can refer to the new version of the software itself, while 'deployment' is the action of putting it into an environment."
+  story: |
+    The team practiced the deployment process several times in the staging environment to ensure everything would go smoothly on the production launch day.
+- word: "stick to the plan"
+  pronunciation: "/stɪk tu ðə plæn/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To continue to follow a course of action that was decided on earlier."
+    bahasa: "Tetap berpegang pada rencana; terus mengikuti jalur tindakan yang telah diputuskan sebelumnya."
+  usage: "Use this phrase to emphasize the importance of not deviating from an agreed-upon strategy or schedule."
+  synonyms:
+    - "follow the plan"
+    - "stay the course"
+  examples:
+    workplace:
+      - "We have a tight deadline, so we need to stick to the plan and avoid any distractions."
+      - "Despite the new feature ideas, the team decided to stick to the plan for this sprint to ensure a stable release."
+    casual:
+      - "I'm trying to save money, so I need to stick to my budget."
+      - "If we want to reach the campsite before dark, we have to stick to the trail map."
+  related:
+    - word: "adhere to"
+      difference: "'Adhere to' is a more formal way of saying 'stick to'. You might see it in official documents or contracts."
+  story: |
+    The team had a clear roadmap for the quarter. In the second month, a few engineers suggested exploring a new, trendy JavaScript framework. The tech lead reminded everyone that while innovation was good, they had committed to deliverables. They needed to stick to the plan to meet their goals and could explore the new framework in the next quarter's innovation sprint.
+- word: "change request"
+  pronunciation: "/tʃeɪndʒ rɪˈkwɛst/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A formal proposal to alter a product, system, or project from its originally planned scope."
+    bahasa: "Permintaan perubahan; proposal formal untuk mengubah produk, sistem, atau proyek dari ruang lingkup yang direncanakan semula."
+  usage: "Use this term in a project management context when a stakeholder wants to add, remove, or modify features or requirements after the initial plan has been agreed upon."
+  synonyms:
+    - "modification proposal"
+    - "scope change"
+  examples:
+    workplace:
+      - "We received a change request from the marketing team to add social media sharing buttons."
+      - "Every change request has to be evaluated for its impact on the project's timeline and budget."
+    casual:
+      - "(Not commonly used in casual conversation, it's a formal term)"
+  related:
+    - word: "scope creep"
+      difference: "A 'change request' is a formal process to manage changes. 'Scope creep' is what happens when changes are added in an uncontrolled way, leading to the project growing beyond its original boundaries."
+  story: |
+    During the final week of the sprint, a change request came in from the product owner. He wanted to change the color scheme of the entire user interface. The development team had to assess the impact, estimate the extra work, and get approval before starting on it. It showed how a seemingly small change can have a big impact.
+- word: "throw a curveball"
+  pronunciation: "/θroʊ ə ˈkɜːrvbɔːl/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To surprise someone with something unexpected that is difficult to deal with."
+    bahasa: "Memberikan kejutan yang tidak terduga dan sulit untuk dihadapi."
+  usage: "Use this phrase when an unexpected problem or situation arises that disrupts a plan."
+  synonyms:
+    - "catch someone off guard"
+    - "surprise"
+  examples:
+    workplace:
+      - "The client threw a curveball by requesting a major design change right before the launch."
+      - "Just when we thought we were ready for deployment, the security team threw a curveball with a new compliance requirement."
+    casual:
+      - "I was all set for a quiet weekend, but my friends threw a curveball and planned a surprise party."
+      - "The weather threw a curveball on our picnic plans; it started raining heavily."
+  related:
+    - word: "blindsided"
+      difference: "'Blindsided' is similar but often implies that the person was completely unaware and unprepared, whereas 'throwing a curveball' can sometimes be anticipated, even if it's difficult."
+  story: |
+    We were two days away from the feature freeze when the product manager threw a curveball. He told us that a competitor had just launched a similar feature, so we needed to add three new functionalities to ours to stay competitive. The team had to scramble and reprioritize everything.
+- word: "capacity"
+  pronunciation: "/kəˈpæsəti/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The maximum amount that something can contain or produce. In a team context, the amount of work a team can complete in a given time."
+    bahasa: "Kapasitas; jumlah maksimum yang dapat ditampung atau dihasilkan oleh sesuatu. Dalam konteks tim, jumlah pekerjaan yang dapat diselesaikan oleh tim dalam waktu tertentu."
+  usage: "Used in sprint planning to determine how many tasks or story points a team can realistically commit to."
+  synonyms:
+    - "bandwidth"
+    - "workload capability"
+  examples:
+    workplace:
+      - "We can't take on any more work this sprint; the team is at full capacity."
+      - "During sprint planning, we calculate our capacity based on available developer days."
+    casual:
+      - "The stadium has a seating capacity of 50,000."
+      - "I don't have the mental capacity to deal with this right now."
+  related:
+    - word: "velocity"
+      difference: "'Capacity' is the planned amount of work for an upcoming sprint. 'Velocity' is the historical average of work completed in past sprints, and is used to help forecast future capacity."
+  story: |
+    During the retrospective, the team realized they had consistently overestimated their capacity. They agreed to be more conservative in the next sprint planning session to ensure they could deliver on their commitments without burning out.
+- word: "negotiate"
+  pronunciation: "/nɪˈɡoʊʃieɪt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To have a formal discussion with someone in order to reach an agreement."
+    bahasa: "Bernegosiasi; berdiskusi secara formal dengan seseorang untuk mencapai kesepakatan."
+  usage: "Use this verb when you need to discuss and agree on terms, conditions, or a course of action, especially when there are differing opinions or interests."
+  synonyms:
+    - "discuss terms"
+    - "bargain"
+  examples:
+    workplace:
+      - "We had to negotiate the project timeline with the stakeholders to set realistic expectations."
+      - "As a team lead, you often have to negotiate for more resources or a deadline extension."
+    casual:
+      - "He tried to negotiate a better price for the car."
+      - "My kids always try to negotiate their bedtime on weekends."
+  related:
+    - word: "compromise"
+      difference: "'Negotiate' is the process of discussion, while 'compromise' is an outcome of that negotiation where both sides make concessions."
+    - word: "discuss"
+      difference: "'Discuss' is a more general term for talking about something. 'Negotiate' is more specific and implies a goal of reaching an agreement."
+  story: |
+    Our team was assigned a new project with a very tight deadline. Our senior engineer knew it wasn't feasible. She scheduled a meeting with the project manager to negotiate the scope. She presented data on our current workload and successfully convinced him to move some non-essential features to the next quarter.
+- word: "trade-off"
+  pronunciation: "/ˈtreɪd ɒf/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A situation in which you balance two opposing situations or qualities, accepting a disadvantage in one area to gain an advantage in another."
+    bahasa: "Situasi di mana Anda menyeimbangkan dua situasi atau kualitas yang berlawanan, menerima kerugian di satu area untuk mendapatkan keuntungan di area lain."
+  usage: "Used when making decisions that involve balancing competing priorities, such as speed vs. quality, or features vs. stability."
+  synonyms:
+    - "compromise"
+    - "exchange"
+  examples:
+    workplace:
+      - "We made a trade-off: we launched with fewer features to meet the deadline."
+      - "There is often a trade-off between performance and code readability."
+    casual:
+      - "He made a trade-off between a higher salary and a shorter commute."
+      - "Living in the city involves a trade-off between convenience and cost."
+  related:
+    - word: "compromise"
+      difference: "A 'compromise' is an agreement reached by mutual concessions. A 'trade-off' is the act of giving up one thing to get another, which is often a component of reaching a compromise."
+  story: |
+    The product manager wanted a beautiful, complex animation on the new landing page. The engineers explained that building it would take an extra week. The trade-off was clear: a simpler animation to meet the original launch date, or a complex one that would delay it. They chose the simpler one.
+- word: "sprint"
+  pronunciation: "/sprɪnt/"
+  part_of_speech: "noun"
+  meaning:
+    english: "In Agile software development, a short, time-boxed period during which a software development team works to complete a set amount of work."
+    bahasa: "Dalam pengembangan perangkat lunak Agile, periode singkat dengan batasan waktu di mana tim pengembangan perangkat lunak bekerja untuk menyelesaikan sejumlah pekerjaan yang telah ditentukan."
+  usage: "A fundamental term in Scrum and other Agile methodologies. Sprints are typically 1-4 weeks long."
+  synonyms:
+    - "iteration"
+  examples:
+    workplace:
+      - "This feature is our top priority for the next sprint."
+      - "We have a sprint review meeting at the end of each sprint to demonstrate what we've built."
+    casual:
+      - "He made a last-minute sprint to the finish line."
+  related:
+    - word: "iteration"
+      difference: "'Iteration' is a more general term for a time-boxed development cycle. 'Sprint' is the specific term used in the Scrum framework."
+  story: |
+    At the beginning of the two-week sprint, the team committed to delivering three user stories. They held daily stand-ups to track progress and address any blockers. By the end of the sprint, they had successfully completed all the work they had planned.
+- word: "realistic"
+  pronunciation: "/ˌriːəˈlɪstɪk/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Having or showing a sensible and practical idea of what can be achieved or expected."
+    bahasa: "Memiliki atau menunjukkan gagasan yang masuk akal dan praktis tentang apa yang dapat dicapai atau diharapkan."
+  usage: "Used to describe goals, estimates, or plans that are achievable and based on practical realities, not wishful thinking."
+  synonyms:
+    - "achievable"
+    - "practical"
+    - "feasible"
+  examples:
+    workplace:
+      - "Let's set a realistic deadline for this project."
+      - "The junior developer's estimates were not very realistic, so a senior engineer helped him revise them."
+    casual:
+      - "It's not realistic to expect to become fluent in a language in just one month."
+      - "Be realistic about what you can afford."
+  related:
+    - word: "feasible"
+      difference: "'Feasible' means something is possible to do. 'Realistic' implies it's not only possible but also practical and sensible given the circumstances."
+  story: |
+    The initial project plan had over 50 features scheduled for the first release. The engineering lead explained that this was not realistic for a team of three developers in two months. They worked with the product manager to cut the scope down to a more realistic MVP.
+- word: "bite the bullet"
+  pronunciation: "/baɪt ðə ˈbʊlɪt/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To decide to do something difficult or unpleasant that one has been putting off or hesitating about."
+    bahasa: "Memutuskan untuk melakukan sesuatu yang sulit atau tidak menyenangkan yang telah ditunda-tunda."
+  usage: "Use this phrase when you have to face a difficult situation with courage and resolve, often because there is no other choice."
+  synonyms:
+    - "face the music"
+    - "take the plunge"
+  examples:
+    workplace:
+      - "We had to bite the bullet and refactor the entire legacy module because it was causing too many bugs."
+      - "No one wanted to work on the weekend, but we had to bite the bullet to meet the client's deadline."
+    casual:
+      - "I decided to bite the bullet and finally go to the dentist after months of toothache."
+      - "She had to bite the bullet and sell her car to pay off her debts."
+  related:
+    - word: "suck it up"
+      difference: "'Suck it up' is more informal and often used to tell someone to endure a situation without complaining. 'Bite the bullet' is more about making a conscious decision to face a difficult task."
+  story: |
+    The team discovered a major architectural flaw in the application that would only get worse over time. They knew fixing it would mean delaying the new feature release by a month. After a long discussion, they decided to bite the bullet and inform the stakeholders. It was a tough conversation, but it was the right decision for the long-term health of the product.
