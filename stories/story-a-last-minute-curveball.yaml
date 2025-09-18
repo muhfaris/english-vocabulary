@@ -1,0 +1,20 @@
+story:
+  title: "a-last-minute-curveball"
+  date: "2025-09-18"
+  text: |
+    It was Wednesday afternoon, just two days before the scheduled **deployment**. The team was focused on final testing and bug fixes, trying to **stick to the plan** and meet the deadline. Suddenly, the product manager, David, scheduled an urgent meeting. He wanted to discuss a **change request** from a major stakeholder.
+
+    David explained that the stakeholder wanted to add a new filtering option to the user dashboard—a feature that wasn't in the original scope. This new requirement really **threw a curveball** at the team. Our lead engineer, Maria, knew we didn't have the **capacity** to add a new feature without impacting the timeline.
+
+    She decided to **negotiate** with David. She explained that while the feature was valuable, implementing it properly would require at least another week. Rushing it could introduce bugs and destabilize the application. After some discussion, they agreed on a **trade-off**: they would release the current version as planned and prioritize the new filtering feature for the next **sprint**. It wasn't ideal, but it was a **realistic** compromise. Sometimes, you have to **bite the bullet** and make tough decisions to ensure quality.
+  highlighted_words:
+    - "deployment"
+    - "stick to the plan"
+    - "change request"
+    - "throw a curveball"
+    - "capacity"
+    - "negotiate"
+    - "trade-off"
+    - "sprint"
+    - "realistic"
+    - "bite the bullet"
