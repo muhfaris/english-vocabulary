@@ -2,14 +2,16 @@ story:
   title: "the-daily-grind"
   date: "2025-09-18"
   text: |
-    My day began with the familiar ritual of a strong cup of coffee, the essential fuel to get my brain into gear. At 9:30 AM sharp, the whole team hopped on a video call for our **daily scrum**. Everyone gave a quick update: what they did yesterday, what they're doing today, and any blockers. My update was about finishing up some unit tests. The meeting was efficient, and by 10:00 AM, it was time to **get down to business**.
+    The morning alarm signals it's time to **commence** another day. After a quick coffee, I **fire up** my laptop and look at the tasks for the day. First on the list is a new feature for the user profile page.
 
-    My main task was to implement a new data export feature. Initially, things were going smoothly. I built the UI and the basic logic. However, I soon **get stuck** when trying to format the data into a CSV file. A strange encoding issue kept corrupting the file. I spent a good hour trying different solutions from the internet, but nothing worked.
+    I start by creating the basic structure of the new components. I decide to **scaffold** out the file structure first, creating empty files with placeholder names. This helps me visualize the architecture before writing any real logic. For the API calls, I create a **stub** function that returns some hardcoded data. This will allow the UI to be developed without waiting for the real backend to be ready. I'll also need to **mock** the authentication service to test the new feature in isolation.
 
-    The main **stumbling block** was a subtle incompatibility between the library I was using and the data format we needed. I was about to go down a rabbit hole of debugging the library's source code, but I decided to ask for help first. I shared my screen with a senior engineer, and he immediately spotted the issue. We brainstormed a simple workaround that solved the problem in minutes. It was a great reminder that teamwork often saves the day. With that sorted, I managed to complete the feature and write the documentation. I pushed my code, and after seeing the tests pass, I decided to **call it a day**, feeling satisfied with the progress.
+    After a productive morning, the afternoon is for focused coding. I **knuckle down** and start implementing the core logic, replacing the stubs with actual API calls. The day goes by quickly, and as the clock nears six, it's time to **wind down**. I push my changes to a new branch, write a quick summary of my progress, and log off. Another day in the life of a software engineer is done.
   highlighted_words:
-    - "daily scrum"
-    - "get down to business"
-    - "get stuck"
-    - "stumbling block"
-    - "call it a day"
+    - "commence"
+    - "fire up"
+    - "scaffold"
+    - "stub"
+    - "mock"
+    - "knuckle down"
+    - "wind down"
