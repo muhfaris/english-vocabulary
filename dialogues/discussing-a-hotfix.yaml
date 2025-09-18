@@ -1,0 +1,63 @@
+dialogue:
+  - speaker: Alex
+    english: "Hey, have you heard? There's a critical bug in production that needs a hotfix right away."
+    bahasa: "Hei, sudah dengar? Ada bug kritis di production yang butuh perbaikan segera."
+  - speaker: Ben
+    english: "Oh no, what happened?"
+    bahasa: "Oh tidak, apa yang terjadi?"
+  - speaker: Alex
+    english: "The payment gateway integration is failing for some users. We need to roll out a patch ASAP."
+    bahasa: "Integrasi gateway pembayaran gagal untuk beberapa pengguna. Kita harus segera merilis patch."
+  - speaker: Ben
+    english: "I see. I'll start investigating the logs immediately. Do we have a ticket for this?"
+    bahasa: "Baik. Saya akan segera menyelidiki lognya. Apakah sudah ada tiket untuk ini?"
+  - speaker: Alex
+    english: "Yes, it's a P0. I've already assigned it to you. We need to get a fix out before the end of the day."
+    bahasa: "Ya, ini P0. Sudah saya tugaskan ke kamu. Kita harus mengeluarkan perbaikan sebelum hari ini berakhir."
+  - speaker: Ben
+    english: "Got it. I'll pull the latest from main and create a new hotfix branch."
+    bahasa: "Mengerti. Saya akan menarik kode terbaru dari main dan membuat branch hotfix baru."
+  - speaker: Alex
+    english: "Thanks, Ben. Keep me in the loop on your progress."
+    bahasa: "Terima kasih, Ben. Terus kabari saya tentang kemajuanmu."
+  - speaker: Ben
+    english: "Will do. I'll ping you once I have a potential fix ready for review."
+    bahasa: "Pasti. Saya akan menghubungimu setelah saya punya solusi potensial yang siap untuk ditinjau."
+  - speaker: Alex
+    english: "Sounds like a plan. Let's crush this bug."
+    bahasa: "Terdengar bagus. Mari kita selesaikan bug ini."
+  - speaker: Ben
+    english: "On it. Hopefully, it's a straightforward fix."
+    bahasa: "Siap. Semoga perbaikannya tidak rumit."
+
+expressions:
+  - phrase: "critical bug"
+    meaning_english: "A severe error in the software that significantly impacts users and requires immediate attention."
+    meaning_bahasa: "Kesalahan parah pada perangkat lunak yang berdampak signifikan pada pengguna dan memerlukan perhatian segera."
+  - phrase: "hotfix"
+    meaning_english: "A small piece of code developed to address a specific bug or issue in a live production environment."
+    meaning_bahasa: "Bagian kecil dari kode yang dikembangkan untuk mengatasi bug atau masalah spesifik di lingkungan produksi."
+  - phrase: "roll out a patch"
+    meaning_english: "To deploy a software update that fixes a known issue."
+    meaning_bahasa: "Menyebarkan pembaruan perangkat lunak yang memperbaiki masalah yang diketahui."
+  - phrase: "P0 (Priority 0)"
+    meaning_english: "The highest priority level for a task or issue, indicating it must be addressed immediately."
+    meaning_bahasa: "Tingkat prioritas tertinggi untuk tugas atau masalah, yang menunjukkan bahwa itu harus segera ditangani."
+  - phrase: "keep me in the loop"
+    meaning_english: "Keep me informed and updated about the situation."
+    meaning_bahasa: "Selalu beritahu saya informasi dan perkembangan terbaru tentang situasi tersebut."
+  - phrase: "straightforward fix"
+    meaning_english: "An easy and simple solution to a problem."
+    meaning_bahasa: "Solusi yang mudah dan sederhana untuk suatu masalah."
+
+questions:
+  - q: "What is the critical bug that needs a hotfix?"
+    a: "The payment gateway integration is failing for some users."
+  - q: "What is the priority of the bug?"
+    a: "It is a P0, the highest priority."
+  - q: "What is Ben's first step to address the issue?"
+    a: "He will start by investigating the logs."
+  - q: "What does Alex ask Ben to do regarding communication?"
+    a: "He asks Ben to keep him in the loop on his progress."
+  - q: "What does 'hotfix' mean in this context?"
+    a: "It's a quick fix for a critical issue in a live system."
