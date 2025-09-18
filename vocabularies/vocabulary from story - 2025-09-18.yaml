@@ -1,114 +1,180 @@
-- word: "daily scrum"
-  pronunciation: "/ˈdeɪ.li skrʌm/"
-  part_of_speech: "phrase"
+- word: "commence"
+  pronunciation: "/kəˈmɛns/"
+  part_of_speech: "verb"
   meaning:
-    english: "A short, daily meeting in the Scrum agile framework where the team synchronizes activities and plans for the next 24 hours."
-    bahasa: "Rapat harian singkat dalam kerangka kerja agile Scrum di mana tim menyinkronkan kegiatan dan membuat rencana untuk 24 jam ke depan."
-  usage: "Used to refer to the daily stand-up meeting in a team that follows the Scrum methodology."
+    english: "To begin or start something."
+    bahasa: "Memulai atau mengawali sesuatu."
+  usage: "Used in formal or official contexts to indicate the beginning of an event or process. It's a bit more formal than 'start' or 'begin'."
   synonyms:
-    - "daily stand-up"
-    - "daily huddle"
+    - "begin"
+    - "start"
+    - "initiate"
   examples:
     workplace:
-      - "During the daily scrum, I mentioned that I was blocked by the API issue."
-      - "Our daily scrum is at 9 AM every morning and lasts for about 15 minutes."
+      - "The team will commence the new sprint first thing on Monday morning."
+      - "Let's commence the meeting now that everyone is here."
     casual:
-      - "My team's daily scrum is so efficient, it's my favorite meeting."
-      - "Let's discuss this after the daily scrum."
+      - "The fireworks will commence at 9 PM."
+      - "He will commence his studies at the university next fall."
   related:
-    - word: "stand-up"
-      difference: "'Daily scrum' is the official term in the Scrum framework. 'Stand-up' is a more general term for a short, daily meeting, and not all stand-ups are scrums."
-    - word: "sprint retrospective"
-      difference: "A 'daily scrum' is a short, daily planning meeting. A 'sprint retrospective' is a longer meeting held at the end of a sprint to reflect on what went well and what could be improved."
+    - word: "initiate"
+      difference: "'Initiate' often implies starting a process or a chain of events, while 'commence' is more about the start of a formal event or a period of time."
+    - word: "launch"
+      difference: "'Launch' is typically used for products, projects, or campaigns, and has a sense of sending something out into the world. 'Commence' is more general."
   story: |
-    Every morning, our team starts the day with a daily scrum. We each take a turn to share our progress and any challenges we're facing. It's a great way to stay aligned and help each other out if someone is stuck.
-- word: "get down to business"
-  pronunciation: "/ɡɛt daʊn tu ˈbɪz.nɪs/"
-  part_of_speech: "phrase"
+    The project manager announced, "We will commence the final testing phase tomorrow." Everyone knew this was the last major step before the big release. The team was excited to begin and see their hard work pay off.
+
+- word: "fire up"
+  pronunciation: "/ˈfaɪər ʌp/"
+  part_of_speech: "phrasal verb"
   meaning:
-    english: "To start working seriously on the task at hand."
-    bahasa: "Mulai bekerja secara serius pada tugas yang ada."
-  usage: "Used to signal the end of casual chat and the beginning of focused work or discussion."
+    english: "To start a machine, engine, or computer."
+    bahasa: "Menyalakan atau menghidupkan mesin atau komputer."
+  usage: "An informal and energetic way to say you are starting a device. It can also be used to mean making someone excited or enthusiastic."
   synonyms:
-    - "start working"
+    - "start up"
+    - "boot up"
+    - "turn on"
+  examples:
+    workplace:
+      - "I need to fire up my laptop and check the latest build status."
+      - "Let's fire up the test server and run the new deployment script."
+    casual:
+      - "He fired up the grill for a weekend barbecue."
+      - "The coach's speech really fired up the team."
+  related:
+    - word: "boot up"
+      difference: "'Boot up' is specifically used for computers and refers to the process of loading the operating system. 'Fire up' is more general and can be used for any machine."
+    - word: "activate"
+      difference: "'Activate' is a more formal term, often used for software licenses or features. 'Fire up' is casual and relates to starting the machine itself."
+  story: |
+    Every morning, the first thing I do is fire up my development environment. This includes starting the database, the backend server, and the frontend application. Once everything is running, I'm ready to start coding.
+
+- word: "scaffold"
+  pronunciation: "/ˈskæfoʊld/"
+  part_of_speech: "verb"
+  meaning:
+    english: "In software development, to automatically generate a basic structure or skeleton for a new project or component."
+    bahasa: "Dalam pengembangan perangkat lunak, menghasilkan struktur dasar atau kerangka untuk proyek atau komponen baru secara otomatis."
+  usage: "Used when a tool or command is run to create the initial files and directories for a new piece of software, saving the developer from writing boilerplate code."
+  synonyms:
+    - "generate"
+    - "bootstrap"
+    - "initialize"
+  examples:
+    workplace:
+      - "I used the framework's CLI to scaffold a new microservice."
+      - "Let's scaffold out the new feature module with all the necessary files."
+    casual:
+      - "It's not a term commonly used outside of construction or software development."
+      - "The new tool can scaffold a complete website in minutes."
+  related:
+    - word: "boilerplate"
+      difference: "'Boilerplate' is the code that is generated. 'Scaffold' is the action of generating that code."
+    - word: "template"
+      difference: "A 'template' is a file or set of files that the scaffolding process uses to generate the final output. 'Scaffold' is the process itself."
+  story: |
+    When starting a new project, we use a custom tool to scaffold the entire application. It creates the directory structure, sets up the build scripts, and includes our standard libraries. This saves us a full day of manual setup.
+
+- word: "stub"
+  pronunciation: "/stʌb/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A piece of code used to stand in for some other programming functionality. It often returns a fixed, hardcoded value."
+    bahasa: "Sebuah potongan kode yang digunakan untuk menggantikan fungsionalitas pemrograman lain. Seringkali mengembalikan nilai yang sudah ditentukan (hardcoded)."
+  usage: "Used in testing and development to simulate the behavior of a module or function that is not yet developed or is unavailable."
+  synonyms:
+    - "placeholder"
+    - "dummy"
+  examples:
+    workplace:
+      - "I created a stub for the payment gateway API so I can test the checkout flow."
+      - "The function is just a stub for now; it only returns `true`."
+    casual:
+      - "The last part of the ticket is just a stub; please keep it."
+      - "He gave me the ticket stub as a souvenir."
+  related:
+    - word: "mock"
+      difference: "A 'stub' provides canned answers to calls made during tests, but doesn't otherwise care about the calls. A 'mock' is an object that you can make assertions about, like how many times a method was called."
+    - word: "spy"
+      difference: "A 'spy' is a real object that you can use to track how it is used, like a stub but with recording capabilities. A 'stub' is a complete replacement."
+  story: |
+    The frontend team was blocked because the user API wasn't ready. To unblock them, I created a simple API stub that returned a list of fake users. This allowed them to continue building the UI while the backend team finished their work.
+
+- word: "mock"
+  pronunciation: "/mɒk/"
+  part_of_speech: "noun/verb"
+  meaning:
+    english: "In testing, a simulated object that mimics the behavior of a real object in controlled ways. You can make assertions about how it was used."
+    bahasa: "Dalam pengujian, sebuah objek simulasi yang meniru perilaku objek nyata dengan cara yang terkontrol. Anda dapat membuat pernyataan (assertions) tentang bagaimana objek itu digunakan."
+  usage: "Used in unit testing to isolate the code being tested from its dependencies. Mocks help verify that the code under test is interacting correctly with other parts of the system."
+  synonyms:
+    - "simulate"
+    - "imitate"
+    - "fake"
+  examples:
+    workplace:
+      - "I need to mock the database connection to test this service in isolation."
+      - "The test failed because the mock object was not called with the correct parameters."
+    casual:
+      - "She would mock his accent."
+      - "The trial was a mock of justice."
+  related:
+    - word: "stub"
+      difference: "A 'stub' provides fixed responses and is used for state verification. A 'mock' is used for behavior verification, to check if certain methods were called."
+    - word: "fake"
+      difference: "A 'fake' is a simpler implementation of an interface that works like the real thing, but is not suitable for production (e.g., an in-memory database). A 'mock' is specifically for testing interactions."
+  story: |
+    To test the notification service, I had to mock the email sending library. I configured the mock to verify that the `send` method was called exactly once with the correct subject and body. This ensured my service was behaving as expected without actually sending any emails.
+
+- word: "knuckle down"
+  pronunciation: "/ˈnʌkəl daʊn/"
+  part_of_speech: "phrasal verb"
+  meaning:
+    english: "To start working hard, especially when you have been delaying or not working as hard as you should."
+    bahasa: "Mulai bekerja keras, terutama ketika Anda telah menunda atau tidak bekerja sekeras yang seharusnya."
+  usage: "An informal phrase used to describe a moment when you decide to focus and put in a serious effort to complete a task."
+  synonyms:
+    - "focus"
     - "get serious"
+    - "buckle down"
   examples:
     workplace:
-      - "After a few minutes of small talk, the team lead said, 'Alright, let's get down to business.'"
-      - "We have a lot to cover in this meeting, so let's get down to business right away."
+      - "The deadline is next week, so it's time to knuckle down and finish this feature."
+      - "After the planning meeting, the team was ready to knuckle down and start coding."
     casual:
-      - "Okay, we've had our fun. Now it's time to get down to business and finish this project."
-      - "I've had my coffee, now I can get down to business."
+      - "I need to knuckle down and study for my final exams."
+      - "She decided to knuckle down and clean the entire house."
   related:
-    - word: "kick off"
-      difference: "'To kick off' means to start an event or project. 'To get down to business' means to start the serious work within that event or project."
+    - word: "focus"
+      difference: "'Focus' means to concentrate on something. 'Knuckle down' implies an increase in effort and seriousness, often after a period of lower productivity."
+    - word: "cram"
+      difference: "'Cram' is used specifically for studying in a short period before a test. 'Knuckle down' is more general for any kind of work or task."
   story: |
-    The first ten minutes of the meeting were spent catching up on our weekends. Then, the project manager cleared his throat and said, "Okay everyone, let's get down to business." He shared his screen and started discussing the project plan.
-- word: "get stuck"
-  pronunciation: "/ɡɛt stʌk/"
-  part_of_speech: "phrase"
+    We spent the morning brainstorming and discussing the new architecture. After lunch, our tech lead said, "Alright team, we have a solid plan. It's time to knuckle down and make it happen." We all put on our headphones and started coding with intense focus.
+
+- word: "wind down"
+  pronunciation: "/waɪnd daʊn/"
+  part_of_speech: "phrasal verb"
   meaning:
-    english: "To be unable to proceed with a task or solve a problem."
-    bahasa: "Tidak dapat melanjutkan tugas atau memecahkan masalah."
-  usage: "Used when you are blocked or facing a challenge that you don't know how to overcome."
+    english: "To end or to cause to end gradually. To relax after a period of activity or excitement."
+    bahasa: "Mengakhiri atau menyebabkan berakhir secara bertahap. Bersantai setelah periode aktivitas atau kegembiraan."
+  usage: "Used to describe the final phase of an activity or the process of relaxing after work or stress."
   synonyms:
-    - "be blocked"
-    - "be stumped"
+    - "relax"
+    - "unwind"
+    - "taper off"
   examples:
     workplace:
-      - "I always get stuck on this part of the process."
-      - "If you get stuck, don't hesitate to ask for help."
+      - "As the project starts to wind down, we need to focus on documentation."
+      - "It's Friday afternoon, and the office is starting to wind down for the weekend."
     casual:
-      - "I got stuck on the last question of the exam."
-      - "The car got stuck in the mud."
+      - "I like to listen to calm music to wind down before bed."
+      - "The party started to wind down around midnight."
   related:
-    - word: "blocker"
-      difference: "'To get stuck' is the state of being unable to proceed. A 'blocker' is the specific thing that is causing you to be stuck."
+    - word: "wrap up"
+      difference: "'Wrap up' means to finish or complete something, often a meeting or a task. 'Wind down' implies a more gradual and relaxed ending."
+    - word: "phase out"
+      difference: "'Phase out' means to gradually stop using or providing something, like an old feature. 'Wind down' is more about the activity level decreasing."
   story: |
-    I was writing a complex SQL query and I got stuck. The query was running, but it wasn't returning the correct data. After trying for an hour, I asked a colleague for help. He looked at it and immediately saw the mistake in my JOIN clause.
-- word: "stumbling block"
-  pronunciation: "/ˈstʌm.blɪŋ blɒk/"
-  part_of_speech: "phrase"
-  meaning:
-    english: "A problem or obstacle that prevents progress."
-    bahasa: "Masalah atau rintangan yang menghalangi kemajuan."
-  usage: "Used to describe a specific difficulty that is holding up a project or task."
-  synonyms:
-    - "obstacle"
-    - "hurdle"
-    - "impediment"
-  examples:
-    workplace:
-      - "The main stumbling block for this project is the lack of clear requirements."
-      - "We hit a stumbling block when we found out the API was not compatible."
-    casual:
-      - "My fear of public speaking is a major stumbling block in my career."
-      - "The biggest stumbling block to finishing the house is a lack of money."
-  related:
-    - word: "blocker"
-      difference: "'Stumbling block' and 'blocker' are very similar. 'Stumbling block' is a more general term for an obstacle, while 'blocker' is often used in agile development to refer to a specific issue that stops a task."
-  story: |
-    The team was trying to improve the performance of the website. The main stumbling block was a slow database query. Once they optimized that query, the rest of the work was much easier.
-- word: "call it a day"
-  pronunciation: "/kɔːl ɪt ə deɪ/"
-  part_of_speech: "phrase"
-  meaning:
-    english: "To decide to stop working for the day."
-    bahasa: "Memutuskan untuk berhenti bekerja untuk hari itu."
-  usage: "Used at the end of a work session to indicate that you are finished."
-  synonyms:
-    - "stop working"
-    - "wrap up"
-    - "finish for the day"
-  examples:
-    workplace:
-      - "It's 5 PM, I've finished my tasks, so I'm going to call it a day."
-      - "We've made a lot of progress. Let's call it a day and continue tomorrow."
-    casual:
-      - "I'm too tired to keep studying. I think I'll call it a day."
-      - "We've been hiking for six hours. Let's call it a day and find a place to rest."
-  related:
-    - word: "sign off"
-      difference: "'To call it a day' is about deciding to stop working. 'To sign off' can mean to stop working, but it can also mean to give approval for something."
-  story: |
-    After a long day of coding and meetings, I finally pushed my last commit. I looked at the clock, and it was almost 6 PM. I sent a quick message to my team saying, "I'm done for today," and decided to call it a day.
+    After a long week of coding, the team started to wind down on Friday afternoon. People were chatting, sharing their weekend plans, and a few were playing games in the break room. It was a nice way to relax before heading home.
