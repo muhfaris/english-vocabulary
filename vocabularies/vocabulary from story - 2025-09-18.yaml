@@ -178,3 +178,176 @@
       difference: "'Phase out' means to gradually stop using or providing something, like an old feature. 'Wind down' is more about the activity level decreasing."
   story: |
     After a long week of coding, the team started to wind down on Friday afternoon. People were chatting, sharing their weekend plans, and a few were playing games in the break room. It was a nice way to relax before heading home.
+- word: "fine-tuning"
+  pronunciation: "/ˈfaɪnˌtuːnɪŋ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The process of making small, precise adjustments to something to improve its performance or quality."
+    bahasa: "Proses penyesuaian kecil dan presisi untuk meningkatkan kinerja atau kualitas sesuatu."
+  usage: "Use 'fine-tuning' when you are talking about making small improvements to something that is already working but could be better. It implies a process of refinement, not building from scratch."
+  synonyms:
+    - "refinement"
+    - "adjustment"
+    - "polishing"
+  examples:
+    workplace:
+      - "The algorithm is working, but it needs some fine-tuning to improve its accuracy."
+      - "We'll spend the last sprint on fine-tuning the user interface based on feedback."
+    casual:
+      - "The recipe is good, but with a little fine-tuning of the spices, it could be perfect."
+      - "He's still fine-tuning his new sound system."
+  related:
+    - word: "tweak"
+      difference: "'Tweak' is usually a single, small change (verb or noun), while 'fine-tuning' is the overall process of making several small adjustments (noun)."
+    - word: "overhaul"
+      difference: "'Overhaul' means to make major, extensive changes or repairs, while 'fine-tuning' involves only minor adjustments."
+  story: |
+    The new dashboard was functional, but the data loading was a bit slow. The team dedicated the afternoon to some **fine-tuning** of the database queries. After a few adjustments to the indexes, the performance improved dramatically, making the user experience much smoother.
+- word: "hit a snag"
+  pronunciation: "/hɪt ə snæɡ/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To encounter an unexpected problem or obstacle."
+    bahasa: "Menemukan masalah atau rintangan yang tidak terduga."
+  usage: "Use this phrase when a project or task was going smoothly but suddenly faces a problem that stops or complicates progress."
+  synonyms:
+    - "run into a problem"
+    - "encounter a difficulty"
+  examples:
+    workplace:
+      - "We were hoping to deploy today, but we hit a snag with a failing integration test."
+      - "The project was on schedule until we hit a snag with the third-party API."
+    casual:
+      - "I was almost finished with the IKEA furniture, but I hit a snag when I realized a screw was missing."
+      - "Our road trip plans hit a snag when the car wouldn't start."
+  related:
+    - word: "blocker"
+      difference: "A 'snag' is the problem itself. A 'blocker' is a type of snag that completely stops you from making any progress until it is resolved."
+    - word: "hiccup"
+      difference: "A 'hiccup' is a very small, minor problem that is usually resolved quickly. A 'snag' is often more serious and requires more effort to solve."
+  story: |
+    The team was confident about the release. All features were complete and tested. However, during the final deployment script run, they **hit a snag**. A security certificate on the server had expired unexpectedly, causing the deployment to fail. It took them two hours to get a new certificate and resolve the issue.
+- word: "a fresh pair of eyes"
+  pronunciation: "/ə frɛʃ pɛər əv aɪz/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A new person to look at a problem, who can often see things that have been overlooked by those who have been working on it for a long time."
+    bahasa: "Seseorang yang baru melihat suatu masalah, yang seringkali dapat melihat hal-hal yang terlewatkan oleh mereka yang sudah lama mengerjakannya."
+  usage: "Use this phrase when you are stuck on a problem and want someone else's perspective, especially someone who is not familiar with the details."
+  synonyms:
+    - "a new perspective"
+    - "a second opinion"
+  examples:
+    workplace:
+      - "I've been staring at this bug for hours. Can you be a fresh pair of eyes and look at my code?"
+      - "Before we finalize the design, let's show it to the new intern for a fresh pair of eyes."
+    casual:
+      - "I can't find the typo in my resume. Would you mind being a fresh pair of eyes?"
+      - "We've arranged the furniture five times. We need a fresh pair of eyes to help us decide."
+  related:
+    - word: "peer review"
+      difference: "'Peer review' is a formal process of having colleagues review your work for quality. Asking for 'a fresh pair of eyes' is usually an informal, quick request for help with a specific problem."
+    - word: "second opinion"
+      difference: "A 'second opinion' is often used in more formal or serious contexts, like medicine or major business decisions. 'A fresh pair of eyes' is more casual and is about spotting errors or getting new ideas."
+  story: |
+    A developer was struggling to find a memory leak in her code. After a whole day of debugging, she felt like she was going in circles. The next morning, she asked a teammate from another project to be **a fresh pair of eyes**. Within ten minutes, her teammate pointed out a small detail she had completely missed, which turned out to be the source of the leak.
+- word: "in tandem"
+  pronunciation: "/ɪn ˈtændəm/"
+  part_of_speech: "adverb"
+  meaning:
+    english: "Working together, especially in a close and coordinated way."
+    bahasa: "Bekerja bersama-sama, terutama dengan cara yang erat dan terkoordinasi."
+  usage: "Use 'in tandem' to describe two people or things working together at the same time to achieve a common goal. It emphasizes cooperation and simultaneous action."
+  synonyms:
+    - "together"
+    - "jointly"
+    - "collaboratively"
+  examples:
+    workplace:
+      - "The frontend and backend developers worked in tandem to integrate the new API."
+      - "Our team works in tandem with the design team to create new features."
+    casual:
+      - "The two chefs worked in tandem to prepare the complex meal."
+      - "The siblings cleaned the house in tandem, finishing in half the time."
+  related:
+    - word: "pair programming"
+      difference: "'Pair programming' is a specific agile software development technique where two programmers work together at one workstation. Working 'in tandem' is a more general term for any kind of collaborative work."
+    - word: "side-by-side"
+      difference: "'Side-by-side' can mean physically next to each other, but not necessarily collaborating. 'In tandem' strongly implies collaboration and a shared objective."
+  story: |
+    To launch the new feature, the marketing team and the development team had to work **in tandem**. While the developers were putting the final touches on the code, the marketing team was preparing the announcement blog post and emails. Their coordinated effort ensured a smooth and successful launch day.
+- word: "come up with"
+  pronunciation: "/kʌm ʌp wɪð/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To think of or produce an idea, a plan, or a solution."
+    bahasa: "Memikirkan atau menghasilkan sebuah ide, rencana, atau solusi."
+  usage: "Use this phrase when you are talking about the act of creating or inventing something new, like a plan, an idea, an excuse, or a solution to a problem."
+  synonyms:
+    - "propose"
+    - "suggest"
+    - "devise"
+  examples:
+    workplace:
+      - "We need to come up with a better way to handle these customer requests."
+      - "She came up with a brilliant solution to the performance issue."
+    casual:
+      - "Let's come up with a plan for the weekend."
+      - "He's good at coming up with excuses for being late."
+  related:
+    - word: "brainstorm"
+      difference: "'Brainstorm' is the process of trying to generate many ideas in a group. 'Come up with' is the result of that process—the final idea or plan that is produced."
+    - word: "figure out"
+      difference: "'Figure out' means to understand or solve something by thinking about it. 'Come up with' is more about creating a new idea or plan from scratch."
+  story: |
+    The team was facing a difficult challenge: how to migrate a massive database with zero downtime. They had a long meeting where they discussed many options. After an hour of brainstorming, their senior engineer **came up with** a clever plan involving a shadow database and a gradual switchover. Everyone agreed it was the best approach.
+- word: "sort out"
+  pronunciation: "/sɔːrt aʊt/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To resolve a problem or to organize something that is messy or confusing."
+    bahasa: "Menyelesaikan masalah atau mengatur sesuatu yang berantakan atau membingungkan."
+  usage: "Use 'sort out' when you need to fix a situation, solve a disagreement, or put things in order."
+  synonyms:
+    - "resolve"
+    - "fix"
+    - "organize"
+  examples:
+    workplace:
+      - "I need to sort out this issue with the login page before the end of the day."
+      - "Can you help me sort out the files in this folder? They are a mess."
+    casual:
+      - "They need to sort out their differences and start talking again."
+      - "I'll sort out the travel arrangements for our holiday."
+  related:
+    - word: "debug"
+      difference: "'Debug' is a specific term for finding and fixing errors (bugs) in code. 'Sort out' is a more general term that can apply to any kind of problem or messy situation, including but not limited to code."
+    - word: "handle"
+      difference: "'Handle' means to manage or deal with a situation. 'Sort out' implies that you are not just managing it, but successfully resolving it or organizing it."
+  story: |
+    After the new feature was deployed, a few users reported that their settings were not being saved correctly. The product manager assigned a high-priority ticket to a developer to **sort out** the problem. The developer investigated the logs, found the bug in the code, and deployed a hotfix within an hour.
+- word: "get the hang of"
+  pronunciation: "/ɡɛt ðə hæŋ əv/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To learn how to do something; to acquire the skill for a particular task."
+    bahasa: "Mempelajari cara melakukan sesuatu; memperoleh keterampilan untuk tugas tertentu."
+  usage: "Use this phrase when you are talking about the process of becoming comfortable and skilled at a new activity, tool, or concept after some practice."
+  synonyms:
+    - "learn the ropes"
+    - "master"
+    - "become proficient in"
+  examples:
+    workplace:
+      - "The new deployment system is complex, but I'm starting to get the hang of it."
+      - "It took her a few weeks to get the hang of the company's codebase."
+    casual:
+      - "Driving a manual car is tricky at first, but you'll get the hang of it."
+      - "I'm finally getting the hang of this new video game."
+  related:
+    - word: "onboarding"
+      difference: "'Onboarding' is the formal process of a new employee joining a company and learning about their role. 'Getting the hang of' something is the informal, personal process of learning a specific skill within that role."
+    - word: "master"
+      difference: "'To master' something implies reaching a very high level of skill, becoming an expert. 'To get the hang of' something implies reaching a basic level of competence where you can do it without much trouble."
+  story: |
+    When a new developer joined the team, he was unfamiliar with the React framework they were using. His mentor spent the first week showing him the basics. At first, he was slow and made a lot of mistakes, but after a few small tasks, he started to **get the hang of** it. By the end of the month, he was contributing to new features confidently.
