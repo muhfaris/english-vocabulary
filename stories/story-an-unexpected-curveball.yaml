@@ -1,0 +1,13 @@
+story:
+  title: "an-unexpected-curveball"
+  date: "2025-09-18"
+  text: |
+    The week was **in full swing**, and my task list was growing. My morning started with our daily **stand-up**, where I promised to have my feature ready for review by the end of the day. But then came the **curveball**: a critical bug was found in the production environment, and I was asked to investigate.
+
+    My original task had to be put on hold. It was a classic case of getting **sidetracked** by urgent issues. The bug was tricky, and I spent hours digging through logs. By the time I found the root cause, it was already late afternoon. I didn't have much **breathing room** to switch back to my feature. I managed to fix the bug and push a hotfix. It wasn't the day I had planned, but sometimes you have to adapt. I'll need to re-evaluate my timeline tomorrow.
+  highlighted_words:
+    - "in full swing"
+    - "stand-up"
+    - "curveball"
+    - "sidetracked"
+    - "breathing room"

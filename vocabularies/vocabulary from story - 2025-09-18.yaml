@@ -351,3 +351,100 @@
       difference: "'To master' something implies reaching a very high level of skill, becoming an expert. 'To get the hang of' something implies reaching a basic level of competence where you can do it without much trouble."
   story: |
     When a new developer joined the team, he was unfamiliar with the React framework they were using. His mentor spent the first week showing him the basics. At first, he was slow and made a lot of mistakes, but after a few small tasks, he started to **get the hang of** it. By the end of the month, he was contributing to new features confidently.
+- word: "in full swing"
+  pronunciation: "/ɪn fʊl swɪŋ/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "At the peak of activity; fully underway."
+    bahasa: "Berada di puncak aktivitas; sedang berlangsung sepenuhnya."
+  usage: "Used to describe a process or event that has already started and is now operating at its busiest or most active level."
+  synonyms:
+    - "underway"
+    - "in progress"
+  examples:
+    workplace:
+      - "By midday, the project launch was in full swing, with everyone at their stations."
+      - "The weekly planning meeting was in full swing when the CEO walked in."
+    casual:
+      - "When we arrived, the party was already in full swing."
+      - "The festival is in full swing, with music and food everywhere."
+  related:
+    - word: "kick off"
+      difference: "'Kick off' refers to the start of an event. 'In full swing' refers to a later point when the event is at its most active."
+    - word: "underway"
+      difference: "'Underway' simply means that something has started. 'In full swing' implies a higher level of intensity and activity."
+  story: |
+    The sprint was already **in full swing** by the time I got my second coffee. The design team was finalizing mockups, the backend engineers were debating API endpoints, and I was deep into coding the new user profile page. The energy in the office was high as everyone worked towards the deadline.
+- word: "curveball"
+  pronunciation: "/ˈkɜːrvbɔːl/"
+  part_of_speech: "noun"
+  meaning:
+    english: "An unexpected problem or event that is surprising and difficult to deal with."
+    bahasa: "Masalah atau peristiwa tak terduga yang mengejutkan dan sulit dihadapi."
+  usage: "Used informally to describe an unexpected challenge that disrupts a plan."
+  synonyms:
+    - "surprise"
+    - "unexpected problem"
+  examples:
+    workplace:
+      - "We were about to release, but a last-minute security audit threw us a curveball."
+      - "The client threw a curveball by requesting a major change just days before the deadline."
+    casual:
+      - "Life threw him a curveball when he lost his job."
+      - "I thought the exam would be easy, but the professor threw a curveball with a question we never covered."
+  related:
+    - word: "snag"
+      difference: "A 'snag' is an unexpected problem, similar to a 'curveball', but 'curveball' often implies a more surprising or deceptive element, making it harder to handle."
+    - word: "setback"
+      difference: "A 'setback' is a problem that hinders progress. A 'curveball' is a specific type of setback that is unexpected and surprising."
+  story: |
+    The team was on track to finish the feature ahead of schedule. Then, the product manager threw a **curveball** during the demo. A key stakeholder had a new requirement that was completely different from the original plan. The team had to quickly regroup and figure out how to adapt.
+- word: "sidetracked"
+  pronunciation: "/ˈsaɪdtrækt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To be distracted from a primary task or objective."
+    bahasa: "Teralihkan dari tugas atau tujuan utama."
+  usage: "Used when you deviate from your original plan or task to do something else, often something less important."
+  synonyms:
+    - "distracted"
+    - "diverted"
+  examples:
+    workplace:
+      - "I meant to finish the report, but I got sidetracked by a series of urgent emails."
+      - "It's easy to get sidetracked with small bug fixes when you should be working on the main feature."
+    casual:
+      - "I went to the store to buy milk but got sidetracked by a sale on books."
+      - "Let's stay focused on the topic and not get sidetracked."
+  related:
+    - word: "context switching"
+      difference: "'Context switching' is the process of moving between different tasks. Getting 'sidetracked' is often the result of context switching, where you lose focus on the original, more important task."
+    - word: "rabbit hole"
+      difference: "Going down a 'rabbit hole' is an extreme form of getting sidetracked, where you get deeply absorbed in a tangential topic for a long time."
+  story: |
+    My goal for the day was to refactor a large component. However, I noticed a minor UI inconsistency. I thought it would be a quick fix, but I got **sidetracked** for over an hour trying to perfect the alignment. By the time I was done, I had lost my momentum on the main refactoring task.
+- word: "breathing room"
+  pronunciation: "/ˈbriːðɪŋ ruːm/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A period of rest or a pause from a difficult or busy situation; a buffer or margin."
+    bahasa: "Waktu untuk beristirahat atau jeda dari situasi yang sulit atau sibuk; sebuah penyangga atau margin."
+  usage: "Used to describe having enough time, space, or resources to operate without pressure."
+  synonyms:
+    - "leeway"
+    - "margin"
+    - "buffer"
+  examples:
+    workplace:
+      - "The extended deadline gives us some breathing room to properly test the feature."
+      - "We have no breathing room in the budget for unexpected costs."
+    casual:
+      - "After a hectic week, I need some breathing room this weekend."
+      - "The extra savings give us some financial breathing room."
+  related:
+    - word: "bandwidth"
+      difference: "'Bandwidth' refers to a person's capacity to take on more work. 'Breathing room' refers to the lack of pressure or the buffer in a schedule or plan."
+    - word: "slack"
+      difference: "'Slack' can be used similarly to 'breathing room' in project management (e.g., 'slack time'), but 'breathing room' is more commonly used in a general, conversational context to mean a break from pressure."
+  story: |
+    The team was working under a very tight deadline, with tasks scheduled back-to-back. When the product manager announced that the release date was pushed back by a week, everyone felt a sense of relief. The extra time gave them the **breathing room** they needed to fix bugs and add some polish without feeling rushed.
