@@ -1,0 +1,26 @@
+story:
+  title: thursday-morning-started-with
+  date: '2025-09-19'
+  text: "Thursday morning started with my usual cup of coffee while I reviewed what\
+    \ was **on my plate** for the day. First up was the daily stand-up, where the\
+    \ team quickly synced on our progress. I had a couple of code reviews to get through,\
+    \ and a bug fix that needed immediate attention.\n\n    My manager asked me to\
+    \ **take the lead** on a small feature enhancement. \"Just **reach out** to the\
+    \ design team to get the latest mockups,\" she said. \"And please **keep me posted**\
+    \ on your progress.\"\n\n    After the meeting, I decided to **look into** the\
+    \ bug first. It was a bit tricky, but after about an hour of debugging, I found\
+    \ the root cause. I pushed the fix and after the CI/CD pipeline ran successfully,\
+    \ the feature was **good to go**.\n\n    The rest of the afternoon was dedicated\
+    \ to the new feature. I wanted to **stay on top of** it to make sure we could\
+    \ demo it by next week. I had a few questions for the backend team, so I sent\
+    \ them a message saying I'd **get back to** them with a more detailed query later.\
+    \ It was a productive day, and I felt a great sense of accomplishment."
+  highlighted_words:
+  - on my plate
+  - take the lead
+  - reach out
+  - keep me posted
+  - look into
+  - good to go
+  - stay on top of
+  - get back to
