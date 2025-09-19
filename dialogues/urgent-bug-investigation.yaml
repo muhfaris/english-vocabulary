@@ -1,0 +1,77 @@
+dialogue:
+  - speaker: Alex
+    english: "Ben, drop what you're doing. We've got a P1 bug from a major client."
+    bahasa: "Ben, tinggalkan semua yang sedang kamu kerjakan. Kita ada bug P1 dari klien besar."
+  - speaker: Ben
+    english: "Oh, wow. What's the issue?"
+    bahasa: "Oh, wow. Apa masalahnya?"
+  - speaker: Alex
+    english: "Users are reporting that the export-to-PDF feature is completely broken. They're getting a 500 error."
+    bahasa: "Pengguna melaporkan bahwa fitur ekspor ke PDF benar-benar rusak. Mereka mendapatkan error 500."
+  - speaker: Ben
+    english: "That's not good. Was there a recent deployment?"
+    bahasa: "Itu tidak bagus. Apakah ada deployment baru-baru ini?"
+  - speaker: Alex
+    english: "Yes, last night. I suspect it's related to the new library we added for PDF generation."
+    bahasa: "Ya, tadi malam. Aku curiga ini terkait dengan library baru yang kita tambahkan untuk pembuatan PDF."
+  - speaker: Ben
+    english: "Okay, I'll start by checking the logs around the time the errors were first reported."
+    bahasa: "Oke, aku akan mulai dengan memeriksa log sekitar waktu kesalahan pertama kali dilaporkan."
+  - speaker: Alex
+    english: "Good idea. I'm going to try to reproduce the bug in the staging environment."
+    bahasa: "Ide bagus. Aku akan mencoba mereproduksi bug di lingkungan staging."
+  - speaker: Ben
+    english: "Found something. Looks like there's a null pointer exception happening deep in the new library's code."
+    bahasa: "Menemukan sesuatu. Sepertinya ada null pointer exception yang terjadi di dalam kode library baru."
+  - speaker: Alex
+    english: "Aha! I bet we're passing it an unexpected value. Can you check the data we're sending to the library?"
+    bahasa: "Aha! Aku yakin kita memberikan nilai yang tidak terduga. Bisakah kamu memeriksa data yang kita kirim ke library?"
+  - speaker: Ben
+    english: "Yep, on it. It seems like... oh, I see it. We're not handling cases where the user's profile image is missing."
+    bahasa: "Ya, sedang kukerjakan. Sepertinya... oh, aku mengerti. Kita tidak menangani kasus di mana gambar profil pengguna hilang."
+  - speaker: Alex
+    english: "Great catch! That's exactly it. The old library must have handled that gracefully."
+    bahasa: "Penemuan yang bagus! Tepat sekali. Library lama pasti menanganinya dengan baik."
+  - speaker: Ben
+    english: "So, what's the plan? A quick hotfix?"
+    bahasa: "Jadi, apa rencananya? Hotfix cepat?"
+  - speaker: Alex
+    english: "Exactly. Add a null check and a default image. We need to get this patched ASAP."
+    bahasa: "Tepat. Tambahkan pemeriksaan null dan gambar default. Kita perlu menambal ini secepatnya."
+  - speaker: Ben
+    english: "Working on it now. Should have a PR ready in 10 minutes."
+    bahasa: "Sedang kukerjakan sekarang. Seharusnya PR sudah siap dalam 10 menit."
+  - speaker: Alex
+    english: "Perfect. I'll be on standby to review and deploy it the second it's ready."
+    bahasa: "Sempurna. Aku akan siaga untuk meninjau dan men-deploy-nya begitu siap."
+
+expressions:
+  - phrase: "Drop what you're doing"
+    meaning_english: "Stop your current task immediately to focus on something more urgent."
+    meaning_bahasa: "Hentikan apa yang sedang kamu kerjakan untuk fokus pada sesuatu yang lebih mendesak."
+  - phrase: "P1 bug"
+    meaning_english: "A critical, high-priority bug that needs immediate attention."
+    meaning_bahasa: "Bug P1 / prioritas 1, bug kritis yang memerlukan perhatian segera."
+  - phrase: "500 error"
+    meaning_english: "A generic server error indicating that something has gone wrong on the website's server."
+    meaning_bahasa: "Error 500, kesalahan server generik yang menunjukkan ada yang salah di server situs web."
+  - phrase: "Reproduce the bug"
+    meaning_english: "To be able to reliably trigger the bug in a controlled environment."
+    meaning_bahasa: "Dapat memicu bug secara andal di lingkungan yang terkontrol."
+  - phrase: "Null pointer exception"
+    meaning_english: "A common error that occurs when the program tries to use an object that has no value (is null)."
+    meaning_bahasa: "Kesalahan umum yang terjadi ketika program mencoba menggunakan objek yang tidak memiliki nilai (null)."
+  - phrase: "Hotfix"
+    meaning_english: "A small, quick patch to fix a critical issue in a production system."
+    meaning_bahasa: "Perbaikan kecil dan cepat untuk memperbaiki masalah kritis dalam sistem produksi."
+  - phrase: "On standby"
+    meaning_english: "Ready to act or be deployed immediately."
+    meaning_bahasa: "Siap untuk bertindak atau segera dikerahkan."
+
+questions:
+  - q: "What does 'P1 bug' mean?"
+    a: "It stands for 'Priority 1 bug,' which is the most critical type of issue that requires immediate attention."
+  - q: "What was the root cause of the bug?"
+    a: "The new PDF library was not handling cases where a user's profile image was missing, leading to a null pointer exception."
+  - q: "What is a 'hotfix'?"
+    a: "It's a quick code change made to fix a critical bug in the live (production) environment."
