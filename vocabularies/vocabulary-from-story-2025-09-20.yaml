@@ -1,0 +1,193 @@
+- word: briefing
+  pronunciation: /ˈbriːfɪŋ/
+  part_of_speech: noun
+  meaning:
+    english: A meeting for giving information or instructions.
+    bahasa: Sebuah pertemuan untuk memberikan informasi atau instruksi.
+  usage: Used for short, informational meetings, often at the start of a day or project.
+  synonyms:
+  - update
+  - meeting
+  examples:
+    workplace:
+    - The team has a morning **briefing** every day at 9 AM.
+    - I'll give you a full **briefing** on the new client's requirements.
+    casual:
+    - The tour guide gave us a quick **briefing** before we started the hike.
+    - The coach's **briefing** was about the game strategy.
+  related:
+  - word: stand-up
+    difference: A 'stand-up' is a specific type of daily briefing used in agile development.
+      'Briefing' is a more general term.
+  story: During our morning **briefing**, the project manager announced a change in
+    priorities for the week.
+- word: solidify
+  pronunciation: /səˈlɪdɪfaɪ/
+  part_of_speech: verb
+  meaning:
+    english: To make something stronger, more certain, or more definite.
+    bahasa: Untuk membuat sesuatu lebih kuat, lebih pasti, atau lebih jelas.
+  usage: Used when you are making plans or ideas firm and concrete.
+  synonyms:
+  - finalize
+  - confirm
+  examples:
+    workplace:
+    - We need to **solidify** the project requirements before we start coding.
+    - Let's have one more meeting to **solidify** the details of the contract.
+    casual:
+    - They need to **solidify** their travel plans by this weekend.
+    - Her early success helped to **solidify** her reputation as a great artist.
+  related:
+  - word: finalize
+    difference: '''Finalize'' means to complete the last details of something. ''Solidify''
+      is more about making the core concepts strong and definite, and it can happen
+      earlier in the process.'
+  story: After a long brainstorming session, we finally managed to **solidify** our
+    idea for the new feature.
+- word: make revisions
+  pronunciation: /meɪk rɪˈvɪʒənz/
+  part_of_speech: phrase
+  meaning:
+    english: To make changes or corrections to something.
+    bahasa: Membuat perubahan atau koreksi pada sesuatu.
+  usage: Used when you are editing or improving a document, plan, or piece of code
+    based on feedback or new information.
+  synonyms:
+  - edit
+  - amend
+  examples:
+    workplace:
+    - I need to **make revisions** to my code based on the pull request comments.
+    - The legal team asked us to **make revisions** to the user agreement.
+    casual:
+    - The author had to **make revisions** to her book after the editor's review.
+    - I'm going to **make revisions** to my resume.
+  related:
+  - word: change
+    difference: '''Change'' is a very general term. ''Make revisions'' specifically
+      implies making thoughtful corrections or improvements, often to a written or
+      formal work.'
+  story: My first draft of the technical document wasn't clear enough, so I had to
+    **make revisions** based on my manager's feedback.
+- word: keep tabs on
+  pronunciation: /kiːp tæbz ɒn/
+  part_of_speech: phrase
+  meaning:
+    english: To monitor someone or something carefully.
+    bahasa: Memantau seseorang atau sesuatu dengan cermat.
+  usage: An informal way to say you are watching something or someone to see what
+    happens.
+  synonyms:
+  - monitor
+  - watch
+  examples:
+    workplace:
+    - I need to **keep tabs on** the server's performance to make sure it doesn't
+      crash.
+    - The project manager uses a dashboard to **keep tabs on** our progress.
+    casual:
+    - She likes to **keep tabs on** her favorite celebrity through social media.
+    - I need to **keep tabs on** the time so we're not late.
+  related:
+  - word: keep an eye on
+    difference: These two phrases are very similar and often interchangeable. 'Keep
+      tabs on' can sometimes imply a more detailed or frequent check.
+  story: The deployment process for our new service is complex, so I have to **keep
+    tabs on** it for a few hours to ensure everything runs smoothly.
+- word: enigma
+  pronunciation: /ɪˈnɪɡmə/
+  part_of_speech: noun
+  meaning:
+    english: A person or thing that is mysterious, puzzling, or difficult to understand.
+    bahasa: Seseorang atau sesuatu yang misterius, membingungkan, atau sulit dimengerti.
+  usage: Used to describe a problem or situation that is very confusing and hard to
+    figure out.
+  synonyms:
+  - mystery
+  - puzzle
+  examples:
+    workplace:
+    - Why the old system crashes every Tuesday is a complete **enigma** to us.
+    - The bug was an **enigma**; it disappeared every time we tried to debug it.
+    casual:
+    - How he manages to get so much done is an **enigma**.
+    - The ancient artifact is an **enigma** to historians.
+  related:
+  - word: puzzle
+    difference: A 'puzzle' is usually something that can be solved with cleverness.
+      An 'enigma' is a deeper mystery that is difficult to understand or explain.
+  story: The intermittent bug was a true **enigma**. It only happened on certain user
+    accounts, and we couldn't find a pattern.
+- word: join forces
+  pronunciation: /dʒɔɪn ˈfɔːrsɪz/
+  part_of_speech: phrase
+  meaning:
+    english: To combine efforts with someone to work towards a common goal.
+    bahasa: Menggabungkan upaya dengan seseorang untuk bekerja menuju tujuan bersama.
+  usage: Used when two or more people or groups decide to collaborate.
+  synonyms:
+  - collaborate
+  - team up
+  examples:
+    workplace:
+    - The frontend and backend teams decided to **join forces** to tackle the performance
+      issues.
+    - Let's **join forces** to get this project finished on time.
+    casual:
+    - The two musicians decided to **join forces** and form a band.
+    - The community members had to **join forces** to clean up the park.
+  related:
+  - word: team up
+    difference: Very similar meaning. 'Join forces' can sound slightly more formal
+      or suggest that the groups were previously separate or even in opposition.
+  story: I was struggling with a difficult bug, so I asked a senior developer if we
+    could **join forces** to solve it.
+- word: feeling of success
+  pronunciation: /ˈfiːlɪŋ ʌv səkˈsɛs/
+  part_of_speech: phrase
+  meaning:
+    english: A sense of satisfaction and pride from achieving something difficult.
+    bahasa: Rasa puas dan bangga karena telah mencapai sesuatu yang sulit.
+  usage: Used to describe the positive emotion you experience after a successful outcome.
+  synonyms:
+  - sense of accomplishment
+  - triumph
+  examples:
+    workplace:
+    - After we finally launched the project, there was a great **feeling of success**
+      in the team.
+    - Fixing a bug that you've been working on for days gives you a real **feeling
+      of success**.
+    casual:
+    - Finishing a marathon gives you an incredible **feeling of success**.
+    - He got a **feeling of success** after building the furniture by himself.
+  related:
+  - word: accomplishment
+    difference: An 'accomplishment' is the achievement itself. A 'feeling of success'
+      is the emotion that comes from that achievement.
+  story: After weeks of hard work, deploying the new feature gave the entire team
+    a wonderful **feeling of success**.
+- word: successful conclusion
+  pronunciation: /səkˈsɛsfəl kənˈkluːʒən/
+  part_of_speech: phrase
+  meaning:
+    english: A positive or desired end to an event or process.
+    bahasa: Akhir yang positif atau diinginkan dari suatu acara atau proses.
+  usage: Used to describe when a project, task, or event finishes well.
+  synonyms:
+  - happy ending
+  - positive outcome
+  examples:
+    workplace:
+    - We are hoping for a **successful conclusion** to our negotiations with the client.
+    - The project came to a **successful conclusion** this week.
+    casual:
+    - The party came to a **successful conclusion** after midnight.
+    - The search for the lost dog had a **successful conclusion**.
+  related:
+  - word: end
+    difference: An 'end' is neutral; it's just when something stops. A 'successful
+      conclusion' is specifically a positive end.
+  story: Bringing the project to a **successful conclusion** required a lot of overtime,
+    but it was worth it.
