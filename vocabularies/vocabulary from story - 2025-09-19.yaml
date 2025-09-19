@@ -22,3 +22,76 @@
       difference: "'Solo programming' is the opposite, where a developer works alone."
   story: |
     I was stuck on a bug for a whole day. My team lead suggested we **pair program** on it. Together, we found the issue in just 30 minutes. It was a great learning experience for me.
+- word: "sleuthing"
+  pronunciation: "/ˈsluːθɪŋ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The act of investigating or searching for information in a careful and persistent way, like a detective."
+    bahasa: "Tindakan menyelidiki atau mencari informasi dengan cara yang hati-hati dan gigih, seperti seorang detektif."
+  usage: "Use 'sleuthing' when you want to describe a more intensive or clever investigation, especially when trying to find the root cause of a tricky bug or problem."
+  synonyms:
+    - "investigating"
+    - "detective work"
+  examples:
+    workplace:
+      - "After some sleuthing, I found the bug in the legacy code."
+      - "This issue requires some deep sleuthing to figure out."
+    casual:
+      - "I did some sleuthing and found out where he bought that cool t-shirt."
+      - "She's been sleuthing around, trying to find out what the surprise is."
+  related:
+    - word: "investigating"
+      difference: "'Investigating' is a general term for looking into something. 'Sleuthing' implies a more clever, detective-like investigation, often with a sense of mystery or complexity."
+    - word: "debugging"
+      difference: "'Debugging' is the specific process of finding and fixing errors in code. 'Sleuthing' is the investigative part of debugging, the process of hunting for the cause of the bug."
+  story: |
+    The API was returning a 500 error, but only for users in a specific region. It was a real puzzle. After two hours of intense sleuthing, I finally discovered that a recent change in a dependency had caused the issue. It felt like I had solved a crime!
+- word: "on a high note"
+  pronunciation: "/ɒn ə haɪ nəʊt/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To end something in a very positive, successful, or happy way."
+    bahasa: "Mengakhiri sesuatu dengan cara yang sangat positif, sukses, atau bahagia."
+  usage: "Use this phrase to describe a positive conclusion to an event, meeting, or a period of time, like the end of a project or a work week."
+  synonyms:
+    - "successfully"
+    - "with a flourish"
+  examples:
+    workplace:
+      - "We finished the sprint on a high note by deploying the new feature."
+      - "The presentation ended on a high note with a lot of positive feedback from the stakeholders."
+    casual:
+      - "The party ended on a high note with a surprise fireworks display."
+      - "She wanted to leave her job on a high note, so she finished all her projects before she left."
+  related:
+    - word: "on a positive note"
+      difference: "'On a positive note' is used to introduce a positive point or a change of subject to something positive. 'On a high note' is specifically about how something *ends*."
+    - word: "successfully"
+      difference: "'Successfully' is a general adverb for achieving a goal. 'On a high note' is more descriptive and emphasizes the positive feeling and success at the *end* of an activity."
+  story: |
+    The team had been working hard for weeks to meet the deadline. There were a few stressful moments, but everyone pulled together. On the final day, we shipped the feature without any issues. We celebrated with a team lunch, ending the project on a high note.
+- word: "sync-up"
+  pronunciation: "/sɪŋk ʌp/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A short meeting to bring everyone up to date on the progress of a project or task."
+    bahasa: "Rapat singkat untuk memberi tahu semua orang tentang kemajuan proyek atau tugas."
+  usage: "Use 'sync-up' as a noun to refer to a meeting. It's a common term in agile development for a quick, informal meeting."
+  synonyms:
+    - "huddle"
+    - "check-in"
+    - "stand-up"
+  examples:
+    workplace:
+      - "Let's have a quick sync-up before we start the day."
+      - "The daily sync-up is at 9 AM."
+    casual:
+      - "We need a sync-up to decide on our travel plans."
+      - "After the holiday, we had a long sync-up to catch up on everything."
+  related:
+    - word: "meeting"
+      difference: "'Meeting' is a general term for any kind of gathering. A 'sync-up' is specifically a short meeting for the purpose of updating each other."
+    - word: "stand-up"
+      difference: "'Stand-up' is a type of sync-up, but it's usually more formal and part of a specific methodology like Scrum. A 'sync-up' can be more informal and ad-hoc."
+  story: |
+    Our team has a daily sync-up every morning. It's a great way to make sure everyone is on the same page and to identify any blockers early on. Today's sync-up was especially productive; we solved a major issue in just 15 minutes.
