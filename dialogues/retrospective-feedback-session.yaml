@@ -1,0 +1,81 @@
+dialogue:
+  - speaker: Alex
+    english: "Alright, Ben. I think this sprint went pretty smoothly overall, but we should probably talk about that last-minute bug."
+    bahasa: "Baiklah, Ben. Menurutku sprint kali ini berjalan cukup lancar secara keseluruhan, tapi mungkin kita perlu bicara tentang bug yang muncul di menit-menit terakhir itu."
+  - speaker: Ben
+    english: "I agree. That was a close call. I think we need to be more thorough with our testing."
+    bahasa: "Setuju. Itu nyaris saja. Kurasa kita harus lebih teliti lagi dalam pengujian."
+  - speaker: Alex
+    english: "Definitely. I was thinking maybe our PR reviews need to be more in-depth as well. We might have caught it there."
+    bahasa: "Tentu saja. Aku berpikir mungkin tinjauan PR kita juga harus lebih mendalam. Kita mungkin bisa menemukannya di sana."
+  - speaker: Ben
+    english: "That's a fair point. I feel like we've been rushing reviews to meet deadlines."
+    bahasa: "Itu poin yang bagus. Aku merasa kita terlalu terburu-buru dalam melakukan tinjauan untuk mengejar tenggat waktu."
+  - speaker: Alex
+    english: "Exactly. What if we propose a new rule? No PR reviews on Friday afternoons. That's when we're all trying to wrap things up."
+    bahasa: "Tepat sekali. Bagaimana kalau kita usulkan aturan baru? Tidak ada tinjauan PR pada hari Jumat sore. Saat itu kita semua sedang berusaha menyelesaikan pekerjaan."
+  - speaker: Ben
+    english: "I like that idea. And maybe we should dedicate more time to writing test cases before the review process even starts."
+    bahasa: "Aku suka ide itu. Dan mungkin kita harus mendedikasikan lebih banyak waktu untuk menulis kasus uji bahkan sebelum proses tinjauan dimulai."
+  - speaker: Alex
+    english: "I'm on board with that. It might slow us down initially, but it will save us time in the long run."
+    bahasa: "Aku setuju dengan itu. Mungkin awalnya akan memperlambat kita, tapi akan menghemat waktu kita dalam jangka panjang."
+  - speaker: Ben
+    english: "Sounds like a plan. On a positive note, I think the collaboration on the new search feature was top-notch."
+    bahasa: "Terdengar seperti rencana yang bagus. Sisi positifnya, menurutku kolaborasi pada fitur pencarian baru itu sangat luar biasa."
+  - speaker: Alex
+    english: "Absolutely! The teamwork on that was seamless. Everyone chipped in."
+    bahasa: "Tentu saja! Kerja sama tim pada fitur itu berjalan mulus. Semua orang ikut berkontribusi."
+  - speaker: Ben
+    english: "So, our action items are: more detailed PR reviews, no Friday reviews, and a stronger focus on test cases."
+    bahasa: "Jadi, butir-butir tindakan kita adalah: tinjauan PR yang lebih rinci, tidak ada tinjauan pada hari Jumat, dan fokus yang lebih kuat pada kasus uji."
+  - speaker: Alex
+    english: "Yep. Let's bring this up with the rest of the team and see what they think."
+    bahasa: "Ya. Mari kita sampaikan ini kepada anggota tim yang lain dan lihat apa pendapat mereka."
+  - speaker: Ben
+    english: "Great. This was a productive chat. Thanks, Alex."
+    bahasa: "Bagus. Ini percakapan yang produktif. Terima kasih, Alex."
+
+expressions:
+  - phrase: last-minute bug
+    meaning_english: A bug discovered right before a deadline or release.
+    meaning_bahasa: Bug yang ditemukan sesaat sebelum tenggat waktu atau perilisan.
+  - phrase: a close call
+    meaning_english: A situation where something bad almost happened.
+    meaning_bahasa: Situasi di mana sesuatu yang buruk hampir terjadi.
+  - phrase: thorough with our testing
+    meaning_english: Doing our testing in a very detailed and careful way.
+    meaning_bahasa: Melakukan pengujian kita dengan cara yang sangat rinci dan hati-hati.
+  - phrase: in-depth
+    meaning_english: Detailed and comprehensive.
+    meaning_bahasa: Rinci dan komprehensif.
+  - phrase: a fair point
+    meaning_english: A valid or reasonable argument.
+    meaning_bahasa: Argumen yang valid atau masuk akal.
+  - phrase: meet deadlines
+    meaning_english: To complete work by the specified time.
+    meaning_bahasa: Menyelesaikan pekerjaan sesuai waktu yang ditentukan.
+  - phrase: on board with that
+    meaning_english: To agree with a plan or idea.
+    meaning_bahasa: Setuju dengan sebuah rencana atau ide.
+  - phrase: in the long run
+    meaning_english: Over a long period of time; eventually.
+    meaning_bahasa: Dalam jangka waktu yang panjang; pada akhirnya.
+  - phrase: top-notch
+    meaning_english: Excellent, of the highest quality.
+    meaning_bahasa: Luar biasa, kualitas terbaik.
+  - phrase: action items
+    meaning_english: Specific tasks assigned to a person or group to be completed.
+    meaning_bahasa: Tugas spesifik yang diberikan kepada seseorang atau kelompok untuk diselesaikan.
+
+questions:
+  - q: What was the main topic of Alex and Ben's discussion?
+    a: They discussed the last-minute bug in their recent sprint and how to prevent similar issues in the future.
+  - q: What was one of the problems they identified with their process?
+    a: They felt they were rushing their Pull Request (PR) reviews to meet deadlines.
+  - q: What solution did Alex propose regarding PR reviews?
+    a: He suggested a new rule: no PR reviews on Friday afternoons to avoid rushed work.
+  - q: What did Ben praise about the sprint?
+    a: He praised the top-notch collaboration and teamwork on the new search feature.
+  - q: What are their next steps after this conversation?
+    a: They plan to present their proposed action items to the rest of the team for discussion.
