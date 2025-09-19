@@ -1,0 +1,249 @@
+- word: "over-engineer"
+  pronunciation: "/ˌoʊ.vər.en.dʒɪˈnɪr/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To design something in a more complex way than necessary, often for a simple problem."
+    bahasa: "Merancang sesuatu secara berlebihan atau lebih rumit dari yang dibutuhkan."
+  usage: "Use this when a solution is too complicated for the problem it's trying to solve. It often implies that the complexity adds unnecessary cost, maintenance overhead, or potential for bugs."
+  synonyms:
+    - "over-complicate"
+    - "over-design"
+  examples:
+    workplace:
+      - "We just need a simple script to parse the CSV file; let's not over-engineer it with a microservices architecture."
+      - "His solution works, but I think he tends to over-engineer things. This could have been done with half the code."
+    casual:
+      - "He built a smart home system just to turn on one lamp. Talk about over-engineering a solution!"
+      - "Buying a $5,000 camera to take family photos feels like over-engineering the problem of capturing memories."
+  related:
+    - word: "gold-plating"
+      difference: "\"Over-engineering\" is about making the internal structure too complex. \"Gold-plating\" is about adding extra features that the user didn't ask for and doesn't need, making the final product unnecessarily fancy."
+    - word: "future-proofing"
+      difference: "\"Future-proofing\" is designing a system to handle future needs, which can be good. \"Over-engineering\" is when this is taken to an extreme where the complexity for hypothetical future problems hurts the current, simple needs."
+  story: |
+    During a sprint planning meeting, the team discussed a new feature: a simple \"Forgot Password\" link. A junior developer, eager to impress, suggested a complex system involving multiple databases, a dedicated notification service, and AI-powered identity verification. The tech lead smiled gently and said, \"I appreciate the enthusiasm, but I think we might be about to over-engineer this. For now, a standard email reset link will do the job perfectly and won't take us three sprints to build.\"
+
+- word: "deprecate"
+  pronunciation: "/ˈdep.rə.keɪt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To mark a feature, method, or software as outdated and discouraged from use, often because it has been replaced by a newer, better alternative."
+    bahasa: "Menandai (fitur, metode, atau perangkat lunak) sebagai usang dan tidak dianjurkan untuk digunakan, biasanya karena akan dihapus atau digantikan di masa mendatang."
+  usage: "Use this when talking about phasing out old code or features. It's a formal warning to stop using something because it will be removed in a future version."
+  synonyms:
+    - "phase out"
+    - "retire"
+  examples:
+    workplace:
+      - "In the next release, we're going to deprecate the old API endpoint. We need to inform all our clients to migrate to the new one."
+      - "The documentation clearly states that this function is deprecated and will be removed in version 4.0."
+    casual:
+      - "The company decided to deprecate its old desktop app in favor of its new web platform."
+      - "They're slowly deprecating the use of physical ID cards now that everyone has a digital pass on their phone."
+  related:
+    - word: "obsolete"
+      difference: "\"Deprecated\" means it's still available but you shouldn't use it, and it will be removed later. \"Obsolete\" means it's no longer in use at all and has been fully replaced."
+    - word: "legacy"
+      difference: "\"Legacy\" refers to an old system or code that is still in use, often because it's critical and hard to replace. \"Deprecate\" is the *action* of marking a part of that (or any) system for removal."
+  story: |
+    The team was working on a major library update. \"Okay everyone,\" Sarah, the team lead, announced, \"we've built a much more efficient function called `calculateNewMetrics()`. As of today, we will officially deprecate the old `calculateMetrics()` function. It still works for backward compatibility, but we'll add a warning in the console logs. Let's make sure all new code uses the new function, as we plan to remove the old one entirely by the end of the quarter.\"
+
+- word: "resilience"
+  pronunciation: "/rɪˈzɪl.jəns/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The ability of a system, network, or person to handle or recover quickly from difficult conditions or failures."
+    bahasa: "Ketahanan; kemampuan sebuah sistem, jaringan, atau seseorang untuk menangani atau pulih dengan cepat dari kondisi sulit atau kegagalan."
+  usage: "Use this to describe the robustness and fault-tolerance of a system. It's a key concept in distributed systems and infrastructure design. It can also be used to describe a person's ability to bounce back from stress or setbacks."
+  synonyms:
+    - "robustness"
+    - "fault tolerance"
+  examples:
+    workplace:
+      - "We need to build more resilience into our architecture. If one microservice goes down, it shouldn't crash the entire application."
+      - "The site showed great resilience during the traffic spike; it slowed down a bit but never went offline."
+    casual:
+      - "Despite the project setbacks, the team showed incredible resilience and still met the deadline."
+      - "Her resilience after losing her job was amazing; she started her own company a month later."
+  related:
+    - word: "redundancy"
+      difference: "\"Redundancy\" is a common *method* for achieving resilience. It means having duplicate components (like backup servers). \"Resilience\" is the overall quality of being able to withstand failure, which might be achieved through redundancy, failovers, or other strategies."
+    - word: "durability"
+      difference: "\"Durability\" often refers to data, meaning the data will survive even if the system crashes (e.g., it's saved to disk). \"Resilience\" is broader and refers to the entire system's ability to keep functioning, not just the data's safety."
+  story: |
+    After a major cloud provider had an outage, half the internet seemed to go down. But the team's application stayed online. During the retro, the CTO praised them. \"This is why we invested so much time in building resilience,\" she said. \"Our multi-region setup with automatic failover worked exactly as designed. The system took a hit, but it recovered on its own without any human intervention. That's true resilience.\"
+
+- word: "fallacy"
+  pronunciation: "/ˈfæl.ə.si/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A mistaken belief, especially one based on unsound argument or reasoning."
+    bahasa: "Keyakinan yang salah atau sesat pikir, terutama yang didasarkan pada argumen yang tidak logis."
+  usage: "Use this to point out a flaw in someone's logic or a common misconception, especially during technical discussions or planning."
+  synonyms:
+    - "misconception"
+    - "delusion"
+  examples:
+    workplace:
+      - "The idea that adding more developers to a late project will make it finish faster is a well-known fallacy."
+      - "It's a fallacy to think that just because the code works, it's good code. We need to consider maintainability and performance."
+    casual:
+      - "The belief that you'll catch a cold from being in the rain is a common fallacy."
+      - "He was operating under the fallacy that 'if you build it, they will come,' but he never did any marketing."
+  related:
+    - word: "assumption"
+      difference: "An \"assumption\" is something you accept as true without proof, which could be right or wrong. A \"fallacy\" is an argument or belief that is demonstrably false or based on faulty logic. All fallacies are wrong, but not all assumptions are."
+    - word: "myth"
+      difference: "A \"myth\" is a widely held but false belief or idea, often traditional or legendary. A \"fallacy\" is more specific to a flaw in the structure of an argument or reasoning process."
+  story: |
+    During a debate about system architecture, a new manager argued, \"We should build this as a monolith first. It's always faster.\" The senior engineer, Maria, gently interjected. \"That's a common fallacy,\" she explained. \"While a monolith can be simpler initially, for our specific use case with its independent, scalable components, starting with microservices will actually save us from major refactoring headaches down the road. The 'monolith-first' rule isn't a universal truth.\"
+
+- word: "expedite"
+  pronunciation: "/ˈek.spə.daɪt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To make an action or process happen sooner or be accomplished more quickly."
+    bahasa: "Mempercepat atau menyegerakan suatu tindakan atau proses."
+  usage: "A formal way to say \"speed up.\" Use it when you need to ask for something to be prioritized or when you are taking actions to make a process faster."
+  synonyms:
+    - "accelerate"
+    - "speed up"
+  examples:
+    workplace:
+      - "The client is asking for the feature by Friday. We need to find a way to expedite the testing process."
+      - "Can you expedite the code review for this hotfix? It's a critical bug."
+    casual:
+      - "I paid for expedited shipping to make sure the gift arrives on time."
+      - "He's trying to expedite his passport renewal before his trip."
+  related:
+    - word: "prioritize"
+      difference: "To \"prioritize\" something is to decide it's more important than other tasks. To \"expedite\" it is to take active steps to make that single task go faster. You usually prioritize *before* you expedite."
+    - word: "rush"
+      difference: "\"Rush\" implies speed, often at the cost of quality or care. \"Expedite\" has a more professional and positive connotation, suggesting efficiency and speed without necessarily sacrificing quality."
+  story: |
+    \"The deployment pipeline is stuck waiting for security approval,\" David said during stand-up. \"The marketing launch is tomorrow, and they can't proceed without this update.\" The project manager nodded, \"Okay, this is our top priority. I'll talk to the security team lead directly to see if we can expedite the approval. I'll explain the urgency and see if they can review it this morning.\"
+
+- word: "liaison"
+  pronunciation: "/liˈeɪ.zɑːn/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A person who acts as a link to assist communication and cooperation between groups of people."
+    bahasa: "Penghubung; seseorang yang bertugas menjalin komunikasi dan kerja sama antara dua kelompok atau lebih."
+  usage: "Use this to describe the role of someone who connects two or more teams, departments, or companies."
+  synonyms:
+    - "intermediary"
+    - "go-between"
+  examples:
+    workplace:
+      - "We need a liaison between the engineering team and the product team to make sure requirements are communicated clearly."
+      - "Sarah is our team's official liaison with the marketing department for this project."
+    casual:
+      - "My sister acted as the liaison between the caterer and my parents for the wedding."
+      - "He's the family liaison, responsible for keeping all the relatives informed about family events."
+  related:
+    - word: "mediator"
+      difference: "A \"liaison\" primarily facilitates communication and cooperation. A \"mediator\" is specifically brought in to help resolve a dispute or conflict between two parties."
+    - word: "ambassador"
+      difference: "An \"ambassador\" formally represents a group or organization, often in a positive, promotional way. A \"liaison\" is more of a functional role focused on communication flow and coordination."
+  story: |
+    The backend and frontend teams were having trouble coordinating their API changes. The backend team would release updates, and the frontend team wouldn't find out until something broke. To fix this, they appointed Alex, a developer with strong communication skills, as the official liaison. His job was to attend both teams' stand-ups and ensure that any API contract changes were discussed and documented in a place both teams could see, preventing future surprises.
+
+- word: "proponent"
+  pronunciation: "/prəˈpoʊ.nənt/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A person who advocates for or supports a theory, proposal, or project."
+    bahasa: "Pendukung atau penganjur suatu teori, usulan, atau proyek."
+  usage: "Use this to describe someone who is a strong supporter of a particular idea, technology, or way of doing things."
+  synonyms:
+    - "advocate"
+    - "champion"
+  examples:
+    workplace:
+      - "She is a big proponent of using TypeScript in all our new projects because of its type safety features."
+      - "He was the main proponent of switching to a new cloud provider, and he presented a strong case for it."
+    casual:
+      - "My dad is a proponent of a four-day work week."
+      - "She's a proponent of organic farming and local produce."
+  related:
+    - word: "opponent"
+      difference: "An \"opponent\" is the direct opposite of a \"proponent.\" They are someone who argues against an idea or proposal."
+    - word: "advocate"
+      difference: "\"Advocate\" and \"proponent\" are very close synonyms. \"Advocate\" often implies more active, public support or argument, while a \"proponent\" can simply be someone who supports an idea, even passively."
+  story: |
+    When the engineering team was deciding on a new framework for their frontend, there were many options. Mark was a vocal proponent of Vue.js. He created a demo application, ran a workshop to teach the basics, and presented data on its performance and ease of use compared to other options. His well-reasoned arguments and clear demonstrations convinced the team that he was right.
+
+- word: "contention"
+  pronunciation: "/kənˈten.ʃən/"
+  part_of_speech: "noun"
+  meaning:
+    english: "In computing, competition for the same resource, such as memory, a disk drive, or a network channel. Can also mean a heated disagreement or an assertion made in an argument."
+    bahasa: "Dalam komputasi, perebutan sumber daya yang sama. Bisa juga berarti perselisihan atau sebuah pernyataan yang diajukan dalam perdebatan."
+  usage: "In tech, it's most often used to describe a performance issue where multiple processes are trying to access the same limited resource, causing a bottleneck."
+  synonyms:
+    - "conflict"
+    - "competition"
+  examples:
+    workplace:
+      - "We're seeing a lot of lock contention in the database, which is slowing down the application."
+      - "The main point of contention in the meeting was whether to prioritize new features or fix technical debt."
+    casual:
+      - "The division of chores is a constant source of contention between the roommates."
+      - "It is his contention that the novel is the author's best work."
+  related:
+    - word: "bottleneck"
+      difference: "\"Contention\" is the *cause*—multiple things competing for a resource. A \"bottleneck\" is the *effect*—the point in the system where this contention slows everything down."
+    - word: "concurrency"
+      difference: "\"Concurrency\" is about designing a system where multiple things can happen at the same time. \"Contention\" is a problem that arises in concurrent systems when those things get in each other's way."
+  story: |
+    The application's performance was degrading during peak hours. After some investigation, the performance team found the root cause. \"There's heavy resource contention on the primary database,\" the lead engineer reported. \"Too many threads are trying to write to the same table simultaneously, creating locks and long wait times. We need to implement a queuing system to manage these requests more gracefully.\"
+
+- word: "hand-wavy"
+  pronunciation: "/hændˈweɪ.vi/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Not detailed or precise; glossing over important or difficult details with vague gestures or explanations."
+    bahasa: "Tidak mendetail atau tidak tepat; mengabaikan detail penting dengan penjelasan yang samar-samar."
+  usage: "Use this informally to describe an explanation, plan, or idea that lacks substance and ignores the tricky parts. It implies the person doesn't know the details or is intentionally hiding them."
+  synonyms:
+    - "vague"
+    - "imprecise"
+  examples:
+    workplace:
+      - "His proposal for migrating the database was very hand-wavy. He just said 'we'll move the data' but didn't explain how we'd handle the downtime."
+      - "I need more than a hand-wavy explanation. Give me a step-by-step plan."
+    casual:
+      - "Her business plan was too hand-wavy; it had a lot of buzzwords but no real numbers."
+      - "When I asked him how he fixed the car, he gave me a hand-wavy answer about 'messing with the engine'."
+  related:
+    - word: "vague"
+      difference: "\"Vague\" just means unclear. \"Hand-wavy\" is more critical; it implies that the vagueness is used to cover up a lack of knowledge or to avoid dealing with a complex problem. It has a slightly dismissive tone."
+    - word: "superficial"
+      difference: "\"Superficial\" means lacking depth. \"Hand-wavy\" is similar but specifically points to the act of *explaining* something poorly by gesturing over the details, either literally or figuratively."
+  story: |
+    In the architecture review meeting, a junior engineer presented his design. When he got to the most complex part—how the data synchronization would work—he said, \"And then we... you know... sync the data between the two systems.\" The tech lead stopped him. \"That's a bit too hand-wavy for me,\" she said kindly. \"That's the hardest part of this problem. Let's dig into the details. What happens if there's a conflict? What's our strategy for ensuring consistency?\"
+
+- word: "unveil"
+  pronunciation: "/ʌnˈveɪl/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To show or announce something new or secret to the public for the first time."
+    bahasa: "Memperkenalkan atau mengumumkan sesuatu yang baru atau rahasia kepada publik untuk pertama kalinya."
+  usage: "Use this for formal announcements of new products, features, or projects. It creates a sense of occasion and excitement."
+  synonyms:
+    - "reveal"
+    - "launch"
+  examples:
+    workplace:
+      - "Next week at the all-hands meeting, we will finally unveil the new user interface we've been working on for six months."
+      - "The company plans to unveil its new flagship product at the annual tech conference."
+    casual:
+      - "The artist will unveil her latest sculpture at the gallery opening on Friday."
+      - "They're waiting for the perfect moment to unveil their new restaurant concept."
+  related:
+    - word: "launch"
+      difference: "\"Unveil\" is about the moment of revelation—showing it for the first time. \"Launch\" is about making it available to customers. You might unveil a product on Monday (show it off) and then launch it on Friday (let people buy/use it)."
+    - word: "release"
+      difference: "\"Release\" is a more technical term for making software available (e.g., a new version release). \"Unveil\" is more of a marketing or communications term used to generate excitement and announce it to the world."
+  story: |
+    After months of secret development under the project code-name \"Phoenix,\" the day had finally come. The CEO stood on stage at the company's annual conference. \"For the past year, our best engineers have been working on a revolutionary new tool,\" she announced. \"Today, I am thrilled to unveil... 'Nexus,' our new platform that will change the way teams collaborate forever!\" A huge screen behind her lit up with the new logo and a demo video.
