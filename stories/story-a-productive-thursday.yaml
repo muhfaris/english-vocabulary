@@ -1,0 +1,18 @@
+story:
+  title: "a-productive-thursday"
+  date: "2025-09-19"
+  text: |
+    Thursday started with our usual morning **stand-up**. My turn came, and I gave a quick update on my progress. I mentioned I was a bit **stuck** on a tricky bug, and a senior engineer offered to **pair program** with me after the meeting. That was a huge relief.
+
+    Before the pairing session, I grabbed a **cup of coffee** and reviewed my code one last time. During the session, we managed to find the **root cause** of the bug much faster together. It turned out to be a subtle logic error I had overlooked. We fixed it, and I pushed the changes.
+
+    The rest of the day was focused on a new feature. The product manager had already provided the **specs**, which were crystal clear. This made it easy to get started. I felt a great sense of **accomplishment** as I began to build out the new components. It feels good to have a productive day where you can successfully **troubleshoot** an issue and also make solid progress on new work.
+  highlighted_words:
+    - "stand-up"
+    - "stuck"
+    - "pair program"
+    - "cup of coffee"
+    - "root cause"
+    - "specs"
+    - "accomplishment"
+    - "troubleshoot"

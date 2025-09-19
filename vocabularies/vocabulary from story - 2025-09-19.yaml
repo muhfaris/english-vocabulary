@@ -1,0 +1,24 @@
+- word: "pair program"
+  pronunciation: "/pɛər ˈproʊɡræm/"
+  part_of_speech: "verb"
+  meaning:
+    english: "A software development technique in which two programmers work together at one workstation."
+    bahasa: "Teknik pengembangan perangkat lunak di mana dua programmer bekerja bersama di satu stasiun kerja."
+  usage: "Use this term to describe the practice of two developers coding together to solve a problem or write a feature."
+  synonyms:
+    - "pair programming"
+    - "collaborative coding"
+  examples:
+    workplace:
+      - "We decided to **pair program** on the complex algorithm to avoid mistakes."
+      - "Let's **pair program** for an hour to get this feature done."
+    casual:
+      - "I learned a lot when I had a chance to **pair program** with a senior developer."
+      - "They are going to **pair program** to fix the bug."
+  related:
+    - word: "code review"
+      difference: "'Pair programming' is a collaborative activity done in real-time, while 'code review' is an asynchronous process where one person checks another's completed code."
+    - word: "solo programming"
+      difference: "'Solo programming' is the opposite, where a developer works alone."
+  story: |
+    I was stuck on a bug for a whole day. My team lead suggested we **pair program** on it. Together, we found the issue in just 30 minutes. It was a great learning experience for me.
