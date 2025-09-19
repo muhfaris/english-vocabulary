@@ -233,3 +233,51 @@
   story: A colleague asked me a question about an old project, but I couldn't remember
     the details. I told them, "I need to check my notes, but I will **get back to**
     you before the end of the day."
+- word: "morning sync"
+  pronunciation: "/ˈmɔːr.nɪŋ sɪŋk/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A brief daily meeting, usually held in the morning, for a team to align on their work and priorities."
+    bahasa: "Rapat singkat setiap hari, biasanya diadakan di pagi hari, agar tim dapat menyelaraskan pekerjaan dan prioritas mereka."
+  usage: "Used to describe the daily stand-up or huddle that many agile teams practice to ensure everyone is on the same page."
+  synonyms:
+    - "daily stand-up"
+    - "daily huddle"
+  examples:
+    workplace:
+      - "During the morning sync, I mentioned that I was blocked by the API team."
+      - "Let's discuss this further after the morning sync; I don't want to take up everyone's time."
+    casual:
+      - "I'll grab a coffee right after our morning sync."
+      - "Our morning sync is usually pretty quick, just 15 minutes."
+  related:
+    - word: "daily scrum"
+      difference: "'Daily scrum' is the official term in the Scrum framework, while 'morning sync' is a more informal and generic term for a similar meeting."
+    - word: "check-in"
+      difference: "'Check-in' is more general and can refer to any brief update, not necessarily a daily team meeting."
+  story: |
+    As a remote team, our morning sync is essential. It's our time to connect, share what we're working on, and identify any blockers. Today, I found out that a teammate was struggling with a similar task, and we decided to pair program after the sync.
+- word: "dive in"
+  pronunciation: "/daɪv ɪn/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To start working on something with great energy and enthusiasm, often something complex or challenging."
+    bahasa: "Mulai mengerjakan sesuatu dengan penuh energi dan antusiasme, seringkali sesuatu yang kompleks atau menantang."
+  usage: "Used to describe the action of beginning a task, investigation, or project, especially one that requires deep focus."
+  synonyms:
+    - "dig in"
+    - "get started"
+  examples:
+    workplace:
+      - "I'm ready to dive in and start coding the new feature."
+      - "We need to dive in and analyze the root cause of this bug."
+    casual:
+      - "The food looks delicious! Let's dive in."
+      - "I can't wait to dive into this new book I bought."
+  related:
+    - word: "tackle"
+      difference: "'Tackle' implies confronting a difficult problem, while 'dive in' emphasizes starting with energy, regardless of difficulty."
+    - word: "start"
+      difference: "'Start' is a general term for beginning something. 'Dive in' adds a sense of eagerness and immersion."
+  story: |
+    After the planning meeting, I couldn't wait to dive in. The project was a bit of a puzzle, and I love a good challenge. I blocked off my afternoon, put on my headphones, and started to sketch out the architecture.
