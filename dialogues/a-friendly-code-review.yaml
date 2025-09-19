@@ -1,0 +1,61 @@
+dialogue:
+  - speaker: Sarah
+    english: "Hey Mark, do you have a minute to look at my PR? It's for the new notification feature."
+    bahasa: "Hai Mark, ada waktu sebentar untuk melihat PR-ku? Ini untuk fitur notifikasi yang baru."
+  - speaker: Mark
+    english: "Sure, Sarah. Send me the link. I'll check it out right now."
+    bahasa: "Tentu, Sarah. Kirimi aku tautannya. Aku akan memeriksanya sekarang."
+  - speaker: Sarah
+    english: "Great, thanks! It's PR #256. I'm a bit unsure about the database query I wrote."
+    bahasa: "Bagus, terima kasih! PR nomor #256. Aku agak ragu dengan kueri database yang aku tulis."
+  - speaker: Mark
+    english: "Okay, I see it. Let me pull down the branch and run it locally."
+    bahasa: "Oke, aku lihat. Biar aku tarik branch-nya dan jalankan secara lokal."
+  - speaker: Sarah
+    english: "No rush, take your time. I've added some unit tests as well."
+    bahasa: "Tidak usah terburu-buru, santai saja. Aku juga sudah menambahkan beberapa unit test."
+  - speaker: Mark
+    english: "The tests are passing, which is a good sign. The code looks clean overall. Just a couple of minor suggestions."
+    bahasa: "Tesnya berhasil, itu pertanda bagus. Kodenya terlihat bersih secara keseluruhan. Hanya beberapa saran kecil."
+  - speaker: Sarah
+    english: "Oh, great! What are they?"
+    bahasa: "Oh, bagus! Apa saja?"
+  - speaker: Mark
+    english: "In the `NotificationService.js` file, you could probably use a constant for the notification type string to avoid magic strings."
+    bahasa: "Di file `NotificationService.js`, kamu mungkin bisa menggunakan konstanta untuk string tipe notifikasi untuk menghindari magic string."
+  - speaker: Sarah
+    english: "Ah, good point. I'll refactor that. Anything else?"
+    bahasa: "Ah, poin yang bagus. Aku akan refactor itu. Ada lagi?"
+  - speaker: Mark
+    english: "The database query looks fine, actually. It's quite efficient. I'll leave a comment on the PR to approve it once you've addressed the magic string issue."
+    bahasa: "Kueri database-nya sebenarnya baik-baik saja. Cukup efisien. Aku akan meninggalkan komentar di PR untuk menyetujuinya setelah kamu mengatasi masalah magic string."
+  - speaker: Sarah
+    english: "Perfect! Thanks a lot for the quick feedback, Mark. I appreciate it."
+    bahasa: "Sempurna! Terima kasih banyak atas umpan balik cepatnya, Mark. Aku sangat menghargainya."
+  - speaker: Mark
+    english: "No problem at all. Happy to help."
+    bahasa: "Tidak masalah sama sekali. Senang membantu."
+
+expressions:
+  - phrase: pull down the branch
+    meaning_english: "To download a specific branch from a remote Git repository to your local machine."
+    meaning_bahasa: "Mengunduh cabang tertentu dari repositori Git jarak jauh ke mesin lokal Anda."
+  - phrase: magic strings
+    meaning_english: "Hardcoded string values in the code that are not defined as constants, which can make the code harder to maintain."
+    meaning_bahasa: "Nilai string yang ditulis langsung di dalam kode yang tidak didefinisikan sebagai konstanta, yang dapat membuat kode lebih sulit untuk dipelihara."
+  - phrase: quick feedback
+    meaning_english: "A fast response or review of someone's work."
+    meaning_bahasa: "Tanggapan atau ulasan cepat atas pekerjaan seseorang."
+  - phrase: no rush
+    meaning_english: "An expression used to tell someone that they don't need to hurry."
+    meaning_bahasa: "Ekspresi yang digunakan untuk memberitahu seseorang bahwa mereka tidak perlu terburu-buru."
+
+questions:
+  - q: "What is the pull request about?"
+    a: "The pull request is about a new notification feature."
+  - q: "What was Sarah unsure about in her pull request?"
+    a: "She was unsure about the database query she wrote."
+  - q: "What was Mark's main suggestion for improvement?"
+    a: "Mark suggested replacing a 'magic string' with a constant in the `NotificationService.js` file."
+  - q: "Did Mark find any issues with the database query?"
+    a: "No, he found the query to be efficient."
