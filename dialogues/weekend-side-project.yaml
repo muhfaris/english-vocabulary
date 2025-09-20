@@ -1,0 +1,66 @@
+dialogue:
+  - speaker: Maya
+    english: "Hey David, got a minute?"
+    bahasa: "Hai David, ada waktu sebentar?"
+  - speaker: David
+    english: "Sure, what's up?"
+    bahasa: "Tentu, ada apa?"
+  - speaker: Maya
+    english: "I was thinking about that side project we talked about. The smart home dashboard."
+    bahasa: "Aku lagi mikirin proyek sampingan yang kita bicarakan. Dasbor rumah pintar itu."
+  - speaker: David
+    english: "Oh yeah! I'm still keen on that. Did you have any new ideas?"
+    bahasa: "Oh iya! Aku masih tertarik. Kamu punya ide baru?"
+  - speaker: Maya
+    english: "I was thinking we could use a Raspberry Pi as the core controller. It's cheap and has great community support."
+    bahasa: "Aku berpikir kita bisa menggunakan Raspberry Pi sebagai pengontrol intinya. Murah dan dukungan komunitasnya bagus."
+  - speaker: David
+    english: "That's a solid idea. And for the frontend? React or Vue?"
+    bahasa: "Itu ide yang bagus. Dan untuk frontend-nya? React atau Vue?"
+  - speaker: Maya
+    english: "I'm leaning towards React. My skills are a bit sharper there."
+    bahasa: "Aku lebih cenderung ke React. Kemampuanku sedikit lebih baik di sana."
+  - speaker: David
+    english: "Works for me. We'll need a way for them to communicate. A simple REST API should do the trick, right?"
+    bahasa: "Boleh juga. Kita butuh cara agar keduanya bisa berkomunikasi. REST API sederhana sudah cukup, kan?"
+  - speaker: Maya
+    english: "Exactly. We can use Flask or FastAPI on the Pi. Super lightweight."
+    bahasa: "Tepat sekali. Kita bisa pakai Flask atau FastAPI di Pi. Sangat ringan."
+  - speaker: David
+    english: "Perfect. How about we start whiteboarding the basic architecture this weekend?"
+    bahasa: "Sempurna. Bagaimana kalau kita mulai membuat arsitektur dasarnya di papan tulis akhir pekan ini?"
+  - speaker: Maya
+    english: "Sounds like a plan. I'll bring the coffee."
+    bahasa: "Setuju. Aku akan bawa kopinya."
+  - speaker: David
+    english: "And I'll bring the donuts. It's a deal."
+    bahasa: "Dan aku akan bawa donat. Deal."
+  - speaker: Maya
+    english: "Great! I'm excited to finally get this off the ground."
+    bahasa: "Bagus! Aku senang akhirnya kita bisa memulai ini."
+  - speaker: David
+    english: "Me too. It's going to be a fun challenge."
+    bahasa: "Aku juga. Ini akan menjadi tantangan yang menyenangkan."
+expressions:
+  - phrase: "got a minute?"
+    meaning_english: "Do you have a short amount of time to talk?"
+    meaning_bahasa: "ada waktu sebentar?"
+  - phrase: "keen on that"
+    meaning_english: "Very interested in or enthusiastic about something."
+    meaning_bahasa: "sangat tertarik dengan itu"
+  - phrase: "leaning towards"
+    meaning_english: "Preferring or tending to choose something."
+    meaning_bahasa: "cenderung memilih"
+  - phrase: "do the trick"
+    meaning_english: "To be a good enough solution."
+    meaning_bahasa: "sudah cukup"
+  - phrase: "get this off the ground"
+    meaning_english: "To start a project or business."
+    meaning_bahasa: "memulai proyek ini"
+questions:
+  - q: "What is the side project Maya and David are discussing?"
+    a: "They are discussing a smart home dashboard."
+  - q: "What technology does Maya suggest for the core controller?"
+    a: "She suggests using a Raspberry Pi."
+  - q: "What did they decide to use for the frontend?"
+    a: "They decided to use React for the frontend."
