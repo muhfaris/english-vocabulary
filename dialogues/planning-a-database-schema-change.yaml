@@ -1,0 +1,69 @@
+dialogue:
+  - speaker: Alex
+    english: "Hey, Ben. Got a minute? I want to discuss the proposed schema change for the new user profile feature."
+    bahasa: "Hai, Ben. Ada waktu sebentar? Aku mau diskusi soal usulan perubahan skema untuk fitur profil pengguna yang baru."
+  - speaker: Ben
+    english: "Sure, Alex. I was just looking at the ticket. It seems like a pretty significant overhaul. What's the main driver?"
+    bahasa: "Tentu, Alex. Aku baru saja lihat tiketnya. Kelihatannya ini perombakan yang cukup signifikan. Apa pendorong utamanya?"
+  - speaker: Alex
+    english: "We need to support more complex user relationships and also store new types of metadata. The current flat structure is becoming a bottleneck."
+    bahasa: "Kita perlu mendukung hubungan pengguna yang lebih kompleks dan juga menyimpan jenis metadata baru. Struktur datar yang sekarang sudah menjadi penghambat."
+  - speaker: Ben
+    english: "I see. Have you mapped out the new tables and foreign key relationships? I'm particularly concerned about the migration strategy."
+    bahasa: "Aku mengerti. Apa kamu sudah memetakan tabel-tabel baru dan hubungan foreign key-nya? Aku khususnya khawatir tentang strategi migrasinya."
+  - speaker: Alex
+    english: "I've got a draft ERD. The plan is to do a phased migration. We'll run both schemas in parallel for a while to minimize downtime."
+    bahasa: "Aku sudah punya draf ERD-nya. Rencananya adalah melakukan migrasi bertahap. Kita akan menjalankan kedua skema secara paralel untuk sementara waktu untuk meminimalkan downtime."
+  - speaker: Ben
+    english: "That sounds reasonable. How will we handle data consistency between the old and new schemas during the transition?"
+    bahasa: "Kedengarannya masuk akal. Bagaimana kita akan menangani konsistensi data antara skema lama dan baru selama masa transisi?"
+  - speaker: Alex
+    english: "We'll use triggers to propagate changes from the old schema to the new one. For the backfill, we'll run a script during a low-traffic period."
+    bahasa: "Kita akan menggunakan trigger untuk menyebarkan perubahan dari skema lama ke yang baru. Untuk pengisian data lama, kita akan menjalankan skrip selama periode lalu lintas rendah."
+  - speaker: Ben
+    english: "Okay, that could work. We need to be careful with performance, though. Those triggers could add latency."
+    bahasa: "Oke, itu bisa berhasil. Tapi kita harus hati-hati dengan performa. Trigger itu bisa menambah latensi."
+  - speaker: Alex
+    english: "Agreed. I'll set up a staging environment to benchmark the performance impact before we roll it out to production."
+    bahasa: "Setuju. Aku akan siapkan lingkungan staging untuk mengukur dampak performanya sebelum kita rilis ke produksi."
+  - speaker: Ben
+    english: "Perfect. Let's schedule a follow-up meeting with the DBA to get their input before we finalize the plan."
+    bahasa: "Sip. Mari kita jadwalkan pertemuan lanjutan dengan DBA untuk mendapatkan masukan mereka sebelum kita finalisasi rencananya."
+
+expressions:
+  - phrase: "Significant overhaul"
+    meaning_english: "A major renovation or series of changes."
+    meaning_bahasa: "Perombakan besar atau serangkaian perubahan besar."
+  - phrase: "Main driver"
+    meaning_english: "The primary reason or motivation for something."
+    meaning_bahasa: "Alasan utama atau motivasi untuk sesuatu."
+  - phrase: "Becoming a bottleneck"
+    meaning_english: "Starting to slow down the overall process or system."
+    meaning_bahasa: "Mulai memperlambat proses atau sistem secara keseluruhan."
+  - phrase: "Phased migration"
+    meaning_english: "A migration process that is done in stages or parts over time."
+    meaning_bahasa: "Proses migrasi yang dilakukan secara bertahap atau per bagian dari waktu ke waktu."
+  - phrase: "Minimize downtime"
+    meaning_english: "To reduce the amount of time a system is offline or unavailable."
+    meaning_bahasa: "Mengurangi jumlah waktu sistem offline atau tidak tersedia."
+  - phrase: "Data consistency"
+    meaning_english: "Ensuring that data is the same and accurate across different locations or systems."
+    meaning_bahasa: "Memastikan bahwa data sama dan akurat di berbagai lokasi atau sistem."
+  - phrase: "Low-traffic period"
+    meaning_english: "A time when there are very few users on the system."
+    meaning_bahasa: "Waktu ketika ada sangat sedikit pengguna di sistem."
+  - phrase: "Benchmark the performance impact"
+    meaning_english: "To measure and evaluate how something affects the system's speed and responsiveness."
+    meaning_bahasa: "Mengukur dan mengevaluasi bagaimana sesuatu memengaruhi kecepatan dan responsivitas sistem."
+
+questions:
+  - q: "What is the main topic of the conversation?"
+    a: "The main topic is planning a database schema change for a new user profile feature."
+  - q: "Why is the current schema a problem?"
+    a: "It's a flat structure that is becoming a bottleneck and cannot support more complex user relationships or new metadata."
+  - q: "What is the proposed migration strategy?"
+    a: "A phased migration where both the old and new schemas run in parallel for a time, with triggers to ensure data consistency and a backfill script run during a low-traffic period."
+  - q: "What is Ben's primary concern?"
+    a: "He is concerned about the migration strategy and the potential performance impact of using triggers for data consistency."
+  - q: "What is the next step in their planning process?"
+    a: "To benchmark the performance on a staging environment and then have a follow-up meeting with the Database Administrator (DBA)."
