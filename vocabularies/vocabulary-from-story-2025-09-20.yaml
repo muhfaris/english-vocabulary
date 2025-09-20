@@ -1,303 +1,129 @@
-- word: briefing
-  pronunciation: "/ˈbriːfɪŋ/"
-  part_of_speech: noun
-  meaning:
-    english: A meeting for giving information or instructions.
-    bahasa: Sebuah pertemuan untuk memberikan informasi atau instruksi.
-  usage: Used for short, informational meetings, often at the start of a day or project.
-  synonyms:
-  - update
-  - meeting
-  examples:
-    workplace:
-    - The team has a morning **briefing** every day at 9 AM.
-    - I'll give you a full **briefing** on the new client's requirements.
-    casual:
-    - The tour guide gave us a quick **briefing** before we started the hike.
-    - The coach's **briefing** was about the game strategy.
-  related:
-  - word: stand-up
-    difference: A 'stand-up' is a specific type of daily briefing used in agile development.
-      'Briefing' is a more general term.
-  story: During our morning **briefing**, the project manager announced a change in
-    priorities for the week.
-- word: solidify
-  pronunciation: "/səˈlɪdɪfaɪ/"
-  part_of_speech: verb
-  meaning:
-    english: To make something stronger, more certain, or more definite.
-    bahasa: Untuk membuat sesuatu lebih kuat, lebih pasti, atau lebih jelas.
-  usage: Used when you are making plans or ideas firm and concrete.
-  synonyms:
-  - finalize
-  - confirm
-  examples:
-    workplace:
-    - We need to **solidify** the project requirements before we start coding.
-    - Let's have one more meeting to **solidify** the details of the contract.
-    casual:
-    - They need to **solidify** their travel plans by this weekend.
-    - Her early success helped to **solidify** her reputation as a great artist.
-  related:
-  - word: finalize
-    difference: '''Finalize'' means to complete the last details of something. ''Solidify''
-      is more about making the core concepts strong and definite, and it can happen
-      earlier in the process.'
-  story: After a long brainstorming session, we finally managed to **solidify** our
-    idea for the new feature.
-- word: make revisions
-  pronunciation: "/meɪk rɪˈvɪʒənz/"
-  part_of_speech: phrase
-  meaning:
-    english: To make changes or corrections to something.
-    bahasa: Membuat perubahan atau koreksi pada sesuatu.
-  usage: Used when you are editing or improving a document, plan, or piece of code
-    based on feedback or new information.
-  synonyms:
-  - edit
-  - amend
-  examples:
-    workplace:
-    - I need to **make revisions** to my code based on the pull request comments.
-    - The legal team asked us to **make revisions** to the user agreement.
-    casual:
-    - The author had to **make revisions** to her book after the editor's review.
-    - I'm going to **make revisions** to my resume.
-  related:
-  - word: change
-    difference: '''Change'' is a very general term. ''Make revisions'' specifically
-      implies making thoughtful corrections or improvements, often to a written or
-      formal work.'
-  story: My first draft of the technical document wasn't clear enough, so I had to
-    **make revisions** based on my manager's feedback.
-- word: keep tabs on
-  pronunciation: "/kiːp tæbz ɒn/"
-  part_of_speech: phrase
-  meaning:
-    english: To monitor someone or something carefully.
-    bahasa: Memantau seseorang atau sesuatu dengan cermat.
-  usage: An informal way to say you are watching something or someone to see what
-    happens.
-  synonyms:
-  - monitor
-  - watch
-  examples:
-    workplace:
-    - I need to **keep tabs on** the server's performance to make sure it doesn't
-      crash.
-    - The project manager uses a dashboard to **keep tabs on** our progress.
-    casual:
-    - She likes to **keep tabs on** her favorite celebrity through social media.
-    - I need to **keep tabs on** the time so we're not late.
-  related:
-  - word: keep an eye on
-    difference: These two phrases are very similar and often interchangeable. 'Keep
-      tabs on' can sometimes imply a more detailed or frequent check.
-  story: The deployment process for our new service is complex, so I have to **keep
-    tabs on** it for a few hours to ensure everything runs smoothly.
-- word: enigma
-  pronunciation: "/ɪˈnɪɡmə/"
-  part_of_speech: noun
-  meaning:
-    english: A person or thing that is mysterious, puzzling, or difficult to understand.
-    bahasa: Seseorang atau sesuatu yang misterius, membingungkan, atau sulit dimengerti.
-  usage: Used to describe a problem or situation that is very confusing and hard to
-    figure out.
-  synonyms:
-  - mystery
-  - puzzle
-  examples:
-    workplace:
-    - Why the old system crashes every Tuesday is a complete **enigma** to us.
-    - The bug was an **enigma**; it disappeared every time we tried to debug it.
-    casual:
-    - How he manages to get so much done is an **enigma**.
-    - The ancient artifact is an **enigma** to historians.
-  related:
-  - word: puzzle
-    difference: A 'puzzle' is usually something that can be solved with cleverness.
-      An 'enigma' is a deeper mystery that is difficult to understand or explain.
-  story: The intermittent bug was a true **enigma**. It only happened on certain user
-    accounts, and we couldn't find a pattern.
-- word: join forces
-  pronunciation: "/dʒɔɪn ˈfɔːrsɪz/"
-  part_of_speech: phrase
-  meaning:
-    english: To combine efforts with someone to work towards a common goal.
-    bahasa: Menggabungkan upaya dengan seseorang untuk bekerja menuju tujuan bersama.
-  usage: Used when two or more people or groups decide to collaborate.
-  synonyms:
-  - collaborate
-  - team up
-  examples:
-    workplace:
-    - The frontend and backend teams decided to **join forces** to tackle the performance
-      issues.
-    - Let's **join forces** to get this project finished on time.
-    casual:
-    - The two musicians decided to **join forces** and form a band.
-    - The community members had to **join forces** to clean up the park.
-  related:
-  - word: team up
-    difference: Very similar meaning. 'Join forces' can sound slightly more formal
-      or suggest that the groups were previously separate or even in opposition.
-  story: I was struggling with a difficult bug, so I asked a senior developer if we
-    could **join forces** to solve it.
-- word: feeling of success
-  pronunciation: "/ˈfiːlɪŋ ʌv səkˈsɛs/"
-  part_of_speech: phrase
-  meaning:
-    english: A sense of satisfaction and pride from achieving something difficult.
-    bahasa: Rasa puas dan bangga karena telah mencapai sesuatu yang sulit.
-  usage: Used to describe the positive emotion you experience after a successful outcome.
-  synonyms:
-  - sense of accomplishment
-  - triumph
-  examples:
-    workplace:
-    - After we finally launched the project, there was a great **feeling of success**
-      in the team.
-    - Fixing a bug that you've been working on for days gives you a real **feeling
-      of success**.
-    casual:
-    - Finishing a marathon gives you an incredible **feeling of success**.
-    - He got a **feeling of success** after building the furniture by himself.
-  related:
-  - word: accomplishment
-    difference: An 'accomplishment' is the achievement itself. A 'feeling of success'
-      is the emotion that comes from that achievement.
-  story: After weeks of hard work, deploying the new feature gave the entire team
-    a wonderful **feeling of success**.
-- word: successful conclusion
-  pronunciation: "/səkˈsɛsfəl kənˈkluːʒən/"
-  part_of_speech: phrase
-  meaning:
-    english: A positive or desired end to an event or process.
-    bahasa: Akhir yang positif atau diinginkan dari suatu acara atau proses.
-  usage: Used to describe when a project, task, or event finishes well.
-  synonyms:
-  - happy ending
-  - positive outcome
-  examples:
-    workplace:
-    - We are hoping for a **successful conclusion** to our negotiations with the client.
-    - The project came to a **successful conclusion** this week.
-    casual:
-    - The party came to a **successful conclusion** after midnight.
-    - The search for the lost dog had a **successful conclusion**.
-  related:
-  - word: end
-    difference: An 'end' is neutral; it's just when something stops. A 'successful
-      conclusion' is specifically a positive end.
-  story: Bringing the project to a **successful conclusion** required a lot of overtime,
-    but it was worth it.
-- word: "tie up loose ends"
-  pronunciation: "/taɪ ʌp lus ɛndz/"
+- word: "crop up"
+  pronunciation: "/krɒp ʌp/"
   part_of_speech: "phrase"
   meaning:
-    english: "To complete the final tasks or details of a project or situation."
-    bahasa: "Menyelesaikan tugas-tugas atau detail terakhir dari sebuah proyek atau situasi."
-  usage: "Used when a project or task is almost finished, and only small, remaining details need to be completed."
+    english: "To appear or happen unexpectedly."
+    bahasa: "Muncul atau terjadi secara tak terduga."
+  usage: "Use this phrase to describe problems, issues, or opportunities that arise without warning."
   synonyms:
-    - "finalize"
-    - "wrap up"
+    - "arise"
+    - "pop up"
+    - "emerge"
   examples:
     workplace:
-      - "The team spent Friday trying to **tie up loose ends** before the release."
-      - "I have a few more emails to send to **tie up loose ends** on this project."
+      - "A few bugs always **crop up** after a major deployment."
+      - "I'll be free to help unless something urgent decides to **crop up**."
     casual:
-      - "Before we go on vacation, we need to **tie up loose ends** at home, like paying bills."
-      - "She's just trying to **tie up loose ends** from her previous job."
+      - "Some difficulties **cropped up** during our travel, but we managed them."
+      - "I was going to the party, but some family matters **cropped up**."
   related:
-    - word: "wrap up"
-      difference: "'Wrap up' is more general and means to bring something to a conclusion. 'Tie up loose ends' specifically refers to dealing with the small, remaining details, often at the very end."
+    - word: "pop up"
+      difference: "Very similar and often interchangeable. 'Crop up' can sometimes imply a slightly more serious or inconvenient problem than 'pop up'."
+    - word: "arise"
+      difference: "'Arise' is a more formal synonym for 'crop up'. You would use 'arise' in a formal document or speech."
   story: |
-    The project was 99% done, but we couldn't launch until we spent a day just to **tie up loose ends**, like updating the documentation and getting final approvals.
-- word: "the eleventh hour"
-  pronunciation: "/ði ɪˈlɛvənθ ˈaʊər/"
+    We thought the project was going smoothly, but a few integration issues started to **crop up** a week before the deadline. It forced us to refocus our efforts on fixing them.
+
+- word: "knack"
+  pronunciation: "/næk/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A special skill or talent for doing something easily and well."
+    bahasa: "Keterampilan atau bakat khusus untuk melakukan sesuatu dengan mudah dan baik."
+  usage: "Use this noun to describe a natural ability someone has for a particular task, especially one that is clever or difficult."
+  synonyms:
+    - "talent"
+    - "gift"
+    - "flair"
+  examples:
+    workplace:
+      - "Our senior developer has a real **knack** for debugging complex issues."
+      - "She has a **knack** for explaining technical concepts in simple terms."
+    casual:
+      - "He has a **knack** for making people laugh."
+      - "My friend has a **knack** for finding the best deals when shopping."
+  related:
+    - word: "skill"
+      difference: "A 'skill' is a general ability that can be learned. A 'knack' is more like a natural, almost intuitive, talent for something."
+    - word: "talent"
+      difference: "'Talent' is a strong natural ability, often for artistic or athletic activities. 'Knack' is usually used for more practical, everyday skills."
+  story: |
+    I always struggled with CSS, but my colleague has a **knack** for it. She can create beautiful and responsive layouts in no time. I often ask her for help when I'm stuck.
+
+- word: "remediation"
+  pronunciation: "/rɪˌmiːdiˈeɪʃən/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The action of remedying something, in particular of reversing or stopping environmental damage, or fixing a problem."
+    bahasa: "Tindakan untuk memperbaiki sesuatu, khususnya untuk membalikkan atau menghentikan kerusakan lingkungan, atau memperbaiki masalah."
+  usage: "In a tech context, use 'remediation' to describe the actions taken to fix a problem, especially after a bug, security vulnerability, or outage has been identified."
+  synonyms:
+    - "fix"
+    - "correction"
+    - "solution"
+  examples:
+    workplace:
+      - "The team is focused on the **remediation** of the security vulnerability."
+      - "Our **remediation** plan involves patching the server and then monitoring it for 24 hours."
+    casual:
+      - "The city's plan for the **remediation** of the polluted river will take years."
+      - "He is in a debt **remediation** program."
+  related:
+    - word: "fix"
+      difference: "'Fix' is a very common and informal term for a solution. 'Remediation' is more formal and often implies a more complex or systematic process of correcting a problem."
+    - word: "mitigation"
+      difference: "'Mitigation' is about reducing the impact or severity of a problem. 'Remediation' is about fixing the problem itself."
+  story: |
+    After the data breach, our top priority was **remediation**. We had to identify the source of the breach, patch the vulnerability, and communicate with the affected users.
+
+- word: "resolution"
+  pronunciation: "/ˌrɛzəˈluːʃən/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The action of solving a problem, dispute, or contentious matter."
+    bahasa: "Tindakan memecahkan masalah, perselisihan, atau masalah yang diperdebatkan."
+  usage: "Use 'resolution' to refer to the final solution or outcome that solves a problem or ends a conflict."
+  synonyms:
+    - "solution"
+    - "answer"
+    - "end"
+  examples:
+    workplace:
+      - "We are all working towards the swift **resolution** of this production issue."
+      - "The final **resolution** was to update the third-party library that was causing the conflict."
+    casual:
+      - "The conflict between the two neighbors finally came to a peaceful **resolution**."
+      - "He made a New Year's **resolution** to exercise more."
+  related:
+    - word: "solution"
+      difference: "'Solution' is a general term for an answer to a problem. 'Resolution' often implies a more formal or definitive end to a complex problem or dispute."
+    - word: "remediation"
+      difference: "'Remediation' refers to the *actions* taken to fix a problem. 'Resolution' refers to the final *outcome* or state after the problem is fixed."
+  story: |
+    The bug was causing a lot of customer complaints. Finding a quick **resolution** was our top priority. After a long day of debugging, we finally found a fix and deployed it.
+
+- word: "going forward"
+  pronunciation: "/ˈɡoʊɪŋ ˈfɔːrwərd/"
   part_of_speech: "phrase"
   meaning:
-    english: "The last possible moment to do something."
-    bahasa: "Saat-saat terakhir yang memungkinkan untuk melakukan sesuatu."
-  usage: "Used to describe a situation where something happens or is done at the very last minute before a deadline."
+    english: "From this point on; in the future."
+    bahasa: "Mulai dari titik ini; di masa depan."
+  usage: "Use this phrase, typically at the beginning or end of a sentence, to talk about what will happen in the future."
   synonyms:
-    - "last minute"
-    - "under the wire"
+    - "in the future"
+    - "from now on"
+    - "henceforth"
   examples:
     workplace:
-      - "We received the client's feedback at **the eleventh hour**, just before the presentation."
-      - "He submitted the report at **the eleventh hour**, but at least it was on time."
+      - "**Going forward**, we will use the new coding standards for all projects."
+      - "We need a better process for code reviews **going forward**."
     casual:
-      - "She changed her mind about her dress at **the eleventh hour** before the party."
-      - "They booked their flight at **the eleventh hour** and it was very expensive."
+      - "**Going forward**, I'm going to try to be more organized."
+      - "Our policy is changing, so **going forward**, all returns must be made within 30 days."
   related:
-    - word: "deadline"
-      difference: "A 'deadline' is the time by which something must be finished. 'The eleventh hour' refers to the period just before the deadline."
+    - word: "in the future"
+      difference: "Very similar and often interchangeable. 'Going forward' is very common in business and professional contexts and emphasizes a change from the past."
+    - word: "from now on"
+      difference: "'From now on' is a bit more emphatic and can sound like a command or a very firm decision. 'Going forward' is a slightly softer, more professional way to say the same thing."
   story: |
-    The team worked until **the eleventh hour** to fix the critical bug before the scheduled deployment. The fix was merged just minutes before the code freeze.
-- word: "a blessing in disguise"
-  pronunciation: "/ə ˈblɛsɪŋ ɪn dɪsˈɡaɪz/"
-  part_of_speech: "phrase"
-  meaning:
-    english: "Something that seems bad or unlucky at first, but results in something good later."
-    bahasa: "Sesuatu yang pada awalnya tampak buruk atau sial, tetapi kemudian menghasilkan sesuatu yang baik."
-  usage: "Used to describe a situation that had a surprisingly positive outcome, despite seeming negative initially."
-  synonyms:
-    - "a silver lining"
-    - "a fortunate turn of events"
-  examples:
-    workplace:
-      - "The project delay was **a blessing in disguise** because it allowed us to find a major flaw."
-      - "Losing that client was **a blessing in disguise**; we now have more time for our main products."
-    casual:
-      - "Missing the train was **a blessing in disguise**; I met an old friend while waiting for the next one."
-      - "Getting sick was **a blessing in disguise** because it forced me to take a much-needed rest."
-  related:
-    - word: "setback"
-      difference: "A 'setback' is a problem that makes progress more difficult. 'A blessing in disguise' is a setback that, unexpectedly, leads to a positive outcome."
-  story: |
-    The server crash seemed like a disaster, but it was **a blessing in disguise**. It forced us to upgrade our infrastructure, which is now much more reliable.
-- word: "read between the lines"
-  pronunciation: "/rid bɪˈtwin ðə laɪnz/"
-  part_of_speech: "phrase"
-  meaning:
-    english: "To understand the real meaning of something, even if it is not said directly."
-    bahasa: "Memahami makna sebenarnya dari sesuatu, meskipun tidak diucapkan secara langsung."
-  usage: "Used when you need to infer a hidden meaning from someone's words or actions."
-  synonyms:
-    - "infer"
-    - "understand the subtext"
-  examples:
-    workplace:
-      - "When the manager said the project was 'challenging,' I had to **read between the lines** to understand he meant it was behind schedule."
-      - "You have to **read between the lines** of the client's feedback to know what they really want."
-    casual:
-      - "She said she was fine, but I could **read between the lines** and tell she was upset."
-      - "He didn't say no, but if you **read between the lines**, it's clear he's not interested."
-  related:
-    - word: "imply"
-      difference: "'Imply' is what the speaker does (suggests something indirectly). 'Read between the lines' is what the listener does (infers the hidden meaning)."
-  story: |
-    The project update email seemed positive, but when you **read between the lines**, you could see that the team was struggling with several blockers.
-- word: "a change of pace"
-  pronunciation: "/ə ʧeɪnʤ əv peɪs/"
-  part_of_speech: "phrase"
-  meaning:
-    english: "A shift from one's normal routine or activity."
-    bahasa: "Sebuah peralihan dari rutinitas atau aktivitas normal seseorang."
-  usage: "Used to describe an activity that is different from what you usually do, often for the purpose of refreshment or to avoid boredom."
-  synonyms:
-    - "a break from the norm"
-    - "something different"
-  examples:
-    workplace:
-      - "After weeks of coding, attending a design workshop was **a change of pace**."
-      - "I'm working on a small internal tool for **a change of pace**."
-    casual:
-      - "Going for a hike this weekend will be **a change of pace**."
-      - "I decided to read a fantasy novel for **a change of pace**."
-  related:
-    - word: "break"
-      difference: "A 'break' is a short rest from an activity. 'A change of pace' is not necessarily a rest, but rather a switch to a different kind of activity."
-  story: |
-    I've been working on backend services for months. My manager suggested I help the frontend team for a week for **a change of pace**, and it was a great way to learn a new skill.
+    Our last deployment had a few issues because of poor communication. In our retrospective, we agreed that, **going forward**, we will have a pre-deployment meeting to make sure everyone is aligned.

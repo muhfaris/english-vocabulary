@@ -1,0 +1,15 @@
+story:
+  title: "a-friday-surprise-bug"
+  date: "2025-09-20"
+  text: |
+    Fridays are usually quiet, but unexpected issues can always **crop up**. This time, a strange bug appeared in our analytics dashboard. The data was being displayed incorrectly, but only for a specific subset of users. Our team lead, who has a real **knack** for solving weird problems, started investigating.
+
+    After a few hours, she identified the cause. The immediate **remediation** was to roll back a recent change, which temporarily fixed the issue. However, for a permanent **resolution**, we needed to refactor a small part of the data processing pipeline.
+
+    We had a quick meeting to discuss the plan. We decided to tackle the refactor first thing on Monday. We documented the issue and the agreed-upon plan. **Going forward**, we will add more specific tests for the dashboard to prevent similar issues. It was a good reminder that even on a Friday, you have to be ready for anything.
+  highlighted_words:
+    - "crop up"
+    - "knack"
+    - "remediation"
+    - "resolution"
+    - "going forward"
