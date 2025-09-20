@@ -1,5 +1,5 @@
 - word: briefing
-  pronunciation: /ˈbriːfɪŋ/
+  pronunciation: "/ˈbriːfɪŋ/"
   part_of_speech: noun
   meaning:
     english: A meeting for giving information or instructions.
@@ -22,7 +22,7 @@
   story: During our morning **briefing**, the project manager announced a change in
     priorities for the week.
 - word: solidify
-  pronunciation: /səˈlɪdɪfaɪ/
+  pronunciation: "/səˈlɪdɪfaɪ/"
   part_of_speech: verb
   meaning:
     english: To make something stronger, more certain, or more definite.
@@ -46,7 +46,7 @@
   story: After a long brainstorming session, we finally managed to **solidify** our
     idea for the new feature.
 - word: make revisions
-  pronunciation: /meɪk rɪˈvɪʒənz/
+  pronunciation: "/meɪk rɪˈvɪʒənz/"
   part_of_speech: phrase
   meaning:
     english: To make changes or corrections to something.
@@ -71,7 +71,7 @@
   story: My first draft of the technical document wasn't clear enough, so I had to
     **make revisions** based on my manager's feedback.
 - word: keep tabs on
-  pronunciation: /kiːp tæbz ɒn/
+  pronunciation: "/kiːp tæbz ɒn/"
   part_of_speech: phrase
   meaning:
     english: To monitor someone or something carefully.
@@ -96,7 +96,7 @@
   story: The deployment process for our new service is complex, so I have to **keep
     tabs on** it for a few hours to ensure everything runs smoothly.
 - word: enigma
-  pronunciation: /ɪˈnɪɡmə/
+  pronunciation: "/ɪˈnɪɡmə/"
   part_of_speech: noun
   meaning:
     english: A person or thing that is mysterious, puzzling, or difficult to understand.
@@ -120,7 +120,7 @@
   story: The intermittent bug was a true **enigma**. It only happened on certain user
     accounts, and we couldn't find a pattern.
 - word: join forces
-  pronunciation: /dʒɔɪn ˈfɔːrsɪz/
+  pronunciation: "/dʒɔɪn ˈfɔːrsɪz/"
   part_of_speech: phrase
   meaning:
     english: To combine efforts with someone to work towards a common goal.
@@ -144,7 +144,7 @@
   story: I was struggling with a difficult bug, so I asked a senior developer if we
     could **join forces** to solve it.
 - word: feeling of success
-  pronunciation: /ˈfiːlɪŋ ʌv səkˈsɛs/
+  pronunciation: "/ˈfiːlɪŋ ʌv səkˈsɛs/"
   part_of_speech: phrase
   meaning:
     english: A sense of satisfaction and pride from achieving something difficult.
@@ -169,7 +169,7 @@
   story: After weeks of hard work, deploying the new feature gave the entire team
     a wonderful **feeling of success**.
 - word: successful conclusion
-  pronunciation: /səkˈsɛsfəl kənˈkluːʒən/
+  pronunciation: "/səkˈsɛsfəl kənˈkluːʒən/"
   part_of_speech: phrase
   meaning:
     english: A positive or desired end to an event or process.
@@ -191,3 +191,113 @@
       conclusion' is specifically a positive end.
   story: Bringing the project to a **successful conclusion** required a lot of overtime,
     but it was worth it.
+- word: "tie up loose ends"
+  pronunciation: "/taɪ ʌp lus ɛndz/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To complete the final tasks or details of a project or situation."
+    bahasa: "Menyelesaikan tugas-tugas atau detail terakhir dari sebuah proyek atau situasi."
+  usage: "Used when a project or task is almost finished, and only small, remaining details need to be completed."
+  synonyms:
+    - "finalize"
+    - "wrap up"
+  examples:
+    workplace:
+      - "The team spent Friday trying to **tie up loose ends** before the release."
+      - "I have a few more emails to send to **tie up loose ends** on this project."
+    casual:
+      - "Before we go on vacation, we need to **tie up loose ends** at home, like paying bills."
+      - "She's just trying to **tie up loose ends** from her previous job."
+  related:
+    - word: "wrap up"
+      difference: "'Wrap up' is more general and means to bring something to a conclusion. 'Tie up loose ends' specifically refers to dealing with the small, remaining details, often at the very end."
+  story: |
+    The project was 99% done, but we couldn't launch until we spent a day just to **tie up loose ends**, like updating the documentation and getting final approvals.
+- word: "the eleventh hour"
+  pronunciation: "/ði ɪˈlɛvənθ ˈaʊər/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "The last possible moment to do something."
+    bahasa: "Saat-saat terakhir yang memungkinkan untuk melakukan sesuatu."
+  usage: "Used to describe a situation where something happens or is done at the very last minute before a deadline."
+  synonyms:
+    - "last minute"
+    - "under the wire"
+  examples:
+    workplace:
+      - "We received the client's feedback at **the eleventh hour**, just before the presentation."
+      - "He submitted the report at **the eleventh hour**, but at least it was on time."
+    casual:
+      - "She changed her mind about her dress at **the eleventh hour** before the party."
+      - "They booked their flight at **the eleventh hour** and it was very expensive."
+  related:
+    - word: "deadline"
+      difference: "A 'deadline' is the time by which something must be finished. 'The eleventh hour' refers to the period just before the deadline."
+  story: |
+    The team worked until **the eleventh hour** to fix the critical bug before the scheduled deployment. The fix was merged just minutes before the code freeze.
+- word: "a blessing in disguise"
+  pronunciation: "/ə ˈblɛsɪŋ ɪn dɪsˈɡaɪz/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "Something that seems bad or unlucky at first, but results in something good later."
+    bahasa: "Sesuatu yang pada awalnya tampak buruk atau sial, tetapi kemudian menghasilkan sesuatu yang baik."
+  usage: "Used to describe a situation that had a surprisingly positive outcome, despite seeming negative initially."
+  synonyms:
+    - "a silver lining"
+    - "a fortunate turn of events"
+  examples:
+    workplace:
+      - "The project delay was **a blessing in disguise** because it allowed us to find a major flaw."
+      - "Losing that client was **a blessing in disguise**; we now have more time for our main products."
+    casual:
+      - "Missing the train was **a blessing in disguise**; I met an old friend while waiting for the next one."
+      - "Getting sick was **a blessing in disguise** because it forced me to take a much-needed rest."
+  related:
+    - word: "setback"
+      difference: "A 'setback' is a problem that makes progress more difficult. 'A blessing in disguise' is a setback that, unexpectedly, leads to a positive outcome."
+  story: |
+    The server crash seemed like a disaster, but it was **a blessing in disguise**. It forced us to upgrade our infrastructure, which is now much more reliable.
+- word: "read between the lines"
+  pronunciation: "/rid bɪˈtwin ðə laɪnz/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To understand the real meaning of something, even if it is not said directly."
+    bahasa: "Memahami makna sebenarnya dari sesuatu, meskipun tidak diucapkan secara langsung."
+  usage: "Used when you need to infer a hidden meaning from someone's words or actions."
+  synonyms:
+    - "infer"
+    - "understand the subtext"
+  examples:
+    workplace:
+      - "When the manager said the project was 'challenging,' I had to **read between the lines** to understand he meant it was behind schedule."
+      - "You have to **read between the lines** of the client's feedback to know what they really want."
+    casual:
+      - "She said she was fine, but I could **read between the lines** and tell she was upset."
+      - "He didn't say no, but if you **read between the lines**, it's clear he's not interested."
+  related:
+    - word: "imply"
+      difference: "'Imply' is what the speaker does (suggests something indirectly). 'Read between the lines' is what the listener does (infers the hidden meaning)."
+  story: |
+    The project update email seemed positive, but when you **read between the lines**, you could see that the team was struggling with several blockers.
+- word: "a change of pace"
+  pronunciation: "/ə ʧeɪnʤ əv peɪs/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A shift from one's normal routine or activity."
+    bahasa: "Sebuah peralihan dari rutinitas atau aktivitas normal seseorang."
+  usage: "Used to describe an activity that is different from what you usually do, often for the purpose of refreshment or to avoid boredom."
+  synonyms:
+    - "a break from the norm"
+    - "something different"
+  examples:
+    workplace:
+      - "After weeks of coding, attending a design workshop was **a change of pace**."
+      - "I'm working on a small internal tool for **a change of pace**."
+    casual:
+      - "Going for a hike this weekend will be **a change of pace**."
+      - "I decided to read a fantasy novel for **a change of pace**."
+  related:
+    - word: "break"
+      difference: "A 'break' is a short rest from an activity. 'A change of pace' is not necessarily a rest, but rather a switch to a different kind of activity."
+  story: |
+    I've been working on backend services for months. My manager suggested I help the frontend team for a week for **a change of pace**, and it was a great way to learn a new skill.
