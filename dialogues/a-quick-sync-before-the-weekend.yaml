@@ -1,0 +1,70 @@
+dialogue:
+  - speaker: Rina
+    english: "Hey, got a minute? Just wanted to have a quick sync before the weekend."
+    bahasa: "Hai, ada waktu sebentar? Aku cuma mau sinkronisasi singkat sebelum akhir pekan."
+  - speaker: Leo
+    english: "Sure, Rina. What’s up? Everything good with the new feature deployment?"
+    bahasa: "Tentu, Rina. Ada apa? Semua baik-baik saja dengan perilisan fitur baru?"
+  - speaker: Rina
+    english: "Yeah, it went smoothly. I was actually thinking about the next sprint. Have you given any thought to the refactoring task?"
+    bahasa: "Iya, berjalan lancar. Aku sebenarnya sedang memikirkan sprint berikutnya. Apa kamu sudah memikirkan tugas refactoring?"
+  - speaker: Leo
+    english: "I’ve skimmed through the backlog item. It looks like a beast. We'll need to break it down into smaller chunks."
+    bahasa: "Aku sudah membaca sekilas item backlog itu. Kelihatannya besar sekali. Kita perlu memecahnya menjadi bagian-bagian yang lebih kecil."
+  - speaker: Rina
+    english: "My thoughts exactly. I was thinking we could tackle the authentication module first. It’s pretty self-contained."
+    bahasa: "Sama persis dengan pikiranku. Aku berpikir kita bisa menangani modul otentikasi terlebih dahulu. Modul itu cukup mandiri."
+  - speaker: Leo
+    english: "That’s a good call. It’s a critical piece, and improving it would be a big win."
+    bahasa: "Itu ide yang bagus. Itu adalah bagian yang penting, dan memperbaikinya akan menjadi kemenangan besar."
+  - speaker: Rina
+    english: "Great. I'll create some sub-tasks on Monday morning so we can discuss them in the planning meeting."
+    bahasa: "Bagus. Aku akan membuat beberapa sub-tugas pada Senin pagi agar kita bisa membahasnya di rapat perencanaan."
+  - speaker: Leo
+    english: "Sounds like a plan. Anything else?"
+    bahasa: "Terdengar seperti rencana. Ada lagi?"
+  - speaker: Rina
+    english: "Nope, that’s all from me. Just wanted to make sure we’re on the same page."
+    bahasa: "Tidak, itu saja dariku. Aku hanya ingin memastikan kita sependapat."
+  - speaker: Leo
+    english: "Awesome. Have a great weekend, Rina!"
+    bahasa: "Mantap. Selamat berakhir pekan, Rina!"
+  - speaker: Rina
+    english: "You too, Leo! See you on Monday."
+    bahasa: "Kamu juga, Leo! Sampai jumpa hari Senin."
+
+expressions:
+  - phrase: "quick sync"
+    meaning_english: "A short meeting to align on a topic."
+    meaning_bahasa: "Rapat singkat untuk menyamakan pemahaman tentang suatu topik."
+  - phrase: "What's up?"
+    meaning_english: "A casual way of asking 'What is happening?' or 'How are you?'"
+    meaning_bahasa: "Cara santai untuk bertanya 'Apa yang sedang terjadi?' atau 'Apa kabar?'"
+  - phrase: "skimmed through"
+    meaning_english: "To read something quickly to get the main points."
+    meaning_bahasa: "Membaca sesuatu dengan cepat untuk mendapatkan poin-poin utamanya."
+  - phrase: "looks like a beast"
+    meaning_english: "An informal way to say something is very large, difficult, or complex."
+    meaning_bahasa: "Cara informal untuk mengatakan sesuatu sangat besar, sulit, atau kompleks."
+  - phrase: "break it down"
+    meaning_english: "To divide a large task or problem into smaller, more manageable parts."
+    meaning_bahasa: "Membagi tugas atau masalah besar menjadi bagian-bagian yang lebih kecil dan lebih mudah dikelola."
+  - phrase: "My thoughts exactly."
+    meaning_english: "This phrase is used to show complete agreement with what someone has just said."
+    meaning_bahasa: "Frasa ini digunakan untuk menunjukkan persetujuan penuh dengan apa yang baru saja dikatakan seseorang."
+  - phrase: "good call"
+    meaning_english: "A good decision or suggestion."
+    meaning_bahasa: "Keputusan atau saran yang bagus."
+  - phrase: "on the same page"
+    meaning_english: "To have a shared understanding or agreement on something."
+    meaning_bahasa: "Memiliki pemahaman atau kesepakatan yang sama tentang sesuatu."
+
+questions:
+  - q: "What was the main topic of Rina and Leo's conversation?"
+    a: "They were discussing the plan for a large refactoring task in the next sprint."
+  - q: "What part of the refactoring did Rina suggest tackling first?"
+    a: "She suggested starting with the authentication module because it's self-contained."
+  - q: "What does Leo mean when he says the task 'looks like a beast'?"
+    a: "He means the task seems very large and complex."
+  - q: "What will Rina do on Monday morning?"
+    a: "She will create sub-tasks for the refactoring to discuss in the sprint planning meeting."
