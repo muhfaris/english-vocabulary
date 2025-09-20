@@ -1,0 +1,17 @@
+story:
+  title: "a-cozy-coffee-break"
+  date: "2025-09-20"
+  text: |
+    My morning started with a strong **espresso** to wake me up before the daily stand-up. We had a lot to discuss, and I needed to be sharp. After the meeting, I paired up with a junior developer to help him with a tricky bug.
+
+    Around 11 AM, we took a short coffee break. He grabbed a **latte**, while I opted for a classic **cappuccino**. It was nice to step away from the code and chat about our weekend plans. These small moments really help the team bond.
+
+    In the afternoon, I had a long meeting with the product team. I knew I'd need more caffeine, so I made myself an **americano**. It kept me focused as we discussed the requirements for the next big feature.
+
+    Just before logging off, my deskmate, who is a true coffee enthusiast, was raving about the **macchiato** from the new cafe downstairs. He said it was the perfect balance of strong coffee and creamy foam. I made a mental note to try it tomorrow. It was a busy but productive day, powered by good code and lots of coffee.
+  highlighted_words:
+    - "espresso"
+    - "latte"
+    - "cappuccino"
+    - "americano"
+    - "macchiato"

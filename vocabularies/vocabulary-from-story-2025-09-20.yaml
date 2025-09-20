@@ -127,3 +127,103 @@
       difference: "'From now on' is a bit more emphatic and can sound like a command or a very firm decision. 'Going forward' is a slightly softer, more professional way to say the same thing."
   story: |
     Our last deployment had a few issues because of poor communication. In our retrospective, we agreed that, **going forward**, we will have a pre-deployment meeting to make sure everyone is aligned.
+- word: espresso
+  pronunciation: "/ɛˈsprɛsoʊ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A strong black coffee made by forcing steam through ground coffee beans."
+    bahasa: "Kopi hitam kental yang dibuat dengan menekan uap melalui biji kopi bubuk."
+  usage: "Used to refer to a specific type of strong coffee, often served in a small cup or used as a base for other drinks."
+  synonyms:
+    - "shot of coffee"
+  examples:
+    workplace:
+      - "I need a double **espresso** to get through this morning's meetings."
+      - "The office coffee machine makes a decent **espresso**."
+    casual:
+      - "He ordered an **espresso** after dinner."
+      - "She enjoys a simple **espresso** in the morning."
+  related:
+    - word: "coffee"
+      difference: "'Coffee' is a general term. An '**espresso**' is a specific, concentrated type of coffee prepared in a particular way."
+  story: "Before starting the complex debugging task, I grabbed a quick **espresso** from the kitchen for a boost of focus."
+- word: latte
+  pronunciation: "/ˈlɑːteɪ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A coffee drink made with espresso and steamed milk."
+    bahasa: "Minuman kopi yang dibuat dengan espresso dan susu panas."
+  usage: "Used for a popular, milky coffee drink."
+  synonyms:
+    - "caffè latte"
+  examples:
+    workplace:
+      - "Our team often has a **latte** break in the afternoon."
+      - "She's not a fan of strong coffee, so she usually gets a **latte**."
+    casual:
+      - "Let's meet for a **latte** at the cafe."
+      - "He spilled his **latte** on his new shirt."
+  related:
+    - word: "cappuccino"
+      difference: "A '**latte**' has more steamed milk and a thin layer of foam. A 'cappuccino' has less milk and a thick layer of foam."
+  story: "During our one-on-one meeting, my manager and I grabbed a **latte** and discussed my career goals."
+- word: cappuccino
+  pronunciation: "/ˌkæpʊˈtʃiːnoʊ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A coffee drink made with espresso, hot milk, and a thick layer of milk foam."
+    bahasa: "Minuman kopi yang dibuat dengan espresso, susu panas, dan lapisan busa susu yang tebal."
+  usage: "Used for a coffee drink known for its foamy top."
+  synonyms:
+    - "frothy coffee"
+  examples:
+    workplace:
+      - "The fancy new coffee machine has a **cappuccino** setting."
+      - "He always starts his day with a **cappuccino** and the daily stand-up."
+    casual:
+      - "I tried to make a **cappuccino** at home, but the foam wasn't right."
+      - "Italy is famous for its **cappuccino**."
+  related:
+    - word: "latte"
+      difference: "A '**cappuccino**' has a much thicker layer of foam compared to a latte, and typically equal parts espresso, steamed milk, and foam."
+  story: "To celebrate the successful release, the team went to a nearby cafe, and I ordered a **cappuccino** with extra chocolate powder."
+- word: americano
+  pronunciation: "/əˌmɛrɪˈkɑːnoʊ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A coffee drink made by diluting an espresso with hot water."
+    bahasa: "Minuman kopi yang dibuat dengan mengencerkan espresso dengan air panas."
+  usage: "Used for a drink that has a similar strength to drip coffee but a different flavor profile, made from espresso."
+  synonyms:
+    - "long black"
+  examples:
+    workplace:
+      - "I prefer an **americano** because it's less intense than a straight espresso."
+      - "The meeting was catered, and they served coffee and **americano**."
+    casual:
+      - "She ordered an iced **americano** on a hot day."
+      - "An **americano** is a good choice if you want to savor the taste of the espresso."
+  related:
+    - word: "drip coffee"
+      difference: "An '**americano**' is made by adding hot water to espresso. 'Drip coffee' is made by letting hot water drip through ground coffee. They have different tastes."
+  story: "While waiting for the long build process to complete, I made myself an **americano** to sip on."
+- word: macchiato
+  pronunciation: "/ˌmɑːkiˈɑːtoʊ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "An espresso coffee drink with a small amount of milk or milk foam."
+    bahasa: "Minuman kopi espresso dengan sedikit susu atau busa susu."
+  usage: "Used for a strong coffee drink that is 'stained' or 'marked' with a little milk."
+  synonyms:
+    - "espresso macchiato"
+  examples:
+    workplace:
+      - "He needs a **macchiato** to kickstart his coding session."
+      - "A **macchiato** is perfect when you want something stronger than a latte but not as intense as a pure espresso."
+    casual:
+      - "The barista added a dollop of foam to my **macchiato**."
+      - "She learned how to make a proper **macchiato** on her trip to Italy."
+  related:
+    - word: "latte"
+      difference: "A '**macchiato**' is mostly espresso with a small amount of milk. A 'latte' is mostly milk with a shot of espresso."
+  story: "I had a quick **macchiato** with a colleague while we discussed a bug he was stuck on."
