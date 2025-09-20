@@ -1,0 +1,250 @@
+- word: "Gauge"
+  pronunciation: "/ɡeɪdʒ/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To measure, judge, or estimate the amount, level, or value of something."
+    bahasa: "Mengukur, menilai, atau memperkirakan jumlah, tingkat, atau nilai sesuatu."
+  usage: "Use 'gauge' when you need to assess a situation, often based on incomplete information. It's about making a judgment call on things like team morale, project complexity, or user interest."
+  synonyms:
+    - "assess"
+    - "evaluate"
+  examples:
+    workplace:
+      - "It's hard to gauge the full impact of this bug without more data from users."
+      - "Before we commit to this feature, we need to gauge the team's capacity."
+    casual:
+      - "I'm trying to gauge his reaction to the news, but he's hard to read."
+      - "Let's post a poll to gauge interest in a weekend hackathon."
+  related:
+    - word: "estimate"
+      difference: "'Estimate' is about calculating a number (like time or cost), while 'gauge' is more about assessing a situation or feeling (like interest or difficulty)."
+    - word: "measure"
+      difference: "'Measure' implies using a standard tool or system for a precise result, whereas 'gauge' is often a more general or intuitive judgment."
+  story: |
+    During sprint planning, the product manager asked, "How difficult will it be to integrate the new payment API?"
+    Our tech lead, Maria, paused for a moment. "It's tough to say for sure," she replied. "From the documentation, it seems straightforward. But I need to run a few tests to properly gauge the complexity. There could be some hidden challenges."
+
+- word: "Concede"
+  pronunciation: "/kənˈsiːd/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To admit that something is true or valid after first denying or resisting it; to surrender or yield."
+    bahasa: "Mengakui bahwa sesuatu itu benar atau valid setelah awalnya menyangkal atau menolaknya; menyerah."
+  usage: "In a work context, you 'concede' a point in a discussion when you realize the other person is right. It shows you're open-minded. It's often used in debates about technical approaches or feature priorities."
+  synonyms:
+    - "admit"
+    - "acknowledge"
+  examples:
+    workplace:
+      - "After seeing the performance data, I have to concede that your approach is more efficient."
+      - "Okay, you're right. I'll concede the point; we should fix this tech debt before shipping the new feature."
+    casual:
+      - "He finally conceded that he had made a mistake."
+      - "I concede, you are much better at this game than I am."
+  related:
+    - word: "admit"
+      difference: "'Admit' is a general term for saying something is true. 'Concede' specifically implies you were initially arguing against that point. It's like admitting defeat in a debate."
+    - word: "agree"
+      difference: "'Agree' means sharing the same view from the start. 'Concede' means changing your view to align with someone else's."
+  story: |
+    For weeks, Alex and Ben debated the best database for the new microservice. Alex argued for PostgreSQL, citing its robustness. Ben wanted to use DynamoDB for its scalability. They went back and forth in several meetings. Finally, Ben presented a compelling demo showing how DynamoDB's performance would be critical for the expected user load. After the demo, Alex smiled. "Alright, I concede," he said. "The speed is undeniable. Let's go with DynamoDB."
+
+- word: "Fortify"
+  pronunciation: "/ˈfɔːrtɪfaɪ/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To strengthen something to protect it against attack or to make it more effective."
+    bahasa: "Memperkuat sesuatu untuk melindunginya dari serangan atau membuatnya lebih efektif."
+  usage: "Use 'fortify' when talking about making code, systems, or security more robust and resilient. It's about adding layers of protection or improving stability."
+  synonyms:
+    - "strengthen"
+    - "reinforce"
+  examples:
+    workplace:
+      - "We need to fortify our authentication system against potential brute-force attacks."
+      - "The latest update includes several patches to fortify the application's performance under heavy load."
+    casual:
+      - "They fortified the castle walls to prepare for the siege."
+      - "I drink orange juice to fortify my immune system with Vitamin C."
+  related:
+    - word: "harden"
+      difference: "In security, 'harden' is a very similar, common term. 'Harden' often refers to reducing the attack surface by removing unnecessary software or permissions. 'Fortify' is more about adding protective measures."
+    - word: "improve"
+      difference: "'Improve' is very general. 'Fortify' is specifically about strengthening something to make it more resistant to failure, attack, or stress."
+  story: |
+    After a minor security scare, the engineering team held a post-mortem. The CTO was clear: "Our current defenses are good, but they're not great. I want a dedicated effort this quarter to fortify our infrastructure. This means better logging, stricter access controls, and a full review of all our external-facing services. We need to be proactive, not reactive."
+
+- word: "Snapshot"
+  pronunciation: "/ˈsnæpʃɑːt/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A view of data or a system at a particular moment in time."
+    bahasa: "Gambaran data atau sistem pada momen waktu tertentu."
+  usage: "In engineering, a 'snapshot' is a copy of the state of something (like a database, a file system, or a virtual machine) at a specific instant. It's used for backups, testing, or analysis without affecting the live system."
+  synonyms:
+    - "backup"
+    - "copy"
+  examples:
+    workplace:
+      - "Before we run the migration script, please take a snapshot of the production database."
+      - "The test failed, so I'm reverting the virtual machine to the last clean snapshot."
+    casual:
+      - "The photo album gives you a snapshot of our family's life over the years."
+      - "His report offers a snapshot of the company's financial health."
+  related:
+    - word: "backup"
+      difference: "A 'backup' is a general term for a copy of data for recovery. A 'snapshot' is a specific type of backup that captures the state at an instant, often using more advanced, efficient technology (like copy-on-write)."
+    - word: "clone"
+      difference: "A 'clone' is a complete, independent copy that you can work on. A 'snapshot' is often a read-only, point-in-time reference and can be more space-efficient."
+  story: |
+    "I'm about to deploy a major change to the staging environment," Sarah announced on Slack. "It touches a lot of core services. I'm going to create a snapshot of the entire environment first. That way, if anything goes wrong, we can instantly roll back to the state it was in a few minutes ago, without a complicated cleanup process."
+
+- word: "Unravel"
+  pronunciation: "/ʌnˈrævəl/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To investigate and solve or explain something complex or puzzling."
+    bahasa: "Menyelidiki dan memecahkan atau menjelaskan sesuatu yang rumit atau membingungkan."
+  usage: "Use 'unravel' when you're dealing with a very complex bug, a confusing piece of legacy code, or a mysterious system behavior. It implies a process of patient, step-by-step investigation."
+  synonyms:
+    - "untangle"
+    - "decipher"
+  examples:
+    workplace:
+      - "It took me all day to unravel the mystery of the disappearing user sessions."
+      - "She has a real talent for unraveling complex legacy code and figuring out how it works."
+    casual:
+      - "The detective worked to unravel the conspiracy."
+      - "As the story progressed, the character's true motivations began to unravel."
+  related:
+    - word: "debug"
+      difference: "'Debug' is the specific act of finding and fixing defects in code. 'Unravel' is a broader, more descriptive term for the investigation process, especially when the problem is not just a simple bug but a complex, tangled mystery."
+    - word: "investigate"
+      difference: "'Investigate' is a formal process of inquiry. 'Unravel' paints a more vivid picture of dealing with something tangled and complicated, like pulling on a loose thread."
+  story: |
+    A critical bug was reported: once a month, on a random day, a few financial reports were generated with incorrect totals. There were no error logs, no crashes, nothing. It was a ghost. The task fell to David, a senior engineer. For a week, he meticulously combed through logs and code. "I feel like a detective," he said to his manager. "I'm slowly starting to unravel it. I think it's a race condition tied to a third-party service's monthly reset."
+
+- word: "Backfill"
+  pronunciation: "/ˈbækfɪl/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To go back and add or update data that should have been there in the first place."
+    bahasa: "Kembali dan menambahkan atau memperbarui data yang seharusnya sudah ada."
+  usage: "This is a very common term in data engineering and backend development. You 'backfill' data after a schema change, a bug fix, or when adding a new feature that requires historical data to be in a new format."
+  synonyms:
+    - "reprocess"
+    - "populate"
+  examples:
+    workplace:
+      - "After adding the 'last_login' column, we need to run a script to backfill the data for all existing users."
+      - "The bug caused some analytics events to be missed, so we're planning a backfill to fix the dashboards."
+    casual:
+      - "This term is highly specific to tech and data contexts and is rarely used casually."
+      - "The closest casual use might be something like, 'I missed a week of my journal, so I need to go back and backfill the entries.'"
+  related:
+    - word: "migrate"
+      difference: "'Migrate' usually refers to moving data from an old system or format to a new one. 'Backfill' is about populating missing or new fields within the *same* system after a change has been made."
+    - word: "update"
+      difference: "'Update' means changing existing data records. 'Backfill' often means creating new data points or filling in `null` values for records that were created before a field existed."
+  story: |
+    The team just launched a new feature: user achievement badges. "This is great!" said the product manager. "But it only works for new users. What about our loyal users from the past five years?" The lead engineer nodded. "We planned for that. I'm writing a script now to analyze user history and backfill all the achievements they would have earned. It'll take a few hours to run, but by tomorrow, everyone will have their correct badges."
+
+- word: "Sustain"
+  pronunciation: "/səˈsteɪn/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To cause or allow something to continue for a period of time; to keep something in operation."
+    bahasa: "Menyebabkan atau membiarkan sesuatu berlanjut untuk jangka waktu tertentu; menjaga sesuatu tetap beroperasi."
+  usage: "In tech, 'sustain' is often used when talking about performance, load, or long-term maintenance. Can the system sustain the traffic? Is our current development pace sustainable?"
+  synonyms:
+    - "maintain"
+    - "support"
+  examples:
+    workplace:
+      - "The server can handle short bursts of traffic, but can it sustain that load for several hours?"
+      - "Working 12-hour days is not a sustainable way to meet the deadline."
+    casual:
+      - "It's hard to sustain a conversation with him because he's always on his phone."
+      - "You need a lot of practice to sustain a high level of skill."
+  related:
+    - word: "handle"
+      difference: "'Handle' means to manage or deal with something, often a short-term event (like a request). 'Sustain' implies managing it over a continuous, extended period."
+    - word: "maintain"
+      difference: "'Maintain' is about keeping something in its current state (e.g., maintaining a server by applying patches). 'Sustain' is about enabling it to continue under pressure or over time (e.g., sustaining performance during a traffic spike)."
+  story: |
+    The e-commerce site was preparing for Black Friday. The team ran a load test. "Okay," said the DevOps lead, "we hit 50,000 concurrent users, and the system survived for five minutes before crashing." The Head of Engineering replied, "Surviving a spike isn't enough. We need to be able to sustain that level of traffic for at least 12 hours straight. Let's analyze the bottlenecks and reinforce them. We need sustainability, not just a quick success."
+
+- word: "Breach"
+  pronunciation: "/briːtʃ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "An act of breaking a rule, law, or agreement; a security failure where private information is accessed without permission."
+    bahasa: "Tindakan melanggar aturan, hukum, atau perjanjian; kegagalan keamanan di mana informasi pribadi diakses tanpa izin."
+  usage: "This is a critical term in cybersecurity. A 'data breach' or 'security breach' is a very serious event. It's also used to talk about breaking an agreement, like a Service Level Agreement (SLA)."
+  synonyms:
+    - "violation"
+    - "infringement"
+  examples:
+    workplace:
+      - "The company had to report a data breach after a server was compromised."
+      - "Failing to deliver 99.9% uptime is a breach of our SLA with the client."
+    casual:
+      - "He was sued for breach of contract."
+      - "Leaking the secret was a serious breach of trust."
+  related:
+    - word: "exploit"
+      difference: "An 'exploit' is a piece of code or a technique used to take advantage of a vulnerability. A 'breach' is the outcome—the successful unauthorized access that results from using an exploit."
+    - word: "vulnerability"
+      difference: "A 'vulnerability' is a weakness in a system that *could* be attacked. A 'breach' is what happens when that weakness is successfully exploited."
+  story: |
+    An urgent, all-hands email went out to the security team. "We have detected unauthorized access to a customer database. We are treating this as a major security breach." The next few hours were a blur of activity: locking down systems, identifying the point of entry, and assessing the scope of the data that was exposed. The top priority was to understand the breach and communicate transparently with their users.
+
+- word: "Tailor"
+  pronunciation: "/ˈteɪlər/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To make or adapt something for a particular purpose, person, or situation."
+    bahasa: "Membuat atau mengadaptasi sesuatu untuk tujuan, orang, atau situasi tertentu."
+  usage: "Use 'tailor' when you're customizing something to fit specific needs. You might tailor a software demo for a potential client, tailor a UI for a specific user group, or tailor a report for a non-technical audience."
+  synonyms:
+    - "customize"
+    - "adapt"
+  examples:
+    workplace:
+      - "We should tailor the user experience for mobile devices, not just shrink the desktop site."
+      - "I need to tailor my presentation for the marketing team and remove the deep technical jargon."
+    casual:
+      - "He tailored his resume to highlight his leadership skills."
+      - "The travel agent can tailor a vacation package to fit your budget."
+  related:
+    - word: "customize"
+      difference: "'Customize' and 'tailor' are very similar. 'Tailor' often implies a more careful, precise adaptation, like a tailor fitting a suit. 'Customize' can sometimes mean simply selecting from a list of options."
+    - word: "configure"
+      difference: "'Configure' means to adjust settings that already exist within a system. 'Tailor' implies a more fundamental adaptation of the content, design, or structure itself."
+  story: |
+    A sales engineer was preparing for a demo with a big potential client in the healthcare industry. Her manager told her, "Don't just give the standard demo. Do some research on their specific challenges. Tailor the demo to show them exactly how our platform can solve their problems with patient data management. Use their terminology, show them a workflow they'll recognize. Make them feel like it was built just for them."
+
+- word: "Validate"
+  pronunciation: "/ˈvælɪdeɪt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To check or prove that something is correct, true, or reasonable; to confirm that something meets requirements."
+    bahasa: "Memeriksa atau membuktikan bahwa sesuatu itu benar, benar, atau masuk akal; untuk mengkonfirmasi bahwa sesuatu memenuhi persyaratan."
+  usage: "A core activity in engineering. You 'validate' user input, 'validate' a technical hypothesis, 'validate' that a feature meets the acceptance criteria, and 'validate' an idea with the product manager."
+  synonyms:
+    - "confirm"
+    - "verify"
+  examples:
+    workplace:
+      - "The frontend should always validate user input before sending it to the backend."
+      - "Before we build this, we need to validate the idea with some potential customers."
+    casual:
+      - "He sought out a second opinion to validate his decision."
+      - "It's validating to hear that other people have the same struggles."
+  related:
+    - word: "verify"
+      difference: "'Verify' and 'validate' are often used interchangeably. A subtle distinction: 'verify' asks 'Did we build the thing right?' (i.e., does it meet the specs?). 'Validate' asks 'Did we build the right thing?' (i.e., does it solve the user's actual problem?)."
+    - word: "check"
+      difference: "'Check' is a more informal and general term. 'Validate' implies a more formal process of confirmation against a set of rules, requirements, or standards."
+  story: |
+    A junior developer, Lisa, proposed a new, more efficient algorithm for processing images. It was a clever idea, but her tech lead, Sam, was cautious. "This looks promising, Lisa," he said. "But it's a critical part of our system. Before we replace the old code, I need you to validate your approach. Write a comprehensive set of unit tests, run a benchmark to prove the performance gains, and let's get a second opinion from the architecture team."
