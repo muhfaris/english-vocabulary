@@ -1,0 +1,50 @@
+- word: "uneventful"
+  pronunciation: "/ˌʌn.ɪˈvent.fəl/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Without any interesting, important, or unusual things happening."
+    bahasa: "Tidak ada kejadian menarik atau penting; biasa-biasa saja."
+  usage: "Use 'uneventful' to describe a period of time, an event, or a process that goes smoothly and without any surprises or problems. In a software engineering context, an uneventful deployment or release is a very good thing."
+  synonyms:
+    - "smooth"
+    - "routine"
+    - "unremarkable"
+  examples:
+    workplace:
+      - "The server migration was surprisingly uneventful; we didn't encounter a single issue."
+      - "I'm hoping for an uneventful on-call shift this weekend."
+    casual:
+      - "My vacation was very relaxing and mostly uneventful."
+      - "It was a quiet, uneventful day at home."
+  related:
+    - word: "smooth"
+      difference: "'Smooth' implies that things happened easily and without effort, while 'uneventful' focuses on the lack of incidents or interruptions."
+    - word: "boring"
+      difference: "'Boring' has a negative connotation, suggesting a lack of interest. 'Uneventful' is often neutral or positive, especially in situations where problems are expected (like a deployment)."
+  story: |
+    The team prepared for the database upgrade for weeks. Everyone was a bit nervous on the day of the go-live. But as the hours passed, everything just worked. The deployment was completely uneventful. The project manager, who had been anxiously watching the monitors, finally let out a sigh of relief and said, 'This is the best kind of drama: no drama at all.'
+- word: "well-deserved"
+  pronunciation: "/ˌwel.dɪˈzɜːrvd/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Richly deserved; earned or warranted because of one's actions or qualities."
+    bahasa: "Sangat pantas didapatkan; diperoleh karena tindakan atau kualitas seseorang."
+  usage: "Use 'well-deserved' to emphasize that someone has truly earned something positive, like a break, a promotion, or praise, through their hard work or good character."
+  synonyms:
+    - "earned"
+    - "merited"
+    - "justified"
+  examples:
+    workplace:
+      - "After that long project, the team is taking a well-deserved break."
+      - "Congratulations on the promotion! It was well-deserved."
+    casual:
+      - "He enjoyed a well-deserved rest after finishing the marathon."
+      - "She received a well-deserved award for her community service."
+  related:
+    - word: "earned"
+      difference: "'Earned' is a more general term. 'Well-deserved' adds emphasis, suggesting that the reward is not just earned, but very appropriate and fitting."
+    - word: "appropriate"
+      difference: "'Appropriate' means suitable or proper in the circumstances, but 'well-deserved' specifically relates to earning something through effort or merit."
+  story: |
+    After three months of crunch time to launch the new feature, the team was exhausted but proud. The launch was a huge success. On Monday, the CTO sent an email to the whole company praising their hard work and dedication. He also announced that the entire team would get an extra day off. It was a well-deserved recognition for a job well done.
