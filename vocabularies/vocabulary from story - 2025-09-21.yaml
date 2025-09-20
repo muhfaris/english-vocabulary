@@ -1,0 +1,149 @@
+- word: "blindsided"
+  pronunciation: "/ˈblaɪnd.saɪ.dɪd/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "to be surprised by something unpleasant that you were not expecting."
+    bahasa: "terkejut oleh sesuatu yang tidak menyenangkan dan tidak terduga."
+  usage: "Use this word when you are caught off-guard by a sudden, often negative, event or piece of information."
+  synonyms:
+    - "surprised"
+    - "caught off-guard"
+  examples:
+    workplace:
+      - "We were completely blindsided by the client's sudden change of requirements."
+      - "The team was blindsided when they heard about the project's cancellation."
+    casual:
+      - "I was blindsided by his resignation; I thought he loved his job."
+      - "She was blindsided by the news of her friend's move to another country."
+  related:
+    - word: "surprised"
+      difference: "'Surprised' is a general term for being unexpected, while 'blindsided' implies that the surprise was also negative or harmful."
+    - word: "shocked"
+      difference: "'Shocked' is a stronger emotion than 'blindsided,' often implying a greater sense of disbelief or outrage."
+  story: |
+    We were two days away from launching a new feature we had worked on for months. Everything was going smoothly until our manager called an emergency meeting. We were completely blindsided when he told us that the launch was postponed indefinitely due to a shift in company strategy.
+
+- word: "ripple effect"
+  pronunciation: "/ˈrɪp.əl əˌfekt/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "a situation in which one event or action causes a series of other events to happen."
+    bahasa: "efek domino; satu peristiwa menyebabkan serangkaian peristiwa lain."
+  usage: "Use this phrase to describe the cascading consequences of an action, often spreading beyond the initial event."
+  synonyms:
+    - "domino effect"
+    - "chain reaction"
+  examples:
+    workplace:
+      - "The delay in the API development had a ripple effect on the entire project timeline."
+      - "A small bug in the payment module created a ripple effect, causing issues in the reporting system."
+    casual:
+      - "The new train schedule had a ripple effect on my morning routine."
+      - "His decision to move abroad had a ripple effect on his entire family."
+  related:
+    - word: "consequence"
+      difference: "'Consequence' is a direct result of an action, while 'ripple effect' describes a series of indirect and spreading consequences."
+    - word: "impact"
+      difference: "'Impact' is the direct effect of something, whereas 'ripple effect' emphasizes the secondary, spreading effects."
+  story: |
+    The decision to switch to a new database technology seemed small at first, but it had a significant ripple effect. Developers had to learn a new query language, the deployment scripts needed a complete overhaul, and our monitoring tools were no longer compatible.
+
+- word: "handful"
+  pronunciation: "/ˈhænd.fʊl/"
+  part_of_speech: "noun"
+  meaning:
+    english: "a person or thing that is difficult to deal with or control."
+    bahasa: "seseorang atau sesuatu yang sulit dihadapi atau dikendalikan."
+  usage: "Use this word to describe a challenging situation, task, or person in a colloquial way."
+  synonyms:
+    - "challenging"
+    - "difficult"
+  examples:
+    workplace:
+      - "The new project is a bit of a handful, but we're managing."
+      - "Managing a team of junior developers can be a handful at times."
+    casual:
+      - "My new puppy is a real handful."
+      - "That child is a handful for his parents."
+  related:
+    - word: "difficult"
+      difference: "'Difficult' is a more formal and general term for something that is not easy. 'Handful' is more informal and often used for people or situations that are hard to manage."
+    - word: "troublesome"
+      difference: "'Troublesome' implies something that causes trouble, while 'handful' suggests something that is simply difficult to control or manage."
+  story: |
+    When I first took over the legacy project, it was a real handful. The code was messy, there was no documentation, and the original developers had already left the company. It took me a few weeks just to understand how everything worked.
+
+- word: "step up"
+  pronunciation: "/step ʌp/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "to take responsibility for doing something, especially in a difficult situation."
+    bahasa: "mengambil tanggung jawab, terutama dalam situasi sulit."
+  usage: "Use this phrase when someone needs to take action or increase their efforts to meet a challenge."
+  synonyms:
+    - "take charge"
+    - "rise to the occasion"
+  examples:
+    workplace:
+      - "When our team lead went on vacation, she asked me to step up and manage the project."
+      - "We need someone to step up and lead this new initiative."
+    casual:
+      - "He really stepped up to help his friend in need."
+      - "It's time for you to step up and take more responsibility at home."
+  related:
+    - word: "volunteer"
+      difference: "'Volunteer' means to offer to do something, while 'step up' implies taking on responsibility that is needed or expected, often in a challenging context."
+    - word: "lead"
+      difference: "'Lead' means to be in charge of a group or project, whereas 'step up' is the action of taking on that responsibility."
+  story: |
+    Our project was falling behind schedule, and the team's morale was low. Our manager called a meeting and asked who was willing to step up and take ownership of the most critical part of the project. A junior developer, who was usually quiet, stepped up and said she would do it.
+
+- word: "silver lining"
+  pronunciation: "/ˌsɪl.vɚ ˈlaɪ.nɪŋ/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "an advantage that comes from a difficult or unpleasant situation."
+    bahasa: "hikmah di balik kesulitan; sisi positif dari situasi yang tidak menyenangkan."
+  usage: "Use this phrase to find something positive in a negative situation. It's often used with 'the silver lining is...'"
+  synonyms:
+    - "upside"
+    - "bright side"
+  examples:
+    workplace:
+      - "The project was delayed, but the silver lining is that we have more time to test it."
+      - "We lost the client, but the silver lining is that we can now focus on our main product."
+    casual:
+      - "I was sick all weekend, but the silver lining is that I finished a good book."
+      - "The car broke down, but the silver lining was that we discovered a great little cafe while we waited for the tow truck."
+  related:
+    - word: "benefit"
+      difference: "'Benefit' is a general advantage, while 'silver lining' is specifically an advantage that comes from a negative situation."
+    - word: "positive aspect"
+      difference: "'Positive aspect' is a neutral term. 'Silver lining' is more poetic and emphasizes finding good in the bad."
+  story: |
+    Our main server crashed right before a major release. It was a stressful night, but the silver lining was that it forced us to improve our backup and recovery systems. Now we are much more prepared for future incidents.
+
+- word: "shelved"
+  pronunciation: "/ʃelvd/"
+  part_of_speech: "verb"
+  meaning:
+    english: "to decide not to proceed with a project or plan, either temporarily or permanently."
+    bahasa: "menunda atau menghentikan proyek atau rencana."
+  usage: "Use this word when a decision is made to stop working on something, often with the possibility of returning to it later."
+  synonyms:
+    - "postponed"
+    - "put on hold"
+  examples:
+    workplace:
+      - "We had to shelve the new feature because of a lack of resources."
+      - "The project was shelved after the company decided to change its priorities."
+    casual:
+      - "I had to shelve my travel plans for now."
+      - "She decided to shelve her idea for a new book."
+  related:
+    - word: "cancel"
+      difference: "'Cancel' implies a permanent decision to stop something, while 'shelve' often suggests a temporary hold."
+    - word: "postpone"
+      difference: "'Postpone' means to delay something to a specific future time, whereas 'shelve' can be indefinite."
+  story: |
+    Our team had a great idea for a new internal tool that would automate a lot of our tedious tasks. We even built a prototype. But when we presented it to management, they told us to shelve it for now because all our resources were needed for the main product.
