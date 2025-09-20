@@ -1,0 +1,12 @@
+story:
+  title: "a-quiet-friday-release"
+  date: "2025-09-20"
+  text: |
+    Friday morning started with a final **huddle** to review the deployment plan. Everyone was on the same page. The final tests passed, and we got the **green light** from QA. The deployment itself was surprisingly **uneventful**, which is exactly what you want on a Friday. No last-minute drama, no unexpected errors. By lunchtime, the new feature was live. We spent the afternoon monitoring the system, but everything was stable. It was a huge relief. As the day started to **wind down**, the team felt a sense of accomplishment. It was a smooth end to a busy week, and everyone was looking forward to a **well-deserved** weekend. We decided to **call it a day** a bit early and grab a coffee together to celebrate.
+  highlighted_words:
+    - "huddle"
+    - "green light"
+    - "uneventful"
+    - "wind down"
+    - "well-deserved"
+    - "call it a day"
