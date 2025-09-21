@@ -1,0 +1,82 @@
+dialogue:
+  - speaker: Alex
+    english: "Hey Ben, got a minute? I want to brainstorm the prototype for the new analytics dashboard."
+    bahasa: "Hai Ben, ada waktu sebentar? Aku mau curah pendapat soal prototipe untuk dasbor analitik yang baru."
+  - speaker: Ben
+    english: "Sure, Alex. I was just about to grab some coffee. What's on your mind?"
+    bahasa: "Tentu, Alex. Aku baru saja mau ambil kopi. Ada apa?"
+  - speaker: Alex
+    english: "I'm thinking of scaffolding it quickly with a simple frontend framework and mock data. We need to get it in front of the product manager ASAP."
+    bahasa: "Aku berpikir untuk membuatnya dengan cepat menggunakan kerangka kerja frontend sederhana dan data tiruan. Kita harus segera menunjukkannya ke manajer produk."
+  - speaker: Ben
+    english: "That's one way to do it. A quick and dirty prototype. But I'm a bit wary of that approach."
+    bahasa: "Itu salah satu caranya. Prototipe yang cepat dan seadanya. Tapi aku sedikit khawatir dengan pendekatan itu."
+  - speaker: Alex
+    english: "Why? We'd be able to show something tangible within a couple of days."
+    bahasa: "Kenapa? Kita bisa menunjukkan sesuatu yang nyata dalam beberapa hari."
+  - speaker: Ben
+    english: "Because 'quick and dirty' often turns into 'permanent and messy.' If the prototype gets good feedback, they might ask us to build on top of it directly."
+    bahasa: "Karena 'cepat dan seadanya' seringkali berubah menjadi 'permanen dan berantakan.' Kalau prototipenya dapat masukan bagus, mereka mungkin akan meminta kita untuk langsung membangun di atasnya."
+  - speaker: Alex
+    english: "That's a fair point. So, what's your suggestion? A full-fledged setup?"
+    bahasa: "Itu poin yang bagus. Jadi, apa saranmu? Pengaturan yang lengkap?"
+  - speaker: Ben
+    english: "Not necessarily full-fledged, but something more structured. We could use our actual component library and a proper API mock server. It'll be a throwaway prototype, but a clean one."
+    bahasa: "Tidak harus lengkap, tapi sesuatu yang lebih terstruktur. Kita bisa menggunakan pustaka komponen kita yang sebenarnya dan server tiruan API yang layak. Ini akan menjadi prototipe sekali pakai, tapi yang bersih."
+  - speaker: Alex
+    english: "Hmm, that would take a bit longer, maybe a week?"
+    bahasa: "Hmm, itu akan memakan waktu sedikit lebih lama, mungkin seminggu?"
+  - speaker: Ben
+    english: "Probably. But it will give a much more realistic feel of the final product and save us from potential headaches down the road."
+    bahasa: "Mungkin. Tapi ini akan memberikan nuansa yang jauh lebih realistis dari produk akhir dan menyelamatkan kita dari potensi pusing di kemudian hari."
+  - speaker: Alex
+    english: "You've convinced me. A clean, throwaway prototype it is. It's better to set clear expectations from the start."
+    bahasa: "Kamu berhasil meyakinkanku. Prototipe sekali pakai yang bersih. Lebih baik menetapkan ekspektasi yang jelas dari awal."
+  - speaker: Ben
+    english: "Exactly. I'll start setting up the mock server. Can you handle the initial project structure on the frontend?"
+    bahasa: "Tepat sekali. Aku akan mulai menyiapkan server tiruan. Bisakah kamu menangani struktur awal proyek di frontend?"
+  - speaker: Alex
+    english: "You got it. Let's sync up again before the end of the day."
+    bahasa: "Siap. Mari kita sinkronisasi lagi sebelum akhir hari."
+  - speaker: Ben
+    english: "Sounds like a plan."
+    bahasa: "Terdengar bagus."
+
+expressions:
+  - phrase: "brainstorm"
+    meaning_english: "To discuss ideas to solve a problem or create something new."
+    meaning_bahasa: "Mendiskusikan ide-ide untuk memecahkan masalah atau menciptakan sesuatu yang baru (curah pendapat)."
+  - phrase: "quick and dirty"
+    meaning_english: "A fast and simple solution that is not very neat or well-made, but gets the job done."
+    meaning_bahasa: "Solusi cepat dan sederhana yang tidak terlalu rapi atau dibuat dengan baik, tetapi berfungsi."
+  - phrase: "wary of"
+    meaning_english: "Feeling cautious or suspicious about something."
+    meaning_bahasa: "Merasa berhati-hati atau curiga terhadap sesuatu."
+  - phrase: "tangible"
+    meaning_english: "Real and able to be shown or experienced."
+    meaning_bahasa: "Nyata dan dapat ditunjukkan atau dialami."
+  - phrase: "fair point"
+    meaning_english: "A valid or reasonable argument."
+    meaning_bahasa: "Argumen yang valid atau masuk akal."
+  - phrase: "full-fledged"
+    meaning_english: "Completely developed or established; with all the features."
+    meaning_bahasa: "Sepenuhnya dikembangkan atau mapan; dengan semua fitur."
+  - phrase: "throwaway prototype"
+    meaning_english: "A prototype that is intended to be discarded after its purpose has been served, not used as a base for the final product."
+    meaning_bahasa: "Prototipe yang dimaksudkan untuk dibuang setelah tujuannya tercapai, bukan untuk digunakan sebagai dasar produk akhir."
+  - phrase: "down the road"
+    meaning_english: "In the future."
+    meaning_bahasa: "Di masa depan."
+  - phrase: "sync up"
+    meaning_english: "To meet and make sure you are all working together effectively."
+    meaning_bahasa: "Bertemu dan memastikan semua orang bekerja sama secara efektif."
+
+questions:
+  - q: "What was Alex's initial idea for the prototype?"
+    a: "He suggested building a 'quick and dirty' prototype using a simple framework and mock data to show it to the product manager quickly."
+  - q: "Why was Ben concerned about Alex's approach?"
+    a: "He was worried that the 'quick and dirty' prototype might become the foundation for the final product, leading to a messy codebase."
+  - q: "What was Ben's proposed solution?"
+    a: "He suggested building a more structured, clean, 'throwaway' prototype using their actual component library and a proper mock API server."
+  - q: "What is a 'throwaway prototype'?"
+    a: "It's a prototype designed to be discarded after use, not to be built upon for the final version."
