@@ -1,0 +1,18 @@
+story:
+  title: "a-day-of-refactoring"
+  date: "2025-09-22"
+  text: |
+    Monday morning started with a strong cup of coffee and the usual daily **stand-up**. My main task for the week was clear: **refactoring** a large piece of **legacy code**. The module was functional but had accumulated a lot of **technical debt** over the years, making it difficult to maintain. I spent most of the morning carefully untangling the code, simplifying complex functions, and improving readability.
+
+    By the afternoon, I had a pull request ready. I requested a **code review** from a senior developer, Sarah. Her feedback was insightful, pointing out a few edge cases I had missed. After a quick chat to **align** on the changes, I made the final adjustments. The goal was to **merge** the changes before the end-of-day **deadline** to avoid any potential blockers for the upcoming feature release. It was a challenging task, but the feeling of improving the codebase was incredibly satisfying. It’s a small step, but it makes future **deployment** smoother. This kind of **teamwork** is what I love about my job.
+  highlighted_words:
+    - "stand-up"
+    - "refactoring"
+    - "legacy code"
+    - "technical debt"
+    - "code review"
+    - "align"
+    - "merge"
+    - "deadline"
+    - "deployment"
+    - "teamwork"
