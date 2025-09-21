@@ -147,3 +147,203 @@
       difference: "'Postpone' means to delay something to a specific future time, whereas 'shelve' can be indefinite."
   story: |
     Our team had a great idea for a new internal tool that would automate a lot of our tedious tasks. We even built a prototype. But when we presented it to management, they told us to shelve it for now because all our resources were needed for the main product.
+
+- word: "peacefully"
+  pronunciation: "/ˈpiːsfəli/"
+  part_of_speech: "adverb"
+  meaning:
+    english: "In a way that is free from disturbance; tranquil."
+    bahasa: "Dengan damai; dengan tenang."
+  usage: "Used to describe an action that is done in a calm and quiet manner, without any interruption or stress."
+  synonyms:
+    - "calmly"
+    - "quietly"
+  examples:
+    workplace:
+      - "She finished her code **peacefully** before the deadline, without any last-minute rush."
+      - "The team worked **peacefully** to resolve the conflict."
+    casual:
+      - "He was sleeping **peacefully** on the sofa."
+      - "I wish I could just read a book **peacefully** in the park."
+  related:
+    - word: "calmly"
+      difference: "'Peacefully' often implies an environment free of noise or stress, while 'calmly' refers more to a person's inner state of composure."
+    - word: "quietly"
+      difference: "'Quietly' refers to the absence of sound, whereas 'peacefully' refers to a state of tranquility, which may include quietness but is a broader concept."
+  story: |
+    After a long week of debugging, I just wanted to spend my Saturday **peacefully**. I turned off my notifications, made a cup of tea, and started working on my personal project.
+
+- word: "buzzed"
+  pronunciation: "/bʌzd/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To make a low, continuous humming or murmuring sound, like that of a bee. Often used for phones or pagers."
+    bahasa: "Berdengung; bergetar (untuk telepon)."
+  usage: "Commonly used to describe the sound a phone makes when it vibrates for a notification."
+  synonyms:
+    - "vibrated"
+    - "hummed"
+  examples:
+    workplace:
+      - "My phone **buzzed** with a notification from the team's chat."
+      - "The server rack **buzzed** with activity."
+    casual:
+      - "My phone **buzzed** in my pocket, but I ignored it."
+      - "The doorbell **buzzed** unexpectedly."
+  related:
+    - word: "vibrated"
+      difference: "'Buzzed' often implies a sound accompanying the vibration, while 'vibrated' focuses purely on the physical movement."
+    - word: "rang"
+      difference: "'Rang' is used for a phone making a sound, while 'buzzed' is for the vibration."
+  story: |
+    I was in a meeting when my phone **buzzed**. I discreetly checked the notification and saw it was an urgent alert from the monitoring system.
+
+- word: "vanished"
+  pronunciation: "/ˈvænɪʃt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To disappear suddenly and completely."
+    bahasa: "Menghilang; lenyap."
+  usage: "Used to describe something that has disappeared in a sudden and often mysterious way."
+  synonyms:
+    - "disappeared"
+    - "evaporated"
+  examples:
+    workplace:
+      - "The bug I was trying to reproduce has completely **vanished**."
+      - "My motivation **vanished** after that long and pointless meeting."
+    casual:
+      - "My keys seem to have **vanished** from my desk."
+      - "The cat **vanished** into the bushes."
+  related:
+    - word: "disappeared"
+      difference: "'Vanished' is more dramatic and sudden than 'disappeared'. It implies a complete and often inexplicable disappearance."
+    - word: "faded"
+      difference: "'Faded' suggests a slow and gradual disappearance, while 'vanished' is immediate."
+  story: |
+    I was trying to debug a memory leak, but every time I thought I had a lead, the evidence just **vanished**. It was a very frustrating experience.
+
+- word: "instantly"
+  pronunciation: "/ˈɪnstəntli/"
+  part_of_speech: "adverb"
+  meaning:
+    english: "At once; immediately."
+    bahasa: "Seketika; langsung."
+  usage: "Used to describe something that happens immediately, without any delay."
+  synonyms:
+    - "immediately"
+    - "at once"
+  examples:
+    workplace:
+      - "When the server went down, we were **instantly** notified."
+      - "She **instantly** knew what the problem was."
+    casual:
+      - "I was **instantly** hooked on the new TV show."
+      - "He replied to my message **instantly**."
+  related:
+    - word: "immediately"
+      difference: "'Instantly' and 'immediately' are very close in meaning. 'Instantly' can sometimes feel even faster and more sudden than 'immediately'."
+    - word: "promptly"
+      difference: "'Promptly' suggests acting quickly and without unnecessary delay, but not necessarily at that very second, unlike 'instantly'."
+  story: |
+    As soon as the deployment finished, I **instantly** checked the logs to make sure everything was running smoothly.
+
+- word: "head-on"
+  pronunciation: "/ˌhedˈɒn/"
+  part_of_speech: "adverb"
+  meaning:
+    english: "Directly; without avoidance."
+    bahasa: "Langsung; secara langsung."
+  usage: "Used to describe facing a problem or challenge directly and with determination."
+  synonyms:
+    - "directly"
+    - "frontally"
+  examples:
+    workplace:
+      - "We need to tackle this issue **head-on** instead of ignoring it."
+      - "She addressed the feedback **head-on** in the meeting."
+    casual:
+      - "He met the challenge **head-on**."
+      - "It's better to deal with these things **head-on**."
+  related:
+    - word: "directly"
+      difference: "'Head-on' often implies a degree of confrontation or bravery in the face of a challenge, while 'directly' is more neutral."
+    - word: "proactively"
+      difference: "'Proactively' means acting in advance, while 'head-on' means dealing with something that is already happening."
+  story: |
+    Instead of finding a temporary workaround, the team decided to address the technical debt **head-on** this sprint.
+
+- word: "tense"
+  pronunciation: "/tens/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Causing or showing anxiety and nervousness."
+    bahasa: "Tegang; gugup."
+  usage: "Used to describe a situation or a person's state that is filled with nervousness, excitement, or anxiety."
+  synonyms:
+    - "nervous"
+    - "anxious"
+  examples:
+    workplace:
+      - "The meeting with the stakeholders was quite **tense**."
+      - "There was a **tense** moment before we confirmed the bug was fixed."
+    casual:
+      - "The atmosphere was **tense** during the final minutes of the game."
+      - "He has been very **tense** lately because of his exams."
+  related:
+    - word: "anxious"
+      difference: "'Tense' often describes the atmosphere of a situation or a physical feeling, while 'anxious' describes a person's internal feeling of worry."
+    - word: "stressful"
+      difference: "'Stressful' describes something that causes stress, while 'tense' describes the feeling of being stressed or the atmosphere it creates."
+  story: |
+    The war room was **tense** as we waited for the system to come back online after the hotfix. Everyone was silent, just staring at the monitoring dashboard.
+
+- word: "averted"
+  pronunciation: "/əˈvɜːtɪd/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To prevent or ward off (an undesirable occurrence)."
+    bahasa: "Mencegah; menghindari."
+  usage: "Often used to describe the prevention of a crisis, disaster, or something unpleasant."
+  synonyms:
+    - "prevented"
+    - "avoided"
+  examples:
+    workplace:
+      - "Thanks to the quick rollback, a major outage was **averted**."
+      - "We narrowly **averted** a data loss incident."
+    casual:
+      - "He **averted** his eyes from the accident."
+      - "A tragedy was **averted** by the quick action of the firefighters."
+  related:
+    - word: "prevented"
+      difference: "'Averted' is often used for more dramatic or serious situations than 'prevented'. It implies that a bad outcome was very close to happening."
+    - word: "avoided"
+      difference: "'Avoided' can mean staying away from something, while 'averted' means actively stopping something from happening."
+  story: |
+    The team's quick thinking **averted** a disaster. If they hadn't noticed the anomaly in the logs, the entire database could have been corrupted.
+
+- word: "pull together"
+  pronunciation: "/pʊl təˈɡeðə(r)/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To work together in a cooperative and effective way."
+    bahasa: "Bekerja sama; bersatu."
+  usage: "Used to describe a situation where a group of people cooperate to achieve a common goal, especially in a difficult situation."
+  synonyms:
+    - "cooperate"
+    - "collaborate"
+  examples:
+    workplace:
+      - "If we all **pull together**, we can finish this project on time."
+      - "The team had to **pull together** to fix the critical bug."
+    casual:
+      - "The community had to **pull together** after the storm."
+      - "Let's **pull together** and get this done."
+  related:
+    - word: "collaborate"
+      difference: "'Pull together' has a stronger sense of unity and shared effort in the face of adversity, while 'collaborate' is a more general term for working together."
+    - word: "team up"
+      difference: "'Team up' means to form a team, while 'pull together' is what a team does to overcome a challenge."
+  story: |
+    The deadline was tight, but the team managed to **pull together** and deliver the feature. Everyone stayed late and helped each other out.
