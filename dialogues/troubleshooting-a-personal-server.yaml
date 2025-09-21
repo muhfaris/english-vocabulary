@@ -1,0 +1,69 @@
+dialogue:
+  - speaker: Alex
+    english: "Hey Ben, you got a sec? My personal server is acting up."
+    bahasa: "Hai Ben, ada waktu sebentar? Server pribadiku lagi bermasalah."
+  - speaker: Ben
+    english: "Oh no, what's wrong? The one hosting your blog?"
+    bahasa: "Oh tidak, ada apa? Yang hosting blog kamu?"
+  - speaker: Alex
+    english: "Yeah, that's the one. It's been offline since this morning. I can't even SSH into it."
+    bahasa: "Iya, yang itu. Offline dari pagi ini. Aku bahkan tidak bisa SSH ke dalamnya."
+  - speaker: Ben
+    english: "Hmm, that's not good. Have you checked the hosting provider's status page?"
+    bahasa: "Hmm, itu tidak bagus. Kamu sudah cek halaman status penyedia hosting?"
+  - speaker: Alex
+    english: "First thing I did. Everything looks green on their end."
+    bahasa: "Hal pertama yang aku lakukan. Semuanya tampak hijau di pihak mereka."
+  - speaker: Ben
+    english: "Okay, so it's probably not a network outage on their side. Can you access the rescue console?"
+    bahasa: "Oke, jadi mungkin bukan gangguan jaringan di pihak mereka. Bisakah kamu mengakses konsol penyelamatan?"
+  - speaker: Alex
+    english: "Good point. I haven't tried that yet. Let me log into the control panel."
+    bahasa: "Poin bagus. Aku belum mencobanya. Biar aku masuk ke panel kontrol."
+  - speaker: Ben
+    english: "Let me know what you see. It could be a firewall issue or maybe the SSH daemon crashed."
+    bahasa: "Beri tahu aku apa yang kamu lihat. Bisa jadi masalah firewall atau mungkin daemon SSH-nya macet."
+  - speaker: Alex
+    english: "Okay, I'm in the rescue console... It looks like the disk is full. That's probably the culprit."
+    bahasa: "Oke, aku di konsol penyelamatan... Sepertinya disknya penuh. Itu mungkin biang keladinya."
+  - speaker: Ben
+    english: "Ah, that'll do it. A full disk can cause all sorts of services to fail."
+    bahasa: "Ah, itu dia. Disk yang penuh bisa menyebabkan segala macam layanan gagal."
+  - speaker: Alex
+    english: "I see some huge log files in /var/log. I think I can clear them out."
+    bahasa: "Aku melihat beberapa file log besar di /var/log. Kurasa aku bisa membersihkannya."
+  - speaker: Ben
+    english: "Yep, that should free up some space. You should also set up log rotation to prevent this from happening again."
+    bahasa: "Yap, itu akan mengosongkan sebagian ruang. Kamu juga harus mengatur rotasi log untuk mencegah ini terjadi lagi."
+  - speaker: Alex
+    english: "Definitely. Thanks for the help, Ben! You're a lifesaver."
+    bahasa: "Pasti. Terima kasih atas bantuannya, Ben! Kamu penyelamatku."
+  - speaker: Ben
+    english: "No problem, man. Happy to help."
+    bahasa: "Tidak masalah, kawan. Senang membantu."
+expressions:
+  - phrase: "acting up"
+    meaning_english: "Behaving badly or not working properly."
+    meaning_bahasa: "bertingkah aneh atau tidak berfungsi dengan baik"
+  - phrase: "SSH into it"
+    meaning_english: "Connect to a remote server using the Secure Shell protocol."
+    meaning_bahasa: "terhubung ke server jarak jauh menggunakan protokol Secure Shell"
+  - phrase: "green on their end"
+    meaning_english: "Indicating that everything is working correctly from their perspective."
+    meaning_bahasa: "menunjukkan bahwa semuanya berfungsi dengan benar dari sudut pandang mereka"
+  - phrase: "rescue console"
+    meaning_english: "A special terminal provided by a hosting service to access a server when it's unresponsive."
+    meaning_bahasa: "terminal khusus yang disediakan oleh layanan hosting untuk mengakses server saat tidak responsif"
+  - phrase: "the culprit"
+    meaning_english: "The source of a problem."
+    meaning_bahasa: "sumber masalah"
+  - phrase: "log rotation"
+    meaning_english: "A process that automatically archives or deletes old log files to save space."
+    meaning_bahasa: "proses yang secara otomatis mengarsipkan atau menghapus file log lama untuk menghemat ruang"
+questions:
+  - q: "What was the initial problem with Alex's server?"
+    a: "The server was offline and he couldn't SSH into it."
+  - q: "What did Ben suggest Alex check first?"
+    a: "He suggested checking the hosting provider's status page."
+  - q: "What turned out to be the root cause of the issue?"
+    a: "The server's disk was full."
