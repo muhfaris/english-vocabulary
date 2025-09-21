@@ -1,0 +1,259 @@
+- word: "Slippage"
+  pronunciation: "/ˈslɪp.ɪdʒ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The act of falling behind schedule or the amount of time lost."
+    bahasa: "Keterlambatan dari jadwal; selisih waktu dari yang direncanakan."
+  usage: "Use it in project management contexts, like stand-ups or planning meetings, to talk about delays against a timeline."
+  synonyms:
+    - "delay"
+    - "setback"
+    - "overrun"
+  examples:
+    workplace:
+      - "We're seeing some slippage on the Q3 roadmap; the login feature took longer than expected."
+      - "The project manager is tracking any slippage against our original delivery date."
+    casual:
+      - "There was some slippage in my weekend plans after my friend arrived late."
+      - "Any more slippage and we'll miss the deadline for the application."
+  related:
+    - word: "Delay"
+      difference: "A 'delay' is a general term for something happening later than planned. 'Slippage' specifically refers to a schedule or timeline falling behind, often incrementally."
+    - word: "Setback"
+      difference: "A 'setback' is an event that hinders progress, which can *cause* slippage. Slippage is the *result* (the time lost), while a setback is the *cause*."
+  story: |
+    During Monday's stand-up, our team lead, Sarah, looked concerned. "Team, I've been reviewing our progress, and I've noticed about a week of slippage on the new analytics module," she said. "We need to understand what's causing this and how we can get back on track."
+
+- word: "Grapple with"
+  pronunciation: "/ˈɡræp.əl wɪð/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To struggle to deal with or understand a difficult problem or subject."
+    bahasa: "Bergulat dengan; berusaha keras untuk memahami atau mengatasi masalah yang sulit."
+  usage: "Use it when you are facing a complex challenge, like a difficult bug, a complex concept, or a tough decision."
+  synonyms:
+    - "struggle with"
+    - "contend with"
+    - "wrestle with"
+  examples:
+    workplace:
+      - "I've been grappling with this legacy codebase all morning; it's hard to understand the logic."
+      - "She's currently grappling with how to scale the database for the anticipated user load."
+    casual:
+      - "He's grappling with the decision to move to a new city for a job."
+      - "I'm still grappling with the concepts from that philosophy book I read."
+  related:
+    - word: "Struggle with"
+      difference: "'Struggle with' is a very general term. 'Grapple with' implies a more intense, mental struggle, often involving complex ideas or problems that you are trying to get a firm grasp on."
+    - word: "Face"
+      difference: "You 'face' a problem, which means you acknowledge it and have to deal with it. You 'grapple with' a problem when you are actively in the process of trying to solve or understand it, emphasizing the effort involved."
+  story: |
+    Adi, a junior developer, was quiet during the sync-up. "Everything okay, Adi?" his mentor asked. "I'm grappling with the state management in this React component," Adi admitted. "The data flow isn't making sense to me." His mentor smiled. "We've all been there. Let's whiteboard it together."
+
+- word: "Subpar"
+  pronunciation: "/ˌsʌbˈpɑːr/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Below an average, acceptable, or usual standard of quality."
+    bahasa: "Di bawah standar; kualitasnya kurang dari rata-rata atau yang diharapkan."
+  usage: "Use it to describe something that is of poor quality or doesn't meet expectations, like code performance, a design, or a solution."
+  synonyms:
+    - "mediocre"
+    - "inferior"
+    - "inadequate"
+  examples:
+    workplace:
+      - "The performance of the last build was subpar; we need to optimize the queries."
+      - "We had to reject the initial UI mockups because they were frankly subpar."
+    casual:
+      - "The service at that new restaurant was subpar; I don't think I'll go back."
+      - "He gave a subpar effort on his final project and got a bad grade."
+  related:
+    - word: "Mediocre"
+      difference: "'Mediocre' means average or not very good. 'Subpar' is stronger and means explicitly *below* a standard or par. Something mediocre might be passable, but something subpar is usually unacceptable."
+    - word: "Inadequate"
+      difference: "'Inadequate' means not enough or not good enough for a specific purpose. 'Subpar' focuses more on the quality itself being below a general standard, while 'inadequate' focuses on its inability to meet a need."
+  story: |
+    During a code review, David left a comment: "The test coverage here is a bit subpar. We're only testing the happy path. We need to add tests for edge cases to make this robust." It was a polite way of saying the work wasn't good enough yet.
+
+- word: "Shield"
+  pronunciation: "/ʃiːld/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To protect someone or something from a danger, risk, or unpleasant experience."
+    bahasa: "Melindungi; menjaga seseorang atau sesuatu dari bahaya, risiko, atau pengalaman tidak menyenangkan."
+  usage: "In a work context, it's often used when a manager or team lead protects their team from distractions, unnecessary meetings, or external pressure."
+  synonyms:
+    - "protect"
+    - "guard"
+    - "screen"
+  examples:
+    workplace:
+      - "Our manager does a great job of shielding us from last-minute requests so we can focus."
+      - "I'll try to shield you from the client's questions while you fix this critical bug."
+    casual:
+      - "She put on sunglasses to shield her eyes from the bright sun."
+      - "He tried to shield his kids from the bad news."
+  related:
+    - word: "Protect"
+      difference: "'Protect' is a general term for keeping something safe. 'Shield' often implies protecting from something specific that is coming at you, like a distraction, a question, or an attack. It has a more active, defensive feel."
+    - word: "Cover for"
+      difference: "To 'cover for' someone means to take over their duties or make excuses for them when they are absent or have made a mistake. To 'shield' someone is to prevent negative things from reaching them in the first place."
+  story: |
+    "We're in crunch time for the release," the engineering manager announced. "For the next two weeks, I'm going to shield the development team from all non-critical meetings and requests. All communication should go through me first." The team let out a collective sigh of relief.
+
+- word: "Warranted"
+  pronunciation: "/ˈwɒr.ən.tɪd/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Justified or necessary for a particular reason."
+    bahasa: "Dibenarkan; diperlukan atau beralasan untuk suatu tujuan."
+  usage: "Use it to say that a certain action is appropriate or deserved because of the situation."
+  synonyms:
+    - "justified"
+    - "deserved"
+    - "necessary"
+  examples:
+    workplace:
+      - "Given the number of users affected, a hotfix is definitely warranted."
+      - "A full-day meeting for such a small feature doesn't seem warranted."
+    casual:
+      - "His angry reaction was not warranted; it was just a small mistake."
+      - "A celebration is warranted after you've worked so hard and passed your exams!"
+  related:
+    - word: "Justified"
+      difference: "'Justified' and 'warranted' are very close. 'Justified' often relates to having a good reason for an opinion or action (moral or logical). 'Warranted' often relates to whether the scale of a response or action is appropriate for the situation."
+    - word: "Necessary"
+      difference: "'Necessary' means something is required and you have no choice. 'Warranted' means there is a good enough reason to do it, but it doesn't mean it's the *only* option. All necessary actions are warranted, but not all warranted actions are necessary."
+  story: |
+    "I'm thinking of doing a full refactor of this module," said a junior dev. His senior colleague replied, "Is that really warranted right now? The code works, and we have tight deadlines. A full refactor seems like an over-investment of time unless there's a critical performance issue."
+
+- word: "Kludge"
+  pronunciation: "/klʌdʒ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "An awkward or clumsy, but temporarily effective, solution to a problem."
+    bahasa: "Solusi yang canggung atau jelek, tapi efektif untuk sementara waktu; akal-akalan."
+  usage: "Use this (often self-deprecatingly) to describe a quick-and-dirty solution that you know isn't elegant or long-term. It's similar to a 'hack' or 'workaround.'"
+  synonyms:
+    - "hack"
+    - "workaround"
+    - "makeshift solution"
+  examples:
+    workplace:
+      - "The script is a bit of a kludge, but it gets the data migrated successfully."
+      - "We'll have to use a kludge to get this working for the demo, and we'll fix it properly in the next sprint."
+    casual:
+      - "He fixed the broken table leg with a kludge of duct tape and books."
+      - "My whole entertainment system is a kludge of old and new components."
+  related:
+    - word: "Hack"
+      difference: "A 'hack' can sometimes imply a clever, unconventional solution. A 'kludge' almost always has a negative connotation, implying it's clumsy, ugly, and inelegant, even if it works."
+    - word: "Workaround"
+      difference: "A 'workaround' is a way to bypass a problem or limitation. A 'kludge' is a type of workaround, but specifically one that is poorly built or designed. Not all workarounds are kludges."
+  story: |
+    "I finally got the old API to talk to our new service," Maya said, sighing. "How?" asked her colleague. "Don't look too closely at the code," she laughed. "It's a complete kludge that involves parsing a string that I probably shouldn't. But it works for now. I've already created a tech debt ticket to replace it."
+
+- word: "Revisit"
+  pronunciation: "/ˌriːˈvɪz.ɪt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To talk about or think about something again at a later time."
+    bahasa: "Mengunjungi kembali; membahas atau memikirkan sesuatu lagi di lain waktu."
+  usage: "Very common in meetings to postpone a discussion or to agree to come back to a topic in the future."
+  synonyms:
+    - "review"
+    - "return to"
+    - "reconsider"
+  examples:
+    workplace:
+      - "This is a good point, but let's revisit it in the next planning session."
+      - "I'd like to revisit our decision from last quarter to see if it's still the right approach."
+    casual:
+      - "I want to revisit that restaurant we went to last year."
+      - "Let's revisit this conversation when we're both less tired."
+  related:
+    - word: "Review"
+      difference: "To 'review' something is to examine or assess it, often formally. To 'revisit' is simply to come back to it. You might revisit a topic to review it, but you can also revisit it just to continue a conversation."
+    - word: "Postpone"
+      difference: "To 'postpone' something is to schedule it for a later time. 'Revisit' is about the topic or idea itself. You might say, 'Let's postpone this meeting,' but you would say, 'Let's revisit this topic in the next meeting.'"
+  story: |
+    The debate about which state management library to use was getting too heated and taking up the entire meeting. Finally, the tech lead stepped in. "Okay, everyone has valid points. Let's park this for now and revisit it tomorrow. I want everyone to come prepared with a short list of pros and cons for their preferred choice."
+
+- word: "Pragmatic"
+  pronunciation: "/præɡˈmæt.ɪk/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Dealing with problems in a sensible and realistic way that is based on practical rather than theoretical considerations."
+    bahasa: "Pragmatis; menangani masalah dengan cara yang masuk akal dan realistis, berdasarkan pertimbangan praktis daripada teoretis."
+  usage: "Use it to describe a person or a solution that is focused on what works in reality, rather than what is perfect in theory."
+  synonyms:
+    - "practical"
+    - "realistic"
+    - "sensible"
+  examples:
+    workplace:
+      - "Writing a perfect algorithm is great, but we need a pragmatic solution that we can ship by Friday."
+      - "She's a very pragmatic engineer; she always finds a simple, effective way to solve problems."
+    casual:
+      - "His pragmatic approach to life means he doesn't worry about things he can't control."
+      - "It's not the most exciting car, but it was a pragmatic choice for a family."
+  related:
+    - word: "Practical"
+      difference: "'Practical' and 'pragmatic' are very similar. 'Practical' often refers to actions or objects being useful. 'Pragmatic' more often refers to a way of thinking or an approach that is realistic and results-oriented, especially in the face of complex problems or competing ideals."
+    - word: "Realistic"
+      difference: "'Realistic' means seeing things as they are. 'Pragmatic' is the step beyond that; it's about *acting* in a way that is sensible and effective, given the reality of the situation."
+  story: |
+    The team wanted to rebuild the entire payment system from scratch. The product manager, however, argued for a more pragmatic approach. "A full rebuild would take six months," she said. "Let's identify the biggest pain points and fix them incrementally. It's less exciting, but it delivers value to our users much faster."
+
+- word: "Mindful"
+  pronunciation: "/ˈmaɪnd.fəl/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Being conscious or aware of something."
+    bahasa: "Sadar; penuh perhatian atau waspada terhadap sesuatu."
+  usage: "Use it to say that you are keeping something important in consideration while you work, such as performance, security, or a deadline."
+  synonyms:
+    - "aware"
+    - "conscious"
+    - "considerate"
+  examples:
+    workplace:
+      - "When writing this code, please be mindful of its performance implications."
+      - "We need to be mindful of the deadline and avoid scope creep."
+    casual:
+      - "Please be mindful of the noise when you come home late at night."
+      - "She is always mindful of other people's feelings."
+  related:
+    - word: "Aware"
+      difference: "Being 'aware' is simply knowing that something exists. Being 'mindful' implies a more active and continuous state of consideration. You can be aware of a deadline, but being mindful of it means you are actively letting it influence your decisions."
+    - word: "Careful"
+      difference: "Being 'careful' is about avoiding risk or mistakes. Being 'mindful' is about keeping a specific concept or factor in your thoughts. You might be careful *not* to introduce bugs, and you do this by being mindful of security best practices."
+  story: |
+    "Before you merge this, let's be mindful of our international users," reminded the senior engineer. "Does this UI change work well with longer text in other languages? We forgot about this last time and it broke the layout for our German users."
+
+- word: "Ephemeral"
+  pronunciation: "/ɪˈfem.ər.əl/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Lasting for only a very short time."
+    bahasa: "Fana; hanya berlangsung untuk waktu yang sangat singkat."
+  usage: "In tech, it's often used to describe things that are temporary by design, like test environments, cache data, or feature flags."
+  synonyms:
+    - "temporary"
+    - "short-lived"
+    - "transient"
+  examples:
+    workplace:
+      - "Our staging environments are ephemeral; they are created for each pull request and destroyed after it's merged."
+      - "Don't store important information in the cache; it's ephemeral and can be cleared at any time."
+    casual:
+      - "The beauty of the cherry blossoms is ephemeral, lasting only for a week or two."
+      - "Childhood friendships can sometimes feel ephemeral once you grow up and move away."
+  related:
+    - word: "Temporary"
+      difference: "'Temporary' means not permanent. 'Ephemeral' is a more poetic and stronger word that emphasizes the extreme shortness of the duration. A temporary job might last for months; an ephemeral moment lasts for seconds."
+    - word: "Transient"
+      difference: "'Transient' and 'ephemeral' are very close. 'Transient' often describes something that moves from place to place and doesn't stay long (like a transient population). 'Ephemeral' focuses more on the short lifespan of the thing itself."
+  story: |
+    A new developer was confused. "I can't find the server I deployed to yesterday," he said. "Ah," replied his teammate. "You used one of our dynamic test environments. Those are ephemeral. They automatically spin down after 24 hours to save costs. You'll have to deploy it again."
