@@ -1,0 +1,65 @@
+dialogue:
+  - speaker: Alex
+    english: "Hey Ben, how's your weekend going?"
+    bahasa: "Hai Ben, bagaimana akhir pekanmu?"
+  - speaker: Ben
+    english: "Pretty good! Just chilling and working on my personal portfolio site. You?"
+    bahasa: "Cukup bagus! Hanya bersantai dan mengerjakan situs portofolio pribadi saya. Kamu?"
+  - speaker: Alex
+    english: "Same here. I'm finally getting around to learning that new JavaScript framework we talked about."
+    bahasa: "Sama. Akhirnya aku sempat mempelajari framework JavaScript baru yang kita bicarakan."
+  - speaker: Ben
+    english: "Oh, nice! How are you finding it? Is it as cool as they say?"
+    bahasa: "Oh, bagus! Bagaimana menurutmu? Apakah sekeren yang mereka katakan?"
+  - speaker: Alex
+    english: "It's got a bit of a learning curve, but I'm starting to get the hang of it. The component-based structure is really intuitive."
+    bahasa: "Ada sedikit kurva belajar, tapi aku mulai terbiasa. Struktur berbasis komponennya sangat intuitif."
+  - speaker: Ben
+    english: "I've been meaning to check that out. Have you managed to build anything with it yet?"
+    bahasa: "Aku sudah lama ingin mencobanya. Apakah kamu sudah berhasil membuat sesuatu dengannya?"
+  - speaker: Alex
+    english: "Just a simple to-do list app to test the waters. It's nothing fancy, but it helps me understand the core concepts."
+    bahasa: "Hanya aplikasi daftar tugas sederhana untuk mencoba-coba. Tidak ada yang istimewa, tapi ini membantuku memahami konsep intinya."
+  - speaker: Ben
+    english: "That's the best way to learn. I'm currently stuck on a CSS issue myself. Trying to perfectly center a div is the bane of my existence."
+    bahasa: "Itulah cara terbaik untuk belajar. Aku sendiri sedang terjebak masalah CSS. Mencoba memusatkan div dengan sempurna adalah sumber frustrasiku."
+  - speaker: Alex
+    english: "Haha, the classic struggle! Have you tried using Flexbox? `display: flex; justify-content: center; align-items: center;` usually does the trick for me."
+    bahasa: "Haha, perjuangan klasik! Apakah kamu sudah mencoba menggunakan Flexbox? `display: flex; justify-content: center; align-items: center;` biasanya berhasil untukku."
+  - speaker: Ben
+    english: "You know, I was overthinking it with `position: absolute` and transforms. Let me give that a shot."
+    bahasa: "Tahu tidak, aku terlalu memikirkannya dengan `position: absolute` dan transform. Biarkan aku mencobanya."
+  - speaker: Alex
+    english: "Let me know if it works. It's nice to have a chill coding session without the pressure of deadlines."
+    bahasa: "Beri tahu aku jika berhasil. Menyenangkan bisa sesi coding santai tanpa tekanan tenggat waktu."
+  - speaker: Ben
+    english: "For sure. It's way more fun when you can just tinker and explore."
+    bahasa: "Tentu saja. Jauh lebih menyenangkan ketika kamu bisa sekadar mengutak-atik dan menjelajah."
+
+expressions:
+  - phrase: "Getting around to"
+    meaning_english: "Finally finding the time to do something."
+    meaning_bahasa: "Akhirnya menemukan waktu untuk melakukan sesuatu."
+  - phrase: "Get the hang of it"
+    meaning_english: "To learn the skills that are needed to do something."
+    meaning_bahasa: "Mempelajari keterampilan yang dibutuhkan untuk melakukan sesuatu."
+  - phrase: "Test the waters"
+    meaning_english: "To try something new to see if you like it or if it will be successful."
+    meaning_bahasa: "Mencoba sesuatu yang baru untuk melihat apakah Anda menyukainya atau apakah akan berhasil."
+  - phrase: "The bane of my existence"
+    meaning_english: "A person or thing that continually annoys or frustrates someone."
+    meaning_bahasa: "Seseorang atau sesuatu yang terus-menerus mengganggu atau membuat seseorang frustrasi."
+  - phrase: "Does the trick"
+    meaning_english: "To achieve the desired result."
+    meaning_bahasa: "Mencapai hasil yang diinginkan."
+  - phrase: "Tinker"
+    meaning_english: "To make small changes to something in order to improve or repair it."
+    meaning_bahasa: "Membuat perubahan kecil pada sesuatu untuk memperbaikinya."
+
+questions:
+  - q: "What is Alex working on during the weekend?"
+    a: "Alex is learning a new JavaScript framework by building a simple to-do list app."
+  - q: "What problem is Ben facing with his project?"
+    a: "Ben is struggling to perfectly center a `div` using CSS."
+  - q: "What solution does Alex suggest to Ben?"
+    a: "Alex suggests using CSS Flexbox to center the `div`."
