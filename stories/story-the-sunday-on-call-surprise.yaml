@@ -1,0 +1,18 @@
+story:
+  title: "the-sunday-on-call-surprise"
+  date: "2025-09-21"
+  text: |
+    Sunday morning started **peacefully** with a warm cup of coffee. I was planning a relaxing day before the work week kicked off. Suddenly, my phone **buzzed** with an alert—a critical outage in our production environment. My weekend plans **vanished** **instantly**; it was time for some unexpected firefighting.
+
+    I quickly jumped on a call with the on-call team. We had to tackle the problem **head-on**. After a **tense** hour of debugging, we identified the culprit: a recent deployment had an unforeseen edge case. We decided to roll back the change as a temporary hotfix to get the system back online.
+
+    With the immediate crisis **averted**, we scheduled a post-mortem for Monday to discuss the root cause and prevent it from happening again. It wasn’t the Sunday I had planned, but the effective teamwork and quick resolution were a reminder of how we **pull together** when things go wrong. I finally went back to my now-cold coffee, feeling a sense of relief.
+  highlighted_words:
+    - "peacefully"
+    - "buzzed"
+    - "vanished"
+    - "instantly"
+    - "head-on"
+    - "tense"
+    - "averted"
+    - "pull together"
