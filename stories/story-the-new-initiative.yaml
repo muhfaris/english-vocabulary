@@ -1,0 +1,11 @@
+story:
+  title: "the-new-initiative"
+  date: "2025-09-21"
+  text: |
+    This morning's **all-hands** was more interesting than usual. Our CTO announced a new initiative to foster knowledge sharing across the company. The idea is to have a weekly **brownbag session**, where anyone can present a topic they are passionate about, technical or not.
+
+    The goal is to help everyone **align** on what different teams are working on and to learn from each other's expertise. I think it's a great way to break down silos and connect with colleagues. My mind is already buzzing with ideas for a topic I could present. I think I'll talk about the new testing framework I've been exploring. It feels good to work in a place that encourages continuous learning.
+  highlighted_words:
+    - "all-hands"
+    - "brownbag session"
+    - "align"

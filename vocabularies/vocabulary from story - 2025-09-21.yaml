@@ -347,3 +347,52 @@
       difference: "'Team up' means to form a team, while 'pull together' is what a team does to overcome a challenge."
   story: |
     The deadline was tight, but the team managed to **pull together** and deliver the feature. Everyone stayed late and helped each other out.
+- word: "all-hands"
+  pronunciation: "/ɔːl hændz/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A meeting that includes all members of a team or company."
+    bahasa: "Rapat yang dihadiri oleh semua anggota tim atau perusahaan."
+  usage: "Used to describe a company-wide or team-wide meeting. Often called an 'all-hands meeting'."
+  synonyms:
+    - "town hall"
+    - "company-wide meeting"
+  examples:
+    workplace:
+      - "The CEO will be giving a presentation at the quarterly all-hands."
+      - "We have an all-hands every Monday to sync up for the week."
+    casual:
+      - "Are you going to the all-hands later?"
+      - "The all-hands was surprisingly short today."
+  related:
+    - word: "stand-up"
+      difference: "A 'stand-up' is a short, daily meeting for a small team, while an 'all-hands' is a much larger meeting for the entire company or a large department."
+    - word: "town hall"
+      difference: "'Town hall' and 'all-hands' are often used interchangeably. 'Town hall' can sometimes imply a greater focus on Q&A and open discussion."
+  story: |
+    During the weekly all-hands, the engineering lead announced a new bug bounty program to improve our application's security.
+
+- word: "brownbag session"
+  pronunciation: "/braʊn bæɡ ˈsɛʃən/"
+  part_of_speech: "noun"
+  meaning:
+    english: "An informal meeting or presentation that happens during lunchtime."
+    bahasa: "Sesi atau pertemuan informal yang diadakan saat makan siang."
+  usage: "Named after the brown paper bags people often use for their packed lunches. It's a casual way to share knowledge."
+  synonyms:
+    - "lunch and learn"
+    - "informal talk"
+  examples:
+    workplace:
+      - "I'm giving a brownbag session on Friday about the new JavaScript framework."
+      - "Are you attending the brownbag session about personal finance?"
+    casual:
+      - "The brownbag session was a great way to learn something new during my lunch break."
+      - "I learned how to bake bread at a brownbag session."
+  related:
+    - word: "workshop"
+      difference: "A 'workshop' is typically a more formal, hands-on, and longer session, while a 'brownbag session' is a short, informal presentation during lunch."
+    - word: "seminar"
+      difference: "A 'seminar' is usually more academic or formal than a 'brownbag session'."
+  story: |
+    Our team organized a brownbag session to share tips on how to be more productive. It was great to see everyone sharing their personal tricks and learning from each other in a relaxed setting.
