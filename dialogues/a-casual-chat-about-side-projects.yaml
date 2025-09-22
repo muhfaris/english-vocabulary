@@ -1,0 +1,74 @@
+dialogue:
+  - speaker: Ben
+    english: "Hey Alex, got a minute?"
+    bahasa: "Hai Alex, punya waktu sebentar?"
+  - speaker: Alex
+    english: "Sure, what's up?"
+    bahasa: "Tentu, ada apa?"
+  - speaker: Ben
+    english: "Just curious, do you work on any side projects outside of work?"
+    bahasa: "Hanya ingin tahu, apakah kamu mengerjakan proyek sampingan di luar pekerjaan?"
+  - speaker: Alex
+    english: "Yeah, I dabble a bit. I'm building a small app to track my reading habits. It's nothing fancy, just a fun way to practice a new framework."
+    bahasa: "Ya, aku sedikit mencoba-coba. Aku sedang membuat aplikasi kecil untuk melacak kebiasaan membacaku. Tidak ada yang istimewa, hanya cara yang menyenangkan untuk berlatih framework baru."
+  - speaker: Ben
+    english: "That's cool! I've been meaning to start something myself, but I never seem to find the time or energy."
+    bahasa: "Keren! Aku sudah lama ingin memulai sesuatu sendiri, tapi sepertinya tidak pernah punya waktu atau energi."
+  - speaker: Alex
+    english: "I get that. I usually just chip away at it on weekends, an hour here and there. It's a marathon, not a sprint."
+    bahasa: "Aku mengerti. Aku biasanya mengerjakannya sedikit demi sedikit di akhir pekan, satu jam di sana-sini. Ini maraton, bukan lari cepat."
+  - speaker: Ben
+    english: "Good point. What framework are you using?"
+    bahasa: "Poin yang bagus. Framework apa yang kamu gunakan?"
+  - speaker: Alex
+    english: "I'm giving Svelte a try. It's been a breath of fresh air compared to what we use here."
+    bahasa: "Aku sedang mencoba Svelte. Rasanya seperti angin segar dibandingkan dengan apa yang kita gunakan di sini."
+  - speaker: Ben
+    english: "Oh, I've heard good things about Svelte. They say it's really lightweight."
+    bahasa: "Oh, aku pernah mendengar hal-hal baik tentang Svelte. Katanya sangat ringan."
+  - speaker: Alex
+    english: "It is. The learning curve is pretty gentle too. You should give it a shot for your next project."
+    bahasa: "Betul. Kurva belajarnya juga cukup landai. Kamu harus mencobanya untuk proyekmu berikutnya."
+  - speaker: Ben
+    english: "Maybe I will. Thanks for the tip! It's inspiring to hear you're keeping your skills sharp."
+    bahasa: "Mungkin akan kucoba. Terima kasih atas sarannya! Sangat menginspirasi mendengar kamu terus mengasah kemampuanmu."
+  - speaker: Alex
+    english: "No problem! It helps break the monotony, you know?"
+    bahasa: "Sama-sama! Ini membantu memecah kebosanan, tahu kan?"
+
+expressions:
+  - phrase: "Got a minute?"
+    meaning_english: "A common way to ask if someone has a short amount of time to talk."
+    meaning_bahasa: "Punya waktu sebentar?"
+  - phrase: "Dabble a bit"
+    meaning_english: "To do something in a superficial or non-serious way."
+    meaning_bahasa: "Mencoba-coba sedikit."
+  - phrase: "Nothing fancy"
+    meaning_english: "Simple or not elaborate."
+    meaning_bahasa: "Tidak ada yang istimewa."
+  - phrase: "Chip away at it"
+    meaning_english: "To work on something slowly and persistently."
+    meaning_bahasa: "Mengerjakannya sedikit demi sedikit."
+  - phrase: "A marathon, not a sprint"
+    meaning_english: "A reminder that some goals require long-term, sustained effort rather than a short burst of intense work."
+    meaning_bahasa: "Ini maraton, bukan lari cepat."
+  - phrase: "A breath of fresh air"
+    meaning_english: "Something that is new, different, and refreshing."
+    meaning_bahasa: "Sesuatu yang baru dan menyegarkan."
+  - phrase: "Give it a shot"
+    meaning_english: "To try something."
+    meaning_bahasa: "Mencobanya."
+  - phrase: "Keeping your skills sharp"
+    meaning_english: "To continue to practice and improve your abilities."
+    meaning_bahasa: "Menjaga agar kemampuan tetap terasah."
+  - phrase: "Break the monotony"
+    meaning_english: "To do something different to make life less boring."
+    meaning_bahasa: "Memecah kebosanan."
+
+questions:
+  - q: "What is Alex's side project about?"
+    a: "Alex is building a small application to track his reading habits."
+  - q: "Why does Alex work on a side project?"
+    a: "He uses it as a fun way to practice a new framework and to break the monotony of work."
+  - q: "What advice does Alex give to Ben?"
+    a: "He suggests that Ben should treat his side project like a marathon, not a sprint, and recommends trying the Svelte framework."
