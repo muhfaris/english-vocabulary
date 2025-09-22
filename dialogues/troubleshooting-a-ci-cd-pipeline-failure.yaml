@@ -1,0 +1,62 @@
+dialogue:
+  - speaker: Alex
+    english: "Hey Ben, got a minute? The build is red on the main branch."
+    bahasa: "Hai Ben, ada waktu sebentar? Build di branch utama merah."
+  - speaker: Ben
+    english: "Oh really? I just merged my PR. Let me check. I'm on it."
+    bahasa: "Oh ya? Aku baru saja merge PR-ku. Coba aku cek. Aku sedang menanganinya."
+  - speaker: Alex
+    english: "Thanks. I'm looking at the pipeline now. It seems to be failing at the dependency installation step."
+    bahasa: "Makasih. Aku sedang melihat pipeline-nya sekarang. Sepertinya gagal di langkah instalasi dependensi."
+  - speaker: Ben
+    english: "Yeah, I see it too. Let's dig into the logs. Hmm, it says 'unresolved dependency: left-pad'."
+    bahasa: "Ya, aku juga lihat. Mari kita gali log-nya. Hmm, tertulis 'dependensi tidak teratasi: left-pad'."
+  - speaker: Alex
+    english: "That's weird. I thought we had that package. Did you add or update any dependencies in your PR?"
+    bahasa: "Aneh sekali. Kupikir kita punya paket itu. Apa kamu menambah atau memperbarui dependensi di PR-mu?"
+  - speaker: Ben
+    english: "I updated a couple of libraries, but I didn't touch that one. Maybe one of the updated libraries has a new dependency that's causing a conflict."
+    bahasa: "Aku memperbarui beberapa library, tapi aku tidak menyentuh yang itu. Mungkin salah satu library yang diperbarui punya dependensi baru yang menyebabkan konflik."
+  - speaker: Alex
+    english: "Good point. Let's check the lock file from your branch."
+    bahasa: "Poin bagus. Coba kita periksa lock file dari branch-mu."
+  - speaker: Ben
+    english: "Okay, I'm comparing it with the main branch's lock file now... Ah, I see the problem. A sub-dependency version mismatch."
+    bahasa: "Oke, aku sedang membandingkannya dengan lock file di branch utama sekarang... Ah, aku lihat masalahnya. Versi sub-dependensi tidak cocok."
+  - speaker: Alex
+    english: "So what's the fix? Should we pin the version of that sub-dependency?"
+    bahasa: "Jadi apa perbaikannya? Haruskah kita pin versi sub-dependensi itu?"
+  - speaker: Ben
+    english: "Exactly. I'll create a new PR to pin the version. That should resolve the conflict and make the build green again."
+    bahasa: "Tepat sekali. Aku akan buat PR baru untuk pin versinya. Itu seharusnya menyelesaikan konflik dan membuat build hijau lagi."
+  - speaker: Alex
+    english: "Sounds like a plan. Let me know if you need a review. I'll give it a shot."
+    bahasa: "Terdengar bagus. Beri tahu aku jika kamu butuh review. Akan kucoba."
+  - speaker: Ben
+    english: "Will do. Thanks for the second pair of eyes!"
+    bahasa: "Pasti. Terima kasih untuk bantuanmu!"
+
+expressions:
+  - phrase: The build is red
+    meaning_english: "The continuous integration (CI) build has failed."
+    meaning_bahasa: "Build continuous integration (CI) gagal."
+  - phrase: to be on it
+    meaning_english: "To be actively working on solving a problem."
+    meaning_bahasa: "Sedang aktif mengerjakan solusi suatu masalah."
+  - phrase: dig into the logs
+    meaning_english: "To examine the detailed output logs to find the cause of a problem."
+    meaning_bahasa: "Memeriksa log output yang detail untuk menemukan penyebab masalah."
+  - phrase: pin the version
+    meaning_english: "To specify an exact version number for a dependency, preventing automatic updates to newer versions."
+    meaning_bahasa: "Menentukan nomor versi yang pasti untuk sebuah dependensi, mencegah pembaruan otomatis ke versi yang lebih baru."
+  - phrase: give it a shot
+    meaning_english: "To try something."
+    meaning_bahasa: "Mencoba sesuatu."
+
+questions:
+  - q: "What does it mean when 'the build is red'?"
+    a: "It means the automated continuous integration (CI) process has failed, indicating a problem with the code that needs to be fixed."
+  - q: "What was the root cause of the pipeline failure?"
+    a: "A sub-dependency version mismatch caused by an updated library in Ben's recent pull request."
+  - q: "How did they plan to solve the problem?"
+    a: "They planned to create a new pull request to 'pin' the version of the problematic sub-dependency, which would resolve the conflict."
