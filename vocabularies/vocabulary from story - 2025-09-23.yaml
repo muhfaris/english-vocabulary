@@ -1,0 +1,147 @@
+- word: "imposter syndrome"
+  pronunciation: "/ɪmˈpɒstər ˈsɪndroʊm/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A psychological pattern in which an individual doubts their skills, talents, or accomplishments and has a persistent internalized fear of being exposed as a 'fraud'."
+    bahasa: "Sebuah pola psikologis di mana seseorang meragukan keterampilan, bakat, atau pencapaian mereka dan memiliki ketakutan internal yang terus-menerus untuk diekspos sebagai 'penipu'."
+  usage: "Use this phrase to describe the feeling of being inadequate or a fraud, despite evidence of success. It's very common among high-achievers, especially in fields like software engineering."
+  synonyms:
+    - "fraud syndrome"
+    - "perfectionism"
+  examples:
+    workplace:
+      - "Even after getting a promotion, she still struggles with imposter syndrome."
+      - "It's normal to feel some imposter syndrome when joining a new team of experienced engineers."
+    casual:
+      - "He's a brilliant artist, but he has a bad case of imposter syndrome."
+      - "Talking about my imposter syndrome with friends really helped me feel less alone."
+  related:
+    - word: "self-doubt"
+      difference: "'Self-doubt' is a general lack of confidence in oneself, while 'imposter syndrome' is more specific: it's the feeling that you are a fraud and your success is undeserved, often in a professional setting."
+    - word: "burnout"
+      difference: "'Burnout' is a state of emotional, physical, and mental exhaustion caused by excessive and prolonged stress. While 'imposter syndrome' can contribute to burnout, they are different concepts."
+  story: |
+    As a junior developer on a team of seniors, I constantly battled imposter syndrome. I was convinced that I didn't belong and that any day, someone would discover I wasn't as smart as they thought. My mentor helped me realize that most engineers feel this way at some point. He encouraged me to focus on my progress and celebrate small wins, which slowly helped me build real confidence.
+- word: "work-life balance"
+  pronunciation: "/wɜːrk laɪf ˈbæləns/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "The state of equilibrium where a person equally prioritizes the demands of their career and the demands of their personal life."
+    bahasa: "Keseimbangan antara kehidupan kerja dan kehidupan pribadi."
+  usage: "Use this phrase to talk about the division of one's time and focus between working and personal activities. A good work-life balance is crucial for long-term well-being."
+  synonyms:
+    - "healthy routine"
+    - "equilibrium"
+  examples:
+    workplace:
+      - "Our company offers flexible hours to promote a better work-life balance."
+      - "I'm looking for a job that values work-life balance."
+    casual:
+      - "Since I started my new hobby, my work-life balance has improved a lot."
+      - "He quit his job because the long hours were destroying his work-life balance."
+  related:
+    - word: "burnout"
+      difference: "'Burnout' is often a consequence of a poor 'work-life balance', where work consistently outweighs personal life, leading to exhaustion."
+    - word: "unplug"
+      difference: "To 'unplug' is an action one can take to improve 'work-life balance'. It means disconnecting from work-related technology and thoughts."
+  story: |
+    For years, I neglected my work-life balance, often working late and checking emails on weekends. I thought it was the only way to get ahead. But eventually, I felt exhausted and disconnected from my family and hobbies. I made a conscious decision to change. Now, I have a strict rule: no work after 6 PM. My productivity has actually improved, and I'm much happier.
+- word: "unplug"
+  pronunciation: "/ʌnˈplʌɡ/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To disconnect from electronic devices and digital communication, especially to relax and reduce stress."
+    bahasa: "Memutuskan hubungan dari perangkat elektronik dan komunikasi digital, terutama untuk bersantai dan mengurangi stres."
+  usage: "Use this verb to describe the act of intentionally stepping away from screens, notifications, and work-related thoughts. It's often used in the context of vacation or personal time."
+  synonyms:
+    - "disconnect"
+    - "detox"
+    - "switch off"
+  examples:
+    workplace:
+      - "It's important to fully unplug during your vacation to avoid burnout."
+      - "My manager encourages us to unplug after work hours."
+    casual:
+      - "I'm going camping this weekend to completely unplug from everything."
+      - "Sometimes you just need to unplug and read a book."
+  related:
+    - word: "work-life balance"
+      difference: "'Unplugging' is a specific action that helps achieve a better 'work-life balance'."
+    - word: "digital detox"
+      difference: "A 'digital detox' is a period of time during which a person refrains from using electronic devices. 'Unplugging' is the action of starting that detox, and can also be used more generally."
+  story: |
+    After a stressful project launch, I knew I needed to unplug. I booked a weekend trip to a cabin in the mountains with no internet or cell service. The first few hours were strange; I kept reaching for my phone out of habit. But soon, I started to relax and enjoy the peace and quiet. It was amazing how much more refreshed I felt after just two days of being fully disconnected.
+- word: "take a breather"
+  pronunciation: "/teɪk ə ˈbriːðər/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To take a short break from an activity in order to rest or relax."
+    bahasa: "Mengambil istirahat sejenak dari suatu kegiatan untuk beristirahat atau bersantai."
+  usage: "Use this informal phrase to suggest a brief pause from work or a difficult task. It implies that the break is temporary and the activity will be resumed shortly."
+  synonyms:
+    - "take a break"
+    - "rest"
+    - "pause"
+  examples:
+    workplace:
+      - "I've been staring at this code for hours. I need to take a breather."
+      - "Let's take a breather from this meeting and get some coffee."
+    casual:
+      - "We've been hiking for three hours. Let's take a breather by the river."
+      - "He decided to take a breather from social media for a week."
+  related:
+    - word: "pause"
+      difference: "'Pause' is a more general and slightly more formal term for stopping an activity temporarily. 'Take a breather' is more informal and emphasizes the aspect of resting or relaxing."
+    - word: "unplug"
+      difference: "'To take a breather' is usually a short break (minutes or hours), while 'to unplug' often implies a longer disconnection (a weekend or vacation)."
+  story: |
+    We were in a heated debate during the design review. Tempers were starting to flare, and we weren't making any progress. The team lead calmly said, 'Okay, everyone, let's take a breather. Let's grab some water, walk around for 15 minutes, and come back with a fresh perspective.' It was exactly what we needed. When we regrouped, the tension was gone, and we found a solution quickly.
+- word: "ergonomics"
+  pronunciation: "/ˌɜːrɡəˈnɒmɪks/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The study of people's efficiency in their working environment. It involves designing or arranging workplaces, products, and systems so that they fit the people who use them."
+    bahasa: "Studi tentang efisiensi orang di lingkungan kerja mereka. Ini melibatkan perancangan atau penataan tempat kerja, produk, dan sistem agar sesuai dengan orang yang menggunakannya."
+  usage: "Use this noun to talk about the science of comfortable and efficient workplace design. It's often associated with chairs, desks, keyboards, and monitor placement."
+  synonyms:
+    - "human factors"
+    - "workplace design"
+  examples:
+    workplace:
+      - "The company invested in new chairs to improve office ergonomics."
+      - "Good ergonomics can help prevent repetitive strain injury (RSI)."
+    casual:
+      - "The ergonomics of this gaming mouse are amazing; it's so comfortable."
+      - "He's really into the ergonomics of his kitchen setup."
+  related:
+    - word: "desk setup"
+      difference: "'Ergonomics' is the scientific discipline, while a 'desk setup' is the physical arrangement of a desk, which can be designed with good or bad ergonomics."
+    - word: "RSI (Repetitive Strain Injury)"
+      difference: "RSI is a medical condition that can be caused by poor 'ergonomics'."
+  story: |
+    For months, I was experiencing wrist pain after long coding sessions. I thought it was just part of the job. A colleague suggested I look into my desk's ergonomics. I realized my keyboard was too high and my monitor was too low. After making a few adjustments—getting a wrist rest and a monitor stand—the pain disappeared within a week. It taught me that good ergonomics isn't a luxury; it's a necessity for a long career in tech.
+- word: "desk setup"
+  pronunciation: "/dɛsk ˈsɛtʌp/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "The arrangement of equipment and furniture on and around a person's desk, including their computer, monitor, keyboard, chair, and lighting."
+    bahasa: "Penataan peralatan dan perabotan di dan di sekitar meja seseorang, termasuk komputer, monitor, keyboard, kursi, dan pencahayaan."
+  usage: "Use this phrase to refer to someone's personal workspace configuration. It's a very common topic among software engineers and remote workers."
+  synonyms:
+    - "workstation"
+    - "workspace"
+    - "battle-station" (informal)
+  examples:
+    workplace:
+      - "He has a great desk setup with a mechanical keyboard and an ultrawide monitor."
+      - "Our company provides a budget for employees to improve their home office desk setup."
+    casual:
+      - "I spent the weekend cleaning up and reorganizing my desk setup."
+      - "Can you show me a picture of your desk setup? I need some inspiration."
+  related:
+    - word: "ergonomics"
+      difference: "A 'desk setup' is the physical arrangement. 'Ergonomics' is the science of making that setup efficient and comfortable."
+    - word: "workstation"
+      difference: "'Workstation' is a more formal term that often refers to a powerful computer, but it can also be used synonymously with 'desk setup'."
+  story: |
+    When I first started working from home, my desk setup was terrible. I was using a small laptop on my kitchen table, and my back was always sore. After a few months, I decided to invest in a proper desk setup. I got a large monitor, an ergonomic chair, and a good keyboard. It completely transformed my workday. Having a dedicated and comfortable space made me more productive and much happier.
