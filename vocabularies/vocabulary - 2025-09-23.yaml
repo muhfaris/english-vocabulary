@@ -1,0 +1,249 @@
+- word: "Once-over"
+  pronunciation: "/ˈwʌnsˌoʊvər/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A quick look, inspection, or review of something."
+    bahasa: "Pemeriksaan atau tinjauan singkat terhadap sesuatu."
+  usage: "Use this when you're talking about doing a quick, informal review of code, a document, or a design before passing it on. It implies it’s not a deep, thorough analysis."
+  synonyms:
+    - "Quick look"
+    - "Brief inspection"
+  examples:
+    workplace:
+      - "Can you give my pull request a quick once-over before I merge it?"
+      - "I did a once-over of the design mockups, and they look good to go."
+    casual:
+      - "I gave the apartment a once-over to make sure I didn't forget anything."
+      - "She gave her reflection a final once-over before leaving the house."
+  related:
+    - word: "Code review"
+      difference: "'Code review' is a formal, in-depth process of examining code for correctness, style, and potential bugs. A 'once-over' is much more informal and faster."
+    - word: "Sanity check"
+      difference: "A 'sanity check' is a quick test to see if something is reasonable or makes sense. A 'once-over' is a quick review of the whole thing, not just a check for reasonableness."
+  story: |
+    Before the big demo, Sarah asked her colleague, Tom, "Hey, can you give my presentation slides a once-over? I just want to make sure there are no obvious typos or formatting issues." Tom spent five minutes clicking through the slides. "Looks solid," he said. "The flow is good, and I didn't spot any mistakes. You're ready." That quick once-over gave Sarah the confidence boost she needed.
+
+- word: "Fallback"
+  pronunciation: "/ˈfɔːlˌbæk/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A backup plan, option, or mechanism that can be used if the primary one fails."
+    bahasa: "Rencana, opsi, atau mekanisme cadangan yang dapat digunakan jika yang utama gagal."
+  usage: "In engineering, this is crucial. You use it when discussing what should happen if a new feature has a bug, a service goes down, or a network request fails. It's all about planning for failure."
+  synonyms:
+    - "Contingency"
+    - "Backup"
+  examples:
+    workplace:
+      - "If the new API is unavailable, the system has a fallback to use the old one."
+      - "We need a fallback strategy for the deployment in case the automated script fails."
+    casual:
+      - "My main plan is to go to the beach, but my fallback is to watch a movie if it rains."
+      - "He didn't get into his first-choice university, so he had to go with his fallback option."
+  related:
+    - word: "Workaround"
+      difference: "A 'fallback' is a pre-planned alternative. A 'workaround' is an improvised solution to bypass an unexpected problem."
+    - word: "Rollback"
+      difference: "A 'rollback' is the action of reverting to a previous state after a failure. A 'fallback' is the alternative system that takes over during a failure."
+  story: |
+    The team was about to release a new, highly optimized image processing service. During the planning meeting, the lead engineer asked, "What's our fallback if this new service crashes?" The team decided that if the new service failed to respond within two seconds, the request would automatically be rerouted to the old, slower, but reliable service. This fallback mechanism ensured that users would still get their images processed, even if the new system had issues, preventing a complete outage.
+
+- word: "Asset"
+  pronunciation: "/ˈæsɛt/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A useful or valuable person or thing."
+    bahasa: "Orang atau benda yang berguna atau berharga."
+  usage: "Often used to describe a team member who is very skilled or helpful. It can also refer to a piece of code, a tool, or a document that is particularly valuable to the project."
+  synonyms:
+    - "Benefit"
+    - "Advantage"
+  examples:
+    workplace:
+      - "Her ability to debug complex issues quickly is a huge asset to our team."
+      - "The reusable component library has become a major asset for all our frontend projects."
+    casual:
+      - "His sense of humor is a real asset at parties."
+      - "A good education is a great asset in life."
+  related:
+    - word: "Resource"
+      difference: "A 'resource' is something you use to accomplish a task (e.g., a person, a server, a library). An 'asset' is a resource that is particularly valuable and provides a significant advantage."
+    - word: "Skill"
+      difference: "A 'skill' is an ability a person has. That skill can make the person an 'asset' to the team."
+  story: |
+    When Maria joined the backend team, she was quiet at first. But during a major incident, her deep knowledge of database management came to light. She quickly identified the bottleneck and proposed a solution that got the system back online in minutes. After that, her manager said in the team meeting, "Maria, your expertise is a massive asset to this company. We're lucky to have you."
+
+- word: "Looming"
+  pronunciation: "/ˈluːmɪŋ/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Appearing as a large, threatening, or imposing shape; something that is about to happen."
+    bahasa: "Tampak besar, mengancam, atau mengesankan; sesuatu yang akan segera terjadi."
+  usage: "Perfect for talking about deadlines or major releases that are getting closer and causing a bit of stress or pressure."
+  synonyms:
+    - "Impending"
+    - "Approaching"
+  examples:
+    workplace:
+      - "With the project deadline looming, the team had to work overtime."
+      - "The looming code freeze means we need to merge all our features by Friday."
+    casual:
+      - "She had a looming sense of dread about the upcoming exam."
+      - "The dark clouds were looming on the horizon."
+  related:
+    - word: "Upcoming"
+      difference: "'Upcoming' is neutral; it just means something is happening soon. 'Looming' has a negative or stressful connotation, suggesting something you're worried about."
+    - word: "Pending"
+      difference: "'Pending' means something is waiting to be completed or decided. 'Looming' refers to something in the near future that feels large and unavoidable."
+  story: |
+    It was the last week of the quarter, and the release deadline was looming. Everyone on the team felt the pressure. Desks were covered in empty coffee cups, and conversations were short and focused. "How are we doing on the performance optimizations?" the manager asked, his voice tense. "Almost there," replied the lead dev, "but with this deadline looming, we can't afford any more setbacks."
+
+- word: "Clutter"
+  pronunciation: "/ˈklʌtər/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A collection of things lying about in an untidy state; unnecessary elements that make something confusing."
+    bahasa: "Kumpulan barang yang berserakan dalam keadaan tidak rapi; elemen yang tidak perlu yang membuat sesuatu menjadi membingungkan."
+  usage: "Used to describe messy code, a confusing user interface, or even a disorganized project board. It refers to anything that makes it harder to see what's important."
+  synonyms:
+    - "Mess"
+    - "Disorder"
+  examples:
+    workplace:
+      - "The new UI design has too much clutter; we need to simplify it."
+      - "I spent the morning removing unnecessary comments and refactoring to reduce code clutter."
+    casual:
+      - "My desk is full of clutter; I need to clean it up."
+      - "I'm trying to reduce the clutter in my digital life by deleting old files."
+  related:
+    - word: "Boilerplate"
+      difference: "'Boilerplate' is standardized, repetitive code that is necessary but not unique. 'Clutter' is unnecessary code or elements that just add noise and confusion."
+    - word: "Legacy code"
+      difference: "'Legacy code' is old code that can be hard to work with. It might contain a lot of 'clutter', but not all clutter is from legacy code."
+  story: |
+    A new developer, Leo, was tasked with adding a feature to an old part of the application. When he opened the file, he was shocked. "Wow, look at all this code clutter," he said to his mentor. There were commented-out blocks of code everywhere, unused variables, and inconsistent formatting. "I know," his mentor replied with a sigh. "Your first task is to clean up this clutter. We can't build anything new on such a messy foundation."
+
+- word: "Toggle"
+  pronunciation: "/ˈtɑːɡəl/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To switch between two states or options, like on and off."
+    bahasa: "Beralih di antara dua keadaan atau opsi, seperti hidup dan mati."
+  usage: "Commonly used when talking about user interface elements (like a switch or a button) or feature flags that can be turned on or off."
+  synonyms:
+    - "Switch"
+    - "Alternate"
+  examples:
+    workplace:
+      - "You can toggle the dark mode setting in your user profile."
+      - "We're putting the new feature behind a feature flag so we can toggle it on for testing."
+    casual:
+      - "Just toggle the switch to turn on the lamp."
+      - "He kept toggling between the two TV channels."
+  related:
+    - word: "Enable/Disable"
+      difference: "'Enable/Disable' is a one-way action. You enable something, or you disable it. 'Toggle' implies switching back and forth between two states with the same action."
+    - word: "Feature flag"
+      difference: "A 'feature flag' (or feature toggle) is the mechanism in the code that allows you to 'toggle' a feature on or off."
+  story: |
+    The team was testing a new, experimental search algorithm. Instead of deploying it to all users at once, they used a feature flag. "Okay," the product manager said, "let's toggle it on for 10% of our users and monitor the performance." The engineer went to the dashboard and flipped the virtual switch. "The toggle is on," she confirmed. "We're now collecting data on the new algorithm."
+
+- word: "Verbose"
+  pronunciation: "/vərˈboʊs/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Using or containing more words than are needed."
+    bahasa: "Menggunakan atau mengandung lebih banyak kata dari yang dibutuhkan."
+  usage: "Often used to describe logging output. 'Verbose logging' provides a lot of detailed information, which is useful for debugging but can be overwhelming in normal operation."
+  synonyms:
+    - "Wordy"
+    - "Talkative"
+  examples:
+    workplace:
+      - "The error logs are too verbose; it's hard to find the actual error message."
+      - "Can you add a '--verbose' flag to the script to print out all the steps?"
+    casual:
+      - "His explanation was so verbose that I lost interest."
+      - "She's a verbose writer, often using ten words when three would do."
+  related:
+    - word: "Concise"
+      difference: "'Concise' is the opposite of 'verbose'. It means giving a lot of information clearly and in a few words."
+    - word: "Detailed"
+      difference: "'Detailed' means having many small parts or facts. It can be a good thing. 'Verbose' has a negative connotation, implying it's detailed to the point of being excessive or difficult to understand."
+  story: |
+    An application was crashing intermittently, and the standard logs weren't showing why. "I can't figure it out," Ken said, frustrated. "The logs are too clean." His senior colleague suggested, "Let's enable verbose logging for that service. It will generate a ton of data, but the details we need are probably in there." They turned it on, and within an hour, the crash happened again. Buried in the thousands of lines of the verbose log was the one error message that pointed them to the root cause.
+
+- word: "Hand-holding"
+  pronunciation: "/ˈhændˌhoʊldɪŋ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "Providing a lot of help, guidance, or support to someone, as if they are a child."
+    bahasa: "Memberikan banyak bantuan atau bimbingan kepada seseorang, seolah-olah mereka anak kecil."
+  usage: "Used to describe a situation where a new team member needs a lot of guidance, or when a process is so well-documented and automated that it requires very little thought from the user. It can have a slightly negative tone, implying someone is too dependent."
+  synonyms:
+    - "Guidance"
+    - "Support"
+  examples:
+    workplace:
+      - "The new intern needs a lot of hand-holding, but he's learning quickly."
+      - "Our deployment pipeline is great; it's a lot of hand-holding, you just click a button and it does everything for you."
+    casual:
+      - "Learning to invest can be scary; I needed some hand-holding at first."
+      - "I don't like tours that involve too much hand-holding; I prefer to explore on my own."
+  related:
+    - word: "Mentoring"
+      difference: "'Mentoring' is about guiding someone's long-term growth and development. 'Hand-holding' is about providing step-by-step instructions for a specific, immediate task."
+    - word: "Onboarding"
+      difference: "'Onboarding' is the process of integrating a new employee. It often involves a period of 'hand-holding'."
+  story: |
+    The company just adopted a new internal tool. The documentation was sparse, and the UI was not intuitive. "This is going to require a lot of hand-holding," the team lead sighed. He scheduled several workshops and office hours to walk everyone through the new workflow. "I wish the tool was more self-explanatory," he thought, "but for now, some extra hand-holding is necessary to get everyone up to speed."
+
+- word: "Jitter"
+  pronunciation: "/ˈdʒɪtər/"
+  part_of_speech: "noun"
+  meaning:
+    english: "Slight, rapid, and irregular variations in a signal or data stream, often causing shakiness or instability."
+    bahasa: "Variasi kecil, cepat, dan tidak teratur dalam sinyal atau aliran data, sering menyebabkan guncangan atau ketidakstabilan."
+  usage: "In tech, this refers to two main things: 1) Network jitter, which is the variation in the delay of received packets, affecting video calls and online games. 2) UI jitter, where elements on a screen shake or move erratically during an animation or page load."
+  synonyms:
+    - "Shakiness"
+    - "Instability"
+  examples:
+    workplace:
+      - "The video quality is poor; there must be a lot of network jitter."
+      - "When you scroll the page, there's a noticeable jitter in the header animation."
+    casual:
+      - "I get the jitters before a public presentation."
+      - "The old projector had a constant jitter, making the movie hard to watch."
+  related:
+    - word: "Latency"
+      difference: "'Latency' is the time it takes for a packet to travel from source to destination (the delay). 'Jitter' is the *variation* in that delay over time."
+    - word: "Lag"
+      difference: "'Lag' is the noticeable delay between an action and its response, which can be caused by high latency or jitter."
+  story: |
+    The team was building a new real-time collaboration feature where users could see each other's mouse cursors move on the screen. During testing, they noticed that the cursors weren't moving smoothly; they were jumping around. "Look at that," the QA tester reported. "There's a lot of UI jitter. It feels very unstable." The engineers realized they were sending too many updates, flooding the network and causing inconsistent rendering times, which resulted in the jittery cursor movement.
+
+- word: "Pro-con"
+  pronunciation: "/ˌproʊˈkɑːn/"
+  part_of_speech: "noun"
+  meaning:
+    english: "An argument or consideration for (pro) or against (con) something."
+    bahasa: "Argumen atau pertimbangan yang mendukung (pro) atau menentang (kontra) sesuatu."
+  usage: "Used when making a decision. Teams often create a 'pro-con list' to analyze the advantages and disadvantages of choosing a particular technology, architecture, or strategy."
+  synonyms:
+    - "Pros and cons"
+    - "Advantages and disadvantages"
+  examples:
+    workplace:
+      - "We made a pro-con list to decide whether to build the tool in-house or buy a third-party solution."
+      - "Let's have a quick pro-con discussion about switching to the new database."
+    casual:
+      - "She wrote a pro-con list before deciding whether to accept the job offer."
+      - "What are the pros and cons of moving to a new city?"
+  related:
+    - word: "Trade-off"
+      difference: "A 'pro-con' analysis helps you identify the 'trade-offs'. A 'trade-off' is the act of accepting a disadvantage in one area to gain an advantage in another, which you decide based on the pros and cons."
+    - word: "Debate"
+      difference: "A 'debate' is a formal discussion or argument. A 'pro-con' analysis is a tool used to structure one's thoughts, often in preparation for a debate or decision."
+  story: |
+    The engineering team was debating whether to adopt a new JavaScript framework. The discussion was going in circles. Finally, the manager, Anna, stood up and went to the whiteboard. "Okay, let's stop talking and start listing. Let's do a proper pro-con analysis." She drew two columns. On one side, they listed the pros: better performance, stronger community support. On the other, the cons: steep learning curve, migration effort. Seeing the pro-con list laid out so clearly helped the team make a more rational and confident decision.
