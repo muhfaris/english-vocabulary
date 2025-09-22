@@ -71,3 +71,115 @@
       difference: "'Have a discussion' is a general term for talking about something. 'Jump on a call' specifies the medium (a call) and implies speed and spontaneity."
   story: |
     I was stuck on a bug for an hour, reading the same lines of code over and over. I finally sent a message to my colleague: 'Are you free to jump on a call for 5 minutes? I need a second pair of eyes on this.' We solved it together in no time.
+- word: "scalable"
+  pronunciation: "/ˈskeɪləbəl/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Able to be easily expanded or upgraded on demand."
+    bahasa: "Dapat diskalakan, dapat diperluas"
+  usage: "Used to describe a system, model, or function that can handle growing amounts of work or has the potential to be enlarged to accommodate that growth."
+  synonyms:
+    - "expandable"
+    - "flexible"
+  examples:
+    workplace:
+      - "We need to build a scalable architecture to support our growing user base."
+      - "Is this new database solution scalable enough for our future needs?"
+    casual:
+      - "Her home business is surprisingly scalable; she can easily handle more orders."
+      - "This modular shelving system is scalable, so you can add more units later."
+  related:
+    - word: "robust"
+      difference: "'Scalable' refers to the ability to handle more load, while 'robust' refers to being strong and resilient against errors or failures."
+  story: |
+    When we designed our new microservice, we spent extra time making sure it was highly scalable. We anticipated a huge influx of users after the marketing campaign, and we couldn't afford any downtime. The design allowed us to add more server instances automatically as traffic increased. On launch day, the system scaled perfectly without any manual intervention.
+- word: "gold plating"
+  pronunciation: "/ɡoʊld ˈpleɪtɪŋ/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "Adding unnecessary features or enhancements to a product that are not requested by the client and often increase complexity and cost."
+    bahasa: "Menambahkan fitur berlebihan (yang tidak perlu)"
+  usage: "Used in project management to describe when a developer adds extra, unrequested features, thinking it will add value, but it often just adds complexity and risk."
+  synonyms:
+    - "over-engineering"
+    - "feature creep"
+  related:
+    - word: "scope creep"
+      difference: "'Gold plating' is usually done by the team without a request, while 'scope creep' refers to uncontrolled changes or continuous growth in a project's scope, often from stakeholder requests."
+  examples:
+    workplace:
+      - "The project manager warned the team to avoid gold plating and stick to the core requirements."
+      - "That fancy animation is a classic case of gold plating; it looks nice but doesn't add real value."
+    casual:
+      - "He was just supposed to fix the fence, but he started gold plating it with fancy carvings."
+      - "I asked for a simple website, but the designer's gold plating made it slow and complicated."
+  story: |
+    During a project review, we noticed a developer had spent two weeks adding a complex theme engine to a simple internal tool. It was a classic example of gold plating. The feature wasn't in the requirements, and it delayed the project. We had to explain that while the initiative was appreciated, we needed to focus on the core functionality first.
+- word: "judicious"
+  pronunciation: "/dʒuˈdɪʃəs/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Having, showing, or done with good judgment or sense."
+    bahasa: "Bijaksana, arif"
+  usage: "Used to describe a decision or action that is wise, sensible, and well-thought-out, especially in a difficult situation."
+  synonyms:
+    - "wise"
+    - "prudent"
+    - "sensible"
+  examples:
+    workplace:
+      - "We need to be judicious about which features we include in the first release."
+      - "Her judicious use of resources helped the team finish the project under budget."
+    casual:
+      - "He made a judicious choice to save his money instead of buying the expensive gadget."
+      - "A judicious amount of salt is all the recipe needs."
+  related:
+    - word: "pragmatic"
+      difference: "'Judicious' implies wisdom and good judgment, while 'pragmatic' focuses on a practical, realistic approach rather than a theoretical one."
+  story: |
+    The team was running out of time before the deadline. Instead of trying to finish every task, the team lead made a judicious decision to focus only on the critical bug fixes. This ensured the most important issues were resolved, leading to a stable, if not feature-complete, release. Her wise choice prevented a lot of stress and potential problems.
+- word: "scope bloat"
+  pronunciation: "/skoʊp bloʊt/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "The significant and uncontrolled expansion of a project's original goals and deliverables."
+    bahasa: "Penggembungan lingkup (proyek)"
+  usage: "A more informal or stronger term for scope creep, often implying that the added scope is excessive and harmful to the project's timeline or budget."
+  synonyms:
+    - "scope creep"
+    - "feature creep"
+  related:
+    - word: "scope creep"
+      difference: "'Scope bloat' is often used to describe a more severe or unmanageable level of 'scope creep'. 'Creep' suggests a gradual increase, while 'bloat' suggests an excessive, unhealthy expansion."
+  examples:
+    workplace:
+      - "We need a clear project plan to prevent scope bloat from derailing our timeline."
+      - "The project failed due to massive scope bloat; we tried to build too much at once."
+    casual:
+      - "My plan to clean the garage suffered from scope bloat; now I'm trying to remodel the whole house."
+      - "What started as a simple dinner plan has experienced scope bloat and is now a huge party."
+  story: |
+    Our initial goal was to build a simple reporting dashboard. But with every meeting, new requests were added. First, it was custom exports, then real-time data, then predictive analytics. Soon, we were suffering from serious scope bloat. The project was twice as complex and months behind schedule. We had to call an emergency meeting to reset expectations and trim the scope back to something manageable.
+- word: "empowerment"
+  pronunciation: "/ɪmˈpaʊərmənt/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The process of giving someone the authority or power to do something; making someone stronger and more confident."
+    bahasa: "Pemberdayaan"
+  usage: "In a workplace context, it refers to giving employees the autonomy, trust, and resources to make decisions and take ownership of their work."
+  synonyms:
+    - "autonomy"
+    - "delegation"
+    - "enablement"
+  examples:
+    workplace:
+      - "Our manager fosters a culture of empowerment by trusting us to lead our own projects."
+      - "Developer empowerment is key to our team's high morale and productivity."
+    casual:
+      - "Volunteering at the shelter gave her a great sense of empowerment."
+      - "Education is a powerful tool for personal empowerment."
+  related:
+    - word: "autonomy"
+      difference: "'Empowerment' is the process of giving power or authority to someone, while 'autonomy' is the state of having the freedom and independence to act and make decisions."
+  story: |
+    At my new job, there's a strong culture of empowerment. Instead of being assigned small, specific tasks, engineers are given ownership of entire features. We have the authority to make key architectural decisions and are trusted to deliver results. This level of responsibility was intimidating at first, but now it's incredibly motivating. It makes me feel like my contributions truly matter.
