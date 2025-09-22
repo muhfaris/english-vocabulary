@@ -1,0 +1,11 @@
+story:
+  title: "new-sprint-new-feature"
+  date: "2025-09-22"
+  text: |
+    Monday’s stand-up was buzzing. We were about to kick off a new feature sprint. My task: a new notification system. I started with a proof of concept (POC) to ensure the technical approach was viable. The design had to be **scalable** to handle future growth. The PM stressed avoiding **gold plating** and feature creep. This required **judicious** planning to prevent **scope bloat**. We needed a robust, not over-engineered, system. The goal was to get a working version out for feedback. I felt a sense of **empowerment**, having clear direction and the autonomy to design the core logic. It was going to be a challenging but rewarding week.
+  highlighted_words:
+    - "scalable"
+    - "gold plating"
+    - "judicious"
+    - "scope bloat"
+    - "empowerment"
