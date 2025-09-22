@@ -23,3 +23,51 @@
       difference: "A 'code smell' is a surface indication that usually corresponds to a deeper problem in the system. The process of 'refactoring' is often done to remove code smells."
   story: |
     Our application's performance had been slowly degrading. During a team meeting, we decided that a major refactoring of the data processing pipeline was necessary. It was a daunting task that would take weeks, but we knew it was essential. We started by identifying the key bottlenecks and planning the changes. The refactoring process was challenging, but as we progressed, we could see the improvements. The code became cleaner, more efficient, and much easier to work with. When we finally deployed the changes, the performance improvement was significant.
+- word: "crisis"
+  pronunciation: "/ˈkraɪ.sɪs/"
+  part_of_speech: "noun"
+  meaning:
+    english: "a time of intense difficulty, trouble, or danger."
+    bahasa: "krisis; masa sulit atau berbahaya."
+  usage: "Use this word to describe a situation that has reached a critical and unstable point, requiring immediate action."
+  synonyms:
+    - "emergency"
+    - "disaster"
+  examples:
+    workplace:
+      - "The data breach created a major crisis for the company."
+      - "Her calm leadership helped the team navigate the crisis."
+    casual:
+      - "He's having a personal crisis and needs our support."
+      - "The stock market is facing a severe crisis."
+  related:
+    - word: "issue"
+      difference: "'Issue' is a general problem, while a 'crisis' is a much more severe and urgent problem that threatens stability."
+    - word: "problem"
+      difference: "A 'problem' is something that needs to be solved, but a 'crisis' is a critical problem that has escalated to a dangerous level."
+  story: |
+    The entire system went down during peak hours. It was a full-blown crisis. We had to assemble an emergency team to get the servers back online and manage customer communication.
+- word: "jump on a call"
+  pronunciation: "/dʒʌmp ɒn ə kɔːl/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "to quickly start or join a telephone or video conversation, often spontaneously."
+    bahasa: "segera memulai atau bergabung dalam panggilan telepon atau video."
+  usage: "Use this phrase for quickly initiating a conversation to resolve an issue, rather than scheduling a formal meeting."
+  synonyms:
+    - "hop on a call"
+    - "start a meeting"
+  examples:
+    workplace:
+      - "Instead of emailing back and forth, let's just jump on a call to sort this out."
+      - "I need to jump on a call with the support team to understand the user's problem."
+    casual:
+      - "Can you jump on a call with me? I need help with my new phone."
+      - "We decided to jump on a call to plan our weekend trip."
+  related:
+    - word: "schedule a meeting"
+      difference: "'Schedule a meeting' is a formal process of planning a conversation in advance. 'Jump on a call' is informal and immediate."
+    - word: "have a discussion"
+      difference: "'Have a discussion' is a general term for talking about something. 'Jump on a call' specifies the medium (a call) and implies speed and spontaneity."
+  story: |
+    I was stuck on a bug for an hour, reading the same lines of code over and over. I finally sent a message to my colleague: 'Are you free to jump on a call for 5 minutes? I need a second pair of eyes on this.' We solved it together in no time.

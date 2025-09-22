@@ -1,0 +1,18 @@
+story:
+  title: "a-last-minute-hotfix"
+  date: "2025-09-22"
+  text: |
+    It was 4:45 PM on a Friday, and I was just about to close my laptop when a **critical** bug report came in. It was a **blocker** for our latest feature, and the **deadline** for the release was Monday. My teammate, David, and I decided to **jump on a call** to **align** on a plan. After a quick **code review** of the recent changes, we found the issue. It was a small mistake, but it had a big impact. We decided a **hotfix** was necessary. While David prepared the fix, I prepared the **deployment** script. An hour later, the fix was tested and ready to **merge**. Thanks to our quick **teamwork**, the **crisis** was averted. It was a reminder of how things can change so quickly in the world of software development. Our daily **stand-up** on Monday would be interesting.
+  highlighted_words:
+    - "critical"
+    - "blocker"
+    - "deadline"
+    - "jump on a call"
+    - "align"
+    - "code review"
+    - "hotfix"
+    - "deployment"
+    - "merge"
+    - "teamwork"
+    - "crisis"
+    - "stand-up"
