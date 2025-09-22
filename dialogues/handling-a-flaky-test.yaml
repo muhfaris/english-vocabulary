@@ -1,0 +1,72 @@
+dialogue:
+  - speaker: Sarah
+    english: "Hey Tom, got a minute? I'm having trouble with the CI pipeline."
+    bahasa: "Hai Tom, ada waktu sebentar? Aku ada masalah dengan CI pipeline."
+  - speaker: Tom
+    english: "Sure, what's up?"
+    bahasa: "Tentu, ada apa?"
+  - speaker: Sarah
+    english: "The UI tests are failing, but only sometimes. I think we have a flaky test on our hands."
+    bahasa: "Tes UI-nya gagal, tapi hanya kadang-kadang. Sepertinya kita punya tes yang tidak stabil."
+  - speaker: Tom
+    english: "Ah, the dreaded flaky tests. Which one is it?"
+    bahasa: "Ah, tes yang tidak stabil yang ditakuti itu. Yang mana?"
+  - speaker: Sarah
+    english: "It's the test_user_login_flow. It passes on my local machine every time, but on the CI server, it fails about half the time."
+    bahasa: "Yang test_user_login_flow. Di mesin lokalku selalu berhasil, tapi di server CI, sekitar separuh waktu gagal."
+  - speaker: Tom
+    english: "I've seen that before. It's probably a race condition. The test might be trying to assert something before the UI has fully updated."
+    bahasa: "Aku pernah melihat itu sebelumnya. Kemungkinan itu adalah race condition. Tesnya mungkin mencoba menegaskan sesuatu sebelum UI-nya sepenuhnya diperbarui."
+  - speaker: Sarah
+    english: "That makes sense. So, should I just add a sleep to the test?"
+    bahasa: "Masuk akal. Jadi, haruskah aku menambahkan sleep saja ke tesnya?"
+  - speaker: Tom
+    english: "That's a quick fix, but it's not ideal. It can slow down the whole test suite. A better approach would be to use an explicit wait."
+    bahasa: "Itu perbaikan cepat, tapi tidak ideal. Itu bisa memperlambat seluruh rangkaian tes. Pendekatan yang lebih baik adalah menggunakan penantian eksplisit."
+  - speaker: Sarah
+    english: "You mean like waiting for a specific element to be visible before proceeding?"
+    bahasa: "Maksudmu seperti menunggu elemen tertentu terlihat sebelum melanjutkan?"
+  - speaker: Tom
+    english: "Exactly. That way, the test is more robust and doesn't rely on arbitrary delays."
+    bahasa: "Tepat sekali. Dengan begitu, tesnya lebih kuat dan tidak bergantung pada penundaan yang sembarangan."
+  - speaker: Sarah
+    english: "Okay, I'll give that a shot. Thanks for the tip!"
+    bahasa: "Oke, akan kucoba. Terima kasih atas sarannya!"
+  - speaker: Tom
+    english: "No problem. Let me know if you need a hand with the implementation."
+    bahasa: "Tidak masalah. Beri tahu aku jika kamu butuh bantuan dengan implementasinya."
+expressions:
+  - phrase: "got a minute?"
+    meaning_english: "Do you have a short amount of time to talk?"
+    meaning_bahasa: "Apakah kamu punya waktu sebentar?"
+  - phrase: "what's up?"
+    meaning_english: "What is happening? / How are you?"
+    meaning_bahasa: "Ada apa? / Apa kabar?"
+  - phrase: "on our hands"
+    meaning_english: "in our care or possession, and as a responsibility"
+    meaning_bahasa: "sedang kita hadapi/tanggung jawabi"
+  - phrase: "the dreaded"
+    meaning_english: "causing fear or worry"
+    meaning_bahasa: "yang ditakuti"
+  - phrase: "race condition"
+    meaning_english: "A situation where the result of a process depends on the unpredictable timing of uncontrollable events"
+    meaning_bahasa: "Kondisi balapan: Situasi di mana hasil suatu proses bergantung pada waktu yang tidak dapat diprediksi dari peristiwa yang tidak terkendali"
+  - phrase: "quick fix"
+    meaning_english: "A temporary and easy solution"
+    meaning_bahasa: "Solusi cepat dan mudah"
+  - phrase: "not ideal"
+    meaning_english: "not the best possible solution"
+    meaning_bahasa: "bukan solusi terbaik"
+  - phrase: "give that a shot"
+    meaning_english: "to try something"
+    meaning_bahasa: "mencobanya"
+  - phrase: "need a hand"
+    meaning_english: "need help"
+    meaning_bahasa: "butuh bantuan"
+questions:
+  - q: "What problem is Sarah facing?"
+    a: "The CI pipeline is failing because of a flaky UI test."
+  - q: "What is Tom's suggestion to fix the problem?"
+    a: "He suggests using an explicit wait for a specific UI element to be visible instead of using a fixed sleep."
+  - q: "Why is adding a sleep not the best solution?"
+    a: "Because it can slow down the entire test suite and is not a reliable fix."
