@@ -1,0 +1,19 @@
+story:
+  title: "a-slice-of-life"
+  date: "2025-09-23"
+  text: |
+    My Tuesday started with a surprisingly pleasant **commute** to the office; the traffic was lighter than usual. As soon as I arrived, I grabbed my customary cup of coffee and sat down to review the **agenda** for our morning stand-up. The team’s main goal for the day was to finalize the new authentication feature, and my task was to build the UI component for it.
+
+    After our quick sync-up, I put on my noise-canceling headphones for some serious **heads-down** coding time. The logic was a bit tricky, but I managed to get into a good flow state. I was so focused that I almost forgot about my **lunch break** until my stomach started grumbling.
+
+    While reheating my lunch, I bumped into Alex near the **water cooler**. We had a brief but fun chat about a new sci-fi series we're both watching. It was a refreshing mental break. In the mid-afternoon, I had to step out for a quick **errand** to the post office, which was a welcome chance to stretch my legs.
+
+    Back at my desk, I put the final touches on my code and submitted a **pull request** for peer review. It felt great to see the feature coming together. It was a balanced and productive day—a perfect slice of life as a developer.
+  highlighted_words:
+    - "commute"
+    - "agenda"
+    - "heads-down"
+    - "water cooler"
+    - "lunch break"
+    - "errand"
+    - "pull request"
