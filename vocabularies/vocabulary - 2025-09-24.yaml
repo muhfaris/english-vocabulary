@@ -1,0 +1,277 @@
+- word: "Holistic"
+  pronunciation: "/hoʊˈlɪs.tɪk/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Considering a whole system or idea, rather than just individual parts."
+    bahasa: "Melihat suatu sistem atau ide secara keseluruhan, bukan hanya bagian-bagiannya secara terpisah."
+  usage: "Use this word when you want to emphasize a comprehensive, big-picture approach to a problem. It's great for architectural discussions or when planning a project to ensure you're not just fixing one small thing while ignoring the wider impact."
+  synonyms:
+    - "Comprehensive"
+    - "Integrated"
+    - "All-inclusive"
+  examples:
+    workplace:
+      - "Instead of just patching the bug, let's take a holistic view of the authentication module to prevent similar issues."
+      - "Our new project manager has a holistic approach to development, considering everything from server costs to user experience."
+    casual:
+      - "He has a holistic view of his health, focusing on diet, exercise, and mental well-being."
+      - "To understand the story, you need a holistic interpretation of all the characters' motivations."
+  related:
+    - word: "Granular"
+      difference: "Granular is the opposite; it means focusing on the small, individual details. A holistic view looks at the forest, while a granular view looks at the individual trees."
+    - word: "Systemic"
+      difference: "Systemic means something that affects the entire system. A systemic problem requires a holistic solution."
+  story: |
+    During a sprint planning meeting, the team was discussing a performance issue in the user dashboard. The initial plan was to just optimize a slow database query.
+    However, Anya, the senior engineer, suggested a more holistic approach. "Instead of a quick fix," she said, "let's analyze the entire data flow for the dashboard. We should look at the frontend caching, the API response structure, and the database queries together. A holistic view will help us build a truly fast and scalable feature, not just a temporary patch." The team agreed, realizing that looking at the whole picture was the better long-term strategy.
+
+- word: "Proprietary"
+  pronunciation: "/prəˈpraɪ.ə.ter.i/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Owned by a specific company or individual, often under a patent or copyright. It's the opposite of open-source."
+    bahasa: "Dimiliki oleh perusahaan atau individu tertentu, seringkali di bawah paten atau hak cipta. Ini adalah kebalikan dari open-source."
+  usage: "Use this when you're talking about software, tools, or technology that is not free or open to be modified. It's common when discussing dependencies, integrations, or choosing a tech stack."
+  synonyms:
+    - "Licensed"
+    - "Branded"
+    - "Private"
+  examples:
+    workplace:
+      - "We can't customize the reporting tool because it's a proprietary system; we don't have access to the source code."
+      - "The company decided to build its own solution instead of relying on expensive proprietary software."
+    casual:
+      - "That brand of soda has a proprietary formula that no one can copy."
+      - "His new invention is based on a proprietary algorithm he developed."
+  related:
+    - word: "Open-source"
+      difference: "Open-source is the direct opposite. Its source code is freely available for anyone to inspect, modify, and enhance."
+    - word: "In-house"
+      difference: "In-house means something is developed within the company for its own use. It's often proprietary, but the key distinction is that 'in-house' describes *where* it was made, while 'proprietary' describes *who owns* it."
+  story: |
+    The dev team was evaluating new mapping libraries for their delivery app. One option was a sleek, feature-rich library from a big tech company, but it was proprietary.
+    "The features are great," commented David, "but if we use this proprietary library, we're locked into their ecosystem. We'll have to pay for licenses, and we can't fix bugs ourselves."
+    Another developer, Maria, suggested an open-source alternative. "It might require more setup," she argued, "but we'll have full control and won't be dependent on a vendor's roadmap." The team had to weigh the convenience of the proprietary tool against the freedom of the open-source one.
+
+- word: "Monolithic"
+  pronunciation: "/ˌmɑː.nəˈlɪθ.ɪk/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Describing a software application that is designed and built as a single, indivisible unit. All its components are interconnected and interdependent."
+    bahasa: "Menggambarkan aplikasi perangkat lunak yang dirancang dan dibangun sebagai satu unit tunggal yang tidak dapat dipisahkan. Semua komponennya saling terhubung dan saling bergantung."
+  usage: "This term is used in architectural discussions, often when comparing it to a microservices architecture. You'd talk about a 'monolithic application' or a 'monolithic codebase'."
+  synonyms:
+    - "All-in-one"
+    - "Unified"
+    - "Integrated"
+  examples:
+    workplace:
+      - "Deploying our monolithic application takes hours because we have to redeploy the entire system for even a small change."
+      - "We're planning to break down our old monolithic backend into smaller, more manageable microservices."
+    casual:
+      - "The company has a monolithic management structure, with all decisions coming from the top."
+      - "That old building is a monolithic concrete structure."
+  related:
+    - word: "Microservice"
+      difference: "Microservices are the opposite architectural style. The application is broken down into a collection of small, independent services that communicate with each other, often over an API."
+    - word: "Modular"
+      difference: "A monolithic application can still be modular. 'Modular' means the code is well-organized into distinct modules or components, but in a monolith, these modules are still tightly coupled and deployed together as a single unit."
+  story: |
+    "I finally tracked down the bug," said Leo, looking tired. "The problem is, our application is monolithic. To fix a typo in the user profile page, I had to understand the billing module and the notification service because the code is so tangled together."
+    His manager, Sarah, nodded sympathetically. "I know it's tough. That monolithic architecture was simple to build initially, but now it's slowing us down. Our main goal for next year is to start carefully chipping away at it, creating independent services. But for now, good job on navigating the beast."
+
+- word: "Out-of-the-box"
+  pronunciation: "/ˌaʊt əv ðə ˈbɑks/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A feature or functionality that works immediately after installation without needing any special configuration or modification."
+    bahasa: "Fitur atau fungsionalitas yang langsung berfungsi setelah instalasi tanpa memerlukan konfigurasi atau modifikasi khusus."
+  usage: "Use this phrase to describe features that are ready to use by default. It's a big selling point for software and tools because it implies ease of use and quick setup."
+  synonyms:
+    - "Ready-to-use"
+    - "Off-the-shelf"
+    - "Standard"
+  examples:
+    workplace:
+      - "The new charting library provides beautiful, interactive graphs right out-of-the-box."
+      - "Does the new CMS support user roles out-of-the-box, or do we have to build that ourselves?"
+    casual:
+      - "The best thing about this camera is its amazing out-of-the-box image quality."
+      - "I'm not a tech expert, so I need a computer that works out-of-the-box."
+  related:
+    - word: "Custom-built"
+      difference: "Custom-built is the opposite. It refers to a solution that is specifically designed and coded for a unique purpose, rather than being a standard feature."
+    - word: "Boilerplate"
+      difference: "Boilerplate is a template or starting code that you can copy-paste to begin a project. It helps you get started, but it's not a working feature 'out-of-the-box'; it's the foundation you build upon."
+  story: |
+    The team was choosing a new framework for their internal admin panel. "I'm leaning towards Framework X," said Fatima. "It provides authentication, a user management dashboard, and data tables out-of-the-box. We could have a basic version up and running in a day."
+    Another engineer, Ben, was cautious. "True, the out-of-the-box features are tempting. But will they be flexible enough when we need to add our own complex business logic later? Sometimes 'out-of-the-box' can mean 'hard-to-customize'." The team had to decide between speed now and flexibility later.
+
+- word: "To table"
+  pronunciation: "/tə ˈteɪ.bəl/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To postpone or suspend discussion of a topic or issue until a later time."
+    bahasa: "Menunda atau menangguhkan diskusi tentang suatu topik atau masalah hingga waktu yang akan datang."
+  usage: "This is a formal way to say 'let's talk about this later' in a meeting. It's used when a discussion is going off-topic, taking too long, or needs more information before a decision can be made."
+  synonyms:
+    - "To postpone"
+    - "To defer"
+    - "To shelve"
+  examples:
+    workplace:
+      - "This discussion about the new logo is important, but let's table it for now and focus on the bug fixes for this release."
+      - "I'm tabling this agenda item until the next meeting when the project manager can be here to give her input."
+    casual:
+      - "Can we table this conversation about vacation plans until after we finish dinner?"
+      - "They decided to table the decision on where to live for a few more months."
+  related:
+    - word: "To park this"
+      difference: "'To park this' is a more casual, conversational synonym for 'to table'. The meaning is essentially the same."
+    - word: "To address"
+      difference: "'To address' is the opposite; it means to deal with or discuss an issue, not postpone it. 'Let's address this problem now.'"
+  story: |
+    During the weekly sync, a debate started about which new JavaScript framework to learn. The conversation quickly got passionate, with people arguing for React, Vue, and Svelte. After ten minutes, the team lead, Maria, stepped in.
+    "I love the enthusiasm," she said, "but we only have 30 minutes left to discuss the actual sprint tasks. Let's table this framework discussion for now. I'll create a separate meeting for it where we can give it the time it deserves." The team agreed, and the meeting got back on track.
+
+- word: "WIP (Work In Progress)"
+  pronunciation: "/ˌdʌb.əl.juː aɪ ˈpiː/"
+  part_of_speech: "noun / acronym"
+  meaning:
+    english: "A project or a piece of work that is currently being developed but is not yet complete."
+    bahasa: "Sebuah proyek atau pekerjaan yang sedang dikembangkan tetapi belum selesai."
+  usage: "Engineers use 'WIP' constantly. You might label a pull request with '[WIP]' to show it's not ready for a final review. It's also used in project management (e.g., 'WIP limits' in Kanban) to manage workflow."
+  synonyms:
+    - "Unfinished"
+    - "In-development"
+    - "Underway"
+  examples:
+    workplace:
+      - "I'm pushing my code, but it's still a WIP, so don't merge it yet."
+      - "Our team tries to limit our WIP to three major tasks at a time to ensure we stay focused."
+    casual:
+      - "My novel is a WIP, but I'm hoping to finish it this year."
+      - "The kitchen renovation is still a work in progress, so please excuse the mess."
+  related:
+    - word: "Draft"
+      difference: "A draft is an early version of something, usually a document or design. 'WIP' is a broader term that can apply to anything being worked on, including code, features, or entire projects."
+    - word: "Prototype"
+      difference: "A prototype is an early model of a product built to test a concept or process. It's a form of WIP, but more specific. A WIP isn't necessarily a testable model; it could just be incomplete code."
+  story: |
+    Javier was working on a major refactoring of the payment service. He created a pull request early on and titled it "[WIP] Refactor Payment Service".
+    His teammate, Chloe, saw it and left a comment: "Hey, just took a quick look. I know it's a WIP, but I have a few initial thoughts on the new class structure when you're ready."
+    This was helpful for Javier. By marking it as a WIP, he signaled that it was incomplete, but it also allowed him to get early feedback without the pressure of a formal review.
+
+- word: "LGTM (Looks Good To Me)"
+  pronunciation: "/ˌɛl dʒiː tiː ˈɛm/"
+  part_of_speech: "phrase / acronym"
+  meaning:
+    english: "An informal abbreviation used in code reviews to indicate that the reviewer has checked the code and approves of the changes."
+    bahasa: "Singkatan informal yang digunakan dalam ulasan kode untuk menunjukkan bahwa peninjau telah memeriksa kode dan menyetujui perubahannya."
+  usage: "This is one of the most common acronyms you'll see on GitHub, GitLab, or other code review tools. It's a quick, friendly way to give an approval. Often, you'll add a 'LGTM' comment and then click the 'Approve' button."
+  synonyms:
+    - "Approved"
+    - "Looks good"
+    - "Ship it!"
+  examples:
+    workplace:
+      - "The code is clean and the tests are passing. LGTM!"
+      - "I just left a few minor suggestions, but after those are addressed, it's a LGTM from me."
+    casual:
+      - "(Reviewing a friend's party plan) The guest list and menu look great. LGTM."
+      - "She sent me her presentation slides for a final check. I told her LGTM."
+  related:
+    - word: "Nitpick"
+      difference: "A nitpick is a comment about a very minor, often stylistic, issue. You might leave a few nitpicks and still finish your review with 'LGTM'."
+    - word: "Change Request"
+      difference: "A change request is more formal and serious than a nitpick. If a reviewer requests changes, they are not yet giving their LGTM. The author needs to address the feedback first."
+  story: |
+    After spending a day fixing a critical bug, Maya submitted her pull request for review. She was a bit nervous because the code was complex.
+    Within an hour, her senior colleague, David, had reviewed it. He left one small comment: "Maybe add a comment here explaining why we need this specific check?"
+    Maya quickly added the comment and pushed the update. A minute later, David's final comment appeared: "Perfect. Thanks for the quick fix. LGTM!" with a thumbs-up emoji. Seeing "LGTM" was a huge relief and meant her code could now be merged into the main branch.
+
+- word: "Nitpick"
+  pronunciation: "/ˈnɪt.pɪk/"
+  part_of_speech: "verb / noun"
+  meaning:
+    english: "To find faults with small, unimportant details. In code reviews, it often refers to pointing out minor stylistic issues or tiny improvements."
+    bahasa: "Mencari-cari kesalahan pada detail kecil yang tidak penting. Dalam ulasan kode, ini sering merujuk pada penunjukan masalah gaya penulisan kecil atau perbaikan kecil."
+  usage: "When leaving a code review, you might preface a minor comment with 'Nitpick:' to show that it's not a major issue and doesn't necessarily need to be fixed. It's a way to be helpful without being a blocker."
+  synonyms:
+    - "Quibble"
+    - "Carp"
+    - "Point out flaws"
+  examples:
+    workplace:
+      - "The logic is solid, but I have a few minor nitpicks about variable naming."
+      - "Sorry to nitpick, but there's an extra space at the end of this line."
+    casual:
+      - "He's a good writer, but his editor always nitpicks his grammar."
+      - "Don't nitpick my cooking; just enjoy the meal!"
+  related:
+    - word: "Critique"
+      difference: "A critique is a more detailed and serious evaluation of something. Nitpicking is focused only on the tiny, often insignificant, details."
+    - word: "Feedback"
+      difference: "Feedback is a general term for any response or information about a performance. Nitpicks are a very specific, minor type of feedback."
+  story: |
+    Sarah was reviewing a pull request from a junior developer, Tom. The code worked perfectly, but she saw a few small things that could be improved.
+    She left a few comments:
+    1. "This function is great! It works as expected."
+    2. "(Nitpick): We usually use single quotes for strings in this project. Could you change these double quotes?"
+    3. "(Nitpick): Maybe rename this variable from `d` to `data` for clarity?"
+    By labeling her minor points as nitpicks, she made it clear that the core work was good and that these were just small suggestions for improvement, not critical errors. It made the feedback feel less critical and more helpful.
+
+- word: "Pivotal"
+  pronunciation: "/ˈpɪv.ə.t̬əl/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Of crucial importance in relation to the development or success of something else."
+    bahasa: "Sangat penting dalam kaitannya dengan perkembangan atau keberhasilan sesuatu yang lain."
+  usage: "Use this word to describe a moment, decision, feature, or person that is central to a project's success. It adds a sense of importance and highlights a key turning point."
+  synonyms:
+    - "Crucial"
+    - "Critical"
+    - "Essential"
+    - "Vital"
+  examples:
+    workplace:
+      - "The decision to switch to a new database was pivotal for improving our application's performance."
+      - "She played a pivotal role in a successful launch of the new feature."
+    casual:
+      - "That conversation was a pivotal moment in their relationship."
+      - "Getting that scholarship was pivotal to his career."
+  related:
+    - word: "Key"
+      difference: "'Key' is a more common and less formal synonym for 'pivotal'. 'Pivotal' often implies a turning point or a central point on which things depend, making it a bit stronger."
+    - word: "Fundamental"
+      difference: "'Fundamental' refers to the basic foundation of something. A fundamental concept is necessary to understand anything else. A 'pivotal' moment is a critical event that changes the direction of development."
+  story: |
+    The startup was struggling. Their user growth had stalled, and the team was feeling demotivated. They held a company-wide brainstorming session to decide on their next move. During the meeting, a junior engineer suggested a completely new feature that no one had thought of.
+    The CEO decided to bet on it. "This is our new direction," she announced.
+    Looking back a year later, after the company had become a huge success, everyone agreed that the decision to build that one feature was the pivotal moment. It was the turning point that saved the company and defined its future.
+
+- word: "RACI Matrix"
+  pronunciation: "/ˈreɪ.si ˈmeɪ.trɪks/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A chart used in project management to clarify roles and responsibilities for tasks. RACI stands for Responsible, Accountable, Consulted, and Informed."
+    bahasa: "Bagan yang digunakan dalam manajemen proyek untuk memperjelas peran dan tanggung jawab untuk tugas. RACI adalah singkatan dari Responsible, Accountable, Consulted, and Informed."
+  usage: "You'll encounter this in planning meetings, especially for large, cross-functional projects. It's used to prevent confusion about who should be doing the work, who needs to approve it, and who just needs to be kept in the loop."
+  synonyms:
+    - "Responsibility assignment matrix"
+  examples:
+    workplace:
+      - "There's confusion about who makes the final decision. Let's create a RACI matrix for this project."
+      - "According to the RACI matrix, the engineering lead is Accountable, the developers are Responsible, and marketing needs to be Consulted."
+    casual:
+      - "We used a mini RACI matrix to plan our family trip so everyone knew their jobs."
+      - "For our group project in college, we created a simple RACI chart to avoid arguments."
+  related:
+    - word: "Delegate"
+      difference: "'To delegate' is the act of assigning a task to someone. A RACI matrix is the tool that documents and clarifies those delegations and other roles."
+    - word: "Ownership"
+      difference: "'Ownership' is a general sense of responsibility for a task or area. A RACI matrix makes ownership explicit by defining who is 'Responsible' and who is 'Accountable'."
+  story: |
+    The launch of the new marketing website involved the engineering team, the design team, and the content team. Things were getting messy. The engineers didn't know who to ask about a specific design element, and the content team wasn't sure who had the final say on the text.
+    The project manager, Ken, called a meeting. "Okay team," he said, pulling up a spreadsheet. "We need a RACI matrix. For each part of the launch—the new server setup, the hero image, the blog posts—we are going to define who is Responsible, Accountable, Consulted, and Informed."
+    By the end of the meeting, everyone was clear on their roles. The RACI matrix eliminated the confusion and helped make the rest of the project run smoothly.
