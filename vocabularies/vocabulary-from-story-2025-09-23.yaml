@@ -1,0 +1,140 @@
+- word: environment variable
+  pronunciation: /ɪnˈvaɪrənmənt ˈvɛəriəbl/
+  part_of_speech: noun
+  meaning:
+    english: A configurable value that can affect how running processes will behave
+      on a computer.
+    bahasa: Nilai yang dapat dikonfigurasi yang dapat memengaruhi perilaku proses
+      yang berjalan di komputer.
+  usage: Used to store configuration settings like API keys or server addresses outside
+    of the application code.
+  synonyms:
+  - config variable
+  - env var
+  examples:
+    workplace:
+    - Store the API key as an **environment variable** instead of putting it in the
+      code.
+    - The database connection string is set using an **environment variable**.
+    casual:
+    - I had to set an **environment variable** to get the program to work.
+    - The setup guide explains which **environment variables** you need to configure.
+  related:
+  - word: constant
+    difference: A 'constant' is a value in code that cannot be changed. An 'environment
+      variable' is set outside the code and can be changed without altering the code.
+  story: We had a bug where the application couldn't connect to the database, but
+    it turned out we had just forgotten to set the correct **environment variable**.
+- word: hard code
+  pronunciation: /hɑːrd koʊd/
+  part_of_speech: verb
+  meaning:
+    english: To embed data or configuration directly into the source code of a program
+      instead of obtaining it from an external source.
+    bahasa: Menanamkan data atau konfigurasi langsung ke dalam kode sumber program
+      alih-alih memperolehnya dari sumber eksternal.
+  usage: Usually used with a negative connotation, as it makes software less flexible.
+  synonyms:
+  - embed
+  - hard-wire
+  examples:
+    workplace:
+    - You shouldn't **hard code** the server URL; use a configuration file instead.
+    - The old script was difficult to maintain because it had so many values that
+      were **hard coded**.
+    casual:
+    - I had to **hard code** my username just to get it to work for a quick test.
+    - It's a bad practice to **hard code** file paths in your application.
+  related:
+  - word: configure
+    difference: '''Configure'' means to set up a program using external settings.
+      To ''hard code'' is the opposite—to put those settings inside the code itself.'
+  story: We spent the afternoon removing values that a previous developer chose to
+    **hard code**, and moved them into a proper configuration file.
+- word: state management
+  pronunciation: /steɪt ˈmænɪdʒmənt/
+  part_of_speech: noun
+  meaning:
+    english: The process of managing the data that an application needs to function,
+      especially data that can change over time.
+    bahasa: Proses mengelola data yang dibutuhkan aplikasi untuk berfungsi, terutama
+      data yang dapat berubah seiring waktu.
+  usage: A key concept in frontend development for keeping the user interface in sync
+    with the application's data.
+  synonyms:
+  - state handling
+  - data flow management
+  examples:
+    workplace:
+    - We chose a new library to help with **state management** in our React application.
+    - Good **state management** is crucial for building complex user interfaces.
+    casual:
+    - The game's **state management** keeps track of your score and inventory.
+    - He explained **state management** using the analogy of a scoreboard.
+  related:
+  - word: variable
+    difference: A 'variable' holds a piece of data. 'State management' is the overall
+      strategy and system for how all the important variables in an application are
+      stored and updated.
+  story: Our app was becoming buggy and unpredictable, so we decided to refactor the
+    entire **state management** system.
+- word: race condition
+  pronunciation: /reɪs kənˈdɪʃn/
+  part_of_speech: noun
+  meaning:
+    english: An undesirable situation that occurs when a device or system attempts
+      to perform two or more operations at the same time, but because of the nature
+      of the device or system, the operations must be done in the proper sequence
+      to be done correctly.
+    bahasa: Situasi yang tidak diinginkan yang terjadi ketika perangkat atau sistem
+      mencoba melakukan dua atau lebih operasi pada saat yang sama, tetapi karena
+      sifat perangkat atau sistem, operasi harus dilakukan dalam urutan yang benar
+      agar dapat dilakukan dengan benar.
+  usage: A common type of bug in concurrent or multi-threaded programming that can
+    be very difficult to debug.
+  synonyms:
+  - concurrency bug
+  - timing issue
+  examples:
+    workplace:
+    - We found a **race condition** where two users could update the same record simultaneously,
+      causing data corruption.
+    - Bugs caused by a **race condition** are often hard to reproduce.
+    casual:
+    - It's like a **race condition** when two people try to go through a doorway at
+      the same time.
+    - He explained the **race condition** by using the analogy of two people trying
+      to edit the same document at once.
+  related:
+  - word: deadlock
+    difference: A 'race condition' is when the *order* of events matters and leads
+      to a wrong result. A 'deadlock' is when two processes are stuck waiting for
+      each other, and neither can proceed.
+  story: We spent all day trying to fix a bug that only happened occasionally. It
+    turned out to be a **race condition** in our caching logic.
+- word: spaghetti code
+  pronunciation: /spəˈɡɛti koʊd/
+  part_of_speech: noun
+  meaning:
+    english: Computer programming that is unnecessarily convoluted and difficult to
+      follow, like a tangled plate of spaghetti.
+    bahasa: Pemrograman komputer yang tidak perlu berbelit-belit dan sulit diikuti,
+      seperti sepiring spageti yang kusut.
+  usage: A derogatory term for code that is poorly structured and hard to maintain.
+  synonyms:
+  - messy code
+  - unstructured code
+  examples:
+    workplace:
+    - I have to refactor this module; it's complete **spaghetti code**.
+    - The project is full of **spaghetti code**, making it impossible to add new features.
+    casual:
+    - My first program was total **spaghetti code**.
+    - He complained about the **spaghetti code** he inherited from the previous team.
+  related:
+  - word: legacy code
+    difference: '''Legacy code'' is simply old code. It might be well-structured.
+      ''Spaghetti code'' refers specifically to code that is poorly structured, regardless
+      of its age.'
+  story: It took me a week to understand the old payment module because it was 10,000
+    lines of **spaghetti code** in a single file.
