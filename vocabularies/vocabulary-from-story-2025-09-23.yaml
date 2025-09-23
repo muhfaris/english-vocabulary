@@ -138,3 +138,175 @@
       of its age.'
   story: It took me a week to understand the old payment module because it was 10,000
     lines of **spaghetti code** in a single file.
+- word: "commute"
+  pronunciation: "/kəˈmjuːt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To travel some distance between one's home and place of work on a regular basis."
+    bahasa: "Bepergian secara rutin antara rumah dan tempat kerja."
+  usage: "Used to describe the daily journey to and from work. You can talk about your commute, how long it is, or how you do it (e.g., by car, train, bus)."
+  synonyms:
+    - "travel to work"
+    - "daily journey"
+  examples:
+    workplace:
+      - "My commute is about 45 minutes by train."
+      - "I use my commute time to listen to tech podcasts."
+    casual:
+      - "I hate my morning commute; the traffic is always terrible."
+      - "She has a long commute, so she usually leaves home very early."
+  related:
+    - word: "traffic"
+      difference: "Traffic refers to the vehicles moving on a road. Your commute can be affected by heavy traffic."
+    - word: "public transport"
+      difference: "Public transport (like buses and trains) is a common way to commute."
+  story: |
+    My friend recently moved to a new apartment. He loves the place, but his commute to the office is now over an hour long. He's trying to make the best of it by reading books during his train ride.
+- word: "water cooler"
+  pronunciation: "/ˈwɔːtər ˌkuːlər/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A machine that cools and dispenses drinking water, often found in offices. It also refers to the informal conversations that happen when people gather around it."
+    bahasa: "Mesin pendingin dan dispenser air minum, yang sering ditemukan di kantor. Istilah ini juga merujuk pada percakapan informal yang terjadi saat orang berkumpul di sekitarnya."
+  usage: "Used literally for the machine, but more often metaphorically to describe casual, informal chats at work. A 'water cooler conversation' is about non-work topics."
+  synonyms:
+    - "office gossip"
+    - "casual chat"
+    - "coffee break talk"
+  examples:
+    workplace:
+      - "I heard about the new project during a chat at the water cooler."
+      - "Let's not discuss this sensitive topic at the water cooler."
+    casual:
+      - "The latest episode of that show was the main topic at the water cooler today."
+      - "He's the kind of person who avoids water cooler gossip."
+  related:
+    - word: "break room"
+      difference: "A break room is a specific room for employees to relax. A water cooler can be in a hallway or any common area."
+    - word: "small talk"
+      difference: "Small talk is the type of conversation you have at the water cooler, usually about light, non-controversial topics."
+  story: |
+    During our team meeting, the manager mentioned a new company-wide policy. However, I learned more about how people actually felt about it from the informal chats at the water cooler later that day.
+- word: "lunch break"
+  pronunciation: "/lʌntʃ breɪk/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A period of time in the middle of the day when people stop working to eat lunch."
+    bahasa: "Periode waktu di tengah hari ketika orang berhenti bekerja untuk makan siang."
+  usage: "A common term for the break you take for lunch. It can be of varying lengths, usually 30 minutes to an hour."
+  synonyms:
+    - "lunchtime"
+    - "midday break"
+  examples:
+    workplace:
+      - "I'll finish this task after my lunch break."
+      - "Our team usually takes a one-hour lunch break."
+    casual:
+      - "I'm so hungry, I can't wait for my lunch break."
+      - "Sometimes I work through my lunch break if I'm busy."
+  related:
+    - word: "coffee break"
+      difference: "A coffee break is usually shorter than a lunch break and is just for a quick drink and a short rest."
+    - word: "take a break"
+      difference: "This is a more general phrase. A lunch break is a specific type of break."
+  story: |
+    I was having a really productive morning and almost skipped my lunch break. But my teammate reminded me to step away from the computer. We went out for a quick bite, and I felt much more refreshed and focused in the afternoon.
+- word: "errand"
+  pronunciation: "/ˈerənd/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A short journey undertaken to deliver or collect something, often on one's own or someone else's behalf."
+    bahasa: "Perjalanan singkat yang dilakukan untuk mengirim atau mengambil sesuatu, seringkali untuk diri sendiri atau orang lain."
+  usage: "Used to describe small, necessary tasks that require you to go somewhere, like going to the post office, bank, or grocery store."
+  synonyms:
+    - "task"
+    - "chore"
+    - "mission"
+  examples:
+    workplace:
+      - "I need to step out for an hour to run an errand."
+      - "She's out on an errand and will be back shortly."
+    casual:
+      - "I have a few errands to run during my lunch break."
+      - "Can you pick up the dry cleaning? It's our last errand for the day."
+  related:
+    - word: "chore"
+      difference: "A chore is typically a routine task done at home, like washing dishes. An errand usually involves leaving the house to go somewhere."
+    - word: "appointment"
+      difference: "An appointment is a scheduled meeting (e.g., with a doctor), while an errand is a task you can often do at a flexible time."
+  story: |
+    On my way home from work, I had to run an errand to pick up a birthday cake for my sister. It was a bit out of my way, but seeing her happy face when I got home made the extra trip worth it.
+- word: "agenda"
+  pronunciation: "/əˈdʒendə/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A list of items to be discussed at a formal meeting."
+    bahasa: "Daftar hal-hal yang akan didiskusikan dalam sebuah pertemuan formal."
+  usage: "Used to refer to the plan or schedule for a meeting. A clear agenda helps keep meetings focused and productive."
+  synonyms:
+    - "schedule"
+    - "program"
+    - "list of topics"
+  examples:
+    workplace:
+      - "Did you receive the agenda for tomorrow's sprint planning meeting?"
+      - "Let's stick to the agenda to make sure we finish on time."
+    casual:
+      - "What's on the agenda for our trip this weekend?"
+      - "My only agenda for today is to relax."
+  related:
+    - word: "minutes"
+      difference: "An 'agenda' is the plan for a meeting, made before it happens. 'Minutes' are the notes taken during the meeting, documenting what was discussed."
+    - word: "itinerary"
+      difference: "An 'itinerary' is a detailed plan for a journey or trip, while an 'agenda' is a plan for a meeting."
+  story: |
+    The weekly sync meeting used to be chaotic and long. People would talk about random topics. Then, our manager started sending out an agenda the day before. It made a huge difference. Now, everyone comes prepared, we cover all the important points, and the meeting usually ends early.
+- word: "heads-down"
+  pronunciation: "/ˌhedzˈdaʊn/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Concentrating hard on something, without distractions."
+    bahasa: "Berkonsentrasi penuh pada sesuatu, tanpa gangguan."
+  usage: "Used to describe a period of focused work. 'Heads-down time' is when you're deeply engaged in a task and don't want to be interrupted."
+  synonyms:
+    - "focused"
+    - "concentrating"
+    - "in the zone"
+  examples:
+    workplace:
+      - "I need a few hours of heads-down time to finish this feature."
+      - "The team is heads-down working on fixing the critical bugs before the release."
+    casual:
+      - "She was heads-down studying for her final exams all week."
+      - "It's time for some heads-down cleaning before the guests arrive."
+  related:
+    - word: "deep work"
+      difference: "'Deep work' is a concept or methodology for focused work. 'Heads-down' is a more informal, common term to describe the state of being focused."
+    - word: "multitasking"
+      difference: "'Multitasking' is the opposite of being 'heads-down'. It involves trying to do multiple things at once, often with less focus."
+  story: |
+    Our team agreed to have a 'no-meetings' policy on Wednesdays. This allows everyone to have a full day of heads-down time. It's my most productive day of the week. I can tackle complex problems without being interrupted by notifications or calls.
+- word: "pull request"
+  pronunciation: "/pʊl rɪˈkwest/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A request to merge a set of code changes into a central repository. It allows other developers to review the changes before they are integrated."
+    bahasa: "Permintaan untuk menggabungkan serangkaian perubahan kode ke dalam repositori pusat. Ini memungkinkan pengembang lain untuk meninjau perubahan sebelum diintegrasikan."
+  usage: "A fundamental concept in collaborative software development using Git. Often abbreviated as 'PR'."
+  synonyms:
+    - "merge request"
+    - "change request"
+  examples:
+    workplace:
+      - "I've submitted the pull request for the new login feature."
+      - "Please review my pull request when you have a moment."
+    casual:
+      - "He's learning how to contribute to open-source projects by making a pull request."
+      - "My first pull request was a bit scary, but the feedback was very helpful."
+  related:
+    - word: "code review"
+      difference: "A 'code review' is the process of examining the code within a 'pull request'. The pull request is the mechanism that triggers the code review."
+    - word: "commit"
+      difference: "A 'commit' is a single saved change to the code. A 'pull request' is typically a collection of one or more commits that represents a complete feature or fix."
+  story: |
+    When I was a junior developer, I was nervous about opening my first pull request. I checked my code ten times before submitting it. My team lead left a few comments with suggestions for improvement. It was a great learning experience. Now, reviewing a pull request is just a normal part of my daily work.
