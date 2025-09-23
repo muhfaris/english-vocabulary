@@ -1,0 +1,75 @@
+dialogue:
+  - speaker: Maya
+    english: "Hey David, wrapping up for the day?"
+    bahasa: "Hai David, sudah mau selesai untuk hari ini?"
+  - speaker: David
+    english: "Almost. Just jotting down my notes for tomorrow. How about you?"
+    bahasa: "Hampir. Hanya mencatat catatanku untuk besok. Bagaimana denganmu?"
+  - speaker: Maya
+    english: "Same here. I finally managed to squash that nasty bug in the payment module."
+    bahasa: "Sama. Aku akhirnya berhasil memperbaiki bug menyebalkan di modul pembayaran."
+  - speaker: David
+    english: "Oh, the one that was causing the intermittent failures? Nice one! That was a tough nut to crack."
+    bahasa: "Oh, yang menyebabkan kegagalan sesekali? Keren! Itu masalah yang sulit dipecahkan."
+  - speaker: Maya
+    english: "Tell me about it. It turned out to be a race condition that only showed up under heavy load."
+    bahasa: "Benar sekali. Ternyata itu adalah race condition yang hanya muncul saat beban berat."
+  - speaker: David
+    english: "Yikes. Those are the worst. I was working on the new user profile page. It's mostly done, but I'm having some trouble with the CSS."
+    bahasa: "Waduh. Itu yang paling parah. Aku sedang mengerjakan halaman profil pengguna yang baru. Sebagian besar sudah selesai, tapi aku sedikit kesulitan dengan CSS-nya."
+  - speaker: Maya
+    english: "Anything I can help with? I've been wrestling with CSS a lot lately."
+    bahasa: "Ada yang bisa kubantu? Akhir-akhir ini aku sering bergelut dengan CSS."
+  - speaker: David
+    english: "Thanks for the offer. I think I'll give it another shot tomorrow with a fresh pair of eyes. I'm probably just missing something obvious."
+    bahasa: "Terima kasih tawarannya. Kurasa aku akan mencobanya lagi besok dengan sudut pandang yang baru. Mungkin aku hanya melewatkan sesuatu yang jelas."
+  - speaker: Maya
+    english: "Sounds like a plan. Well, I'm heading out. Have a great evening!"
+    bahasa: "Terdengar bagus. Baiklah, aku mau pulang. Selamat malam!"
+  - speaker: David
+    english: "You too, Maya. See you tomorrow."
+    bahasa: "Kamu juga, Maya. Sampai jumpa besok."
+
+expressions:
+  - phrase: "wrapping up for the day"
+    meaning_english: "Finishing work for the day."
+    meaning_bahasa: "Menyelesaikan pekerjaan untuk hari ini."
+  - phrase: "jotting down"
+    meaning_english: "Writing something down quickly."
+    meaning_bahasa: "Menulis sesuatu dengan cepat."
+  - phrase: "squash that nasty bug"
+    meaning_english: "To fix a difficult or annoying bug in the code."
+    meaning_bahasa: "Memperbaiki bug yang sulit atau mengganggu di dalam kode."
+  - phrase: "a tough nut to crack"
+    meaning_english: "A difficult problem to solve."
+    meaning_bahasa: "Masalah yang sulit dipecahkan."
+  - phrase: "tell me about it"
+    meaning_english: "An expression of agreement, meaning 'I know what you mean'."
+    meaning_bahasa: "Ekspresi setuju, artinya 'Aku tahu maksudmu'."
+  - phrase: "race condition"
+    meaning_english: "A bug where the outcome of an operation depends on the sequence or timing of uncontrollable events."
+    meaning_bahasa: "Bug di mana hasil dari suatu operasi bergantung pada urutan atau waktu dari peristiwa yang tidak dapat dikendalikan."
+  - phrase: "under heavy load"
+    meaning_english: "When a system is processing a large number of requests."
+    meaning_bahasa: "Saat sistem sedang memproses sejumlah besar permintaan."
+  - phrase: "give it another shot"
+    meaning_english: "To try something again."
+    meaning_bahasa: "Mencoba sesuatu lagi."
+  - phrase: "a fresh pair of eyes"
+    meaning_english: "A new perspective, usually from someone who hasn't been working on the problem."
+    meaning_bahasa: "Sudut pandang baru, biasanya dari seseorang yang belum mengerjakan masalah tersebut."
+  - phrase: "heading out"
+    meaning_english: "Leaving a place."
+    meaning_bahasa: "Meninggalkan suatu tempat."
+
+questions:
+  - q: "What did Maya accomplish today?"
+    a: "She fixed a difficult bug in the payment module."
+  - q: "What was the root cause of the bug?"
+    a: "It was a race condition that occurred under heavy load."
+  - q: "What was David working on?"
+    a: "He was working on the new user profile page."
+  - q: "What issue is David facing?"
+    a: "He is having trouble with the CSS for the new page."
+  - q: "What is David's plan to solve his issue?"
+    a: "He plans to try again tomorrow with a fresh perspective."
