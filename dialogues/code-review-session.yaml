@@ -1,0 +1,73 @@
+dialogue:
+  - speaker: Alex
+    english: "Hey Ben, do you have a moment to look at my PR for the new caching layer?"
+    bahasa: "Hai Ben, apa kamu ada waktu untuk melihat PR-ku untuk lapisan caching yang baru?"
+  - speaker: Ben
+    english: "Sure, Alex. I'll pull it up right now. What’s the branch name?"
+    bahasa: "Tentu, Alex. Aku akan membukanya sekarang. Apa nama branch-nya?"
+  - speaker: Alex
+    english: "It's `feature/add-caching-layer`. I've added some notes in the description."
+    bahasa: "Nama branch-nya `feature/add-caching-layer`. Aku sudah menambahkan beberapa catatan di deskripsi."
+  - speaker: Ben
+    english: "Got it. Okay, I'm looking at it now. The overall structure looks solid. Nice use of the decorator pattern."
+    bahasa: "Oke, aku mengerti. Aku sedang melihatnya sekarang. Struktur keseluruhannya terlihat kokoh. Penggunaan decorator pattern-nya bagus."
+  - speaker: Alex
+    english: "Thanks! I thought it would make it more maintainable in the long run."
+    bahasa: "Terima kasih! Aku pikir itu akan membuatnya lebih mudah dipelihara dalam jangka panjang."
+  - speaker: Ben
+    english: "Definitely. I do have one question, though. What happens if the cache key is null? It looks like it might throw an unhandled exception."
+    bahasa: "Tentu saja. Tapi, aku punya satu pertanyaan. Apa yang terjadi jika kunci cache-nya null? Sepertinya itu bisa menyebabkan pengecualian yang tidak ditangani."
+  - speaker: Alex
+    english: "Ah, that's a good catch. I didn't consider that edge case. I should add a check for that."
+    bahasa: "Ah, itu temuan yang bagus. Aku tidak mempertimbangkan kasus khusus itu. Aku harus menambahkan pemeriksaan untuk itu."
+  - speaker: Ben
+    english: "Yeah, a simple guard clause at the beginning of the function should do the trick."
+    bahasa: "Ya, guard clause sederhana di awal fungsi seharusnya bisa mengatasinya."
+  - speaker: Alex
+    english: "Agreed. I'll add that and push up the changes in a few minutes."
+    bahasa: "Setuju. Aku akan menambahkannya dan mendorong perubahannya dalam beberapa menit."
+  - speaker: Ben
+    english: "Sounds good. Otherwise, it looks good to go. Great work!"
+    bahasa: "Bagus. Selain itu, sepertinya sudah siap. Kerja bagus!"
+  - speaker: Alex
+    english: "Thanks for the quick feedback, Ben. I appreciate it."
+    bahasa: "Terima kasih atas umpan baliknya yang cepat, Ben. Aku menghargainya."
+
+expressions:
+  - phrase: "look at my PR"
+    meaning_english: "To review a Pull Request, which is a proposal to merge a new set of changes into the main codebase."
+    meaning_bahasa: "Mengkaji sebuah Pull Request, yaitu usulan untuk menggabungkan serangkaian perubahan baru ke dalam basis kode utama."
+  - phrase: "pull it up"
+    meaning_english: "To open or display something on a screen."
+    meaning_bahasa: "Membuka atau menampilkan sesuatu di layar."
+  - phrase: "looks solid"
+    meaning_english: "An informal way to say that something is well-structured and of high quality."
+    meaning_bahasa: "Cara informal untuk mengatakan bahwa sesuatu terstruktur dengan baik dan berkualitas tinggi."
+  - phrase: "in the long run"
+    meaning_english: "Over a long period of time; eventually."
+    meaning_bahasa: "Dalam jangka waktu yang lama; pada akhirnya."
+  - phrase: "good catch"
+    meaning_english: "A compliment for noticing a mistake or problem that others might have missed."
+    meaning_bahasa: "Pujian karena memperhatikan kesalahan atau masalah yang mungkin terlewatkan oleh orang lain."
+  - phrase: "edge case"
+    meaning_english: "A problem or situation that occurs only at an extreme (maximum or minimum) operating parameter."
+    meaning_bahasa: "Masalah atau situasi yang hanya terjadi pada parameter operasi yang ekstrem (maksimum atau minimum)."
+  - phrase: "guard clause"
+    meaning_english: "A check at the beginning of a function that exits early if a certain condition isn't met."
+    meaning_bahasa: "Pemeriksaan di awal fungsi yang akan keluar lebih awal jika kondisi tertentu tidak terpenuhi."
+  - phrase: "push up the changes"
+    meaning_english: "To upload new code changes to a shared repository."
+    meaning_bahasa: "Mengunggah perubahan kode baru ke repositori bersama."
+  - phrase: "looks good to go"
+    meaning_english: "An informal phrase meaning that something is ready or approved."
+    meaning_bahasa: "Frasa informal yang berarti sesuatu sudah siap atau disetujui."
+
+questions:
+  - q: "What was the main purpose of Alex and Ben's conversation?"
+    a: "Alex asked Ben to review his pull request for a new caching layer."
+  - q: "What was Ben's main concern about Alex's code?"
+    a: "He was concerned that a null cache key could cause an unhandled exception."
+  - q: "What solution did Ben suggest for the potential issue?"
+    a: "He suggested adding a guard clause at the beginning of the function to check for null keys."
+  - q: "What will Alex do after the conversation?"
+    a: "He will add the suggested check and push the updated changes to the repository."
