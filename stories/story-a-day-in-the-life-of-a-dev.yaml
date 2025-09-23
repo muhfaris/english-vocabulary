@@ -1,0 +1,20 @@
+story:
+  title: "a-day-in-the-life-of-a-dev"
+  date: "2025-09-24"
+  text: |
+    The day started with our usual morning **kick off**. Our project manager walked us through the priorities for the week, and we all shared what we'd be working on. After that, it was time for some **heads-down** coding. I was working on a new feature for the user profile page, and I was in the zone, making good progress.
+
+    Around noon, a junior developer on my team, Alex, sent me a message saying he was facing a **blocker**. He couldn't figure out how to integrate his work with a third-party API that was new to him. We decided to **sync up** for a quick 15-minute call. I walked him through the documentation and shared a code snippet that had helped me before. We quickly got him unblocked, and it felt great to help him out. It's important to foster a collaborative environment.
+
+    In the afternoon, we had a meeting with the product team to discuss the **scope** of the next sprint. We wanted to make sure everyone was **on the same page** about what we could realistically achieve in the next two weeks. I had to mention that my **bandwidth** was limited because I was still finishing up my current task, so I couldn't take on another big feature right away. They understood and we adjusted the plan accordingly.
+
+    As the day came to an end, I started to **wrap up** my work. I pushed my latest changes to a new branch and created a pull request for review. It was a productive day, a good mix of coding and collaboration.
+  highlighted_words:
+    - "kick off"
+    - "heads-down"
+    - "blocker"
+    - "sync up"
+    - "on the same page"
+    - "scope"
+    - "bandwidth"
+    - "wrap up"
