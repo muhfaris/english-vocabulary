@@ -1,0 +1,70 @@
+dialogue:
+  - speaker: Sarah
+    english: "Hey Alex, got a minute? I wanted to run a new feature idea by you."
+    bahasa: "Hai Alex, ada waktu sebentar? Aku mau mendiskusikan ide fitur baru denganmu."
+  - speaker: Alex
+    english: "Sure, Sarah. What's up?"
+    bahasa: "Tentu, Sarah. Ada apa?"
+  - speaker: Sarah
+    english: "We're thinking of adding a personalized recommendation engine to the dashboard. The goal is to increase user engagement."
+    bahasa: "Kami berpikir untuk menambahkan mesin rekomendasi yang dipersonalisasi ke dasbor. Tujuannya adalah untuk meningkatkan keterlibatan pengguna."
+  - speaker: Alex
+    english: "That sounds interesting. Can you give me a high-level overview of the requirements?"
+    bahasa: "Terdengar menarik. Bisakah kamu memberiku gambaran umum tingkat tinggi tentang persyaratannya?"
+  - speaker: Sarah
+    english: "Definitely. At its core, it would analyze user behavior—like pages visited and features used—and suggest other relevant parts of the app."
+    bahasa: "Tentu saja. Pada intinya, ini akan menganalisis perilaku pengguna—seperti halaman yang dikunjungi dan fitur yang digunakan—dan menyarankan bagian lain dari aplikasi yang relevan."
+  - speaker: Alex
+    english: "I see. So we'd need to track user actions more granularly. Do we have the data infrastructure for that?"
+    bahasa: "Aku mengerti. Jadi kita perlu melacak tindakan pengguna secara lebih rinci. Apakah kita punya infrastruktur data untuk itu?"
+  - speaker: Sarah
+    english: "That's what I wanted to ask you. What would be the technical lift to implement something like this?"
+    bahasa: "Itu yang ingin aku tanyakan padamu. Seberapa besar upaya teknis untuk mengimplementasikan sesuatu seperti ini?"
+  - speaker: Alex
+    english: "It's a significant undertaking. We'd need a robust event tracking system and a service to process that data. It's not a simple feature."
+    bahasa: "Ini adalah pekerjaan yang signifikan. Kita akan membutuhkan sistem pelacakan peristiwa yang kuat dan layanan untuk memproses data itu. Ini bukan fitur yang sederhana."
+  - speaker: Sarah
+    english: "I understand. Could we start with a simpler version? Maybe just recommend the top 5 most popular features to all users?"
+    bahasa: "Aku mengerti. Bisakah kita mulai dengan versi yang lebih sederhana? Mungkin hanya merekomendasikan 5 fitur paling populer kepada semua pengguna?"
+  - speaker: Alex
+    english: "That's much more feasible as a first step. We can build the foundation and iterate on it later. Let's avoid scope creep from the get-go."
+    bahasa: "Itu jauh lebih memungkinkan sebagai langkah pertama. Kita bisa membangun fondasinya dan mengulanginya nanti. Mari kita hindari scope creep sejak awal."
+  - speaker: Sarah
+    english: "Great. I'll write up a more detailed spec for this MVP version and we can flesh out the technical details next week."
+    bahasa: "Bagus. Aku akan menulis spesifikasi yang lebih rinci untuk versi MVP ini dan kita bisa membahas detail teknisnya minggu depan."
+  - speaker: Alex
+    english: "Sounds like a plan. Thanks for the heads-up."
+    bahasa: "Terdengar bagus. Terima kasih atas informasinya."
+
+expressions:
+  - phrase: "run an idea by you"
+    meaning_english: "To tell someone about an idea to get their opinion on it."
+    meaning_bahasa: "Memberi tahu seseorang tentang sebuah ide untuk mendapatkan pendapat mereka."
+  - phrase: "high-level overview"
+    meaning_english: "A general description that doesn't include all the details."
+    meaning_bahasa: "Deskripsi umum yang tidak mencakup semua detail."
+  - phrase: "technical lift"
+    meaning_english: "The amount of effort or work required from a technical perspective."
+    meaning_bahasa: "Jumlah upaya atau pekerjaan yang diperlukan dari perspektif teknis."
+  - phrase: "significant undertaking"
+    meaning_english: "A large and challenging project or task."
+    meaning_bahasa: "Proyek atau tugas yang besar dan menantang."
+  - phrase: "scope creep"
+    meaning_english: "When the requirements of a project expand from the original goals, often in an uncontrolled way."
+    meaning_bahasa: "Ketika persyaratan sebuah proyek meluas dari tujuan awal, seringkali dengan cara yang tidak terkendali."
+  - phrase: "flesh out the details"
+    meaning_english: "To add more information and specifics to a plan or idea."
+    meaning_bahasa: "Menambahkan lebih banyak informasi dan kekhususan pada suatu rencana atau ide."
+  - phrase: "heads-up"
+    meaning_english: "An advance warning or notice about something."
+    meaning_bahasa: "Peringatan atau pemberitahuan terlebih dahulu tentang sesuatu."
+
+questions:
+  - q: "What is the new feature Sarah initially proposes?"
+    a: "She proposes adding a personalized recommendation engine to the dashboard to increase user engagement."
+  - q: "What is Alex's main technical concern about the initial proposal?"
+    a: "His main concern is whether they have the necessary data infrastructure, including a robust event tracking system, to support it."
+  - q: "What is the simpler, MVP version of the feature they agree on?"
+    a: "They agree to start by recommending the top 5 most popular features to all users."
+  - q: "What does the phrase 'scope creep' mean in their conversation?"
+    a: "It refers to the risk of the project's requirements growing beyond the initial, more feasible plan they agreed upon."
