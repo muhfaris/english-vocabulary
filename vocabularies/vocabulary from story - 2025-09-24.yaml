@@ -1,0 +1,200 @@
+- word: "kick off"
+  pronunciation: "/kɪk ɔːf/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To start something, such as a meeting, event, or project."
+    bahasa: "Memulai sesuatu, seperti rapat, acara, atau proyek."
+  usage: "Used to signal the beginning of an activity. It's a common and slightly informal way to say 'start' or 'begin' in a professional context."
+  synonyms:
+    - "start"
+    - "begin"
+    - "launch"
+  examples:
+    workplace:
+      - "Let's kick off the meeting with a quick round of introductions."
+      - "We're going to kick off the new project next Monday."
+    casual:
+      - "Let's kick off the party with some music!"
+      - "The festival will kick off with a parade."
+  related:
+    - word: "wrap up"
+      difference: "'Wrap up' is the opposite of 'kick off'. It means to finish or conclude something."
+    - word: "start"
+      difference: "'Start' is a more general and neutral term. 'Kick off' is often used for more formal or organized events and has a more energetic feel."
+  story: |
+    Every Monday morning, our team has a meeting to kick off the week. We discuss our plans and what we want to achieve. This week, we're kicking off a new sprint, so everyone is excited to get started on the new features.
+- word: "heads-down"
+  pronunciation: "/hɛdz daʊn/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To be focused on work, typically without distractions."
+    bahasa: "Fokus pada pekerjaan, biasanya tanpa gangguan."
+  usage: "Used to describe a period of intense concentration. It often implies that someone is busy and should not be interrupted."
+  synonyms:
+    - "focused"
+    - "concentrating"
+    - "in the zone"
+  examples:
+    workplace:
+      - "I'm going to be heads-down this afternoon to finish the report."
+      - "Let's have a heads-down session to get this feature done."
+    casual:
+      - "He was heads-down studying for his exams all week."
+      - "She was heads-down, writing her novel."
+  related:
+    - word: "deep work"
+      difference: "'Deep work' is a more formal term for a similar concept, often associated with a specific productivity methodology. 'Heads-down' is a more casual, everyday phrase."
+    - word: "multitasking"
+      difference: "'Multitasking' is the opposite of being 'heads-down'. It means doing multiple things at once, often with less focus."
+  story: |
+    When I have a tight deadline, I put on my noise-cancelling headphones and go heads-down for a few hours. It's the only way I can get into a state of flow and write code efficiently. My team knows that when I'm heads-down, it's best to send me a message instead of tapping me on the shoulder.
+- word: "blocker"
+  pronunciation: "/ˈblɒkər/"
+  part_of_speech: "noun"
+  meaning:
+    english: "An issue or obstacle that prevents progress on a task."
+    bahasa: "Masalah atau rintangan yang menghalangi kemajuan tugas."
+  usage: "A common term in project management and software development to describe a problem that needs to be resolved before work can continue."
+  synonyms:
+    - "obstacle"
+    - "impediment"
+    - "hurdle"
+  examples:
+    workplace:
+      - "I can't proceed with my task because I have a blocker. I'm waiting for the API key."
+      - "Let's discuss any blockers during the daily stand-up."
+    casual:
+      - "My main blocker to finishing the marathon was my knee injury."
+      - "Lack of funding is a major blocker for their new business idea."
+  related:
+    - word: "issue"
+      difference: "'Issue' is a more general term for a problem. A 'blocker' is a specific type of issue that completely stops progress."
+    - word: "challenge"
+      difference: "A 'challenge' is a difficulty that can be overcome with effort. A 'blocker' is something that stops you completely until it's removed."
+  story: |
+    During our daily stand-up, I mentioned that I had a blocker. I couldn't access the test database, which was preventing me from verifying my changes. My team lead immediately helped me get the right permissions, and the blocker was resolved in less than an hour.
+- word: "sync up"
+  pronunciation: "/sɪŋk ʌp/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To meet and share information so that everyone is up-to-date."
+    bahasa: "Bertemu dan berbagi informasi agar semua orang mendapatkan informasi terkini."
+  usage: "A common phrase in the workplace for having a short, informal meeting to align on a topic."
+  synonyms:
+    - "catch up"
+    - "align"
+    - "get on the same page"
+  examples:
+    workplace:
+      - "Let's sync up after lunch to discuss the feedback."
+      - "I need to sync up with the design team about the new mockups."
+    casual:
+      - "Let's sync up before the party to decide what to bring."
+      - "We need to sync up on our travel plans."
+  related:
+    - word: "meeting"
+      difference: "A 'meeting' is usually more formal and has a set agenda. A 'sync up' is typically shorter, more informal, and focused on a specific topic."
+    - word: "huddle"
+      difference: "A 'huddle' is similar to a 'sync up' but often implies a quick, spontaneous gathering to solve a problem or make a decision."
+  story: |
+    I noticed that the new marketing campaign was not aligned with the features we were building. I scheduled a quick 15-minute sync up with the product manager to make sure we were both on the same page. The sync up was very productive, and we were able to clear up the confusion.
+- word: "on the same page"
+  pronunciation: "/ɒn ðə seɪm peɪdʒ/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To have a shared understanding or agreement on something."
+    bahasa: "Memiliki pemahaman atau kesepakatan yang sama tentang sesuatu."
+  usage: "Used to confirm that everyone involved in a discussion or project has the same information and agrees on the goals or plan."
+  synonyms:
+    - "in agreement"
+    - "aligned"
+    - "in sync"
+  examples:
+    workplace:
+      - "Before we proceed, let's make sure we're all on the same page about the project requirements."
+      - "I just wanted to have a quick chat to ensure we're on the same page."
+    casual:
+      - "My wife and I are on the same page about where to go for vacation."
+      - "Are we on the same page about who is bringing what to the potluck?"
+  related:
+    - word: "agree"
+      difference: "'Agree' is about sharing an opinion. 'On the same page' is broader; it's about having a shared understanding, which includes but is not limited to agreement."
+    - word: "aligned"
+      difference: "'Aligned' is a very similar term, often used in a more formal business context. 'On the same page' is a bit more conversational."
+  story: |
+    We had a long meeting to discuss the new feature. There were a lot of different opinions, but after an hour of discussion, we were finally all on the same page. We had a clear plan and everyone knew what they needed to do.
+- word: "scope"
+  pronunciation: "/skoʊp/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The extent of the area or subject matter that something deals with or to which it is relevant."
+    bahasa: "Cakupan area atau pokok bahasan yang dibahas atau relevan."
+  usage: "In project management, 'scope' refers to the specific goals, deliverables, features, and tasks involved in a project."
+  synonyms:
+    - "range"
+    - "extent"
+    - "reach"
+  examples:
+    workplace:
+      - "Adding that feature is outside the scope of this project."
+      - "We need to define the scope of the MVP before we start coding."
+    casual:
+      - "The scope of the book is limited to European history."
+      - "That's a bit outside the scope of our conversation."
+  related:
+    - word: "scope creep"
+      difference: "'Scope creep' is a common project management problem where the scope of a project gradually expands beyond its original goals, often leading to delays and budget overruns."
+    - word: "feature"
+      difference: "A 'feature' is a specific piece of functionality. The 'scope' of a project is the collection of all its features and other work."
+  story: |
+    During the planning meeting, we had a long discussion about the scope of the project. The client wanted to add a lot of new features, but we had to explain that we had a limited budget and timeline. We agreed to focus on the core features first and add the rest in a future release.
+- word: "bandwidth"
+  pronunciation: "/ˈbændwɪdθ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The capacity to take on more work or handle more information."
+    bahasa: "Kapasitas untuk menerima pekerjaan tambahan atau menangani lebih banyak informasi."
+  usage: "A metaphorical term used in business to describe a person's or team's availability and ability to do more work."
+  synonyms:
+    - "capacity"
+    - "availability"
+    - "ability"
+  examples:
+    workplace:
+      - "I don't have the bandwidth to take on another project right now."
+      - "Do you have the bandwidth to help me with this task?"
+    casual:
+      - "I don't have the mental bandwidth to deal with that drama."
+      - "He has a lot of bandwidth for new ideas."
+  related:
+    - word: "capacity"
+      difference: "'Capacity' is a more general term for the ability to hold or do something. 'Bandwidth' is a more modern, business-jargon term that specifically refers to work capacity."
+    - word: "availability"
+      difference: "'Availability' refers to whether you have free time. 'Bandwidth' is about whether you have the mental and emotional capacity, not just the time."
+  story: |
+    My manager asked me if I could help with a new project, but I had to be honest and say that I didn't have the bandwidth. I was already working on two high-priority tasks and I didn't want to compromise the quality of my work by taking on too much.
+- word: "wrap up"
+  pronunciation: "/ræp ʌp/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To finish or conclude something."
+    bahasa: "Menyelesaikan atau mengakhiri sesuatu."
+  usage: "A common and slightly informal way to say 'finish' or 'conclude' in a professional context. It's often used for meetings, projects, or tasks."
+  synonyms:
+    - "finish"
+    - "conclude"
+    - "complete"
+  examples:
+    workplace:
+      - "Let's wrap up the meeting in the next 10 minutes."
+      - "I need to wrap up this report before I leave for the day."
+    casual:
+      - "Let's wrap up the party and start cleaning up."
+      - "It's getting late, let's wrap up our conversation."
+  related:
+    - word: "kick off"
+      difference: "'Kick off' is the opposite of 'wrap up'. It means to start something."
+    - word: "finish"
+      difference: "'Finish' is a more general and neutral term. 'Wrap up' often implies bringing things to a neat and tidy conclusion."
+  story: |
+    As we approached the end of the day, our team lead sent a message to remind everyone to wrap up their work. I finished writing my last email, pushed my code, and shut down my computer. It was a good feeling to wrap up a productive week.
