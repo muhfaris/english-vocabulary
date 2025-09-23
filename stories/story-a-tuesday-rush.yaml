@@ -1,0 +1,22 @@
+story:
+  title: "a-tuesday-rush"
+  date: "2025-09-23"
+  text: |
+    Tuesday started with the usual morning **stand-up**. My turn came, and I shared my progress. "No updates on my main task," I said, "but I have a **blocker** on the analytics feature. The third-party API documentation is unclear."
+
+    My project manager, Sarah, nodded. "Thanks for the heads-up. Let's talk after this."
+
+    The day quickly got busy. The **deadline** for the new feature is this Friday, so the pressure was on. During my chat with Sarah, we realized the **scope** of my task had grown bigger than we initially thought. We had to **align** on what was truly necessary for the first release.
+
+    We decided to **prioritize** the core functionality and move the less critical parts to the next sprint. With a clear path forward, I finally managed to finish my code. I submitted my pull request, and after a quick review from a colleague, I was ready to **merge** it into the main branch.
+
+    Just in time, too. The final **deployment** for this version is scheduled for tomorrow. I grabbed a well-deserved cup of coffee, feeling a sense of accomplishment. It was a hectic day, but we made good progress.
+  highlighted_words:
+    - "stand-up"
+    - "blocker"
+    - "deadline"
+    - "scope"
+    - "align"
+    - "prioritize"
+    - "merge"
+    - "deployment"
