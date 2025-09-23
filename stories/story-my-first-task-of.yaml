@@ -1,0 +1,21 @@
+story:
+  title: my-first-task-of
+  date: '2025-09-23'
+  text: 'My first task of the day was to refactor a module full of **spaghetti code**.
+    The previous developer chose to **hard code** a lot of values, which made it very
+    difficult to update. I had to store an API key as an **environment variable**
+    to make it more secure and flexible.
+
+
+    Later, I worked on a feature that involved a lot of user interactions. The **state
+    management** was getting complex, and I had to be careful to avoid creating a
+    **race condition** when saving the user''s data. It was a challenging but satisfying
+    piece of work. I felt like I was finally untangling the mess and making the codebase
+    healthier. It''s a slow process, but leaving the code better than you found it
+    is always a good feeling.'
+  highlighted_words:
+  - environment variable
+  - hard code
+  - state management
+  - race condition
+  - spaghetti code
