@@ -1,0 +1,249 @@
+- word: "Unforeseen"
+  pronunciation: "/ˌʌnfɔːrˈsiːn/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Not anticipated or predicted."
+    bahasa: "Tidak terduga atau tidak diperkirakan."
+  usage: "Use this word to describe unexpected problems, issues, or events that disrupt a plan. It’s common in project management and bug-fixing contexts."
+  synonyms:
+    - "unexpected"
+    - "unanticipated"
+  examples:
+    workplace:
+      - "We ran into an unforeseen issue with the database migration that delayed the deployment."
+      - "Due to unforeseen circumstances, we'll have to postpone the feature launch."
+    casual:
+      - "I had some unforeseen expenses this month, so I need to be careful with my budget."
+      - "An unforeseen traffic jam made me late for the appointment."
+  related:
+    - word: "unexpected"
+      difference: "'Unforeseen' often implies a lack of foresight or inability to predict, whereas 'unexpected' is more neutral and simply means something wasn't expected."
+    - word: "unpredictable"
+      difference: "'Unpredictable' describes something that cannot be predicted in general, while 'unforeseen' refers to a specific event that was not predicted."
+  story: |
+    During sprint planning, the team felt confident about the timeline. Everything was mapped out. But on Tuesday, an unforeseen bug surfaced in the production environment. It was a critical issue that required immediate attention, forcing everyone to drop their planned tasks and tackle the problem.
+
+- word: "Scramble"
+  pronunciation: "/ˈskræmbəl/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To move or act hastily or awkwardly, often in a state of panic or urgency."
+    bahasa: "Bergerak atau bertindak dengan tergesa-gesa atau canggung, seringkali dalam keadaan panik atau mendesak."
+  usage: "Use 'scramble' when a team has to react quickly and perhaps chaotically to an urgent situation, like a critical bug or a sudden deadline change."
+  synonyms:
+    - "rush"
+    - "hasten"
+  examples:
+    workplace:
+      - "The whole team had to scramble to get the hotfix out before the end of the day."
+      - "When the server went down, it was a mad scramble to figure out the root cause."
+    casual:
+      - "I had to scramble to get ready this morning because my alarm didn't go off."
+      - "He scrambled to find his keys just as the taxi arrived."
+  related:
+    - word: "rush"
+      difference: "'Rush' implies speed, while 'scramble' implies a combination of speed and disorganization or difficulty."
+    - word: "hustle"
+      difference: "'Hustle' often has a more positive connotation of working hard and energetically, whereas 'scramble' suggests a more desperate or panicked effort."
+  story: |
+    The demo for the new feature was in an hour, but a key component suddenly stopped working. The team had to scramble, with developers debugging code and the product manager preparing a backup presentation just in case. It was a chaotic but focused effort to get things working again.
+
+- word: "Drop everything"
+  pronunciation: "/drɒp ˈɛvriθɪŋ/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To stop what you are doing immediately to attend to something more urgent."
+    bahasa: "Menghentikan apa yang sedang Anda lakukan segera untuk menangani sesuatu yang lebih mendesak."
+  usage: "This phrase is used to give a strong instruction when a high-priority issue arises that needs immediate attention, overriding all other tasks."
+  synonyms:
+    - "stop everything"
+    - "abandon tasks"
+  examples:
+    workplace:
+      - "The lead developer told everyone to drop everything and focus on the security vulnerability."
+      - "When the production server crashed, we had to drop everything to get it back online."
+    casual:
+      - "I had to drop everything and pick up my son from school because he was sick."
+      - "She dropped everything to help her friend who was in trouble."
+  related:
+    - word: "put on hold"
+      difference: "'Put on hold' means to pause a task with the intention of returning to it later. 'Drop everything' is more immediate and drastic, implying the new task is far more important."
+    - word: "all hands on deck"
+      difference: "'All hands on deck' is a call for everyone to help with a situation, while 'drop everything' is an instruction to an individual or team to stop their current work for a new priority."
+  story: |
+    We were in the middle of a sprint, working on new features. Suddenly, a message from the CEO came in. A major client found a critical bug. Our manager came over and said, "Team, drop everything. This is our number one priority now."
+
+- word: "Reprioritize"
+  pronunciation: "/ˌriːpraɪˈɒrɪtaɪz/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To change the order of tasks or goals in terms of their importance."
+    bahasa: "Mengubah urutan tugas atau tujuan berdasarkan tingkat kepentingannya."
+  usage: "This word is very common in agile environments and project management, used when new information or issues require a change in the team's focus."
+  synonyms:
+    - "reorder"
+    - "reshuffle"
+  examples:
+    workplace:
+      - "After the client feedback, we had to reprioritize the features in our backlog."
+      - "We need to reprioritize our tasks for this week to handle the urgent bug fixes."
+    casual:
+      - "I had to reprioritize my weekend plans to study for my exam."
+      - "After having a child, you have to reprioritize your life completely."
+  related:
+    - word: "prioritize"
+      difference: "'Prioritize' is the initial act of setting priorities. 'Reprioritize' is the act of changing existing priorities."
+    - word: "postpone"
+      difference: "'Postpone' means to delay something. When you reprioritize, you might postpone some tasks, but the main action is re-evaluating the importance of all tasks."
+  story: |
+    At our daily stand-up, the product owner announced a shift in business goals. As a result, our team had to hold a meeting to reprioritize our entire sprint backlog. The 'nice-to-have' features were moved down, and a new, more critical feature took the top spot.
+
+- word: "Stuck"
+  pronunciation: "/stʌk/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Unable to move or proceed with a task or problem."
+    bahasa: "Tidak bisa bergerak atau melanjutkan tugas atau masalah."
+  usage: "A very common word used in stand-up meetings to describe a blocker. It’s a clear and simple way to ask for help."
+  synonyms:
+    - "blocked"
+    - "halted"
+  examples:
+    workplace:
+      - "I'm stuck on this bug; can someone take a look at my code?"
+      - "If you're stuck for more than 15 minutes, you should ask for help."
+    casual:
+      - "I'm stuck on the last question of this crossword puzzle."
+      - "We were stuck in traffic for over an hour."
+  related:
+    - word: "blocker"
+      difference: "'Stuck' describes the personal feeling of being unable to proceed. A 'blocker' is the external issue or task that is causing you to be stuck."
+    - word: "puzzled"
+      difference: "'Puzzled' means you are confused but might still be thinking of solutions. 'Stuck' implies you have stopped making progress entirely."
+  story: |
+    A junior developer, Alex, had been quiet all morning. During the stand-up meeting, when it was his turn, he said, "I'm currently stuck on the API integration. The documentation is unclear, and I keep getting an authentication error." The senior developer immediately offered to pair program with him after the meeting.
+
+- word: "Bogged down"
+  pronunciation: "/bɒɡd daʊn/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To be so involved in the details of something that you cannot make progress."
+    bahasa: "Terlalu terlibat dalam detail sesuatu sehingga tidak bisa membuat kemajuan."
+  usage: "Use this phrase to describe a situation where progress is slow because of excessive details, complexity, or minor issues."
+  synonyms:
+    - "mired"
+    - "weighed down"
+  examples:
+    workplace:
+      - "Let's not get bogged down in the details at this stage; we need to focus on the big picture."
+      - "The team is getting bogged down with minor UI tweaks instead of finishing the core functionality."
+    casual:
+      - "I got bogged down in paperwork and didn't have time for anything else."
+      - "He's really bogged down with homework this week."
+  related:
+    - word: "in the weeds"
+      difference: "Both mean getting lost in details. 'In the weeds' often implies focusing on unnecessary details, while 'bogged down' emphasizes the lack of progress as a result."
+    - word: "overwhelmed"
+      difference: "'Overwhelmed' is a general feeling of having too much to handle. 'Bogged down' is more specific to being stuck in details or complexity."
+  story: |
+    The code review for the new feature was taking forever. The reviewer was getting bogged down in minor stylistic suggestions and debates about variable names. The author of the code finally said, "Can we focus on the logic? We're getting bogged down and losing sight of the main goal here."
+
+- word: "How-to guide"
+  pronunciation: "/haʊ-tuː ɡaɪd/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A document or article that gives step-by-step instructions on how to do a specific task."
+    bahasa: "Dokumen atau artikel yang memberikan instruksi langkah-demi-langkah tentang cara melakukan tugas tertentu."
+  usage: "Commonly used when referring to documentation, tutorials, or onboarding materials that help engineers learn a new tool, process, or part of the codebase."
+  synonyms:
+    - "tutorial"
+    - "manual"
+  examples:
+    workplace:
+      - "I wrote a how-to guide for setting up the new development environment."
+      - "Can you point me to the how-to guide for deploying to staging?"
+    casual:
+      - "I found a great how-to guide online for baking sourdough bread."
+      - "This video is a how-to guide for changing a flat tire."
+  related:
+    - word: "documentation"
+      difference: "'Documentation' is a broad term for all informational materials. A 'how-to guide' is a specific type of documentation focused on achieving a single, practical outcome."
+    - word: "cheatsheet"
+      difference: "A 'cheatsheet' is a short reference with key commands or syntax. A 'how-to guide' is a more detailed, step-by-step tutorial."
+  story: |
+    When a new developer joined the team, she was tasked with setting up her local environment, which was notoriously complex. Thankfully, a senior engineer had recently written a comprehensive how-to guide with screenshots and commands. Thanks to the guide, she was up and running in less than an hour.
+
+- word: "Move forward"
+  pronunciation: "/muːv ˈfɔːrwərd/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To make progress in a task, project, or discussion."
+    bahasa: "Membuat kemajuan dalam tugas, proyek, atau diskusi."
+  usage: "A common phrase in meetings to signal the need to advance, make a decision, or proceed to the next topic, especially after a long discussion or a resolved issue."
+  synonyms:
+    - "proceed"
+    - "make progress"
+  examples:
+    workplace:
+      - "Now that we've agreed on the approach, let's move forward with the implementation."
+      - "To move forward, we need a decision from the product manager on this."
+    casual:
+      - "It's time to learn from our mistakes and move forward."
+      - "After a long debate, they decided to move forward with the plan."
+  related:
+    - word: "continue"
+      difference: "'Continue' means to keep doing the same thing. 'Move forward' implies advancing past a certain point or obstacle."
+    - word: "get going"
+      difference: "'Get going' is more about starting something. 'Move forward' is about making progress on something that is already underway."
+  story: |
+    The team debated for an hour about which database technology to use. The discussion was going in circles. Finally, the tech lead stepped in and said, "We've heard all the pros and cons. We need to make a decision to move forward. Let's take a vote."
+
+- word: "Mutual support"
+  pronunciation: "/ˈmjuːtʃuəl səˈpɔːrt/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The act of two or more people helping each other."
+    bahasa: "Tindakan saling membantu antara dua orang atau lebih."
+  usage: "This phrase is often used in discussions about team culture, collaboration, and creating a healthy work environment where team members help each other succeed."
+  synonyms:
+    - "reciprocal help"
+    - "collaboration"
+  examples:
+    workplace:
+      - "A culture of mutual support is essential for a high-performing team."
+      - "Our team's success is built on mutual support and open communication."
+    casual:
+      - "Their long friendship was based on mutual support through thick and thin."
+      - "In a good partnership, there is a lot of mutual support."
+  related:
+    - word: "teamwork"
+      difference: "'Teamwork' is about working together on a common goal. 'Mutual support' is a key component of teamwork, focusing specifically on the helping and supportive behaviors within the team."
+    - word: "help"
+      difference: "'Help' can be one-directional. 'Mutual support' emphasizes that the support is reciprocal and goes both ways."
+  story: |
+    During a particularly tough project with a tight deadline, the team's spirit of mutual support shone through. When one developer was struggling with a complex task, another would offer to help, and when someone had to work late, a teammate would stay with them for encouragement. This sense of mutual support was the main reason they successfully launched on time.
+
+- word: "Morning sync"
+  pronunciation: "/ˈmɔːrnɪŋ sɪŋk/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A short meeting held in the morning for a team to align on their tasks and priorities for the day."
+    bahasa: "Rapat singkat yang diadakan di pagi hari bagi tim untuk menyelaraskan tugas dan prioritas mereka untuk hari itu."
+  usage: "An alternative term for a daily stand-up or daily scrum. It emphasizes the 'synchronization' aspect of the meeting."
+  synonyms:
+    - "daily stand-up"
+    - "daily huddle"
+  examples:
+    workplace:
+      - "Don't be late for the morning sync; it starts at 9:15 AM sharp."
+      - "I'll give you an update on my progress during the morning sync tomorrow."
+    casual:
+      - "My roommate and I have a quick morning sync over coffee to plan our chores for the day."
+      - "The family had a morning sync to decide who was driving whom to their activities."
+  related:
+    - word: "stand-up meeting"
+      difference: "Essentially the same thing. 'Morning sync' is just another popular name for it. Some teams prefer 'sync' because it sounds more collaborative than a 'stand-up' report."
+    - word: "check-in"
+      difference: "A 'check-in' can happen anytime and might be one-on-one. A 'morning sync' is specifically a team meeting that happens at the start of the day."
+  story: |
+    The remote team started each day with a 15-minute morning sync via video call. Each person would briefly share what they worked on yesterday, what they planned for today, and any blockers. This quick ritual ensured everyone was on the same page and felt connected, despite being in different time zones.
