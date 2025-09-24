@@ -1,0 +1,196 @@
+- word: to-do list
+  pronunciation: /təˈduː lɪst/
+  part_of_speech: noun
+  meaning:
+    english: A list of tasks that need to be completed, typically for a specific day
+      or period.
+    bahasa: Daftar tugas yang perlu diselesaikan, biasanya untuk hari atau periode
+      tertentu.
+  usage: Commonly used to refer to your personal or professional tasks that require
+    attention.
+  synonyms:
+  - task list
+  - agenda
+  examples:
+    workplace:
+    - Let me check my **to-do list** to see if I have bandwidth for that.
+    - My **to-do list** is packed with meetings and code reviews today.
+    casual:
+    - I have a long **to-do list** of chores for this weekend.
+    - I get a lot of satisfaction from crossing items off my **to-do list**.
+  related:
+  - word: backlog
+    difference: A 'backlog' is a formal, often prioritized, list of work items for
+      a team or project, while a 'to-do list' is usually more personal and informal.
+  story: The first thing I do every morning is organize my **to-do list** to plan
+    out my day and set priorities.
+- word: spearhead
+  pronunciation: /ˈspɪəhɛd/
+  part_of_speech: verb
+  meaning:
+    english: To lead an activity or attack; to be the leader of something.
+    bahasa: Memimpin suatu kegiatan atau serangan; menjadi pemimpin dari sesuatu.
+  usage: Used when someone is taking the main responsibility to lead a project or
+    initiative.
+  synonyms:
+  - lead
+  - initiate
+  examples:
+    workplace:
+    - She was chosen to **spearhead** the company's expansion into Asia.
+    - We need someone to **spearhead** the refactoring effort for our legacy codebase.
+    casual:
+    - He decided to **spearhead** the local community cleanup event.
+    - The band's singer will **spearhead** a campaign for charity.
+  related:
+  - word: lead
+    difference: '''Lead'' is a general term for being in charge. ''Spearhead'' implies
+      being at the forefront of a new, often challenging, initiative.'
+  story: Our manager asked for a volunteer to **spearhead** the investigation into
+    our recent performance issues.
+- word: get in touch
+  pronunciation: /ɡɛt ɪn tʌtʃ/
+  part_of_speech: phrase
+  meaning:
+    english: To make contact with someone.
+    bahasa: Menghubungi seseorang.
+  usage: A common and slightly informal way to say 'contact'.
+  synonyms:
+  - contact
+  - connect with
+  examples:
+    workplace:
+    - I'll **get in touch** with the support team to see if they have any more information.
+    - Please **get in touch** with me next week to discuss this further.
+    casual:
+    - It was great to **get in touch** with old friends from college.
+    - Let's **get in touch** over the weekend.
+  related:
+  - word: reach out
+    difference: Very similar and often interchangeable. 'Reach out' can sometimes
+      imply that the person is difficult to contact or that the contact is more of
+      an appeal for help or information.
+  story: I need to **get in touch** with the designer to get the final assets for
+    the new feature.
+- word: update me
+  pronunciation: /ʌpˈdeɪt miː/
+  part_of_speech: phrase
+  meaning:
+    english: To give someone the most recent information about something.
+    bahasa: Memberi saya informasi terbaru tentang sesuatu.
+  usage: A direct and common way to ask for information about the progress of a task
+    or situation.
+  synonyms:
+  - keep me informed
+  - let me know what's happening
+  examples:
+    workplace:
+    - Please **update me** on your progress by the end of the day.
+    - Can you **update me** on the status of the server after the reboot?
+    casual:
+    - '**Update me** on your travel plans when you know them.'
+    - He promised to **update me** after his doctor's appointment.
+  related:
+  - word: keep me posted
+    difference: '''Keep me posted'' is slightly more informal and implies a continuous
+      process of updates over time. ''Update me'' can be for a single update.'
+  story: Before she left for her meeting, my manager said, '**Update me** on the bug
+    fix as soon as you have something.'
+- word: examine
+  pronunciation: /ɪɡˈzæmɪn/
+  part_of_speech: verb
+  meaning:
+    english: To look at or consider a person or thing carefully and in detail.
+    bahasa: Melihat atau mempertimbangkan seseorang atau sesuatu dengan hati-hati
+      dan secara rinci.
+  usage: Used when you need to inspect something closely, like code, a bug report,
+    or a document.
+  synonyms:
+  - inspect
+  - investigate
+  examples:
+    workplace:
+    - We need to **examine** the logs to find the source of the error.
+    - The QA team will **examine** the new feature for any potential issues.
+    casual:
+    - The doctor will **examine** the patient.
+    - She had to **examine** the contract carefully before signing.
+  related:
+  - word: look into
+    difference: '''Look into'' is more informal and suggests the beginning of an investigation.
+      ''Examine'' implies a more thorough and detailed inspection.'
+  story: The bug report was vague, so the first step was to **examine** the code in
+    the affected module.
+- word: all set
+  pronunciation: /ɔːl sɛt/
+  part_of_speech: phrase
+  meaning:
+    english: Completely ready or prepared for something.
+    bahasa: Benar-benar siap untuk sesuatu.
+  usage: An informal way to say that everything is ready and you can proceed.
+  synonyms:
+  - ready
+  - prepared
+  examples:
+    workplace:
+    - The presentation is finished, so we're **all set** for the meeting.
+    - Once the tests pass, we'll be **all set** for deployment.
+    casual:
+    - I've packed my bags, so I'm **all set** for the trip.
+    - Are you **all set** to order?
+  related:
+  - word: good to go
+    difference: These phrases are very similar and can almost always be used interchangeably.
+      'All set' can sometimes focus more on the state of being prepared, while 'good
+      to go' focuses on the readiness for action.
+  story: I finished configuring the new development environment. Now I'm **all set**
+    to start coding.
+- word: manage
+  pronunciation: /ˈmænɪdʒ/
+  part_of_speech: verb
+  meaning:
+    english: To succeed in doing or dealing with something, especially something difficult.
+    bahasa: Berhasil dalam melakukan atau berurusan dengan sesuatu, terutama yang
+      sulit.
+  usage: Used to describe handling tasks, responsibilities, or situations successfully.
+  synonyms:
+  - handle
+  - control
+  examples:
+    workplace:
+    - I have a lot of tasks, but I think I can **manage**.
+    - She needs to **manage** a team of five developers.
+    casual:
+    - It's a difficult situation, but he'll **manage**.
+    - How do you **manage** to stay so organized?
+  related:
+  - word: handle
+    difference: Often interchangeable. 'Manage' can sometimes imply a longer-term
+      or more complex control over something (like a project or team), while 'handle'
+      can be for a more immediate situation.
+  story: The project has many moving parts, so it's important to **manage** my time
+    effectively to meet the deadline.
+- word: reconnect
+  pronunciation: /ˌriːkəˈnɛkt/
+  part_of_speech: verb
+  meaning:
+    english: To get in touch with someone again after a period of not communicating.
+    bahasa: Menghubungi seseorang lagi setelah periode tidak berkomunikasi.
+  usage: Used when you are resuming communication with someone.
+  synonyms:
+  - follow up
+  - get in touch again
+  examples:
+    workplace:
+    - Let's **reconnect** next week to discuss our progress.
+    - I need to **reconnect** with the product manager about the feature requirements.
+    casual:
+    - I hope to **reconnect** with some old friends at the reunion.
+    - We should **reconnect** for coffee sometime.
+  related:
+  - word: get back to
+    difference: '''Get back to'' is usually about responding to a specific question
+      or request. ''Reconnect'' is more about re-establishing a general line of communication
+      after a break.'
+  story: I was busy with a critical bug, so I told my colleague I would **reconnect**
+    with him about his proposal later in the day.
