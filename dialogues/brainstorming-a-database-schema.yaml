@@ -1,0 +1,62 @@
+dialogue:
+  - speaker: Alex
+    english: "Hey team, thanks for hopping on this call. I want to brainstorm the database schema for the new inventory management feature."
+    bahasa: "Hai tim, terima kasih sudah bergabung dalam panggilan ini. Aku ingin kita bertukar pikiran tentang skema database untuk fitur manajemen inventaris yang baru."
+  - speaker: Ben
+    english: "Sounds good. I was thinking we'd need a `products` table, a `warehouses` table, and a `stock_levels` table to link them."
+    bahasa: "Terdengar bagus. Aku berpikir kita akan memerlukan tabel `products`, tabel `warehouses`, dan tabel `stock_levels` untuk menghubungkan keduanya."
+  - speaker: Chloe
+    english: "That's a solid start. Should `stock_levels` be a pivot table with product ID, warehouse ID, and quantity?"
+    bahasa: "Itu awal yang solid. Haruskah `stock_levels` menjadi tabel pivot dengan ID produk, ID gudang, dan kuantitas?"
+  - speaker: Alex
+    english: "Exactly. That allows a product to exist in multiple warehouses. We should also add timestamps for `created_at` and `updated_at` to track stock movements."
+    bahasa: "Tepat sekali. Itu memungkinkan sebuah produk ada di beberapa gudang. Kita juga harus menambahkan timestamp untuk `created_at` dan `updated_at` untuk melacak pergerakan stok."
+  - speaker: Ben
+    english: "Good call. What about product variations, like size and color? Should that be in the `products` table?"
+    bahasa: "Ide bagus. Bagaimana dengan variasi produk, seperti ukuran dan warna? Haruskah itu ada di tabel `products`?"
+  - speaker: Chloe
+    english: "I think it's better to have a separate `product_variants` table. It keeps the `products` table clean and avoids redundancy."
+    bahasa: "Menurutku lebih baik memiliki tabel `product_variants` yang terpisah. Itu membuat tabel `products` tetap bersih dan menghindari redundansi."
+  - speaker: Alex
+    english: "I agree with Chloe. We can link `product_variants` to the main `products` table with a foreign key. This is more scalable."
+    bahasa: "Aku setuju dengan Chloe. Kita bisa menghubungkan `product_variants` ke tabel `products` utama dengan foreign key. Ini lebih skalabel."
+  - speaker: Ben
+    english: "Makes sense. So, a `products` table for general info, a `product_variants` table for specific attributes, and `stock_levels` to track inventory per warehouse."
+    bahasa: "Masuk akal. Jadi, tabel `products` untuk info umum, tabel `product_variants` untuk atribut spesifik, dan `stock_levels` untuk melacak inventaris per gudang."
+  - speaker: Chloe
+    english: "We might also need a `suppliers` table to track where we get our products from."
+    bahasa: "Kita mungkin juga memerlukan tabel `suppliers` untuk melacak dari mana kita mendapatkan produk kita."
+  - speaker: Alex
+    english: "Excellent point. Let's add that to the schema. I think we have a good foundation now. I'll draft an ERD based on this discussion."
+    bahasa: "Poin yang sangat bagus. Mari tambahkan itu ke dalam skema. Aku rasa kita punya fondasi yang baik sekarang. Aku akan menyusun ERD berdasarkan diskusi ini."
+
+expressions:
+  - phrase: "hopping on this call"
+    meaning_english: "Joining this conference call or online meeting."
+    meaning_bahasa: "Bergabung dalam panggilan konferensi atau rapat online ini."
+  - phrase: "brainstorm"
+    meaning_english: "To generate a wide variety of ideas about a certain topic."
+    meaning_bahasa: "Menghasilkan berbagai macam ide tentang topik tertentu."
+  - phrase: "solid start"
+    meaning_english: "A good and reliable beginning."
+    meaning_bahasa: "Awal yang baik dan dapat diandalkan."
+  - phrase: "pivot table"
+    meaning_english: "A table that connects the data in two or more other tables, often used for many-to-many relationships."
+    meaning_bahasa: "Tabel yang menghubungkan data di dua atau lebih tabel lain, sering digunakan untuk hubungan banyak-ke-banyak."
+  - phrase: "Good call"
+    meaning_english: "A good decision or suggestion."
+    meaning_bahasa: "Keputusan atau saran yang bagus."
+  - phrase: "scalable"
+    meaning_english: "Able to handle a growing amount of work or to be enlarged to accommodate that growth."
+    meaning_bahasa: "Mampu menangani jumlah pekerjaan yang terus bertambah atau dapat diperbesar untuk mengakomodasi pertumbuhan tersebut."
+  - phrase: "ERD (Entity-Relationship Diagram)"
+    meaning_english: "A diagram that shows the relationships of entity sets stored in a database."
+    meaning_bahasa: "Diagram yang menunjukkan hubungan antar himpunan entitas yang disimpan dalam database."
+
+questions:
+  - q: "What was the initial proposal for the database tables?"
+    a: "A `products` table, a `warehouses` table, and a `stock_levels` table to link them."
+  - q: "How did the team decide to handle product variations like size and color?"
+    a: "They decided to create a separate `product_variants` table linked to the `products` table with a foreign key."
+  - q: "What other table was suggested to be added to the schema?"
+    a: "A `suppliers` table was suggested to track the source of the products."
