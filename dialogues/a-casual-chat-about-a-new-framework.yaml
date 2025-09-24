@@ -1,0 +1,76 @@
+dialogue:
+  - speaker: Alex
+    english: "Hey Ben, got a minute? I wanted to pick your brain about something."
+    bahasa: "Hei Ben, ada waktu sebentar? Aku ingin bertanya pendapatmu tentang sesuatu."
+  - speaker: Ben
+    english: "Sure, what's up?"
+    bahasa: "Tentu, ada apa?"
+  - speaker: Alex
+    english: "I was reading about this new JavaScript framework, Svelte. Have you heard of it?"
+    bahasa: "Aku sedang membaca tentang framework JavaScript baru, Svelte. Pernah dengar?"
+  - speaker: Ben
+    english: "Oh yeah, I've tinkered with it a bit. It's quite different from React or Vue. It's a compiler, so it shifts the work from the browser to the build step."
+    bahasa: "Oh ya, aku sudah sedikit mencobanya. Cukup berbeda dari React atau Vue. Svelte itu compiler, jadi ia memindahkan pekerjaan dari browser ke langkah build."
+  - speaker: Alex
+    english: "That's what caught my eye. The idea of no virtual DOM and shipping minimal code sounds very appealing. What was your experience like?"
+    bahasa: "Itu yang menarik perhatianku. Gagasan tanpa virtual DOM dan mengirimkan kode minimal terdengar sangat menarik. Bagaimana pengalamanmu?"
+  - speaker: Ben
+    english: "It was surprisingly smooth. The learning curve isn't steep at all if you know your web fundamentals. The component syntax is very clean."
+    bahasa: "Ternyata sangat lancar. Kurva belajarnya tidak curam sama sekali jika kamu paham dasar-dasar web. Sintaks komponennya sangat bersih."
+  - speaker: Alex
+    english: "How's the ecosystem? Is it mature enough for a production environment?"
+    bahasa: "Bagaimana dengan ekosistemnya? Apakah sudah cukup matang untuk lingkungan produksi?"
+  - speaker: Ben
+    english: "That's the main trade-off. It's growing fast, but it's not as extensive as React's. You might have to build some things from scratch that you'd normally find in a library."
+    bahasa: "Itulah pertukaran utamanya. Ekosistemnya berkembang pesat, tetapi tidak seluas React. Kamu mungkin harus membangun beberapa hal dari awal yang biasanya bisa kamu temukan di sebuah pustaka."
+  - speaker: Alex
+    english: "I see. So it's a balance between performance and developer convenience at this point."
+    bahasa: "Aku mengerti. Jadi ini adalah keseimbangan antara performa dan kenyamanan developer saat ini."
+  - speaker: Ben
+    english: "Exactly. For a smaller project or a performance-critical app, it could be a game-changer. For a large-scale enterprise app, you might want to stick with something more established for now."
+    bahasa: "Tepat sekali. Untuk proyek yang lebih kecil atau aplikasi yang kinerjanya sangat penting, Svelte bisa menjadi pengubah permainan. Untuk aplikasi skala besar, mungkin lebih baik tetap menggunakan sesuatu yang lebih mapan untuk saat ini."
+  - speaker: Alex
+    english: "That makes sense. Thanks for the insight, Ben. I think I'll spin up a small side project with it this weekend to get a real feel for it."
+    bahasa: "Masuk akal. Terima kasih atas wawasannya, Ben. Aku pikir aku akan membuat proyek sampingan kecil dengan Svelte akhir pekan ini untuk benar-benar merasakannya."
+  - speaker: Ben
+    english: "No problem! Let me know how it goes. I'd be curious to hear your thoughts."
+    bahasa: "Tidak masalah! Beri tahu aku bagaimana hasilnya. Aku penasaran mendengar pendapatmu."
+
+expressions:
+  - phrase: "pick your brain"
+    meaning_english: "To ask someone for their thoughts or advice on a subject."
+    meaning_bahasa: "Meminta pendapat atau nasihat seseorang tentang suatu subjek."
+  - phrase: "tinkered with it"
+    meaning_english: "To make small, experimental changes to something."
+    meaning_bahasa: "Membuat perubahan kecil dan eksperimental pada sesuatu."
+  - phrase: "build step"
+    meaning_english: "The process of converting source code into a runnable application."
+    meaning_bahasa: "Proses mengubah kode sumber menjadi aplikasi yang dapat dijalankan."
+  - phrase: "caught my eye"
+    meaning_english: "Attracted my attention."
+    meaning_bahasa: "Menarik perhatian saya."
+  - phrase: "learning curve isn't steep"
+    meaning_english: "It is easy to learn."
+    meaning_bahasa: "Mudah untuk dipelajari."
+  - phrase: "trade-off"
+    meaning_english: "A situation where you accept something bad in order to have something good."
+    meaning_bahasa: "Situasi di mana Anda menerima sesuatu yang buruk untuk mendapatkan sesuatu yang baik."
+  - phrase: "from scratch"
+    meaning_english: "From the very beginning, without using anything that already exists."
+    meaning_bahasa: "Dari awal, tanpa menggunakan apa pun yang sudah ada."
+  - phrase: "game-changer"
+    meaning_english: "Something that significantly changes the way things are done."
+    meaning_bahasa: "Sesuatu yang secara signifikan mengubah cara kerja."
+  - phrase: "spin up"
+    meaning_english: "To create or start something quickly."
+    meaning_bahasa: "Membuat atau memulai sesuatu dengan cepat."
+
+questions:
+  - q: "What new framework is Alex curious about?"
+    a: "Alex is curious about a new JavaScript framework called Svelte."
+  - q: "According to Ben, what is the main difference between Svelte and frameworks like React?"
+    a: "Svelte is a compiler that shifts the work from the browser to the build step, and it doesn't use a virtual DOM."
+  - q: "What is the main 'trade-off' of using Svelte right now?"
+    a: "The ecosystem is not as extensive as more established frameworks, so you might have to build more things yourself."
+  - q: "What does Alex plan to do to learn more about Svelte?"
+    a: "He plans to create a small side project with it over the weekend."
