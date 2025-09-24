@@ -1,0 +1,17 @@
+story:
+  title: "a-quick-morning-sync"
+  date: "2025-09-24"
+  text: |
+    My Wednesday began with our team's daily **stand-up**, which is usually a quick affair. Our project manager, Sarah, kicked things off by asking for updates. When it was my turn, I mentioned that I had finished my task and was ready to **take on** something new. My teammate, Ben, reported a **blocker**; a critical API he depended on wasn't ready yet.
+
+    Sarah suggested that Ben **sync up** with the other team after the meeting to get a clear timeline. She also gave the rest of us a **heads-up** that the client had requested a new feature, but assured us it wouldn't cause any **scope creep**, as it was a minor change.
+
+    After the stand-up, I grabbed a coffee and checked our project board. I saw a task to improve the performance of our main dashboard. It seemed challenging but rewarding, so I decided to **assign** it to myself. It felt good to have a clear goal for the day. The morning sync was efficient and set a productive tone for everyone.
+  highlighted_words:
+    - "stand-up"
+    - "take on"
+    - "blocker"
+    - "sync up"
+    - "heads-up"
+    - "scope creep"
+    - "assign"

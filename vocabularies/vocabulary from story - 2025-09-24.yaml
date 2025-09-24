@@ -198,3 +198,52 @@
       difference: "'Finish' is a more general and neutral term. 'Wrap up' often implies bringing things to a neat and tidy conclusion."
   story: |
     As we approached the end of the day, our team lead sent a message to remind everyone to wrap up their work. I finished writing my last email, pushed my code, and shut down my computer. It was a good feeling to wrap up a productive week.
+- word: "take on"
+  pronunciation: "/teɪk ɒn/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To accept a new responsibility, challenge, or task."
+    bahasa: "Menerima atau mengambil sebuah tanggung jawab, tantangan, atau tugas baru."
+  usage: "Use this phrase when you are about to start a new task or accept a new role, often one that is challenging. It implies a sense of willingness and commitment."
+  synonyms:
+    - "accept"
+    - "undertake"
+    - "assume"
+  examples:
+    workplace:
+      - "I'm ready to take on more responsibility in my role."
+      - "She will take on the project of refactoring the legacy authentication service."
+    casual:
+      - "He decided to take on the challenge of running a marathon."
+      - "I don't think I can take on any more work right now; I'm already swamped."
+  related:
+    - word: "take over"
+      difference: "'Take on' means to accept a new task or responsibility. 'Take over' means to assume control of something that someone else was previously in charge of."
+    - word: "delegate"
+      difference: "'Delegate' is the opposite of 'taking on' work yourself. It means to entrust a task or responsibility to another person."
+  story: |
+    After working as a junior developer for a year, I felt I was ready to take on a bigger challenge. During my one-on-one with my manager, I expressed my interest in working on more complex features. She was supportive and assigned me a task to build a new analytics dashboard from scratch. It was a daunting but exciting opportunity. Taking on that project helped me grow my skills significantly and gave me a huge confidence boost.
+- word: "scope creep"
+  pronunciation: "/skoʊp kriːp/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "The tendency for a project's requirements to expand or change in a way that is uncontrolled and gradual, often leading to delays and budget overruns."
+    bahasa: "Kecenderungan persyaratan proyek untuk berkembang atau berubah secara tidak terkendali dan bertahap, sering kali menyebabkan penundaan dan pembengkakan anggaran."
+  usage: "Use this term to describe the situation where a project grows beyond its original boundaries. It's a common risk in project management."
+  synonyms:
+    - "feature creep"
+    - "requirement creep"
+  examples:
+    workplace:
+      - "We need to be careful to avoid scope creep and stick to the original plan."
+      - "The project was delayed by two months due to constant scope creep."
+    casual:
+      - "My simple plan to repaint the living room suffered from scope creep, and now I'm redecorating the whole house."
+      - "He's good at preventing scope creep in his personal projects."
+  related:
+    - word: "scope"
+      difference: "'Scope' is the defined set of goals and deliverables for a project. 'Scope creep' is the uncontrolled expansion of that scope."
+    - word: "gold plating"
+      difference: "'Gold plating' is when a developer adds extra features that were not requested by the client, often because they think it will improve the product. This can be a cause of 'scope creep'."
+  story: |
+    Our team was building a simple reporting feature. The initial scope was clear. However, during development, the client kept requesting 'small' additions. First, it was a new filter, then an export-to-PDF button, and then custom color schemes. Individually, they seemed minor, but together they represented significant scope creep. We had to have a meeting to re-evaluate the timeline and get a formal sign-off on the new requirements to get the project back on track.
