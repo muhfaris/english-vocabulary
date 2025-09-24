@@ -247,3 +247,28 @@
       difference: "'Gold plating' is when a developer adds extra features that were not requested by the client, often because they think it will improve the product. This can be a cause of 'scope creep'."
   story: |
     Our team was building a simple reporting feature. The initial scope was clear. However, during development, the client kept requesting 'small' additions. First, it was a new filter, then an export-to-PDF button, and then custom color schemes. Individually, they seemed minor, but together they represented significant scope creep. We had to have a meeting to re-evaluate the timeline and get a formal sign-off on the new requirements to get the project back on track.
+- word: "review"
+  pronunciation: "/rɪˈvjuː/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A formal assessment or examination of something with the possibility or intention of instituting change if necessary."
+    bahasa: "Tinjauan atau pemeriksaan resmi terhadap sesuatu dengan kemungkinan atau niat untuk melakukan perubahan jika diperlukan."
+  usage: "In software development, a 'review' is a common practice where developers check each other's code for quality, correctness, and adherence to standards before it gets merged into the main codebase."
+  synonyms:
+    - "assessment"
+    - "examination"
+    - "inspection"
+  examples:
+    workplace:
+      - "My pull request is up for review."
+      - "Please give my design document a thorough review."
+    casual:
+      - "I read a great review of that new restaurant."
+      - "She asked for a review of her presentation before the big meeting."
+  related:
+    - word: "code review"
+      difference: "'Code review' is a specific type of 'review' that focuses on source code. 'Review' is a more general term."
+    - word: "feedback"
+      difference: "'Feedback' is the information or criticism given during a 'review'. The 'review' is the event, while 'feedback' is the content."
+  story: |
+    I had just finished a complex feature and was nervous about the code review. I had spent days on it and wanted it to be perfect. My team lead, Maria, was assigned to review my work. She didn't just point out typos; she left thoughtful comments on my logic and suggested a more efficient way to handle a data query. Her review was incredibly helpful. It wasn't just about catching mistakes; it was a learning opportunity that made me a better developer.

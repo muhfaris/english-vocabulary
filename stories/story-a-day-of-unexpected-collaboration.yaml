@@ -1,0 +1,18 @@
+story:
+  title: "a-day-of-unexpected-collaboration"
+  date: "2025-09-24"
+  text: |
+    My Tuesday started like any other: a quick **stand-up** meeting with the team, followed by a much-needed **cup of coffee**. My main goal for the day was to finish a critical feature for an upcoming **deadline**. I had to **prioritize** my tasks carefully to make sure I stayed on track.
+
+    Everything was going smoothly until I hit a major **blocker**. The API I was integrating with had some undocumented breaking changes. I spent an hour trying to figure it out on my own before deciding it was time to ask for help. I reached out to Sarah, a developer from another team who had worked with this API before.
+
+    We decided to quickly **align** on the issue over a short video call. Her insights were invaluable. Together, we figured out the problem and found a workaround. After the call, I finished the implementation and submitted my code for **review**. Sarah gave it a quick look and approved it. I was able to **merge** my changes by the end of the day, keeping the project on schedule. It was a great reminder of how collaboration can turn a frustrating day into a productive one.
+  highlighted_words:
+    - "stand-up"
+    - "cup of coffee"
+    - "prioritize"
+    - "align"
+    - "blocker"
+    - "review"
+    - "merge"
+    - "deadline"
