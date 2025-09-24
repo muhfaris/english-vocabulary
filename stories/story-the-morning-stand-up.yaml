@@ -1,0 +1,16 @@
+story:
+  title: "the-morning-stand-up"
+  date: "2025-09-25"
+  text: |
+    My day started with the **usual** stand-up meeting. Everyone on the team gave a quick update on their progress. I **mentioned** that I was working on the new payment feature and didn't have any major blocker. However, I gave everyone a heads-up that I might need some help with the API integration later in the week.
+
+    After the meeting, my project manager asked if I had the bandwidth to look into a **minor** bug that a user had **reported**. We agreed that I would sync up with her after I finished my current task.
+
+    The team is **pushing** hard to reach our next milestone by the end of the sprint. The pressure is on, but we're all **collaborating** well. I'm feeling confident that we'll meet the deadline without any major issues. Now, it's time for another cup of coffee before I dive back into my code.
+  highlighted_words:
+    - "usual"
+    - "mentioned"
+    - "pushing"
+    - "collaborating"
+    - "minor"
+    - "reported"
