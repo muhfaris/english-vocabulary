@@ -272,3 +272,153 @@
       difference: "'Feedback' is the information or criticism given during a 'review'. The 'review' is the event, while 'feedback' is the content."
   story: |
     I had just finished a complex feature and was nervous about the code review. I had spent days on it and wanted it to be perfect. My team lead, Maria, was assigned to review my work. She didn't just point out typos; she left thoughtful comments on my logic and suggested a more efficient way to handle a data query. Her review was incredibly helpful. It wasn't just about catching mistakes; it was a learning opportunity that made me a better developer.
+- word: "failing"
+  pronunciation: "/ˈfeɪlɪŋ/"
+  part_of_speech: "verb"
+  meaning:
+    english: "Not functioning properly or breaking down."
+    bahasa: "Tidak berfungsi dengan baik atau rusak."
+  usage: "Used to describe a system, component, or process that is not working as expected. It's a common way to report bugs or issues."
+  synonyms:
+    - "breaking"
+    - "malfunctioning"
+    - "not working"
+  examples:
+    workplace:
+      - "The payment gateway is failing for some users."
+      - "My build script is failing, and I'm not sure why."
+    casual:
+      - "My car's engine started failing on the highway."
+      - "His memory seems to be failing him lately."
+  related:
+    - word: "bug"
+      difference: "A 'bug' is the underlying error in the code. 'Failing' is the observable result of that bug."
+    - word: "error"
+      difference: "An 'error' is a specific message or condition that indicates something has gone wrong. 'Failing' is a more general description of the state of the system."
+  story: |
+    We noticed a sudden spike in customer complaints. After a quick check, we found that our login service was failing for about 10% of our users. The system wasn't completely down, but the intermittent nature of the problem made it tricky to diagnose. We immediately created a high-priority ticket and started investigating the root cause.
+- word: "intermittently"
+  pronunciation: "/ˌɪntərˈmɪtəntli/"
+  part_of_speech: "adverb"
+  meaning:
+    english: "Occurring at irregular intervals; not continuously or steadily."
+    bahasa: "Terjadi secara tidak teratur; tidak terus-menerus atau stabil."
+  usage: "Used to describe problems or behaviors that are not consistent. These are often the hardest bugs to track down and fix."
+  synonyms:
+    - "sporadically"
+    - "occasionally"
+    - "periodically"
+  examples:
+    workplace:
+      - "The server is intermittently losing connection."
+      - "The bug is hard to reproduce because it only happens intermittently."
+    casual:
+      - "The Wi-Fi in this cafe works intermittently."
+      - "It was raining intermittently throughout the day."
+  related:
+    - word: "consistently"
+      difference: "'Consistently' is the opposite of 'intermittently'. It means something happens in the same way over time."
+    - word: "flaky"
+      difference: "A 'flaky' test is a test that fails intermittently. The term 'flaky' is often used in a software testing context to describe this unreliable behavior."
+  story: |
+    A user reported that the 'Save' button in our application was intermittently unresponsive. They would click it, and sometimes it would work, but other times nothing would happen. This was a frustrating bug because we couldn't reproduce it consistently in our development environment. It took a lot of logging and debugging to finally figure out it was a race condition that only occurred under specific network conditions.
+- word: "investigation"
+  pronunciation: "/ɪnˌvɛstɪˈɡeɪʃən/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The action of investigating something or someone; formal or systematic examination or research."
+    bahasa: "Tindakan menyelidiki sesuatu atau seseorang; pemeriksaan atau penelitian formal atau sistematis."
+  usage: "Used to describe the process of trying to find out the cause of a problem, such as a bug or a system outage."
+  synonyms:
+    - "examination"
+    - "inquiry"
+    - "analysis"
+  examples:
+    workplace:
+      - "Our investigation revealed that the issue was caused by a memory leak."
+      - "We need to conduct a thorough investigation before we can implement a fix."
+    casual:
+      - "The police have launched an investigation into the robbery."
+      - "Her investigation into her family history was fascinating."
+  related:
+    - word: "debugging"
+      difference: "'Debugging' is the process of finding and fixing errors in code. An 'investigation' is a broader term that can include debugging, but also other activities like reading logs, talking to users, and analyzing data."
+    - word: "triage"
+      difference: "'Triage' is the process of assessing and prioritizing incoming issues. The 'investigation' happens after triage, when you start to dig into a specific problem."
+  story: |
+    The website was running slow, and we didn't know why. Our team started an investigation to find the root cause. I was tasked with analyzing the server logs, while my colleague looked at the database queries. After a few hours, we compared our findings. My investigation pointed to a spike in traffic, and her analysis showed a poorly optimized query that was struggling under the load. Together, we had a clear picture of the problem.
+- word: "shared library"
+  pronunciation: "/ʃɛərd ˈlaɪbrəri/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A collection of code and resources that is used by multiple applications or components."
+    bahasa: "Kumpulan kode dan sumber daya yang digunakan oleh beberapa aplikasi atau komponen."
+  usage: "A common term for a reusable piece of software. Changes to a shared library can have a wide-ranging impact, so they need to be handled with care."
+  synonyms:
+    - "shared module"
+    - "common library"
+    - "dependency"
+  examples:
+    workplace:
+      - "We need to update the shared library to the latest version."
+      - "The bug was in a shared library, which is why it affected three different services."
+    casual:
+      - "Think of it like a shared library of tools that different craftsmen can use."
+      - "Our community has a shared library of books that anyone can borrow from."
+  related:
+    - word: "dependency"
+      difference: "A 'dependency' is any external piece of software that your application relies on. A 'shared library' is a specific type of dependency, often one that is created and maintained within the same company."
+    - word: "monolith"
+      difference: "A 'monolith' is a single, large application where all the code is in one place. In a microservices architecture, functionality is broken up into smaller services that often communicate and share code through 'shared libraries'."
+  story: |
+    Our company has a shared library for handling user authentication. It's used by almost every application we build, which is great for consistency. However, last week, a developer introduced a bug into the shared library. Because so many applications depend on it, the bug caused a widespread outage. It was a stressful day, and a powerful reminder to be extremely careful when making changes to a shared library.
+- word: "confident"
+  pronunciation: "/ˈkɒnfɪdənt/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Feeling or showing confidence in oneself or one's abilities or qualities."
+    bahasa: "Merasa atau menunjukkan kepercayaan pada diri sendiri atau kemampuan atau kualitas seseorang."
+  usage: "Used to describe a feeling of certainty or self-assurance. In a work context, it often means you believe your solution or approach is correct."
+  synonyms:
+    - "sure"
+    - "certain"
+    - "self-assured"
+  examples:
+    workplace:
+      - "I'm confident that this fix will solve the problem."
+      - "She gave a confident presentation to the stakeholders."
+    casual:
+      - "He is a confident and articulate speaker."
+      - "I'm not confident that I can finish this race."
+  related:
+    - word: "arrogant"
+      difference: "'Confident' means you have a healthy belief in your own abilities. 'Arrogant' means you have an exaggerated sense of your own importance or abilities, and it's generally a negative trait."
+    - word: "competent"
+      difference: "'Competent' means you have the necessary skills to do something successfully. Being 'competent' can make you feel 'confident'."
+  story: |
+    After spending a day debugging a tricky issue, I finally found the root cause. I wrote a small, targeted fix and tested it thoroughly in my local environment. When I created the pull request, I was confident that it would solve the problem without introducing any new bugs. My team lead reviewed the code and agreed with my approach. It's a great feeling to be confident in your work and have that confidence validated by your peers.
+- word: "derailing"
+  pronunciation: "/diːˈreɪlɪŋ/"
+  part_of_speech: "verb"
+  meaning:
+    english: "Causing something, such as a project or plan, to go off course or fail."
+    bahasa: "Menyebabkan sesuatu, seperti proyek atau rencana, keluar jalur atau gagal."
+  usage: "A metaphorical term used to describe something that disrupts progress and prevents a plan from being followed."
+  synonyms:
+    - "disrupting"
+    - "hindering"
+    - "sabotaging"
+  examples:
+    workplace:
+      - "Unexpected issues are derailing our project timeline."
+      - "Let's take this conversation offline so we're not derailing the meeting."
+    casual:
+      - "His constant interruptions were derailing my train of thought."
+      - "The argument threatened to derail their vacation plans."
+  related:
+    - word: "sidetrack"
+      difference: "'Sidetrack' is similar, but often less severe. It means to get distracted from the main topic or task. 'Derailing' implies a more serious disruption that could lead to failure."
+    - word: "blocker"
+      difference: "A 'blocker' is an obstacle that stops progress. 'Derailing' is the action of causing something to go off course. A 'blocker' can be a reason for 'derailing' a project."
+  story: |
+    We were in the middle of a two-week sprint with a clear goal. On Wednesday, a critical production issue came up. It was an 'all hands on deck' situation that took two days to resolve. This unexpected fire-drill ended up derailing our sprint. We had to have a meeting to re-evaluate our priorities and accept that we wouldn't be able to complete all of our original sprint goals.
