@@ -1,0 +1,149 @@
+- word: "usual"
+  pronunciation: "/ˈjuːʒuəl/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Happening or done most of the time; customary."
+    bahasa: "Biasa; seperti yang sudah-sudah."
+  usage: "Use 'usual' to describe something that is normal or expected in a given situation."
+  synonyms:
+    - "common"
+    - "regular"
+  examples:
+    workplace:
+      - "Let's start with our usual Monday morning stand-up."
+      - "As usual, the deployment will happen after business hours."
+    casual:
+      - "I'll have my usual coffee, please."
+      - "It was the usual traffic jam on the way to work."
+  related:
+    - word: "typical"
+      difference: "'Typical' often implies a representative example of a group, while 'usual' refers to what happens most often."
+    - word: "normal"
+      difference: "'Normal' refers to a standard or a common state, while 'usual' refers to a habit or a frequent occurrence."
+  story: |
+    It was the usual start to his day. He grabbed a coffee, opened his laptop, and checked his emails. He knew the project had its challenges, but this was all part of the usual process of software development.
+
+- word: "mentioned"
+  pronunciation: "/ˈmenʃənd/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To refer to something briefly and without going into detail."
+    bahasa: "Menyebutkan; menyinggung."
+  usage: "Use 'mentioned' when you want to say that someone talked about something without making it the main topic."
+  synonyms:
+    - "stated"
+    - "noted"
+  examples:
+    workplace:
+      - "I mentioned the bug in the stand-up this morning."
+      - "She mentioned that the client was happy with the demo."
+    casual:
+      - "He mentioned that he was going on vacation next week."
+      - "Did I mention that I saw a great movie last night?"
+  related:
+    - word: "discussed"
+      difference: "'Discussed' implies a more detailed conversation, while 'mentioned' is a brief reference."
+    - word: "brought up"
+      difference: "'Brought up' is a phrasal verb that means to introduce a topic for discussion, similar to 'mentioned' but often used to start a conversation."
+  story: |
+    During the meeting, the project manager mentioned a new feature request from the client. It wasn't a priority, but she wanted everyone to be aware of it.
+
+- word: "pushing"
+  pronunciation: "/ˈpʊʃɪŋ/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To move forward or make progress with effort and determination."
+    bahasa: "Mendorong; berusaha keras."
+  usage: "In a work context, 'pushing' often means trying hard to get something done, especially before a deadline."
+  synonyms:
+    - "striving"
+    - "driving"
+  examples:
+    workplace:
+      - "We are pushing to get this release out by Friday."
+      - "The team is pushing hard to meet the quarterly goals."
+    casual:
+      - "He's pushing himself to finish the marathon."
+      - "She's pushing for a promotion."
+  related:
+    - word: "forcing"
+      difference: "'Forcing' implies using power or pressure to make something happen, while 'pushing' is more about effort and determination."
+    - word: "advocating"
+      difference: "'Advocating' is about publicly supporting a cause or policy, while 'pushing' is about making progress on a task."
+  story: |
+    The team was pushing hard to finish the new feature before the code freeze. It required a lot of extra hours, but they were determined to get it done.
+
+- word: "collaborating"
+  pronunciation: "/kəˈlæbəreɪtɪŋ/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To work jointly on an activity, especially to produce or create something."
+    bahasa: "Berkolaborasi; bekerja sama."
+  usage: "Use 'collaborating' to describe people or teams working together on a project or task."
+  synonyms:
+    - "cooperating"
+    - "partnering"
+  examples:
+    workplace:
+      - "The front-end and back-end teams are collaborating on the new API."
+      - "We are collaborating with the design team to create the new user interface."
+    casual:
+      - "The two artists are collaborating on a new song."
+      - "We're collaborating on a surprise party for our friend."
+  related:
+    - word: "coordinating"
+      difference: "'Coordinating' is about organizing people or activities so that they work together effectively. 'Collaborating' is the act of working together."
+    - word: "communicating"
+      difference: "'Communicating' is about exchanging information, which is a part of collaborating, but collaborating is the work itself."
+  story: |
+    The best part of the project was collaborating with the UX team. By working together, they were able to create a product that was both functional and beautiful.
+
+- word: "minor"
+  pronunciation: "/ˈmaɪnər/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Lesser in importance, seriousness, or significance."
+    bahasa: "Kecil; tidak penting; ringan."
+  usage: "Use 'minor' to describe something that is not a big deal or a low priority."
+  synonyms:
+    - "small"
+    - "trivial"
+  examples:
+    workplace:
+      - "It's just a minor bug, we can fix it in the next sprint."
+      - "I have a few minor changes to make to the documentation."
+    casual:
+      - "I have a minor headache."
+      - "It was a minor car accident with no injuries."
+  related:
+    - word: "major"
+      difference: "'Major' is the opposite of 'minor' and means important, serious, or significant."
+    - word: "insignificant"
+      difference: "'Insignificant' is a stronger word than 'minor' and means that something is too small or unimportant to be worth consideration."
+  story: |
+    He found a bug in the code, but it was a minor one that only affected a small number of users. He created a ticket for it and planned to fix it later.
+
+- word: "reported"
+  pronunciation: "/rɪˈpɔːrtɪd/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To give a spoken or written account of something that one has observed, heard, done, or investigated."
+    bahasa: "Melaporkan."
+  usage: "Use 'reported' to say that someone has officially or formally told someone about something."
+  synonyms:
+    - "announced"
+    - "communicated"
+  examples:
+    workplace:
+      - "The user reported a bug in the payment system."
+      - "I reported my progress to the project manager."
+    casual:
+      - "He reported his lost wallet to the police."
+      - "The news reported a story about the election."
+  related:
+    - word: "notified"
+      difference: "'Notified' means to formally or officially tell someone about something. It's very similar to 'reported', but 'reported' is often used when there is a problem."
+    - word: "escalated"
+      difference: "'Escalated' means to report an issue to a higher level of authority, usually because it's serious or not being handled."
+  story: |
+    A customer reported an issue with the login page. The support team created a ticket and assigned it to a developer to investigate.
