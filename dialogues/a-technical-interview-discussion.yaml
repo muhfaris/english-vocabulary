@@ -1,0 +1,64 @@
+dialogue:
+  - speaker: Alex
+    english: "Hey Ben, how did the technical interview for the senior role go?"
+    bahasa: "Hai Ben, bagaimana wawancara teknis untuk posisi senior tadi?"
+  - speaker: Ben
+    english: "It was intense! They really put me through the wringer. The first round was a deep dive into system design."
+    bahasa: "Sangat intens! Mereka benar-benar mengujiku habis-habisan. Babak pertama adalah pendalaman tentang desain sistem."
+  - speaker: Alex
+    english: "Oh, the classic 'design a social media feed' question?"
+    bahasa: "Oh, pertanyaan klasik 'rancang feed media sosial'?"
+  - speaker: Ben
+    english: "Not exactly, but close. It was about designing a scalable URL shortening service. I had to consider things like hashing algorithms and database sharding."
+    bahasa: "Tidak persis, tapi mendekati. Ini tentang merancang layanan pemendek URL yang skalabel. Aku harus mempertimbangkan hal-hal seperti algoritma hashing dan sharding database."
+  - speaker: Alex
+    english: "Sounds tough. Did you manage to come up with a solid solution?"
+    bahasa: "Terdengar sulit. Apakah kamu berhasil menemukan solusi yang solid?"
+  - speaker: Ben
+    english: "I think so. I whiteboarded the architecture and talked through the trade-offs. The interviewer seemed impressed with my reasoning."
+    bahasa: "Kurasa begitu. Aku menggambarkan arsitekturnya di papan tulis dan menjelaskan untung ruginya. Pewawancara tampak terkesan dengan penalaranku."
+  - speaker: Alex
+    english: "That's great to hear. What about the coding challenge?"
+    bahasa: "Senang mendengarnya. Bagaimana dengan tantangan codingnya?"
+  - speaker: Ben
+    english: "It was a tricky one involving dynamic programming. I got a bit stuck at first, but I managed to verbalize my thought process."
+    bahasa: "Itu soal yang rumit, melibatkan pemrograman dinamis. Awalnya aku sedikit macet, tapi aku berhasil mengartikulasikan proses berpikirku."
+  - speaker: Alex
+    english: "That's the key. They often care more about how you approach the problem than getting the perfect answer right away."
+    bahasa: "Itulah kuncinya. Mereka seringkali lebih peduli pada caramu mendekati masalah daripada langsung mendapatkan jawaban yang sempurna."
+  - speaker: Ben
+    english: "Exactly. I'm keeping my fingers crossed. They said they'd get back to me by the end of the week."
+    bahasa: "Tepat sekali. Aku berharap yang terbaik. Mereka bilang akan menghubungiku akhir minggu ini."
+  - speaker: Alex
+    english: "Well, good luck! You sound like you nailed it."
+    bahasa: "Yah, semoga berhasil! Sepertinya kamu berhasil."
+
+expressions:
+  - phrase: "put me through the wringer"
+    meaning_english: "to subject someone to a very difficult or unpleasant experience or test"
+    meaning_bahasa: "menguji seseorang dengan sangat berat atau pengalaman yang tidak menyenangkan"
+  - phrase: "deep dive"
+    meaning_english: "a thorough or detailed examination or analysis of a subject"
+    meaning_bahasa: "pemeriksaan atau analisis yang mendalam atau terperinci tentang suatu subjek"
+  - phrase: "trade-offs"
+    meaning_english: "a balancing of factors all of which are not attainable at the same time"
+    meaning_bahasa: "keseimbangan faktor-faktor yang tidak semuanya dapat dicapai pada saat yang bersamaan"
+  - phrase: "verbalize my thought process"
+    meaning_english: "to express your ideas and reasoning in words"
+    meaning_bahasa: "mengungkapkan ide dan penalaran Anda dengan kata-kata"
+  - phrase: "keeping my fingers crossed"
+    meaning_english: "a gesture of hope for good luck"
+    meaning_bahasa: "sebuah gestur harapan untuk keberuntungan"
+  - phrase: "nailed it"
+    meaning_english: "to do something perfectly or successfully"
+    meaning_bahasa: "melakukan sesuatu dengan sempurna atau berhasil"
+
+questions:
+  - q: "What was the main topic of the first round of Ben's interview?"
+    a: "The first round was a deep dive into system design, specifically designing a scalable URL shortening service."
+  - q: "What did Ben have to consider for the system design question?"
+    a: "He had to consider hashing algorithms and database sharding."
+  - q: "How did Ben handle the coding challenge when he got stuck?"
+    a: "He verbalized his thought process to the interviewer, explaining how he was approaching the problem."
+  - q: "What does the expression 'keeping my fingers crossed' mean?"
+    a: "It's a way of saying you are hoping for a good outcome or good luck."
