@@ -1,0 +1,78 @@
+- title: navigating-a-legacy-codebase
+  dialogue:
+    - speaker: Leo
+      english: "Maya, do you have a second? I'm hitting a wall with this ticket."
+      bahasa: "Maya, ada waktu sebentar? Aku buntu dengan tiket ini."
+    - speaker: Maya
+      english: "Of course, Leo. Which one is it? Let's have a look."
+      bahasa: "Tentu saja, Leo. Yang mana? Coba kita lihat."
+    - speaker: Leo
+      english: "It's the one for the old invoicing module. I'm trying to add a new export format, but the code is... a real maze."
+      bahasa: "Yang untuk modul faktur lama. Aku mencoba menambahkan format ekspor baru, tapi kodenya... benar-benar seperti labirin."
+    - speaker: Maya
+      english: "Ah, the invoicing module. I know it well. It's practically a company relic. Don't worry, we've all been lost in there at some point."
+      bahasa: "Ah, modul faktur. Aku kenal baik. Itu praktisnya peninggalan perusahaan. Jangan khawatir, kita semua pernah tersesat di sana."
+    - speaker: Leo
+      english: "There are no comments, the variable names are cryptic, and I'm scared to change anything in case I break something."
+      bahasa: "Tidak ada komentar, nama variabelnya misterius, dan aku takut mengubah apa pun karena khawatir akan merusak sesuatu."
+    - speaker: Maya
+      english: "That's a classic legacy code situation. The first rule is: don't try to understand everything at once. Just focus on the small part you need to change."
+      bahasa: "Itu situasi klasik kode lawas. Aturan pertama adalah: jangan mencoba memahami semuanya sekaligus. Cukup fokus pada bagian kecil yang perlu kamu ubah."
+    - speaker: Leo
+      english: "I'm not even sure where to start. The logic is all over the place."
+      bahasa: "Aku bahkan tidak yakin harus mulai dari mana. Logikanya ada di mana-mana."
+    - speaker: Maya
+      english: "My advice is to write a characterization test first. Can you replicate the current behavior with a test? That way, you create a safety net."
+      bahasa: "Saran saya adalah tulis tes karakterisasi terlebih dahulu. Bisakah kamu mereplikasi perilaku saat ini dengan sebuah tes? Dengan begitu, kamu menciptakan jaring pengaman."
+    - speaker: Leo
+      english: "A safety net... I like that. So, I write a test that passes, then I can refactor or add the new feature, and as long as the test still passes, I know I haven't broken the original functionality."
+      bahasa: "Jaring pengaman... aku suka itu. Jadi, aku menulis tes yang lolos, lalu aku bisa melakukan refactor atau menambahkan fitur baru, dan selama tes itu masih lolos, aku tahu aku belum merusak fungsionalitas aslinya."
+    - speaker: Maya
+      english: "Exactly! It's like being a code archaeologist. You carefully dig around the artifact before you try to move it."
+      bahasa: "Tepat! Ini seperti menjadi seorang arkeolog kode. Kamu dengan hati-hati menggali di sekitar artefak sebelum mencoba memindahkannya."
+    - speaker: Leo
+      english: "That's a great analogy. It feels less daunting when you put it that way. Thanks, Maya. I have a clear path forward now."
+      bahasa: "Itu analogi yang bagus. Rasanya tidak terlalu menakutkan jika dilihat seperti itu. Terima kasih, Maya. Aku punya jalan yang jelas sekarang."
+    - speaker: Maya
+      english: "Anytime. Just ping me if you find any ancient treasures or curses in there!"
+      bahasa: "Kapan saja. Hubungi aku jika kamu menemukan harta karun atau kutukan kuno di sana!"
+  expressions:
+    - phrase: "hitting a wall"
+      meaning_english: "Being unable to make progress on a problem."
+      meaning_bahasa: "Tidak dapat membuat kemajuan pada suatu masalah."
+    - phrase: "a real maze"
+      meaning_english: "Something that is very complex and confusing."
+      meaning_bahasa: "Sesuatu yang sangat kompleks dan membingungkan."
+    - phrase: "company relic"
+      meaning_english: "Something that is very old and has been part of the company for a long time."
+      meaning_bahasa: "Sesuatu yang sangat tua dan telah menjadi bagian dari perusahaan untuk waktu yang lama."
+    - phrase: "cryptic"
+      meaning_english: "Mysterious and difficult to understand."
+      meaning_bahasa: "Misterius dan sulit untuk dipahami."
+    - phrase: "all over the place"
+      meaning_english: "Disorganized and chaotic."
+      meaning_bahasa: "Tidak teratur dan kacau."
+    - phrase: "characterization test"
+      meaning_english: "A test that describes the actual behavior of a piece of code, used to safely refactor legacy systems."
+      bahasa: "Tes yang menggambarkan perilaku sebenarnya dari sepotong kode, digunakan untuk merefaktor sistem lawas dengan aman."
+    - phrase: "safety net"
+      meaning_english: "A safeguard that reduces risk in case of failure."
+      bahasa: "Pengaman yang mengurangi risiko jika terjadi kegagalan."
+    - phrase: "code archaeologist"
+      meaning_english: "A developer who works on old, undocumented code, trying to understand its structure and purpose."
+      bahasa: "Seorang pengembang yang mengerjakan kode lama yang tidak berdokumen, mencoba memahami struktur dan tujuannya."
+    - phrase: "daunting"
+      meaning_english: "Seeming difficult to deal with; intimidating."
+      bahasa: "Terlihat sulit untuk dihadapi; mengintimidasi."
+    - phrase: "ping me"
+      meaning_english: "Contact me, usually via a messaging app."
+      bahasa: "Hubungi saya, biasanya melalui aplikasi perpesanan."
+  questions:
+    - q: "What problem is Leo facing?"
+      a: "He is struggling to modify an old, confusing part of the codebase known as the invoicing module."
+    - q: "What are some of the issues with the legacy code?"
+      a: "It has no comments, cryptic variable names, and disorganized logic, making it risky to change."
+    - q: "What is the first piece of advice Maya gives Leo?"
+      a: "She advises him not to try to understand the entire module at once, but to focus only on the part he needs to modify."
+    - q: "What is a 'characterization test' and why is it useful?"
+      a: "It's a test that captures the current behavior of the code. It acts as a safety net, allowing a developer to make changes without breaking existing functionality."
