@@ -147,3 +147,132 @@
       difference: "'Escalated' means to report an issue to a higher level of authority, usually because it's serious or not being handled."
   story: |
     A customer reported an issue with the login page. The support team created a ticket and assigned it to a developer to investigate.
+- word: "push"
+  pronunciation: "/pʊʃ/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To add new code changes from a local repository to a remote repository."
+    bahasa: "Mendorong atau mengirim perubahan kode dari repositori lokal ke repositori remote."
+  usage: "Used when you have committed your changes locally and want to share them with your team or deploy them."
+  synonyms:
+    - "deploy"
+    - "commit"
+    - "upload"
+  examples:
+    workplace:
+      - "I'm about to push the latest bug fix to the staging environment."
+      - "Did you remember to push your changes before the end of the day?"
+    casual:
+      - "Let me just push this last update, and then I'm done for the day."
+      - "I'll push my code in a minute; I'm just running some final tests."
+  related:
+    - word: "commit"
+      difference: "A 'commit' saves changes to your local repository, while a 'push' sends those committed changes to a remote repository."
+    - word: "pull"
+      difference: "'Push' sends your changes to the remote repository, while 'pull' retrieves the latest changes from the remote repository to your local machine."
+  story: |
+    As the release deadline approached, I finished my feature and ran all the tests. Once everything passed, I committed my changes with a clear message and then performed a 'git push' to send my code to the main branch.
+
+- word: "rally"
+  pronunciation: "/ˈræli/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To come together as a team to work actively and with determination on a specific problem or task."
+    bahasa: "Berkumpul bersama sebagai tim untuk bekerja secara aktif dan dengan tekad pada masalah atau tugas tertentu."
+  usage: "Often used when a team needs to focus its collective effort to overcome a challenge, meet a deadline, or fix a critical issue."
+  synonyms:
+    - "unite"
+    - "mobilize"
+    - "come together"
+  examples:
+    workplace:
+      - "The team had to rally to fix the critical bug before the production release."
+      - "Let's rally this afternoon to get the new feature across the finish line."
+    casual:
+      - "We all had to rally to clean up the house before our guests arrived."
+      - "The community decided to rally and raise funds for the local library."
+  related:
+    - word: "collaborate"
+      difference: "'Collaborate' is about working together in general, while 'rally' implies uniting for a specific, often urgent, purpose."
+    - word: "huddle"
+      difference: "A 'huddle' is a quick meeting to discuss something, whereas 'rally' is the action of working together with a shared focus, often after a huddle."
+  story: |
+    Our main server went down an hour before a major demo. Our manager called an emergency meeting, and we all had to rally together. The backend team focused on the server logs, while the frontend team prepared a backup presentation. We managed to get everything working just in time.
+
+- word: "feature-freeze"
+  pronunciation: "/ˈfiːtʃər friːz/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A point in the development cycle where no new features are added to the codebase, and the focus shifts to fixing bugs and stabilizing the existing features for a release."
+    bahasa: "Sebuah titik dalam siklus pengembangan di mana tidak ada fitur baru yang ditambahkan ke codebase, dan fokus beralih ke perbaikan bug dan menstabilkan fitur yang ada untuk rilis."
+  usage: "Used in project management to ensure that a release is stable and not complicated by last-minute changes."
+  synonyms:
+    - "code-freeze"
+    - "feature-lock"
+    - "development-stop"
+  examples:
+    workplace:
+      - "We have a feature-freeze at the end of the week, so make sure all your new code is merged by then."
+      - "After the feature-freeze, we'll only be working on critical bug fixes."
+    casual:
+      - "My personal project is in a feature-freeze; I'm just polishing what I have."
+      - "Think of it like a feature-freeze on your vacation plans—no more new destinations, just finalize the bookings."
+  related:
+    - word: "code-freeze"
+      difference: "Often used interchangeably, but 'feature-freeze' specifically refers to stopping new feature development, while 'code-freeze' can be more absolute, stopping all code changes, even bug fixes."
+    - word: "deadline"
+      difference: "A 'deadline' is a final date for completion, while a 'feature-freeze' is a specific milestone before the deadline, focused on stabilizing the product."
+  story: |
+    Our team was working hard to complete all the new features for the Q3 release. Two weeks before the final launch, we entered a feature-freeze. This gave us enough time to run thorough tests, fix any remaining bugs, and ensure the application was stable for our users.
+
+- word: "code-owner"
+  pronunciation: "/koʊd ˈoʊnər/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A person or team designated as the primary owner or expert for a specific part of the codebase."
+    bahasa: "Seseorang atau tim yang ditunjuk sebagai pemilik utama atau ahli untuk bagian tertentu dari codebase."
+  usage: "Used to identify who is responsible for maintaining, reviewing, and approving changes to a particular module, service, or component."
+  synonyms:
+    - "maintainer"
+    - "module-lead"
+    - "technical-owner"
+  examples:
+    workplace:
+      - "I need to make a change to the payment service, so I'll have to get approval from the code-owner."
+      - "The code-owner for the authentication library is on vacation, so we'll have to wait for the review."
+    casual:
+      - "You're the code-owner of this part of the project, so you get the final say."
+      - "Who's the code-owner for the garden? I want to suggest planting some new flowers."
+  related:
+    - word: "stakeholder"
+      difference: "A 'stakeholder' has an interest in the project's success but may not be technical, while a 'code-owner' is a specific developer or team responsible for the code itself."
+    - word: "team-lead"
+      difference: "A 'team-lead' manages the team, but a 'code-owner' has specific responsibility over a piece of code, regardless of their role in the team hierarchy."
+  story: |
+    I was trying to fix a bug in a part of the system I had never touched before. I spent an hour trying to understand the logic, but it was too complex. I checked the repository settings and found the code-owner. After a quick chat with him, I understood the issue and had a fix ready in minutes.
+
+- word: "sanity-test"
+  pronunciation: "/ˈsænəti tɛst/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A quick, brief check to ensure that a feature or system is working at a basic level after a change has been made."
+    bahasa: "Pemeriksaan singkat dan cepat untuk memastikan bahwa fitur atau sistem bekerja pada tingkat dasar setelah perubahan dibuat."
+  usage: "Performed to see if a change is reasonable and hasn't broken major functionality, often before proceeding with more thorough testing."
+  synonyms:
+    - "spot-check"
+    - "quick-check"
+    - "basic-test"
+  examples:
+    workplace:
+      - "After the deployment, I ran a quick sanity-test on the login page to make sure it was still working."
+      - "Before you submit your code for review, please do a sanity-test to catch any obvious issues."
+    casual:
+      - "I did a sanity-test of the new coffee machine to make sure it turns on."
+      - "Let's do a quick sanity-test of the presentation slides to ensure the links work."
+  related:
+    - word: "smoke-test"
+      difference: "'Sanity-test' is usually a quick check on a specific area after a small change, while a 'smoke-test' is a broader check of major system functions, often after a new build is deployed."
+    - word: "regression-test"
+      difference: "A 'sanity-test' is a quick, surface-level check. A 'regression-test' is a much more comprehensive process to ensure that new changes haven't broken any existing functionality."
+  story: |
+    I just finished refactoring a large piece of code. Before I created a pull request, I ran the application on my local machine and performed a quick sanity-test. I clicked through the main features, checked a few buttons, and made sure the core functionality was still intact. It passed, so I knew it was ready for a full code review.

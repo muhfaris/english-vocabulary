@@ -1,0 +1,19 @@
+story:
+  title: "the-friday-push"
+  date: "2025-09-25"
+  text: |
+    Friday morning started with our usual **stand-up**. We were approaching a big **deadline**, and the energy was high. We had a **feature-freeze** scheduled for the end of the day, so this was our last chance to **push** new code. My main task was to get the new notification feature merged.
+
+    Everything seemed to be on track until I hit a **blocker**. A dependency in another team's service was failing. I immediately reached out to the **code-owner** for that service, and they were quick to respond. While they investigated, our team decided to **rally** and see if we could find a workaround. It was a great example of **teamwork**; everyone chipped in with ideas.
+
+    By lunchtime, the other team had deployed a fix. I quickly pulled the changes, ran a final **sanity-test** on my local machine, and pushed my feature. It felt great to get it done before the freeze. The rest of the afternoon was spent on code reviews and planning for next week.
+  highlighted_words:
+    - "push"
+    - "rally"
+    - "feature-freeze"
+    - "code-owner"
+    - "sanity-test"
+    - "deadline"
+    - "blocker"
+    - "teamwork"
+    - "stand-up"
