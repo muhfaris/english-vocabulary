@@ -1,0 +1,249 @@
+- word: "At face value"
+  pronunciation: "/æt feɪs ˈvæljuː/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To accept something as it appears to be without questioning or looking for a deeper meaning."
+    bahasa: "Menerima sesuatu apa adanya tanpa mempertanyakan atau mencari makna yang lebih dalam."
+  usage: "Use this phrase when you are initially accepting information or a situation as it is presented, but you might have some underlying doubts or plan to investigate further later. It's common in discussions about requirements, bug reports, or user feedback."
+  synonyms:
+    - "On the surface"
+    - "Prima facie"
+  examples:
+    workplace:
+      - "Let's take the bug report at face value for now and assume the user's description is accurate."
+      - "I'm not sure I trust the performance metrics, but I'll accept them at face value until I can run my own tests."
+    casual:
+      - "He seemed sincere, so I took his apology at face value."
+      - "She told me she was fine, but I'm not sure if I should take that at face value."
+  related:
+    - word: "Take with a grain of salt"
+      difference: "'Take with a grain of salt' means to be skeptical about something and not fully believe it. 'At face value' is more neutral; it means to accept something for now, without immediate skepticism, though you might verify it later."
+    - word: "Read between the lines"
+      difference: "'Read between the lines' means to look for a hidden or implied meaning. It's the opposite of taking something 'at face value,' where you intentionally don't look for a deeper meaning."
+  story: |
+    During our sprint planning, a new ticket came in from the sales team. It described a customer issue as a 'critical system failure.' Our product manager, Dana, said, "Okay, team, let's take this at face value for now and prioritize the investigation. But, let's also have someone from QA try to reproduce it immediately. The last 'critical failure' was just a forgotten password."
+
+- word: "A moving target"
+  pronunciation: "/ə ˈmuːvɪŋ ˈtɑːrɡɪt/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A goal or objective that is constantly changing, making it very difficult to achieve or plan for."
+    bahasa: "Target atau tujuan yang terus berubah, sehingga sangat sulit untuk dicapai atau direncanakan."
+  usage: "This is a perfect phrase for describing projects where the requirements are not stable. You'll often hear it in planning meetings or retrospectives when discussing why a project is delayed or facing difficulties."
+  synonyms:
+    - "Constantly shifting"
+    - "An evolving goal"
+  examples:
+    workplace:
+      - "We're trying to build the new dashboard, but the requirements keep changing. It's like aiming at a moving target."
+      - "It's hard to estimate a timeline when the project scope is a moving target."
+    casual:
+      - "Trying to please my client is like hitting a moving target; they want something new every week."
+      - "Parenting a teenager is a moving target; their interests and moods change daily."
+  related:
+    - word: "Scope creep"
+      difference: "'Scope creep' is when new features or requirements are added to a project after it has started, expanding its original scope. 'A moving target' is a broader term that can include scope creep, but also situations where the core objective itself changes, not just gets bigger."
+    - word: "In flux"
+      difference: "'In flux' means that something is in a state of continuous change. While a 'moving target' is a type of situation that is 'in flux,' 'in flux' can describe any unstable situation, not just a goal or objective."
+  story: |
+    "How's the new analytics feature coming along?" asked my manager. I sighed, "Honestly, it's become a moving target. First, they wanted a simple bar chart. Then, they wanted it to be a pie chart with real-time data. Now, they're asking for predictive forecasting. We can't finalize the architecture because the end goal keeps shifting."
+
+- word: "Bells and whistles"
+  pronunciation: "/ˌbɛlz ən ˈwɪsəlz/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "Attractive but non-essential features or additions to a product or system."
+    bahasa: "Fitur atau tambahan yang menarik tetapi tidak esensial pada suatu produk atau sistem."
+  usage: "Use this to describe features that are 'nice-to-haves' rather than 'must-haves.' It's often used when discussing an MVP (Minimum Viable Product) to distinguish core functionality from extra, fancy features that can be added later."
+  synonyms:
+    - "Frills"
+    - "Extras"
+  examples:
+    workplace:
+      - "For the first release, let's focus on the core functionality and forget all the bells and whistles."
+      - "The client loves adding bells and whistles, but they don't increase the core value of the application."
+    casual:
+      - "I just want a phone that makes calls. I don't need all the bells and whistles of the latest model."
+      - "His new car has all the bells and whistles, like heated seats and a self-parking system."
+  related:
+    - word: "Gold plating"
+      difference: "'Gold plating' is the act of adding unnecessary features (bells and whistles) to a project, often by the developers themselves without the client's request. 'Bells and whistles' is the noun for the features themselves."
+    - word: "MVP (Minimum Viable Product)"
+      difference: "An MVP is a version of a product with just enough features to be usable by early customers. The concept of an MVP is to avoid building 'bells and whistles' initially and to focus only on the core, essential features."
+  story: |
+    During a demo, the product manager showed off the new user profile page. "We've got the basics working: you can upload a photo and edit your name. For the MVP, we're skipping the bells and whistles like custom themes and animated avatars. We need to ship the core experience first."
+
+- word: "In flux"
+  pronunciation: "/ɪn flʌks/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "In a state of continuous change, uncertainty, or instability."
+    bahasa: "Dalam keadaan terus berubah, tidak pasti, atau tidak stabil."
+  usage: "This phrase is great for describing a situation that is not yet settled. It can refer to project requirements, team structures, or even a piece of code that is being heavily refactored."
+  synonyms:
+    - "Unsettled"
+    - "In transition"
+  examples:
+    workplace:
+      - "The API design is still in flux, so don't start building the frontend against it yet."
+      - "Our team structure is in flux since the re-organization was announced."
+    casual:
+      - "My travel plans are in flux because of the unpredictable weather."
+      - "Everything in her life is in flux at the moment; she's changing jobs and moving to a new city."
+  related:
+    - word: "Volatile"
+      difference: "'Volatile' implies rapid and unpredictable change, often with a negative connotation (like a volatile market or temper). 'In flux' is more neutral and simply means that things are changing and not yet stable."
+    - word: "A moving target"
+      difference: "'A moving target' specifically refers to a goal that is changing. 'In flux' is a broader term that can describe the entire situation, including the goal, the team, the plan, etc."
+  story: |
+    "Can we finalize the database schema this week?" I asked our tech lead. "Not yet," she replied. "The product requirements are still in flux. They haven't decided if users should have single or multiple profiles, and that decision completely changes our data model. Everything is on hold until that's settled."
+
+- word: "Punt on this"
+  pronunciation: "/pʌnt ɒn ðɪs/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To decide not to do or deal with something now; to postpone it."
+    bahasa: "Memutuskan untuk tidak melakukan atau menangani sesuatu sekarang; menundanya."
+  usage: "This is a casual, common phrase in meetings, especially in American English. You use it when the team decides a topic or task is not a priority right now or needs more information before a decision can be made. It's a slightly more informal way of saying 'postpone' or 'defer.'"
+  synonyms:
+    - "Postpone"
+    - "Defer"
+  examples:
+    workplace:
+      - "We can't agree on the new logging format. Let's punt on this and revisit it next sprint."
+      - "I'm going to punt on refactoring the old module until the critical bug fixes are deployed."
+    casual:
+      - "I asked him about his holiday plans, but he decided to punt on the question."
+      - "We were supposed to choose a restaurant, but we decided to punt on the decision and just order pizza."
+  related:
+    - word: "Table this"
+      difference: "'Table this' and 'punt on this' are very similar. 'Table this' is slightly more formal and is common in official meetings, often implying the topic will be formally scheduled for a later discussion. 'Punt on this' is more colloquial and can feel more like avoiding the issue, though it's often used with the same meaning."
+    - word: "Back-burner"
+      difference: "To put something on the 'back-burner' is to deprioritize it. To 'punt on' something is to actively decide to postpone dealing with it at a specific moment. The outcome is similar, but 'punting' is an action in a meeting, while the 'back-burner' is the state of the task's priority."
+  story: |
+    We were in a heated debate about whether to use tabs or spaces in our new project. After ten minutes of back-and-forth, our team lead stepped in. "Look, this isn't the most critical decision right now. Let's just agree to use the linter's default for now and punt on the final decision until we have more of the core logic written."
+
+- word: "Get our ducks in a row"
+  pronunciation: "/ɡɛt aʊər dʌks ɪn ə roʊ/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To get everything organized, prepared, and in order before starting something."
+    bahasa: "Mengatur segalanya menjadi terorganisir, siap, dan berurutan sebelum memulai sesuatu."
+  usage: "This idiom is used when you need to do some preparatory work before kicking off a project or a complex task. It implies organizing resources, information, people, and plans."
+  synonyms:
+    - "Get organized"
+    - "Prepare"
+  examples:
+    workplace:
+      - "Before we start the migration, we need to get our ducks in a row. That means backing up the database and informing all stakeholders."
+      - "Let's have a planning meeting to get our ducks in a row for the next quarter."
+    casual:
+      - "I need to get my ducks in a row before I apply for a new job, like updating my resume and portfolio."
+      - "She's trying to get her ducks in a row before the baby arrives."
+  related:
+    - word: "Lay the groundwork"
+      difference: "'Lay the groundwork' means to create the basic structure or foundation for something. It's a part of 'getting your ducks in a row,' but 'ducks in a row' is more comprehensive, covering all aspects of preparation, not just the foundation."
+    - word: "Prerequisite"
+      difference: "A 'prerequisite' is a specific thing that must be done or exist before something else can happen. 'Getting our ducks in a row' is the process of completing all the necessary 'prerequisites.'"
+  story: |
+    "Alright team, the go-live for Project Phoenix is next Monday," the manager announced. "This week, our only job is to get our ducks in a row. I want the final deployment script reviewed, the rollback plan documented, and customer support fully briefed. No new features, just pure preparation."
+
+- word: "Circle the wagons"
+  pronunciation: "/ˈsɜːrkəl ðə ˈwæɡənz/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To unite as a group in order to defend yourselves, your ideas, or your work against a common threat or criticism."
+    bahasa: "Bersatu sebagai sebuah kelompok untuk mempertahankan diri, ide, atau pekerjaan dari ancaman atau kritik bersama."
+  usage: "This phrase comes from the image of pioneers in the American West arranging their wagons in a circle for protection. It's used when a team needs to stop what they're doing and work together to solve a sudden, serious problem, like a major production bug or a security vulnerability."
+  synonyms:
+    - "Unite for defense"
+    - "Close ranks"
+  examples:
+    workplace:
+      - "The database is down and customers are complaining. We need to circle the wagons and get this fixed now."
+      - "When the marketing team criticized our UI design, the whole engineering team circled the wagons to defend our decisions."
+    casual:
+      - "When the media started attacking the movie, the cast and crew circled the wagons and supported each other online."
+      - "The family had to circle the wagons when their small business was threatened by a large corporation."
+  related:
+    - word: "All hands on deck"
+      difference: "'All hands on deck' means everyone needs to help out with a task. It's about manpower. 'Circle the wagons' is more about defense and unity against a threat. You might need 'all hands on deck' to 'circle the wagons,' but 'circling the wagons' specifically implies a defensive, protective posture."
+    - word: "Team up"
+      difference: "'Team up' just means to collaborate. 'Circle the wagons' is a very specific kind of collaboration: uniting in the face of a problem or attack."
+  story: |
+    At 3 AM, the on-call engineer's phone buzzed. A critical security vulnerability was discovered in our login service. He immediately sent a message to the team channel: "Major security issue. We need to circle the wagons, now. Everyone who can, please get online. We're taking the service offline until we can patch it."
+
+- word: "Throw a wrench in the works"
+  pronunciation: "/θroʊ ə rɛnʧ ɪn ðə wɜːrks/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To do something that prevents a plan or activity from succeeding; to cause a major, sudden problem."
+    bahasa: "Melakukan sesuatu yang menghalangi keberhasilan suatu rencana atau aktivitas; menyebabkan masalah besar yang tiba-tiba."
+  usage: "Also known as 'throw a spanner in the works' in British English. This phrase is used to describe an unexpected event that disrupts a smooth process. A last-minute change request, a server crash, or a key person getting sick can all 'throw a wrench in the works.'"
+  synonyms:
+    - "Disrupt"
+    - "Sabotage"
+  examples:
+    workplace:
+      - "We were all set to deploy, but a last-minute bug report threw a wrench in the works."
+      - "The new security policy threw a wrench in the works for our automated deployment pipeline."
+    casual:
+      - "I was planning a surprise party, but my brother asking to stay over that night threw a wrench in the works."
+      - "The train strike really threw a wrench in the works for my travel plans."
+  related:
+    - word: "Derail"
+      difference: "To 'derail' a plan is to cause it to fail or go off course. 'Throwing a wrench' is the action or event that causes the plan to 'derail.' The wrench is the cause; the derailment is the effect."
+    - word: "Hiccup"
+      difference: "A 'hiccup' is a small, minor problem. 'Throwing a wrench in the works' implies a much more serious problem that can stop the entire process."
+  story: |
+    Our team was on track to finish the sprint two days early. We were feeling great. Then, the legal team sent an email. The open-source library we used for our core feature didn't have a compatible license. This news threw a wrench in the works. We had to stop everything and find a replacement library.
+
+- word: "Under the radar"
+  pronunciation: "/ˈʌndər ðə ˈreɪdɑːr/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "Without attracting attention; unnoticed."
+    bahasa: "Tanpa menarik perhatian; tidak diperhatikan."
+  usage: "You use this phrase to describe actions or projects that are done quietly or secretly, without much publicity or oversight. Sometimes this is for a 'skunkworks' project, or it could be to deploy a small, low-risk fix without a major announcement."
+  synonyms:
+    - "Discreetly"
+    - "Unobtrusively"
+  examples:
+    workplace:
+      - "We deployed the minor text fix under the radar to avoid a full release cycle."
+      - "He's been working on a prototype for a new feature under the radar, and he's going to surprise the team with it tomorrow."
+    casual:
+      - "The celebrity tried to travel under the radar by wearing a hat and sunglasses."
+      - "The new policy was introduced under the radar, and most people didn't even notice."
+  related:
+    - word: "Low-key"
+      difference: "'Low-key' means not intended to attract a lot of attention. It's very similar to 'under the radar.' 'Under the radar' often implies avoiding detection, while 'low-key' is more about not wanting to be the center of attention."
+    - word: "Fly below the radar"
+      difference: "This is an alternative phrasing with the exact same meaning. 'Fly below the radar' and 'be under the radar' are interchangeable."
+  story: |
+    While the main team was busy with the big public-facing rewrite, a couple of junior engineers started a small side project to improve our internal build tools. They kept it under the radar, not wanting to distract the rest of the team. Three months later, they presented a tool that cut our build times in half.
+
+- word: "Read the room"
+  pronunciation: "/riːd ðə ruːm/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To understand the emotions, opinions, and mood of the people you are with in a particular situation and to act appropriately."
+    bahasa: "Memahami emosi, pendapat, dan suasana hati orang-orang di sekitar Anda dalam situasi tertentu dan bertindak dengan tepat."
+  usage: "This is a crucial soft skill. In a work context, it means being aware of your audience during a meeting or presentation. If you're explaining a technical concept and see confused faces, you need to 'read the room' and simplify your explanation. It's also used when someone says something inappropriate, implying they failed to 'read the room.'"
+  synonyms:
+    - "Gauge the atmosphere"
+    - "Sense the mood"
+  examples:
+    workplace:
+      - "He kept making jokes after the bad news was announced. He completely failed to read the room."
+      - "Before you propose a radical new idea, you need to read the room and see if the team is receptive to change."
+    casual:
+      - "I wanted to bring up a controversial topic, but I could tell from their faces that it wasn't the right time. I had to read the room."
+      - "She's a great public speaker because she can read the room and adjust her speech accordingly."
+  related:
+    - word: "Situational awareness"
+      difference: "'Situational awareness' is a broad term for understanding your environment. 'Reading the room' is a specific type of situational awareness focused on the social and emotional context of a group of people."
+    - word: "Tone-deaf"
+      difference: "Being 'tone-deaf' is the opposite of reading the room. It means you are unable to perceive the social or emotional cues, and you say or do something that is inappropriate for the situation."
+  story: |
+    We were in a retrospective after a very difficult sprint where we had failed to meet our goals. Everyone was tired and a bit disappointed. A new project manager, trying to be motivational, started talking excitedly about all the amazing features we were going to build next quarter. Our engineering manager quietly messaged him, "Hey, you might want to read the room. The team needs to talk about what went wrong, not jump to the next thing just yet."
