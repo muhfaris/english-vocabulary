@@ -1,0 +1,73 @@
+dialogue:
+  - speaker: Alex
+    english: "Hey, Ben. Got a minute? I'm stuck on this bug in the user authentication flow."
+    bahasa: "Hai, Ben. Ada waktu sebentar? Aku mentok di bug alur otentikasi pengguna ini."
+  - speaker: Ben
+    english: "Sure, what's up? I can spare a few minutes before my next meeting."
+    bahasa: "Tentu, ada apa? Aku ada waktu beberapa menit sebelum rapat berikutnya."
+  - speaker: Alex
+    english: "So, the login works, but the session isn't persisting after the user refreshes the page. I've been staring at the code for an hour and can't see the issue."
+    bahasa: "Jadi, loginnya berfungsi, tapi sesinya tidak bertahan setelah pengguna me-refresh halaman. Aku sudah menatap kodenya selama satu jam dan tidak menemukan masalahnya."
+  - speaker: Ben
+    english: "Classic session bug. Let me see. Can you walk me through the code?"
+    bahasa: "Bug sesi klasik. Coba kulihat. Bisa jelaskan kodenya?"
+  - speaker: Alex
+    english: "Okay, so here's the login controller. We're using JWTs. After a successful login, we generate a token and send it back to the client."
+    bahasa: "Oke, jadi ini controller loginnya. Kita pakai JWT. Setelah login berhasil, kita buat token dan kirim kembali ke klien."
+  - speaker: Ben
+    english: "Hmm, and how is the client storing it? Local storage? Session storage? A cookie?"
+    bahasa: "Hmm, dan bagaimana klien menyimpannya? Local storage? Session storage? Cookie?"
+  - speaker: Alex
+    english: "It's supposed to be stored in a secure, HTTP-only cookie. Here's the client-side code that handles the response."
+    bahasa: "Seharusnya disimpan di cookie yang aman dan hanya-HTTP. Ini kode sisi klien yang menangani responsnya."
+  - speaker: Ben
+    english: "Ah, I think I see the problem. Look at the cookie settings. The `secure` flag is set to `true`, which is good, but there's no `SameSite` attribute."
+    bahasa: "Ah, sepertinya aku tahu masalahnya. Lihat pengaturan cookie-nya. Flag `secure` diatur ke `true`, itu bagus, tapi tidak ada atribut `SameSite`."
+  - speaker: Alex
+    english: "Oh, I didn't think that would be the culprit. I thought modern browsers default to a reasonable value."
+    bahasa: "Oh, aku tidak menyangka itu penyebabnya. Kukira browser modern punya nilai default yang wajar."
+  - speaker: Ben
+    english: "They do, but it can be inconsistent, especially with cross-origin requests. Let's try explicitly setting `SameSite=Strict`. That should prevent the browser from sending the cookie with cross-site requests, but it will be sent for same-site navigations, like a page refresh."
+    bahasa: "Memang, tapi bisa tidak konsisten, terutama dengan permintaan lintas-asal. Coba kita atur `SameSite=Strict` secara eksplisit. Itu seharusnya mencegah browser mengirim cookie dengan permintaan lintas-situs, tapi akan dikirim untuk navigasi situs yang sama, seperti refresh halaman."
+  - speaker: Alex
+    english: "Okay, adding it now... and... let's test it. I'll log in again."
+    bahasa: "Oke, aku tambahkan sekarang... dan... ayo kita tes. Aku akan login lagi."
+  - speaker: Ben
+    english: "Moment of truth."
+    bahasa: "Saatnya pembuktian."
+  - speaker: Alex
+    english: "It works! The session is still there after a refresh. You're a lifesaver, Ben!"
+    bahasa: "Berhasil! Sesinya masih ada setelah di-refresh. Kamu penyelamatku, Ben!"
+  - speaker: Ben
+    english: "No problem at all. Sometimes a fresh pair of eyes is all it takes. Glad I could help."
+    bahasa: "Tidak masalah sama sekali. Terkadang yang dibutuhkan hanyalah sepasang mata yang segar. Senang bisa membantu."
+
+expressions:
+  - phrase: "Got a minute?"
+    meaning_english: "A common, informal way to ask if someone has a short amount of time to talk or help."
+    meaning_bahasa: "Cara umum dan informal untuk bertanya apakah seseorang punya sedikit waktu untuk bicara atau membantu."
+  - phrase: "I'm stuck on this bug."
+    meaning_english: "An expression used when you are unable to solve a problem or make progress."
+    meaning_bahasa: "Ekspresi yang digunakan ketika Anda tidak dapat memecahkan masalah atau membuat kemajuan."
+  - phrase: "Walk me through the code."
+    meaning_english: "A request for someone to explain a piece of code step-by-step."
+    meaning_bahasa: "Permintaan kepada seseorang untuk menjelaskan sepotong kode langkah demi langkah."
+  - phrase: "The culprit."
+    meaning_english: "The person or thing responsible for a problem or mistake."
+    meaning_bahasa: "Orang atau benda yang bertanggung jawab atas suatu masalah atau kesalahan."
+  - phrase: "Moment of truth."
+    meaning_english: "A critical point in time when you find out if something will succeed or fail."
+    meaning_bahasa: "Saat yang menentukan ketika Anda mengetahui apakah sesuatu akan berhasil atau gagal."
+  - phrase: "A fresh pair of eyes."
+    meaning_english: "A new person to look at a problem, who can often spot things the original person missed."
+    meaning_bahasa: "Orang baru untuk melihat suatu masalah, yang seringkali dapat menemukan hal-hal yang terlewatkan oleh orang pertama."
+
+questions:
+  - q: "What was the initial problem Alex was facing?"
+    a: "The user session was not persisting after the page was refreshed."
+  - q: "What technology was being used for authentication?"
+    a: "They were using JSON Web Tokens (JWTs)."
+  - q: "What did Ben suggest was the cause of the bug?"
+    a: "The missing `SameSite` attribute in the cookie settings."
+  - q: "What was the solution to fix the bug?"
+    a: "Explicitly setting the `SameSite=Strict` attribute for the session cookie."
