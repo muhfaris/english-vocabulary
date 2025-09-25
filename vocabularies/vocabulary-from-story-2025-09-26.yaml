@@ -1,0 +1,193 @@
+- word: "high-level"
+  pronunciation: "/ˈhaɪˌlɛvəl/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Providing a general overview without going into detail."
+    bahasa: "Memberikan gambaran umum tanpa masuk ke detail."
+  usage: "Used to describe discussions, plans, or designs that are broad and not detailed."
+  synonyms:
+    - "general"
+    - "abstract"
+  examples:
+    workplace:
+      - "Let's start with a high-level discussion before we dive into the technical details."
+      - "The document provides a high-level overview of the project's goals."
+    casual:
+      - "He gave me a high-level summary of the movie."
+      - "I have a high-level understanding of how cars work."
+  related:
+    - word: "low-level"
+      difference: "'Low-level' is the opposite, referring to detailed, specific information, especially in a technical context."
+    - word: "granular"
+      difference: "'Granular' is similar to 'low-level' and means looking at the small details of something."
+  story: |
+    During the initial project kickoff, the architect presented a high-level diagram of the system. It showed the main components and how they would interact, but it didn't include any implementation details. This high-level view was perfect for getting everyone aligned on the overall approach without getting lost in the weeds.
+- word: "concrete"
+  pronunciation: "/ˈkɒŋkriːt/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Specific, definite, and not general or abstract."
+    bahasa: "Spesifik, pasti, dan tidak umum atau abstrak."
+  usage: "Used to describe ideas, plans, or examples that are clear, solid, and well-defined."
+  synonyms:
+    - "specific"
+    - "tangible"
+  examples:
+    workplace:
+      - "We need to move from abstract ideas to a concrete plan of action."
+      - "Can you give me a concrete example of the bug you're seeing?"
+    casual:
+      - "Her goals are very concrete; she knows exactly what she wants."
+      - "I need some concrete evidence before I believe him."
+  related:
+    - word: "abstract"
+      difference: "'Abstract' is the opposite of concrete, referring to ideas that are not based on physical reality."
+    - word: "specific"
+      difference: "'Specific' is a close synonym, but 'concrete' often implies something that is not only specific but also tangible or real."
+  story: |
+    The initial brainstorming session was full of great ideas, but they were all quite vague. The product manager asked the team to come back with a more concrete proposal. The next day, we presented a detailed document with user stories, mockups, and a clear timeline. This concrete plan made it much easier for everyone to understand the project and get on board.
+- word: "specifications"
+  pronunciation: "/ˌspɛsɪfɪˈkeɪʃənz/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A detailed description of the design and materials used to make something."
+    bahasa: "Deskripsi terperinci tentang desain dan bahan yang digunakan untuk membuat sesuatu."
+  usage: "Often shortened to 'specs', this refers to the detailed requirements that define a feature or product."
+  synonyms:
+    - "requirements"
+    - "details"
+  examples:
+    workplace:
+      - "The developer is waiting for the final specifications from the product team."
+      - "We need to write clear specifications to avoid any misunderstandings."
+    casual:
+      - "What are the specifications of your new computer?"
+      - "The builder followed the architect's specifications exactly."
+  related:
+    - word: "requirements"
+      difference: "'Requirements' are what the system must do. 'Specifications' are how the system will do it. In practice, the terms are often used interchangeably."
+    - word: "user story"
+      difference: "A 'user story' describes a feature from an end-user's perspective. The 'specifications' provide the technical details needed to implement that story."
+  story: |
+    We had a meeting to review the specifications for the new API. The document detailed every endpoint, the expected request and response formats, and the error codes. Having clear specifications like this is crucial because it ensures that both the frontend and backend teams are building to the same standard, which prevents integration problems later on.
+- word: "actionable"
+  pronunciation: "/ˈækʃənəbəl/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Able to be done or acted on; having practical value."
+    bahasa: "Dapat dilakukan atau ditindaklanjuti; memiliki nilai praktis."
+  usage: "Use this to describe feedback, plans, or tasks that are clear enough to be acted upon."
+  synonyms:
+    - "practical"
+    - "feasible"
+  examples:
+    workplace:
+      - "The feedback from the code review was very actionable and easy to implement."
+      - "We need to break down this large goal into smaller, actionable steps."
+    casual:
+      - "The book gives a lot of actionable advice on personal finance."
+      - "His suggestions weren't very actionable; they were too vague."
+  related:
+    - word: "vague"
+      difference: "'Vague' is the opposite of actionable, meaning something is unclear and cannot be acted upon."
+    - word: "concrete"
+      difference: "A 'concrete' plan is specific and detailed. An 'actionable' plan is one that can be executed."
+  story: |
+    After the retrospective, the team came up with a list of things that went wrong. The scrum master pushed us to turn those complaints into actionable items. Instead of just saying "communication was bad," we created an actionable task: "Create a dedicated Slack channel for the project and document key decisions in Confluence." This made it much more likely that we would actually improve.
+- word: "endgame"
+  pronunciation: "/ˈɛndˌɡeɪm/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The final stage of a process, especially one involving a strategic plan."
+    bahasa: "Tahap akhir dari sebuah proses, terutama yang melibatkan rencana strategis."
+  usage: "Refers to the ultimate goal or final desired state of a project or plan."
+  synonyms:
+    - "final goal"
+    - "ultimate objective"
+  examples:
+    workplace:
+      - "Migrating to the new database is just the first step; the endgame is to improve performance by 50%."
+      - "We need a clear strategy for the product's endgame."
+    casual:
+      - "In chess, the endgame is often the most difficult part of the match."
+      - "What's your endgame? What do you hope to achieve with all this?"
+  related:
+    - word: "roadmap"
+      difference: "A 'roadmap' is the plan for how to get to the destination. The 'endgame' is the destination itself."
+    - word: "milestone"
+      difference: "A 'milestone' is a significant point along the way. The 'endgame' is the final achievement."
+  story: |
+    Our team was working on a major refactoring of the codebase. It was a long and difficult process with few visible results for the users. To keep the team motivated, the tech lead kept reminding us of the endgame: a more stable, scalable, and maintainable application that would allow us to ship new features much faster in the future. That vision of the endgame helped us push through the challenging work.
+- word: "ambiguity"
+  pronunciation: "/ˌæm.bɪˈɡjuː.ə.ti/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The quality of being open to more than one interpretation; inexactness."
+    bahasa: "Kualitas keterbukaan terhadap lebih dari satu interpretasi; ketidaktepatan."
+  usage: "Used to describe a situation, statement, or requirement that is unclear, confusing, or could be understood in multiple ways. In software development, ambiguity in requirements is a common source of problems."
+  synonyms:
+    - "unclearness"
+    - "vagueness"
+    - "uncertainty"
+  examples:
+    workplace:
+      - "We need to remove the ambiguity from the user story before we can start working on it."
+      - "The lack of clear goals created a lot of ambiguity for the team."
+    casual:
+      - "The ambiguity of the movie's ending left the audience with many questions."
+      - "There is some ambiguity in the law, which makes it difficult to interpret."
+  related:
+    - word: "Clarity"
+      difference: "'Clarity' is the opposite of 'ambiguity'. It means something is clear and easy to understand."
+    - word: "Confusion"
+      difference: "'Ambiguity' is the cause; 'confusion' is the effect. An ambiguous statement can cause confusion for the listener."
+  story: |
+    The initial ticket just said: 'Improve the user profile page.' This created a lot of ambiguity for the developers. Did it mean improve the design, add new fields, or make it load faster? The team had to go back to the product manager to get more specific requirements and remove the ambiguity before they could write any code.
+- word: "brainstorm"
+  pronunciation: "/ˈbreɪn.stɔːm/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To suggest a lot of ideas for a future activity or to solve a problem, usually in a group."
+    bahasa: "Menyarankan banyak ide untuk kegiatan di masa depan atau untuk memecahkan masalah, biasanya dalam kelompok."
+  usage: "Used to describe a creative process of generating ideas without judgment. It's a common technique in planning and problem-solving sessions."
+  synonyms:
+    - "generate ideas"
+    - "think up"
+  examples:
+    workplace:
+      - "Let's get together this afternoon to brainstorm a new name for the product."
+      - "We need to brainstorm ways to improve user engagement."
+    casual:
+      - "The family sat down to brainstorm ideas for their summer vacation."
+      - "I need to brainstorm a topic for my final essay."
+  related:
+    - word: "Discuss"
+      difference: "'Discuss' means to talk about something, often involving analysis and evaluation. 'Brainstorm' is specifically about generating a wide range of new ideas, usually without immediate criticism."
+    - word: "Ideate"
+      difference: "'Ideate' is a more formal, design-thinking term for the process of forming ideas. 'Brainstorm' is a more common and informal word for the same activity."
+  story: |
+    The team was stuck on how to solve a complex performance issue. The lead engineer called for a session and said, 'Okay, no bad ideas. Let's just brainstorm.' For 30 minutes, they filled a whiteboard with every possible solution, from simple tweaks to radical architectural changes. This session produced the unconventional idea that eventually solved the problem.
+- word: "Buy-in"
+  pronunciation: "/ˈbaɪ.ɪn/"
+  part_of_speech: "noun"
+  meaning:
+    english: "Agreement and commitment from people to support a decision or plan."
+    bahasa: "Persetujuan dan komitmen dari orang-orang untuk mendukung sebuah keputusan atau rencana."
+  usage: "Use 'buy-in' when you need agreement from your team, manager, or stakeholders before proceeding with a plan or project."
+  synonyms:
+    - "agreement"
+    - "support"
+  examples:
+    workplace:
+      - "We can't start the refactor until we get buy-in from the product manager."
+      - "He presented his idea to the team to get their buy-in."
+    casual:
+      - "The new school policy won't work without buy-in from the parents."
+      - "She wanted to get buy-in from her friends before booking the vacation."
+  related:
+    - word: "Consensus"
+      difference: "'Consensus' means everyone agrees. 'Buy-in' means people agree to support the decision, even if it wasn't their first choice. It's about commitment to move forward."
+    - word: "Alignment"
+      difference: "'Alignment' is the state of having a shared understanding. 'Buy-in' is the active agreement to support the aligned plan."
+  story: |
+    A senior engineer proposed a major architectural change. Before writing a single line of code, she scheduled meetings with all the other teams that would be affected. She explained the rationale and the long-term benefits. By taking the time to get buy-in from everyone, she ensured that when the work started, she had their full cooperation.
