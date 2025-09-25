@@ -276,3 +276,202 @@
       difference: "A 'sanity-test' is a quick, surface-level check. A 'regression-test' is a much more comprehensive process to ensure that new changes haven't broken any existing functionality."
   story: |
     I just finished refactoring a large piece of code. Before I created a pull request, I ran the application on my local machine and performed a quick sanity-test. I clicked through the main features, checked a few buttons, and made sure the core functionality was still intact. It passed, so I knew it was ready for a full code review.
+- word: "hectic"
+  pronunciation: "/ˈhɛktɪk/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Full of incessant or frantic activity."
+    bahasa: "Sangat sibuk dan penuh dengan aktivitas."
+  usage: "Use 'hectic' to describe a day, week, or situation that is very busy and fast-paced."
+  synonyms:
+    - "frantic"
+    - "chaotic"
+  examples:
+    workplace:
+      - "It's been a hectic week with the new release."
+      - "The morning was a bit hectic, but things have calmed down now."
+    casual:
+      - "Life can be hectic with kids."
+      - "The market was too hectic, so we left."
+  related:
+    - word: "busy"
+      difference: "'Busy' means having a lot to do. 'Hectic' is a stronger word that implies a level of chaos or being overwhelmed."
+    - word: "overwhelming"
+      difference: "'Overwhelming' describes a feeling of being overpowered by too many things, while 'hectic' describes the situation itself."
+  story: |
+    On the day before the product launch, the office was incredibly hectic. Phones were ringing, people were rushing between meetings, and the project manager was trying to coordinate everything. Despite the chaos, there was a sense of excitement in the air.
+
+- word: "blocker"
+  pronunciation: "/ˈblɒkər/"
+  part_of_speech: "noun"
+  meaning:
+    english: "An issue that prevents you from making progress on a task."
+    bahasa: "Hambatan; sesuatu yang menghalangi kemajuan."
+  usage: "In a work context, a 'blocker' is something that you need to resolve before you can continue with your work."
+  synonyms:
+    - "obstacle"
+    - "impediment"
+  examples:
+    workplace:
+      - "I can't finish the front-end until this blocker with the API is resolved."
+      - "During the stand-up, I reported a blocker related to my database access."
+    casual:
+      - "My main blocker to finishing this book is a lack of free time."
+      - "The road closure is a major blocker for my commute."
+  related:
+    - word: "issue"
+      difference: "An 'issue' is a general problem. A 'blocker' is a specific type of issue that stops all progress."
+    - word: "challenge"
+      difference: "A 'challenge' is a difficult task that you can still work on. A 'blocker' is something that completely stops you from working."
+  story: |
+    I was making great progress on my feature until I hit a blocker. The documentation for the third-party library was outdated, and I couldn't figure out how to integrate it. I had to schedule a meeting with the senior developer to get help.
+
+- word: "align"
+  pronunciation: "/əˈlaɪn/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To come together in agreement or alliance."
+    bahasa: "Menyelaraskan; mencapai kesepakatan."
+  usage: "Use 'align' in a professional context to mean getting on the same page with colleagues or stakeholders about a goal, plan, or understanding."
+  synonyms:
+    - "agree"
+    - "coordinate"
+  examples:
+    workplace:
+      - "We need to align with the marketing team on the launch date."
+      - "Let's have a quick meeting to align on the project requirements."
+    casual:
+      - "We need to align our schedules to find a time to meet."
+      - "Their stories didn't align, so I knew someone wasn't telling the truth."
+  related:
+    - word: "agree"
+      difference: "'Agree' can be a simple 'yes' to a question. 'Align' implies a more in-depth process of making sure everyone's understanding and goals are the same."
+    - word: "sync up"
+      difference: "'Sync up' is a more informal way to say 'align'. It's often used for quick, informal meetings."
+  story: |
+    Before writing any code, the product manager, designer, and lead engineer met to align on the new feature. They discussed the user stories, reviewed the mockups, and agreed on the technical approach. This meeting ensured everyone was working towards the same goal.
+
+- word: "code review"
+  pronunciation: "/koʊd rɪˈvjuː/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A process where developers other than the code's author examine the code for mistakes, improvements, and adherence to standards."
+    bahasa: "Tinjauan kode; proses pemeriksaan kode oleh pengembang lain."
+  usage: "A 'code review' is a standard practice in software development to maintain code quality and share knowledge."
+  synonyms:
+    - "peer review"
+    - "code inspection"
+  examples:
+    workplace:
+      - "I've submitted my pull request for code review."
+      - "The code review process helps us catch bugs before they reach production."
+    casual:
+      - "I asked my friend to do a quick code review of my personal project."
+      - "Think of it as a code review for your essay; you want someone else to check for errors."
+  related:
+    - word: "pull request"
+      difference: "A 'pull request' is the mechanism to propose changes. The 'code review' is the process of evaluating those changes within the pull request."
+    - word: "feedback"
+      difference: "'Feedback' is the comments and suggestions you receive during a code review."
+  story: |
+    After finishing her task, she opened a pull request and assigned it to two of her teammates for a code review. They left a few comments suggesting improvements. She made the changes, and after their approval, she merged her code into the main branch.
+
+- word: "glitch"
+  pronunciation: "/ɡlɪtʃ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A small, often temporary, fault or problem."
+    bahasa: "Gangguan kecil; masalah sementara."
+  usage: "Use 'glitch' to describe a minor, unexpected problem, especially with software or electronics."
+  synonyms:
+    - "bug"
+    - "hiccup"
+  examples:
+    workplace:
+      - "There was a glitch in the system this morning, but it's fixed now."
+      - "We found a visual glitch on the new webpage."
+    casual:
+      - "There's a glitch in the video game that gives you extra lives."
+      - "My phone had a weird glitch and restarted itself."
+  related:
+    - word: "bug"
+      difference: "A 'bug' is a more general term for an error in code. A 'glitch' is often used for a minor or temporary bug, especially one that is hard to reproduce."
+    - word: "issue"
+      difference: "An 'issue' is a broad term for any problem. A 'glitch' is a specific type of issue that is usually small and technical."
+  story: |
+    During the live demo, there was a small glitch where the images failed to load for a few seconds. It was embarrassing, but the system recovered quickly, and the rest of the presentation went smoothly.
+
+- word: "patch"
+  pronunciation: "/pætʃ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A piece of code inserted into a program to fix a bug or add a new feature."
+    bahasa: "Tambalan; potongan kode untuk memperbaiki bug."
+  usage: "A 'patch' is often a small, quick fix for a specific problem."
+  synonyms:
+    - "hotfix"
+    - "quick fix"
+  examples:
+    workplace:
+      - "I'm writing a patch to fix the security vulnerability."
+      - "We'll release a patch for this bug tomorrow."
+    casual:
+      - "He used a patch to fix the hole in his jeans."
+      - "The road crew is applying a patch to the pothole."
+  related:
+    - word: "hotfix"
+      difference: "A 'hotfix' is a patch that is created and released quickly for a critical issue in a production environment."
+    - word: "update"
+      difference: "An 'update' is a more general term that can include new features, bug fixes, and other changes. A 'patch' is typically a small fix for a specific problem."
+  story: |
+    A critical bug was found in the production environment. The team quickly identified the problem and developed a patch. After testing it in the staging environment, they applied the patch to the live servers, resolving the issue for all users.
+
+- word: "huddle"
+  pronunciation: "/ˈhʌdl/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A quick, informal meeting."
+    bahasa: "Rapat singkat dan informal."
+  usage: "Use 'huddle' to describe a brief meeting where a team gets together to discuss something, often to make a quick decision or get aligned."
+  synonyms:
+    - "quick sync"
+    - "stand-up"
+  examples:
+    workplace:
+      - "Let's have a quick huddle to discuss the client's feedback."
+      - "The team has a morning huddle every day to plan their work."
+    casual:
+      - "The football team went into a huddle to discuss the next play."
+      - "We had a family huddle to decide where to go for dinner."
+  related:
+    - word: "meeting"
+      difference: "A 'meeting' is a general term for any gathering of people. A 'huddle' is specifically a short, informal meeting."
+    - word: "stand-up"
+      difference: "A 'stand-up' is a type of huddle that is usually held daily and has a specific format (e.g., what did you do yesterday, what will you do today, any blockers)."
+  story: |
+    The team was unsure about how to approach a complex new feature. The tech lead called for a quick huddle. They gathered around a whiteboard, sketched out a few ideas, and within 15 minutes, they had a clear plan to move forward.
+
+- word: "deploy"
+  pronunciation: "/dɪˈplɔɪ/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To release new code or a new version of a software application to a live environment."
+    bahasa: "Menerapkan; merilis kode atau versi baru ke lingkungan produksi."
+  usage: "Use 'deploy' to describe the process of making your software available to users."
+  synonyms:
+    - "release"
+    - "launch"
+  examples:
+    workplace:
+      - "We are scheduled to deploy the new version on Friday."
+      - "The team is preparing for the final deploy."
+    casual:
+      - "I'm going to deploy my personal website this weekend."
+      - "Think of it like deploying your troops; you're sending your work out into the world."
+  related:
+    - word: "release"
+      difference: "'Release' can refer to the entire process of making software available, including marketing and communication. 'Deploy' specifically refers to the technical process of pushing the code to the servers."
+    - word: "launch"
+      difference: "'Launch' is a more business-oriented term that often refers to the initial release of a new product or major version."
+  story: |
+    After weeks of development and testing, the team was finally ready to deploy the new feature. They monitored the process closely, and once it was live, they checked the logs to ensure everything was running smoothly. It was a great feeling to see their hard work finally available to users.
