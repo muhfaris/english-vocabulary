@@ -1,0 +1,20 @@
+story:
+  title: "a-hectic-pre-release-day"
+  date: "2025-09-25"
+  text: |
+    It was a **hectic** morning for the team. With the new feature release scheduled for tomorrow, everyone was focused on their final tasks. During the morning stand-up, I shared that my main task was almost done, but I had hit a small **blocker** with a third-party integration. My team lead suggested I **align** with Sarah from the platform team since she had worked on it before.
+
+    A quick chat with Sarah cleared things up. It turned out to be a simple configuration issue. After applying the fix, I submitted my code for a final **code review**. My colleague, Tom, gave it a quick look and approved it. We merged the changes and pushed them to the staging environment.
+
+    During our final testing, we discovered a minor **glitch** in the UI—a button was misaligned on smaller screens. It wasn't a showstopper, but we wanted everything to be perfect. I quickly created a **patch** to fix the CSS.
+
+    Before starting the final **deploy** process, our manager called for a quick **huddle**. We all gathered around his desk, confirmed our readiness, and decided on the rollout plan. It felt good to be working so closely as a team. With everything in place, we initiated the deployment, hoping for a smooth release.
+  highlighted_words:
+    - "hectic"
+    - "blocker"
+    - "align"
+    - "code review"
+    - "glitch"
+    - "patch"
+    - "huddle"
+    - "deploy"
