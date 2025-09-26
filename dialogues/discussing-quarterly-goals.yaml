@@ -1,0 +1,62 @@
+dialogue:
+  - speaker: Alex
+    english: "Hey Ben, have you started thinking about your quarterly goals? Management just sent out the reminder."
+    bahasa: "Hai Ben, sudah mulai memikirkan target kuartalanmu? Manajemen baru saja mengirim pengingat."
+  - speaker: Ben
+    english: "Oh, already? This quarter flew by. I haven't given it much thought yet. What about you?"
+    bahasa: "Oh, sudah ya? Kuartal ini berlalu begitu cepat. Aku belum terlalu memikirkannya. Bagaimana denganmu?"
+  - speaker: Alex
+    english: "I've jotted down a few ideas. I'm thinking of focusing on improving the performance of our main dashboard."
+    bahasa: "Aku sudah mencatat beberapa ide. Aku berpikir untuk fokus pada peningkatan performa dasbor utama kita."
+  - speaker: Ben
+    english: "That's a solid goal. It's been a bit sluggish lately. How are you planning to tackle that?"
+    bahasa: "Itu target yang bagus. Belakangan ini memang agak lambat. Bagaimana rencanamu untuk menanganinya?"
+  - speaker: Alex
+    english: "I want to start by optimizing the database queries and then maybe implement some caching strategies."
+    bahasa: "Aku mau mulai dengan mengoptimalkan kueri basis data, lalu mungkin menerapkan beberapa strategi caching."
+  - speaker: Ben
+    english: "Sounds like a plan. I was thinking of dedicating some time to learning the new frontend framework we're considering."
+    bahasa: "Terdengar bagus. Aku berpikir untuk meluangkan waktu mempelajari kerangka kerja frontend baru yang sedang kita pertimbangkan."
+  - speaker: Alex
+    english: "That's a great professional development goal. It will definitely be valuable for the team."
+    bahasa: "Itu target pengembangan profesional yang bagus. Pasti akan sangat berharga bagi tim."
+  - speaker: Ben
+    english: "I hope so. I also need a project-related goal. Maybe I'll aim to reduce the number of bugs in the payment module by 20%."
+    bahasa: "Aku harap begitu. Aku juga butuh target terkait proyek. Mungkin aku akan menargetkan untuk mengurangi jumlah bug di modul pembayaran sebesar 20%."
+  - speaker: Alex
+    english: "Ambitious, but definitely achievable. We should align our goals to make sure we're not overlapping too much."
+    bahasa: "Ambisius, tapi pasti bisa dicapai. Kita harus menyelaraskan target kita untuk memastikan tidak terlalu banyak tumpang tindih."
+  - speaker: Ben
+    english: "Good point. Let's sync up again tomorrow once I have a clearer draft of my goals."
+    bahasa: "Poin bagus. Mari kita sinkronisasi lagi besok setelah aku punya draf target yang lebih jelas."
+
+expressions:
+  - phrase: Flew by
+    meaning_english: "Passed very quickly."
+    meaning_bahasa: "Berlalu dengan sangat cepat."
+  - phrase: Jotted down
+    meaning_english: "Wrote something down quickly."
+    meaning_bahasa: "Mencatat sesuatu dengan cepat."
+  - phrase: Solid goal
+    meaning_english: "A very good and well-thought-out objective."
+    meaning_bahasa: "Tujuan yang sangat bagus dan dipikirkan dengan matang."
+  - phrase: Sluggish
+    meaning_english: "Slow-moving or inactive."
+    meaning_bahasa: "Bergerak lambat atau tidak aktif."
+  - phrase: Tackle that
+    meaning_english: "To make a determined effort to deal with a problem."
+    meaning_bahasa: "Berusaha keras untuk menangani suatu masalah."
+  - phrase: Align our goals
+    meaning_english: "To bring goals into agreement or cooperation."
+    meaning_bahasa: "Menyelaraskan tujuan agar selaras atau bekerja sama."
+  - phrase: Sync up
+    meaning_english: "To meet and make sure you are all working together effectively."
+    meaning_bahasa: "Bertemu dan memastikan semua bekerja sama secara efektif."
+
+questions:
+  - q: "What is Alex's main goal for the quarter?"
+    a: "Alex plans to focus on improving the performance of the main dashboard by optimizing database queries and implementing caching."
+  - q: "What are Ben's two proposed goals?"
+    a: "Ben wants to learn a new frontend framework and reduce the number of bugs in the payment module by 20%."
+  - q: "Why do Alex and Ben decide to sync up again?"
+    a: "They want to align their goals to avoid overlapping and ensure they are working together effectively."
