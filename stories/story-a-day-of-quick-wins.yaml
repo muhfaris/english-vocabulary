@@ -1,0 +1,18 @@
+story:
+  title: "a-day-of-quick-wins"
+  date: "2025-09-27"
+  text: |
+    Friday morning started with our usual **stand-up**. My tasks for the day were clear: finalize the new feature, as the **deadline** was approaching. The feature's **scope** was well-defined, which was a relief. I didn't anticipate any major **blocker**.
+
+    I had a quick chat with my product manager to **align** on the final details. We both agreed on what to **prioritize** to ensure a smooth release. After that, I spent a few hours coding, and everything went better than expected. I finished my work and submitted it for **code review**. My teammate, Alex, gave me a quick thumbs-up.
+
+    By the afternoon, I was ready to **merge** my changes. The deployment went off without a hitch. It was one of those rare, satisfying days where everything just clicks into place. Finishing the week with a successful release felt like a huge accomplishment. I grabbed a cup of coffee and started winding down for the weekend.
+  highlighted_words:
+    - "stand-up"
+    - "deadline"
+    - "scope"
+    - "blocker"
+    - "align"
+    - "prioritize"
+    - "code review"
+    - "merge"
