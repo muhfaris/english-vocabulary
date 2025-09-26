@@ -388,3 +388,179 @@
       difference: "Asking for 'help' is general. Asking for 'a fresh pair of eyes' is a specific type of help for finding something that has been missed."
   story: |
     I was convinced my code was perfect, but it kept failing one specific test case. I couldn't see the issue. I asked a colleague to take a look. As a fresh pair of eyes, she immediately spotted a simple typo in a variable name that I had read over at least twenty times.
+- word: "newbie"
+  pronunciation: "/ˈnuː.bi/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A person who is new to an organization or activity."
+    bahasa: "Seseorang yang baru dalam suatu organisasi atau aktivitas."
+  usage: "A friendly, informal term for a newcomer or beginner in a group, team, or hobby."
+  synonyms:
+    - "beginner"
+    - "novice"
+    - "newcomer"
+  examples:
+    workplace:
+      - "As the team newbie, I had a lot of questions during my first week."
+      - "Don't worry about making mistakes; we all were newbies once."
+    casual:
+      - "He's a complete newbie at video games, so we're teaching him the basics."
+      - "The forum has a special section for newbies to ask questions."
+  related:
+    - word: "junior"
+      difference: "'Junior' is a formal job title that indicates a certain level of experience (usually 0-2 years). 'Newbie' is an informal term that refers to someone who has just joined, regardless of their overall experience level. A senior engineer can be a 'newbie' on a new team."
+    - word: "expert"
+      difference: "'Expert' is the opposite of a 'newbie', referring to someone with a high level of skill or knowledge."
+  story: |
+    On my first day, my manager introduced me to the team as the new 'newbie'. Everyone was really friendly and offered to help me get set up. It made me feel much more comfortable and less afraid to ask what I thought were silly questions.
+
+- word: "first impressions"
+  pronunciation: "/fɜːrst ɪmˈprɛʃənz/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "The initial opinion or feeling someone forms about another person or thing."
+    bahasa: "Pendapat atau perasaan awal yang dibentuk seseorang tentang orang atau hal lain."
+  usage: "Used when talking about the importance of the initial encounter or experience, as it can be lasting."
+  synonyms:
+    - "initial thoughts"
+    - "first take"
+  examples:
+    workplace:
+      - "I wanted to be well-prepared for the meeting to make a good first impression."
+      - "The new UI design made a great first impression on the stakeholders."
+    casual:
+      - "They say first impressions are the most lasting."
+      - "My first impression of the city was that it was very busy."
+  related:
+    - word: "opinion"
+      difference: "An 'opinion' can be formed at any time. 'First impressions' specifically refer to the opinion formed at the very beginning of meeting someone or experiencing something."
+    - word: "reputation"
+      difference: "A 'reputation' is built over a long period of time based on many actions. 'First impressions' are formed in a single, initial moment."
+  story: |
+    When I joined the new project, I knew that first impressions mattered. On my first day, I made sure to arrive on time, listen carefully during the onboarding session, and ask thoughtful questions. I wanted to show my new team that I was eager to learn and contribute.
+
+- word: "buddy"
+  pronunciation: "/ˈbʌd.i/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A person who is assigned to help a new employee or member settle into a new environment."
+    bahasa: "Seseorang yang ditugaskan untuk membantu karyawan atau anggota baru beradaptasi dengan lingkungan baru."
+  usage: "In a workplace context, a 'buddy' is a friendly guide for a new team member, responsible for answering questions and helping them navigate the company culture. It's less formal than a mentor."
+  synonyms:
+    - "partner"
+    - "guide"
+  examples:
+    workplace:
+      - "My buddy showed me where to get the best coffee in the office."
+      - "Every new hire is assigned a buddy for their first month."
+    casual:
+      - "He's my workout buddy; we go to the gym together."
+      - "Let's use the buddy system so no one gets lost on the hike."
+  related:
+    - word: "mentor"
+      difference: "A 'mentor' is typically a more senior person who provides long-term career guidance and advice. A 'buddy' is usually a peer who helps with day-to-day questions and social integration in the short term."
+    - word: "colleague"
+      difference: "A 'colleague' is anyone you work with. A 'buddy' is a specific colleague who has been officially assigned to help you."
+  story: |
+    When I started my new job, I was assigned a buddy named Sarah. She was a lifesaver. She didn't just help with technical questions; she also invited me to lunch with the team and explained all the unwritten rules of the office. Having a buddy made settling in so much easier.
+
+- word: "codebase"
+  pronunciation: "/ˈkoʊd.beɪs/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The entire collection of source code for a particular software program or system."
+    bahasa: "Seluruh koleksi kode sumber untuk program atau sistem perangkat lunak tertentu."
+  usage: "Used by developers to refer to the complete set of code they are working on."
+  synonyms:
+    - "source code"
+    - "repository"
+  examples:
+    workplace:
+      - "It took me a few weeks to get familiar with our team's codebase."
+      - "We are trying to clean up the legacy codebase."
+    casual:
+      - "He's exploring the codebase of an open-source project in his free time."
+      - "The game has a huge codebase with millions of lines of code."
+  related:
+    - word: "repository"
+      difference: "A 'repository' (or repo) is the storage location for the code, often managed by a version control system like Git. The 'codebase' is the code itself that is stored in the repository."
+    - word: "application"
+      difference: "The 'application' is the running software that the user interacts with. The 'codebase' is the underlying source code that creates the application."
+  story: |
+    Joining a project with a ten-year-old codebase can be intimidating. There are so many layers of code written by different people over the years. My first task was to fix a small bug, which forced me to navigate different parts of the codebase and start to understand how it was all connected.
+
+- word: "learning curve"
+  pronunciation: "/ˈlɜːr.nɪŋ kɜːrv/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "The rate at which someone learns a new skill; a steep learning curve means it is difficult and takes time to learn."
+    bahasa: "Tingkat di mana seseorang mempelajari keterampilan baru; kurva belajar yang curam berarti sulit dan membutuhkan waktu untuk belajar."
+  usage: "Used to describe how easy or difficult it is to learn something new, like a technology, a tool, or a new job."
+  synonyms:
+    - "adjustment period"
+    - "skill acquisition rate"
+  examples:
+    workplace:
+      - "The new framework has a steep learning curve, but it's very powerful."
+      - "We chose this tool because it has a gentle learning curve for new users."
+    casual:
+      - "Learning to play the violin has a very steep learning curve."
+      - "The learning curve for this video game is quite easy."
+  related:
+    - word: "challenge"
+      difference: "A 'challenge' is a difficult task. A 'learning curve' specifically refers to the difficulty of the initial learning process."
+    - word: "onboarding"
+      difference: "'Onboarding' is the process of getting a new person started. The 'learning curve' is a characteristic of the tools or systems they need to learn during onboarding."
+  story: |
+    When I first started learning React, there was a steep learning curve. I had to understand concepts like components, state, and props all at once. It was challenging for the first couple of weeks, but once it clicked, my development speed increased dramatically.
+
+- word: "get acquainted"
+  pronunciation: "/ɡɛt əˈkweɪn.tɪd/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To become familiar with something or someone."
+    bahasa: "Menjadi akrab dengan sesuatu atau seseorang."
+  usage: "A slightly more formal way to say 'get to know'. It's often used in professional or new social situations."
+  synonyms:
+    - "get to know"
+    - "familiarize oneself with"
+  examples:
+    workplace:
+      - "The first week of the job is all about getting acquainted with the team and the project."
+      - "I need some time to get acquainted with the new software."
+    casual:
+      - "We had a welcome party to get acquainted with our new neighbors."
+      - "It's a complex book; it takes a while to get acquainted with all the characters."
+  related:
+    - word: "learn"
+      difference: "'Learn' implies acquiring a specific skill or piece of knowledge. 'Get acquainted' is a broader process of becoming familiar with a new environment, person, or system."
+    - word: "onboarding"
+      difference: "'Onboarding' is the formal process a company uses to integrate a new employee. 'Getting acquainted' is the personal experience of becoming familiar during that process."
+  story: |
+    To help me get acquainted with the system, my manager gave me a list of small, low-risk bugs to fix. It was a great strategy because it allowed me to touch different parts of the code, learn the development process, and gain confidence without the pressure of a major feature.
+
+- word: "contribute"
+  pronunciation: "/kənˈtrɪb.juːt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To give something, especially money or ideas, in order to help achieve or provide something."
+    bahasa: "Memberikan sesuatu, terutama uang atau ide, untuk membantu mencapai atau menyediakan sesuatu."
+  usage: "In a work context, it means to add value to a project or discussion through your work, ideas, or effort."
+  synonyms:
+    - "add to"
+    - "provide"
+    - "pitch in"
+  examples:
+    workplace:
+      - "I'm excited to contribute to the success of this project."
+      - "Everyone on the team is expected to contribute to the discussion."
+    casual:
+      - "He contributed a lot of his time to the local charity."
+      - "Everyone contributed a dish to the potluck dinner."
+  related:
+    - word: "work"
+      difference: "'Work' is the act of performing tasks. 'Contribute' focuses on the positive impact or value that the work adds to a larger goal."
+    - word: "participate"
+      difference: "To 'participate' means to take part in something. To 'contribute' means to add something of value while participating."
+  story: |
+    After a week of onboarding and learning, I was finally ready to contribute to the codebase. I picked up a small task from the backlog, wrote the code, and submitted my first pull request. It felt great to finally be able to contribute and be a productive member of the team.

@@ -1,0 +1,15 @@
+story:
+  title: "a-warm-welcome-and-a-new-codebase"
+  date: "2025-09-26"
+  text: |
+    It was my first day, and I was a bit nervous. As the new **newbie** on the team, I was eager to make good **first impressions**. My assigned **buddy**, Alex, was incredibly helpful and immediately made me feel at ease. He started the morning by giving me a high-level walkthrough of the team's main project. The **codebase** was massive and had a lot of history, so I knew there would be a steep **learning curve**.
+
+    "Don't worry," Alex said with a smile, "we'll start with some small, well-defined tasks to help you **get acquainted** with our workflow." He patiently helped me set up my local development environment and pointed me to the team's internal wiki. During the daily stand-up, the team lead gave me a warm introduction. Everyone was very welcoming, sharing what they were working on and offering to help if I got stuck. My first assignment was a minor UI bug. It was the perfect starter task—not too complex, but challenging enough to get my hands dirty. By the end of the day, my initial anxiety had faded, replaced by a sense of excitement. I felt ready to **contribute**.
+  highlighted_words:
+    - "newbie"
+    - "first impressions"
+    - "buddy"
+    - "codebase"
+    - "learning curve"
+    - "get acquainted"
+    - "contribute"
