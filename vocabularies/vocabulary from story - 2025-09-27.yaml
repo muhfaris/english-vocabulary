@@ -1,0 +1,192 @@
+- word: "stand-up"
+  pronunciation: "/ˈstænd.ʌp/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A short, daily team meeting to discuss progress and blockers."
+    bahasa: "Rapat tim harian yang singkat untuk membahas kemajuan dan penghambat."
+  usage: "Used in agile software development to keep the team aligned."
+  synonyms:
+    - "daily scrum"
+    - "daily huddle"
+  examples:
+    workplace:
+      - "Let's keep the stand-up to 15 minutes today."
+      - "I'll mention my blocker during the stand-up."
+    casual:
+      - "We have a quick family stand-up in the morning to plan our day."
+      - "Our project group does a stand-up before we start working."
+  related:
+    - word: "meeting"
+      difference: "A stand-up is a specific type of short, daily meeting, while a meeting is a more general term."
+    - word: "scrum"
+      difference: "Scrum is a framework that uses stand-ups as a daily practice, but scrum includes many other ceremonies."
+  story: |
+    During our morning stand-up, each team member shared what they worked on yesterday and what they plan to do today. It's a great way to stay in sync.
+- word: "deadline"
+  pronunciation: "/ˈded.laɪn/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The latest time or date by which something should be completed."
+    bahasa: "Batas waktu atau tanggal terakhir sesuatu harus diselesaikan."
+  usage: "Used to specify when a task or project must be finished."
+  synonyms:
+    - "due date"
+    - "time limit"
+  examples:
+    workplace:
+      - "We need to finish the feature before the deadline next Friday."
+      - "What's the deadline for the Q3 report?"
+    casual:
+      - "The deadline for the school project is tomorrow."
+      - "I have a personal deadline to finish this book by the end of the month."
+  related:
+    - word: "milestone"
+      difference: "A deadline is a final due date, while a milestone is a specific point within a project's timeline, marking a smaller achievement."
+    - word: "timeline"
+      difference: "A timeline is the entire schedule for a project, which includes multiple deadlines and milestones."
+  story: |
+    The team was working hard to meet the project deadline. We broke down the remaining tasks and assigned them to make sure everything would be completed on time.
+- word: "scope"
+  pronunciation: "/skoʊp/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The extent of the area or subject matter that something deals with or to which it is relevant."
+    bahasa: "Cakupan atau batasan dari suatu pekerjaan atau proyek."
+  usage: "Used to define the boundaries of a project or task."
+  synonyms:
+    - "range"
+    - "extent"
+  examples:
+    workplace:
+      - "Adding that feature is outside the scope of this project."
+      - "Let's define the scope clearly before we start coding."
+    casual:
+      - "The scope of my weekend plan is just to relax and watch movies."
+      - "The scope of the discussion was limited to the main topic."
+  related:
+    - word: "scope creep"
+      difference: "Scope is the defined work, while scope creep is when new, unplanned requirements are added to the project after it has started."
+    - word: "feature"
+      difference: "A feature is a piece of functionality, and the scope defines which features are included in a project."
+  story: |
+    The project manager did a great job defining the scope for the new feature. Having clear requirements helped us avoid any confusion and deliver exactly what was needed.
+- word: "blocker"
+  pronunciation: "/ˈblɑː.kɚ/"
+  part_of_speech: "noun"
+  meaning:
+    english: "An issue or obstacle that prevents progress on a task."
+    bahasa: "Masalah atau rintangan yang menghalangi kemajuan suatu tugas."
+  usage: "Used to describe something that is stopping you from completing your work."
+  synonyms:
+    - "obstacle"
+    - "impediment"
+  examples:
+    workplace:
+      - "I have a blocker; I can't access the database."
+      - "Please raise any blockers during the stand-up."
+    casual:
+      - "My main blocker for finishing the yard work is the rain."
+      - "A lack of ingredients is a blocker for cooking dinner."
+  related:
+    - word: "issue"
+      difference: "An issue is a general problem, while a blocker is a specific type of issue that stops all progress."
+    - word: "risk"
+      difference: "A risk is something that *might* become a problem in the future, whereas a blocker is a problem that is happening *now*."
+  story: |
+    I couldn't proceed with my task because of a blocker related to a third-party API. I immediately informed the team so we could find a solution together.
+- word: "align"
+  pronunciation: "/əˈlaɪn/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To come together in agreement or alliance."
+    bahasa: "Menyelaraskan atau mencapai kesepakatan."
+  usage: "Used when ensuring that team members or stakeholders have a shared understanding."
+  synonyms:
+    - "agree"
+    - "sync up"
+  examples:
+    workplace:
+      - "We need to align with the design team on the new UI."
+      - "Let's have a quick meeting to align on the project goals."
+    casual:
+      - "My partner and I need to align on our weekend plans."
+      - "It's important that our values align."
+  related:
+    - word: "agree"
+      difference: "Agreeing is simply sharing an opinion, while aligning implies reaching a shared understanding or plan of action, especially in a professional context."
+    - word: "consensus"
+      difference: "Consensus is a general agreement among a group, while aligning is the process of getting to that agreement."
+  story: |
+    Before starting the new sprint, the product manager held a meeting to align the team on the key priorities. This helped ensure everyone was working towards the same goals.
+- word: "prioritize"
+  pronunciation: "/praɪˈɔːr.ə.taɪz/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To decide which of a group of things are the most important so that you can deal with them first."
+    bahasa: "Memprioritaskan atau menentukan urutan kepentingan."
+  usage: "Used when deciding the order in which to handle tasks."
+  synonyms:
+    - "rank"
+    - "focus on"
+  examples:
+    workplace:
+      - "We need to prioritize bug fixes over new features this week."
+      - "Can you help me prioritize my tasks for today?"
+    casual:
+      - "I need to prioritize my chores for the weekend."
+      - "She knows how to prioritize her health and well-being."
+  related:
+    - word: "schedule"
+      difference: "Prioritizing is about determining importance, while scheduling is about assigning specific times to tasks."
+    - word: "organize"
+      difference: "Organizing is arranging things in a structured way, while prioritizing is a specific type of organization based on importance."
+  story: |
+    With so many requests coming in, the team had to prioritize the tasks based on customer impact. We created a list from most to least critical to manage our workload effectively.
+- word: "code review"
+  pronunciation: "/koʊd rɪˈvjuː/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A process where developers other than the code's author examine the code for quality, correctness, and improvements."
+    bahasa: "Proses di mana pengembang lain memeriksa kualitas, kebenaran, dan potensi perbaikan dari suatu kode."
+  usage: "A standard practice in software development to maintain code quality."
+  synonyms:
+    - "peer review"
+    - "code inspection"
+  examples:
+    workplace:
+      - "Please submit your changes for code review when you're done."
+      - "I left a few comments on your code review."
+    casual:
+      - "I asked my friend to do a 'life review' of my new year's resolutions."
+      - "Think of it as a code review for your essay; get a second pair of eyes on it."
+  related:
+    - word: "pull request"
+      difference: "A pull request is a mechanism to propose changes to a codebase; the code review process happens on the pull request."
+    - word: "feedback"
+      difference: "Feedback is general input, while a code review is a specific, structured process for giving feedback on code."
+  story: |
+    After finishing the new feature, I opened a pull request and requested a code review from a senior developer. Her feedback was incredibly helpful for improving the code's efficiency.
+- word: "merge"
+  pronunciation: "/mɜːrdʒ/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To combine something from two or more sources into one."
+    bahasa: "Menggabungkan sesuatu dari dua atau lebih sumber menjadi satu."
+  usage: "In software development, it refers to integrating code changes from one branch into another."
+  synonyms:
+    - "combine"
+    - "integrate"
+  examples:
+    workplace:
+      - "Once the code review is approved, you can merge your branch."
+      - "I need to resolve a merge conflict before I can finish."
+    casual:
+      - "The two companies decided to merge."
+      - "Let's merge our ideas to create a better plan."
+  related:
+    - word: "branch"
+      difference: "A branch is a separate line of development, and 'merge' is the action of combining that branch back into the main line."
+    - word: "commit"
+      difference: "A commit is a snapshot of changes. A merge combines a series of commits from one branch into another."
+  story: |
+    After my pull request was approved, I was ready to merge my feature branch into the main development branch. The process was smooth, and the new feature was officially part of the codebase.
