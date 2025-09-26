@@ -1,0 +1,87 @@
+dialogue:
+  - speaker: Alex
+    english: "Hey, Ben. Got a minute? I'm a bit stuck on this new feature."
+    bahasa: "Hai, Ben. Ada waktu sebentar? Aku agak buntu dengan fitur baru ini."
+  - speaker: Ben
+    english: "Sure, what's up? Is it about the real-time notification system?"
+    bahasa: "Tentu, ada apa? Apa ini tentang sistem notifikasi real-time?"
+  - speaker: Alex
+    english: "Yeah. I'm trying to figure out the best way to implement it without overloading the server."
+    bahasa: "Iya. Aku sedang mencoba mencari cara terbaik untuk mengimplementasikannya tanpa membebani server."
+  - speaker: Ben
+    english: "I see. Have you considered using WebSockets? They maintain a persistent connection."
+    bahasa: "Aku mengerti. Sudahkah kamu mempertimbangkan untuk menggunakan WebSockets? Mereka menjaga koneksi tetap terbuka."
+  - speaker: Alex
+    english: "I have, but I'm worried about the scalability. What if we have thousands of concurrent users?"
+    bahasa: "Sudah, tapi aku khawatir tentang skalabilitasnya. Bagaimana jika kita punya ribuan pengguna secara bersamaan?"
+  - speaker: Ben
+    english: "That's a valid concern. How about using a message queue system like RabbitMQ or Kafka?"
+    bahasa: "Itu kekhawatiran yang valid. Bagaimana kalau menggunakan sistem antrian pesan seperti RabbitMQ atau Kafka?"
+  - speaker: Alex
+    english: "Hmm, I haven't thought about that. How would that work?"
+    bahasa: "Hmm, aku belum memikirkannya. Bagaimana cara kerjanya?"
+  - speaker: Ben
+    english: "We could have a producer that sends notifications to the queue, and consumers that process them and push them to the clients. It's much more scalable."
+    bahasa: "Kita bisa punya produser yang mengirim notifikasi ke antrian, dan konsumen yang memprosesnya dan mengirimkannya ke klien. Jauh lebih skalabel."
+  - speaker: Alex
+    english: "That sounds promising. It would decouple the notification service from the main application."
+    bahasa: "Kedengarannya menjanjikan. Itu akan memisahkan layanan notifikasi dari aplikasi utama."
+  - speaker: Ben
+    english: "Exactly. It also provides better fault tolerance. If a consumer fails, the messages remain in the queue."
+    bahasa: "Tepat sekali. Ini juga memberikan toleransi kesalahan yang lebih baik. Jika konsumen gagal, pesan tetap ada di antrian."
+  - speaker: Alex
+    english: "I like that idea. It seems more robust. I'll start looking into RabbitMQ documentation."
+    bahasa: "Aku suka ide itu. Kelihatannya lebih kuat. Aku akan mulai melihat dokumentasi RabbitMQ."
+  - speaker: Ben
+    english: "Great. Let me know if you need a hand with the setup. I've used it in a previous project."
+    bahasa: "Bagus. Beri tahu aku jika kamu butuh bantuan dengan pengaturannya. Aku pernah menggunakannya di proyek sebelumnya."
+  - speaker: Alex
+    english: "Thanks, Ben. This has been really helpful. I feel much more confident about this feature now."
+    bahasa: "Terima kasih, Ben. Ini sangat membantu. Aku merasa jauh lebih percaya diri tentang fitur ini sekarang."
+  - speaker: Ben
+    english: "No problem at all. That's what teammates are for. Let's sync up tomorrow to see how it's going."
+    bahasa: "Tidak masalah sama sekali. Itulah gunanya rekan satu tim. Mari kita sinkronisasi besok untuk melihat perkembangannya."
+
+expressions:
+  - phrase: "a bit stuck"
+    meaning_english: "to be unable to solve a problem or continue with a task"
+    meaning_bahasa: "sedikit buntu atau tidak dapat melanjutkan tugas"
+  - phrase: "what's up?"
+    meaning_english: "a casual greeting used to ask what someone is doing or how they are"
+    meaning_bahasa: "sapaan santai yang digunakan untuk menanyakan apa yang sedang dilakukan seseorang atau bagaimana kabarnya"
+  - phrase: "overloading the server"
+    meaning_english: "giving the server too much work to do, causing it to slow down or crash"
+    meaning_bahasa: "memberi server terlalu banyak pekerjaan untuk dilakukan, menyebabkannya melambat atau macet"
+  - phrase: "persistent connection"
+    meaning_english: "a communication channel that remains open for a long period"
+    meaning_bahasa: "saluran komunikasi yang tetap terbuka untuk jangka waktu yang lama"
+  - phrase: "concurrent users"
+    meaning_english: "the number of users accessing a system at the same time"
+    meaning_bahasa: "jumlah pengguna yang mengakses sistem pada saat yang bersamaan"
+  - phrase: "valid concern"
+    meaning_english: "a worry or issue that is reasonable and worth considering"
+    meaning_bahasa: "kekhawatiran atau masalah yang masuk akal dan layak dipertimbangkan"
+  - phrase: "decouple"
+    meaning_english: "to separate two systems or components so they can work independently"
+    meaning_bahasa: "memisahkan dua sistem atau komponen sehingga dapat bekerja secara independen"
+  - phrase: "fault tolerance"
+    meaning_english: "the ability of a system to continue operating even if some of its components fail"
+    meaning_bahasa: "kemampuan sistem untuk terus beroperasi meskipun beberapa komponennya gagal"
+  - phrase: "robust"
+    meaning_english: "strong and reliable"
+    meaning_bahasa: "kuat dan andal"
+  - phrase: "sync up"
+    meaning_english: "to meet and share information to ensure everyone is on the same page"
+    meaning_bahasa: "bertemu dan berbagi informasi untuk memastikan semua orang memiliki pemahaman yang sama"
+
+questions:
+  - q: "What problem is Alex trying to solve?"
+    a: "Alex is trying to implement a real-time notification system without overloading the server."
+  - q: "What is Ben's first suggestion?"
+    a: "Ben suggests using WebSockets to maintain a persistent connection."
+  - q: "Why is Alex concerned about using WebSockets?"
+    a: "He is worried about scalability if there are thousands of concurrent users."
+  - q: "What is Ben's second, more scalable suggestion?"
+    a: "He suggests using a message queue system like RabbitMQ or Kafka."
+  - q: "What are the benefits of using a message queue system in this scenario?"
+    a: "It decouples the notification service from the main application, is more scalable, and provides better fault tolerance."
