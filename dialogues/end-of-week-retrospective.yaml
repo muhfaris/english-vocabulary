@@ -1,0 +1,70 @@
+dialogue:
+  - speaker: Maya
+    english: "Alright team, let's kick off our end-of-week retrospective. What went well this week?"
+    bahasa: "Baiklah tim, mari kita mulai retrospektif akhir pekan kita. Apa yang berjalan baik minggu ini?"
+  - speaker: Leo
+    english: "I felt we had great collaboration on the new search feature. The pair programming session was super productive."
+    bahasa: "Saya merasa kolaborasi kita di fitur pencarian baru sangat bagus. Sesi pair programming-nya super produktif."
+  - speaker: Chloe
+    english: "I agree. We managed to squash that nasty bug that was plaguing the staging environment."
+    bahasa: "Setuju. Kita berhasil membereskan bug menyebalkan yang mengganggu lingkungan staging."
+  - speaker: Maya
+    english: "Excellent. Anything that didn't go so well? What could we improve?"
+    bahasa: "Luar biasa. Adakah yang tidak berjalan begitu baik? Apa yang bisa kita tingkatkan?"
+  - speaker: Leo
+    english: "The CI pipeline was a bit flaky on Wednesday. It caused some delays because we had to re-run the tests multiple times."
+    bahasa: "Pipeline CI agak tidak stabil pada hari Rabu. Itu menyebabkan beberapa penundaan karena kami harus menjalankan ulang tes beberapa kali."
+  - speaker: Chloe
+    english: "I noticed that too. Maybe we need to allocate some time next sprint to investigate the root cause."
+    bahasa: "Saya juga menyadarinya. Mungkin kita perlu mengalokasikan waktu di sprint berikutnya untuk menyelidiki akar masalahnya."
+  - speaker: Maya
+    english: "Good point. I'll add a ticket for that. Any other impediments?"
+    bahasa: "Poin yang bagus. Saya akan menambahkan tiket untuk itu. Ada hambatan lain?"
+  - speaker: Leo
+    english: "I think we need to be more disciplined about updating our tickets. A few of them were out of sync with the actual progress."
+    bahasa: "Saya pikir kita perlu lebih disiplin dalam memperbarui tiket kita. Beberapa di antaranya tidak sinkron dengan kemajuan sebenarnya."
+  - speaker: Maya
+    english: "That's a fair callout. Let's all make a conscious effort to keep the board updated. What are we planning to accomplish next week?"
+    bahasa: "Itu masukan yang adil. Mari kita semua berusaha secara sadar untuk menjaga papan tetap terbarui. Apa yang kita rencanakan untuk dicapai minggu depan?"
+  - speaker: Chloe
+    english: "I'll be starting the work on the API documentation. It's a big task, so I'll probably need to break it down."
+    bahasa: "Saya akan mulai mengerjakan dokumentasi API. Ini tugas besar, jadi saya mungkin perlu memecahnya."
+  - speaker: Leo
+    english: "I'll be picking up the ticket for the CI pipeline investigation. Hopefully, I can stabilize it."
+    bahasa: "Saya akan mengambil tiket untuk investigasi pipeline CI. Semoga saya bisa menstabilkannya."
+  - speaker: Maya
+    english: "Sounds like a plan. Great retrospective, everyone. Let's have a great weekend and come back refreshed on Monday."
+    bahasa: "Terdengar seperti rencana. Retrospektif yang bagus, semuanya. Selamat berakhir pekan dan kembali segar pada hari Senin."
+
+expressions:
+  - phrase: "Kick off"
+    meaning_english: "To start something, like a meeting or an event."
+    meaning_bahasa: "Memulai sesuatu, seperti rapat atau acara."
+  - phrase: "Pair programming"
+    meaning_english: "An agile software development technique in which two programmers work together at one workstation."
+    meaning_bahasa: "Teknik pengembangan perangkat lunak tangkas di mana dua pemrogram bekerja bersama di satu stasiun kerja."
+  - phrase: "Squash a bug"
+    meaning_english: "An informal phrase for fixing a software bug."
+    meaning_bahasa: "Ungkapan informal untuk memperbaiki bug perangkat lunak."
+  - phrase: "Plaguing the environment"
+    meaning_english: "Causing continuous trouble or distress to something (in this case, a software environment)."
+    meaning_bahasa: "Menyebabkan masalah atau kesulitan terus-menerus pada sesuatu (dalam hal ini, lingkungan perangkat lunak)."
+  - phrase: "Flaky pipeline"
+    meaning_english: "A continuous integration (CI) pipeline that is unreliable and fails intermittently without any real changes to the code."
+    meaning_bahasa: "Pipeline integrasi berkelanjutan (CI) yang tidak dapat diandalkan dan gagal secara berkala tanpa perubahan nyata pada kode."
+  - phrase: "Root cause"
+    meaning_english: "The fundamental reason for the occurrence of a problem."
+    meaning_bahasa: "Alasan mendasar terjadinya suatu masalah."
+  - phrase: "Fair callout"
+    meaning_english: "A valid and reasonable point or observation."
+    meaning_bahasa: "Poin atau pengamatan yang valid dan masuk akal."
+
+questions:
+  - q: "What went well during the week according to the team?"
+    a: "The team had great collaboration on a new feature and managed to fix a significant bug."
+  - q: "What was the main issue the team faced during the week?"
+    a: "The CI/CD pipeline was unreliable, causing delays in their workflow."
+  - q: "What was one area of improvement suggested for the team's process?"
+    a: "To be more disciplined about keeping their project management tickets updated."
+  - q: "What is one of the key tasks planned for the next week?"
+    a: "Investigating and stabilizing the flaky CI pipeline and starting on the API documentation."
