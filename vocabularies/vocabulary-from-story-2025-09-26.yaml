@@ -93,7 +93,7 @@
     - word: "concrete"
       difference: "A 'concrete' plan is specific and detailed. An 'actionable' plan is one that can be executed."
   story: |
-    After the retrospective, the team came up with a list of things that went wrong. The scrum master pushed us to turn those complaints into actionable items. Instead of just saying "communication was bad," we created an actionable task: "Create a dedicated Slack channel for the project and document key decisions in Confluence." This made it much more likely that we would actually improve.
+    After the retrospective, the team came up with a list of things that went wrong. The scrum master pushed us to turn those complaints into actionable items. Instead of justsaying "communication was bad," we created an actionable task: "Create a dedicated Slack channel for the project and document key decisions in Confluence." This made it much more likely that we would actually improve.
 - word: "endgame"
   pronunciation: "/ˈɛndˌɡeɪm/"
   part_of_speech: "noun"
@@ -191,3 +191,200 @@
       difference: "'Alignment' is the state of having a shared understanding. 'Buy-in' is the active agreement to support the aligned plan."
   story: |
     A senior engineer proposed a major architectural change. Before writing a single line of code, she scheduled meetings with all the other teams that would be affected. She explained the rationale and the long-term benefits. By taking the time to get buy-in from everyone, she ensured that when the work started, she had their full cooperation.
+- word: "stand-up"
+  pronunciation: "/ˈstænd.ʌp/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A short, daily meeting for a team to sync on progress, plans, and blockers."
+    bahasa: "Rapat harian singkat bagi tim untuk menyelaraskan kemajuan, rencana, dan penghambat."
+  usage: "Used to refer to the daily scrum or team synchronization meeting in agile development."
+  synonyms:
+    - "daily scrum"
+    - "huddle"
+  examples:
+    workplace:
+      - "I'll give an update on my progress during the morning stand-up."
+      - "Our stand-up is at 9:30 AM every day."
+    casual:
+      - "Let's have a quick stand-up to decide where to go for lunch."
+      - "The family had a stand-up in the kitchen to plan their weekend."
+  related:
+    - word: "meeting"
+      difference: "A 'stand-up' is a specific type of 'meeting' that is typically short, daily, and focused on quick updates."
+    - word: "retrospective"
+      difference: "A 'retrospective' is a longer meeting held at the end of a sprint to reflect on what went well and what didn't. A 'stand-up' is a daily planning and sync meeting."
+  story: |
+    Every morning at 9:15, our team has its daily stand-up. We each take a turn to answer three questions: what we did yesterday, what we plan to do today, and if we have any blockers. It's a great way to stay aligned and quickly resolve any issues.
+- word: "blocker"
+  pronunciation: "/ˈblɒk.ər/"
+  part_of_speech: "noun"
+  meaning:
+    english: "An issue or obstacle that prevents progress on a task."
+    bahasa: "Masalah atau rintangan yang menghalangi kemajuan suatu tugas."
+  usage: "Commonly used in project management and software development to describe something that is stopping work from being completed."
+  synonyms:
+    - "obstacle"
+    - "impediment"
+    - "hindrance"
+  examples:
+    workplace:
+      - "I have a blocker; I can't proceed until I get the API key."
+      - "Let's discuss our blockers during the stand-up."
+    casual:
+      - "My main blocker for finishing the yard work is the rain."
+      - "Lack of motivation was a huge blocker for him."
+  related:
+    - word: "issue"
+      difference: "An 'issue' is a general problem. A 'blocker' is a specific type of issue that is actively preventing you from making progress."
+    - word: "challenge"
+      difference: "A 'challenge' is a difficult task. A 'blocker' is something that stops you from working on any task, difficult or not."
+  story: |
+    I was making good progress on my feature until I hit a blocker. The test environment was down, and I couldn't deploy my changes to verify them. I reported it in the stand-up, and the operations team was able to get it back up and running, unblocking my work.
+- word: "sync up"
+  pronunciation: "/sɪŋk ʌp/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To meet and share information with someone so that you are both updated."
+    bahasa: "Bertemu dan berbagi informasi dengan seseorang agar kalian berdua mendapatkan informasi terbaru."
+  usage: "A casual way to say 'synchronize' or 'meet to align'. Used frequently for informal, quick meetings."
+  synonyms:
+    - "align"
+    - "catch up"
+    - "touch base"
+  examples:
+    workplace:
+      - "Let's sync up after lunch to discuss the new designs."
+      - "I need to sync up with the backend team about the API changes."
+    casual:
+      - "We should sync up before the party to make sure we bring different things."
+      - "I haven't seen you in ages; let's sync up soon."
+  related:
+    - word: "meeting"
+      difference: "A 'meeting' is often more formal and scheduled. A 'sync up' is typically more informal and can be a quick, unscheduled chat."
+    - word: "update"
+      difference: "You 'sync up' to get an 'update'. The 'update' is the information that is exchanged during the 'sync up'."
+  story: |
+    The frontend and backend teams were working on a new feature together, but their work was starting to diverge. The project manager scheduled a quick 30-minute meeting and said, 'Let's all sync up to make sure we're on the same page.' That meeting helped clear up a lot of confusion.
+- word: "heads-up"
+  pronunciation: "/ˈhedz.ʌp/"
+  part_of_speech: "noun"
+  meaning:
+    english: "A warning or piece of information given in advance so that you can prepare for something."
+    bahasa: "Peringatan atau informasi yang diberikan di awal agar Anda bisa mempersiapkan diri."
+  usage: "Used to give someone an advance notice about something that is going to happen."
+  synonyms:
+    - "warning"
+    - "advance notice"
+    - "alert"
+  examples:
+    workplace:
+      - "Just a heads-up, the server will be down for maintenance tonight."
+      - "Thanks for the heads-up about the client demo."
+    casual:
+      - "Can you give me a heads-up when you're leaving?"
+      - "He gave me a heads-up that the road was closed."
+  related:
+    - word: "warning"
+      difference: "A 'warning' often implies danger or a negative consequence. A 'heads-up' is more neutral and can be just a friendly piece of information."
+    - word: "FYI (For Your Information)"
+      difference: "'FYI' is used to share information that might be useful but doesn't necessarily require action. A 'heads-up' usually implies that the information is important for something you need to do or be aware of in the near future."
+  story: |
+    A teammate sent a message in our group chat: 'Just a heads-up, I'm about to merge a big change to the main branch.' This was helpful because it allowed the rest of us to save our work and prepare for any potential conflicts.
+- word: "walk someone through"
+  pronunciation: "/wɔːk ˈsʌm.wʌn θruː/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To explain a process or series of steps to someone in a slow, detailed way."
+    bahasa: "Menjelaskan suatu proses atau serangkaian langkah kepada seseorang secara perlahan dan terperinci."
+  usage: "Used when you need to guide someone through a task, a piece of code, or a document step-by-step."
+  synonyms:
+    - "guide"
+    - "explain step-by-step"
+    - "demonstrate"
+  examples:
+    workplace:
+      - "Can you walk me through the new deployment script?"
+      - "She walked the new intern through the company's coding standards."
+    casual:
+      - "He walked me through the recipe for his famous lasagna."
+      - "I had to walk my dad through how to use his new smartphone."
+  related:
+    - word: "explain"
+      difference: "'Explain' is more general. 'Walk someone through' implies a more hands-on, guided, and sequential explanation, often while looking at the thing being explained."
+    - word: "demo"
+      difference: "A 'demo' is a demonstration to show how something works. To 'walk someone through' something is often more personal and interactive, allowing for questions along the way."
+  story: |
+    I was having trouble understanding a complex piece of legacy code. I asked the original author if she had a moment, and she was kind enough to walk me through it. She shared her screen and explained the logic line by line, which made everything much clearer.
+- word: "in the zone"
+  pronunciation: "/ɪn ðə zoʊn/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "In a state of deep focus and high performance, where you are fully absorbed in an activity."
+    bahasa: "Dalam keadaan fokus yang mendalam dan kinerja tinggi, di mana Anda sepenuhnya terserap dalam suatu aktivitas."
+  usage: "Used to describe a mental state of intense concentration, often leading to great productivity."
+  synonyms:
+    - "focused"
+    - "in a state of flow"
+    - "concentrating deeply"
+  examples:
+    workplace:
+      - "I put on my headphones and was really in the zone for a few hours."
+      - "Don't interrupt him; he's in the zone right now."
+    casual:
+      - "The artist was in the zone and painted for six hours straight."
+      - "When I'm playing guitar, I sometimes get in the zone and lose track of time."
+  related:
+    - word: "focused"
+      difference: "'Focused' means you are concentrating. 'In the zone' is a more intense, almost effortless state of focus, also known as a 'flow state'."
+    - word: "busy"
+      difference: "You can be 'busy' without being focused (e.g., multitasking). 'In the zone' means you are deeply focused on a single task."
+  story: |
+    I had a tricky bug to solve, and after an hour of investigation, something finally clicked. For the next two hours, I was completely in the zone. I barely noticed the time passing, and I wrote code that was clean, efficient, and solved the problem perfectly. It's the best feeling as a developer.
+- word: "pair programming"
+  pronunciation: "/peər ˈproʊ.ɡræm.ɪŋ/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A software development technique where two programmers work together at one workstation."
+    bahasa: "Teknik pengembangan perangkat lunak di mana dua programmer bekerja bersama di satu stasiun kerja."
+  usage: "Refers to the practice where one person (the driver) writes code while the other (the navigator) observes, reviews, and provides feedback."
+  synonyms:
+    - "pairing"
+    - "collaborative coding"
+  examples:
+    workplace:
+      - "We used pair programming to tackle the most complex module of the project."
+      - "Let's do a quick pair programming session to fix this bug."
+    casual:
+      - "My friend and I did some pair programming on our hobby project over the weekend."
+      - "It's like pair programming for cooking; one person chops while the other reads the recipe."
+  related:
+    - word: "code review"
+      difference: "'Code review' happens after the code is written. 'Pair programming' is a form of continuous code review that happens while the code is being written."
+    - word: "collaboration"
+      difference: "'Collaboration' is a general term for working together. 'Pair programming' is a very specific and structured form of collaboration for writing code."
+  story: |
+    A junior developer was struggling with a new concept. Instead of just explaining it, I suggested a pair programming session. He took the keyboard, and I navigated, guiding him through the logic. By the end of the session, not only was the task done, but he had a much better understanding of the concept.
+- word: "a fresh pair of eyes"
+  pronunciation: "/ə frɛʃ pɛər əv aɪz/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "A new person to look at a problem, who can often see things that have been overlooked by those who have been working on it for a long time."
+    bahasa: "Orang baru untuk melihat suatu masalah, yang seringkali dapat melihat hal-hal yang terlewatkan oleh mereka yang telah lama mengerjakannya."
+  usage: "Used when you are stuck on a problem and need a new perspective from someone who is not familiar with it."
+  synonyms:
+    - "a new perspective"
+    - "a second opinion"
+  examples:
+    workplace:
+      - "I've been staring at this bug for hours; I need a fresh pair of eyes."
+      - "Can you be a fresh pair of eyes on this document and check for typos?"
+    casual:
+      - "He asked his friend to be a fresh pair of eyes on his presentation slides."
+      - "After trying to find her keys for an hour, she asked her roommate for a fresh pair of eyes."
+  related:
+    - word: "review"
+      difference: "A 'review' can be done by anyone, including those familiar with the work. Asking for 'a fresh pair of eyes' specifically implies asking someone unfamiliar with the work to look at it."
+    - word: "help"
+      difference: "Asking for 'help' is general. Asking for 'a fresh pair of eyes' is a specific type of help for finding something that has been missed."
+  story: |
+    I was convinced my code was perfect, but it kept failing one specific test case. I couldn't see the issue. I asked a colleague to take a look. As a fresh pair of eyes, she immediately spotted a simple typo in a variable name that I had read over at least twenty times.

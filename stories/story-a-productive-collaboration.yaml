@@ -1,0 +1,18 @@
+story:
+  title: "a-productive-collaboration"
+  date: "2025-09-26"
+  text: |
+    Thursday morning started with the usual team **stand-up**. I gave my updates and mentioned I was on track with my new feature, but I had a feeling I might hit a **blocker** later in the day with a tricky integration part. My teammate, Alex, gave me a quick **heads-up** that he had worked on a similar module last month and to let him know if I needed help.
+
+    Sure enough, by the afternoon, I was stuck. The API documentation was a bit vague, and my code kept failing. After trying a few things, I decided to **sync up** with Alex. I sent him a quick message, and we jumped on a call. I started to **walk someone through** my code and the issue I was facing.
+
+    Just explaining the problem out loud gave me a new idea, but it was Alex's **a fresh pair of eyes** that really helped. He spotted a misconfigured parameter I had been staring at for an hour. We spent another twenty minutes in a **pair programming** session to fix it and write a quick test. It was a great reminder of how effective collaboration can be. I was finally back **in the zone** and ready to finish the feature.
+  highlighted_words:
+    - "stand-up"
+    - "blocker"
+    - "sync up"
+    - "heads-up"
+    - "walk someone through"
+    - "in the zone"
+    - "pair programming"
+    - "a fresh pair of eyes"
