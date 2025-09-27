@@ -1,0 +1,17 @@
+story:
+  title: "last-minute-bug-fix"
+  date: "2025-09-27"
+  text: |
+    My morning started with a last-minute bug report, just hours before the big **deployment**. "Of all the times," I muttered, grabbing my coffee. The pressure was on, but I knew we had to keep everything **on track**.
+
+    I quickly sent a **heads-up** to my team lead, explaining the situation. "It looks like a critical **blocker**," I wrote. "I need to fix this **asap**." She immediately responded, "I've got your back. Let's **figure out** the root cause together."
+
+    We jumped on a quick call, sharing screens and tracing the code. Her fresh perspective helped me spot the issue—a tiny logic error I had overlooked. It was a perfect example of **teamwork**. Within an hour, the fix was implemented, tested, and merged. The deployment went smoothly, and we all breathed a sigh of relief. It was a stressful morning, but moments like these, where everyone pulls together, make the job rewarding.
+  highlighted_words:
+    - "deployment"
+    - "on track"
+    - "heads-up"
+    - "blocker"
+    - "asap"
+    - "figure out"
+    - "teamwork"
