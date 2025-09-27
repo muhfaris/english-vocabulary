@@ -1,0 +1,18 @@
+story:
+  title: "a-bug-hunt-before-the-weekend"
+  date: "2025-09-27"
+  text: |
+    Friday morning started like any other. After the daily **stand-up**, I grabbed a **cup of coffee** and started working on my assigned task. It was a simple feature, and I was making good progress. I had a quick **check-in** with my team lead, and everything seemed on track for a smooth weekend deployment.
+
+    Just as I was about to finish, I **hit a snag**. A critical part of the application started behaving unexpectedly. At first, I thought it was a simple mistake, but after an hour of trying to **debug** the issue, I realized I needed a **second pair of eyes**. I reached out to a senior engineer, and together we discovered that a recent change had caused our modules to become **misaligned**.
+
+    We worked together to create a **patch** and test it thoroughly. It was a close call, but we managed to fix the bug before the end of the day. It’s moments like these that remind me how important teamwork is in software engineering.
+  highlighted_words:
+    - "stand-up"
+    - "cup of coffee"
+    - "check-in"
+    - "hit a snag"
+    - "debug"
+    - "second pair of eyes"
+    - "misaligned"
+    - "patch"

@@ -265,3 +265,28 @@
       difference: "When you 'push back', you are starting a 'negotiation'. Pushing back is the act of resistance, while negotiation is the discussion that follows to find a compromise."
   story: |
     The client asked for five new features to be added just a week before the launch. Our project manager had to push back, explaining that it wasn't feasible without delaying the release. She presented a revised plan, and they agreed to move the features to the next version.
+- word: "misaligned"
+  pronunciation: "/ˌmɪs.əˈlaɪnd/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Not in a state of agreement or alignment; not positioned correctly in relation to something else."
+    bahasa: "Tidak selaras atau tidak sejajar; tidak diposisikan dengan benar dalam hubungannya dengan sesuatu yang lain."
+  usage: "Used to describe a situation where components, teams, or expectations are not in sync, leading to problems."
+  synonyms:
+    - "out of sync"
+    - "uncoordinated"
+    - "inconsistent"
+  examples:
+    workplace:
+      - "The frontend and backend teams were misaligned on the API specifications."
+      - "Our goals became misaligned with the project's objectives."
+    casual:
+      - "The bookshelves were misaligned, making the room look messy."
+      - "Our schedules were misaligned, so we couldn't find a time to meet."
+  related:
+    - word: "align"
+      difference: "'Align' is the verb for bringing things into agreement, while 'misaligned' is the adjective describing the state of being out of agreement."
+    - word: "conflict"
+      difference: "Being 'misaligned' can lead to a 'conflict', but they are not the same. Misalignment is about the lack of sync, while a conflict is a more direct disagreement or clash."
+  story: |
+    The team discovered that the user interface was behaving strangely because the data models on the client and server were misaligned. Once they corrected the data structures to match, the feature started working perfectly.
