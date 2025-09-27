@@ -1,0 +1,61 @@
+dialogue:
+  - speaker: Maya
+    english: "Morning, Leo! How was your weekend?"
+    bahasa: "Pagi, Leo! Bagaimana akhir pekanmu?"
+  - speaker: Leo
+    english: "Hey, Maya! It was pretty productive. I finally deployed that personal project I've been working on."
+    bahasa: "Hai, Maya! Cukup produktif. Aku akhirnya men-deploy proyek pribadi yang sedang kukerjakan."
+  - speaker: Maya
+    english: "No way! That's awesome. The one for tracking coffee brew recipes?"
+    bahasa: "Tidak mungkin! Keren sekali. Yang untuk melacak resep seduh kopi itu?"
+  - speaker: Leo
+    english: "That's the one. It's live now. I had a bit of a headache with the environment variables, though."
+    bahasa: "Betul sekali. Sekarang sudah live. Tapi aku sedikit pusing dengan variabel lingkungan."
+  - speaker: Maya
+    english: "Ah, the classic struggle. What was the issue?"
+    bahasa: "Ah, perjuangan klasik. Apa masalahnya?"
+  - speaker: Leo
+    english: "The build script wasn't picking them up correctly on the server. Took me a while to debug."
+    bahasa: "Skrip build-nya tidak mengambilnya dengan benar di server. Butuh beberapa saat untuk men-debug."
+  - speaker: Maya
+    english: "I've been there. What about you? Anything exciting?"
+    bahasa: "Aku pernah mengalaminya. Bagaimana denganmu? Ada yang seru?"
+  - speaker: Leo
+    english: "Not as productive as you! I mostly just relaxed and binged a new sci-fi series."
+    bahasa: "Tidak seproduktif kamu! Aku kebanyakan hanya bersantai dan menonton serial fiksi ilmiah baru."
+  - speaker: Maya
+    english: "That sounds just as important. Gotta recharge the batteries, right?"
+    bahasa: "Itu terdengar sama pentingnya. Harus mengisi ulang baterai, kan?"
+  - speaker: Leo
+    english: "Exactly. Anyway, ready for the weekly sync?"
+    bahasa: "Tepat sekali. Ngomong-ngomong, siap untuk sinkronisasi mingguan?"
+  - speaker: Maya
+    english: "You know it. Let's grab a coffee first."
+    bahasa: "Tentu saja. Ayo kita minum kopi dulu."
+
+expressions:
+  - phrase: "pretty productive"
+    meaning_english: "Quite successful in achieving a lot."
+    meaning_bahasa: "Cukup berhasil dalam mencapai banyak hal."
+  - phrase: "personal project"
+    meaning_english: "A project someone works on in their own time, not for their job."
+    meaning_bahasa: "Proyek yang dikerjakan seseorang di waktu luangnya, bukan untuk pekerjaannya."
+  - phrase: "had a bit of a headache"
+    meaning_english: "Experienced some difficulty or annoyance with something."
+    meaning_bahasa: "Mengalami kesulitan atau gangguan dengan sesuatu."
+  - phrase: "environment variables"
+    meaning_english: "Variables in a system that describe the environment in which a program is running."
+    meaning_bahasa: "Variabel dalam sistem yang mendeskripsikan lingkungan tempat program berjalan."
+  - phrase: "recharge the batteries"
+    meaning_english: "To rest and relax in order to get back your energy."
+    meaning_bahasa: "Beristirahat dan bersantai untuk mengembalikan energi Anda."
+
+questions:
+  - q: "What did Leo do over the weekend?"
+    a: "He deployed his personal project for tracking coffee brew recipes."
+  - q: "What problem did Leo face during deployment?"
+    a: "He had an issue with environment variables not being picked up by the build script."
+  - q: "What did Maya do over the weekend?"
+    a: "She relaxed and watched a new sci-fi series."
+  - q: "What are they about to do?"
+    a: "They are about to have their weekly sync meeting."
