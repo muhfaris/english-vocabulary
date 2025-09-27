@@ -1,0 +1,65 @@
+dialogue:
+  - speaker: Alex
+    english: "Hey Ben, thank goodness it's Friday! Any big plans for the weekend?"
+    bahasa: "Hai Ben, syukurlah hari ini Jumat! Ada rencana besar untuk akhir pekan?"
+  - speaker: Ben
+    english: "You can say that again! I'm planning to just chill, maybe catch up on some shows. What about you?"
+    bahasa: "Setuju banget! Aku berencana untuk santai saja, mungkin nonton beberapa serial. Bagaimana denganmu?"
+  - speaker: Alex
+    english: "I've been meaning to work on a small side project. A little mobile app to track my reading list."
+    bahasa: "Aku sudah lama ingin mengerjakan proyek sampingan kecil. Aplikasi mobile untuk melacak daftar bacaanku."
+  - speaker: Ben
+    english: "Oh, that sounds cool! What stack are you thinking of using?"
+    bahasa: "Oh, kedengarannya keren! Kamu berencana pakai stack apa?"
+  - speaker: Alex
+    english: "Probably React Native. I want to brush up on my mobile dev skills. It's been a while."
+    bahasa: "Mungkin React Native. Aku ingin mengasah kembali skill mobile dev-ku. Sudah cukup lama."
+  - speaker: Ben
+    english: "Nice choice. I've been tinkering with Flutter lately. It's pretty neat for cross-platform development."
+    bahasa: "Pilihan yang bagus. Aku belakangan ini lagi coba-coba Flutter. Cukup rapi untuk pengembangan lintas platform."
+  - speaker: Alex
+    english: "Yeah, I've heard good things. Maybe I'll give it a shot for my next project. Anyway, ready for the weekend stand-down?"
+    bahasa: "Iya, aku dengar hal-hal bagus tentangnya. Mungkin aku akan mencobanya untuk proyekku berikutnya. Ngomong-ngomong, siap untuk santai akhir pekan?"
+  - speaker: Ben
+    english: "Absolutely. Just need to push this last commit and I'm out of here. The code can wait until Monday."
+    bahasa: "Tentu saja. Cuma perlu push commit terakhir ini dan aku cabut. Kodenya bisa menunggu sampai hari Senin."
+  - speaker: Alex
+    english: "Haha, famous last words. Have a great weekend, Ben!"
+    bahasa: "Haha, kata-kata terakhir yang terkenal. Selamat berakhir pekan, Ben!"
+  - speaker: Ben
+    english: "You too, Alex! Enjoy the coding."
+    bahasa: "Kamu juga, Alex! Selamat ngoding."
+
+expressions:
+  - phrase: "Thank goodness it's Friday"
+    meaning_english: "An expression of relief that the work week is over."
+    meaning_bahasa: "Ekspresi kelegaan karena minggu kerja telah berakhir."
+  - phrase: "You can say that again"
+    meaning_english: "An expression of strong agreement."
+    meaning_bahasa: "Ekspresi persetujuan yang kuat."
+  - phrase: "Catch up on"
+    meaning_english: "To do something that you did not have time to do earlier."
+    meaning_bahasa: "Melakukan sesuatu yang tidak sempat dilakukan sebelumnya."
+  - phrase: "Side project"
+    meaning_english: "A personal project done in one's spare time."
+    meaning_bahasa: "Proyek pribadi yang dikerjakan di waktu luang."
+  - phrase: "Brush up on"
+    meaning_english: "To improve your knowledge or skill in something."
+    meaning_bahasa: "Meningkatkan pengetahuan atau keterampilan dalam sesuatu."
+  - phrase: "Tinkering with"
+    meaning_english: "To make small changes to something in an attempt to improve or repair it."
+    meaning_bahasa: "Membuat perubahan kecil pada sesuatu untuk mencoba memperbaiki atau meningkatkannya."
+  - phrase: "Give it a shot"
+    meaning_english: "To try something."
+    meaning_bahasa: "Mencoba sesuatu."
+  - phrase: "Famous last words"
+    meaning_english: "A sarcastic comment on a statement that is likely to be proven wrong by events."
+    meaning_bahasa: "Komentar sarkastik pada pernyataan yang kemungkinan akan terbukti salah oleh kejadian."
+
+questions:
+  - q: "What is Alex planning to do over the weekend?"
+    a: "He is planning to work on a side project, a mobile app to track his reading list."
+  - q: "What technology is Ben using for his own projects?"
+    a: "Ben has been tinkering with Flutter for cross-platform development."
+  - q: "What does the expression 'brush up on' mean?"
+    a: "It means to improve your knowledge or skill in something you haven't practiced for a while."
