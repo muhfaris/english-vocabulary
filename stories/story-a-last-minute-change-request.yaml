@@ -1,0 +1,19 @@
+story:
+  title: "a-last-minute-change-request"
+  date: "2025-09-27"
+  text: |
+    It was the day before a major **release**, and the team was feeling confident. All the features were code-complete, tested, and ready for deployment. Then, a **last-minute** request came in from a key **stakeholder**. They wanted to add a "small" tweak to the user interface.
+
+    Our product manager, Sarah, immediately called a quick huddle. We needed to **align** on how to respond. While the change seemed minor, implementing it now would mean **destabilizing** the build that had already been approved by QA. It was a significant **risk**.
+
+    Our senior engineer, David, explained the potential complications. "Even a small change can have unforeseen consequences," he said. "We'd need to run a full regression test, which we don't have time for."
+
+    Sarah agreed and decided to **push back** respectfully. She explained the risks to the stakeholder and proposed that the tweak be the top priority for the next sprint. The stakeholder, understanding the potential for delay and bugs, agreed. It was a classic case of managing expectations to protect the release, and a great example of the team working together to make a smart decision under pressure.
+  highlighted_words:
+    - "release"
+    - "last-minute"
+    - "stakeholder"
+    - "align"
+    - "destabilizing"
+    - "risk"
+    - "push back"

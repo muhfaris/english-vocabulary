@@ -190,3 +190,78 @@
       difference: "A commit is a snapshot of changes. A merge combines a series of commits from one branch into another."
   story: |
     After my pull request was approved, I was ready to merge my feature branch into the main development branch. The process was smooth, and the new feature was officially part of the codebase.
+- word: "destabilizing"
+  pronunciation: "/diːˈsteɪbəlaɪzɪŋ/"
+  part_of_speech: "verb"
+  meaning:
+    english: "Making something unstable or likely to fail."
+    bahasa: "Menyebabkan sesuatu menjadi tidak stabil atau berisiko gagal."
+  usage: "Used to describe an action or change that introduces instability into a previously stable system, such as a software application."
+  synonyms:
+    - "disrupting"
+    - "undermining"
+    - "weakening"
+  examples:
+    workplace:
+      - "Adding a new feature right before release could be destabilizing."
+      - "We need to avoid destabilizing the main branch with untested code."
+    casual:
+      - "The sudden news was destabilizing for the whole family."
+      - "That unexpected event was destabilizing to our plans."
+  related:
+    - word: "stable"
+      difference: "'Stable' is the opposite of 'destabilizing'. A stable system is reliable and not likely to fail."
+    - word: "refactor"
+      difference: "'Refactoring' is the process of improving code without changing its external behavior, often with the goal of making it *more* stable, not destabilizing it."
+  story: |
+    The team was hesitant to merge the experimental code because it risked destabilizing the entire application. They decided to test it in a separate environment first to ensure it wouldn't cause any major issues.
+- word: "risk"
+  pronunciation: "/rɪsk/"
+  part_of_speech: "noun"
+  meaning:
+    english: "The possibility of something bad happening."
+    bahasa: "Kemungkinan terjadinya sesuatu yang buruk."
+  usage: "Used to describe a potential problem or negative outcome that may or may not happen. In project management, identifying and mitigating risks is a key activity."
+  synonyms:
+    - "danger"
+    - "threat"
+    - "hazard"
+  examples:
+    workplace:
+      - "There's a high risk that this change could break other features."
+      - "We need to do a risk assessment before we proceed."
+    casual:
+      - "There's a risk of rain this afternoon."
+      - "Investing in the stock market always involves some level of risk."
+  related:
+    - word: "issue"
+      difference: "A 'risk' is a potential future problem. An 'issue' or 'blocker' is a problem that is happening right now."
+    - word: "mitigation"
+      difference: "'Mitigation' is the action you take to reduce the likelihood or impact of a 'risk'."
+  story: |
+    During the planning meeting, we identified a major risk: our main database server was running on old hardware. If it failed, the entire system would go down. We decided to prioritize migrating to a new server to reduce that risk.
+- word: "push back"
+  pronunciation: "/pʊʃ bæk/"
+  part_of_speech: "phrase"
+  meaning:
+    english: "To resist or refuse a request or demand."
+    bahasa: "Menolak atau melawan sebuah permintaan atau tuntutan."
+  usage: "Used in a professional context when you need to disagree with a suggestion or timeline, usually for valid reasons like protecting product quality or team well-being."
+  synonyms:
+    - "resist"
+    - "object"
+    - "disagree"
+  examples:
+    workplace:
+      - "We had to push back on the deadline because it was unrealistic."
+      - "If the scope increases, don't be afraid to push back."
+    casual:
+      - "The kids might push back on the new bedtime, but we have to be firm."
+      - "She decided to push back against the unfair criticism."
+  related:
+    - word: "disagree"
+      difference: "'Disagree' is a general term. 'Push back' is more specific to resisting a proposal or demand, often in a professional setting, and implies a more active resistance."
+    - word: "negotiate"
+      difference: "When you 'push back', you are starting a 'negotiation'. Pushing back is the act of resistance, while negotiation is the discussion that follows to find a compromise."
+  story: |
+    The client asked for five new features to be added just a week before the launch. Our project manager had to push back, explaining that it wasn't feasible without delaying the release. She presented a revised plan, and they agreed to move the features to the next version.
