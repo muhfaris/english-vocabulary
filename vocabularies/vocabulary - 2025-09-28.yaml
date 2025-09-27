@@ -1,0 +1,249 @@
+- word: "Anomaly"
+  pronunciation: "/əˈnɒməli/"
+  part_of_speech: "noun"
+  meaning:
+    english: "Something that deviates from what is standard, normal, or expected."
+    bahasa: "Sesuatu yang menyimpang dari apa yang standar, normal, atau diharapkan; anomali."
+  usage: "Use 'anomaly' to describe an unexpected result, bug, or data point that doesn't fit the pattern. It’s a great word for discussing monitoring alerts or weird behavior in an application."
+  synonyms:
+    - "Irregularity"
+    - "Oddity"
+  examples:
+    workplace:
+      - "We saw an anomaly in the server response times right after the deployment."
+      - "This performance drop is an anomaly; it hasn't happened before."
+    casual:
+      - "It's an anomaly for him to be late; he's usually very punctual."
+      - "The warm weather in winter was a strange anomaly."
+  related:
+    - word: "Outlier"
+      difference: "An outlier is a data point that differs significantly from other observations. 'Anomaly' is a broader term for any deviation from the norm, not just in data."
+    - word: "Glitch"
+      difference: "A glitch is a small, temporary fault or problem. An 'anomaly' is a deviation that might point to a deeper, more permanent issue."
+  story: |
+    During the daily stand-up, Maya pointed at the monitoring dashboard. "Team, we're seeing an anomaly in our user engagement metrics. The numbers dipped sharply for about an hour last night. It's not a server outage, but it's a deviation we need to investigate. Let's find the root cause before it happens again."
+
+- word: "Coherent"
+  pronunciation: "/kəʊˈhɪərənt/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Logical and consistent; making sense as a whole."
+    bahasa: "Logis dan konsisten; masuk akal secara keseluruhan."
+  usage: "Use 'coherent' to describe a plan, a design document, a user story, or even a piece of code that is well-structured and easy to understand."
+  synonyms:
+    - "Logical"
+    - "Consistent"
+  examples:
+    workplace:
+      - "The project proposal wasn't coherent; the timeline and the goals didn't match."
+      - "Let's refactor this module to make the code more coherent and readable."
+    casual:
+      - "He was so tired he could barely form a coherent sentence."
+      - "Her vision for the future is surprisingly coherent and well-thought-out."
+  related:
+    - word: "Consistent"
+      difference: "'Consistent' means something is done in the same way over time. 'Coherent' means the different parts of something fit together logically to form a whole."
+    - word: "Cohesive"
+      difference: "'Cohesive' describes things that stick together or are united. 'Coherent' is more about the logical connection between ideas or parts."
+  story: |
+    In a code review, David left a comment: "The overall logic here is great, but the variable naming isn't very consistent. If we can fix that, the whole function will be much more coherent and easier for the next person to understand."
+
+- word: "Complacent"
+  pronunciation: "/kəmˈpleɪsnt/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Showing smug or uncritical satisfaction with oneself or one's achievements, often unaware of potential dangers."
+    bahasa: "Menunjukkan kepuasan yang sombong atau tidak kritis terhadap diri sendiri atau pencapaian seseorang, seringkali tidak menyadari bahaya potensial."
+  usage: "Use 'complacent' as a warning against becoming too comfortable with a successful product or stable system, as it can lead to ignoring risks or innovation."
+  synonyms:
+    - "Smug"
+    - "Self-satisfied"
+  examples:
+    workplace:
+      - "We can't get complacent just because the launch was successful; we need to monitor for bugs."
+      - "The team became complacent and stopped running regression tests, which led to a major failure."
+    casual:
+      - "After winning five games in a row, the team got complacent and lost to a weaker opponent."
+      - "It's easy to become complacent in a comfortable job."
+  related:
+    - word: "Confident"
+      difference: "'Confident' is a positive trait of believing in oneself. 'Complacent' is a negative trait of being overly satisfied to the point of ignoring risks."
+    - word: "Lazy"
+      difference: "'Lazy' means unwilling to work or use energy. 'Complacent' is more about a false sense of security that leads to inaction."
+  story: |
+    "Our uptime has been 99.99% for a whole year," the engineering manager said. "But let's not get complacent. A new security vulnerability was just announced, and we need to patch our systems before we're targeted. Success can make you feel safe, but that's when you're most at risk."
+
+- word: "Cumbersome"
+  pronunciation: "/ˈkʌmbəsəm/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Slow or complicated and therefore inefficient; difficult to handle or use."
+    bahasa: "Lambat atau rumit sehingga tidak efisien; sulit untuk ditangani atau digunakan."
+  usage: "Describe a process, a tool, or a piece of software that is clunky and difficult to work with. It's perfect for discussing why a certain workflow needs to be improved."
+  synonyms:
+    - "Clumsy"
+    - "Unwieldy"
+  examples:
+    workplace:
+      - "The old deployment process is so cumbersome; it takes five manual steps."
+      - "We need to replace this cumbersome legacy tool with something more modern."
+    casual:
+      - "The astronaut's suit looked heavy and cumbersome to move in."
+      - "My first laptop was powerful but big and cumbersome."
+  related:
+    - word: "Inefficient"
+      difference: "'Inefficient' means not achieving maximum productivity. 'Cumbersome' specifically describes *why* something is inefficient—because it's complex, slow, or hard to handle."
+    - word: "Complicated"
+      difference: "Something can be 'complicated' but still efficient. 'Cumbersome' implies that the complexity leads to inefficiency and difficulty."
+  story: |
+    During the retrospective, a junior developer mentioned, "The onboarding process for setting up the local dev environment is really cumbersome. It took me two days to get everything working. Maybe we could create a script to automate it?"
+
+- word: "Demystify"
+  pronunciation: "/diːˈmɪstɪfaɪ/"
+  part_of_speech: "verb"
+  meaning:
+    english: "Make a difficult or mysterious subject clearer and easier to understand."
+    bahasa: "Menjadikan subjek yang sulit atau misterius lebih jelas dan mudah dipahami."
+  usage: "Use 'demystify' when talking about explaining complex topics, codebases, or systems to others. It’s a great word for documentation, mentorship, and knowledge sharing."
+  synonyms:
+    - "Clarify"
+    - "Explain"
+  examples:
+    workplace:
+      - "Can you write a document to demystify the payment gateway integration for the new hires?"
+      - "His presentation helped demystify the complex architecture of our microservices."
+    casual:
+      - "This book really helps to demystify the world of finance."
+      - "She's good at demystifying modern art for people who don't understand it."
+  related:
+    - word: "Explain"
+      difference: "'Explain' is to make something clear. 'Demystify' has a stronger sense of revealing something that was previously confusing, complex, or 'magical'."
+    - word: "Simplify"
+      difference: "'Simplify' is to make something less complex. 'Demystify' is about making something easier to understand, which might not always involve making it simpler."
+  story: |
+    "The data science models feel like a black box to the rest of the team," said Priya. "I'm going to hold a brownbag session next week to demystify how they work. I want everyone to have a basic understanding of what happens when they send data to the API."
+
+- word: "Discrepancy"
+  pronunciation: "/dɪsˈkrepənsi/"
+  part_of_speech: "noun"
+  meaning:
+    english: "An illogical or surprising lack of compatibility or similarity between two or more facts."
+    bahasa: "Ketidakcocokan atau perbedaan yang tidak logis atau mengejutkan antara dua atau lebih fakta."
+  usage: "Use 'discrepancy' to point out a difference or inconsistency between two things that should match, like data in two systems, or the design mockups vs. the final implementation."
+  synonyms:
+    - "Inconsistency"
+    - "Difference"
+  examples:
+    workplace:
+      - "There's a discrepancy between the sales report and the database records."
+      - "I found a small discrepancy between the API documentation and its actual behavior."
+    casual:
+      - "There was a discrepancy in the bill; they charged us for something we didn't order."
+      - "The police found a discrepancy in his alibi."
+  related:
+    - word: "Difference"
+      difference: "'Difference' is a general term for things not being the same. A 'discrepancy' is a specific type of difference that is unexpected or suggests something is wrong."
+    - word: "Error"
+      difference: "An 'error' is a mistake. A 'discrepancy' is the *result* of an error, the difference you observe because a mistake was made."
+  story: |
+    The QA tester filed a bug report: "There is a discrepancy between the user profile page on mobile and desktop. On desktop, the user's location is shown, but on mobile, it is missing. Both should display the same information according to the specs."
+
+- word: "Exacerbate"
+  pronunciation: "/ɪɡˈzæsəbeɪt/"
+  part_of_speech: "verb"
+  meaning:
+    english: "Make a problem, bad situation, or negative feeling worse."
+    bahasa: "Membuat masalah, situasi buruk, atau perasaan negatif menjadi lebih buruk; memperparah."
+  usage: "A great word for discussing technical debt or bugs. A quick, messy fix might exacerbate the problem in the long run by making the code harder to maintain."
+  synonyms:
+    - "Worsen"
+    - "Aggravate"
+  examples:
+    workplace:
+      - "Adding more features now will only exacerbate our existing technical debt."
+      - "That temporary patch seemed to exacerbate the memory leak instead of fixing it."
+    casual:
+      - "Don't scratch the insect bite; it will only exacerbate the itch."
+      - "The loud construction noise exacerbated his headache."
+  related:
+    - word: "Worsen"
+      difference: "'Worsen' is a more common and general term. 'Exacerbate' is a bit more formal and often implies an existing bad situation is being made even worse by a specific action."
+    - word: "Compound"
+      difference: "'Compound' means to add to a problem. 'Exacerbate' focuses more on intensifying the negative aspects of the problem."
+  story: |
+    "We have a performance issue on the main dashboard," Alex explained. "I'm worried that the upcoming marketing campaign will send a flood of new users and exacerbate the problem, potentially crashing the server. We need to fix it before then."
+
+- word: "Hypothetical"
+  pronunciation: "/ˌhaɪpəˈθetɪkl/"
+  part_of_speech: "adjective"
+  meaning:
+    english: "Based on a suggested idea or theory; imagined as a possibility."
+    bahasa: "Berdasarkan ide atau teori yang diusulkan; dibayangkan sebagai kemungkinan."
+  usage: "Perfect for design discussions, planning, and debugging. You can propose a 'hypothetical situation' to explore potential edge cases or user behaviors."
+  synonyms:
+    - "Theoretical"
+    - "Speculative"
+  examples:
+    workplace:
+      - "For a hypothetical scenario, what would happen if the database connection failed mid-transaction?"
+      - "Let's consider a hypothetical user who has never used our app before. How would they find this feature?"
+    casual:
+      - "In a hypothetical situation, if you won the lottery, what would you do first?"
+      - "He asked a long, hypothetical question about aliens."
+  related:
+    - word: "Theoretical"
+      difference: "'Theoretical' is based on the ideas that relate to a subject, not practical aspects. 'Hypothetical' is more about a specific imagined situation used to explore possibilities."
+    - word: "Possible"
+      difference: "'Possible' means something *can* happen. 'Hypothetical' describes a situation you are *imagining* for the sake of discussion, whether it's truly possible or not."
+  story: |
+    During sprint planning, the product manager asked, "Let's walk through a hypothetical. A user signs up, creates a project, but then their trial expires before they invite any team members. What should their experience be when they log back in? We need to define that flow."
+
+- word: "Inadvertently"
+  pronunciation: "/ˌɪnədˈvɜːtəntli/"
+  part_of_speech: "adverb"
+  meaning:
+    english: "Without intention; accidentally."
+    bahasa: "Tanpa niat; secara tidak sengaja."
+  usage: "A very useful and professional-sounding word for explaining how a mistake or bug was introduced. It implies no one is to blame and that it was an unintentional side effect of another action."
+  synonyms:
+    - "Accidentally"
+    - "Unintentionally"
+  examples:
+    workplace:
+      - "The last commit inadvertently introduced a bug in the authentication service."
+      - "I inadvertently deleted the test data while cleaning up the database."
+    casual:
+      - "She inadvertently left her wallet at home."
+      - "He inadvertently revealed the surprise party plans."
+  related:
+    - word: "Accidentally"
+      difference: "They are very similar. 'Inadvertently' is slightly more formal and often used in professional or written contexts. It emphasizes the lack of intention."
+    - word: "Unknowingly"
+      difference: "'Unknowingly' means you did something without being aware of it. 'Inadvertently' means you were aware of the action but not its consequences."
+  story: |
+    "After a long debugging session, we found the cause," said Maria. "A change in the shared logging library inadvertently slowed down API responses across all services. The developer who made the change had no idea it would have that effect."
+
+- word: "ETA"
+  pronunciation: "/ˌiː tiː ˈeɪ/"
+  part_of_speech: "noun (abbreviation)"
+  meaning:
+    english: "Estimated Time of Arrival; used to ask for or give an estimate of when something will be completed."
+    bahasa: "Perkiraan Waktu Tiba; digunakan untuk meminta atau memberi perkiraan kapan sesuatu akan selesai."
+  usage: "Essential for daily stand-ups, sprint planning, and any conversation about deadlines. It's a quick, informal way to ask 'When will you be done?'"
+  synonyms:
+    - "Estimate"
+    - "Timeline"
+  examples:
+    workplace:
+      - "What's the ETA for that bug fix? The customer is waiting."
+      - "My ETA for finishing the frontend development is Wednesday afternoon."
+    casual:
+      - "I'm on my way. My ETA is around 10 minutes."
+      - "What's the ETA on that pizza? I'm starving."
+  related:
+    - word: "Deadline"
+      difference: "A 'deadline' is a final, fixed time by which a task *must* be completed. An 'ETA' is a non-binding estimate of when it *will likely* be completed."
+    - word: "Timeline"
+      difference: "A 'timeline' is a plan or schedule of events. An 'ETA' is a specific point in time on that timeline."
+  story: |
+    During the morning sync, the project manager looked at Ken and asked, "Ken, you're working on the database migration task. What's your ETA on that? We need to schedule the testing phase right after you're done." Ken replied, "It's a bit complex, but I'm aiming for end-of-day Friday. I'll let you know if that changes."
