@@ -290,3 +290,28 @@
       difference: "Being 'misaligned' can lead to a 'conflict', but they are not the same. Misalignment is about the lack of sync, while a conflict is a more direct disagreement or clash."
   story: |
     The team discovered that the user interface was behaving strangely because the data models on the client and server were misaligned. Once they corrected the data structures to match, the feature started working perfectly.
+- word: "asap"
+  pronunciation: "/ˌeɪ.es.eɪˈpiː/ or /ˈeɪ.sæp/"
+  part_of_speech: "adverb"
+  meaning:
+    english: "An abbreviation for 'as soon as possible', used to indicate that something needs to be done with great urgency."
+    bahasa: "Singkatan dari 'as soon as possible' (sesegera mungkin), digunakan untuk menunjukkan bahwa sesuatu perlu dilakukan dengan sangat mendesak."
+  usage: "Commonly used in written communication like email or chat to emphasize that a task is time-sensitive and should be prioritized."
+  synonyms:
+    - "immediately"
+    - "urgently"
+    - "right away"
+  examples:
+    workplace:
+      - "The server is down; we need to get it back online asap."
+      - "Please send me the deployment logs asap."
+    casual:
+      - "I need to leave for the airport asap or I'll miss my flight."
+      - "Call me back asap, it's important!"
+  related:
+    - word: "urgent"
+      difference: "'Urgent' is an adjective that describes a task's priority. 'asap' is an adverb that describes *when* it should be done. They are often used together, e.g., 'This is an urgent task, please complete it asap.'"
+    - word: "EOD (End of Day)"
+      difference: "'EOD' provides a specific deadline (the end of the business day), which is urgent but has a clear limit. 'asap' implies 'do this now' or 'make this your next task' without a fixed time."
+  story: |
+    During the daily stand-up, the project manager announced, "A critical bug was reported by our biggest client. We need a fix asap." The team immediately shifted focus, postponing their other tasks to address the problem.
