@@ -1,0 +1,58 @@
+dialogue:
+  - speaker: Alex
+    english: "Hey Ben, have you seen the new testing library, 'SwiftTest'?"
+    bahasa: "Hai Ben, sudah lihat pustaka pengujian baru, 'SwiftTest'?"
+  - speaker: Ben
+    english: "No, I haven't. What's so special about it? We're already using 'TestRunner'."
+    bahasa: "Belum. Apa yang istimewa dari itu? Kita kan sudah pakai 'TestRunner'."
+  - speaker: Alex
+    english: "I was reading its docs, and it promises much faster execution times and a simpler API. It might be a good alternative for us."
+    bahasa: "Aku tadi membaca dokumentasinya, dan itu menjanjikan waktu eksekusi yang jauh lebih cepat dan API yang lebih sederhana. Mungkin bisa jadi alternatif yang bagus untuk kita."
+  - speaker: Ben
+    english: "Hmm, sounds interesting. But migrating everything would be a huge undertaking. We have hundreds of existing tests."
+    bahasa: "Hmm, terdengar menarik. Tapi memigrasikan semuanya akan jadi pekerjaan besar. Kita punya ratusan tes yang sudah ada."
+  - speaker: Alex
+    english: "True, but they have a migration script that supposedly automates most of the process. We could try it on a small module first."
+    bahasa: "Benar, tapi mereka punya skrip migrasi yang katanya bisa mengotomatiskan sebagian besar prosesnya. Kita bisa mencobanya di modul kecil dulu."
+  - speaker: Ben
+    english: "A proof of concept? I could get behind that. What's the community support like?"
+    bahasa: "Sebuah bukti konsep? Aku setuju dengan itu. Bagaimana dengan dukungan komunitasnya?"
+  - speaker: Alex
+    english: "It's growing fast and has a very active Discord channel. Plus, the documentation is top-notch."
+    bahasa: "Berkembang pesat dan punya kanal Discord yang sangat aktif. Ditambah lagi, dokumentasinya sangat bagus."
+  - speaker: Ben
+    english: "Alright, you've piqued my interest. Let's set aside some time next week to build a small POC."
+    bahasa: "Baiklah, kamu berhasil membuatku tertarik. Mari kita luangkan waktu minggu depan untuk membuat POC kecil."
+  - speaker: Alex
+    english: "Great! I'll create a small presentation to show the team the potential benefits."
+    bahasa: "Bagus! Aku akan membuat presentasi kecil untuk menunjukkan tim potensi manfaatnya."
+  - speaker: Ben
+    english: "Sounds like a plan. If the POC goes well, this could really improve our development workflow."
+    bahasa: "Terdengar bagus. Jika POC-nya berjalan lancar, ini bisa sangat meningkatkan alur kerja pengembangan kita."
+
+expressions:
+  - phrase: huge undertaking
+    meaning_english: "A very large and difficult task or project."
+    meaning_bahasa: "Tugas atau proyek yang sangat besar dan sulit."
+  - phrase: proof of concept (POC)
+    meaning_english: "A small project to test if a certain idea or concept is practical and has potential."
+    meaning_bahasa: "Proyek kecil untuk menguji apakah ide atau konsep tertentu praktis dan memiliki potensi."
+  - phrase: get behind that
+    meaning_english: "To support or agree with an idea or plan."
+    meaning_bahasa: "Mendukung atau setuju dengan sebuah ide atau rencana."
+  - phrase: top-notch
+    meaning_english: "Of the highest quality; excellent."
+    meaning_bahasa: "Kualitas tertinggi; luar biasa."
+  - phrase: piqued my interest
+    meaning_english: "To arouse curiosity or interest."
+    meaning_bahasa: "Membangkitkan rasa ingin tahu atau minat."
+
+questions:
+  - q: "What is the name of the new testing library Alex mentioned?"
+    a: "The new testing library is called 'SwiftTest'."
+  - q: "What was Ben's main concern about adopting the new library?"
+    a: "His main concern was that migrating the existing tests would be a huge undertaking."
+  - q: "What did Alex suggest to mitigate the risk of migration?"
+    a: "He suggested trying it on a small module first as a proof of concept."
+  - q: "What was the final decision?"
+    a: "They decided to set aside time to build a small proof of concept next week."
