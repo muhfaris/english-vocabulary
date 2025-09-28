@@ -1,0 +1,51 @@
+- word: "juggling"
+  pronunciation: "/ˈdʒʌɡ.lɪŋ/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To manage or balance several activities or tasks at the same time."
+    bahasa: "Menyeimbangkan atau mengelola beberapa aktivitas atau tugas secara bersamaan."
+  usage: "Use this word when you are trying to handle multiple responsibilities at once, often under pressure. It implies a sense of complexity and the need for skill to keep everything going smoothly."
+  synonyms:
+    - "balancing"
+    - "handling"
+    - "managing"
+  examples:
+    workplace:
+      - "This week, I'm juggling three major projects with tight deadlines."
+      - "She is excellent at juggling her responsibilities as a team lead and a senior developer."
+    casual:
+      - "As a working parent, I'm always juggling my job and my family's needs."
+      - "He's currently juggling his studies with a part-time job."
+  related:
+    - word: "multitasking"
+      difference: "Multitasking is doing multiple things at once, but 'juggling' often implies the tasks are complex or conflicting, requiring more skill to manage."
+    - word: "handling"
+      difference: "'Handling' is more general. 'Juggling' specifically emphasizes the challenge of managing multiple, often competing, priorities."
+  story: |
+    As a project manager, Sarah often found herself juggling the expectations of stakeholders, the capacity of her team, and the project timeline. On Monday, she had to finalize a budget report while also preparing for a major client demo. It was a classic case of juggling priorities, but she handled it with her usual calm and organized approach.
+
+- word: "liaise"
+  pronunciation: "/liˈeɪz/"
+  part_of_speech: "verb"
+  meaning:
+    english: "To speak to people in other organizations, departments, or teams in order to work with them or exchange information."
+    bahasa: "Berhubungan atau berkomunikasi dengan orang-orang di organisasi, departemen, atau tim lain untuk bekerja sama atau bertukar informasi."
+  usage: "Use 'liaise' in a professional context to describe formal communication and cooperation between different groups or individuals to achieve a common goal."
+  synonyms:
+    - "cooperate"
+    - "coordinate"
+    - "network"
+  examples:
+    workplace:
+      - "I need you to liaise with the marketing team to get the assets for the new landing page."
+      - "The project manager is responsible for liaising between the developers and the client."
+    casual:
+      - "For our group project, I had to liaise with the librarian to get access to the archives."
+      - "She had to liaise with the event coordinator to plan her wedding."
+  related:
+    - word: "collaborate"
+      difference: "'Collaborate' means working together on a project, while 'liaise' is more about the communication and coordination that makes collaboration possible."
+    - word: "communicate"
+      difference: "'Communicate' is a general term for exchanging information. 'Liaise' is more specific, implying a formal role as a go-between to enable cooperation."
+  story: |
+    The backend team was ready to build the new API, but they needed the final data schema from the data science team. The team lead asked Alex to liaise with the data scientists to get the required information. Alex scheduled a meeting, and by the end of the day, he had successfully coordinated the exchange, allowing both teams to move forward without any blockers.
