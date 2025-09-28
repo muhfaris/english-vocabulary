@@ -1,0 +1,68 @@
+dialogue:
+  - speaker: Alex
+    english: "Hey Ben, got a minute? I wanted to pick your brain about the new project's tech stack."
+    bahasa: "Hai Ben, ada waktu sebentar? Aku mau minta pendapatmu tentang tumpukan teknologi untuk proyek baru."
+  - speaker: Ben
+    english: "Sure, Alex. I've been giving it some thought too. What's on your mind?"
+    bahasa: "Tentu, Alex. Aku juga sudah memikirkannya. Apa yang kamu pikirkan?"
+  - speaker: Alex
+    english: "Well, I was leaning towards using a more modern stack. Maybe something like Next.js with TypeScript for the frontend and a Go backend."
+    bahasa: "Yah, aku cenderung ingin menggunakan tumpukan yang lebih modern. Mungkin sesuatu seperti Next.js dengan TypeScript untuk frontend dan backend Go."
+  - speaker: Ben
+    english: "That's an interesting combination. Go would definitely give us great performance. Are you concerned about the learning curve for the rest of the team?"
+    bahasa: "Kombinasi yang menarik. Go pasti akan memberi kita performa yang hebat. Apakah kamu khawatir dengan kurva belajar untuk anggota tim lainnya?"
+  - speaker: Alex
+    english: "A bit, but I think the long-term benefits outweigh the initial ramp-up time. Plus, Go's simplicity is a major selling point."
+    bahasa: "Sedikit, tapi menurutku manfaat jangka panjangnya lebih besar daripada waktu adaptasi awal. Ditambah lagi, kesederhanaan Go adalah nilai jual utama."
+  - speaker: Ben
+    english: "I agree. And with Next.js, we get server-side rendering out of the box, which is great for SEO. What about the database?"
+    bahasa: "Aku setuju. Dan dengan Next.js, kita mendapatkan rendering sisi server secara langsung, yang bagus untuk SEO. Bagaimana dengan databasenya?"
+  - speaker: Alex
+    english: "I was thinking of sticking with PostgreSQL. It's reliable, and we all have experience with it. No need to reinvent the wheel there."
+    bahasa: "Aku berpikir untuk tetap menggunakan PostgreSQL. Itu andal, dan kita semua punya pengalaman dengannya. Tidak perlu menemukan kembali roda di sana."
+  - speaker: Ben
+    english: "Sounds like a solid plan. It's a good balance between innovation and stability. We should put together a proposal for the team."
+    bahasa: "Terdengar seperti rencana yang solid. Ini adalah keseimbangan yang baik antara inovasi dan stabilitas. Kita harus menyusun proposal untuk tim."
+  - speaker: Alex
+    english: "My thoughts exactly. I'll draft a document outlining the pros and cons and share it with you for feedback."
+    bahasa: "Tepat sekali. Aku akan membuat draf dokumen yang menguraikan pro dan kontra dan membagikannya kepadamu untuk mendapatkan masukan."
+  - speaker: Ben
+    english: "Perfect. Let's get this rolling."
+    bahasa: "Sempurna. Mari kita mulai."
+
+expressions:
+  - phrase: "pick your brain"
+    meaning_english: "to ask someone for their thoughts or advice on a subject"
+    meaning_bahasa: "meminta pendapat atau saran seseorang tentang suatu subjek"
+  - phrase: "leaning towards"
+    meaning_english: "preferring or being inclined to choose something"
+    meaning_bahasa: "lebih suka atau cenderung memilih sesuatu"
+  - phrase: "learning curve"
+    meaning_english: "the rate of a person's progress in gaining experience or new skills"
+    meaning_bahasa: "tingkat kemajuan seseorang dalam memperoleh pengalaman atau keterampilan baru"
+  - phrase: "outweigh"
+    meaning_english: "to be greater or more significant than something else"
+    meaning_bahasa: "lebih besar atau lebih signifikan dari sesuatu yang lain"
+  - phrase: "ramp-up time"
+    meaning_english: "the time it takes to become fully operational or proficient"
+    meaning_bahasa: "waktu yang dibutuhkan untuk menjadi sepenuhnya operasional atau mahir"
+  - phrase: "out of the box"
+    meaning_english: "available immediately without any special configuration or setup"
+    meaning_bahasa: "tersedia secara langsung tanpa konfigurasi atau pengaturan khusus"
+  - phrase: "reinvent the wheel"
+    meaning_english: "to waste time creating something that has already been created"
+    meaning_bahasa: "membuang-buang waktu menciptakan sesuatu yang sudah pernah dibuat"
+  - phrase: "solid plan"
+    meaning_english: "a well-thought-out and reliable plan"
+    meaning_bahasa: "rencana yang matang dan dapat diandalkan"
+  - phrase: "get this rolling"
+    meaning_english: "to start a process or activity"
+    meaning_bahasa: "memulai suatu proses atau aktivitas"
+
+questions:
+  - q: "What is the main topic of Alex and Ben's conversation?"
+    a: "They are discussing and deciding on the technology stack for a new project."
+  - q: "What are the potential drawbacks that Ben mentions about Alex's suggestion?"
+    a: "Ben is concerned about the learning curve for the rest of the team with the new technologies."
+  - q: "What part of the tech stack are they keeping the same and why?"
+    a: "They are sticking with PostgreSQL for the database because it's reliable and the team is already familiar with it."
